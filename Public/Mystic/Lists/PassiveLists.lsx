@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="4" build="206"/>
+    <region id="PassiveLists">
+        <node id="root">
+            <children>
+                <node id="PassiveList">
+                    <attribute id="Passives" type="LSString" value="Passive1,Passive2,Passive3"/> TODO: a list of passives separated with a comma
+                    <attribute id="UUID" type="guid" value="e9ec7dd3-62a1-4483-91f9-8d2ad21715dc"/> TODO: when selecting passive from list, refer to this UUID
+                </node>
+				<node id="PassiveList">
+                    <attribute id="Passives" type="LSString" value="Passive1,Passive2,Passive3"/> TODO: You can make more than 1 list. the same passive can be in different lists
+                    <attribute id="UUID" type="guid" value="d1a2eb5a-8aa2-40aa-a867-e01c0c26a252"/>
+                </node>
+
+                TODO: Disciplines go here
+            </children>
+        </node>
+    </region>
+</save>

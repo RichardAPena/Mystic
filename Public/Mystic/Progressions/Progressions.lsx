@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="6" build="5"/>
+    <region id="Progressions">
+        <node id="root">
+            <children>
+                <node id="Progression"> Mainclass Level 1
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(PsiPoints,5,0);ProficiencyBonus(SavingThrow,Intelligence);ProficiencyBonus(SavingThrow,Wisdom);Proficiency(SimpleWeapons);Proficiency(LightArmor)"/> Adds resource, proficiency, etc.
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="Mystic"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Passive1"/> TODO: most class features usually can be done with passives
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectPassives(PASSIVE_LIST_UUID,1);SelectSkills(a93e9e09-6bdd-475c-b4e4-3acf69d02111,2);SelectSpells(SPELL_LIST_UUID,3,0,,,,AlwaysPrepared);SelectSpells(SPELL_LIST_UUID,4,0)"/> this is where you can have your class select spells from spell list, passive from passive list, and skill from skill list. Select ability bonus let you get the +2/+1 at CC
+					<attribute id="TableUUID" type="guid" value="4b5d89ce-9dfb-46c2-a205-77bbf05a6492"/>
+                    <attribute id="UUID" type="guid" value="0482322d-723e-4705-a41a-99e27902311c"/>
+					<children>
+                        <node id="SubClasses">
+                            <children>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="ad862906-2d59-46bb-86db-271213086b1b"/> Avatar
+                                    <attribute id="Object" type="guid" value="2985a255-24e5-43ae-bb25-301eab9e494d"/> Awakened
+                                    <attribute id="Object" type="guid" value="eed23a86-6f91-4c42-b144-16751f131b06"/> Immortal
+                                    <attribute id="Object" type="guid" value="53429775-301b-4da5-bcd2-c83ef9f15e21"/> Nomad
+                                    <attribute id="Object" type="guid" value="7c3f6d5b-194e-4af9-bc16-435a2c546d19"/> Soul Knife
+                                    <attribute id="Object" type="guid" value="800d31fc-32d1-40c0-b871-cd8242105a20"/> Wu Jen
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+				<node id="Progression"> Mainclass Level 1 MULTICLASS. (you will want a separate one as there are no AbilityBonus when multiclassing). Multiclassed character will use this progression entry instead of the previous one
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="IsMulticlass" type="bool" value="true"/>
+					<attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="Mystic"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+					<attribute id="TableUUID" type="guid" value="4b5d89ce-9dfb-46c2-a205-77bbf05a6492"/>
+                    <attribute id="UUID" type="guid" value="5e682fd9-6864-45e0-bf8b-f45555555555"/>
+					<children>
+                        <node id="SubClasses">
+                            <children>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="ad862906-2d59-46bb-86db-271213086b1b"/> Avatar
+                                    <attribute id="Object" type="guid" value="2985a255-24e5-43ae-bb25-301eab9e494d"/> Awakened
+                                    <attribute id="Object" type="guid" value="eed23a86-6f91-4c42-b144-16751f131b06"/> Immortal
+                                    <attribute id="Object" type="guid" value="53429775-301b-4da5-bcd2-c83ef9f15e21"/> Nomad
+                                    <attribute id="Object" type="guid" value="7c3f6d5b-194e-4af9-bc16-435a2c546d19"/> Soul Knife
+                                    <attribute id="Object" type="guid" value="800d31fc-32d1-40c0-b871-cd8242105a20"/> Wu Jen
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+				<node id="Progression"> Avatar Level 1
+                    <attribute id="Boosts" type="LSString" value="Proficiency(Shields);Proficiency(MediumArmor)"/> Armor Training
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="Avatar"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="5fe9f3fd-f73a-47df-b909-96277e832c61"/>
+                    <attribute id="UUID" type="guid" value="89d2e0b6-da69-4795-88df-6a9da0df3500"/>
+                </node>
+                <node id="Progression"> Awakened Level 1
+                    <attribute id="Level" type="uint8" value ="1"/>
+                    <attribute id="Name" type="LSString" value="Awakened"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="Selectors" type="LSString" value="SelectSkills(d7789c63-8915-4996-80c2-6e992129ec36,2)"/> Awakened Talent
+                    <attribute id="TableUUID" type="guid" value="29eed076-402f-480f-a7b6-cf690d28e103"/>
+                    <attribute id="UUID" type="guid" value="cfdfeebb-048a-4759-82e0-73a125c76f65"/>
+                </node>
+                <node id="Progression"> Immortal Level 1
+                    <attribute id="Level" type="uint8" value ="1"/>
+                    <attribute id="Name" type="LSString" value="Immortal"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="a23f7115-85ef-497f-9ab8-79dd64ae4f4f"/>
+                    <attribute id="UUID" type="guid" value="04c13ce2-ea36-4fc8-af1e-475d4f8afb6c"/>
+                </node>
+                <node id="Progression"> Nomad Level 1
+                    <attribute id="Level" type="uint8" value ="1"/>
+                    <attribute id="Name" type="LSString" value="Nomad"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="85b6bc90-3632-4df3-994c-d03e318f9f4b"/>
+                    <attribute id="UUID" type="guid" value="bcf7e39e-068e-4eb4-b9be-da4d29ba117f"/>
+                </node>
+                <node id="Progression"> Soul Knife Level 1
+                    <attribute id="Boosts" type="LSString" value="Proficiency(MartialWeapons);Proficiency(MediumArmor)"/> Martial Training
+                    <attribute id="Level" type="uint8" value ="1"/>
+                    <attribute id="Name" type="LSString" value="SoulKnife"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="70571154-e86d-4a0b-a222-9bfdc2b60a58"/>
+                    <attribute id="UUID" type="guid" value="5ef2ef16-d481-4e91-bb22-daf22f3189a3"/>
+                </node>
+                <node id="Progression"> Wu Jen Level 1
+                    <attribute id="Level" type="uint8" value ="1"/>
+                    <attribute id="Name" type="LSString" value="WuJen"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="Selectors" type="LSString" value="SelectSkills(617e273e-cc5e-44ea-aa33-ae38865d224f,2)"/> Hermit's Study
+                    <attribute id="TableUUID" type="guid" value="5be9ee51-acca-46da-be13-e66a6ff5a080"/>
+                    <attribute id="UUID" type="guid" value="28d0587c-981c-4be2-84b1-c6f1870f88da"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
