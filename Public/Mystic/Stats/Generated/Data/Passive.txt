@@ -8,3 +8,54 @@ data "Boosts" "UnlockSpell(Spell_Example)" // what does the passive give //
 
 // Check Modifiers for additional things for what you can do with Passives //
 
+// ==MYSTIC PASSIVE FEATURES==
+
+// Potent Psionics: Strike
+// "Once per turn after dealing weapon damage, you can deal an additional 1d8 Psychic damage."
+
+// Potent Psionics: Empower
+// "Add your Intelligence modifier to psionic talent damage rolls."
+
+// Consumptive Power
+// "You can now spend hit points instead of psi points to cast psionic disciplines. Only usable once per Long Rest, and your maximum hit points will be reduced until your next Long Rest."
+
+// Psionic Mastery
+// ***REWORK PLS
+
+// Psionic Body
+// ***TODO (VEEEEEEEEEERY MUCH LATER ON)
+
+// Psionic Surge (Awakened)
+// "You can spend a reaction/psychic focus to impose Disadvantage on a target's Saving Throw against psionic discipline or talent you use."
+
+// Immortal Durability (Immortal)
+// "When not wearing armor or shields, add your Constitution modifier to your Armour Class."
+
+// Psionic Resilience (Immortal)
+// "At the start of each of your turns, gain temporary hit points equal to your Intelligence modifier." (unless ur downed)
+
+// Surge of Health (Immortal)
+// "As a reaction, halve incoming damage. Usable once per Short or Long Rest."
+
+// Immortal Will (Immortal)
+// "When you reach 0 hit points, you can spend 5 psi points to restore X hit points. Healing increases with your Mystic level and Constitution modifier."
+
+// Memory of One Thousand Steps (Nomad)
+// ***SLIGHTLY REWORKED
+// "As a reaction, when you are hit by an attack you can force it to miss you and gain 6m of movement speed for 1 turn. Usable once per Short or Long Rest."
+
+// Superior Teleportation (Nomad)
+// "Increase the teleportation range of psionic disciplines by 3m."
+
+// Effortless Journey? (Nomad)
+// - This might just be an action
+// "Using your movement speed, teleport."
+
+// Consumptive Knife (Soul Knife)
+// "After slaying an enemy creature with a soul knife attack, regain 2 psi points."
+
+// Elemental Attunement (Wu Jen)
+// 
+
+// Arcane Dabbler? (Wu Jen)
+// Elemental Mastery (Wu Jen)
