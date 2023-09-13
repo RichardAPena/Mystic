@@ -19,6 +19,8 @@
                     <attribute id="UUID" type="guid" value="9ea5d3a5-b1f5-4f80-a5d5-9f419f8eb456"/>
                     <attribute id="UpdatesSpellPowerLevel" type="bool" value="true"/> TODO: Probably? At least for the variable cost 
                 </node>
+                TODO: Implement Psi Limit here? Disciplines can have a hidden Psi Limit cost
+                TODO: Implement Psionic Mastery Charges here? You can cast one spell without requiring concentration per charge
             </children>
         </node>
     </region>

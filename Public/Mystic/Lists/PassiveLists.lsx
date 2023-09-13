@@ -7,27 +7,27 @@
                 Psionic Disciplines
                 TODO: None are implemented
                 <node id="PassiveList"> All Disciplines
-                    <attribute id="Passives" type="LSString" value="Mystic_AdaptiveBody,Mystic_AuraSight,Mystic_BestialForm,Mystic_BruteForce,Mystic_Celerity,Mystic_CorrosiveMetabolism,Mystic_CrownOfDespair,Mystic_CrownOfDisgust,Mystic_CrownOfRage,Mystic_Diminution,Mystic_GiantGrowth,Mystic_IntellectFortress,Mystic_IronDurability,Mystic_MantleOfAwe,Mystic_MantleOfCommand,Mystic_MantleOfCourage,Mystic_MantleOfFear,Mystic_MantleOfFury,Mystic_MantleOfJoy,Mystic_MasteryOfAir,Mystic_MasteryOfFire,Mystic_MasteryOfForce,Mystic_MasteryOfIce,Mystic_MasteryOfLightAndDarkness,Mystic_MasteryOfWater,Mystic_MasteryOfWeather,Mystic_MasteryOfWoodAndEarth,Mystic_NomadicArrow,Mystic_NomadicChameleon,Mystic_NomadicMind,Mystic_NomadicStep,Mystic_Precognition,Mystic_PsionicRestoration,Mystic_PsionicWeapon,Mystic_PsychicAssault,Mystic_PsychicDisruption,Mystic_PsychicInquisition,Mystic_TelepathicContact,Mystic_ThirdEye"/>
+                    <attribute id="Passives" type="LSString" value="Discipline_AdaptiveBody,Discipline_AuraSight,Discipline_BestialForm,Discipline_BruteForce,Discipline_Celerity,Discipline_CorrosiveMetabolism,Discipline_CrownOfDespair,Discipline_CrownOfDisgust,Discipline_CrownOfRage,Discipline_Diminution,Discipline_GiantGrowth,Discipline_IntellectFortress,Discipline_IronDurability,Discipline_MantleOfAwe,Discipline_MantleOfCommand,Discipline_MantleOfCourage,Discipline_MantleOfFear,Discipline_MantleOfFury,Discipline_MantleOfJoy,Discipline_MasteryOfAir,Discipline_MasteryOfFire,Discipline_MasteryOfForce,Discipline_MasteryOfIce,Discipline_MasteryOfLightAndDarkness,Discipline_MasteryOfWater,Discipline_MasteryOfWeather,Discipline_MasteryOfWoodAndEarth,Discipline_NomadicArrow,Discipline_NomadicChameleon,Discipline_NomadicMind,Discipline_NomadicStep,Discipline_Precognition,Discipline_PsionicRestoration,Discipline_PsionicWeapon,Discipline_PsychicAssault,Discipline_PsychicDisruption,Discipline_PsychicSuppression,Discipline_TelepathicSubjugation,Discipline_ThirdEye"/>
                     <attribute id="UUID" type="guid" value="48317e03-fe2a-4767-8f4d-1bdc2a40ac65"/>
                 </node>
                 <node id="PassiveList"> Avatar Disciplines
-                    <attribute id="Passives" type="LSString" value="Mystic_CrownOfDespair,Mystic_CrownOfDisgust,Mystic_CrownOfRage,Mystic_MantleOfCommand,Mystic_MantleOfCourage,Mystic_MantleOfFear,Mystic_MantleOfFury,Mystic_MantleOfJoy"/>
+                    <attribute id="Passives" type="LSString" value="Discipline_CrownOfDespair,Discipline_CrownOfDisgust,Discipline_CrownOfRage,Discipline_MantleOfCommand,Discipline_MantleOfCourage,Discipline_MantleOfFear,Discipline_MantleOfFury,Discipline_MantleOfJoy"/>
                     <attribute id="UUID" type="guid" value="c3273c5f-2773-4f08-842a-914ba94fd1fa"/>
                 </node>
                 <node id="PassiveList"> Awakened Disciplines
-                    <attribute id="Passives" type="LSString" value="Mystic_AuraSight,Mystic_IntellectFortress,Mystic_MantleOfAwe,Mystic_Precognition,Mystic_PsychicAssault,Mystic_PsychicDisruption,Mystic_PsychicInquisition,Mystic_TelepathicContact"/>
+                    <attribute id="Passives" type="LSString" value="Discipline_AuraSight,Discipline_IntellectFortress,Discipline_MantleOfAwe,Discipline_Precognition,Discipline_PsychicAssault,Discipline_PsychicDisruption,Discipline_PsychicSuppression,Discipline_TelepathicSubjugation"/>
                     <attribute id="UUID" type="guid" value="69bee73b-9040-4f1e-a863-9a9981d07c93"/>
                 </node>
                 <node id="PassiveList"> Immortal Disciplines
-                    <attribute id="Passives" type="LSString" value="Mystic_AdaptiveBody,Mystic_BestialForm,Mystic_BruteForce,Mystic_Celerity,Mystic_CorrosiveMetabolism,Mystic_Diminution,Mystic_GiantGrowth,Mystic_IronDurability,Mystic_PsionicRestoration,Mystic_PsionicWeapon"/>
+                    <attribute id="Passives" type="LSString" value="Discipline_AdaptiveBody,Discipline_BestialForm,Discipline_BruteForce,Discipline_Celerity,Discipline_CorrosiveMetabolism,Discipline_Diminution,Discipline_GiantGrowth,Discipline_IronDurability,Discipline_PsionicRestoration,Discipline_PsionicWeapon"/>
                     <attribute id="UUID" type="guid" value="fcd58fd0-5737-4dcb-b927-84d569a0a7d1"/>
                 </node>
                 <node id="PassiveList"> Nomad Disciplines
-                    <attribute id="Passives" type="LSString" value="Mystic_NomadicArrow,Mystic_NomadicChameleon,Mystic_NomadicMind,Mystic_NomadicStep,Mystic_ThirdEye"/>
+                    <attribute id="Passives" type="LSString" value="Discipline_NomadicArrow,Discipline_NomadicChameleon,Discipline_NomadicMind,Discipline_NomadicStep,Discipline_ThirdEye"/>
                     <attribute id="UUID" type="guid" value="c4e6f52e-e45b-42fe-b221-5ac7e3e074e7"/>
                 </node>
                 <node id="PassiveList"> Wu Jen Disciplines
-                    <attribute id="Passives" type="LSString" value="Mystic_MasteryOfAir,Mystic_MasteryOfFire,Mystic_MasteryOfForce,Mystic_MasteryOfIce,Mystic_MasteryOfLightAndDarkness,Mystic_MasteryOfWater,Mystic_MasteryOfWeather,Mystic_MasteryOfWoodAndEarth"/>
+                    <attribute id="Passives" type="LSString" value="Discipline_MasteryOfAir,Discipline_MasteryOfFire,Discipline_MasteryOfForce,Discipline_MasteryOfIce,Discipline_MasteryOfLightAndDarkness,Discipline_MasteryOfWater,Discipline_MasteryOfWeather,Discipline_MasteryOfWoodAndEarth"/>
                     <attribute id="UUID" type="guid" value="7b38171b-da70-470e-b3a8-4edabc8da3c8"/>
                 </node>
 

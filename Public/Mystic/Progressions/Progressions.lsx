@@ -4,7 +4,7 @@
     <region id="Progressions">
         <node id="root">
             <children>
-                <node id="Progression"> Mainclass Level 1
+                <node id="Progression"> Msytic Level 1
                     <attribute id="AllowImprovement" type="bool" value="false"/>
                     <attribute id="Boosts" type="LSString" value="ActionResource(PsiPoints,5,0);ProficiencyBonus(SavingThrow,Intelligence);ProficiencyBonus(SavingThrow,Wisdom);Proficiency(SimpleWeapons);Proficiency(LightArmor)"/> Adds resource, proficiency, etc.
                     <attribute id="Level" type="uint8" value="1"/>
@@ -12,7 +12,7 @@
                     <attribute id="PassivesAdded" type="LSString" value="Passive1"/> TODO: most class features usually can be done with passives
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="0"/> v TODO: Using artificer cantrips
-                    <attribute id="Selectors" type="LSString" value="SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectPassives(PASSIVE_LIST_UUID,1);SelectSkills(a93e9e09-6bdd-475c-b4e4-3acf69d02111,2);SelectSpells(88397df1-8417-4e1f-ba70-7935516b9225,2,0,,,,AlwaysPrepared);SelectSpells(SPELL_LIST_UUID,4,0)"/> this is where you can have your class select spells from spell list, passive from passive list, and skill from skill list. Select ability bonus let you get the +2/+1 at CC
+                    <attribute id="Selectors" type="LSString" value="SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectPassives(48317e03-fe2a-4767-8f4d-1bdc2a40ac65,1);SelectSkills(a93e9e09-6bdd-475c-b4e4-3acf69d02111,2);SelectSpells(88397df1-8417-4e1f-ba70-7935516b9225,2,0,,,,AlwaysPrepared);SelectSpells(SPELL_LIST_UUID,4,0)"/> this is where you can have your class select spells from spell list, passive from passive list, and skill from skill list. Select ability bonus let you get the +2/+1 at CC
 					<attribute id="TableUUID" type="guid" value="4b5d89ce-9dfb-46c2-a205-77bbf05a6492"/>
                     <attribute id="UUID" type="guid" value="0482322d-723e-4705-a41a-99e27902311c"/>
 					<children>
@@ -30,7 +30,7 @@
                         </node>
                     </children>
                 </node>
-				<node id="Progression"> Mainclass Level 1 MULTICLASS. (you will want a separate one as there are no AbilityBonus when multiclassing). Multiclassed character will use this progression entry instead of the previous one
+				<node id="Progression"> Mystic Level 1 MULTICLASS
                     <attribute id="AllowImprovement" type="bool" value="false"/>
                     <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="IsMulticlass" type="bool" value="true"/>
@@ -39,7 +39,6 @@
                     <attribute id="PassivesAdded" type="LSString" value=""/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value=""/>
 					<attribute id="TableUUID" type="guid" value="4b5d89ce-9dfb-46c2-a205-77bbf05a6492"/>
                     <attribute id="UUID" type="guid" value="5e682fd9-6864-45e0-bf8b-f45555555555"/>
 					<children>
@@ -57,58 +56,333 @@
                         </node>
                     </children>
                 </node>
-				<node id="Progression"> Avatar Level 1
+
+                <node id="Progression"> Mystic Level 2
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="2"/>
+                    <attribute id="Name" type="LSString" value="Mystic"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="4b5d89ce-9dfb-46c2-a205-77bbf05a6492"/>
+                    <attribute id="UUID" type="guid" value=""/>
+                </node>
+
+                <node id="Progression"> Mystic Level 3
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="Mystic"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="4b5d89ce-9dfb-46c2-a205-77bbf05a6492"/>
+                    <attribute id="UUID" type="guid" value="ebad23af-e802-40e0-ba1c-090997fe337d"/>
+                </node>
+
+                <node id="Progression"> Mystic Level 4
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="4"/>
+                    <attribute id="Name" type="LSString" value="Mystic"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="4b5d89ce-9dfb-46c2-a205-77bbf05a6492"/>
+                    <attribute id="UUID" type="guid" value="130fd966-08f6-4696-b7c1-d9cea533a00f"/>
+                </node>
+
+                <node id="Progression"> Mystic Level 5
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="5"/>
+                    <attribute id="Name" type="LSString" value="Mystic"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="4b5d89ce-9dfb-46c2-a205-77bbf05a6492"/>
+                    <attribute id="UUID" type="guid" value="78848998-cd64-4257-8df4-6465bc126862"/>
+                </node>
+
+                <node id="Progression"> Mystic Level 6
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="Mystic"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="4b5d89ce-9dfb-46c2-a205-77bbf05a6492"/>
+                    <attribute id="UUID" type="guid" value="0a6f3048-830d-4136-9915-dee5257501ce"/>
+                </node>
+
+                <node id="Progression"> Mystic Level 7
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="7"/>
+                    <attribute id="Name" type="LSString" value="Mystic"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="4b5d89ce-9dfb-46c2-a205-77bbf05a6492"/>
+                    <attribute id="UUID" type="guid" value="efd82e1d-b4a4-4781-a573-ceef12681ff9"/>
+                </node>
+
+                <node id="Progression"> Mystic Level 8
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="8"/>
+                    <attribute id="Name" type="LSString" value="Mystic"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="4b5d89ce-9dfb-46c2-a205-77bbf05a6492"/>
+                    <attribute id="UUID" type="guid" value="9941d1ac-3789-4797-b423-66c93feaac7f"/>
+                </node>
+
+                <node id="Progression"> Mystic Level 9
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="9"/>
+                    <attribute id="Name" type="LSString" value="Mystic"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="4b5d89ce-9dfb-46c2-a205-77bbf05a6492"/>
+                    <attribute id="UUID" type="guid" value="f8bbd9b3-6df7-47cb-b461-07cec3355cff"/>
+                </node>
+
+                <node id="Progression"> Mystic Level 10
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="10"/>
+                    <attribute id="Name" type="LSString" value="Mystic"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="4b5d89ce-9dfb-46c2-a205-77bbf05a6492"/>
+                    <attribute id="UUID" type="guid" value="c6d25fa6-3582-48e6-9d6a-06c58f61d877"/>
+                </node>
+
+                <node id="Progression"> Mystic Level 11
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="11"/>
+                    <attribute id="Name" type="LSString" value="Mystic"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="4b5d89ce-9dfb-46c2-a205-77bbf05a6492"/>
+                    <attribute id="UUID" type="guid" value="a7bd1581-ceb6-4fc9-b564-76c6f7f9b9c9"/>
+                </node>
+
+                <node id="Progression"> Mystic Level 12
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="2"/>
+                    <attribute id="Name" type="LSString" value="Mystic"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="4b5d89ce-9dfb-46c2-a205-77bbf05a6492"/>
+                    <attribute id="UUID" type="guid" value="553f1986-da2b-4d37-b4e6-58cfb386861a"/>
+                </node>
+
+                TODO: MYSTIC LEVEL 13-20
+				
+                <node id="Progression"> Avatar Level 1
                     <attribute id="Boosts" type="LSString" value="Proficiency(Shields);Proficiency(MediumArmor)"/> Armor Training
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Avatar"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(c3273c5f-2773-4f08-842a-914ba94fd1fa,2)"/>
                     <attribute id="TableUUID" type="guid" value="5fe9f3fd-f73a-47df-b909-96277e832c61"/>
                     <attribute id="UUID" type="guid" value="89d2e0b6-da69-4795-88df-6a9da0df3500"/>
                 </node>
+                <node id="Progression"> Avatar Level 3
+                    <attribute id="Boosts" type="LSString" value=""/> TODO: Avatar of Battle
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="Avatar"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="5fe9f3fd-f73a-47df-b909-96277e832c61"/>
+                    <attribute id="UUID" type="guid" value="685db017-ff43-4ef7-a12b-f10d27672811"/>
+                </node>
+                <node id="Progression"> Avatar Level 6
+                    <attribute id="Boosts" type="LSString" value=""/> TODO: Avatar of Healing
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="Avatar"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="5fe9f3fd-f73a-47df-b909-96277e832c61"/>
+                    <attribute id="UUID" type="guid" value="9068f635-db63-4079-b9b2-31d5308736f0"/>
+                </node>
+                
+                TODO: AVATAR LEVEL 14
+
                 <node id="Progression"> Awakened Level 1
                     <attribute id="Level" type="uint8" value ="1"/>
                     <attribute id="Name" type="LSString" value="Awakened"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="PassivesAdded" type="LSString" value=""/>
-                    <attribute id="Selectors" type="LSString" value="SelectSkills(d7789c63-8915-4996-80c2-6e992129ec36,2)"/> Awakened Talent
+                    <attribute id="Selectors" type="LSString" value="SelectSkills(d7789c63-8915-4996-80c2-6e992129ec36,2);SelectPassives(69bee73b-9040-4f1e-a863-9a9981d07c93,2)"/> Awakened Talent
                     <attribute id="TableUUID" type="guid" value="29eed076-402f-480f-a7b6-cf690d28e103"/>
                     <attribute id="UUID" type="guid" value="cfdfeebb-048a-4759-82e0-73a125c76f65"/>
                 </node>
+                <node id="Progression"> Awakened Level 3
+                    <attribute id="Boosts" type="LSString" value=""/> 
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="Awakened"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/> TODO: Psionic Investigation
+                    <attribute id="TableUUID" type="guid" value="5fe9f3fd-f73a-47df-b909-96277e832c61"/>
+                    <attribute id="UUID" type="guid" value="a9c195ce-3109-44bc-95b8-81a8c17d5299"/>
+                </node>
+                <node id="Progression"> Awakened Level 6
+                    <attribute id="Boosts" type="LSString" value=""/> 
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="Awakened"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/> TODO: Psionic Surge
+                    <attribute id="TableUUID" type="guid" value="5fe9f3fd-f73a-47df-b909-96277e832c61"/>
+                    <attribute id="UUID" type="guid" value="9a91421f-8318-41ba-80ae-d9ab31f717b9"/>
+                </node>
+
+                TODO: AWAKENED LEVEL 14
+
                 <node id="Progression"> Immortal Level 1
                     <attribute id="Level" type="uint8" value ="1"/>
                     <attribute id="Name" type="LSString" value="Immortal"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/> TODO: Immortal Durability
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(fcd58fd0-5737-4dcb-b927-84d569a0a7d1,2)"/>
                     <attribute id="TableUUID" type="guid" value="a23f7115-85ef-497f-9ab8-79dd64ae4f4f"/>
                     <attribute id="UUID" type="guid" value="04c13ce2-ea36-4fc8-af1e-475d4f8afb6c"/>
                 </node>
+                <node id="Progression"> Immortal Level 3
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="Immortal"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/> TODO: Psionic Resilience
+                    <attribute id="TableUUID" type="guid" value="5fe9f3fd-f73a-47df-b909-96277e832c61"/>
+                    <attribute id="UUID" type="guid" value="fbab0055-4c63-4822-89f7-e2dc88f9f565"/>
+                </node>
+                <node id="Progression"> Immortal Level 6
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="Immortal"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/> TODO: Surge of Health
+                    <attribute id="TableUUID" type="guid" value="5fe9f3fd-f73a-47df-b909-96277e832c61"/>
+                    <attribute id="UUID" type="guid" value="cc532625-0f8d-49b2-814e-e564c847046a"/>
+                </node>
+
+                TODO: IMMORTAL LEVEL 14
+
                 <node id="Progression"> Nomad Level 1
                     <attribute id="Level" type="uint8" value ="1"/>
                     <attribute id="Name" type="LSString" value="Nomad"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/> TODO: Breadth of Knowledge
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(c4e6f52e-e45b-42fe-b221-5ac7e3e074e7,2)"/>                    
                     <attribute id="TableUUID" type="guid" value="85b6bc90-3632-4df3-994c-d03e318f9f4b"/>
                     <attribute id="UUID" type="guid" value="bcf7e39e-068e-4eb4-b9be-da4d29ba117f"/>
                 </node>
+                <node id="Progression"> Nomad Level 3 
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="Nomad"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/> TODO: Memory of One Thousand Steps
+                    <attribute id="TableUUID" type="guid" value="5fe9f3fd-f73a-47df-b909-96277e832c61"/>
+                    <attribute id="UUID" type="guid" value="ef087635-b8ef-4eb3-acda-0b7c9af83e99"/>
+                </node>
+                <node id="Progression"> Nomad Level 6
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="Nomad"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/> TODO: Superior Teleportation
+                    <attribute id="TableUUID" type="guid" value="5fe9f3fd-f73a-47df-b909-96277e832c61"/>
+                    <attribute id="UUID" type="guid" value="62b4d465-1764-4b1c-98ae-207dfeb31f68"/>
+                </node>
+
+                TODO: NOMAD LEVEL 14
+
                 <node id="Progression"> Soul Knife Level 1
                     <attribute id="Boosts" type="LSString" value="Proficiency(MartialWeapons);Proficiency(MediumArmor)"/> Martial Training
                     <attribute id="Level" type="uint8" value ="1"/>
                     <attribute id="Name" type="LSString" value="SoulKnife"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/> TODO: Soul Knife
                     <attribute id="TableUUID" type="guid" value="70571154-e86d-4a0b-a222-9bfdc2b60a58"/>
                     <attribute id="UUID" type="guid" value="5ef2ef16-d481-4e91-bb22-daf22f3189a3"/>
                 </node>
+                <node id="Progression"> Soul Knife Level 3 
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="SoulKnife"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/> TODO: Hone the Blade
+                    <attribute id="TableUUID" type="guid" value="5fe9f3fd-f73a-47df-b909-96277e832c61"/>
+                    <attribute id="UUID" type="guid" value="fe8fa022-35cb-4137-bb3e-437675a0974c"/>
+                </node>
+                <node id="Progression"> Soul Knife Level 6
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="SoulKnife"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/> TODO: Consumptive Knife
+                    <attribute id="TableUUID" type="guid" value="5fe9f3fd-f73a-47df-b909-96277e832c61"/>
+                    <attribute id="UUID" type="guid" value="e9125c04-66b3-4ea1-b192-051faf70dfe4"/>
+                </node>                
+
+                TODO: SOUL KNIFE LEVEL 14
+
                 <node id="Progression"> Wu Jen Level 1
                     <attribute id="Level" type="uint8" value ="1"/>
                     <attribute id="Name" type="LSString" value="WuJen"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="PassivesAdded" type="LSString" value=""/>
-                    <attribute id="Selectors" type="LSString" value="SelectSkills(617e273e-cc5e-44ea-aa33-ae38865d224f,2)"/> Hermit's Study
+                    <attribute id="Selectors" type="LSString" value="SelectSkills(617e273e-cc5e-44ea-aa33-ae38865d224f,2);SelectPassives(7b38171b-da70-470e-b3a8-4edabc8da3c8,2)"/> Hermit's Study
                     <attribute id="TableUUID" type="guid" value="5be9ee51-acca-46da-be13-e66a6ff5a080"/>
                     <attribute id="UUID" type="guid" value="28d0587c-981c-4be2-84b1-c6f1870f88da"/>
                 </node>
+                <node id="Progression"> Wu Jen Level 3
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="WuJen"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/> TODO: Elemental Attunement
+                    <attribute id="TableUUID" type="guid" value="5fe9f3fd-f73a-47df-b909-96277e832c61"/>
+                    <attribute id="UUID" type="guid" value="b2ceca91-e185-4e81-8675-d69365c47db5"/>
+                </node>
+                <node id="Progression"> Wu Jen Level 6
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="WuJen"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/> TODO: Arcane Dabbler
+                    <attribute id="TableUUID" type="guid" value="5fe9f3fd-f73a-47df-b909-96277e832c61"/>
+                    <attribute id="UUID" type="guid" value="66c868a2-f29a-4777-ae33-7586a41930b0"/>
+                </node>
+
+                TODO: WU JEN LEVELS 7-12, 13-20, replace spells
+
             </children>
         </node>
     </region>
