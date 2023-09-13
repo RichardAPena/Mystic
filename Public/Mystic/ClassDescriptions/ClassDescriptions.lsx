@@ -24,8 +24,8 @@
                         <node id="Tags"> Wizard
                             <attribute id="Object" type="guid" value="6fe3ae27-dc6c-4fc9-9245-710c790c396c"/>
                         </node>
-                        <node id="Tags"> Fighter
-                            <attribute id="Object" type="guid" value="1ae7017c-4884-4a43-bc4a-742fa0d201c0"/>
+                        <node id="Tags"> Sorcerer
+                            <attribute id="Object" type="guid" value="18266c0b-efbc-4c80-8784-ada4a37218d7"/>
                         </node>
                     </children>
                 </node>

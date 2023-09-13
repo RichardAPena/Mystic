@@ -16,10 +16,11 @@
                     <attribute id="Spells" type="LSString" value="Projectile_AcidSplash;Shout_BladeWard;Target_ChillTouch;Target_DancingLights;Projectile_FireBolt;Target_Guidance;Target_MageHand;Projectile_PoisonSpray;Target_Resistance;Projectile_RayOfFrost;Target_ShockingGrasp;Target_ThornWhip"/>
                     <attribute id="UUID" type="guid" value="88397df1-8417-4e1f-ba70-7935516b9225"/> USED
                 </node>
-
+                
+                 TODO: None are implemented
                 <node id="SpellList"> Psionic Talents
                     <attribute id="Spells" type="LSString" value="Mystic_Beacon;Mystic_BladeMeld;Mystic_BlindSpot;Mystic_Delusion;Mystic_EnergyBeam;Mystic_LightStep;Mystic_MindMeld;Mystic_MindSlam;Mystic_MindThrust;Mystic_MysticCharm;Mystic_MysticHand;Mystic_PsychicHammer"/>
-                    <attribute id="UUID" type="guid" value="7b64aaca-d5e5-4555-9df3-a19bb13b5008"/> TODO: UNUSED
+                    <attribute id="UUID" type="guid" value="7b64aaca-d5e5-4555-9df3-a19bb13b5008"/>
                 </node>
 			</children>
         </node>
