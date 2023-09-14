@@ -16,10 +16,119 @@
 	<content contentuid="hcc022376g2f04g4c5dg90bdg8d2d80ff8cbb" version="1">Order of the Soul Knife</content>
 	<content contentuid="h9f03bd19ge610g4037gbb67g2cf6fd04fd81" version="1">Wu Jen control the forces of the natural world, using their minds to manipulate the four elements.</content>
 	<content contentuid="heb88329fgaa2eg46eega13ag7ee42490fa56" version="1">Order of the Wu Jen</content>
+	<content contentuid="h8eeaa9d1g3467g466eg8caegd75b3e89640d" version="1">Adaptive Body</content>
+	<content contentuid="hc27a5463g6488g45a5g88a3g63da94be5c8e" version="1">You can alter your body to match your surroundings, allowing you to withstand punishing environments. With greater psi energy, you can extend this protection to others.</content>
+	<content contentuid="h4cbc8e88g80f4g4c4dgbfbagb301dc46224d" version="1">Aura Sight</content>
+	<content contentuid="hec28e4c7ga159g497bgaccbg9e9210e0d617" version="1">You refocus your sight to see the energy that surrounds all creatures. You perceive auras, energy signatures that can reveal key elements of a creature’s nature.</content>
+	<content contentuid="hc26807d1g1c55g4d6dg8516g0e1f3d6f85db" version="1">Bestial Form</content>
+	<content contentuid="h6d38fce6gf995g4339ga85cged7d4c1b6555" version="1">You transform your body, gaining traits of different beasts.</content>
+	<content contentuid="h175e561fg1cb4g4e0ag879dg178034035120" version="1">Brute Force</content>
+	<content contentuid="hc5996804g22f2g465fga3bdg0a9396d181cf" version="1">You augment your natural strength with psionic energy, granting you the ability to achieve incredible feats of might.</content>
+	<content contentuid="hd98bf9adgfd98g4ae0g852dgd2dc0b984487" version="1">Celerity</content>
+	<content contentuid="hd49a7b77g3198g40b1gbc61g8d2c4b314e0b" version="1">You channel psionic power into your body, honing your reflexes and agility to an incredible degree. The world seems to slow down while you continue to move as normal.</content>
+	<content contentuid="hbcd31ed4gd387g4bc2gbb9cgca4ad54f5db1" version="1">Corrosive Metabolism</content>
+	<content contentuid="h650d7f46g40ebg4fa4gb8b3ge5033d38fdc2" version="1">Your control over your body allows you to deliver acid or poison attacks.</content>
+	<content contentuid="h0fdf6c7ag5c84g45bbgadf2gf4ade03e98fb" version="1">Crown of Despair</content>
+	<content contentuid="h22b9138dgd2bfg427bgb4f2g5d477bcddc0a" version="1">You have learned to harvest seeds of despair in a creature’s psyche, wracking it with self-doubt and inaction.</content>
+	<content contentuid="h14cf129eg2c80g47dfgb5e3g59e04421f5d3" version="1">Crown of Disgust</content>
+	<content contentuid="h597bf79bg5a58g433fgad10gdb5af0fd5da5" version="1">You cause a creature to be flooded with emotions of disgust.</content>
+	<content contentuid="h64557593g4bd9g4ba6g83c2g3cc305cdda16" version="1">Crown of Rage</content>
+	<content contentuid="h11ef83c8gf841g4811gb652g08685a0b2e75" version="1">You place a mote of pure fury within a creature’s mind, causing its bloodlust to overcome its senses and for it to act as you wish it to.</content>
+	<content contentuid="h70b6b4d5g3e3eg4573gaa66ge651d2a43ab7" version="1">Diminution</content>
+	<content contentuid="he633903cg2b4cg4612g8337g6e34fef03b13" version="1">You manipulate the matter that composes your body, drastically reducing your size without surrendering any of your might.</content>
+	<content contentuid="hdc3c9b5bgbdd7g4d9bg96bdgb9c7a279676c" version="1">Giant Growth</content>
+	<content contentuid="h12e6abc6g5fc4g417dgadf5gfc082197d1d7" version="1">You infuse yourself with psionic energy to grow to tremendous size, bolstering your strength and durability.</content>
+	<content contentuid="h29b968fcg568cg4217ga8aag9466fee959ec" version="1">Intellect Fortress</content>
+	<content contentuid="h6d871580g41c7g45f1g8546gbd1f18740d94" version="1">You forge an indomitable wall of psionic energy around your mind - one that allows you to launch counterattacks against your opponents.</content>
+	<content contentuid="h5f43b6fdg5126g490dga7e8ge24d3f2647ef" version="1">Iron Durability</content>
+	<content contentuid="hb059cdc4g2763g49f3g91e4g6d77ece2ca00" version="1">You transform your body to become a living metal, allowing you to shrug off attacks that would cripple weaker creatures.</content>
+	<content contentuid="hbdf746bcgaa62g4756g897ag9ee3095146a7" version="1">Mantle of Awe</content>
+	<content contentuid="h0570f860g5be2g4ffeg81ecgb0e737160633" version="1">You learn to use psionic energy to manipulate others with a subtle combination of psi and your own, natural charm.</content>
+	<content contentuid="h5a4eaa0cgec50g402dg939egcb8f2772fd61" version="1">Mantle of Command</content>
+	<content contentuid="hc7afdd83g15d2g4e47gb09ag63498406c770" version="1">You exert an aura of trust and authority, enhancing the coordination among your allies.</content>
+	<content contentuid="h6803f362gbd32g47c5ga718g0bd1eee9ebee" version="1">Mantle of Courage</content>
+	<content contentuid="he89e3e71g2237g44d1ga7e6g1a04341b19ca" version="1">You focus your mind on courage, radiating confidence and bravado to your allies.</content>
+	<content contentuid="h9abbed57g98ffg4fecg91f6gcedec8254e68" version="1">Mantle of Fear</content>
+	<content contentuid="h97f12250gda82g4738g9d2dge3a079980e3b" version="1">You tap into a well of primal fear and turn yourself into a beacon of terror to your enemies.</content>
+	<content contentuid="h2f286cb4g3de3g479bgadf7gbca119418292" version="1">Mantle of Fury</content>
+	<content contentuid="h6b80e05dgbed5g4334gb59dg716f11ee63ac" version="1">You allow the primal fury lurking deep within your mind to burst forth, catching you and your allies in an implacable bloodthirst.</content>
+	<content contentuid="he5ab0096g5e0cg4602g8314g9f8d57eea953" version="1">Mantle of Joy</content>
+	<content contentuid="h7190112fge121g4526g8229g603f5056242b" version="1">You tap into the joy within you, radiating it outward in soothing, psychic energy that brings hope and comfort to creatures around you.</content>
+	<content contentuid="h8f2678edg7c0cg42b7gb0fcg6e67b2dfe75d" version="1">Mastery of Air</content>
+	<content contentuid="h875f2322g6a9dg470ag98e6g10643a10ff5c" version="1">You become one with the power of elemental air.</content>
+	<content contentuid="hb246fc5fg1436g48b5g9d57ga6131560be24" version="1">Mastery of Fire</content>
+	<content contentuid="he4efcefageec9g4d22g9859g8743b9a2b1a5" version="1">You align your mind with the energy of elemental fire.</content>
+	<content contentuid="hdeb7a5b6gbfcbg414dg8ac3g31f2a4f5f5e7" version="1">Mastery of Force</content>
+	<content contentuid="h1f75f587g5c70g4c07gbf9cgbf3c7d4279d5" version="1">As a student of psionic power, you perceive the potential energy that flows through all things. You reach out with your mind, transforming the potential into the actual. Objects and creatures move at your command.</content>
+	<content contentuid="hc5926824g678fg4cd1g9c85g0c913310b6cc" version="1">Mastery of Ice</content>
+	<content contentuid="hee98cddfg249eg4271g9000gafb75f51b182" version="1">You master the power of ice, shaping it to meet you demands.</content>
+	<content contentuid="h8b739fd8g2060g4884gbb32g7cdc6b8ca286" version="1">Mastery of Light and Darkness</content>
+	<content contentuid="hf5a8e0e3g8676g49ceg999egfc52523b36ae" version="1">You claim dominion over light and darkness with your mind.</content>
+	<content contentuid="h79f3b1d1gdd8ag4f3cgac34g1489d6e88bba" version="1">Mastery of Water</content>
+	<content contentuid="h4858cae4g0258g4d6fga6d7g9ee0c38bb0bb" version="1">Your mind becomes one with elemental water, attuning your thoughts to its ebb and flow.</content>
+	<content contentuid="h71b788d7g394eg420ag994dgd6147c32fb89" version="1">Mastery of Weather</content>
+	<content contentuid="hfc5277cdgc907g4afbgb75bg5e8c56328ffe" version="1">Your mind reaches into the sky, reshaping the stuff of storms to serve your needs.</content>
+	<content contentuid="hf6ead5ccg2df1g4f7agb826g9ad1f2cf9ee0" version="1">Mastery of Wood and Earth</content>
+	<content contentuid="h25d5884cg40fdg4f36ga49eg16c0743e37e5" version="1">You attune your mind to seize control of wood and earth.</content>
+	<content contentuid="h21280cfag0363g451bgb8deg11da159fe1f6" version="1">Nomadic Arrow</content>
+	<content contentuid="hbfb2bff6g9bf4g4c8dgbc6bgf917c57ce95c" version="1">You imbue a ranged weapon with a strange semblance of sentience, allowing it to unerringly find its mark.</content>
+	<content contentuid="h92e85198g6c72g4769gbbc1gf4d2ad715810" version="1">Nomadic Chameleon</content>
+	<content contentuid="h63db00fbg3259g42cega02fg159cc4a2867a" version="1">You create a screen of psychic power that distorts your appearance, allowing you to blend into the background or even turn invisible.</content>
+	<content contentuid="h1ea947d4g29e6g4b81gabaeg5ba74ba636f4" version="1">Nomadic Mind</content>
+	<content contentuid="habcf7807g5ec8g4f68g8857g0a0159e436a6" version="1">You dispatch part of your psyche into the noosphere, the collective vista of minds and knowledge possessed by living things.</content>
+	<content contentuid="he29f18f7ge21cg47deg8c4cgd87359fb99eb" version="1">Nomadic Step</content>
+	<content contentuid="h2b60f7b8g3618g468cg94e6g74605cfad833" version="1">You exert your mind on the area around you, twisting the intraplanar pathways you perceive to allow instantaneous travel.</content>
+	<content contentuid="h5f9658f2gac4eg4bddga87dgcd276d6d2d72" version="1">Precognition</content>
+	<content contentuid="h5430f0e2ge650g45c7g8c1fgd880b557faaf" version="1">By analyzing information around you, from subtle hints to seemingly disconnected facts, you learn to weave a string of probabilities in an instant that gives you extraordinary insights.</content>
+	<content contentuid="hc4674308g1b84g41eagbab4g01629f7d567f" version="1">Psionic Restoration</content>
+	<content contentuid="he6f834c1g191fg4109gbb5eg71de823cb9f2" version="1">You wield psionic energy to cure wounds and restore health to yourself and others.</content>
+	<content contentuid="h446ffd90gb225g4154ga776g7045aeea67d7" version="1">Psionic Weapon</content>
+	<content contentuid="hdcfa79a0ga3d9g42ddg8b25gd8de8954b9e1" version="1">You have learned how to channel psionic energy into your attacks, lending them devastating power.</content>
+	<content contentuid="h394d2a25ge095g4836g9e69g3ddb8edc4149" version="1">Psychic Assault</content>
+	<content contentuid="h794870cag4b2bg40eegb865g44c04b3f5fac" version="1">You wield your mind like a weapon, unleashing salvos of psionic energy.</content>
+	<content contentuid="h0aa174f1g2fa2g4e53gb422g0dbdf78e1ad8" version="1">Psychic Disruption</content>
+	<content contentuid="h9d101d3bg7a6ag4d74gb632ga7a96d3a815f" version="1">You create psychic static that disrupts other creatures’ ability to think clearly.</content>
+	<content contentuid="he621a7e5g45fag4c6dg8bf6gcd955f76008a" version="1">Psychic Supression</content>
+	<content contentuid="h1ce046e0gfc9eg48beg9adcgeadc0348a565" version="1">TODO: You reach into a creature’s mind to uncover information or plant ideas within it.</content>
+	<content contentuid="h051f862eg7cdfg4ee6gbae4gd88b406fd1b2" version="1">Telepathic Subjugation</content>
+	<content contentuid="hda770c0ag5375g4a72gbb86g32a49846cbb6" version="1">By channeling psionic power, you gain the ability to control other creatures by substituting your will for their own.</content>
+	<content contentuid="heb25c661gd0e1g43eag89e8gf9a2dbee7054" version="1">Third Eye</content>
+	<content contentuid="h55ef0306g5c7eg4833ga6f1gdd3c638797c1" version="1">You create a third, psychic eye in your mind, which you cast out into the world. It channels thoughts and knowledge back to you, greatly enhancing your senses.</content>
 	<content contentuid="" version="1"></content>
 	<content contentuid="" version="1"></content>
 	<content contentuid="" version="1"></content>
 	<content contentuid="" version="1"></content>
 	<content contentuid="" version="1"></content>
-	
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+		
 </contentList>

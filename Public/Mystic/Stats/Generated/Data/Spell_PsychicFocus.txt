@@ -5,387 +5,386 @@ new entry "Shout_Mystic_PsychicFocus_AdaptiveBody"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" ""
 data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
+data "Icon" ""
 
 // Aura Sight
 new entry "Shout_Mystic_PsychicFocus_AuraSight"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" ""
 data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
+data "Icon" ""
 
 // Bestial Form
 new entry "Shout_Mystic_PsychicFocus_BestialForm"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" ""
 data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
+data "Icon" ""
 
 // Brute Force
 new entry "Shout_Mystic_PsychicFocus_BruteForce"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" ""
 data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
+data "Icon" ""
 
 // Celerity
 new entry "Shout_Mystic_PsychicFocus_Celerity"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" ""
 data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
+data "Icon" ""
 
 // Corrosive Metabolism
 new entry "Shout_Mystic_PsychicFocus_CorrosiveMetabolism"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" ""
 data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
+data "Icon" ""
 
 // Crown of Despair
 new entry "Shout_Mystic_PsychicFocus_CrownOfDespair"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" ""
 data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
+data "Icon" ""
 
 // Crown of Disgust
 new entry "Shout_Mystic_PsychicFocus_CrownOfDisgust"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" ""
 data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
+data "Icon" ""
 
 // Crown of Rage
 new entry "Shout_Mystic_PsychicFocus_CrownOfRage"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" ""
 data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
+data "Icon" ""
 
 // Diminution
 new entry "Shout_Mystic_PsychicFocus_Diminution"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" ""
 data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
+data "Icon" ""
 
 // Giant Growth
 new entry "Shout_Mystic_PsychicFocus_GiantGrowth"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" ""
 data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
+data "Icon" ""
 
 // Intellect Fortress
 new entry "Shout_Mystic_PsychicFocus_IntellectFortress"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" ""
 data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
+data "Icon" ""
 
 // Iron Durability
 new entry "Shout_Mystic_PsychicFocus_IronDurability"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" ""
 data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
+data "Icon" ""
 
 // Mantle of Awe
 new entry "Shout_Mystic_PsychicFocus_MantleOfAwe"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" ""
 data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
+data "Icon" ""
 
 // Mantle of Command
 new entry "Shout_Mystic_PsychicFocus_MantleOfCommand"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" ""
 data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
+data "Icon" ""
 
 // Mantle of Courage
 new entry "Shout_Mystic_PsychicFocus_MantleOfCourage"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" ""
 data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
+data "Icon" ""
 
 // Mantle of Fear
 new entry "Shout_Mystic_PsychicFocus_MantleOfFear"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" ""
 data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
+data "Icon" ""
 
 // Mantle of Fury
 new entry "Shout_Mystic_PsychicFocus_MantleOfFury"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" ""
 data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
+data "Icon" ""
 
-// Mantle of Joy
-new entry "Shout_Mystic_PsychicFocus_MantleOfJoy"
+// Mantle of Joynew entry "Shout_Mystic_PsychicFocus_MantleOfJoy"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" ""
 data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
+data "Icon" ""
 
 // Mastery of Air
 new entry "Shout_Mystic_PsychicFocus_MasteryOfAir"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" ""
 data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
+data "Icon" ""
 
 // Mastery of Fire
 new entry "Shout_Mystic_PsychicFocus_MasteryOfFire"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" ""
 data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
+data "Icon" ""
 
 // Mastery of Force
 new entry "Shout_Mystic_PsychicFocus_MasteryOfForce"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" ""
 data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
+data "Icon" ""
 
 // Mastery of Ice
 new entry "Shout_Mystic_PsychicFocus_MasteryOfIce"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" ""
 data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
+data "Icon" ""
 
 // Mastery of Light and Darkness
 new entry "Shout_Mystic_PsychicFocus_MasteryOfLightAndDarkness"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" ""
 data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
+data "Icon" ""
 
 // Mastery of Water
 new entry "Shout_Mystic_PsychicFocus_MasteryOfWater"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" ""
 data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
+data "Icon" ""
 
 // Mastery of Weather
 new entry "Shout_Mystic_PsychicFocus_MasteryOfWeather"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" ""
 data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
+data "Icon" ""
 
 // Mastery of Wood and Earth
 new entry "Shout_Mystic_PsychicFocus_MasteryOfWoodAndEarth"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" ""
 data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
+data "Icon" ""
 
 // Nomadic Arrow
 new entry "Shout_Mystic_PsychicFocus_NomadicArrow"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" ""
 data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
+data "Icon" ""
 
 // Nomadic Chameleon
 new entry "Shout_Mystic_PsychicFocus_NomadicChameleon"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" ""
 data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
+data "Icon" ""
 
 // Nomadic Mind
 new entry "Shout_Mystic_PsychicFocus_NomadicMind"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" ""
 data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
+data "Icon" ""
 
 // Nomadic Step
 new entry "Shout_Mystic_PsychicFocus_NomadicStep"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" ""
 data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
+data "Icon" ""
 
 // Precognition
 new entry "Shout_Mystic_PsychicFocus_Precognition"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" ""
 data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
+data "Icon" ""
 
 // Psionic Restoration
 new entry "Shout_Mystic_PsychicFocus_PsionicRestoration"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" ""
 data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
+data "Icon" ""
 
 // Psionic Weapon
 new entry "Shout_Mystic_PsychicFocus_PsionicWeapon"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" ""
 data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
+data "Icon" ""
 
 // Psychic Assault
 new entry "Shout_Mystic_PsychicFocus_PsychicAssault"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" ""
 data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
+data "Icon" ""
 
 // Psychic Disruption
 new entry "Shout_Mystic_PsychicFocus_PsychicDisruption"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" ""
 data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
+data "Icon" ""
 
 // Psychic Suppression (Psychic Inquisition)
 new entry "Shout_Mystic_PsychicFocus_PsychicSuppression"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" ""
 data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
+data "Icon" ""
 
-// Telepathic Subjugation (Telepathic Contact)
+//Telepathic Subjugation (Telepathic Contact)
 new entry "Shout_Mystic_PsychicFocus_TelepathicSubjugation"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" ""
 data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
+data "Icon" ""
 
 // Third Eye
 new entry "Shout_Mystic_PsychicFocus_ThirdEye"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" ""
 data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
+data "Icon" ""
