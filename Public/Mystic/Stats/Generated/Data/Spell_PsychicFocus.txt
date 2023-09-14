@@ -1,7 +1,7 @@
-// Psionic Talents
+// There's too many of these
 
-// Beacon
-new entry "Shout_Mystic_Beacon"
+// Adaptive Body
+new entry "Shout_Mystic_PsychicFocus_AdaptiveBody"
 type "SpellData"
 data "SpellType" "Shout"
 
@@ -10,8 +10,8 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 
-// Blade Meld
-new entry "Shout_Mystic_BladeMeld"
+// Aura Sight
+new entry "Shout_Mystic_PsychicFocus_AuraSight"
 type "SpellData"
 data "SpellType" "Shout"
 
@@ -20,8 +20,8 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 
-// Delusion
-new entry "Shout_Mystic_Delusion"
+// Bestial Form
+new entry "Shout_Mystic_PsychicFocus_BestialForm"
 type "SpellData"
 data "SpellType" "Shout"
 
@@ -30,8 +30,8 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 
-// Light Step
-new entry "Shout_Mystic_LightStep"
+// Brute Force
+new entry "Shout_Mystic_PsychicFocus_BruteForce"
 type "SpellData"
 data "SpellType" "Shout"
 
@@ -40,10 +40,8 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 
-// Psionic Disciplines
-
-// Strategic Mind
-new entry "Shout_Mystic_StrategicMind"
+// Celerity
+new entry "Shout_Mystic_PsychicFocus_Celerity"
 type "SpellData"
 data "SpellType" "Shout"
 
@@ -52,8 +50,8 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 
-// Aura of Victory
-new entry "Shout_Mystic_AuraOfVictory"
+// Corrosive Metabolism
+new entry "Shout_Mystic_PsychicFocus_CorrosiveMetabolism"
 type "SpellData"
 data "SpellType" "Shout"
 
@@ -62,8 +60,8 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 
-// Unsettling Aura
-new entry "Shout_Mystic_UnsettlingAura"
+// Crown of Despair
+new entry "Shout_Mystic_PsychicFocus_CrownOfDespair"
 type "SpellData"
 data "SpellType" "Shout"
 
@@ -72,8 +70,8 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 
-// Aura of Bloodletting
-new entry "Shout_Mystic_AuraOfBloodletting"
+// Crown of Disgust
+new entry "Shout_Mystic_PsychicFocus_CrownOfDisgust"
 type "SpellData"
 data "SpellType" "Shout"
 
@@ -82,8 +80,8 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 
-// Aura of Jubilation
-new entry "Shout_Mystic_AuraOfJubilation"
+// Crown of Rage
+new entry "Shout_Mystic_PsychicFocus_CrownOfRage"
 type "SpellData"
 data "SpellType" "Shout"
 
@@ -92,8 +90,8 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 
-// Perceive the Unseen
-new entry "Shout_Mystic_PerceiveTheUnseen"
+// Diminution
+new entry "Shout_Mystic_PsychicFocus_Diminution"
 type "SpellData"
 data "SpellType" "Shout"
 
@@ -102,8 +100,8 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 
-// Psychic Redoubt
-new entry "Shout_Mystic_PsychicRedoubt"
+// Giant Growth
+new entry "Shout_Mystic_PsychicFocus_GiantGrowth"
 type "SpellData"
 data "SpellType" "Shout"
 
@@ -112,8 +110,8 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 
-// Charming Presence
-new entry "Shout_Mystic_CharmingPresence"
+// Intellect Fortress
+new entry "Shout_Mystic_PsychicFocus_IntellectFortress"
 type "SpellData"
 data "SpellType" "Shout"
 
@@ -122,8 +120,8 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 
-// Precognitive Hunch
-new entry "Shout_Mystic_PrecognitiveHunch"
+// Iron Durability
+new entry "Shout_Mystic_PsychicFocus_IronDurability"
 type "SpellData"
 data "SpellType" "Shout"
 
@@ -132,8 +130,8 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 
-// Danger Sense
-new entry "Shout_Mystic_DangerSense"
+// Mantle of Awe
+new entry "Shout_Mystic_PsychicFocus_MantleOfAwe"
 type "SpellData"
 data "SpellType" "Shout"
 
@@ -142,8 +140,8 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 
-// Bestial Transformation
-new entry "Shout_Mystic_BestialTransformation"
+// Mantle of Command
+new entry "Shout_Mystic_PsychicFocus_MantleOfCommand"
 type "SpellData"
 data "SpellType" "Shout"
 
@@ -152,8 +150,8 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 
-// Brute Strike
-new entry "Shout_Mystic_BruteStrike"
+// Mantle of Courage
+new entry "Shout_Mystic_PsychicFocus_MantleOfCourage"
 type "SpellData"
 data "SpellType" "Shout"
 
@@ -162,8 +160,8 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 
-// Feat of Strength
-new entry "Shout_Mystic_FeatOfStrength"
+// Mantle of Fear
+new entry "Shout_Mystic_PsychicFocus_MantleOfFear"
 type "SpellData"
 data "SpellType" "Shout"
 
@@ -172,8 +170,8 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 
-// Rapid Step
-new entry "Shout_Mystic_RapidStep"
+// Mantle of Fury
+new entry "Shout_Mystic_PsychicFocus_MantleOfFury"
 type "SpellData"
 data "SpellType" "Shout"
 
@@ -182,8 +180,8 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 
-// Agile Defense
-new entry "Shout_Mystic_AgileDefense"
+// Mantle of Joy
+new entry "Shout_Mystic_PsychicFocus_MantleOfJoy"
 type "SpellData"
 data "SpellType" "Shout"
 
@@ -192,8 +190,8 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 
-// Blur of Motion
-new entry "Shout_Mystic_BlurOfMotion"
+// Mastery of Air
+new entry "Shout_Mystic_PsychicFocus_MasteryOfAir"
 type "SpellData"
 data "SpellType" "Shout"
 
@@ -202,8 +200,8 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 
-// Surge of Speed
-new entry "Shout_Mystic_SurgeOfSpeed"
+// Mastery of Fire
+new entry "Shout_Mystic_PsychicFocus_MasteryOfFire"
 type "SpellData"
 data "SpellType" "Shout"
 
@@ -212,8 +210,8 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 
-// Surge of Action
-new entry "Shout_Mystic_SurgeOfAction"
+// Mastery of Force
+new entry "Shout_Mystic_PsychicFocus_MasteryOfForce"
 type "SpellData"
 data "SpellType" "Shout"
 
@@ -222,8 +220,8 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 
-// Miniature Form
-new entry "Shout_Mystic_MiniatureForm"
+// Mastery of Ice
+new entry "Shout_Mystic_PsychicFocus_MasteryOfIce"
 type "SpellData"
 data "SpellType" "Shout"
 
@@ -232,8 +230,8 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 
-// Microscopic Form
-new entry "Shout_Mystic_MicroscopicForm"
+// Mastery of Light and Darkness
+new entry "Shout_Mystic_PsychicFocus_MasteryOfLightAndDarkness"
 type "SpellData"
 data "SpellType" "Shout"
 
@@ -242,8 +240,8 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 
-// Ogre Form
-new entry "Shout_Mystic_OgreForm"
+// Mastery of Water
+new entry "Shout_Mystic_PsychicFocus_MasteryOfWater"
 type "SpellData"
 data "SpellType" "Shout"
 
@@ -252,8 +250,8 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 
-// Giant Form
-new entry "Shout_Mystic_GiantForm"
+// Mastery of Weather
+new entry "Shout_Mystic_PsychicFocus_MasteryOfWeather"
 type "SpellData"
 data "SpellType" "Shout"
 
@@ -262,8 +260,8 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 
-// Steel Hide
-new entry "Shout_Mystic_SteelHide"
+// Mastery of Wood and Earth
+new entry "Shout_Mystic_PsychicFocus_MasteryOfWoodAndEarth"
 type "SpellData"
 data "SpellType" "Shout"
 
@@ -272,8 +270,8 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 
-// Iron Resistance
-new entry "Shout_Mystic_IronResistance"
+// Nomadic Arrow
+new entry "Shout_Mystic_PsychicFocus_NomadicArrow"
 type "SpellData"
 data "SpellType" "Shout"
 
@@ -282,8 +280,8 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 
-// Lethal Strike
-new entry "Shout_Mystic_LethalStrike"
+// Nomadic Chameleon
+new entry "Shout_Mystic_PsychicFocus_NomadicChameleon"
 type "SpellData"
 data "SpellType" "Shout"
 
@@ -292,8 +290,8 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 
-// Augmented Weapon
-new entry "Shout_Mystic_AugmentedWeapon"
+// Nomadic Mind
+new entry "Shout_Mystic_PsychicFocus_NomadicMind"
 type "SpellData"
 data "SpellType" "Shout"
 
@@ -302,8 +300,8 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 
-// Speed Dart
-new entry "Shout_Mystic_SpeedDart"
+// Nomadic Step
+new entry "Shout_Mystic_PsychicFocus_NomadicStep"
 type "SpellData"
 data "SpellType" "Shout"
 
@@ -312,8 +310,8 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 
-// Faithful Archer
-new entry "Shout_Mystic_FaithfulArcher"
+// Precognition
+new entry "Shout_Mystic_PsychicFocus_Precognition"
 type "SpellData"
 data "SpellType" "Shout"
 
@@ -322,8 +320,8 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 
-// Chameleon
-new entry "Shout_Mystic_Chameleon"
+// Psionic Restoration
+new entry "Shout_Mystic_PsychicFocus_PsionicRestoration"
 type "SpellData"
 data "SpellType" "Shout"
 
@@ -332,8 +330,8 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 
-// Step From Night
-new entry "Shout_Mystic_StepFromNight"
+// Psionic Weapon
+new entry "Shout_Mystic_PsychicFocus_PsionicWeapon"
 type "SpellData"
 data "SpellType" "Shout"
 
@@ -342,8 +340,8 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 
-// Enduring Invisibility
-new entry "Shout_Mystic_EnduringInvisibility"
+// Psychic Assault
+new entry "Shout_Mystic_PsychicFocus_PsychicAssault"
 type "SpellData"
 data "SpellType" "Shout"
 
@@ -352,8 +350,8 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 
-// Tremorsense
-new entry "Shout_Mystic_Tremorsense"
+// Psychic Disruption
+new entry "Shout_Mystic_PsychicFocus_PsychicDisruption"
 type "SpellData"
 data "SpellType" "Shout"
 
@@ -362,8 +360,8 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 
-// Unwavering Sense
-new entry "Shout_Mystic_UnwaveringSense"
+// Psychic Suppression (Psychic Inquisition)
+new entry "Shout_Mystic_PsychicFocus_PsychicSuppression"
 type "SpellData"
 data "SpellType" "Shout"
 
@@ -372,8 +370,8 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 
-// Piercing Sight
-new entry "Shout_Mystic_PiercingSight"
+// Telepathic Subjugation (Telepathic Contact)
+new entry "Shout_Mystic_PsychicFocus_TelepathicSubjugation"
 type "SpellData"
 data "SpellType" "Shout"
 
@@ -382,78 +380,8 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 
-// Truesight
-new entry "Shout_Mystic_Truesight"
-type "SpellData"
-data "SpellType" "Shout"
-
-data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
-data "DescriptionParams" ""
-
-// Cloak of Air
-new entry "Shout_Mystic_CloakOfAir"
-type "SpellData"
-data "SpellType" "Shout"
-
-data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
-data "DescriptionParams" ""
-
-// Wind Form
-new entry "Shout_Mystic_WindForm"
-type "SpellData"
-data "SpellType" "Shout"
-
-data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
-data "DescriptionParams" ""
-
-// Misty Form
-new entry "Shout_Mystic_MistyForm"
-type "SpellData"
-data "SpellType" "Shout"
-
-data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
-data "DescriptionParams" ""
-
-// Fire Form
-new entry "Shout_Mystic_FireForm"
-type "SpellData"
-data "SpellType" "Shout"
-
-data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
-data "DescriptionParams" ""
-
-// Inertial Armor
-new entry "Shout_Mystic_InertialArmor"
-type "SpellData"
-data "SpellType" "Shout"
-
-data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
-data "DescriptionParams" ""
-
-// Frozen Sanctuary
-new entry "Shout_Mystic_FrozenSanctuary"
-type "SpellData"
-data "SpellType" "Shout"
-
-data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
-data "DescriptionParams" ""
-
-// Armored Form
-new entry "Shout_Mystic_ArmoredForm"
+// Third Eye
+new entry "Shout_Mystic_PsychicFocus_ThirdEye"
 type "SpellData"
 data "SpellType" "Shout"
 

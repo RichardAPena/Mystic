@@ -1,0 +1,9 @@
+// Mystic Hand
+new entry "Throw_Mystic_MysticHand"
+type "SpellData"
+data "SpellType" "Throw"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""

@@ -1,6 +1,6 @@
 // Psionic Disciplines
-// TODO: Make them add spells
 
+// Adaptive Body
 new entry "Discipline_AdaptiveBody"
 type "PassiveData"
 data "DisplayName" ""
@@ -8,6 +8,7 @@ data "Description" ""
 data "Icon" ""
 data "Boosts" "UnlockSpell()"
 
+// Aura Sight
 new entry "Discipline_AuraSight"
 type "PassiveData"
 data "DisplayName" ""
@@ -15,6 +16,7 @@ data "Description" ""
 data "Icon" ""
 data "Boosts" "UnlockSpell()"
 
+// Bestial Form
 new entry "Discipline_BestialForm"
 type "PassiveData"
 data "DisplayName" ""
@@ -22,6 +24,7 @@ data "Description" ""
 data "Icon" ""
 data "Boosts" "UnlockSpell()"
 
+// Brute Force
 new entry "Discipline_BruteForce"
 type "PassiveData"
 data "DisplayName" ""
@@ -29,6 +32,7 @@ data "Description" ""
 data "Icon" ""
 data "Boosts" "UnlockSpell()"
 
+// Celerity
 new entry "Discipline_Celerity"
 type "PassiveData"
 data "DisplayName" ""
@@ -36,6 +40,7 @@ data "Description" ""
 data "Icon" ""
 data "Boosts" "UnlockSpell()"
 
+// Corrosive Metabolism
 new entry "Discipline_CorrosiveMetabolism"
 type "PassiveData"
 data "DisplayName" ""
@@ -43,6 +48,7 @@ data "Description" ""
 data "Icon" ""
 data "Boosts" "UnlockSpell()"
 
+// Crown of Despair
 new entry "Discipline_CrownOfDespair"
 type "PassiveData"
 data "DisplayName" ""
@@ -50,6 +56,7 @@ data "Description" ""
 data "Icon" ""
 data "Boosts" "UnlockSpell()"
 
+// Crown of Disgust
 new entry "Discipline_CrownOfDisgust"
 type "PassiveData"
 data "DisplayName" ""
@@ -57,6 +64,7 @@ data "Description" ""
 data "Icon" ""
 data "Boosts" "UnlockSpell()"
 
+// Crown of Rage
 new entry "Discipline_CrownOfRage"
 type "PassiveData"
 data "DisplayName" ""
@@ -64,6 +72,7 @@ data "Description" ""
 data "Icon" ""
 data "Boosts" "UnlockSpell()"
 
+// Diminution
 new entry "Discipline_Diminution"
 type "PassiveData"
 data "DisplayName" ""
@@ -71,6 +80,7 @@ data "Description" ""
 data "Icon" ""
 data "Boosts" "UnlockSpell()"
 
+// Giant Growth
 new entry "Discipline_GiantGrowth"
 type "PassiveData"
 data "DisplayName" ""
@@ -78,6 +88,7 @@ data "Description" ""
 data "Icon" ""
 data "Boosts" "UnlockSpell()"
 
+// Intellect Fortress
 new entry "Discipline_IntellectFortress"
 type "PassiveData"
 data "DisplayName" ""
@@ -85,6 +96,7 @@ data "Description" ""
 data "Icon" ""
 data "Boosts" "UnlockSpell()"
 
+// Iron Durability
 new entry "Discipline_IronDurability"
 type "PassiveData"
 data "DisplayName" ""
@@ -92,6 +104,7 @@ data "Description" ""
 data "Icon" ""
 data "Boosts" "UnlockSpell()"
 
+// Mantle of Awe
 new entry "Discipline_MantleOfAwe"
 type "PassiveData"
 data "DisplayName" ""
@@ -99,6 +112,7 @@ data "Description" ""
 data "Icon" ""
 data "Boosts" "UnlockSpell()"
 
+// Mantle of Command
 new entry "Discipline_MantleOfCommand"
 type "PassiveData"
 data "DisplayName" ""
@@ -106,6 +120,7 @@ data "Description" ""
 data "Icon" ""
 data "Boosts" "UnlockSpell()"
 
+// Mantle of Courage
 new entry "Discipline_MantleOfCourage"
 type "PassiveData"
 data "DisplayName" ""
@@ -113,6 +128,7 @@ data "Description" ""
 data "Icon" ""
 data "Boosts" "UnlockSpell()"
 
+// Mantle of Fear
 new entry "Discipline_MantleOfFear"
 type "PassiveData"
 data "DisplayName" ""
@@ -120,6 +136,7 @@ data "Description" ""
 data "Icon" ""
 data "Boosts" "UnlockSpell()"
 
+// Mantle of Fury
 new entry "Discipline_MantleOfFury"
 type "PassiveData"
 data "DisplayName" ""
@@ -127,6 +144,7 @@ data "Description" ""
 data "Icon" ""
 data "Boosts" "UnlockSpell()"
 
+// Mantle of Joy
 new entry "Discipline_MantleOfJoy"
 type "PassiveData"
 data "DisplayName" ""
@@ -134,6 +152,7 @@ data "Description" ""
 data "Icon" ""
 data "Boosts" "UnlockSpell()"
 
+// Mastery of Air
 new entry "Discipline_MasteryOfAir"
 type "PassiveData"
 data "DisplayName" ""
@@ -141,6 +160,7 @@ data "Description" ""
 data "Icon" ""
 data "Boosts" "UnlockSpell()"
 
+// Mastery of Fire
 new entry "Discipline_MasteryOfFire"
 type "PassiveData"
 data "DisplayName" ""
@@ -148,6 +168,7 @@ data "Description" ""
 data "Icon" ""
 data "Boosts" "UnlockSpell()"
 
+// Mastery of Force
 new entry "Discipline_MasteryOfForce"
 type "PassiveData"
 data "DisplayName" ""
@@ -155,6 +176,7 @@ data "Description" ""
 data "Icon" ""
 data "Boosts" "UnlockSpell()"
 
+// Mastery of Ice
 new entry "Discipline_MasteryOfIce"
 type "PassiveData"
 data "DisplayName" ""
@@ -162,6 +184,7 @@ data "Description" ""
 data "Icon" ""
 data "Boosts" "UnlockSpell()"
 
+// Mastery of Light and Darkness
 new entry "Discipline_MasteryOfLightAndDarkness"
 type "PassiveData"
 data "DisplayName" ""
@@ -169,6 +192,7 @@ data "Description" ""
 data "Icon" ""
 data "Boosts" "UnlockSpell()"
 
+// Mastery of Water
 new entry "Discipline_MasteryOfWater"
 type "PassiveData"
 data "DisplayName" ""
@@ -176,6 +200,7 @@ data "Description" ""
 data "Icon" ""
 data "Boosts" "UnlockSpell()"
 
+// Mastery of Weather
 new entry "Discipline_MasteryOfWeather"
 type "PassiveData"
 data "DisplayName" ""
@@ -183,6 +208,7 @@ data "Description" ""
 data "Icon" ""
 data "Boosts" "UnlockSpell()"
 
+// Mastery of Wood and Earth
 new entry "Discipline_MasteryOfWoodAndEarth"
 type "PassiveData"
 data "DisplayName" ""
@@ -190,6 +216,7 @@ data "Description" ""
 data "Icon" ""
 data "Boosts" "UnlockSpell()"
 
+// Nomadic Arrow
 new entry "Discipline_NomadicArrow"
 type "PassiveData"
 data "DisplayName" ""
@@ -197,6 +224,7 @@ data "Description" ""
 data "Icon" ""
 data "Boosts" "UnlockSpell()"
 
+// Nomadic Chameleon
 new entry "Discipline_NomadicChameleon"
 type "PassiveData"
 data "DisplayName" ""
@@ -204,6 +232,7 @@ data "Description" ""
 data "Icon" ""
 data "Boosts" "UnlockSpell()"
 
+// Nomadic Mind
 new entry "Discipline_NomadicMind"
 type "PassiveData"
 data "DisplayName" ""
@@ -211,6 +240,7 @@ data "Description" ""
 data "Icon" ""
 data "Boosts" "UnlockSpell()"
 
+// Nomadic Step
 new entry "Discipline_NomadicStep"
 type "PassiveData"
 data "DisplayName" ""
@@ -218,6 +248,7 @@ data "Description" ""
 data "Icon" ""
 data "Boosts" "UnlockSpell()"
 
+// Precognition
 new entry "Discipline_Precognition"
 type "PassiveData"
 data "DisplayName" ""
@@ -225,6 +256,7 @@ data "Description" ""
 data "Icon" ""
 data "Boosts" "UnlockSpell()"
 
+// Psionic Restoration
 new entry "Discipline_PsionicRestoration"
 type "PassiveData"
 data "DisplayName" ""
@@ -232,6 +264,7 @@ data "Description" ""
 data "Icon" ""
 data "Boosts" "UnlockSpell()"
 
+// Psionic Weapon
 new entry "Discipline_PsionicWeapon"
 type "PassiveData"
 data "DisplayName" ""
@@ -239,6 +272,7 @@ data "Description" ""
 data "Icon" ""
 data "Boosts" "UnlockSpell()"
 
+// Psychic Assault
 new entry "Discipline_PsychicAssault"
 type "PassiveData"
 data "DisplayName" ""
@@ -246,6 +280,7 @@ data "Description" ""
 data "Icon" ""
 data "Boosts" "UnlockSpell()"
 
+// Psychic Disruption
 new entry "Discipline_PsychicDisruption"
 type "PassiveData"
 data "DisplayName" ""
@@ -253,6 +288,7 @@ data "Description" ""
 data "Icon" ""
 data "Boosts" "UnlockSpell()"
 
+// Psychic Suprression (Psychic Inquisition)
 new entry "Discipline_PsychicSuppression"
 type "PassiveData"
 data "DisplayName" ""
@@ -260,6 +296,7 @@ data "Description" ""
 data "Icon" ""
 data "Boosts" "UnlockSpell()"
 
+// Telepathic Subjugation (Telepathic Contact)
 new entry "Discipline_TelepathicSubjugation"
 type "PassiveData"
 data "DisplayName" ""
@@ -267,6 +304,7 @@ data "Description" ""
 data "Icon" ""
 data "Boosts" "UnlockSpell()"
 
+// Third Eye
 new entry "Discipline_ThirdEye"
 type "PassiveData"
 data "DisplayName" ""

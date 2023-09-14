@@ -1,0 +1,136 @@
+// Psionic Talents
+
+// Energy Beam
+new entry "Projectile_Mystic_EnergyBeam"
+type "SpellData"
+data "SpellType" "Projectile"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Psionic Disciplines
+
+// Psionic Blast
+new entry "Projectile_Mystic_PsionicBlast"
+type "SpellData"
+data "SpellType" "Projectile"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Distracting Haze
+new entry "Projectile_Mystic_DistractingHaze"
+type "SpellData"
+data "SpellType" "Projectile"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Mighty Leap
+// Jump and Fly are categorized as projectiles :shrug:
+new entry "Target_Mystic_Mighty Leap"
+type "SpellData"
+data "SpellType" "Projectile"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Venom Strike
+new entry "Projectile_Mystic_VenomStrike"
+type "SpellData"
+data "SpellType" "Projectile"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Ethereal Weapon
+new entry "Projectile_Mystic_EtherealWeapon"
+type "SpellData"
+data "SpellType" "Projectile"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Wind Step
+// Jump and Fly are categorized as projectiles :shrug:
+new entry "Projectile_Mystic_WindStep"
+type "SpellData"
+data "SpellType" "Projectile"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Combustion
+new entry "Projectile_Mystic_Combustion"
+type "SpellData"
+data "SpellType" "Projectile"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Ice Spike
+new entry "Projectile_Mystic_IceSpike"
+type "SpellData"
+data "SpellType" "Projectile"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Radiant Beam
+new entry "Projectile_Mystic_RadiantBeam"
+type "SpellData"
+data "SpellType" "Projectile"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Dessicate
+new entry "Projectile_Mystic_Dessicate"
+type "SpellData"
+data "SpellType" "Projectile"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Hungry Lightning
+new entry "Projectile_Mystic_HungryLightning"
+type "SpellData"
+data "SpellType" "Projectile"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Animate Weapon
+new entry "Projectile_Mystic_AnimateWeapon"
+type "SpellData"
+data "SpellType" "Projectile"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+

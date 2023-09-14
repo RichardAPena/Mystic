@@ -1,0 +1,59 @@
+// Wall of Repulsion
+new entry "Wall_Mystic_WallOfRepulsion"
+type "SpellData"
+data "SpellType" "Wall"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Telekinetic Barrier
+new entry "Wall_Mystic_TelekineticBarrier"
+type "SpellData"
+data "SpellType" "Wall"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Ice Barrier
+new entry "Wall_Mystic_IceBarrier"
+type "SpellData"
+data "SpellType" "Wall"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Wall of Clouds
+new entry "Wall_Mystic_WallOfClouds"
+type "SpellData"
+data "SpellType" "Wall"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Wall of Thunder
+new entry "Wall_Mystic_WallOfThunder"
+type "SpellData"
+data "SpellType" "Wall"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Wall of Wood
+new entry "Wall_Mystic_WallOfWood"
+type "SpellData"
+data "SpellType" "Wall"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""

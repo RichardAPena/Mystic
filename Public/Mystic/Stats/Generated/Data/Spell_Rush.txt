@@ -1,0 +1,9 @@
+// Lightning Leap
+new entry "Rush_Mystic_Lightning_Leap"
+type "SpellData"
+data "SpellType" "Rush"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""

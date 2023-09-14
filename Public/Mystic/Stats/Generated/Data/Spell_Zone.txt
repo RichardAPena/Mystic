@@ -1,0 +1,50 @@
+// Psychic Blast
+new entry "Zone_Mystic_PsychicBlast"
+type "SpellData"
+data "SpellType" "Zone"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Breath of the Black Dragon
+new entry "Zone_Mystic_BreathOfTheBlackDragon"
+type "SpellData"
+data "SpellType" "Zone"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Breath of the Green Dragon
+new entry "Zone_Mystic_BreathOfTheGreenDragon"
+type "SpellData"
+data "SpellType" "Zone"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Wind Stream
+new entry "Zone_Mystic_WindStream"
+type "SpellData"
+data "SpellType" "Zone"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Water Whip
+new entry "Zone_Mystic_WaterWhip"
+type "SpellData"
+data "SpellType" "Zone"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+

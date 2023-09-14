@@ -1,0 +1,693 @@
+// Psionic Talents
+
+// Blind Spot
+new entry "Target_Mystic_BlindSpot"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Mind Slam
+new entry "Target_Mystic_MindSlam"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Mind Thrust
+new entry "Target_Mystic_MindThrust"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Mystic Charm
+new entry "Target_Mystic_MysticCharm"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Psychic Hammer
+new entry "Target_Mystic_PsychicHammer"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Mind Meld
+new entry "Target_Mystic_MindMeld"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Psionic Disciplines
+
+// Crowned in Sorrow
+new entry "Target_Mystic_CrownedInSorrow"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Call to Inaction
+new entry "Target_Mystic_CallToInaction"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Visions of Despair
+new entry "Target_Mystic_VisionsOfDespair"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Dolorous Mind
+new entry "Target_Mystic_DolorousMind"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Eye of Horror
+new entry "Target_Mystic_EyeOfHorror"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// World of Horror
+new entry "Target_Mystic_WorldOfHorror"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Primal Fury
+new entry "Target_Mystic_PrimalFury"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Fighting Words
+new entry "Target_Mystic_FightingWords"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Mindless Courage
+new entry "Target_Mystic_MindlessCourage"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Punishing Fury
+new entry "Target_Mystic_PunishingFury"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// [Commander's Imperative]
+new entry "Target_Mystic_CommandersImperative"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Coordinated Movement
+new entry "Target_Mystic_CoordinatedMovement"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Command to Strike
+new entry "Target_Mystic_CommandToStrike"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Overwhelming Attack
+new entry "Target_Mystic_OverwhelmingAttack"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Incite Courage
+new entry "Target_Mystic_InciteCourage"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Pillar of Confidence
+new entry "Target_Mystic_PillarOfConfidence"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Incite Fear
+new entry "Target_Mystic_InciteFear"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Incite Panic
+new entry "Target_Mystic_IncitePanic"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Incite Fury
+new entry "Target_Mystic_InciteFury"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Mindless Charge
+new entry "Target_Mystic_MindlessCharge"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Overwhelming Fury
+new entry "Target_Mystic_OverwhelmingFury"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Soothing Presence
+new entry "Target_Mystic_SoothingPresence"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Comforting Aura
+new entry "Target_Mystic_ComfortingAura"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Beacon of Recovery
+new entry "Target_Mystic_BeaconOfRecovery"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Assess Foe
+new entry "Target_Mystic_AssessFoe"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// View Aura
+new entry "Target_Mystic_ViewAura"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Center of Attention
+new entry "Target_Mystic_CenterOfAttention"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Invoke Awe
+new entry "Target_Mystic_InvokeAwe"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Victory Before Battle
+new entry "Target_Mystic_VictoryBeforeBattle"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Ego Whip
+new entry "Target_Mystic_EgoWhip"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Id Insinuation
+new entry "Target_Mystic_IdInsinuation"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Daze
+new entry "Target_Mystic_Daze"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Mind Storm
+new entry "Target_Mystic_MindStorm"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Environmental Adaptation
+new entry "Target_Mystic_EnvironmentalAdaptation"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Energy Adaptation
+new entry "Target_Mystic_EnergyAdaptation"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Energy Immunity
+new entry "Target_Mystic_EnergyImmunity"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Bestial Claws
+new entry "Target_Mystic_BestialClaws"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Corrosive Touch
+new entry "Target_Mystic_CorrosiveTouch"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Toppling Shift
+new entry "Target_Mystic_TopplingShift"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Mend Wounds
+new entry "Target_Mystic_MendWounds"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Restore Health
+new entry "Target_Mystic_RestoreHealth"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Restore Life
+new entry "Target_Mystic_RestoreLife"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Restore Vigor
+new entry "Target_Mystic_RestoreVigor"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Animate Air
+new entry "Target_Mystic_AnimateAir"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Rolling Flame
+new entry "Target_Mystic_RollingFlame"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Detonation
+new entry "Target_Mystic_Detonation"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Animate Fire
+new entry "Target_Mystic_AnimateFire"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Push
+new entry "Target_Mystic_Push"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Grasp
+new entry "Target_Mystic_Grasp"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Crush
+new entry "Target_Mystic_Crush"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Ice Sheet
+new entry "Target_Mystic_IceSheet"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Frozen Rain
+new entry "Target_Mystic_FrozenRain"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Darkness
+new entry "Target_Mystic_Darkness"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Light
+new entry "Target_Mystic_Light"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Shadow Beasts
+new entry "Target_Mystic_ShadowBeasts"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Watery Grasp
+new entry "Target_Mystic_WateryGrasp"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Water Sphere
+new entry "Target_Mystic_WaterSphere"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Animate Water
+new entry "Target_Mystic_AnimateWater"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Whirlwind
+new entry "Target_Mystic_Whirlwind"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Thunder Clap
+new entry "Target_Mystic_ThunderClap"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Warp Weapon
+new entry "Target_Mystic_WarpWeapon"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Warp Armor
+new entry "Target_Mystic_WarpArmor"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Animate Earth
+new entry "Target_Mystic_AnimateEarth"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
