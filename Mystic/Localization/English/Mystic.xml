@@ -250,6 +250,7 @@
 	<content contentuid="h98643e69g2072g44eagae0ag594b75277bfd" version="1">Can see in the dark up to [1]</content>
 	<content contentuid="h7d11c5f8g2dc2g47c6ga64bgc7433df4bba2" version="1">Beacon</content>
 	<content contentuid="haa9ee987g1bd1g402dg92b9g8d99e1c7d9d3" version="1">Infuse yourself with light.</content>
+	<content contentuid="h36e02f3agba47g4e95g8a0eg9148c31332ca" version="1">Infused with light.</content>
 	<content contentuid="h0cdc84a9gaafag4ecag9c13g96d60ca628f6" version="1">Blade Meld</content>
 	<content contentuid="h0cad1e6eg02c0g44aag941egbaf5b084f27a" version="1">Your weapon becomes one with your hand, preventing you from being Disarmed.</content>
 	<content contentuid="hf925d812g1888g43fcg868egb9a8bfc1dd34" version="1">Immune to being Disarmed.</content>
@@ -259,24 +260,24 @@
 	<content contentuid="h69702fa4g7d0eg4eddg8905g30ea92e807a7" version="1">Delusion</content>
 	<content contentuid="h98989d17g4f6fg4f98gaa46g1e00dab9a8a8" version="1">Plant a false belief in the targeted area, summoning a simulacrum that compels nearby creatures to investigate.</content>
 	<content contentuid="h03963472g0f58g4428ga1e0gd7c4a7133c56" version="1">Energy Beam</content>
-	<content contentuid="h3ff3c148g722cg44edga1cbgec3a9f65a43f" version="1">Blast a creature with a chromatic beam of energy, dealing [1].</content>
+	<content contentuid="h3ff3c148g722cg44edga1cbgec3a9f65a43f" version="1">Blast a creature with a chromatic beam of energy</content>
 	<content contentuid="h29b79265g1a6cg44b5g9eefg01609d146fa2" version="1">Light Step</content>
-	<content contentuid="hfa7ee91eg9616g4227gbccfg77a694d0c7d9" version="1">Alter your weight and density, increasing your movement speed by 3m and becoming immune to Prone.</content>
-	<content contentuid="h7d02b3fdge32eg4391g8fefgfb07f0598425" version="1">Movement speed increased by 3m. Immune to Prone.</content>
+	<content contentuid="hfa7ee91eg9616g4227gbccfg77a694d0c7d9" version="1">Alter your weight and density, increasing your movement speed by [1] and becoming immune to &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
+	<content contentuid="h7d02b3fdge32eg4391g8fefgfb07f0598425" version="1">Movement speed increased by [1]. Immune to &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
 	<content contentuid="h115ff01cg11ceg4134ga89cgf2206ad26123" version="1">Mind Meld</content>
 	<content contentuid="h04a93477g9186g4cc3g8961gcc7b002ea492" version="1">Fuse your mind with another creature's, reducing your stats by 1 and increasing theirs by the same amount.</content>
 	<content contentuid="h211147b3ge4e6g420fg9e53g4e36d045fef1" version="1">All stats increased by 1.</content>
 	<content contentuid="h0e62824ag55abg406fgaae4g3510777914fb" version="1">All stats reduced by 1.</content>
 	<content contentuid="hadd304dfg366fg47dbg9a72gc2112bbf47af" version="1">Mind Slam</content>
-	<content contentuid="h5e5f3870gd2dag4145gad7dgb85666eeaeda" version="1">Exert a burst of energy at a creature, dealing [1] and knocking them Prone.</content>
+	<content contentuid="h5e5f3870gd2dag4145gad7dgb85666eeaeda" version="1">Knock target creature &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
 	<content contentuid="hc7a42dbbg971cg4b9ag82a5g01a615622ab0" version="1">Mind Thrust</content>
-	<content contentuid="h9d1307c4g4a0ag422bgb452g12625d7d38c4" version="1">Strike directly at an enemy's mind, dealing [1].</content>
+	<content contentuid="h9d1307c4g4a0ag422bgb452g12625d7d38c4" version="1">Strike directly at a creature's mind.</content>
 	<content contentuid="hea39d4d9g5696g42f7g9ea9gbd849ece6730" version="1">Mystic Charm</content>
 	<content contentuid="h66deb445g9729g4f87g87f1g30d2ed3157db" version="1">Beguile a humanoid, possibly Charming them.</content>
 	<content contentuid="h306c254cg48bcg46feg984agabe87c3bf315" version="1">Mystic Hand</content>
 	<content contentuid="he3754524g8719g427cgba62g073a2634a38d" version="1">Manipulate objects with your mind.</content>
 	<content contentuid="h763d76bag48d9g4037ga829gcb30b54ca333" version="1">Psychic Hammer</content>
-	<content contentuid="hd3caa123g62c2g4f1bgad5eg15d6f49b3258" version="1">Push or pull an enemy and deal [1].</content>
+	<content contentuid="hd3caa123g62c2g4f1bgad5eg15d6f49b3258" version="1">Push or pull a creature [1].</content>
 	<content contentuid="" version="1"></content>
 	<content contentuid="" version="1"></content>
 	<content contentuid="" version="1"></content>

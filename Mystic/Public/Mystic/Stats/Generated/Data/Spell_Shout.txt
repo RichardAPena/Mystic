@@ -68,6 +68,7 @@ data "SpellType" "Shout"
 data "Icon" "Spell_Evocation_Light"
 data "DisplayName" "h29b79265g1a6cg44b5g9eefg01609d146fa2"
 data "Description" "hfa7ee91eg9616g4227gbccfg77a694d0c7d9"
+data "DescriptionParams" "Distance(3)"
 
 data "TargetConditions" "Self()"
 data "SpellProperties" "ApplyStatus(MYSTIC_LIGHT_STEP,100, 10)"
