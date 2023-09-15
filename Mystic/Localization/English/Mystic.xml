@@ -96,157 +96,158 @@
 	<content contentuid="h55ef0306g5c7eg4833ga6f1gdd3c638797c1" version="1">You create a third, psychic eye in your mind, which you cast out into the world. It channels thoughts and knowledge back to you, greatly enhancing your senses.</content>
 	<content contentuid="h87f919e0g263bg4fa2gaa30ge33328cc8988" version="1">Psychic Focus: Adaptive Body</content>
 	<content contentuid="hdf7c6b06ga9f7g4bcdgb3f2gec16ba0b6112" version="1">Increase carrying capacity by half.</content>
-	<content contentuid="h526b95d1g0efdg4969g8802gd5dad3fb875c" version="1">Carrying capacity increased by half.</content>
+	<content contentuid="h526b95d1g0efdg4969g8802gd5dad3fb875c" version="1">Carrying capacity is increased by half.</content>
 	<content contentuid="h5839a136ga1fcg4746ga727gae132fe1e185" version="1">Psychic Focus: Aura Sight</content>
-	<content contentuid="hbbdb113egf5f0g4c1eg8f27g53b741a35f59" version="1">Gain Advantage on Insight checks.</content>
-	<content contentuid="h457c4470g04f6g4494gbe55gca1bf48c8345" version="1">Advantage on Insight checks.</content>
+	<content contentuid="hbbdb113egf5f0g4c1eg8f27g53b741a35f59" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Insight &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="h457c4470g04f6g4494gbe55gca1bf48c8345" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Insight &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="h8f18ccb2gadc2g43dcgaaf4g8dedefaebc98" version="1">Psychic Focus: Bestial Form</content>
-	<content contentuid="h79f8fbc2gb4a1g46edgbad5gef9933da9ee6" version="1">Gain Advantage on Animal Handling checks.</content>
-	<content contentuid="h6ad83d69g3615g4834gb5bfg00e832fa9a8b" version="1">Advantage on Animal Handling checks.</content>
+	<content contentuid="h79f8fbc2gb4a1g46edgbad5gef9933da9ee6" version="1">Gain  &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Animal Handling &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="h6ad83d69g3615g4834gb5bfg00e832fa9a8b" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Animal Handling &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="hcc96d16eg01ffg4dd0g8955gf0ac775a1cc8" version="1">Psychic Focus: Brute Force</content>
-	<content contentuid="he6b411efg1e0fg4998g80f3ga0228ad040d9" version="1">Gain Advantage in Athletics checks.</content>
-	<content contentuid="hafcd2a8eg444cg4c00gbbf3ga580261bcbe7" version="1">Advantage in Athletics checks.</content>
+	<content contentuid="he6b411efg1e0fg4998g80f3ga0228ad040d9" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Athletics &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="hafcd2a8eg444cg4c00gbbf3ga580261bcbe7" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Athletics &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="h4e436234gb796g4e55g8a16ga00514a30db1" version="1">Psychic Focus: Celerity</content>
-	<content contentuid="ha7e7eec0g43c0g4a14gb002g2d0b699d5a87" version="1">Increase movement speed by 3m.</content>
-	<content contentuid="h9562d071g198cg4a56gb474g987aff4fb156" version="1">Movement speed by increased by 3m.</content>
+	<content contentuid="ha7e7eec0g43c0g4a14gb002g2d0b699d5a87" version="1">Increase your movement speed by [1].</content>
+	<content contentuid="h9562d071g198cg4a56gb474g987aff4fb156" version="1">Movement speed by increased by [1].</content>
 	<content contentuid="hae4c18a2g5a37g4a1dg9b81g949582877bc2" version="1">Psychic Focus: Corrosive Metabolism</content>
-	<content contentuid="h2cabd8d4gd7e2g489fg9a82g048990cb823a" version="1">Gain Resistance to Poison and Acid damage.</content>
-	<content contentuid="h8eb7016ag1bd1g4ad0g8c9fg390c56acf5b1" version="1">Resistant to Poison and Acid damage.</content>
+	<content contentuid="h2cabd8d4gd7e2g489fg9a82g048990cb823a" version="1">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Poison and Acid damage.</content>
+	<content contentuid="h8eb7016ag1bd1g4ad0g8c9fg390c56acf5b1" version="1">&lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Poison and Acid damage.</content>
 	<content contentuid="h7b2c11ccg4d95g43f5g8966gec84ea188076" version="1">Psychic Focus: Crown of Despair</content>
-	<content contentuid="h1a80e147gbd7bg4d18g8f86gf4e3c24edd1d" version="1">Gain Advantage in Intimidation checks.</content>
-	<content contentuid="h3a6b7459gfdbdg4939g970bgfb8247e79389" version="1">Advantage in Intimidation checks.</content>
+	<content contentuid="h1a80e147gbd7bg4d18g8f86gf4e3c24edd1d" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Intimidation &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="h3a6b7459gfdbdg4939g970bgfb8247e79389" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Intimidation &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="hd7562d04g720dg4097gb65dg7f9ab079d8db" version="1">Psychic Focus: Crown of Disgust</content>	
-	<content contentuid="h6f45c269gddd9g45edgae6egee9f5f83f1a6" version="1">Enemies within 3m are in Difficult Terrain unless they are immune to being Frightened.</content>
+	<content contentuid="h6f45c269gddd9g45edgae6egee9f5f83f1a6" version="1">Enemies within [1] are in &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt; unless they are &lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to being &lt;LSTag Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;.</content>
 	<content contentuid="hd9700ae9gc8cdg421cg8f85gc5e8673f9f41" version="1">Psychic Focus: Crown of Rage</content>
-	<content contentuid="h9ce8a3c5g8d06g41a7ga8b5gda99498fa689" version="1">Melee attacks against you will have Disadvantage.</content>
-	<content contentuid="haa107eabge299g42dbg96bagba6e034ebc7f" version="1">Melee attacks against you have Disadvantage.</content>
+	<content contentuid="h9ce8a3c5g8d06g41a7ga8b5gda99498fa689" version="1">Melee attacks against you will have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
+	<content contentuid="haa107eabge299g42dbg96bagba6e034ebc7f" version="1">Melee attacks against you have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
 	<content contentuid="h04778e5bg0a6ag4f0bgbfacg3727fa39f74a" version="1">Psychic Focus: Diminution</content>
-	<content contentuid="he401e0e9g2e1ag4328ga1b5g08c49f2be20c" version="1">Gain Advantage in Stealth checks.</content>
-	<content contentuid="h80ef2293g0ac8g45deg95d4gf6aef52a25e5" version="1">Advantage in Stealth checks.</content>
+	<content contentuid="he401e0e9g2e1ag4328ga1b5g08c49f2be20c" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Stealth &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="h80ef2293g0ac8g45deg95d4gf6aef52a25e5" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Stealth &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="h516135b4g71d0g4e80gbaebg4444cfdbe1b0" version="1">Psychic Focus: Giant Growth</content>
-	<content contentuid="h45175353gf9f0g445dg911egbada7c5963a2" version="1">Increase your melee attack reach by 1.5m.</content>
-	<content contentuid="h72ec5b09g5dcag4820gae0ege21494e8da77" version="1">Melee attack reach increased by 1.5m.</content>
+	<content contentuid="h45175353gf9f0g445dg911egbada7c5963a2" version="1">Increase your melee attack reach by [1].</content>
+	<content contentuid="h72ec5b09g5dcag4820gae0ege21494e8da77" version="1">Melee attack reach increased by [1].</content>
 	<content contentuid="h19ac4e90ge0c0g47c5gb465gc1bc24d7d8a8" version="1">Psychic Focus: Intellect Fortress</content>
-	<content contentuid="hb0f88ccagdacag4244gb6b6gb359018176f5" version="1">Gain Resistance to Psychic damage.</content>
-	<content contentuid="hc39a6ad2g5f0fg41eega4a1gc18d19175a16" version="1">Resistant to Psychic damage.</content>
+	<content contentuid="hb0f88ccagdacag4244gb6b6gb359018176f5" version="1">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Psychic damage.</content>
+	<content contentuid="hc39a6ad2g5f0fg41eega4a1gc18d19175a16" version="1">&lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Psychic damage.</content>
 	<content contentuid="h5c7f152bg6c01g4ac8ga52cg934cb262ee3f" version="1">Psychic Focus: Iron Durability</content>
-	<content contentuid="h447de615g3ea8g459fg8f86g6e68427420fa" version="1">Increase your Armour Class by 1.</content>
-	<content contentuid="h4caf2c5dg58e8g4e6agbf53gddabfbd0f126" version="1">Armour Class increased by 1.</content>
+	<content contentuid="h447de615g3ea8g459fg8f86g6e68427420fa" version="1">Increase your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by 1.</content>
+	<content contentuid="h4caf2c5dg58e8g4e6agbf53gddabfbd0f126" version="1">&lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; increased by 1.</content>
 	<content contentuid="h726cffd3g5059g451egb576g4c780d6f25d8" version="1">Psychic Focus: Mantle of Awe</content>
-	<content contentuid="hc5c3d2eage8c2g4ad9gb40bg49fa398d1db0" version="1">Gain half of your Intelligence modifier as a bonus to Charisma checks.</content>
-	<content contentuid="h2992fa4fgf81bg45c1g81adge4e0e19a9c37" version="1">+X to Charisma checks.</content>
+	<content contentuid="hc5c3d2eage8c2g4ad9gb40bg49fa398d1db0" version="1">Gain half of your Intelligence modifier as a bonus to Charisma &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="h2992fa4fgf81bg45c1g81adge4e0e19a9c37" version="1">+[1] to Charisma &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="h30935e9bg9decg4089g9f85g3789939b3e6d" version="1">Psychic Focus: Mantle of Command</content>
-	<content contentuid="heb843595gc7acg4e46g9d53gd8a7b1232531" version="1">Gain the ability to cast Commander's Imperative when not moving during your turn. Doing so will set your movement speed to 0.</content>
-	<content contentuid="h8dc5ccf0g5600g4f85g9535g64e9439487ee" version="1">Able to cast Commander's Imperative.</content>
+	<content contentuid="heb843595gc7acg4e46g9d53gd8a7b1232531" version="1">Gain the ability to cast &lt;LSTag Tooltip="Target_Mystic_CommandersImperative"&gt;Commander's Imperative&lt;/LSTag&gt; when not moving during your turn. Doing so will set your movement speed to 0.</content>
+	<content contentuid="h8dc5ccf0g5600g4f85g9535g64e9439487ee" version="1">Able to cast &lt;LSTag Tooltip="Target_Mystic_CommandersImperative"&gt;Commander's Imperative&lt;/LSTag&gt;.</content>
 	<content contentuid="h8dc5ccf0g5600g4f85g9535g64e9439487ee" version="1">Psychic Focus: Mantle of Courage</content>
 	<content contentuid="had37e37egaba4g4b2fg80f2g09c29641d813" version="1">Mantle of Courage</content>
-	<content contentuid="hb830ea19gbc75g4ad6ga052g28fdd5001b4c" version="1">Allies within 3m will have Advantage against becoming Frightened.</content>
-	<content contentuid="h062aea1cgc28dg4ee0gb8d9g67bbfbf0fe68" version="1">Advantage on Saving Throws against becoming Frightened.</content>
+	<content contentuid="hb830ea19gbc75g4ad6ga052g28fdd5001b4c" version="1">Allies within [1] will have  &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; against becoming &lt;LSTag Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;.</content>
+	<content contentuid="h062aea1cgc28dg4ee0gb8d9g67bbfbf0fe68" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Saving Throws against becoming &lt;LSTag Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;.</content>
 	<content contentuid="hd1f152ebg450eg426cg8c79gfdcdfa2e0af6" version="1">Psychic Focus: Mantle of Fear</content>
-	<content contentuid="h9869cd04g7d92g4ddfg8154g0d1a448a273e" version="1">Gain Advantage on Intimidation checks.</content>
-	<content contentuid="h6e572917gc8e2g4615g9155g202b2bbe5edf" version="1">Advantage on Intimidation checks.</content>
+	<content contentuid="h9869cd04g7d92g4ddfg8154g0d1a448a273e" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Intimidation &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="h6e572917gc8e2g4615g9155g202b2bbe5edf" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Intimidation &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="hc21e69eag6aa9g4ee1ga46cg469669c0be8f" version="1">Psychic Focus: Mantle of Fury</content>
-	<content contentuid="h9959e0ddg4cc5g4ecdg9c81ge81518589673" version="1">You and allies that start their turn within 3m of you gain 1.5m movement speed for 1 turn.</content>
+	<content contentuid="h9959e0ddg4cc5g4ecdg9c81ge81518589673" version="1">You and allies that start their turn within [1] of you gain [2] movement speed for 1 turn.</content>
 	<content contentuid="hdec54f61ga1ceg422fga572ga82b4937da97" version="1">Mantle of Fury</content>
-	<content contentuid="h39a4cbe8gcca5g4b98g83d0g3c19761536e1" version="1">Movement speed increased by 1.5m.</content>
+	<content contentuid="h39a4cbe8gcca5g4b98g83d0g3c19761536e1" version="1">Movement speed increased by [1].</content>
 	<content contentuid="h05e31d94g7d3eg48dbg98d4gbe901caa9432" version="1">Psychic Focus: Mantle of Joy</content>
-	<content contentuid="h6c0cdbd6ge6cfg4d77gaf79gd9a53d3685c1" version="1">Gain Advantage on Persuasion checks.</content>
-	<content contentuid="ha54972cfg3b1eg49a7ga1ddg7fc587806d15" version="1">Advantage on Persuasion checks.</content>
+	<content contentuid="h6c0cdbd6ge6cfg4d77gaf79gd9a53d3685c1" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Persuasion &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="ha54972cfg3b1eg49a7ga1ddg7fc587806d15" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Persuasion &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="h4e5b72e2gfe9dg40e9g82e5g7a6c3b4eb989" version="1">Psychic Focus: Mastery of Air</content>
-	<content contentuid="he4faefc0g6316g4f42g832eg99114be97567" version="1">Gain immunity to Falling damage and Difficult Terrain.</content>
-	<content contentuid="h3feb34c9g880dg4f8fg8938g8e6f6674699b" version="1">Immune to Falling damage and Difficult Terrain.</content>
+	<content contentuid="he4faefc0g6316g4f42g832eg99114be97567" version="1">Gain &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; to Falling damage and &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;.</content>
+	<content contentuid="h3feb34c9g880dg4f8fg8938g8e6f6674699b" version="1">&lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to Falling damage and &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;.</content>
 	<content contentuid="hf2b6660bg3cfcg4eefg8611g9f378dd91929" version="1">Psychic Focus: Mastery of Fire</content>
-	<content contentuid="hc0073d70g872fg4b87gba91g5598879e0fae" version="1">Gain Resistance to Fire damage and +2 bonus to damage rolls.</content>
-	<content contentuid="h3049c887ga7d4g4736gb860g0feb22ac3156" version="1">Resistant to Fire damage. +2 to damage rolls.</content>
+	<content contentuid="hc0073d70g872fg4b87gba91g5598879e0fae" version="1">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Fire damage and +2 bonus to damage rolls.</content>
+	<content contentuid="h3049c887ga7d4g4736gb860g0feb22ac3156" version="1">&lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Fire damage. Has +2 to damage rolls.</content>
 	<content contentuid="hefc6edb7g8af4g4a62g8b99g694941d8d2ed" version="1">Psychic Focus: Mastery of Force</content>
-	<content contentuid="h36ae4602g3a57g4af9g88dcg9c881845c9dc" version="1">Gain Advantage on Strength checks.</content>
-	<content contentuid="hbbb23703gbf6cg4fe3g9f3bg90a264b95be1" version="1">Advantage on Strength checks.</content>
+	<content contentuid="h36ae4602g3a57g4af9g88dcg9c881845c9dc" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Strength &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="hbbb23703gbf6cg4fe3g9f3bg90a264b95be1" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Strength &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="h20c1a9c4g4f6dg4aa5g8faegea2786505715" version="1">Psychic Focus: Mastery of Ice</content>
-	<content contentuid="hb9bfcbfbg78f3g461bg9350g294fbb341cc5" version="1">Gain Resistance to Cold damage and become unable to fall Prone on ice surfaces.</content>
-	<content contentuid="h189fc1a6g1be8g4953ga80egcf0eebe1c6de" version="1">Resistant to Cold damage. Unable to fall Prone on ice surfaces.</content>
+	<content contentuid="hb9bfcbfbg78f3g461bg9350g294fbb341cc5" version="1">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Cold damage and become unable to fall &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; on ice surfaces.</content>
+	<content contentuid="h189fc1a6g1be8g4953ga80egcf0eebe1c6de" version="1">&lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Cold damage. Unable to fall &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; on ice surfaces.</content>
 	<content contentuid="h5f302c85g8c88g4dc9gb0b8g398014aab337" version="1">Psychic Focus: Mastery of Light and Darkness</content>
-	<content contentuid="h1906964ag5eb2g45dagb142g2aaef9725184" version="1">Gain immunity to Darkness.</content>
-	<content contentuid="h0110a29ega524g4cd9g809fg274095556bfb" version="1">Immune to Darkness.</content>
+	<content contentuid="h1906964ag5eb2g45dagb142g2aaef9725184" version="1">Gain &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; to Darkness.</content>
+	<content contentuid="h0110a29ega524g4cd9g809fg274095556bfb" version="1">&lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to Darkness.</content>
 	<content contentuid="h751bb8ceg0e61g4f4agb2c5g4dc758374e2c" version="1">Psychic Focus: Mastery of Water</content>
-	<content contentuid="hbfc2cddbg19b2g4c02ga218g51d3cb28c621" version="1">Gain Resistance to Fire and become able to traverse water-based surfaces unimpeded.</content>
-	<content contentuid="hbde3cd99g13f5g4458ga094g930039f93b66" version="1">Resistant to Fire damage. Able to traverse water-based surfaces unimpeded.</content>
+	<content contentuid="hbfc2cddbg19b2g4c02ga218g51d3cb28c621" version="1">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Fire and become able to traverse water-based surfaces unimpeded.</content>
+	<content contentuid="hbde3cd99g13f5g4458ga094g930039f93b66" version="1">&lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Fire damage. Able to traverse water-based surfaces unimpeded.</content>
 	<content contentuid="ha53f4a0fg37e9g4dbega38fg04249d92d872" version="1">Psychic Focus: Mastery of Weather</content>
-	<content contentuid="h946afa6dg2391g43bdg8b92gc79628178f02" version="1">Gain Resistance to Lightning and Thunder damage.</content>
-	<content contentuid="h0e91a3a2gbf6ag4cbbgae2dgde3bfbed1cf9" version="1">Resistant to Lightning and Thunder damage.</content>
+	<content contentuid="h946afa6dg2391g43bdg8b92gc79628178f02" version="1">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Lightning and Thunder damage.</content>
+	<content contentuid="h0e91a3a2gbf6ag4cbbgae2dgde3bfbed1cf9" version="1">&lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Lightning and Thunder damage.</content>
 	<content contentuid="h8b1012e5g49c0g4f73g80c0gf48ef559354b" version="1">Psychic Focus: Mastery of Wood and Earth</content>
-	<content contentuid="h169b1e54g4babg40efg829bg8567e4cbc641" version="1">Increase your Armour Class by 1.</content>
-	<content contentuid="h065bc831g06ecg4b9dgb9c3g51bc2fe08cb0" version="1">Armour Class increased by 1.</content>
+	<content contentuid="h169b1e54g4babg40efg829bg8567e4cbc641" version="1">Increase your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by 1.</content>
+	<content contentuid="h065bc831g06ecg4b9dgb9c3g51bc2fe08cb0" version="1">&lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; increased by 1.</content>
 	<content contentuid="hc7e29d53g3ebcg47b5g8e62gc0eef01fa7d0" version="1">Psychic Focus: Nomadic Arrow</content>
-	<content contentuid="h356fa408gfff8g46adg9497gacbd4660ec50" version="1">Your ranged weapon attacks ignore Disadvantage. If Disadvantage would normally apply to the roll, it cannot gain Advantage.</content>
-	<content contentuid="hca14baebg02c9g40a5g8eabgb35e9956e0bd" version="1">Weapon attack rolls cannot suffer Disadvantage. Weapon attack rolls that would normally have Disadvantage can't gain Advantage.</content>
+	<content contentuid="h356fa408gfff8g46adg9497gacbd4660ec50" version="1">Your ranged weapon attacks ignore &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;. If &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; would normally apply to the roll, it cannot gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
+	<content contentuid="hca14baebg02c9g40a5g8eabgb35e9956e0bd" version="1">Weapon attack rolls cannot suffer &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;. Weapon attack rolls that would normally have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; can't gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
 	<content contentuid="h1d1b7109gd26dg4c56g8f66g086fbe2c0f85" version="1">Psychic Focus: Nomadic Chameleon</content>
-	<content contentuid="ha9772555gdf2fg4af3gbfcfgfd19583b096b" version="1">Gain Advantage on Stealth checks.</content>
-	<content contentuid="hfa7f9479g9ebeg429bg8e47g51703175ea4d" version="1">Advantage on Stealth checks.</content>
-	<content contentuid="" version="1">Psychic Focus: Nomadic Mind</content>
-	<content contentuid="" version="1">Gain Proficiency in a skill of your choice.</content>
-	<content contentuid="" version="1">Gain Proficiency in Athletics.</content>
-	<content contentuid="" version="1">Proficient in Athletics.</content>
-	<content contentuid="" version="1">Gain Proficiency in Acrobatics.</content>
-	<content contentuid="" version="1">Proficient in Acrobatics.</content>
-	<content contentuid="" version="1">Gain Proficiency in Sleight of Hand.</content>
-	<content contentuid="" version="1">Proficient in Sleight of Hand.</content>
-	<content contentuid="" version="1">Gain Proficiency in Stealth.</content>
-	<content contentuid="" version="1">Proficient in Stealth.</content>
-	<content contentuid="" version="1">Gain Proficiency in Arcana.</content>
-	<content contentuid="" version="1">Proficient in Arcana.</content>
-	<content contentuid="" version="1">Gain Proficiency in History.</content>
-	<content contentuid="" version="1">Proficient in History.</content>
-	<content contentuid="" version="1">Gain Proficiency in Investigation.</content>
-	<content contentuid="" version="1">Proficient in Investigation.</content>
-	<content contentuid="" version="1">Gain Proficiency in Nature.</content>
-	<content contentuid="" version="1">Proficient in Nature.</content>
-	<content contentuid="" version="1">Gain Proficiency in Religion.</content>
-	<content contentuid="" version="1">Proficient in Religion.</content>
-	<content contentuid="" version="1">Gain Proficiency in Animal Handling.</content>
-	<content contentuid="" version="1">Proficient in Animal Handling.</content>
-	<content contentuid="" version="1">Gain Proficiency in Insight.</content>
-	<content contentuid="" version="1">Proficient in Insight.</content>
-	<content contentuid="" version="1">Gain Proficiency in Medicine.</content>
-	<content contentuid="" version="1">Proficient in Medicine.</content>
-	<content contentuid="" version="1">Gain Proficiency in Perception.</content>
-	<content contentuid="" version="1">Proficient in Perception.</content>
-	<content contentuid="" version="1">Gain Proficiency in Survival.</content>
-	<content contentuid="" version="1">Proficient in Survival.</content>
-	<content contentuid="" version="1">Gain Proficiency in Deception.</content>
-	<content contentuid="" version="1">Proficient in Deception.</content>
-	<content contentuid="" version="1">Gain Proficiency in Intimidation.</content>
-	<content contentuid="" version="1">Proficient in Intimidation.</content>
-	<content contentuid="" version="1">Gain Proficiency in Performance</content>
-	<content contentuid="" version="1">Proficient in Performance.</content>
-	<content contentuid="" version="1">Gain Proficiency in Persuasion.</content>
-	<content contentuid="" version="1">Proficient in Persuasion.</content>
-	<content contentuid="" version="1">Psychic Focus: Nomadic Step</content>
-	<content contentuid="" version="1">Once per turn, increase your movement speed by 3m after teleporting.</content>
-	<content contentuid="" version="1">After teleporting, increase movement speed by 3m.</content>
-	<content contentuid="" version="1">Movement speed increased by 3m.</content>
-	<content contentuid="" version="1">Psychic Focus: Precognition</content>
-	<content contentuid="" version="1">Gain a +3 bonus to Initiative.</content>
-	<content contentuid="" version="1">+3 to Initiave.</content>
-	<content contentuid="" version="1">Psychic Focus: Psionic Restoration</content>
-	<content contentuid="" version="1">When restoring health with a psionic talent or discipline, restore 2 an additional 2 health.</content>
-	<content contentuid="" version="1">Psionic talents and disciplines heal for 2 more.</content>
-	<content contentuid="" version="1">Psychic Focus: Psionic Weapon</content>
-	<content contentuid="" version="1">Unarmed and weapon damage rolls count as magical for the purpose of bypassing enemies' resistance to physical damage.</content>
-	<content contentuid="" version="1">Psychic Focus: Psychic Assault</content>
-	<content contentuid="" version="1">Gain a +2 bonus to damage rolls with psionic talents that deal Psychic damage.</content>
-	<content contentuid="" version="1">+2 to damage rolls with psionic talents that deal Psychic damage.</content>
-	<content contentuid="" version="1">Psychic Focus: Psychic Disruption</content>
-	<content contentuid="" version="1">Gain Advantage on Deception checks.</content>
-	<content contentuid="" version="1">Advantage on Deception checks.</content>
-	<content contentuid="" version="1">Psychic Focus: Psychic Suppression</content>
-	<content contentuid="" version="1">TODO: PSYCHIC SUPPRESSION DESCRIPTION 1</content>
-	<content contentuid="" version="1">TODO: PSYCHIC SUPPRESSION DESCRIPTION 2</content>
-	<content contentuid="" version="1">Psychic Focus: Telepathic Subjugation</content>
-	<content contentuid="" version="1">TODO: TELEPATHIC SUBJUGATION DESCRIPTION 1</content>
-	<content contentuid="" version="1">TODO: TELEPATHIC SUBJUGATION DESCRIPTION 2</content>
-	<content contentuid="" version="1">Psychic Focus: Third Eye</content>
-	<content contentuid="" version="1">Gain 12m of Darkvision.</content>
-	<content contentuid="" version="1">Has 12m of Darkvision.</content>
+	<content contentuid="ha9772555gdf2fg4af3gbfcfgfd19583b096b" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Stealth &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="hfa7f9479g9ebeg429bg8e47g51703175ea4d" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Stealth &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="hdbdfd45bg1f25g40ecg8c18g211c4bea1076" version="1">Psychic Focus: Nomadic Mind</content>
+	<content contentuid="h892cf89bg58d2g40d1gb3e3gdb2b1045c9aa" version="1">Gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in a skill of your choice.</content>
+	<content contentuid="h9d4c398egf391g4b0fg8112g2caf6da77bf2" version="1">Gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in Athletics.</content>
+	<content contentuid="hae85821cgb8c5g415egbe54gd5e2370dba00" version="1">&lt;LSTag Tooltip="&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt;"&gt;Proficient&lt;/LSTag&gt; in Athletics.</content>
+	<content contentuid="ha297c19bgbf37g46deg8b7egd362d39e73ab" version="1">Gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in Acrobatics.</content>
+	<content contentuid="hb6d7cb19g0828g4396gb623g67933a4e565f" version="1">&lt;LSTag Tooltip="&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt;"&gt;Proficient&lt;/LSTag&gt; in Acrobatics.</content>
+	<content contentuid="h95c34e2bg1c15g4a6dg8e79g6439a1dc5a1c" version="1">Gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in Sleight of Hand.</content>
+	<content contentuid="h10724fc0g067dg4f02g9017g224fd491dcb2" version="1">&lt;LSTag Tooltip="&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt;"&gt;Proficient&lt;/LSTag&gt; in Sleight of Hand.</content>
+	<content contentuid="h5fac18c4g7147g439ag81b8g6262909b58ed" version="1">Gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in Stealth.</content>
+	<content contentuid="ha32177adg159dg4c9cga8dcgb0311611228d" version="1">&lt;LSTag Tooltip="&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt;"&gt;Proficient&lt;/LSTag&gt; in Stealth.</content>
+	<content contentuid="h406e73e3g3d83g4b35g8748g559ba0117004" version="1">Gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in Arcana.</content>
+	<content contentuid="h1f3291b9geff6g4a85g8c3eg4495ff7f7432" version="1">&lt;LSTag Tooltip="&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt;"&gt;Proficient&lt;/LSTag&gt; in Arcana.</content>
+	<content contentuid="h19709bd9g29d1g45e1ga4efg78c98723f1b5" version="1">Gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in History.</content>
+	<content contentuid="h08cc5ae2gde2cg406bg9408gcaaabbd0ba8d" version="1">&lt;LSTag Tooltip="&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt;"&gt;Proficient&lt;/LSTag&gt; in History.</content>
+	<content contentuid="hf0818eefg10d5g4ed5g92fbged8c786f6b33" version="1">Gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in Investigation.</content>
+	<content contentuid="h5241c350gd23fg47a9gba8eg948104b12405" version="1">&lt;LSTag Tooltip="&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt;"&gt;Proficient&lt;/LSTag&gt; in Investigation.</content>
+	<content contentuid="h39bacfbaga084g4c94gae1egf6ee1fc5095d" version="1">Gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in Nature.</content>
+	<content contentuid="h8d056f92ge346g4048ga960gf40fadd4fe03" version="1">&lt;LSTag Tooltip="&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt;"&gt;Proficient&lt;/LSTag&gt; in Nature.</content>
+	<content contentuid="hf76c4648g8b60g4d94g8745g4fb76d6a5bd5" version="1">Gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in Religion.</content>
+	<content contentuid="he35d65d8gd4cfg4265g8478g50925d2ae8ae" version="1">&lt;LSTag Tooltip="&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt;"&gt;Proficient&lt;/LSTag&gt; in Religion.</content>
+	<content contentuid="h3d51da7fgcaa8g4bdag8b24gb8efc7a4aa17" version="1">Gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in Animal Handling.</content>
+	<content contentuid="h475f4e8dga5f5g470fg9e0fg93c851936840" version="1">&lt;LSTag Tooltip="&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt;"&gt;Proficient&lt;/LSTag&gt; in Animal Handling.</content>
+	<content contentuid="hc4b531adg5a29g46e6gb84cgc8ceec37b0a6" version="1">Gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in Insight.</content>
+	<content contentuid="hda86f744g96aag444bg99a0g2e9c8dddb4b9" version="1">&lt;LSTag Tooltip="&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt;"&gt;Proficient&lt;/LSTag&gt; in Insight.</content>
+	<content contentuid="hb2a7bfccg6aeeg4c12g9705g64f827742709" version="1">Gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in Medicine.</content>
+	<content contentuid="h9b84032dg07c3g423ag8384g6610a4a51eef" version="1">&lt;LSTag Tooltip="&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt;"&gt;Proficient&lt;/LSTag&gt; in Medicine.</content>
+	<content contentuid="he62593dagb57cg4998g943eg7a9e3d8ce554" version="1">Gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in Perception.</content>
+	<content contentuid="hbe258c43g9a76g401eg9e1dgb0bc5c19ceb4" version="1">&lt;LSTag Tooltip="&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt;"&gt;Proficient&lt;/LSTag&gt; in Perception.</content>
+	<content contentuid="h3128e3b5g595dg4b5cg9ad2g223333d19cc0" version="1">Gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in Survival.</content>
+	<content contentuid="h79c04562gd838g465dgafc2gf953978f629b" version="1">&lt;LSTag Tooltip="&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt;"&gt;Proficient&lt;/LSTag&gt; in Survival.</content>
+	<content contentuid="hce186088g0e3fg42edga968gaebd4cf61cb0" version="1">Gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in Deception.</content>
+	<content contentuid="h97bf2ca9gced4g43d0gba21gb62815d4809b" version="1">&lt;LSTag Tooltip="&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt;"&gt;Proficient&lt;/LSTag&gt; in Deception.</content>
+	<content contentuid="hbc1c2cb5g35f6g4cf5g8ac3g94e5d6193d7d" version="1">Gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in Intimidation.</content>
+	<content contentuid="h8bb83f65g3f66g4576g8c5agf58ad012d8a8" version="1">&lt;LSTag Tooltip="&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt;"&gt;Proficient&lt;/LSTag&gt; in Intimidation.</content>
+	<content contentuid="h5f5f36b9g432fg4b6bg8ce9g1c1cb879b86f" version="1">Gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in Performance</content>
+	<content contentuid="h76ecf2ffgca6eg4849gbb90gda2231e300ef" version="1">&lt;LSTag Tooltip="&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt;"&gt;Proficient&lt;/LSTag&gt; in Performance.</content>
+	<content contentuid="h09b8fe6cgfcadg4974gade6g97ea9ead94b0" version="1">Gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in Persuasion.</content>
+	<content contentuid="h93fc80d0g8ce6g4fd3g9c64g79c531ca403c" version="1">&lt;LSTag Tooltip="&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt;"&gt;Proficient&lt;/LSTag&gt; in Persuasion.</content>
+	<content contentuid="h725fca70g880fg4d25g8e09g18a16659c4aa" version="1">Psychic Focus: Nomadic Step</content>
+	<content contentuid="hc115861fg145cg452bg8bd3g2d25b1484684" version="1">Once per turn, increase your movement speed by [1] after teleporting.</content>
+	<content contentuid="hf2da775dge311g4bbfg868dg18d69963f3b1" version="1">After teleporting, increase movement speed by [1].</content>
+	<content contentuid="h8bb006fag44e8g45b2g9d8fg71efa52f75b4" version="1">Nomadic Step</content>
+	<content contentuid="hae23a909g3456g4fa2gac4ag07ca17d6c2dd" version="1">Movement speed increased by [1].</content>
+	<content contentuid="hdd6e2842g5f17g4afdga05bgd6c06af239e4" version="1">Psychic Focus: Precognition</content>
+	<content contentuid="h1aa1d8d3g4517g4b48gb0f3g6ce81030984b" version="1">Gain a +3 bonus to Initiative.</content>
+	<content contentuid="h0bec5880g57b5g4588g9aa6g66e689b94dfd" version="1">+3 to Initiave.</content>
+	<content contentuid="hbcffa9bfg56dbg49b5g89fcg6abd61d5dcd6" version="1">Psychic Focus: Psionic Restoration</content>
+	<content contentuid="h5d0405edgfb54g4cb3ga726g1027a04acdf9" version="1">When casting a healing psionic discipline, the target regains an additional 2 &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;.</content>
+	<content contentuid="h614de249g73b3g41cdg9887gba59864e91e2" version="1">Psionic disciplines restore an additional 2 &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;.</content>
+	<content contentuid="h3a13dfd6g7b96g419bg95b5g255af4148d7b" version="1">Psychic Focus: Psionic Weapon</content>
+	<content contentuid="h302d10ecg7f3cg4b97gba4fgb0853ab32168" version="1">Unarmed and weapon damage rolls count as magical for the purpose of bypassing enemies' resistance to physical damage.</content>
+	<content contentuid="he07c3361g4749g4ea6gb302g7728bec50281" version="1">Psychic Focus: Psychic Assault</content>
+	<content contentuid="h984f00fcgcfadg4bb1gb996g2283fb48139c" version="1">Gain a +2 bonus to damage rolls with psionic talents that deal Psychic damage.</content>
+	<content contentuid="h14f88da9g40e0g4b28g92e3g7a311387e805" version="1">+2 to damage rolls with psionic talents that deal Psychic damage.</content>
+	<content contentuid="h76a3d120g6ef0g46aegaa3bg78b1c85f1875" version="1">Psychic Focus: Psychic Disruption</content>
+	<content contentuid="h40f05e1fgacd7g4ba2gaad9g0d630594f822" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Deception &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="hced1892egf4efg429bg9617gd1919319dab7" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Deception &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="h5e97d2e0g91ffg4197gaf37g61ce815a6a01" version="1">Psychic Focus: Psychic Suppression</content>
+	<content contentuid="h33f6e466g1369g493dgae15gd2f8882d8c7c" version="1">TODO: PSYCHIC SUPPRESSION DESCRIPTION 1</content>
+	<content contentuid="h573ce019g24e2g4afbg98fdga7098e625410" version="1">TODO: PSYCHIC SUPPRESSION DESCRIPTION 2</content>
+	<content contentuid="he9dd3d0ag15f4g49fegaa51gfa289381c51f" version="1">Psychic Focus: Telepathic Subjugation</content>
+	<content contentuid="h8ee396fdg45cag4e39g92e9g9f4eb142326b" version="1">TODO: TELEPATHIC SUBJUGATION DESCRIPTION 1</content>
+	<content contentuid="hf1f7cbd5g230bg40d0g87a6g2a2cf90c4ab7" version="1">TODO: TELEPATHIC SUBJUGATION DESCRIPTION 2</content>
+	<content contentuid="h038f2a55gf66eg467egb1a8g99b7fb49a149" version="1">Psychic Focus: Third Eye</content>
+	<content contentuid="h8e4b6e52gdfffg4f5bg998fg8f6856453fd7" version="1">Gain [1] of Darkvision.</content>
+	<content contentuid="h98643e69g2072g44eagae0ag594b75277bfd" version="1">Can see in the dark up to [1]</content>
 	<content contentuid="" version="1"></content>
 	<content contentuid="" version="1"></content>
 	<content contentuid="" version="1"></content>
