@@ -10,6 +10,26 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 
+// Delusion
+new entry "Target_Mystic_Delusion"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Mind Meld
+new entry "Target_Mystic_MindMeld"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
 // Mind Slam
 new entry "Target_Mystic_MindSlam"
 type "SpellData"
@@ -50,15 +70,7 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 
-// Mind Meld
-new entry "Target_Mystic_MindMeld"
-type "SpellData"
-data "SpellType" "Target"
 
-data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
-data "DescriptionParams" ""
 
 // Psionic Disciplines
 

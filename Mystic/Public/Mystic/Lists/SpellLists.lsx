@@ -13,13 +13,13 @@
                     <attribute id="UUID" type="guid" value="91202cf0-eaf4-4e5d-9f55-f45555555555"/> make a new UUID
                 </node>
                 <node id="SpellList"> TEST SPELL LIST cantrips in place of psionic talents, these are artificer cantrips
-                    <attribute id="Spells" type="LSString" value="Projectile_AcidSplash;Shout_BladeWard;Target_ChillTouch;Target_DancingLights;Projectile_FireBolt;Target_Guidance;Target_MageHand;Projectile_PoisonSpray;Target_Resistance;Projectile_RayOfFrost;Target_ShockingGrasp;Target_ThornWhip"/>
+                    <attribute id="Spells" type="LSString" value="Shout_Mystic_Beacon;Shout_Mystic_BladeMeld;Shout_Mystic_LightStep;Target_Mystic_BlindSpot;Target_Mystic_Delusion;Target_Mystic_MindMeld;Target_Mystic_MindSlam;Target_Mystic_MindThrust;Target_Mystic_MysticCharm;Target_Mystic_PsychicHammer;Projectile_Mystic_EnergyBeam;Throw_Mystic_MysticHand;Projectile_AcidSplash;Shout_BladeWard;Target_ChillTouch;Target_DancingLights;Projectile_FireBolt;Target_Guidance;Target_MageHand;Projectile_PoisonSpray;Target_Resistance;Projectile_RayOfFrost;Target_ShockingGrasp;Target_ThornWhip"/>
                     <attribute id="UUID" type="guid" value="88397df1-8417-4e1f-ba70-7935516b9225"/> USED
                 </node>
                 
                  TODO: None are implemented
                 <node id="SpellList"> Psionic Talents
-                    <attribute id="Spells" type="LSString" value="Mystic_Beacon;Mystic_BladeMeld;Mystic_BlindSpot;Mystic_Delusion;Mystic_EnergyBeam;Mystic_LightStep;Mystic_MindMeld;Mystic_MindSlam;Mystic_MindThrust;Mystic_MysticCharm;Mystic_MysticHand;Mystic_PsychicHammer"/>
+                    <attribute id="Spells" type="LSString" value="Shout_Mystic_Beacon;Shout_Mystic_BladeMeld;Shout_Mystic_LightStep;Target_Mystic_BlindSpot;Target_Mystic_Delusion;Target_Mystic_MindMeld;Target_Mystic_MindSlam;Target_Mystic_MindThrust;Target_Mystic_MysticCharm;Target_Mystic_PsychicHammer;Projectile_Mystic_EnergyBeam;Throw_Mystic_MysticHand;"/>
                     <attribute id="UUID" type="guid" value="7b64aaca-d5e5-4555-9df3-a19bb13b5008"/>
                 </node>
 			</children>

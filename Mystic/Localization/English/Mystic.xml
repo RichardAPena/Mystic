@@ -165,8 +165,8 @@
 	<content contentuid="hb9bfcbfbg78f3g461bg9350g294fbb341cc5" version="1">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Cold damage and become unable to fall &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; on ice surfaces.</content>
 	<content contentuid="h189fc1a6g1be8g4953ga80egcf0eebe1c6de" version="1">&lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Cold damage. Unable to fall &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; on ice surfaces.</content>
 	<content contentuid="h5f302c85g8c88g4dc9gb0b8g398014aab337" version="1">Psychic Focus: Mastery of Light and Darkness</content>
-	<content contentuid="h1906964ag5eb2g45dagb142g2aaef9725184" version="1">Gain immunity to Darkness.</content>
-	<content contentuid="h0110a29ega524g4cd9g809fg274095556bfb" version="1">&lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to Darkness.</content>
+	<content contentuid="h1906964ag5eb2g45dagb142g2aaef9725184" version="1">Gain immunity to magical and non-magical Darkness.</content>
+	<content contentuid="h0110a29ega524g4cd9g809fg274095556bfb" version="1">Immune to magical and non-magical Darkness.</content>
 	<content contentuid="h751bb8ceg0e61g4f4agb2c5g4dc758374e2c" version="1">Psychic Focus: Mastery of Water</content>
 	<content contentuid="hbfc2cddbg19b2g4c02ga218g51d3cb28c621" version="1">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Fire damage and become able to traverse water-based surfaces unimpeded.</content>
 	<content contentuid="hbde3cd99g13f5g4458ga094g930039f93b66" version="1">&lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Fire damage. Able to traverse water-based surfaces unimpeded.</content>
@@ -248,18 +248,23 @@
 	<content contentuid="h038f2a55gf66eg467egb1a8g99b7fb49a149" version="1">Psychic Focus: Third Eye</content>
 	<content contentuid="h8e4b6e52gdfffg4f5bg998fg8f6856453fd7" version="1">Gain [1] of Darkvision.</content>
 	<content contentuid="h98643e69g2072g44eagae0ag594b75277bfd" version="1">Can see in the dark up to [1]</content>
-	<content contentuid="" version="1"></content>
-	<content contentuid="" version="1"></content>
-	<content contentuid="" version="1"></content>
-	<content contentuid="" version="1"></content>
-	<content contentuid="" version="1"></content>
-	<content contentuid="" version="1"></content>
-	<content contentuid="" version="1"></content>
-	<content contentuid="" version="1"></content>
-	<content contentuid="" version="1"></content>
-	<content contentuid="" version="1"></content>
-	<content contentuid="" version="1"></content>
-	<content contentuid="" version="1"></content>
+	<content contentuid="h7d11c5f8g2dc2g47c6ga64bgc7433df4bba2" version="1">Beacon</content>
+	<content contentuid="haa9ee987g1bd1g402dg92b9g8d99e1c7d9d3" version="1">Infuse yourself with light.</content>
+	<content contentuid="h0cdc84a9gaafag4ecag9c13g96d60ca628f6" version="1">Blade Meld</content>
+	<content contentuid="h0cad1e6eg02c0g44aag941egbaf5b084f27a" version="1">Your weapon becomes one with your hand, preventing you from being Disarmed.</content>
+	<content contentuid="hf925d812g1888g43fcg868egb9a8bfc1dd34" version="1">Immune to being Disarmed.</content>
+	<content contentuid="" version="1">Blind Spot</content>
+	<content contentuid="" version="1">Delusion</content>
+	<content contentuid="" version="1">Energy Beam</content>
+	<content contentuid="h29b79265g1a6cg44b5g9eefg01609d146fa2" version="1">Light Step</content>
+	<content contentuid="hfa7ee91eg9616g4227gbccfg77a694d0c7d9" version="1">Alter your weight and density, increasing your movement speed by 3m and becoming immune to Prone.</content>
+	<content contentuid="h7d02b3fdge32eg4391g8fefgfb07f0598425" version="1">Movement speed increased by 3m. Immune to Prone.</content>
+	<content contentuid="" version="1">Mind Meld</content>
+	<content contentuid="" version="1">Mind Slam</content>
+	<content contentuid="" version="1">Mind Thrust</content>
+	<content contentuid="" version="1">Mystic Charm</content>
+	<content contentuid="" version="1">Mystic Hand</content>
+	<content contentuid="" version="1">Psychic Hammer</content>
 	<content contentuid="" version="1"></content>
 	<content contentuid="" version="1"></content>
 	<content contentuid="" version="1"></content>

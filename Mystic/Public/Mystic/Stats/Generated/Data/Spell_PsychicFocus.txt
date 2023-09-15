@@ -1,7 +1,4 @@
-// There's too many of these
-// TODO: Every spell has the same VFX, SFX and animation as Thaumaturgy
-// And icon xd
-
+// TODO: Everything is Thaumaturgy
 // Adaptive Body
 new entry "Shout_Mystic_PsychicFocus_AdaptiveBody"
 type "SpellData"
@@ -876,31 +873,29 @@ new entry "Shout_Mystic_PsychicFocus_NomadicMind"
 type "SpellData"
 data "SpellType" "Shout"
 data "ContainerSpells" "Shout_Mystic_PsychicFocus_NomadicMind_Athletics;Shout_Mystic_PsychicFocus_NomadicMind_Acrobatics;Shout_Mystic_PsychicFocus_NomadicMind_SleightOfHand;Shout_Mystic_PsychicFocus_NomadicMind_Stealth;Shout_Mystic_PsychicFocus_NomadicMind_Arcana;Shout_Mystic_PsychicFocus_NomadicMind_History;Shout_Mystic_PsychicFocus_NomadicMind_Investigation;Shout_Mystic_PsychicFocus_NomadicMind_Nature;Shout_Mystic_PsychicFocus_NomadicMind_Religion;Shout_Mystic_PsychicFocus_NomadicMind_AnimalHandling;Shout_Mystic_PsychicFocus_NomadicMind_Insight;Shout_Mystic_PsychicFocus_NomadicMind_Medicine;Shout_Mystic_PsychicFocus_NomadicMind_Perception;Shout_Mystic_PsychicFocus_NomadicMind_Survival;Shout_Mystic_PsychicFocus_NomadicMind_Deception;Shout_Mystic_PsychicFocus_NomadicMind_Intimidation;Shout_Mystic_PsychicFocus_NomadicMind_Performance;Shout_Mystic_PsychicFocus_NomadicMind_Persuasion"
+data "AIFlags" "CanNotUse"
+data "TargetConditions" "Self()"
+data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "DisplayName" "hdbdfd45bg1f25g40ecg8c18g211c4bea1076"
 data "Description" "h892cf89bg58d2g40d1gb3e3gdb2b1045c9aa"
+data "SpellStyleGroup" "Class"
 data "DescriptionParams" ""
-data "Icon" "Spell_Transmutation_Thaumaturgy"
+data "CastTextEvent" "Cast"
+data "UseCosts" "BonusActionPoint:1"
+data "VerbalIntent" "Buff"
+data "SpellFlags" "IsLinkedSpellContainer"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
 
-data "SpellContainerID" "Shout_Mystic_PsychicFocus_NomadicMind"
 data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_NOMADIC_MIND,100,-1)"
-data "TargetConditions" "Self()"
 data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_NOMADIC_MIND,100,-1)"
 
 data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
 data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
-data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
 data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
 data "PreviewCursor" "Cast"
-data "CastTextEvent" "Cast"
-
-data "UseCosts" "BonusActionPoint:1"
-
-data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
-data "VerbalIntent" "Buff"
-data "SpellStyleGroup" "Class"
-data "SpellFlags" "IsSpell;IsLinkedSpellContainer"
-data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
-data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
 
 new entry "Shout_Mystic_PsychicFocus_NomadicMind_Athletics"
 type "SpellData"
@@ -913,6 +908,7 @@ data "ContainerSpells" ""
 data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_NOMADIC_MIND_ATHLETICS,100,-1)"
 data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_NOMADIC_MIND_ATHLETICS,100,-1)"
 data "SpellFlags" ""
+data "SpellStyleGroup" "Class"
 
 new entry "Shout_Mystic_PsychicFocus_NomadicMind_Acrobatics"
 type "SpellData"

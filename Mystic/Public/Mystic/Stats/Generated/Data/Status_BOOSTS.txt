@@ -1,5 +1,4 @@
-// Look at Modifiers to see what you can do
-// Every icon is thaumaturgy
+// TODO: Everything is Thaumaturgy
 
 // Psychic Focus: Adaptive Body
 new entry "PSYCHIC_FOCUS_ADAPTIVE_BODY"
@@ -86,7 +85,6 @@ data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" ""
 
 // Psychic Focus: Crown of Rage
-// I think the conditions should work? Not 100% sure
 new entry "PSYCHIC_FOCUS_CROWN_OF_RAGE"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -146,15 +144,12 @@ type "StatusData"
 data "StatusType" "BOOST"
 data "DisplayName" "h726cffd3g5059g451egb576g4c780d6f25d8"
 data "Description" "h2992fa4fgf81bg45c1g81adge4e0e19a9c37"
-data "DescriptionParams" "IntelligenceModifier/2"
+data "DescriptionParams" "(IntelligenceModifier/2)"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "Skill(Deception, IntelligenceModifier/2);Skill(Intimidation, IntelligenceModifier/2);Skill(Performance, IntelligenceModifier/2);Skill(Persuasion, IntelligenceModifier/2)"
 
 // Psychic Focus: Mantle of Command
-// "Able to cast [Commander's Imperative] when not moving during a turn. 
-// Doing so will set your movement speed to 0."
-// [Commander's Imperative]: Increases target creature's movement speed by half.
 new entry "PSYCHIC_FOCUS_MANTLE_OF_COMMAND"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -166,7 +161,7 @@ data "Boosts" "UnlockSpell(Target_Mystic_CommandersImperative)"
 
 // Psychic Focus: Mantle of Courage
 // "Allies within 3m have Advantage against being Frightened."
-// Incomplete but should do what it's supposed to
+// TODO: Incomplete but should do what it's supposed to
 new entry "PSYCHIC_FOCUS_MANTLE_OF_COURAGE"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -265,7 +260,6 @@ data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "Advantage(Ability, Strength)"
 
 // Psychic Focus: Mastery of Ice
-// TODO: Add immunity to ice surfaces (rn u just cant proned by it)
 new entry "PSYCHIC_FOCUS_MASTERY_OF_ICE"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -276,7 +270,6 @@ data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "Resistance(Cold, Resistant);StatusImmunity(PRONE_ICE)"
 
 // Psychic Focus: Mastery of Light and Darkness
-// TODO: "Immune to Darkness."
 new entry "PSYCHIC_FOCUS_MASTERY_OF_LIGHT_AND_DARKNESS"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -284,7 +277,7 @@ data "DisplayName" "h5f302c85g8c88g4dc9gb0b8g398014aab337"
 data "Description" "h0110a29ega524g4cd9g809fg274095556bfb"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
-data "Boosts" ""
+data "Boosts" "StatusImmunity(BLINDED_DARKNESS);IgnoreSurfaceCover(SurfaceDarknessCloud)"
 
 // Psychic Focus: Mastery of Water
 new entry "PSYCHIC_FOCUS_MASTERY_OF_WATER"
@@ -515,7 +508,6 @@ data "StackId" "PSYCHIC_FOCUS_NOMADIC_STEP_BUFF"
 data "Boosts" ""
 
 // Psychic Focus: Precognition
-// Reworked (no advantage on initiative)
 new entry "PSYCHIC_FOCUS_PRECOGNITION"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -601,7 +593,6 @@ data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" ""
 
 // Psychic Focus: Third Eye
-// NERFED 
 new entry "PSYCHIC_FOCUS_THIRD_EYE"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -611,6 +602,40 @@ data "DescriptionParams" "Distance(12)"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "DarkvisionRangeMin(12);ActiveCharacterLight(051648e6-f05a-e41f-e398-ffd5cd148989)"
+
+// Beacon
+new entry "MYSTIC_BEACON"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h7d11c5f8g2dc2g47c6ga64bgc7433df4bba2"
+data "Description" "haa9ee987g1bd1g402dg92b9g8d99e1c7d9d3"
+data "DescriptionParams" "Distance(9)"
+data "Icon" "Spell_Evocation_Light"
+data "StackId" "LIGHT"
+data "Boosts" "GameplayLight(9,false,0.1)"
+data "StatusGroups" "SG_Light;SG_RemoveOnRespec"
+data "IsUnique" "1"
+data "StatusEffect" "9e863d8f-a1f5-4f68-88ca-ddb56828c8d8"
+
+// Blade Meld
+new entry "MYSTIC_BLADE_MELD"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h0cdc84a9gaafag4ecag9c13g96d60ca628f6"
+data "Description" "hf925d812g1888g43fcg868egb9a8bfc1dd34"
+data "Icon" "Spell_Evocation_Light"
+data "StackId" "LIGHT"
+data "Boosts" "CannotBeDisarmed();ItemReturnToOwner()"
+
+// Light Step
+new entry "MYSTIC_LIGHT_STEP"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h29b79265g1a6cg44b5g9eefg01609d146fa2"
+data "Description" "h7d02b3fdge32eg4391g8fefgfb07f0598425"
+data "Icon" "Spell_Evocation_Light"
+data "StackId" "LIGHT"
+data "Boosts" "ActionResource(Movement,3,0;StatusImmunity(PRONE))"
 
 
 // ==OTHER BUFFS/DEBUFFS==
