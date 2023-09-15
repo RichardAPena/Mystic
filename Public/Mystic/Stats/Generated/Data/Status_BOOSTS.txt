@@ -334,11 +334,7 @@ data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "Advantage(Skill, Stealth)"
 
 // Psychic Focus: Nomadic Mind
-// TODO: Whenever you focus on this discipline, you choose one skill or tool and have proficiency with it until your focus ends.
-// Alternatively, you gain the ability to read and write one language of your choice until your focus ends.
-// - When focusing on this
-// - This buff will have variations -> Psychic Focus: Nomadic Mind (Performance), etc.
-// "Has Proficiency in X checks."
+// TODO: Spell variations to choose the buff
 new entry "PSYCHIC_FOCUS_NOMADIC_MIND"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -346,7 +342,151 @@ data "DisplayName" ""
 data "Description" ""
 data "Icon" ""
 data "StackId" "PSYCHIC_FOCUS"
-data "Boosts" ""
+
+new entry "PSYCHIC_FOCUS_NOMADIC_MIND_ATHLETICS"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" ""
+data "StackId" "PSYCHIC_FOCUS"
+data "Boosts" "ProficiencyBonus(Skill,Athletics);"
+
+new entry "PSYCHIC_FOCUS_NOMADIC_MIND_ACROBATICS"
+type "StatusData"
+data "StatusType" "BOOST"
+using "PSYCHIC_FOCUS_NOMADIC_MIND_ATHLETICS"
+data "DisplayName" ""
+data "Description" ""
+data "Boosts" "ProficiencyBonus(Skill,Acrobatics)"
+
+new entry "PSYCHIC_FOCUS_NOMADIC_MIND_SLEIGHT_OF_HAND"
+type "StatusData"
+data "StatusType" "BOOST"
+using "PSYCHIC_FOCUS_NOMADIC_MIND_ATHLETICS"
+data "DisplayName" ""
+data "Description" ""
+data "Boosts" "ProficiencyBonus(Skill,SleightOfHand)"
+
+new entry "PSYCHIC_FOCUS_NOMADIC_MIND_STEALTH"
+type "StatusData"
+data "StatusType" "BOOST"
+using "PSYCHIC_FOCUS_NOMADIC_MIND_ATHLETICS"
+data "DisplayName" ""
+data "Description" ""
+data "Boosts" "ProficiencyBonus(Skill,Stealth)"
+
+new entry "PSYCHIC_FOCUS_NOMADIC_MIND_ARCANA"
+type "StatusData"
+data "StatusType" "BOOST"
+using "PSYCHIC_FOCUS_NOMADIC_MIND_ATHLETICS"
+data "DisplayName" ""
+data "Description" ""
+data "Boosts" "ProficiencyBonus(Skill,Arcana)"
+
+new entry "PSYCHIC_FOCUS_NOMADIC_MIND_HISTORY"
+type "StatusData"
+data "StatusType" "BOOST"
+using "PSYCHIC_FOCUS_NOMADIC_MIND_ATHLETICS"
+data "DisplayName" ""
+data "Description" ""
+data "Boosts" "ProficiencyBonus(Skill,History)"
+
+new entry "PSYCHIC_FOCUS_NOMADIC_MIND_Investigation"
+type "StatusData"
+data "StatusType" "BOOST"
+using "PSYCHIC_FOCUS_NOMADIC_MIND_ATHLETICS"
+data "DisplayName" ""
+data "Description" ""
+data "Boosts" "ProficiencyBonus(Skill,Investigation)"
+
+new entry "PSYCHIC_FOCUS_NOMADIC_MIND_NATURE"
+type "StatusData"
+data "StatusType" "BOOST"
+using "PSYCHIC_FOCUS_NOMADIC_MIND_ATHLETICS"
+data "DisplayName" ""
+data "Description" ""
+data "Boosts" "ProficiencyBonus(Skill,Nature)"
+
+new entry "PSYCHIC_FOCUS_NOMADIC_MIND_RELIGION"
+type "StatusData"
+data "StatusType" "BOOST"
+using "PSYCHIC_FOCUS_NOMADIC_MIND_ATHLETICS"
+data "DisplayName" ""
+data "Description" ""
+data "Boosts" "ProficiencyBonus(Skill,Religion)"
+
+new entry "PSYCHIC_FOCUS_NOMADIC_MIND_ANIMAL_HANDLING"
+type "StatusData"
+data "StatusType" "BOOST"
+using "PSYCHIC_FOCUS_NOMADIC_MIND_ATHLETICS"
+data "DisplayName" ""
+data "Description" ""
+data "Boosts" "ProficiencyBonus(Skill,AnimalHandling)"
+
+new entry "PSYCHIC_FOCUS_NOMADIC_MIND_INSIGHT"
+type "StatusData"
+data "StatusType" "BOOST"
+using "PSYCHIC_FOCUS_NOMADIC_MIND_ATHLETICS"
+data "DisplayName" ""
+data "Description" ""
+data "Boosts" "ProficiencyBonus(Skill,Insight)"
+
+new entry "PSYCHIC_FOCUS_NOMADIC_MIND_MEDICINE"
+type "StatusData"
+data "StatusType" "BOOST"
+using "PSYCHIC_FOCUS_NOMADIC_MIND_ATHLETICS"
+data "DisplayName" ""
+data "Description" ""
+data "Boosts" "ProficiencyBonus(Skill,Medicine)"
+
+new entry "PSYCHIC_FOCUS_NOMADIC_MIND_PERCEPTION"
+type "StatusData"
+data "StatusType" "BOOST"
+using "PSYCHIC_FOCUS_NOMADIC_MIND_ATHLETICS"
+data "DisplayName" ""
+data "Description" ""
+data "Boosts" "ProficiencyBonus(Skill,Perception)"
+
+new entry "PSYCHIC_FOCUS_NOMADIC_MIND_SURVIVAL"
+type "StatusData"
+data "StatusType" "BOOST"
+using "PSYCHIC_FOCUS_NOMADIC_MIND_ATHLETICS"
+data "DisplayName" ""
+data "Description" ""
+data "Boosts" "ProficiencyBonus(Skill,Survival)"
+
+new entry "PSYCHIC_FOCUS_NOMADIC_MIND_DECEPTION"
+type "StatusData"
+data "StatusType" "BOOST"
+using "PSYCHIC_FOCUS_NOMADIC_MIND_ATHLETICS"
+data "DisplayName" ""
+data "Description" ""
+data "Boosts" "ProficiencyBonus(Skill,Deception)"
+
+new entry "PSYCHIC_FOCUS_NOMADIC_MIND_INTIMIDATION"
+type "StatusData"
+data "StatusType" "BOOST"
+using "PSYCHIC_FOCUS_NOMADIC_MIND_ATHLETICS"
+data "DisplayName" ""
+data "Description" ""
+data "Boosts" "ProficiencyBonus(Skill,Intimidation)"
+
+new entry "PSYCHIC_FOCUS_NOMADIC_MIND_PERFORMANCE"
+type "StatusData"
+data "StatusType" "BOOST"
+using "PSYCHIC_FOCUS_NOMADIC_MIND_ATHLETICS"
+data "DisplayName" ""
+data "Description" ""
+data "Boosts" "ProficiencyBonus(Skill,Performance)"
+
+new entry "PSYCHIC_FOCUS_NOMADIC_MIND_PERSUASION"
+type "StatusData"
+data "StatusType" "BOOST"
+using "PSYCHIC_FOCUS_NOMADIC_MIND_ATHLETICS"
+data "DisplayName" ""
+data "Description" ""
+data "Boosts" "ProficiencyBonus(Skill,Persuasion)"
 
 // Psychic Focus: Nomadic Step
 // TODO: "Increase movement speed by 3m after teleporting, once per turn."
@@ -467,3 +607,26 @@ data "Boosts" "DarkvisionRangeMin(12);ActiveCharacterLight(051648e6-f05a-e41f-e3
 
 
 // ==OTHER BUFFS/DEBUFFS==
+// * = Higher than level 12
+// Avatar of Battle
+// Avatar of Battle Buff
+// Avatar of Healing
+// Avatar of Healing Buff?
+// *Avatar of Speed
+// Mental Exhaustion (Can't cast Psychic Focuses, applied by things that remove your Psychic Focus, namely Psionic Surge)
+// Memory of One Thousand Steps (buff that allows you to Misty Step)
+// Soul Parry (Soul Knife Parry - AC Buff)
+// *Elemental Parry
+// - Bludgeoning
+// - Piercing
+// - Slashing
+// - Acid
+// - Cold
+// - Fire
+// - Force
+// - Lightning
+// - Necrotic
+// - Poison
+// - Psychic
+// - Radiant
+// - Thunder
