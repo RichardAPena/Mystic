@@ -392,7 +392,7 @@ data "DisplayName" ""
 data "Description" ""
 data "Boosts" "ProficiencyBonus(Skill,History)"
 
-new entry "PSYCHIC_FOCUS_NOMADIC_MIND_Investigation"
+new entry "PSYCHIC_FOCUS_NOMADIC_MIND_INVESTIGATION"
 type "StatusData"
 data "StatusType" "BOOST"
 using "PSYCHIC_FOCUS_NOMADIC_MIND_ATHLETICS"
