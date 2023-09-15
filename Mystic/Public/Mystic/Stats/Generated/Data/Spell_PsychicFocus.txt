@@ -881,6 +881,7 @@ data "Description" "h892cf89bg58d2g40d1gb3e3gdb2b1045c9aa"
 data "DescriptionParams" ""
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 
+data "SpellContainerID" "Shout_Mystic_PsychicFocus_NomadicMind"
 data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_NOMADIC_MIND,100,-1)"
 data "TargetConditions" "Self()"
 data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_NOMADIC_MIND,100,-1)"

@@ -108,7 +108,7 @@
 	<content contentuid="hafcd2a8eg444cg4c00gbbf3ga580261bcbe7" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Athletics &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="h4e436234gb796g4e55g8a16ga00514a30db1" version="1">Psychic Focus: Celerity</content>
 	<content contentuid="ha7e7eec0g43c0g4a14gb002g2d0b699d5a87" version="1">Increase your movement speed by [1].</content>
-	<content contentuid="h9562d071g198cg4a56gb474g987aff4fb156" version="1">Movement speed by increased by [1].</content>
+	<content contentuid="h9562d071g198cg4a56gb474g987aff4fb156" version="1">Movement speed increased by [1].</content>
 	<content contentuid="hae4c18a2g5a37g4a1dg9b81g949582877bc2" version="1">Psychic Focus: Corrosive Metabolism</content>
 	<content contentuid="h2cabd8d4gd7e2g489fg9a82g048990cb823a" version="1">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Poison and Acid damage.</content>
 	<content contentuid="h8eb7016ag1bd1g4ad0g8c9fg390c56acf5b1" version="1">&lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Poison and Acid damage.</content>
@@ -116,7 +116,7 @@
 	<content contentuid="h1a80e147gbd7bg4d18g8f86gf4e3c24edd1d" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Intimidation &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="h3a6b7459gfdbdg4939g970bgfb8247e79389" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Intimidation &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="hd7562d04g720dg4097gb65dg7f9ab079d8db" version="1">Psychic Focus: Crown of Disgust</content>	
-	<content contentuid="h6f45c269gddd9g45edgae6egee9f5f83f1a6" version="1">Enemies within [1] are in &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt; unless they are &lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to being &lt;LSTag Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;.</content>
+	<content contentuid="h6f45c269gddd9g45edgae6egee9f5f83f1a6" version="1">Enemies within [1] are in &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt; unless they are immune to being &lt;LSTag Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;.</content>
 	<content contentuid="hd9700ae9gc8cdg421cg8f85gc5e8673f9f41" version="1">Psychic Focus: Crown of Rage</content>
 	<content contentuid="h9ce8a3c5g8d06g41a7ga8b5gda99498fa689" version="1">Melee attacks against you will have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
 	<content contentuid="haa107eabge299g42dbg96bagba6e034ebc7f" version="1">Melee attacks against you have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
@@ -137,10 +137,10 @@
 	<content contentuid="h2992fa4fgf81bg45c1g81adge4e0e19a9c37" version="1">+[1] to Charisma &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="h30935e9bg9decg4089g9f85g3789939b3e6d" version="1">Psychic Focus: Mantle of Command</content>
 	<content contentuid="heb843595gc7acg4e46g9d53gd8a7b1232531" version="1">Gain the ability to cast &lt;LSTag Tooltip="Target_Mystic_CommandersImperative"&gt;Commander's Imperative&lt;/LSTag&gt; when not moving during your turn. Doing so will set your movement speed to 0.</content>
-	<content contentuid="h8dc5ccf0g5600g4f85g9535g64e9439487ee" version="1">Able to cast &lt;LSTag Tooltip="Target_Mystic_CommandersImperative"&gt;Commander's Imperative&lt;/LSTag&gt;.</content>
+	<content contentuid="h37c8bd6agbc0ag4d3egaf61g8296f4b02afe" version="1">Able to cast &lt;LSTag Tooltip="Target_Mystic_CommandersImperative"&gt;Commander's Imperative&lt;/LSTag&gt;.</content>
 	<content contentuid="h8dc5ccf0g5600g4f85g9535g64e9439487ee" version="1">Psychic Focus: Mantle of Courage</content>
 	<content contentuid="had37e37egaba4g4b2fg80f2g09c29641d813" version="1">Mantle of Courage</content>
-	<content contentuid="hb830ea19gbc75g4ad6ga052g28fdd5001b4c" version="1">Allies within [1] will have  &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; against becoming &lt;LSTag Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;.</content>
+	<content contentuid="hb830ea19gbc75g4ad6ga052g28fdd5001b4c" version="1">Allies within [1] will have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; against becoming &lt;LSTag Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;.</content>
 	<content contentuid="h062aea1cgc28dg4ee0gb8d9g67bbfbf0fe68" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Saving Throws against becoming &lt;LSTag Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;.</content>
 	<content contentuid="hd1f152ebg450eg426cg8c79gfdcdfa2e0af6" version="1">Psychic Focus: Mantle of Fear</content>
 	<content contentuid="h9869cd04g7d92g4ddfg8154g0d1a448a273e" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Intimidation &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
@@ -165,10 +165,10 @@
 	<content contentuid="hb9bfcbfbg78f3g461bg9350g294fbb341cc5" version="1">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Cold damage and become unable to fall &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; on ice surfaces.</content>
 	<content contentuid="h189fc1a6g1be8g4953ga80egcf0eebe1c6de" version="1">&lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Cold damage. Unable to fall &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; on ice surfaces.</content>
 	<content contentuid="h5f302c85g8c88g4dc9gb0b8g398014aab337" version="1">Psychic Focus: Mastery of Light and Darkness</content>
-	<content contentuid="h1906964ag5eb2g45dagb142g2aaef9725184" version="1">Gain &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; to Darkness.</content>
+	<content contentuid="h1906964ag5eb2g45dagb142g2aaef9725184" version="1">Gain immunity to Darkness.</content>
 	<content contentuid="h0110a29ega524g4cd9g809fg274095556bfb" version="1">&lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to Darkness.</content>
 	<content contentuid="h751bb8ceg0e61g4f4agb2c5g4dc758374e2c" version="1">Psychic Focus: Mastery of Water</content>
-	<content contentuid="hbfc2cddbg19b2g4c02ga218g51d3cb28c621" version="1">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Fire and become able to traverse water-based surfaces unimpeded.</content>
+	<content contentuid="hbfc2cddbg19b2g4c02ga218g51d3cb28c621" version="1">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Fire damage and become able to traverse water-based surfaces unimpeded.</content>
 	<content contentuid="hbde3cd99g13f5g4458ga094g930039f93b66" version="1">&lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Fire damage. Able to traverse water-based surfaces unimpeded.</content>
 	<content contentuid="ha53f4a0fg37e9g4dbega38fg04249d92d872" version="1">Psychic Focus: Mastery of Weather</content>
 	<content contentuid="h946afa6dg2391g43bdg8b92gc79628178f02" version="1">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Lightning and Thunder damage.</content>
