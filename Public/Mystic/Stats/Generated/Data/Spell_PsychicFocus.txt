@@ -1,4 +1,5 @@
 // There's too many of these
+// TODO: Psychic Focuses are applied for a turn only rn
 
 // Adaptive Body
 new entry "Shout_Mystic_PsychicFocus_AdaptiveBody"
@@ -10,6 +11,11 @@ data "Description" ""
 data "DescriptionParams" ""
 data "Icon" ""
 
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_ADAPTIVE_BODY,100,10)"
+data "TargetConditions" "Self()"
+
+data "UseCosts" "BonusActionPoint:1"
+
 // Aura Sight
 new entry "Shout_Mystic_PsychicFocus_AuraSight"
 type "SpellData"
@@ -19,6 +25,11 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 data "Icon" ""
+
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_AURA_SIGHT,100,10)"
+data "TargetConditions" "Self()"
+
+data "UseCosts" "BonusActionPoint:1"
 
 // Bestial Form
 new entry "Shout_Mystic_PsychicFocus_BestialForm"
@@ -30,6 +41,11 @@ data "Description" ""
 data "DescriptionParams" ""
 data "Icon" ""
 
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_BESTIAL_FORM,100,10)"
+data "TargetConditions" "Self()"
+
+data "UseCosts" "BonusActionPoint:1"
+
 // Brute Force
 new entry "Shout_Mystic_PsychicFocus_BruteForce"
 type "SpellData"
@@ -39,6 +55,11 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 data "Icon" ""
+
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_BRUTE_FORCE,100,10)"
+data "TargetConditions" "Self()"
+
+data "UseCosts" "BonusActionPoint:1"
 
 // Celerity
 new entry "Shout_Mystic_PsychicFocus_Celerity"
@@ -50,6 +71,11 @@ data "Description" ""
 data "DescriptionParams" ""
 data "Icon" ""
 
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_CELERITY,100,10)"
+data "TargetConditions" "Self()"
+
+data "UseCosts" "BonusActionPoint:1"
+
 // Corrosive Metabolism
 new entry "Shout_Mystic_PsychicFocus_CorrosiveMetabolism"
 type "SpellData"
@@ -59,6 +85,11 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 data "Icon" ""
+
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_CORROSIVE_METABOLISM,100,10)"
+data "TargetConditions" "Self()"
+
+data "UseCosts" "BonusActionPoint:1"
 
 // Crown of Despair
 new entry "Shout_Mystic_PsychicFocus_CrownOfDespair"
@@ -70,6 +101,11 @@ data "Description" ""
 data "DescriptionParams" ""
 data "Icon" ""
 
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_CROWN_OF_DESPAIR,100,10)"
+data "TargetConditions" "Self()"
+
+data "UseCosts" "BonusActionPoint:1"
+
 // Crown of Disgust
 new entry "Shout_Mystic_PsychicFocus_CrownOfDisgust"
 type "SpellData"
@@ -79,6 +115,11 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 data "Icon" ""
+
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_CROWN_OF_DISGUST,100,10)"
+data "TargetConditions" "Self()"
+
+data "UseCosts" "BonusActionPoint:1"
 
 // Crown of Rage
 new entry "Shout_Mystic_PsychicFocus_CrownOfRage"
@@ -90,6 +131,11 @@ data "Description" ""
 data "DescriptionParams" ""
 data "Icon" ""
 
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_CROWN_OF_RAGE,100,10)"
+data "TargetConditions" "Self()"
+
+data "UseCosts" "BonusActionPoint:1"
+
 // Diminution
 new entry "Shout_Mystic_PsychicFocus_Diminution"
 type "SpellData"
@@ -99,6 +145,11 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 data "Icon" ""
+
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_DIMINUTION,100,10)"
+data "TargetConditions" "Self()"
+
+data "UseCosts" "BonusActionPoint:1"
 
 // Giant Growth
 new entry "Shout_Mystic_PsychicFocus_GiantGrowth"
@@ -110,6 +161,11 @@ data "Description" ""
 data "DescriptionParams" ""
 data "Icon" ""
 
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_GIANT_GROWTH,100,10)"
+data "TargetConditions" "Self()"
+
+data "UseCosts" "BonusActionPoint:1"
+
 // Intellect Fortress
 new entry "Shout_Mystic_PsychicFocus_IntellectFortress"
 type "SpellData"
@@ -119,6 +175,11 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 data "Icon" ""
+
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_INTELLECT_FORTRESS,100,10)"
+data "TargetConditions" "Self()"
+
+data "UseCosts" "BonusActionPoint:1"
 
 // Iron Durability
 new entry "Shout_Mystic_PsychicFocus_IronDurability"
@@ -130,6 +191,11 @@ data "Description" ""
 data "DescriptionParams" ""
 data "Icon" ""
 
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_IRON_DURABILITY,100,10)"
+data "TargetConditions" "Self()"
+
+data "UseCosts" "BonusActionPoint:1"
+
 // Mantle of Awe
 new entry "Shout_Mystic_PsychicFocus_MantleOfAwe"
 type "SpellData"
@@ -139,6 +205,11 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 data "Icon" ""
+
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_MANTLE_OF_AWE,100,10)"
+data "TargetConditions" "Self()"
+
+data "UseCosts" "BonusActionPoint:1"
 
 // Mantle of Command
 new entry "Shout_Mystic_PsychicFocus_MantleOfCommand"
@@ -150,6 +221,11 @@ data "Description" ""
 data "DescriptionParams" ""
 data "Icon" ""
 
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_MANTLE_OF_COMMAND,100,10)"
+data "TargetConditions" "Self()"
+
+data "UseCosts" "BonusActionPoint:1"
+
 // Mantle of Courage
 new entry "Shout_Mystic_PsychicFocus_MantleOfCourage"
 type "SpellData"
@@ -159,6 +235,11 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 data "Icon" ""
+
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_MANTLE_OF_COURAGE,100,10)"
+data "TargetConditions" "Self()"
+
+data "UseCosts" "BonusActionPoint:1"
 
 // Mantle of Fear
 new entry "Shout_Mystic_PsychicFocus_MantleOfFear"
@@ -170,6 +251,11 @@ data "Description" ""
 data "DescriptionParams" ""
 data "Icon" ""
 
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_MANTLE_OF_FEAR,100,10)"
+data "TargetConditions" "Self()"
+
+data "UseCosts" "BonusActionPoint:1"
+
 // Mantle of Fury
 new entry "Shout_Mystic_PsychicFocus_MantleOfFury"
 type "SpellData"
@@ -180,7 +266,13 @@ data "Description" ""
 data "DescriptionParams" ""
 data "Icon" ""
 
-// Mantle of Joynew entry "Shout_Mystic_PsychicFocus_MantleOfJoy"
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_MANTLE_OF_FURY,100,10)"
+data "TargetConditions" "Self()"
+
+data "UseCosts" "BonusActionPoint:1"
+
+// Mantle of Joy
+new entry "Shout_Mystic_PsychicFocus_MantleOfJoy"
 type "SpellData"
 data "SpellType" "Shout"
 
@@ -188,6 +280,11 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 data "Icon" ""
+
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_MANTLE_OF_JOY,100,10)"
+data "TargetConditions" "Self()"
+
+data "UseCosts" "BonusActionPoint:1"
 
 // Mastery of Air
 new entry "Shout_Mystic_PsychicFocus_MasteryOfAir"
@@ -199,6 +296,11 @@ data "Description" ""
 data "DescriptionParams" ""
 data "Icon" ""
 
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_MASTERY_OF_AIR,100,10)"
+data "TargetConditions" "Self()"
+
+data "UseCosts" "BonusActionPoint:1"
+
 // Mastery of Fire
 new entry "Shout_Mystic_PsychicFocus_MasteryOfFire"
 type "SpellData"
@@ -208,6 +310,11 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 data "Icon" ""
+
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_MASTERY_OF_FIRE,100,10)"
+data "TargetConditions" "Self()"
+
+data "UseCosts" "BonusActionPoint:1"
 
 // Mastery of Force
 new entry "Shout_Mystic_PsychicFocus_MasteryOfForce"
@@ -219,6 +326,11 @@ data "Description" ""
 data "DescriptionParams" ""
 data "Icon" ""
 
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_MASTERY_OF_FORCE,100,10)"
+data "TargetConditions" "Self()"
+
+data "UseCosts" "BonusActionPoint:1"
+
 // Mastery of Ice
 new entry "Shout_Mystic_PsychicFocus_MasteryOfIce"
 type "SpellData"
@@ -228,6 +340,11 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 data "Icon" ""
+
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_MASTERY_OF_ICE,100,10)"
+data "TargetConditions" "Self()"
+
+data "UseCosts" "BonusActionPoint:1"
 
 // Mastery of Light and Darkness
 new entry "Shout_Mystic_PsychicFocus_MasteryOfLightAndDarkness"
@@ -239,6 +356,11 @@ data "Description" ""
 data "DescriptionParams" ""
 data "Icon" ""
 
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_MASTERY_OF_LIGHT_AND_DARKNESS,100,10)"
+data "TargetConditions" "Self()"
+
+data "UseCosts" "BonusActionPoint:1"
+
 // Mastery of Water
 new entry "Shout_Mystic_PsychicFocus_MasteryOfWater"
 type "SpellData"
@@ -248,6 +370,11 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 data "Icon" ""
+
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_MASTERY_OF_WATER,100,10)"
+data "TargetConditions" "Self()"
+
+data "UseCosts" "BonusActionPoint:1"
 
 // Mastery of Weather
 new entry "Shout_Mystic_PsychicFocus_MasteryOfWeather"
@@ -259,6 +386,11 @@ data "Description" ""
 data "DescriptionParams" ""
 data "Icon" ""
 
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_MASTERY_OF_WEATHER,100,10)"
+data "TargetConditions" "Self()"
+
+data "UseCosts" "BonusActionPoint:1"
+
 // Mastery of Wood and Earth
 new entry "Shout_Mystic_PsychicFocus_MasteryOfWoodAndEarth"
 type "SpellData"
@@ -268,6 +400,11 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 data "Icon" ""
+
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_MASTERY_OF_WOOD_AND_EARTH,100,10)"
+data "TargetConditions" "Self()"
+
+data "UseCosts" "BonusActionPoint:1"
 
 // Nomadic Arrow
 new entry "Shout_Mystic_PsychicFocus_NomadicArrow"
@@ -279,6 +416,11 @@ data "Description" ""
 data "DescriptionParams" ""
 data "Icon" ""
 
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_NOMADIC_ARROW,100,10)"
+data "TargetConditions" "Self()"
+
+data "UseCosts" "BonusActionPoint:1"
+
 // Nomadic Chameleon
 new entry "Shout_Mystic_PsychicFocus_NomadicChameleon"
 type "SpellData"
@@ -289,7 +431,13 @@ data "Description" ""
 data "DescriptionParams" ""
 data "Icon" ""
 
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_NOMADIC_CHAMELEON,100,10)"
+data "TargetConditions" "Self()"
+
+data "UseCosts" "BonusActionPoint:1"
+
 // Nomadic Mind
+// TODO: Spell Variants
 new entry "Shout_Mystic_PsychicFocus_NomadicMind"
 type "SpellData"
 data "SpellType" "Shout"
@@ -298,6 +446,11 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 data "Icon" ""
+
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_NOMADIC_MIND,100,10)"
+data "TargetConditions" "Self()"
+
+data "UseCosts" "BonusActionPoint:1"
 
 // Nomadic Step
 new entry "Shout_Mystic_PsychicFocus_NomadicStep"
@@ -309,6 +462,11 @@ data "Description" ""
 data "DescriptionParams" ""
 data "Icon" ""
 
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_NOMADIC_STEP,100,10)"
+data "TargetConditions" "Self()"
+
+data "UseCosts" "BonusActionPoint:1"
+
 // Precognition
 new entry "Shout_Mystic_PsychicFocus_Precognition"
 type "SpellData"
@@ -318,6 +476,11 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 data "Icon" ""
+
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_PRECOGNITION,100,10)"
+data "TargetConditions" "Self()"
+
+data "UseCosts" "BonusActionPoint:1"
 
 // Psionic Restoration
 new entry "Shout_Mystic_PsychicFocus_PsionicRestoration"
@@ -329,6 +492,11 @@ data "Description" ""
 data "DescriptionParams" ""
 data "Icon" ""
 
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_PSIONIC_RESTORATION,100,10)"
+data "TargetConditions" "Self()"
+
+data "UseCosts" "BonusActionPoint:1"
+
 // Psionic Weapon
 new entry "Shout_Mystic_PsychicFocus_PsionicWeapon"
 type "SpellData"
@@ -338,6 +506,11 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 data "Icon" ""
+
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_PSIONIC_WEAPON,100,10)"
+data "TargetConditions" "Self()"
+
+data "UseCosts" "BonusActionPoint:1"
 
 // Psychic Assault
 new entry "Shout_Mystic_PsychicFocus_PsychicAssault"
@@ -349,6 +522,11 @@ data "Description" ""
 data "DescriptionParams" ""
 data "Icon" ""
 
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_PSYCHIC_ASSAULT,100,10)"
+data "TargetConditions" "Self()"
+
+data "UseCosts" "BonusActionPoint:1"
+
 // Psychic Disruption
 new entry "Shout_Mystic_PsychicFocus_PsychicDisruption"
 type "SpellData"
@@ -358,6 +536,11 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 data "Icon" ""
+
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_PSYCHIC_DISRUPTION,100,10)"
+data "TargetConditions" "Self()"
+
+data "UseCosts" "BonusActionPoint:1"
 
 // Psychic Suppression (Psychic Inquisition)
 new entry "Shout_Mystic_PsychicFocus_PsychicSuppression"
@@ -369,7 +552,12 @@ data "Description" ""
 data "DescriptionParams" ""
 data "Icon" ""
 
-//Telepathic Subjugation (Telepathic Contact)
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_PSYCHIC_SUPPRESSION,100,10)"
+data "TargetConditions" "Self()"
+
+data "UseCosts" "BonusActionPoint:1"
+
+// Telepathic Subjugation (Telepathic Contact)
 new entry "Shout_Mystic_PsychicFocus_TelepathicSubjugation"
 type "SpellData"
 data "SpellType" "Shout"
@@ -378,6 +566,11 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 data "Icon" ""
+
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_TELEPATHIC_SUBJUGATION,100,10)"
+data "TargetConditions" "Self()"
+
+data "UseCosts" "BonusActionPoint:1"
 
 // Third Eye
 new entry "Shout_Mystic_PsychicFocus_ThirdEye"
@@ -388,3 +581,8 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 data "Icon" ""
+
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_THIRD_EYE,100,10)"
+data "TargetConditions" "Self()"
+
+data "UseCosts" "BonusActionPoint:1"

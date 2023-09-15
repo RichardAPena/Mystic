@@ -1,28 +1,73 @@
-// Example //
-new entry "BOOST_EXAMPLE"
+// Look at Modifiers to see what you can do
+
+// Psychic Focus: Adaptive Body
+new entry "PSYCHIC_FOCUS_ADAPTIVE_BODY"
 type "StatusData"
 data "StatusType" "BOOST"
-data "DisplayName" "178b3b303a3eda8070c05531b0ce8e3a63768;1"
-data "Description" "c5c175465073d4f3d939f0d6a0a965f0421ee;1"
-data "DescriptionParams" "1"
-data "StackId" "BOOST_EXAMPLE"
-data "Passives" "Passive1"
+data "DisplayName" ""
+data "Description" ""
 data "Icon" ""
+data "StackId" "PSYCHIC_FOCUS_ADAPTIVE_BODY"
+data "Boosts" "CarryCapacityMultiplier(1.5)"
 
-// same as the other entries from the other 3 files in this folder, look at Modifiers to see what you can do //
+// Psychic Focus: Aura Sight
+new entry "PSYCHIC_FOCUS_AURA_SIGHT"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" ""
+data "StackId" "PSYCHIC_FOCUS"
+data "Boosts" "Advantage(Skill, Insight)"
 
-// ==AVATAR DISCIPLINES==
+// Psychic Focus: Bestial Form
+new entry "PSYCHIC_FOCUS_BESTIAL_FORM"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" ""
+data "StackId" "PSYCHIC_FOCUS_BESTIAL_FORM"
+data "Boosts" "Advantage(Skill, Animal Handling)"
+
+// Psychic Focus: Brute Force
+new entry "PSYCHIC_FOCUS_BRUTE_FORCE"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" ""
+data "StackId" "PSYCHIC_FOCUS_BRUTE_FORCE"
+data "Boosts" "Advantage(Skill, Athletics)"
+
+// Psychic Focus: Celerity
+new entry "PSYCHIC_FOCUS_CELERITY"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" ""
+data "StackId" "PSYCHIC_FOCUS_CELERITY"
+data "Boosts" "ActionResource(Movement,3,0)"
+
+// Psychic Focus: Corrosive Metabolism
+new entry "PSYCHIC_FOCUS_CORROSIVE_METABOLISM"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" ""
+data "StackId" "PSYCHIC_FOCUS_CORROSIVE_METABOLISM"
+data "Boosts" "Resistance(Poison);Resistance(Acid)"
 
 // Psychic Focus: Crown of Despair
-// "Advantage on Intimidation checks."
-// FIXME: Add DisplayName, Description and Icon (optional sound effects/vfx)
 new entry "PSYCHIC_FOCUS_CROWN_OF_DESPAIR"
 type "StatusData"
 data "StatusType" "BOOST"
 data "DisplayName" ""
 data "Description" ""
 data "Icon" ""
-data "StackId" "PSYCHIC_FOCUS_CROWN_OF_DESPAIR"
+data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "Advantage(Skill, Intimidation)"
 
 // Psychic Focus: Crown of Disgust
@@ -34,12 +79,10 @@ data "StatusType" "BOOST"
 data "DisplayName" ""
 data "Description" ""
 data "Icon" ""
-data "StackId" "PSYCHIC_FOCUS_CROWN_OF_DISGUST"
+data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" ""
 
 // Psychic Focus: Crown of Rage
-// "Melee attacks against you have Disadvantage."
-// FIXME: Add DisplayName, Description and Icon (optional sound effects/vfx)
 // I think the conditions should work? Not 100% sure
 new entry "PSYCHIC_FOCUS_CROWN_OF_RAGE"
 type "StatusData"
@@ -47,231 +90,10 @@ data "StatusType" "BOOST"
 data "DisplayName" ""
 data "Description" ""
 data "Icon" ""
-data "StackId" "PSYCHIC_FOCUS_CROWN_OF_RAGE"
+data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "IF(IsMeleeAttack()):Disadvantage(AttackTarget)"
 
-// Psychic Focus: Mantle of Command
-// "Able to cast [Commander's Imperative] when not moving during a turn. Doing so will set your movement speed to 0."
-// [Commander's Imperative]: Increases target creature's movement speed by half.
-// FIXME: Add DisplayName, Description and Icon (optional sound effects/vfx)
-// Also implement Commander's Imperative, make sure it's not castable after moving
-new entry "PSYCHIC_FOCUS_MANTLE_OF_COMMAND"
-type "StatusData"
-data "StatusType" "BOOST"
-data "DisplayName" ""
-data "Description" ""
-data "Icon" ""
-data "StackId" "PSYCHIC_FOCUS_MANTLE_OF_COMMAND"
-data "Boosts" "UnlockSpell()"
-
-// Psychic Focus: Mantle of Courage
-// "Allies within 3m have Advantage against being Frightened."
-// TODO: leave this aura stuff for later
-new entry "PSYCHIC_FOCUS_MANTLE_OF_COURAGE"
-type "StatusData"
-data "StatusType" "BOOST"
-data "DisplayName" ""
-data "Description" ""
-data "Icon" ""
-data "StackId" "PSYCHIC_FOCUS_MANTLE_OF_COURAGE"
-data "AuraRadius"
-data "Boosts" ""
-
-new entry "PSYCHIC_FOCUS_MANTLE_OF_COURAGE_AURA"
-type "StatusData"
-data "StatusType" "BOOST"
-data "DisplayName" ""
-data "Description" ""
-data "Icon" ""
-data "StackId" "PSYCHIC_FOCUS_MANTLE_OF_COURAGE"
-data "Boosts" ""
-
-// Psychic Focus: Mantle of Fear
-// "Advantage of Intimidation checks." (identical to Crown of Despair)
-// FIXME: Add DisplayName, Description and Icon (optional sound effects/vfx)
-new entry "PSYCHIC_FOCUS_MANTLE_OF_FEAR"
-type "StatusData"
-data "StatusType" "BOOST"
-data "DisplayName" ""
-data "Description" ""
-data "Icon" ""
-data "StackId" "PSYCHIC_FOCUS_MANTLE_OF_FEAR"
-data "Boosts" "Advantage(Skill, Intimidation)"
-
-// Psychic Focus: Mantle of Fury
-// "You and allies that start their turn within 3m of you gain 1.5m movement speed for 1 turn."
-// TODO: Leave the aura stuff for later
-new entry "PSYCHIC_FOCUS_MANTLE_OF_FURY"
-type "StatusData"
-data "StatusType" "BOOST"
-data "DisplayName" ""
-data "Description" ""
-data "Icon" ""
-data "StackId" "PSYCHIC_FOCUS_MANTLE_OF_FURY"
-data "AuraRadius"
-data "Boosts" ""
-
-new entry "PSYCHIC_FOCUS_MANTLE_OF_FURY_AURA"
-type "StatusData"
-data "StatusType" "BOOST"
-data "DisplayName" ""
-data "Description" ""
-data "Icon" ""
-data "StackId" "PSYCHIC_FOCUS_MANTLE_OF_FURY"
-data "Boosts" ""
-
-// Psychic Focus: Mantle of Joy
-// "Advantage on Persuasion checks."
-// FIXME: Add DisplayName, Description and Icon (optional sound effects/vfx)
-new entry "PSYCHIC_FOCUS_MANTLE_OF_JOY"
-type "StatusData"
-data "StatusType" "BOOST"
-data "DisplayName" ""
-data "Description" ""
-data "Icon" ""
-data "StackId" "PSYCHIC_FOCUS_MANTLE_OF_JOY"
-data "Boosts" "Advantage(Skill, Persuasion)"
-
-// ==AWAKENED DISCIPLINES==
-
-// Psychic Focus: Aura Sight
-// "Advantage of Insight checks."
-// FIXME: Add DisplayName, Description and Icon (optional sound effects/vfx)
-new entry "PSYCHIC_FOCUS_AURA_SIGHT"
-type "StatusData"
-data "StatusType" "BOOST"
-data "DisplayName" ""
-data "Description" ""
-data "Icon" ""
-data "StackId" "PSYCHIC_FOCUS_AURA_SIGHT"
-data "Boosts" "Advantage(Skill, Insight)"
-
-// Psychic Focus: Intellect Fortress
-// "Resistant to Psychic damage."
-// FIXME: Add DisplayName, Description and Icon (optional sound effects/vfx)
-new entry "PSYCHIC_FOCUS_INTELLECT_FORTRESS"
-type "StatusData"
-data "StatusType" "BOOST"
-data "DisplayName" ""
-data "Description" ""
-data "Icon" ""
-data "StackId" "PSYCHIC_FOCUS_INTELLECT_FORTRESS"
-data "Boosts" "Resistance(Psychic, Resistant)"
-
-// Psychic Focus: Mantle of Awe
-// "Gain a +X bonus to Charisma checks." (Half of Intelligence modifier)
-// FIXME: Add DisplayName, Description and Icon (optional sound effects/vfx)
-new entry "PSYCHIC_FOCUS_MANTLE_OF_AWE"
-type "StatusData"
-data "StatusType" "BOOST"
-data "DisplayName" ""
-data "Description" ""
-data "Icon" ""
-data "StackId" "PSYCHIC_FOCUS_MANTLE_OF_AWE"
-data "Boosts" "Ability(Charisma, IntelligenceModifier/2)"
-
-// Psychic Focus: Precognition
-// "Advantage of Initiative rolls."
-// FIXME: Add DisplayName, Description and Icon (optional sound effects/vfx)
-// Reworked
-new entry "PSYCHIC_FOCUS_PRECOGNITION"
-type "StatusData"
-data "StatusType" "BOOST"
-data "DisplayName" ""
-data "Description" ""
-data "Icon" ""
-data "StackId" "PSYCHIC_FOCUS_PRECOGNITION"
-data "Boosts" "Initiative(3)"
-
-// Psychic Focus: Psychic Assault
-// "Has +2 to damage rolls with psionic talents that deal Psychic damage."
-// TODO: We'll come back to this later
-new entry "PSYCHIC_FOCUS_PSYCHIC_ASSAULT"
-type "StatusData"
-data "StatusType" "BOOST"
-data "DisplayName" ""
-data "Description" ""
-data "Icon" ""
-data "StackId" "PSYCHIC_FOCUS_PSYCHIC_ASSAULT"
-data "Boosts" ""
-
-// Psychic Focus: Psychic Disruption
-// "Advantage on Deception checks."
-// FIXME: Add DisplayName, Description and Icon (optional sound effects/vfx)
-new entry "PSYCHIC_FOCUS_PSYCHIC_DISRUPTION"
-type "StatusData"
-data "StatusType" "BOOST"
-data "DisplayName" ""
-data "Description" ""
-data "Icon" ""
-data "StackId" "PSYCHIC_FOCUS_PSYCHIC_DISRUPTION"
-data "Boosts" "Advantage(Skill, Deception)"
-
-// Psychic Focus: Psychic Inquisition
-// While focused on this discipline, you know when a creature communicating with you via telepathy is lying.
-// ***IMPOSSIBLE
-
-// Psychic Focus: Telepathic Contact
-// While focused on this discipline, you gain the ability to use your Telepathy class feature with up to six creatures at once.
-// If you don’t have that feature from the mystic class, you instead gain it while focused on this discipline.
-// ***IMPOSSIBLE
-
-// ==IMMORTAL DISCIPLINES==
-
-// Psychic Focus: Adaptive Body
-// While focused on this discipline, you don’t need to eat, breathe, or sleep. To gain the benefits of a long rest, you can spend 8 hours engaged in light activity, rather than sleeping during any of it.
-// ***IMPOSSIBLE
-
-// Psychic Focus: Bestial Form
-// "Advantage of Animal Handling checks."
-// FIXME: Add DisplayName, Description and Icon (optional sound effects/vfx)
-new entry "PSYCHIC_FOCUS_BESTIAL_FORM"
-type "StatusData"
-data "StatusType" "BOOST"
-data "DisplayName" ""
-data "Description" ""
-data "Icon" ""
-data "StackId" "PSYCHIC_FOCUS_BESTIAL_FORM"
-data "Boosts" "Advantage(Skill, Animal Handling)"
-
-// Psychic Focus: Brute Force
-// "Advantage on Athletics checks."
-// FIXME: Add DisplayName, Description and Icon (optional sound effects/vfx)
-new entry "PSYCHIC_FOCUS_BRUTE_FORCE"
-type "StatusData"
-data "StatusType" "BOOST"
-data "DisplayName" ""
-data "Description" ""
-data "Icon" ""
-data "StackId" "PSYCHIC_FOCUS_BRUTE_FORCE"
-data "Boosts" "Advantage(Skill, Athletics)"
-
-// Psychic Focus: Celerity
-// "Movement speed increased by 3m."
-// FIXME: Add DisplayName, Description and Icon (optional sound effects/vfx)
-new entry "PSYCHIC_FOCUS_CELERITY"
-type "StatusData"
-data "StatusType" "BOOST"
-data "DisplayName" ""
-data "Description" ""
-data "Icon" ""
-data "StackId" "PSYCHIC_FOCUS_CELERITY"
-data "Boosts" "ActionResource(Movement,3,0)"
-
-// Psychic Focus: Corrosive Metabolism
-// "Resistant to Poison and Acid damage."
-// FIXME: Add DisplayName, Description and Icon (optional sound effects/vfx)
-new entry "PSYCHIC_FOCUS_CORROSIVE_METABOLISM"
-type "StatusData"
-data "StatusType" "BOOST"
-data "DisplayName" ""
-data "Description" ""
-data "Icon" ""
-data "StackId" "PSYCHIC_FOCUS_CORROSIVE_METABOLISM"
-data "Boosts" "Resistance(Poison);Resistance(Acid)"
-
 // Psychic Focus: Diminution
-// "Advantage on Stealth checks."
 new entry "PSYCHIC_FOCUS_DIMINUTION"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -282,68 +104,366 @@ data "StackId" "PSYCHIC_FOCUS_DIMINUTION"
 data "Boosts" "Advantage(Skill, Stealth)"
 
 // Psychic Focus: Giant Growth
-// ***DIFFICULT?
+// ***DIFFICULT? 
 // "Melee attack reach increased by 1.5m."
+// TODO: This does nothing
+new entry "PSYCHIC_FOCUS_GIANT_GROWTH"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" ""
+data "StackId" "PSYCHIC_FOCUS_GIANT_GROWTH"
+data "Boosts" ""
+
+// Psychic Focus: Intellect Fortress
+new entry "PSYCHIC_FOCUS_INTELLECT_FORTRESS"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" ""
+data "StackId" "PSYCHIC_FOCUS"
+data "Boosts" "Resistance(Psychic, Resistant)"
 
 // Psychic Focus: Iron Durability
-// "Armour Class increased by 1."
+new entry "PSYCHIC_FOCUS_IRON_DURABILITY"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" ""
+data "StackId" "PSYCHIC_FOCUS_IRON_DURABILITY"
+data "Boosts" "AC(1)"
 
-// Psychic Focus: Psionic Restoration
-// While focused on this discipline, you can use a bonus action to touch a creature that has 0 hit points and stabilize it.
-// ***IRRELEVANT
+// Psychic Focus: Mantle of Awe
+new entry "PSYCHIC_FOCUS_MANTLE_OF_AWE"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" ""
+data "StackId" "PSYCHIC_FOCUS"
+data "Boosts" "Skill(Deception, IntelligenceModifier/2);Skill(Intimidation, IntelligenceModifier/2);Skill(Performance, IntelligenceModifier/2);Skill(Persuasion, IntelligenceModifier/2)"
 
-// Psychic Focus: Psionic Weapon
-// "Your weapon and unarmed attacks count as magical for the purpose of overcoming enemies' Resistance and Immunity to non-magical damage"
+// Psychic Focus: Mantle of Command
+// "Able to cast [Commander's Imperative] when not moving during a turn. 
+// Doing so will set your movement speed to 0."
+// [Commander's Imperative]: Increases target creature's movement speed by half.
+new entry "PSYCHIC_FOCUS_MANTLE_OF_COMMAND"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" ""
+data "StackId" "PSYCHIC_FOCUS"
+data "Boosts" "UnlockSpell(Target_Mystic_CommandersImperative)"
 
-// ==NOMAD DISCIPLINES==
+// Psychic Focus: Mantle of Courage
+// "Allies within 3m have Advantage against being Frightened."
+// Incomplete but should do what it's supposed to
+new entry "PSYCHIC_FOCUS_MANTLE_OF_COURAGE"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" "Distance(3)"
+data "Icon" ""
+data "StackId" "PSYCHIC_FOCUS"
+data "AuraRadius" "3"
+data "AuraStatuses" "IF(Ally() and not Tagged('INANIMATE')):ApplyStatus(PSYCHIC_FOCUS_MANTLE_OF_COURAGE_BUFF)"
+data "Boosts" "Tag(FRIGHTENED_ADV)"
+data "RemoveConditions" "HasStatus('SG_Incapacitated')"
+data "RemoveEvents" "OnStatusApplied"
+data "StatusPropertyFlags" "IgnoreResting"
+data "StatusGroups" "SG_RemoveOnRespec"
+
+new entry "PSYCHIC_FOCUS_MANTLE_OF_COURAGE_BUFF"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" ""
+data "StackId" "PSYCHIC_FOCUS_MANTLE_OF_COURAGE_BUFF"
+data "Boosts" "Tag(FRIGHTENED_ADV)"
+
+// Psychic Focus: Mantle of Fear
+new entry "PSYCHIC_FOCUS_MANTLE_OF_FEAR"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" ""
+data "StackId" "PSYCHIC_FOCUS"
+data "Boosts" "Advantage(Skill, Intimidation)"
+
+// Psychic Focus: Mantle of Fury
+// "You and allies that start their turn within 3m of you gain 1.5m movement speed for 1 turn."
+// TODO: Leave THIS aura stuff for later, look at meenlocks or spirit guardians or anything that ticks at the start of a creatures turn
+new entry "PSYCHIC_FOCUS_MANTLE_OF_FURY"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" ""
+data "StackId" "PSYCHIC_FOCUS"
+data "AuraRadius"
+data "Boosts" ""
+
+new entry "PSYCHIC_FOCUS_MANTLE_OF_FURY_BUFF"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" ""
+data "StackId" "PSYCHIC_FOCUS_MANTLE_OF_FURY_BUFF"
+data "Boosts" ""
+
+// Psychic Focus: Mantle of Joy
+new entry "PSYCHIC_FOCUS_MANTLE_OF_JOY"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" ""
+data "StackId" "PSYCHIC_FOCUS"
+data "Boosts" "Advantage(Skill, Persuasion)"
+
+// Psychic Focus: Mastery of Air
+new entry "PSYCHIC_FOCUS_MASTERY_OF_AIR"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" ""
+data "StackId" "PSYCHIC_FOCUS"
+data "Boosts" "IgnoreFallDamage();StatusImmunity(SG_DifficultTerrain)"
+
+// Psychic Focus: Mastery of Fire
+new entry "PSYCHIC_FOCUS_MASTERY_OF_FIRE"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" ""
+data "StackId" "PSYCHIC_FOCUS"
+data "Boosts" "Resistance(Fire, Resistant);DamageBonus(2)"
+
+// Psychic Focus: Mastery of Force
+new entry "PSYCHIC_FOCUS_MASTERY_OF_FORCE"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" ""
+data "StackId" "PSYCHIC_FOCUS"
+data "Boosts" "Advantage(Ability, Strength)"
+
+// Psychic Focus: Mastery of Ice
+// TODO: Add immunity to ice surfaces (rn u just cant proned by it)
+new entry "PSYCHIC_FOCUS_MASTERY_OF_ICE"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" ""
+data "StackId" "PSYCHIC_FOCUS"
+data "Boosts" "Resistance(Cold, Resistant);StatusImmunity(PRONE_ICE)"
+
+// Psychic Focus: Mastery of Light and Darkness
+// TODO: "Immune to Darkness."
+new entry "PSYCHIC_FOCUS_MASTERY_OF_LIGHT_AND_DARKNESS"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" ""
+data "StackId" "PSYCHIC_FOCUS"
+data "Boosts" ""
+
+// Psychic Focus: Mastery of Water
+new entry "PSYCHIC_FOCUS_MASTERY_OF_WATER"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" ""
+data "StackId" "PSYCHIC_FOCUS"
+data "Boosts" "Resistance(Fire, Resistant);StatusImmunity(DIFFICULT_TERRAIN_MUD);StatusImmunity(DIFFICULT_TERRAIN_DEEPWATER)"
+
+// Psychic Focus: Mastery of Weather
+new entry "PSYCHIC_FOCUS_MASTERY_OF_WEATHER"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" ""
+data "StackId" "PSYCHIC_FOCUS"
+data "Boosts" "Resistance(Lightning, Resistant);Resistance(Thunder, Resistant)"
+
+// Psychic Focus: Mastery of Wood and Earth
+new entry "PSYCHIC_FOCUS_MASTERY_OF_WOOD_AND_EARTH"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" ""
+data "StackId" "PSYCHIC_FOCUS"
+data "Boosts" "AC(1)"
 
 // Psychic Focus: Nomadic Arrow
-// "Your ranged weapon attack rolls ignore Disadvantage. If Disadvantage would normally apply to the roll, it can't benefit from Advantage."
+// TODO: "Your ranged weapon attack rolls ignore Disadvantage.
+//        If Disadvantage would normally apply to the roll, it can't benefit from Advantage."
+new entry "PSYCHIC_FOCUS_NOMADIC_ARROW"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" ""
+data "StackId" "PSYCHIC_FOCUS"
+data "Boosts" ""
 
 // Psychic Focus: Nomadic Chameleon
-// "Advantage on Stealth checks." (identical to Diminution)
+new entry "PSYCHIC_FOCUS_NOMADIC_CHAMELEON"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" ""
+data "StackId" "PSYCHIC_FOCUS"
+data "Boosts" "Advantage(Skill, Stealth)"
 
 // Psychic Focus: Nomadic Mind
-// Whenever you focus on this discipline, you choose one skill or tool and have proficiency with it until your focus ends.
+// TODO: Whenever you focus on this discipline, you choose one skill or tool and have proficiency with it until your focus ends.
 // Alternatively, you gain the ability to read and write one language of your choice until your focus ends.
 // - When focusing on this
 // - This buff will have variations -> Psychic Focus: Nomadic Mind (Performance), etc.
 // "Has Proficiency in X checks."
+new entry "PSYCHIC_FOCUS_NOMADIC_MIND"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" ""
+data "StackId" "PSYCHIC_FOCUS"
+data "Boosts" ""
 
 // Psychic Focus: Nomadic Step
-// After you teleport on your turn while focused on this discipline, your walking speed increases by 10 feet until the end of the turn, as you are propelled by the magic of your teleportation.
-// You can receive this increase only once per turn.
-// "Increase movement speed by 3m after teleporting."
+// TODO: "Increase movement speed by 3m after teleporting, once per turn."
+new entry "PSYCHIC_FOCUS_NOMADIC_STEP"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" ""
+data "StackId" "PSYCHIC_FOCUS"
+data "Boosts" ""
+
+new entry "PSYCHIC_FOCUS_NOMADIC_MIND_BUFF"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" ""
+data "StackId" "PSYCHIC_FOCUS_NOMADIC_STEP_BUFF"
+data "Boosts" ""
+
+// Psychic Focus: Precognition
+// Reworked (no advantage on initiative)
+new entry "PSYCHIC_FOCUS_PRECOGNITION"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" ""
+data "StackId" "PSYCHIC_FOCUS"
+data "Boosts" "Initiative(3)"
+
+// Psychic Focus: Psionic Restoration
+// Reworked (now heals 2 hit points when healing creatures)
+// TODO: Make this only work on Psionic Talents and Disciplines
+new entry "PSYCHIC_FOCUS_PSIONIC_RESTORATION"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" ""
+data "StackId" "PSYCHIC_FOCUS"
+data "Boosts" ""
+data "StatsFunctorContext" "OnHeal"
+data "StatsFunctors" "RegainHitPoints(2)"
+
+// Psychic Focus: Psionic Weapon
+// TODO: Add an armed MagicalProperty() or something
+// FIXME: Not sure if WeaponProperty will work
+new entry "PSYCHIC_FOCUS_PSIONIC_WEAPON"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" ""
+data "StackId" "PSYCHIC_FOCUS"
+data "Boosts" "UnarmedMagicalProperty();WeaponProperty(Magical)"
+
+// Psychic Focus: Psychic Assault
+// "Has +2 to damage rolls with psionic talents that deal Psychic damage."
+// TODO: We'll come back to this later
+new entry "PSYCHIC_FOCUS_PSYCHIC_ASSAULT"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" ""
+data "StackId" "PSYCHIC_FOCUS"
+data "Boosts" ""
+
+// Psychic Focus: Psychic Disruption
+new entry "PSYCHIC_FOCUS_PSYCHIC_DISRUPTION"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" ""
+data "StackId" "PSYCHIC_FOCUS"
+data "Boosts" "Advantage(Skill, Deception)"
+
+// Psychic Focus: Psychic Suppression (Psychic Inquisition)
+// While focused on this discipline, you know when a creature communicating with you via telepathy is lying.
+// ***IMPOSSIBLE
+// TODO: WIP: BEING REWORKED UNDER CONSTRUCTION
+new entry "PSYCHIC_FOCUS_PSYCHIC_SUPPRESSION"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" ""
+data "StackId" "PSYCHIC_FOCUS"
+data "Boosts" ""
+
+// Psychic Focus: Telepathic Subjugation (Telepathic Contact) 
+// While focused on this discipline, you gain the ability to use your Telepathy class feature with up to six creatures at once.
+// If you don’t have that feature from the mystic class, you instead gain it while focused on this discipline.
+// ***IMPOSSIBLE
+// TODO: WIP: BEING REWORKED UNDER CONSTRUCTION
+new entry "PSYCHIC_FOCUS_TELEPATHIC_SUBJUGATION"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" ""
+data "StackId" "PSYCHIC_FOCUS"
+data "Boosts" ""
 
 // Psychic Focus: Third Eye
-// "Has Darkvision up to 18m."
+// NERFED 
+new entry "PSYCHIC_FOCUS_THIRD_EYE"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" ""
+data "StackId" "PSYCHIC_FOCUS"
+data "Boosts" "DarkvisionRangeMin(12);ActiveCharacterLight(051648e6-f05a-e41f-e398-ffd5cd148989)"
 
-// ==WU JEN DISCIPLINES==
 
-// Psychic Focus: Mastery of Air
-// "Immune to Falling damage and Difficult Terrain."
-
-// Psychic Focus: Mastery of Fire
-// "Resistant to Fire damage. Has +2 bonus to damage rolls."
-
-// Psychic Focus: Mastery of Force
-// "Advantage on Strength checks."
-
-// Psychic Focus: Mastery of Ice
-// "Resistant to Cold damage."
-
-// Psychic Focus: Mastery of Light and Darkness
-// "Immune to Darkness."
-
-// Psychic Focus: Mastery of Water
-// While focused on this discipline, you have a swimming speed equal to your walking speed, and you can breathe underwater.
-// ***IRRELEVANT
-// Maybe something like: "Able to traverse water-based surfaces unimpeded. Resistant to Fire damage."
-
-// Psychic Focus: Mastery of Weather
-// "Resistant to Lightning and Thunder damage."
-
-// Psychic Focus: Mastery of Wood and Earth
-// "Armour Class increased by 1." (identical to Iron Durability)
-
-// ==OTHER BUFFS==
+// ==OTHER BUFFS/DEBUFFS==
