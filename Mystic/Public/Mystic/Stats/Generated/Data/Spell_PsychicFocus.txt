@@ -7,8 +7,8 @@ new entry "Shout_Mystic_PsychicFocus_AdaptiveBody"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h87f919e0g263bg4fa2gaa30ge33328cc8988"
+data "Description" "hdf7c6b06ga9f7g4bcdgb3f2gec16ba0b6112"
 data "DescriptionParams" ""
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 
