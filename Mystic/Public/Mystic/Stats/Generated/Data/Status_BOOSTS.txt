@@ -624,7 +624,7 @@ data "StatusType" "BOOST"
 data "DisplayName" "h0cdc84a9gaafag4ecag9c13g96d60ca628f6"
 data "Description" "hf925d812g1888g43fcg868egb9a8bfc1dd34"
 data "Icon" "Spell_Evocation_Light"
-data "StackId" "LIGHT"
+data "StackId" "MYSTIC_BLADE_MELD"
 data "Boosts" "CannotBeDisarmed();ItemReturnToOwner()"
 
 // Light Step
@@ -634,9 +634,37 @@ data "StatusType" "BOOST"
 data "DisplayName" "h29b79265g1a6cg44b5g9eefg01609d146fa2"
 data "Description" "h7d02b3fdge32eg4391g8fefgfb07f0598425"
 data "Icon" "Spell_Evocation_Light"
-data "StackId" "LIGHT"
+data "StackId" "MYSTIC_LIGHT_STEP"
 data "Boosts" "ActionResource(Movement,3,0;StatusImmunity(PRONE))"
 
+// Blind Spot
+new entry "MYSTIC_BLIND_SPOT"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h63e6e83fg3326g488aga29cg1ed5d8dab7cf"
+data "Description" "hbe6f4eeeg729ag4a55ga001g1886fef14a34"
+data "Icon" "Spell_Evocation_Light"
+data "StackId" "LIGHT"
+data "Boosts" "SightRangeMaximum(3)"
+
+// Mind Meld
+new entry "MYSTIC_MIND_MELD_BUFF"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h115ff01cg11ceg4134ga89cgf2206ad26123"
+data "Description" "h211147b3ge4e6g420fg9e53g4e36d045fef1"
+data "Icon" "Spell_Evocation_Light"
+data "StackId" "MYSTIC_MIND_MELD"
+data "Boosts" "Ability(Strength, 1);Ability(Dexterity, 1);Ability(Constitution, 1);Ability(Intelligence, 1);Ability(Wisdom, 1);Ability(Charisma, 1)"
+
+new entry "MYSTIC_MIND_MELD_DEBUFF"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h115ff01cg11ceg4134ga89cgf2206ad26123"
+data "Description" "h0e62824ag55abg406fgaae4g3510777914fb"
+data "Icon" "Spell_Evocation_Light"
+data "StackId" "MYSTIC_MIND_MELD"
+data "Boosts" "Ability(Strength, -1);Ability(Dexterity, -1);Ability(Constitution, -1);Ability(Intelligence, -1);Ability(Wisdom, -1);Ability(Charisma, -1)"
 
 // ==OTHER BUFFS/DEBUFFS==
 // * = Higher than level 12
