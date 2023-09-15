@@ -4,12 +4,12 @@
     <region id="Progressions">
         <node id="root">
             <children>
-                <node id="Progression"> Msytic Level 1
+                <node id="Progression"> Mainclass Level 1
                     <attribute id="AllowImprovement" type="bool" value="false"/>
                     <attribute id="Boosts" type="LSString" value="ActionResource(PsiPoints,5,0);ProficiencyBonus(SavingThrow,Intelligence);ProficiencyBonus(SavingThrow,Wisdom);Proficiency(SimpleWeapons);Proficiency(LightArmor)"/> Adds resource, proficiency, etc.
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Mystic"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Passive1"/> TODO: most class features usually can be done with passives
+                    <attribute id="PassivesAdded" type="LSString" value=""/> TODO: most class features usually can be done with passives
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="0"/> v TODO: Using artificer cantrips
                     <attribute id="Selectors" type="LSString" value="SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectPassives(48317e03-fe2a-4767-8f4d-1bdc2a40ac65,1);SelectSkills(a93e9e09-6bdd-475c-b4e4-3acf69d02111,2);SelectSpells(88397df1-8417-4e1f-ba70-7935516b9225,2,0,,,,AlwaysPrepared);SelectSpells(SPELL_LIST_UUID,4,0)"/> this is where you can have your class select spells from spell list, passive from passive list, and skill from skill list. Select ability bonus let you get the +2/+1 at CC
@@ -20,17 +20,27 @@
                             <children>
                                 <node id="SubClass">
                                     <attribute id="Object" type="guid" value="ad862906-2d59-46bb-86db-271213086b1b"/> Avatar
+                                </node>
+                                <node id="SubClass">
                                     <attribute id="Object" type="guid" value="2985a255-24e5-43ae-bb25-301eab9e494d"/> Awakened
+                                </node>
+                                <node id="SubClass">
                                     <attribute id="Object" type="guid" value="eed23a86-6f91-4c42-b144-16751f131b06"/> Immortal
+                                </node>
+                                <node id="SubClass">
                                     <attribute id="Object" type="guid" value="53429775-301b-4da5-bcd2-c83ef9f15e21"/> Nomad
+                                </node>
+                                <node id="SubClass">
                                     <attribute id="Object" type="guid" value="7c3f6d5b-194e-4af9-bc16-435a2c546d19"/> Soul Knife
+                                </node>
+                                <node id="SubClass">
                                     <attribute id="Object" type="guid" value="800d31fc-32d1-40c0-b871-cd8242105a20"/> Wu Jen
                                 </node>
                             </children>
                         </node>
                     </children>
                 </node>
-				<node id="Progression"> Mystic Level 1 MULTICLASS
+				<node id="Progression"> Mainclass Level 1 MULTICLASS
                     <attribute id="AllowImprovement" type="bool" value="false"/>
                     <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="IsMulticlass" type="bool" value="true"/>
@@ -39,6 +49,7 @@
                     <attribute id="PassivesAdded" type="LSString" value=""/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
 					<attribute id="TableUUID" type="guid" value="4b5d89ce-9dfb-46c2-a205-77bbf05a6492"/>
                     <attribute id="UUID" type="guid" value="5e682fd9-6864-45e0-bf8b-f45555555555"/>
 					<children>
@@ -46,10 +57,20 @@
                             <children>
                                 <node id="SubClass">
                                     <attribute id="Object" type="guid" value="ad862906-2d59-46bb-86db-271213086b1b"/> Avatar
+                                </node>
+                                <node id="SubClass">
                                     <attribute id="Object" type="guid" value="2985a255-24e5-43ae-bb25-301eab9e494d"/> Awakened
+                                </node>
+                                <node id="SubClass">
                                     <attribute id="Object" type="guid" value="eed23a86-6f91-4c42-b144-16751f131b06"/> Immortal
+                                </node>
+                                <node id="SubClass">
                                     <attribute id="Object" type="guid" value="53429775-301b-4da5-bcd2-c83ef9f15e21"/> Nomad
+                                </node>
+                                <node id="SubClass">
                                     <attribute id="Object" type="guid" value="7c3f6d5b-194e-4af9-bc16-435a2c546d19"/> Soul Knife
+                                </node>
+                                <node id="SubClass">
                                     <attribute id="Object" type="guid" value="800d31fc-32d1-40c0-b871-cd8242105a20"/> Wu Jen
                                 </node>
                             </children>
@@ -201,7 +222,7 @@
                 </node>
 
                 TODO: MYSTIC LEVEL 13-20
-				
+
                 <node id="Progression"> Avatar Level 1
                     <attribute id="Boosts" type="LSString" value="Proficiency(Shields);Proficiency(MediumArmor)"/> Armor Training
                     <attribute id="Level" type="uint8" value="1"/>
@@ -382,7 +403,7 @@
                 </node>
 
                 TODO: WU JEN LEVELS 7-12, 13-20, replace spells
-
+                
             </children>
         </node>
     </region>
