@@ -1,5 +1,6 @@
 // There's too many of these
 // TODO: Psychic Focuses are applied for a turn only rn
+// TODO: Every spell has the same VFX, SFX and animation as Thaumaturgy
 
 // Adaptive Body
 new entry "Shout_Mystic_PsychicFocus_AdaptiveBody"
@@ -13,8 +14,37 @@ data "Icon" ""
 
 data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_ADAPTIVE_BODY,100,10)"
 data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_ADAPTIVE_BODY,100,10)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
 
 data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
 
 // Aura Sight
 new entry "Shout_Mystic_PsychicFocus_AuraSight"
@@ -28,8 +58,23 @@ data "Icon" ""
 
 data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_AURA_SIGHT,100,10)"
 data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_AURA_SIGHT,100,10)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
 
 data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
 
 // Bestial Form
 new entry "Shout_Mystic_PsychicFocus_BestialForm"
@@ -43,8 +88,23 @@ data "Icon" ""
 
 data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_BESTIAL_FORM,100,10)"
 data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_BESTIAL_FORM,100,10)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
 
 data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
 
 // Brute Force
 new entry "Shout_Mystic_PsychicFocus_BruteForce"
@@ -58,8 +118,23 @@ data "Icon" ""
 
 data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_BRUTE_FORCE,100,10)"
 data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_BRUTE_FORCE,100,10)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
 
 data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
 
 // Celerity
 new entry "Shout_Mystic_PsychicFocus_Celerity"
@@ -73,8 +148,23 @@ data "Icon" ""
 
 data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_CELERITY,100,10)"
 data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_CELERITY,100,10)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
 
 data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
 
 // Corrosive Metabolism
 new entry "Shout_Mystic_PsychicFocus_CorrosiveMetabolism"
@@ -88,8 +178,23 @@ data "Icon" ""
 
 data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_CORROSIVE_METABOLISM,100,10)"
 data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_CORROSIVE_METABOLISM,100,10)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
 
 data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
 
 // Crown of Despair
 new entry "Shout_Mystic_PsychicFocus_CrownOfDespair"
@@ -103,8 +208,23 @@ data "Icon" ""
 
 data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_CROWN_OF_DESPAIR,100,10)"
 data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_CROWN_OF_DESPAIR,100,10)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
 
 data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
 
 // Crown of Disgust
 new entry "Shout_Mystic_PsychicFocus_CrownOfDisgust"
@@ -118,8 +238,23 @@ data "Icon" ""
 
 data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_CROWN_OF_DISGUST,100,10)"
 data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_CROWN_OF_DISGUST,100,10)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
 
 data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
 
 // Crown of Rage
 new entry "Shout_Mystic_PsychicFocus_CrownOfRage"
@@ -133,8 +268,23 @@ data "Icon" ""
 
 data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_CROWN_OF_RAGE,100,10)"
 data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_CROWN_OF_RAGE,100,10)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
 
 data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
 
 // Diminution
 new entry "Shout_Mystic_PsychicFocus_Diminution"
@@ -148,8 +298,23 @@ data "Icon" ""
 
 data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_DIMINUTION,100,10)"
 data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_DIMINUTION,100,10)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
 
 data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
 
 // Giant Growth
 new entry "Shout_Mystic_PsychicFocus_GiantGrowth"
@@ -163,8 +328,23 @@ data "Icon" ""
 
 data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_GIANT_GROWTH,100,10)"
 data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_GIANT_GROWTH,100,10)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
 
 data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
 
 // Intellect Fortress
 new entry "Shout_Mystic_PsychicFocus_IntellectFortress"
@@ -178,8 +358,23 @@ data "Icon" ""
 
 data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_INTELLECT_FORTRESS,100,10)"
 data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_INTELLECT_FORTRESS,100,10)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
 
 data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
 
 // Iron Durability
 new entry "Shout_Mystic_PsychicFocus_IronDurability"
@@ -193,8 +388,23 @@ data "Icon" ""
 
 data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_IRON_DURABILITY,100,10)"
 data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_IRON_DURABILITY,100,10)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
 
 data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
 
 // Mantle of Awe
 new entry "Shout_Mystic_PsychicFocus_MantleOfAwe"
@@ -208,8 +418,23 @@ data "Icon" ""
 
 data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_MANTLE_OF_AWE,100,10)"
 data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_MANTLE_OF_AWE,100,10)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
 
 data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
 
 // Mantle of Command
 new entry "Shout_Mystic_PsychicFocus_MantleOfCommand"
@@ -223,8 +448,23 @@ data "Icon" ""
 
 data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_MANTLE_OF_COMMAND,100,10)"
 data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_MANTLE_OF_COMMAND,100,10)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
 
 data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
 
 // Mantle of Courage
 new entry "Shout_Mystic_PsychicFocus_MantleOfCourage"
@@ -238,8 +478,23 @@ data "Icon" ""
 
 data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_MANTLE_OF_COURAGE,100,10)"
 data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_MANTLE_OF_COURAGE,100,10)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
 
 data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
 
 // Mantle of Fear
 new entry "Shout_Mystic_PsychicFocus_MantleOfFear"
@@ -253,8 +508,23 @@ data "Icon" ""
 
 data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_MANTLE_OF_FEAR,100,10)"
 data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_MANTLE_OF_FEAR,100,10)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
 
 data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
 
 // Mantle of Fury
 new entry "Shout_Mystic_PsychicFocus_MantleOfFury"
@@ -268,8 +538,23 @@ data "Icon" ""
 
 data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_MANTLE_OF_FURY,100,10)"
 data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_MANTLE_OF_FURY,100,10)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
 
 data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
 
 // Mantle of Joy
 new entry "Shout_Mystic_PsychicFocus_MantleOfJoy"
@@ -283,8 +568,23 @@ data "Icon" ""
 
 data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_MANTLE_OF_JOY,100,10)"
 data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_MANTLE_OF_JOY,100,10)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
 
 data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
 
 // Mastery of Air
 new entry "Shout_Mystic_PsychicFocus_MasteryOfAir"
@@ -298,8 +598,23 @@ data "Icon" ""
 
 data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_MASTERY_OF_AIR,100,10)"
 data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_MASTERY_OF_AIR,100,10)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
 
 data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
 
 // Mastery of Fire
 new entry "Shout_Mystic_PsychicFocus_MasteryOfFire"
@@ -313,8 +628,23 @@ data "Icon" ""
 
 data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_MASTERY_OF_FIRE,100,10)"
 data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_MASTERY_OF_FIRE,100,10)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
 
 data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
 
 // Mastery of Force
 new entry "Shout_Mystic_PsychicFocus_MasteryOfForce"
@@ -328,8 +658,23 @@ data "Icon" ""
 
 data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_MASTERY_OF_FORCE,100,10)"
 data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_MASTERY_OF_FORCE,100,10)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
 
 data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
 
 // Mastery of Ice
 new entry "Shout_Mystic_PsychicFocus_MasteryOfIce"
@@ -343,8 +688,23 @@ data "Icon" ""
 
 data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_MASTERY_OF_ICE,100,10)"
 data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_MASTERY_OF_ICE,100,10)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
 
 data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
 
 // Mastery of Light and Darkness
 new entry "Shout_Mystic_PsychicFocus_MasteryOfLightAndDarkness"
@@ -358,8 +718,23 @@ data "Icon" ""
 
 data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_MASTERY_OF_LIGHT_AND_DARKNESS,100,10)"
 data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_MASTERY_OF_LIGHT_AND_DARKNESS,100,10)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
 
 data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
 
 // Mastery of Water
 new entry "Shout_Mystic_PsychicFocus_MasteryOfWater"
@@ -373,8 +748,23 @@ data "Icon" ""
 
 data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_MASTERY_OF_WATER,100,10)"
 data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_MASTERY_OF_WATER,100,10)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
 
 data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
 
 // Mastery of Weather
 new entry "Shout_Mystic_PsychicFocus_MasteryOfWeather"
@@ -388,8 +778,23 @@ data "Icon" ""
 
 data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_MASTERY_OF_WEATHER,100,10)"
 data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_MASTERY_OF_WEATHER,100,10)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
 
 data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
 
 // Mastery of Wood and Earth
 new entry "Shout_Mystic_PsychicFocus_MasteryOfWoodAndEarth"
@@ -403,8 +808,23 @@ data "Icon" ""
 
 data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_MASTERY_OF_WOOD_AND_EARTH,100,10)"
 data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_MASTERY_OF_WOOD_AND_EARTH,100,10)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
 
 data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
 
 // Nomadic Arrow
 new entry "Shout_Mystic_PsychicFocus_NomadicArrow"
@@ -418,14 +838,28 @@ data "Icon" ""
 
 data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_NOMADIC_ARROW,100,10)"
 data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_NOMADIC_ARROW,100,10)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
 
 data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
 
 // Nomadic Chameleon
 new entry "Shout_Mystic_PsychicFocus_NomadicChameleon"
 type "SpellData"
 data "SpellType" "Shout"
-
 data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
@@ -433,8 +867,23 @@ data "Icon" ""
 
 data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_NOMADIC_CHAMELEON,100,10)"
 data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_NOMADIC_CHAMELEON,100,10)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
 
 data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
 
 // Nomadic Mind
 // TODO: Spell Variants
@@ -449,8 +898,23 @@ data "Icon" ""
 
 data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_NOMADIC_MIND,100,10)"
 data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_NOMADIC_MIND,100,10)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
 
 data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
 
 // Nomadic Step
 new entry "Shout_Mystic_PsychicFocus_NomadicStep"
@@ -464,8 +928,23 @@ data "Icon" ""
 
 data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_NOMADIC_STEP,100,10)"
 data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_NOMADIC_STEP,100,10)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
 
 data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
 
 // Precognition
 new entry "Shout_Mystic_PsychicFocus_Precognition"
@@ -479,8 +958,23 @@ data "Icon" ""
 
 data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_PRECOGNITION,100,10)"
 data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_PRECOGNITION,100,10)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
 
 data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
 
 // Psionic Restoration
 new entry "Shout_Mystic_PsychicFocus_PsionicRestoration"
@@ -494,8 +988,23 @@ data "Icon" ""
 
 data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_PSIONIC_RESTORATION,100,10)"
 data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_PSIONIC_RESTORATION,100,10)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
 
 data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
 
 // Psionic Weapon
 new entry "Shout_Mystic_PsychicFocus_PsionicWeapon"
@@ -509,8 +1018,23 @@ data "Icon" ""
 
 data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_PSIONIC_WEAPON,100,10)"
 data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_PSIONIC_WEAPON,100,10)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
 
 data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
 
 // Psychic Assault
 new entry "Shout_Mystic_PsychicFocus_PsychicAssault"
@@ -524,8 +1048,23 @@ data "Icon" ""
 
 data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_PSYCHIC_ASSAULT,100,10)"
 data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_PSYCHIC_ASSAULT,100,10)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
 
 data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
 
 // Psychic Disruption
 new entry "Shout_Mystic_PsychicFocus_PsychicDisruption"
@@ -533,14 +1072,29 @@ type "SpellData"
 data "SpellType" "Shout"
 
 data "DisplayName" ""
-data "Description" ""
+data "Description"""
 data "DescriptionParams" ""
 data "Icon" ""
 
 data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_PSYCHIC_DISRUPTION,100,10)"
 data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_PSYCHIC_DISRUPTION,100,10)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
 
 data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
 
 // Psychic Suppression (Psychic Inquisition)
 new entry "Shout_Mystic_PsychicFocus_PsychicSuppression"
@@ -554,8 +1108,23 @@ data "Icon" ""
 
 data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_PSYCHIC_SUPPRESSION,100,10)"
 data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_PSYCHIC_SUPPRESSION,100,10)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
 
 data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
 
 // Telepathic Subjugation (Telepathic Contact)
 new entry "Shout_Mystic_PsychicFocus_TelepathicSubjugation"
@@ -569,8 +1138,23 @@ data "Icon" ""
 
 data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_TELEPATHIC_SUBJUGATION,100,10)"
 data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_TELEPATHIC_SUBJUGATION,100,10)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
 
 data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
 
 // Third Eye
 new entry "Shout_Mystic_PsychicFocus_ThirdEye"
@@ -584,5 +1168,20 @@ data "Icon" ""
 
 data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_THIRD_EYE,100,10)"
 data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_THIRD_EYE,100,10)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
 
 data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
