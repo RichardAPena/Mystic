@@ -22,7 +22,7 @@ data "DescriptionParams" ""
 
 // Mighty Leap
 // Jump and Fly are categorized as projectiles :shrug:
-new entry "Target_Mystic_Mighty Leap"
+new entry "Target_Mystic_MightyLeap"
 type "SpellData"
 data "SpellType" "Projectile"
 
@@ -33,16 +33,6 @@ data "DescriptionParams" ""
 
 // Venom Strike
 new entry "Projectile_Mystic_VenomStrike"
-type "SpellData"
-data "SpellType" "Projectile"
-
-data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
-data "DescriptionParams" ""
-
-// Ethereal Weapon
-new entry "Projectile_Mystic_EtherealWeapon"
 type "SpellData"
 data "SpellType" "Projectile"
 

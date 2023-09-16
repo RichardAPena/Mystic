@@ -324,6 +324,16 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 
+// Ethereal Weapon
+new entry "Shout_Mystic_EtherealWeapon"
+type "SpellData"
+data "SpellType" "Shout"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
 // Lethal Strike
 new entry "Shout_Mystic_LethalStrike"
 type "SpellData"
@@ -374,8 +384,8 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 
-// Step From Night
-new entry "Shout_Mystic_StepFromNight"
+// Step From Sight
+new entry "Shout_Mystic_StepFromSight"
 type "SpellData"
 data "SpellType" "Shout"
 

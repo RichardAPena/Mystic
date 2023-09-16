@@ -387,6 +387,16 @@ data "DisplayName" ""
 data "Description" ""
 data "DescriptionParams" ""
 
+// Visions of Disgust
+new entry "Target_Mystic_VisionsOfDisgust"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
 // World of Horror
 new entry "Target_Mystic_WorldOfHorror"
 type "SpellData"
@@ -639,6 +649,16 @@ data "DescriptionParams" ""
 
 // Id Insinuation
 new entry "Target_Mystic_IdInsinuation"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Psychic Crush
+new entry "Target_Mystic_PsychicCrush"
 type "SpellData"
 data "SpellType" "Target"
 
