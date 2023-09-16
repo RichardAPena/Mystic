@@ -1,15 +1,3 @@
-// Psionic Talents
-
-// Energy Beam
-new entry "Projectile_Mystic_EnergyBeam"
-type "SpellData"
-data "SpellType" "Projectile"
-
-data "Icon" "Spell_Evocation_Light"
-data "DisplayName" "h03963472g0f58g4428ga1e0gd7c4a7133c56"
-data "Description" "h3ff3c148g722cg44edga1cbgec3a9f65a43f"
-data "DescriptionParams" ""
-
 // Psionic Disciplines
 
 // Psionic Blast

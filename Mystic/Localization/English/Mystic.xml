@@ -252,7 +252,7 @@
 	<content contentuid="haa9ee987g1bd1g402dg92b9g8d99e1c7d9d3" version="1">Infuse yourself with light.</content>
 	<content contentuid="h36e02f3agba47g4e95g8a0eg9148c31332ca" version="1">Infused with light.</content>
 	<content contentuid="h0cdc84a9gaafag4ecag9c13g96d60ca628f6" version="1">Blade Meld</content>
-	<content contentuid="h0cad1e6eg02c0g44aag941egbaf5b084f27a" version="1">Your weapon becomes one with your hand, preventing you from being Disarmed.</content>
+	<content contentuid="h0cad1e6eg02c0g44aag941egbaf5b084f27a" version="1">Your weapon becomes one with your hand, preventing you from being &lt;LSTag Type="Status" Tooltip="DISARMED"&gt;Disarmed&lt;/LSTag&gt;.</content>
 	<content contentuid="hf925d812g1888g43fcg868egb9a8bfc1dd34" version="1">Immune to being Disarmed.</content>
 	<content contentuid="h63e6e83fg3326g488aga29cg1ed5d8dab7cf" version="1">Blind Spot</content>
 	<content contentuid="h0f8721b3g5ec3g4c1cg96d2ge07c7a80dd19" version="1">Attempt to obscure a creature's vision, possibly reducing their sight.</content>
@@ -260,7 +260,7 @@
 	<content contentuid="h69702fa4g7d0eg4eddg8905g30ea92e807a7" version="1">Delusion</content>
 	<content contentuid="h98989d17g4f6fg4f98gaa46g1e00dab9a8a8" version="1">Plant a false belief in the targeted area, summoning a simulacrum that compels nearby creatures to investigate.</content>
 	<content contentuid="h03963472g0f58g4428ga1e0gd7c4a7133c56" version="1">Energy Beam</content>
-	<content contentuid="h3ff3c148g722cg44edga1cbgec3a9f65a43f" version="1">Blast a creature with a chromatic beam of energy</content>
+	<content contentuid="h3ff3c148g722cg44edga1cbgec3a9f65a43f" version="1">Blast a creature with a chromatic beam of energy.</content>
 	<content contentuid="h29b79265g1a6cg44b5g9eefg01609d146fa2" version="1">Light Step</content>
 	<content contentuid="hfa7ee91eg9616g4227gbccfg77a694d0c7d9" version="1">Alter your weight and density, increasing your movement speed by [1] and becoming immune to &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
 	<content contentuid="h7d02b3fdge32eg4391g8fefgfb07f0598425" version="1">Movement speed increased by [1]. Immune to &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>

@@ -144,10 +144,10 @@ type "StatusData"
 data "StatusType" "BOOST"
 data "DisplayName" "h726cffd3g5059g451egb576g4c780d6f25d8"
 data "Description" "h2992fa4fgf81bg45c1g81adge4e0e19a9c37"
-data "DescriptionParams" "(IntelligenceModifier/2)"
+data "DescriptionParams" "max(1,IntelligenceModifier/2)"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
-data "Boosts" "Skill(Deception, IntelligenceModifier/2);Skill(Intimidation, IntelligenceModifier/2);Skill(Performance, IntelligenceModifier/2);Skill(Persuasion, IntelligenceModifier/2)"
+data "Boosts" "Skill(Deception, max(1,IntelligenceModifier/2));Skill(Intimidation, max(1,IntelligenceModifier/2));Skill(Performance, max(1,IntelligenceModifier/2));Skill(Persuasion, max(1,IntelligenceModifier/2))"
 
 // Psychic Focus: Mantle of Command
 new entry "PSYCHIC_FOCUS_MANTLE_OF_COMMAND"
