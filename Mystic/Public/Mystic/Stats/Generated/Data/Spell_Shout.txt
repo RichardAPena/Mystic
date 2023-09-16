@@ -5,7 +5,7 @@ new entry "Shout_Mystic_Beacon"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" "Spell_Evocation_Light"
+data "Icon" "Action_Monk_WholenessOfBody"
 data "DisplayName" "h7d11c5f8g2dc2g47c6ga64bgc7433df4bba2"
 data "Description" "haa9ee987g1bd1g402dg92b9g8d99e1c7d9d3"
 
@@ -32,7 +32,7 @@ new entry "Shout_Mystic_BladeMeld"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" "Spell_Evocation_Light"
+data "Icon" "Spell_Transmutation_MagicWeapon"
 data "DisplayName" "h0cdc84a9gaafag4ecag9c13g96d60ca628f6"
 data "Description" "h0cad1e6eg02c0g44aag941egbaf5b084f27a"
 
@@ -59,7 +59,7 @@ new entry "Shout_Mystic_LightStep"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" "Spell_Evocation_Light"
+data "Icon" "Spell_Transmutation_Longstrider"
 data "DisplayName" "h29b79265g1a6cg44b5g9eefg01609d146fa2"
 data "Description" "hfa7ee91eg9616g4227gbccfg77a694d0c7d9"
 data "DescriptionParams" "Distance(3)"
