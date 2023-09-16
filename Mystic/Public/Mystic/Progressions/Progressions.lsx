@@ -6,7 +6,7 @@
             <children>
                 <node id="Progression"> Mainclass Level 1
                     <attribute id="AllowImprovement" type="bool" value="false"/>
-                    <attribute id="Boosts" type="LSString" value="ActionResource(PsiPoints,5,0);ProficiencyBonus(SavingThrow,Intelligence);ProficiencyBonus(SavingThrow,Wisdom);Proficiency(SimpleWeapons);Proficiency(LightArmor)"/> Adds resource, proficiency, etc.
+                    <attribute id="Boosts" type="LSString" value="ActionResource(PsiPointsResource,5,0);ProficiencyBonus(SavingThrow,Intelligence);ProficiencyBonus(SavingThrow,Wisdom);Proficiency(SimpleWeapons);Proficiency(LightArmor)"/> Adds resource, proficiency, etc.
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Mystic"/>
                     <attribute id="PassivesAdded" type="LSString" value=""/> TODO: most class features usually can be done with passives

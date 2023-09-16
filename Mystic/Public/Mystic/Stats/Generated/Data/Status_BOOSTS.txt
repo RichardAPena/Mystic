@@ -667,6 +667,125 @@ data "Icon" "Spell_Evocation_Light"
 data "StackId" "MYSTIC_MIND_MELD"
 data "Boosts" "Ability(Strength, -1);Ability(Dexterity, -1);Ability(Constitution, -1);Ability(Intelligence, -1);Ability(Wisdom, -1);Ability(Charisma, -1)"
 
+// Psionic Disciplines
+
+new entry "MYSTIC_CROWNED_IN_SORROW"
+
+new entry "MYSTIC_CALLED_TO_INACTION"
+
+new entry "MYSTIC_VISIONS_OF_DESPAIR"
+
+new entry "MYSTIC_DOLOROUS_MIND"
+
+new entry "MYSTIC_EYE_OF_HORROR"
+
+new entry "MYSTIC_REPULSED"
+
+new entry "MYSTIC_VISIONS_OF_DISGUST"
+
+new entry "MYSTIC_WORLD_OF_HORROR"
+// using FRIGHTENED, UnlockSpell(Mystic_SnapOutOfIt)
+
+new entry "MYSTIC_PRIMAL_FURY"
+// ??? still dont know what to make it
+
+new entry "MYSTIC_FIGHTING_WORDS"
+
+new entry "MYSTIC_MINDLESS_COURAGE"
+// copy command: approach
+
+new entry "MYSTIC_PUNISHING_FURY"
+
+new entry "MYSTIC_COORDINATED_MOVEMENT"
+
+new entry "MYSTIC_COMMANDERS_SIGHT"
+
+new entry "MYSTIC_COMMAND_TO_STRIKE"
+// copy COMMANDERS_STRIKE_D8
+
+new entry "MYSTIC_STRATEGIC_MIND"
+
+new entry "MYSTIC_STRATEGIC_MIND_BUFF"
+
+new entry "MYSTIC_OVERWHELMING_ATTACK"
+// copy COMMANDERS_STRIKE_D8 but multiple targets
+
+new entry "MYSTIC_AURA_OF_VICTORY"
+
+new entry "MYSTIC_AURA_OF_VICTORY_BUFF"
+
+new entry "MYSTIC_PILLAR_OF_CONFIDENCE"
+
+new entry "MYSTIC_PILLAR_OF_CONFIDENCE_BUFF"
+
+new entry "MYSTIC_UNSETTLING_AURA"
+
+new entry "MYSTIC_UNSETTLING_AURA_BUFF"
+
+new entry "MYSTIC_INCITE_PANIC"
+// copy befuddled? not sure how to do 3 saving throws just yet, but could just make it so that these saving throws have disadvantage
+
+new entry "MYSTIC_INCITE_FURY"
+
+new entry "MYSTIC_MINDLESS_CHARGE"
+
+new entry "MYSTIC_AURA_OF_BLOODLETTING"
+
+new entry "MYSTIC_AURA_OF_BLOODLETTING_BUFF"
+
+new entry "MYSTIC_OVERWHELMING_FURY"
+
+new entry "MYSTIC_COMFORTING_AURA"
+
+new entry "MYSTIC_AURA_OF_JUBILATION"
+
+new entry "MYSTIC_AURA_OF_JUBILATION_BUFF"
+
+new entry "MYSTIC_ASSESS_FOE"
+
+new entry "MYSTIC_VIEW_AURA"
+
+new entry "MYSTIC_PERCEIVE_THE_UNSEEN"
+
+new entry "MYSTIC_PSYCHIC_REDOUBT"
+
+new entry "MYSTIC_CENTER_OF_ATTENTION"
+// copy Enthral
+
+new entry "MYSTIC_PRECOGNITIVE_HUNCH"
+
+new entry "MYSTIC_DANGER_SENSE"
+
+new entry "MYSTIC_VICTORY_BEFORE_BATTLE"
+
+new entry "MYSTIC_EGO_WHIP"
+
+new entry "MYSTIC_ID_INSINUATION"
+
+new entry "MYSTIC_DISTRACTING_HAZE"
+
+new entry "MYSTIC_MIND_STORM"
+
+// TODO: Psychic Inquisition
+
+// TODO: Telepathic Contact
+
+new entry "MYSTIC_ENVIRONMENTAL_ADAPTATION"
+
+new entry "MYSTIC_ENERGY_ADAPTATION_ACID"
+new entry "MYSTIC_ENERGY_ADAPTATION_COLD"
+new entry "MYSTIC_ENERGY_ADAPTATION_FIRE"
+new entry "MYSTIC_ENERGY_ADAPTATION_LIGHTNING"
+new entry "MYSTIC_ENERGY_ADAPTATION_THUNDER"
+
+new entry "MYSTIC_ENERGY_IMMUNITY_ACID"
+new entry "MYSTIC_ENERGY_IMMUNITY_COLD"
+new entry "MYSTIC_ENERGY_IMMUNITY_FIRE"
+new entry "MYSTIC_ENERGY_IMMUNITY_LIGHTNING"
+new entry "MYSTIC_ENERGY_IMMUNITY_THUNDER"
+
+new entry "MYSTIC_"
+
 // ==OTHER BUFFS/DEBUFFS==
 // * = Higher than level 12
 // Avatar of Battle

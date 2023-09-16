@@ -6,18 +6,12 @@
             <children>
                 <node id="ActionResourceDefinition"> Psi Points
                     <attribute id="Description" type="TranslatedString" handle="hfbba16d5gd122g46b3gbda7gc03e7cc09bed" version="1"/>
-					<attribute id="DiceType" type="uint32" value="0"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="heeb074ebga0e0g459dgb417g87158e793ab2" version="1"/>
-                    <attribute id="Error" type="FixedString" value="ActionResourceDefinitions_New_Stat_4_Error"/>
-                    <attribute id="IsSpellResource" type="bool" value="true"/> TODO: Maybe not
                     <attribute id="MaxLevel" type="uint32" value="0"/>
-                    <attribute id="MaxValue" type="uint32" value="71"/>
-                    <attribute id="Name" type="FixedString" value="PsiPoints"/>
-                    <attribute id="PartyActionResource" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="PsiPointsResource"/>
                     <attribute id="ReplenishType" type="FixedString" value="Rest"/>
                     <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
                     <attribute id="UUID" type="guid" value="9ea5d3a5-b1f5-4f80-a5d5-9f419f8eb456"/>
-                    <attribute id="UpdatesSpellPowerLevel" type="bool" value="true"/> TODO: Probably? At least for the variable cost 
                 </node>
                 TODO: Implement Psi Limit here? Disciplines can have a hidden Psi Limit cost
                 TODO: Implement Psionic Mastery Charges here? You can cast one spell without requiring concentration per charge
