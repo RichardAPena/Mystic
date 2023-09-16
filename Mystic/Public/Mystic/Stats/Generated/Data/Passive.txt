@@ -8,7 +8,14 @@ type "PassiveData"
 data "DisplayName" "h8eeaa9d1g3467g466eg8caegd75b3e89640d"
 data "Description" "hc27a5463g6488g45a5g88a3g63da94be5c8e"
 data "Icon" ""
-data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_AdaptiveBody)"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_AdaptiveBody);UnlockSpell(Target_Mystic_EnvironmentalAdaptation);"
+
+new entry "Mystic_AdaptiveShield"
+type "PassiveData"
+data "DisplayName" "h8eeaa9d1g3467g466eg8caegd75b3e89640d"
+data "Description" "hc27a5463g6488g45a5g88a3g63da94be5c8e"
+data "Icon" ""
+data "Boosts" "UnlockInterrupt(Interrupt_Mystic_AdaptiveShield)"
 
 // Aura Sight
 new entry "Discipline_AuraSight"
@@ -56,7 +63,7 @@ type "PassiveData"
 data "DisplayName" "h0fdf6c7ag5c84g45bbgadf2gf4ade03e98fb"
 data "Description" "h22b9138dgd2bfg427bgb4f2g5d477bcddc0a"
 data "Icon" ""
-data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_CrownOfDespair)"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_CrownOfDespair);UnlockSpell(Target_Mystic_CrownedInSorrow);UnlockSpell(Target_Mystic_CallToInaction);UnlockSpell(Target_Mystic_VisionsOfDespair);UnlockSpell(Target_Mystic_DolorousMind);"
 
 // Crown of Disgust
 new entry "Discipline_CrownOfDisgust"
