@@ -9,10 +9,10 @@
                     <attribute id="Boosts" type="LSString" value="ActionResource(PsiPointsResource,5,0);ProficiencyBonus(SavingThrow,Intelligence);ProficiencyBonus(SavingThrow,Wisdom);Proficiency(SimpleWeapons);Proficiency(LightArmor)"/> Adds resource, proficiency, etc.
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Mystic"/>
-                    <attribute id="PassivesAdded" type="LSString" value=""/> TODO: most class features usually can be done with passives
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
-                    <attribute id="ProgressionType" type="uint8" value="0"/> v TODO: Using artificer cantrips
-                    <attribute id="Selectors" type="LSString" value="SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectPassives(48317e03-fe2a-4767-8f4d-1bdc2a40ac65,1);SelectSkills(a93e9e09-6bdd-475c-b4e4-3acf69d02111,2);SelectSpells(88397df1-8417-4e1f-ba70-7935516b9225,10,0,,,,AlwaysPrepared);SelectSpells(SPELL_LIST_UUID,4,0)"/> this is where you can have your class select spells from spell list, passive from passive list, and skill from skill list. Select ability bonus let you get the +2/+1 at CC
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectPassives(48317e03-fe2a-4767-8f4d-1bdc2a40ac65,1);SelectSkills(a93e9e09-6bdd-475c-b4e4-3acf69d02111,2);SelectSpells(7b64aaca-d5e5-4555-9df3-a19bb13b5008,2,0,,,,AlwaysPrepared);"/>  Select ability bonus let you get the +2/+1 at CC
 					<attribute id="TableUUID" type="guid" value="4b5d89ce-9dfb-46c2-a205-77bbf05a6492"/>
                     <attribute id="UUID" type="guid" value="0482322d-723e-4705-a41a-99e27902311c"/>
 					<children>
@@ -80,7 +80,7 @@
 
                 <node id="Progression"> Mystic Level 2
                     <attribute id="AllowImprovement" type="bool" value="false"/>
-                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(PsiPointsResource,2,0)"/>
                     <attribute id="Level" type="uint8" value="2"/>
                     <attribute id="Name" type="LSString" value="Mystic"/>
                     <attribute id="PassivesAdded" type="LSString" value=""/>
@@ -93,20 +93,20 @@
 
                 <node id="Progression"> Mystic Level 3
                     <attribute id="AllowImprovement" type="bool" value="false"/>
-                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(PsiPointsResource,8,0)"/>
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="Mystic"/>
                     <attribute id="PassivesAdded" type="LSString" value=""/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(7b64aaca-d5e5-4555-9df3-a19bb13b5008,1,0,,,,AlwaysPrepared);SelectPassives(48317e03-fe2a-4767-8f4d-1bdc2a40ac65,1)"/>
                     <attribute id="TableUUID" type="guid" value="4b5d89ce-9dfb-46c2-a205-77bbf05a6492"/>
                     <attribute id="UUID" type="guid" value="ebad23af-e802-40e0-ba1c-090997fe337d"/>
                 </node>
 
                 <node id="Progression"> Mystic Level 4
-                    <attribute id="AllowImprovement" type="bool" value="false"/>
-                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="AllowImprovement" type="bool" value="true"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(PsiPointsResource,3,0)"/>
                     <attribute id="Level" type="uint8" value="4"/>
                     <attribute id="Name" type="LSString" value="Mystic"/>
                     <attribute id="PassivesAdded" type="LSString" value=""/>
@@ -119,20 +119,20 @@
 
                 <node id="Progression"> Mystic Level 5
                     <attribute id="AllowImprovement" type="bool" value="false"/>
-                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(PsiPointsResource,10,0)"/>
                     <attribute id="Level" type="uint8" value="5"/>
                     <attribute id="Name" type="LSString" value="Mystic"/>
                     <attribute id="PassivesAdded" type="LSString" value=""/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(48317e03-fe2a-4767-8f4d-1bdc2a40ac65,1)"/>
                     <attribute id="TableUUID" type="guid" value="4b5d89ce-9dfb-46c2-a205-77bbf05a6492"/>
                     <attribute id="UUID" type="guid" value="78848998-cd64-4257-8df4-6465bc126862"/>
                 </node>
 
                 <node id="Progression"> Mystic Level 6
                     <attribute id="AllowImprovement" type="bool" value="false"/>
-                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(PsiPointsResource,5,0)"/>
                     <attribute id="Level" type="uint8" value="6"/>
                     <attribute id="Name" type="LSString" value="Mystic"/>
                     <attribute id="PassivesAdded" type="LSString" value=""/>
@@ -145,20 +145,20 @@
 
                 <node id="Progression"> Mystic Level 7
                     <attribute id="AllowImprovement" type="bool" value="false"/>
-                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(PsiPointsResource,6,0)"/>
                     <attribute id="Level" type="uint8" value="7"/>
                     <attribute id="Name" type="LSString" value="Mystic"/>
                     <attribute id="PassivesAdded" type="LSString" value=""/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(48317e03-fe2a-4767-8f4d-1bdc2a40ac65,1)"/>
                     <attribute id="TableUUID" type="guid" value="4b5d89ce-9dfb-46c2-a205-77bbf05a6492"/>
                     <attribute id="UUID" type="guid" value="efd82e1d-b4a4-4781-a573-ceef12681ff9"/>
                 </node>
 
                 <node id="Progression"> Mystic Level 8
-                    <attribute id="AllowImprovement" type="bool" value="false"/>
-                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="AllowImprovement" type="bool" value="true"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(PsiPointsResource,6,0)"/>
                     <attribute id="Level" type="uint8" value="8"/>
                     <attribute id="Name" type="LSString" value="Mystic"/>
                     <attribute id="PassivesAdded" type="LSString" value=""/>
@@ -171,26 +171,26 @@
 
                 <node id="Progression"> Mystic Level 9
                     <attribute id="AllowImprovement" type="bool" value="false"/>
-                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(PsiPointsResource,13,0)"/>
                     <attribute id="Level" type="uint8" value="9"/>
                     <attribute id="Name" type="LSString" value="Mystic"/>
                     <attribute id="PassivesAdded" type="LSString" value=""/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(48317e03-fe2a-4767-8f4d-1bdc2a40ac65,1)"/>
                     <attribute id="TableUUID" type="guid" value="4b5d89ce-9dfb-46c2-a205-77bbf05a6492"/>
                     <attribute id="UUID" type="guid" value="f8bbd9b3-6df7-47cb-b461-07cec3355cff"/>
                 </node>
 
                 <node id="Progression"> Mystic Level 10
                     <attribute id="AllowImprovement" type="bool" value="false"/>
-                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(PsiPointsResource,7,0)"/>
                     <attribute id="Level" type="uint8" value="10"/>
                     <attribute id="Name" type="LSString" value="Mystic"/>
                     <attribute id="PassivesAdded" type="LSString" value=""/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(7b64aaca-d5e5-4555-9df3-a19bb13b5008,1,0,,,,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="4b5d89ce-9dfb-46c2-a205-77bbf05a6492"/>
                     <attribute id="UUID" type="guid" value="c6d25fa6-3582-48e6-9d6a-06c58f61d877"/>
                 </node>
@@ -209,14 +209,14 @@
                 </node>
 
                 <node id="Progression"> Mystic Level 12
-                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="AllowImprovement" type="bool" value="true"/>
                     <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="2"/>
                     <attribute id="Name" type="LSString" value="Mystic"/>
                     <attribute id="PassivesAdded" type="LSString" value=""/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(48317e03-fe2a-4767-8f4d-1bdc2a40ac65,1)"/>
                     <attribute id="TableUUID" type="guid" value="4b5d89ce-9dfb-46c2-a205-77bbf05a6492"/>
                     <attribute id="UUID" type="guid" value="553f1986-da2b-4d37-b4e6-58cfb386861a"/>
                 </node>

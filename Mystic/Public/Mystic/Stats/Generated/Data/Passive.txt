@@ -387,6 +387,30 @@ data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_ThirdEye);UnlockSpell(Shout
 // Psionic Body
 // ***TODO (VEEEEEEEEEERY MUCH LATER ON)
 
+// // Avatar of Battle
+// new entry "Mystic_AvatarOfBattleUnlock"
+// type "PassiveData"
+// data "DisplayName" "heb25c661gd0e1g43eag89e8gf9a2dbee7054"
+// data "Description" "h55ef0306g5c7eg4833ga6f1gdd3c638797c1"
+// data "Icon" ""
+// data "Boosts" ""
+
+// // Avatar of Healing
+// new entry "Mystic_AvatarOfHealingUnlock"
+// type "PassiveData"
+// data "DisplayName" "heb25c661gd0e1g43eag89e8gf9a2dbee7054"
+// data "Description" "h55ef0306g5c7eg4833ga6f1gdd3c638797c1"
+// data "Icon" ""
+// data "Boosts" ""
+
+// // Avatar of Speed
+// new entry "Mystic_AvatarOfSpeedUnlock"
+// type "PassiveData"
+// data "DisplayName" "heb25c661gd0e1g43eag89e8gf9a2dbee7054"
+// data "Description" "h55ef0306g5c7eg4833ga6f1gdd3c638797c1"
+// data "Icon" ""
+// data "Boosts" ""
+
 // Psionic Surge (Awakened)
 // "You can spend a reaction/psychic focus to impose Disadvantage on a target's Saving Throw against psionic discipline or talent you use."
 
