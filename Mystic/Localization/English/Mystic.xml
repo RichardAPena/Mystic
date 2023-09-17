@@ -306,15 +306,16 @@
 	<content contentuid="h47949da3g6dd3g44b8gbd0eg0b9479fe439c" version="1">&lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;. Can only use actions to make melee attacks.</content>
 	<content contentuid="h914e1a28g2c1cg4684ga041g8e2caa95d498" version="1">Primal Fury</content>
 	<content contentuid="h87d4504egc047g4d99g8221g58c7afa79eb3" version="1">Assault a creature with a surge of rage, causing them to immediately lose concentration.</content>
+	<content contentuid="h23e08979g16efg46d2g943bg2f9097535007" version="1">Can't concentrate on spells.</content>	
 	<content contentuid="h9b203b48gf006g4784g9c17g0595464f3fb1" version="1">Fighting Words</content>
 	<content contentuid="he37df62fg4d93g4b90g8b99g0d9c4f639af3" version="1">Drive a creature into a frenzy, giving it &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on attack rolls, but it can't concentrate on spells and enemies have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on attack rolls against it.</content>
-	<content contentuid="" version="1">Has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on attack rolls, but can't concentrate and enemies have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on attack rolls against this creature.</content>
+	<content contentuid="hc39d9017g337dg40f1g833eg0f05e443ad00" version="1">Has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on attack rolls, but can't concentrate and enemies have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on attack rolls against this creature.</content>
 	<content contentuid="hbb9dd850g9ca6g430bgb936g8c47b92ce549" version="1">Mindless Courage</content>
 	<content contentuid="hed6f2116gceeeg4621ga1b5gc38cf88ccd86" version="1">Provoke a creature, forcing it to move towards you on its turn and do nothing else.</content>
-	<content contentuid="" version="1">TODO: Mindless Courage Status Description</content>
+	<content contentuid="h422fcb65g1e3fg4b2agb4ceg438b6be7a684" version="1">Affected entity has to move towards the spellcaster using the shortest route possible and can't take any other actions or bonus actions.</content>
 	<content contentuid="h9e949f54g1892g4f19g86d8gd20bdf2fd643" version="1">Punishing Fury</content>
 	<content contentuid="h3c5d3b88g03d2g45baga1e6g426be49e6f61" version="1">Escalate a creature's rage, making it attack recklessly. Whenever the creature makes a melee attack, nearby creatures can use their reaction to make a melee attack against them.</content>
-	<content contentuid="" version="1">Boiling with rage. Whenever this creature attacks, other creatures can use their reaction to make a melee attack against them.</content>
+	<content contentuid="h8b1abde3gc807g48e0g9725g96e373175249" version="1">Boiling with rage. Whenever this creature attacks, other creatures can use their reaction to make a melee attack against them.</content>
 	<content contentuid="h6abf59c0g7ddag4ec7g97ddge6d16248b484" version="1">Coordinated Movement</content>
 	<content contentuid="h1ba91861g777eg4c67ga616g722a9e291280" version="1">Signal up to five allies to move as a unit, increasing their movement speed by [1].</content>
 	<content contentuid="" version="1">Movement speed increased by [1].</content>
