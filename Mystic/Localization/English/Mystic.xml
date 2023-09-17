@@ -297,16 +297,16 @@
 	<content contentuid="h52bc941fg3400g43c0g88b1g17e2fc2eec65" version="1">Wall of Repulsion</content>
 	<content contentuid="h0cc6b196gaa72g417ag8d93gafdb4fc13ea0" version="1">Create a wall of energy that may repulse creatures that touch it, reducing their movement speed to 0.</content>
 	<content contentuid="h7e97d15dg98e7g4b8dg9849ga2ed3058e5af" version="1">Visions of Disgust</content>
-	<content contentuid="hf1319c93g4f26g4743g9389g59867ac1f6c3" version="1">Warp a creature's mind, causing it to regard other beings as horrid. While afflicted, It takes [1] damage per creature within [2] at the end of its turns.</content>
+	<content contentuid="hf1319c93g4f26g4743g9389g59867ac1f6c3" version="1">Warp a creature's mind, causing it to regard other beings as horrid. While afflicted, it takes [1] damage per creature within [2] at the end of its turns.</content>
 	<content contentuid="" version="1">Takes [1] damage for each creature within [2] each turn.</content>
 	<content contentuid="hda6638cfg47abg4e04gbe10ge74dd3a7277f" version="1">World of Horror</content>
-	<content contentuid="h8a90a05cg67aeg4fe3gaa05g617f55476434" version="1">Wreak pandemonium in up to six creatures, Frightening them. While affected, creatures can only use their actions to make melee attacks.</content>
-	<content contentuid="" version="1">Frightened. Can only use actions to make melee attacks.</content>
+	<content contentuid="h8a90a05cg67aeg4fe3gaa05g617f55476434" version="1">Wreak pandemonium in up to six creatures, &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightening&lt;/LSTag&gt; them. While affected, creatures can only use their actions to make melee attacks.</content>
+	<content contentuid="" version="1">&lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;. Can only use actions to make melee attacks.</content>
 	<content contentuid="h914e1a28g2c1cg4684ga041g8e2caa95d498" version="1">Primal Fury</content>
 	<content contentuid="h87d4504egc047g4d99g8221g58c7afa79eb3" version="1">Assault a creature with a surge of rage, causing them to immediately lose concentration.</content>
 	<content contentuid="h9b203b48gf006g4784g9c17g0595464f3fb1" version="1">Fighting Words</content>
-	<content contentuid="he37df62fg4d93g4b90g8b99g0d9c4f639af3" version="1">Attempt to drive a creature into a frenzy, giving it Advantage on attack rolls, but it can't concentrate on spells and enemies have Advantage on attack rolls against it.</content>
-	<content contentuid="" version="1">Has Advantage on attack rolls, but can't concentrate and enemies have Advantage against this creature.</content>
+	<content contentuid="he37df62fg4d93g4b90g8b99g0d9c4f639af3" version="1">Drive a creature into a frenzy, giving it &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on attack rolls, but it can't concentrate on spells and enemies have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on attack rolls against it.</content>
+	<content contentuid="" version="1">Has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on attack rolls, but can't concentrate and enemies have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on attack rolls against this creature.</content>
 	<content contentuid="hbb9dd850g9ca6g430bgb936g8c47b92ce549" version="1">Mindless Courage</content>
 	<content contentuid="hed6f2116gceeeg4621ga1b5gc38cf88ccd86" version="1">Provoke a creature, forcing it to move towards you on its turn and do nothing else.</content>
 	<content contentuid="" version="1">TODO: Mindless Courage Status Description</content>
@@ -329,7 +329,7 @@
 	<content contentuid="h68cd3e1eg06beg474dg8556g411af0571a30" version="1">Direct up to five allies to strike a foe. They immediately use their reaction to make a weapon attack.</content>
 	<content contentuid="" version="1">TODO:? Overwhelming Attack Status Description</content>	
 	<content contentuid="h97579b00g4679g44f5gbfa6gd8a740be025c" version="1">Incite Courage</content>
-	<content contentuid="h89287d81gc263g462fgad79gb530dfb6fdc9" version="1">Bestow courage to up to six creatures, removing any Frightened conditions.</content>
+	<content contentuid="h89287d81gc263g462fgad79gb530dfb6fdc9" version="1">Bestow courage to up to six creatures, removing any &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt; conditions.</content>
 	<content contentuid="h57e5f748gb553g43adgac10gb5b6bfbd6fd5" version="1">Aura of Victory</content>
 	<content contentuid="h039be837g8748g436fgaa7dg1bbff4f743d2" version="1">Project an aura that grants you and your allies [1] temporary hit points whenever a nearby enemy is reduced to 0 hit points.</content>
 	<content contentuid="" version="1">Gains temporary hit points whenever a nearby enemy creature is reduced to 0 hit points.</content>
@@ -337,30 +337,40 @@
 	<content contentuid="h12fcfc8bg47d5g4292g8e96g4777cf857a07" version="1">Instill yourself and up to five creatures with a surge of confidence, gaining an extra action each turn.</content>
 	<content contentuid="" version="1">Able to take an additional action each turn.</content>
 	<content contentuid="h3b13f9c6gb05dg4029g861cg73533e60e4ff" version="1">Incite Fear</content>
-	<content contentuid="hc614b36dgf1e2g4d1bgbd39g2043b1fe4ae1" version="1">TODO: Incite Fear Description</content>
+	<content contentuid="hc614b36dgf1e2g4d1bgbd39g2043b1fe4ae1" version="1">Invoke fear in a creature, Frightening them. The target can repeat the saving throw at the end of its turn if it can't see you.</content>
+	<content contentuid="" version="1">Frightened. Can repeat the saving throw if the caster is out of sight.</content>
 	<content contentuid="hf54dcf2bg014fg43abg9484g52be7f13e362" version="1">Unsettling Aura</content>
-	<content contentuid="h93d0582cg5788g43e8g92f5gdc957b0b1cd6" version="1">TODO: Unsettling Aura Description</content>
+	<content contentuid="h93d0582cg5788g43e8g92f5gdc957b0b1cd6" version="1">Cloak yourself in unsettling psychic energy, halving the movement speed of nearby enemies. Creatures that are immune to being Frightened are unafected.</content>
+	<content contentuid="" version="1">TODO: Unsettling Aura Effect</content>
+	<content contentuid="" version="1">TODO: Unsettling Aura Slow</content>
 	<content contentuid="h3983f69bgce33g40cdg82e3geecd6d20292f" version="1">Incite Panic</content>
-	<content contentuid="h2b073784g2d6dg4533g8122g2b54aebb16e6" version="1">TODO: Incite Panic Description</content>
+	<content contentuid="h2b073784g2d6dg4533g8122g2b54aebb16e6" version="1">Sow chaaos in up to eight creatures, Befuddling them.</content>
+	<content contentuid="" version="1">TODO: Incinte Panic Effect</content>
 	<content contentuid="h3e342734g83e2g43cegb0fegfe74ae247945" version="1">Incite Fury</content>
-	<content contentuid="hb579b8d3g6067g4ea6gafacg291cb41e6984" version="1">TODO: Incite Fury Description</content>
+	<content contentuid="hb579b8d3g6067g4ea6gafacg291cb41e6984" version="1">Evoke fury in up to three allies, granting them +1d4 to melee weapon damage rolls.</content>
+	<content contentuid="" version="1">+1d4 to melee weapon damage rolls.</content>
 	<content contentuid="h1483efcbg0d78g40ffga8f8gfab8b74c29d1" version="1">Mindless Charge</content>
-	<content contentuid="h744cdc77g41afg4290g99e6g653fa1854560" version="1">TODO: Mindless Charge Description</content>
+	<content contentuid="h744cdc77g41afg4290g99e6g653fa1854560" version="1">Rouse up to 3 creatures, increasing their movement speed by [1] but giving them Disadvantage on Strength, Dexterity and Constitution Saving Throws.</content>
+	<content contentuid="" version="1">Movement speed increased by [1]. Disadvantage on Strength, Dexterity and Constitution Saving Throws.</content>
 	<content contentuid="h4a8242b3gffc3g43c8g8a25g0b03e9d956df" version="1">Aura of Bloodletting</content>
-	<content contentuid="ha64cd2aag4558g4e51gbb58ge0026b35a209" version="1">TODO: Aura of Bloodletting Description</content>
+	<content contentuid="ha64cd2aag4558g4e51gbb58ge0026b35a209" version="1">Unleash an aura of range, giving all nearby creatures Advantage on melee attack rolls.</content>
+	<content contentuid="" version="1">Advantage on melee attack rolls.</content>
 	<content contentuid="h085e04a6ge7dcg497cg9164g9d74e624e94b" version="1">Overwhelming Fury</content>
-	<content contentuid="h244e4d56g6167g421ega5b9ga45e43da709b" version="1">TODO: Overwhelming Fury Description</content>
+	<content contentuid="h244e4d56g6167g421ega5b9ga45e43da709b" version="1">Flood rage into a creature, preventing it from taking any actions other than melee attacks.</content>
+	<content contentuid="" version="1">Unable to take any actions but melee attacks.</content>
 	<content contentuid="h9e88737dg7b52g4340g9ab9g3b54e760a48c" version="1">Soothing Presence</content>
-	<content contentuid="he49bc493g1954g435cgbefdg47bf589c50f1" version="1">TODO: Soothing Presence Description</content>
+	<content contentuid="he49bc493g1954g435cgbefdg47bf589c50f1" version="1">Soothe up to three creatures, granting them [1] temporary hit points.</content>
+	<content contentuid="" version="1">TODO: Soothing Presence Status Description</content>
 	<content contentuid="h45bd3babgf7d3g49aag9ec3g2905c02a1873" version="1">Comforting Aura</content>
-	<content contentuid="h80944343gab2fg4802g9b80gb374f9a3c256" version="1">TODO: Comforting Aura Description</content>
+	<content contentuid="h80944343gab2fg4802g9b80gb374f9a3c256" version="1">Comfort up to three allies, giving them +1d4 to Saving Throws.</content>
+	<content contentuid="" version="1">TODO: Comforting Aura Status Description</content>
 	<content contentuid="h48ca2562g2c24g4cdcg890fga373f64c1395" version="1">Aura of Jubilation</content>
-	<content contentuid="h0f384acdg824dg425dga438g59ee967fc5bd" version="1">TODO: Aura of Jubilation Description</content>
+	<content contentuid="h0f384acdg824dg425dga438g59ee967fc5bd" version="1">Radiate an aura of distracting mirth, giving nearby creatures Disadvantage on Perception and Investigation checks.</content>
+	<content contentuid="" version="1">Disadvantage on Perception and Investigation checks.</content>
 	<content contentuid="hcda1153bg0b3fg4ac1gaf05g66d825fc6468" version="1">Beacon of Recovery</content>
-	<content contentuid="hd60e75a7g3ab9g47d2gb46dga118a8678ef1" version="1">TODO: Beacon of Recovery Description</content>
+	<content contentuid="hd60e75a7g3ab9g47d2gb46dga118a8678ef1" version="1">You and up to five allies immediately make Saving Throws against every effect they're suffering from.</content>
 
 
-	
 	<content contentuid="he0898f56gbb0ag412bgbebfg6f5ca51a2c58" version="1">Assess Foe</content>
 	<content contentuid="h0852c2a3g00f4g45c9gb202g41972be5bcd8" version="1">TODO: Assess Foe Description</content>
 	<content contentuid="hf2d8338cg3bbcg432fg9168gc940ce3682b2" version="1">View Aura</content>
