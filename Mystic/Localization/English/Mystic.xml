@@ -279,7 +279,7 @@
 	<content contentuid="h763d76bag48d9g4037ga829gcb30b54ca333" version="1">Psychic Hammer</content>
 	<content contentuid="hd3caa123g62c2g4f1bgad5eg15d6f49b3258" version="1">Push or pull a creature [1].</content>
 	<content contentuid="h0d0f8713ge6c2g4f54ga3cdg23dd8ee400e4" version="1">Crowned in Sorrow</content>
-	<content contentuid="h351deb92g0694g4786gb8f0g5676412aeaee" version="1">Torment a creature with sorrow, preventing it from taking reactions.</content>
+	<content contentuid="h351deb92g0694g4786gb8f0g5676412aeaee" version="1">Torment a creature with intense sorrow, preventing it from taking reactions.</content>
 	<content contentuid="hd955f69age48cg47f3ga161g8319dc14222d" version="1">Call to Inaction</content>
 	<content contentuid="hf6a77f50g62c5g46b1g9b06g205090b008e9" version="1">Touch a creature and attempt to Incapacitate it until it takes damage.</content>
 	<content contentuid="h6876fb03g45dfg4ff3g8330g8fc658fda76d" version="1">Called to Inaction</content>
@@ -589,8 +589,8 @@
 	<content contentuid="h198949eeg4602g4235ga8d8g61ec1bea9738" version="1">TODO: Wall of Wood Description</content>
 	<content contentuid="h8f07e60bgc7ccg4e05gb730g0070236bd61f" version="1">Armored Form</content>
 	<content contentuid="h7f453ca8gee30g4e5cg8d39ga323c199aa9a" version="1">TODO: Armored Form Description</content>
-	<content contentuid="hc28b8776ge45eg423fgbaf1g537f484ca0b9" version="1">Animate Earth</content>
-	<content contentuid="hc28b8776ge45eg423fgbaf1g537f484ca0b9" version="1">TODO: Animate Earth Description</content>
+	<content contentuid="he6887892g1f35g4ab2gb00bgbc8b0ae9f186" version="1">Animate Earth</content>
+	<content contentuid="h0453be45g6769g4bc8gad22ga1684eb1357f" version="1">TODO: Animate Earth Description</content>
 	<content contentuid="" version="1"> </content>
 	<content contentuid="" version="1"> </content>
 	<content contentuid="" version="1"> </content>

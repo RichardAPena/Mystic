@@ -23,7 +23,7 @@ new entry "Wall_Mystic_IceBarrier"
 type "SpellData"
 data "SpellType" "Wall"
 
-data "Icon" ""
+data "Icon" "Spell_Evocation_WallOfIce"
 data "DisplayName" "hffbc0d49gca10g4226g8cd5ga1651badf1a7"
 data "Description" "h80c6ef67ga95cg467fga4e7g67f900bb39d4"
 data "DescriptionParams" ""
