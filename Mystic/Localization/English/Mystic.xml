@@ -282,15 +282,15 @@
 	<content contentuid="h52100dbcgf2ecg4b8bgaf04geb08e9447aaa" version="1">Unable to take reactions.</content>
 	<content contentuid="h351deb92g0694g4786gb8f0g5676412aeaee" version="1">Torment a creature with intense sorrow, preventing it from taking reactions.</content>
 	<content contentuid="hd955f69age48cg47f3ga161g8319dc14222d" version="1">Call to Inaction</content>
-	<content contentuid="hf6a77f50g62c5g46b1g9b06g205090b008e9" version="1">Touch a creature and attempt to Incapacitate it until it takes damage.</content>
+	<content contentuid="hf6a77f50g62c5g46b1g9b06g205090b008e9" version="1">Touch a creature and attempt to &lt;LSTag Type="Status" Tooltip="INCAPACITATED"&gt;Incapacitate&lt;/LSTag&gt; it until it takes damage.</content>
 	<content contentuid="h6876fb03g45dfg4ff3g8330g8fc658fda76d" version="1">Called to Inaction</content>
-	<content contentuid="h37deb4c0g409bg4fd2ga6f5gf1216b0a21dd" version="1">Incapacitated until damaged.</content>
+	<content contentuid="h37deb4c0g409bg4fd2ga6f5gf1216b0a21dd" version="1">&lt;LSTag Type="Status" Tooltip="INCAPACITATED"&gt;Incapacitated&lt;/LSTag&gt; until damaged.</content>
 	<content contentuid="hc0b08843g8f8eg49a1g9342g7d7b776fbc61" version="1">Visions of Despair</content>
 	<content contentuid="h666cee9fg7058g40c6g9bd5ge4cebbb6d433" version="1">Flood a creature with sorrowful visions, reducing their movement speed to 0.</content>
 	<content contentuid="hfe6c6eeagb18bg4b1dgb4b0g992e51fc5fe6" version="1">Movement speed reduced to 0.</content>
 	<content contentuid="h83324aa2g689ag4e26gae75ga176151e8866" version="1">Dolorous Mind</content>
-	<content contentuid="h19bf8e5eg6f44g4bc2gb5fegd2a1f608b599" version="1">Overwhelm a creature with anguish, Incapacitating it and reducing its movement speed to 0.</content>
-	<content contentuid="hf7b4f71dg39aeg4582gbe7bgda7d0c9566ac" version="1">Incapacitated, movement speed reduced to 0.</content>
+	<content contentuid="h19bf8e5eg6f44g4bc2gb5fegd2a1f608b599" version="1">Overwhelm a creature with anguish, &lt;LSTag Type="Status" Tooltip="INCAPACITATED"&gt;Incapacitating&lt;/LSTag&gt; it and reducing its movement speed to 0.</content>
+	<content contentuid="hf7b4f71dg39aeg4582gbe7bgda7d0c9566ac" version="1">&lt;LSTag Type="Status" Tooltip="INCAPACITATED"&gt;Incapacitated&lt;/LSTag&gt;, movement speed reduced to 0.</content>
 	<content contentuid="hd49244fdg189fg49abgafb7g82b523a3ee79" version="1">Eye of Horror</content>
 	<content contentuid="h60a97b1bg8f91g4f28g80bfgcc527aaa1047" version="1">TODO: Eye of Horror Description</content>
 	<content contentuid="h52bc941fg3400g43c0g88b1g17e2fc2eec65" version="1">Wall of Repulsion</content>
