@@ -3,7 +3,7 @@ new entry "Wall_Mystic_WallOfRepulsion"
 type "SpellData"
 data "SpellType" "Wall"
 
-data "Icon" ""
+data "Icon" "Spell_WallOfThorns"
 data "DisplayName" "h52bc941fg3400g43c0g88b1g17e2fc2eec65"
 data "Description" "h0cc6b196gaa72g417ag8d93gafdb4fc13ea0"
 data "DescriptionParams" ""
