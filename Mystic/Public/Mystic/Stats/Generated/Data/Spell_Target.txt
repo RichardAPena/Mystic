@@ -940,7 +940,7 @@ new entry "Target_Mystic_WateryGrasp"
 type "SpellData"
 data "SpellType" "Target"
 
-data "Icon" ""
+data "Icon" "Spell_Transmutation_CreateWater"
 data "DisplayName" "h3117d124g32edg4063g9b47g520fed500eec"
 data "Description" "h67d054a7g10ceg47dega004g980c43d248b7"
 data "DescriptionParams" ""
