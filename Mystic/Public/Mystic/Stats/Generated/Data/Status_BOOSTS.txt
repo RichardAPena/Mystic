@@ -636,7 +636,7 @@ data "Description" "h7d02b3fdge32eg4391g8fefgfb07f0598425"
 data "DescriptionParams" "Distance(3)"
 data "Icon" "Spell_Transmutation_Longstrider"
 data "StackId" "MYSTIC_LIGHT_STEP"
-data "Boosts" "ActionResource(Movement,3,0;StatusImmunity(PRONE))"
+data "Boosts" "ActionResource(Movement,3,0);StatusImmunity(PRONE)"
 
 // Blind Spot
 new entry "MYSTIC_BLIND_SPOT"
@@ -672,6 +672,7 @@ data "Boosts" "Ability(Strength, -1);Ability(Dexterity, -1);Ability(Constitution
 new entry "MYSTIC_CROWNED_IN_SORROW"
 
 new entry "MYSTIC_CALLED_TO_INACTION"
+data "Description" "h6876fb03g45dfg4ff3g8330g8fc658fda76d"
 
 new entry "MYSTIC_VISIONS_OF_DESPAIR"
 
@@ -784,7 +785,111 @@ new entry "MYSTIC_ENERGY_IMMUNITY_FIRE"
 new entry "MYSTIC_ENERGY_IMMUNITY_LIGHTNING"
 new entry "MYSTIC_ENERGY_IMMUNITY_THUNDER"
 
-new entry "MYSTIC_"
+new entry "MYSTIC_BESTIAL_TRANSFORMATION_FLIGHT"
+new entry "MYSTIC_BESTIAL_TRANSFORMATION_KEEN_SENSES"
+new entry "MYSTIC_BESTIAL_TRANSFORMATION_PERFECT_SENSES"
+new entry "MYSTIC_BESTIAL_TRANSFORMATION_TOUGH_HIDE"
+
+new entry "MYSTIC_FEAT_OF_STRENGTH"
+
+new entry "MYSTIC_RAPID_STEP_1"
+new entry "MYSTIC_RAPID_STEP_2"
+new entry "MYSTIC_RAPID_STEP_3"
+new entry "MYSTIC_RAPID_STEP_4"
+new entry "MYSTIC_RAPID_STEP_5"
+new entry "MYSTIC_RAPID_STEP_6"
+new entry "MYSTIC_RAPID_STEP_7"
+
+new entry "MYSTIC_AGILE_DEFENSE"
+
+// new entry "MYSTIC_BLUR_OF_MOTION"
+// just apply invis for 1 turn
+
+// new entry "MYSTIC_SURGE_OF_SPEED"
+// just apply action surge
+
+new entry "MYSTIC_MICROSCOPIC_FORM"
+// inherit/copy reduce
+
+new entry "MYSTIC_GIANT_FORM"
+// inherit/copy enlarge
+
+new entry "MYSTIC_IRON_DURABILITY"
+// might make it not upcastable
+
+new entry "MYSTIC_STEEL_HIDE"
+
+new entry "MYSTIC_IRON_RESISTANCE"
+
+new entry "MYSTIC_ETHEREAL_WEAPON"
+
+new entry "MYSTIC_LETHAL_STRIKE"
+
+new entry "MYSTIC_AUGMENTED_WEAPON"
+
+new entry "MYSTIC_SPEED_DART"
+
+new entry "MYSTIC_FAITHFUL_ARCHER"
+
+new entry "MYSTIC_CHAMELEON"
+
+// new entry "MYSTIC_STEP_FROM_SIGHT"
+// just apply regular invisibility
+
+// new entry "MYSTIC_ENDURING_INVISIBILITY"
+// just apply greater invisibilty
+
+// TODO: Nomadic Mind
+
+new entry "MYSTIC_NOMADIC_ANCHOR"
+// ?????
+
+new entry "MYSTIC_DEFENSIVE_STEP"
+
+new entry "MYSTIC_TREMORSENSE"
+
+new entry "MYSTIC_UNWAVERING_EYE"
+
+new entry "MYSTIC_PIERCING_SIGHT"
+
+new entry "MYSTIC_TRUESIGHT"
+
+new entry "MYSTIC_CLOAK_OF_AIR"
+
+// new entry "MYSTIC_MISTY_FORM"
+// just copy gaseous form
+
+new entry "MYSTIC_FIRE_FORM"
+
+new entry "MYSTIC_INERTIAL_ARMOR"
+// might make this mutually exclusive with mage armor
+
+// new entry "MYSTIC_GRASP"
+// ?????
+
+new entry "MYSTIC_ICE_SPIKE"
+
+new entry "MYSTIC_FROZEN_SANCTUARY"
+
+new entry "MYSTIC_FROZEN_RAIN"
+
+new entry "MYSTIC_LIGHT"
+
+new entry "MYSTIC_RADIANT_BEAM"
+// this might be necessary to have the saving throw component?
+
+
+new entry "MYSTIC_WATER_SPHERE"
+// this spell is DOGSHIT holy shit i might mega buff this
+
+new entry "MYSTIC_WARP_ARMOR"
+
+new entry "MYSTIC_ARMORED_FORM"
+
+// Class Features
+
+// Subclass Features
+
 
 // ==OTHER BUFFS/DEBUFFS==
 // * = Higher than level 12
@@ -796,7 +901,7 @@ new entry "MYSTIC_"
 // Mental Exhaustion (Can't cast Psychic Focuses, applied by things that remove your Psychic Focus, namely Psionic Surge)
 // Memory of One Thousand Steps (buff that allows you to Misty Step)
 // Soul Parry (Soul Knife Parry - AC Buff)
-// *Elemental Parry
+// *Elemental Mastery
 // - Bludgeoning
 // - Piercing
 // - Slashing

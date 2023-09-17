@@ -6,8 +6,8 @@ type "SpellData"
 data "SpellType" "Projectile"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h36077f93g8f12g4fc9g83c8g07b5b8bb4f7b"
+data "Description" "h318a2475gefe6g453dg8a4cg1f28a946371e"
 data "DescriptionParams" ""
 
 // Distracting Haze
@@ -16,8 +16,8 @@ type "SpellData"
 data "SpellType" "Projectile"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hf2960176g262cg43aeg9215g9fc5cf0ad4c1"
+data "Description" "h7ba07cedg38bag4861gb3edg239bcdc0739a"
 data "DescriptionParams" ""
 
 // Mighty Leap
@@ -27,8 +27,8 @@ type "SpellData"
 data "SpellType" "Projectile"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h1598778aga893g4fb9g8c9bg9f3b911368d9"
+data "Description" "h3e1bda4bg49cbg4f46g99fbg1b09c977a6c4"
 data "DescriptionParams" ""
 
 // Venom Strike
@@ -37,8 +37,8 @@ type "SpellData"
 data "SpellType" "Projectile"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hb6fb98b7g55a3g44ccga81ega04e4d07c5cb"
+data "Description" "h1bb2686bg46afg44b3ga060g1b30422db67e"
 data "DescriptionParams" ""
 
 // Wind Step
@@ -48,8 +48,8 @@ type "SpellData"
 data "SpellType" "Projectile"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h1ae376b6g097eg48ecg8f2agab9cfeea71a5"
+data "Description" "h9539428dg538ag4b07g925ag77cbb20cc1c5"
 data "DescriptionParams" ""
 
 // Combustion
@@ -58,8 +58,8 @@ type "SpellData"
 data "SpellType" "Projectile"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h59022a24gd4b7g4d79gab10g497349ebb068"
+data "Description" "he5878be1gd6d8g4acbg8d8egfb5acd722cae"
 data "DescriptionParams" ""
 
 // Ice Spike
@@ -68,8 +68,8 @@ type "SpellData"
 data "SpellType" "Projectile"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hca8006b4gc36fg4945gb217gaed13e17b2ed"
+data "Description" "hd9305583gb3b5g4943g8cf1g6dc5598e61a7"
 data "DescriptionParams" ""
 
 // Radiant Beam
@@ -78,8 +78,8 @@ type "SpellData"
 data "SpellType" "Projectile"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h715c4038gb88bg4c46gbec2g0d5c201ee518"
+data "Description" "hbf895ed3g83eeg40cfg9d54ga2bda01397a8"
 data "DescriptionParams" ""
 
 // Dessicate
@@ -88,8 +88,8 @@ type "SpellData"
 data "SpellType" "Projectile"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hf302a4a4g69cag42b0ga2fcgf5ba3647f346"
+data "Description" "h0f56755ag8741g4841ga841g6e8448d58868"
 data "DescriptionParams" ""
 
 // Hungry Lightning
@@ -98,8 +98,8 @@ type "SpellData"
 data "SpellType" "Projectile"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h40892606g8591g42ebg878egf992f30447d8"
+data "Description" "h44fa40f8g5563g4bd9g8f21gc569d1545bb0"
 data "DescriptionParams" ""
 
 // Animate Weapon
@@ -108,7 +108,7 @@ type "SpellData"
 data "SpellType" "Projectile"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hfd6106d9g3b27g40cdg9600gb68249c8af8d"
+data "Description" "he473eb03g1569g4174gb71egb75d1e25a527"
 data "DescriptionParams" ""
 

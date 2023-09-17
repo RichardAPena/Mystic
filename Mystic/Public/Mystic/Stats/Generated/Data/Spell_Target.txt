@@ -65,7 +65,7 @@ data "TargetRadius" "18"
 data "SpellRoll" "not SavingThrow(Ability.Dexterity, SourceSpellDC())"
 data "SpellSuccess" "DealDamage(LevelMapValue(D8Cantrip),Fire,Magical)"
 data "TargetConditions" "not Self()"
-data "Icon" "Spell_Evocation_SacredFlame"
+// data "Icon" "Spell_Evocation_SacredFlame"
 data "TooltipDamageList" "DealDamage(LevelMapValue(D8Cantrip),Fire)"
 data "TooltipAttackSave" "Dexterity"
 data "CastSound" "Spell_Cast_Damage_Radiant_SacredFlame_L1to3"
@@ -73,8 +73,23 @@ data "TargetSound" "Spell_Impact_Damage_Radiant_SacredFlame_L1to3"
 data "PreviewCursor" "Cast"
 data "CastTextEvent" "Cast"
 data "UseCosts" "ActionPoint:1"
-data "SpellAnimation" "f94542d9-a79c-478a-92de-573cead9260e,10,;,,;87de59c4-1c8f-4fcc-a7fe-013e8da35c63,,;d082596c-2ea7-4c39-89c1-61e91dc0b4cb,,;bd339475-d2b5-46e8-8d0c-9f2ad6a91328,,;,,;7a28f440-1b0b-4a18-96a8-3767959b601a,,;ab17f201-8251-4690-bfac-b42c8561fc91,,;7e13b95d-d114-4c1b-baa9-d29fd71b8be9,,"
-data "VerbalIntent" "Damage"
+// Original
+// data "SpellAnimation" "f94542d9-a79c-478a-92de-573cead9260e,,;,,;87de59c4-1c8f-4fcc-a7fe-013e8da35c63,,;d082596c-2ea7-4c39-89c1-61e91dc0b4cb,,;bd339475-d2b5-46e8-8d0c-9f2ad6a91328,,;,,;7a28f440-1b0b-4a18-96a8-3767959b601a,,;ab17f201-8251-4690-bfac-b42c8561fc91,,;7e13b95d-d114-4c1b-baa9-d29fd71b8be9,,"
+
+// data "SpellAnimation" "f94542d9-a79c-478a-92de-573cead9260e,200,200;,,;87de59c4-1c8f-4fcc-a7fe-013e8da35c63,200,200;d082596c-2ea7-4c39-89c1-61e91dc0b4cb,200,200;bd339475-d2b5-46e8-8d0c-9f2ad6a91328,200,200;,,;7a28f440-1b0b-4a18-96a8-3767959b601a,200,200;ab17f201-8251-4690-bfac-b42c8561fc91,200,200;7e13b95d-d114-4c1b-baa9-d29fd71b8be9,200,200"
+
+// Test - removed last SIX?! animations (ONLY ONE IS LEFT BRUH)
+// OK, the spell doesnt work without the secnd parameter
+// I assume it's because its a looping animation?
+// But that wouldnt explain it being the WHOLE animation
+// data "SpellAnimation" "f94542d9-a79c-478a-92de-573cead9260e,,;,,;,,;,,;,,;,,;,,;,,;,,"
+
+// Tadpole Power 1st component
+// ~~Sacred Flame 3rd component~~
+// Reflective Shell (shield of thralls) 3rd component - DONT WORK, maybe because its not shout?
+data "SpellAnimation" "f94542d9-a79c-478a-92de-573cead9260e,,;,,;ab17f201-8251-4690-bfac-b42c8561fc91,,;,,;,,;,,;,,;,,;,,"
+
+// data "VerbalIntent" "Damage"
 data "SpellFlags" "IsSpell;IsHarmful;IsLinkedSpellContainer"
 data "HitAnimationType" "MagicalDamage_External"
 data "PrepareEffect" "be75ea00-f753-4d9e-ab04-4993691d099c"
@@ -245,7 +260,7 @@ data "SpellRoll" "not SavingThrow(Ability.Charisma, SourceSpellDC())"
 data "SpellSuccess" "ApplyStatus(CHARMED,100,3)"
 data "TargetConditions" "not Item() and not Self() and Character() and Tagged('HUMANOID') and not Tagged('UNDEAD') and not (not Player(context.Source) and IsCrowdControlled(context.Target))"
 
-data "Icon" "Spell_Evocation_Light"
+// data "Icon" "Spell_Evocation_Light"
 data "DisplayName" "hea39d4d9g5696g42f7g9ea9gbd849ece6730"
 data "Description" "h66deb445g9729g4f87g87f1g30d2ed3157db"
 data "DescriptionParams" ""
@@ -313,8 +328,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" "Spell_Enchantment_CrownOfMadness"
-data "DisplayName" "h21d26c53g94c8g4f53ga031gc5f01f2156f8;1"
-data "Description" "h41773809gd654g4306g8c38gf8ed1448088d;5"
+data "DisplayName" "h0d0f8713ge6c2g4f54ga3cdg23dd8ee400e4"
+data "Description" "h351deb92g0694g4786gb8f0g5676412aeaee"
 data "DescriptionParams" ""
 
 data "TargetRadius" "18"
@@ -353,8 +368,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hd955f69age48cg47f3ga161g8319dc14222d"
+data "Description" "hf6a77f50g62c5g46b1g9b06g205090b008e9"
 data "DescriptionParams" ""
 
 // Visions of Despair
@@ -363,8 +378,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hc0b08843g8f8eg49a1g9342g7d7b776fbc61"
+data "Description" "h666cee9fg7058g40c6g9bd5ge4cebbb6d433"
 data "DescriptionParams" ""
 
 // Dolorous Mind
@@ -373,8 +388,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h83324aa2g689ag4e26gae75ga176151e8866"
+data "Description" "h19bf8e5eg6f44g4bc2gb5fegd2a1f608b599"
 data "DescriptionParams" ""
 
 // Eye of Horror
@@ -383,8 +398,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hd49244fdg189fg49abgafb7g82b523a3ee79"
+data "Description" "h60a97b1bg8f91g4f28g80bfgcc527aaa1047"
 data "DescriptionParams" ""
 
 // Visions of Disgust
@@ -393,8 +408,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h7e97d15dg98e7g4b8dg9849ga2ed3058e5af"
+data "Description" "hf1319c93g4f26g4743g9389g59867ac1f6c3"
 data "DescriptionParams" ""
 
 // World of Horror
@@ -403,8 +418,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hda6638cfg47abg4e04gbe10ge74dd3a7277f"
+data "Description" "h8a90a05cg67aeg4fe3gaa05g617f55476434"
 data "DescriptionParams" ""
 
 // Primal Fury
@@ -413,8 +428,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h914e1a28g2c1cg4684ga041g8e2caa95d498"
+data "Description" "h87d4504egc047g4d99g8221g58c7afa79eb3"
 data "DescriptionParams" ""
 
 // Fighting Words
@@ -423,8 +438,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h9b203b48gf006g4784g9c17g0595464f3fb1"
+data "Description" "he37df62fg4d93g4b90g8b99g0d9c4f639af3"
 data "DescriptionParams" ""
 
 // Mindless Courage
@@ -433,8 +448,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hbb9dd850g9ca6g430bgb936g8c47b92ce549"
+data "Description" "hed6f2116gceeeg4621ga1b5gc38cf88ccd86"
 data "DescriptionParams" ""
 
 // Punishing Fury
@@ -443,8 +458,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h9e949f54g1892g4f19g86d8gd20bdf2fd643"
+data "Description" "h3c5d3b88g03d2g45baga1e6g426be49e6f61"
 data "DescriptionParams" ""
 
 // [Commander's Imperative]
@@ -463,8 +478,18 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h6abf59c0g7ddag4ec7g97ddge6d16248b484"
+data "Description" "h1ba91861g777eg4c67ga616g722a9e291280"
+data "DescriptionParams" ""
+
+// Commander's Sight
+new entry "Target_Mystic_CommandToStrike"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" "ha478b526ge94eg4689g8876gb131dd371a18"
+data "Description" "h9f0b9cc3g2c38g4c1bgaba1gd3a27449389f"
 data "DescriptionParams" ""
 
 // Command to Strike
@@ -473,8 +498,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hbdec4171g964fg48f6ga2a8gde7c977a6c2c"
+data "Description" "h6cc4768dgc11fg453cg92a8gb6a2c8e0853f"
 data "DescriptionParams" ""
 
 // Overwhelming Attack
@@ -483,8 +508,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hd730826dg9baag45deg9870gf1c6b150b3a3"
+data "Description" "h68cd3e1eg06beg474dg8556g411af0571a30"
 data "DescriptionParams" ""
 
 // Incite Courage
@@ -493,8 +518,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h97579b00g4679g44f5gbfa6gd8a740be025c"
+data "Description" "h89287d81gc263g462fgad79gb530dfb6fdc9"
 data "DescriptionParams" ""
 
 // Pillar of Confidence
@@ -503,8 +528,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h42c683d7ge2dag40dfg8949gf87025a3d465"
+data "Description" "h12fcfc8bg47d5g4292g8e96g4777cf857a07"
 data "DescriptionParams" ""
 
 // Incite Fear
@@ -513,8 +538,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h3b13f9c6gb05dg4029g861cg73533e60e4ff"
+data "Description" "hc614b36dgf1e2g4d1bgbd39g2043b1fe4ae1"
 data "DescriptionParams" ""
 
 // Incite Panic
@@ -523,8 +548,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h3983f69bgce33g40cdg82e3geecd6d20292f"
+data "Description" "h2b073784g2d6dg4533g8122g2b54aebb16e6"
 data "DescriptionParams" ""
 
 // Incite Fury
@@ -533,8 +558,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h3e342734g83e2g43cegb0fegfe74ae247945"
+data "Description" "hb579b8d3g6067g4ea6gafacg291cb41e6984"
 data "DescriptionParams" ""
 
 // Mindless Charge
@@ -543,8 +568,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h1483efcbg0d78g40ffga8f8gfab8b74c29d1"
+data "Description" "h744cdc77g41afg4290g99e6g653fa1854560"
 data "DescriptionParams" ""
 
 // Overwhelming Fury
@@ -553,8 +578,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h085e04a6ge7dcg497cg9164g9d74e624e94b"
+data "Description" "h244e4d56g6167g421ega5b9ga45e43da709b"
 data "DescriptionParams" ""
 
 // Soothing Presence
@@ -563,8 +588,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h9e88737dg7b52g4340g9ab9g3b54e760a48c"
+data "Description" "he49bc493g1954g435cgbefdg47bf589c50f1"
 data "DescriptionParams" ""
 
 // Comforting Aura
@@ -573,8 +598,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h45bd3babgf7d3g49aag9ec3g2905c02a1873"
+data "Description" "h80944343gab2fg4802g9b80gb374f9a3c256"
 data "DescriptionParams" ""
 
 // Beacon of Recovery
@@ -583,8 +608,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hcda1153bg0b3fg4ac1gaf05g66d825fc6468"
+data "Description" "hd60e75a7g3ab9g47d2gb46dga118a8678ef1"
 data "DescriptionParams" ""
 
 // Assess Foe
@@ -593,8 +618,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "he0898f56gbb0ag412bgbebfg6f5ca51a2c58"
+data "Description" "h0852c2a3g00f4g45c9gb202g41972be5bcd8"
 data "DescriptionParams" ""
 
 // View Aura
@@ -603,8 +628,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hf2d8338cg3bbcg432fg9168gc940ce3682b2"
+data "Description" "h6d3a6948g4b44g42e1g8649gc8287c7a9d94"
 data "DescriptionParams" ""
 
 // Center of Attention
@@ -613,8 +638,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hb5d3880cg42cfg4264ga2cag6ce63682365e"
+data "Description" "h5c761de9ge229g4c77g9c3egdb9b0e953327"
 data "DescriptionParams" ""
 
 // Invoke Awe
@@ -623,8 +648,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h2a17cf99g441fg4d1bg91e3gefa6c845f4d3"
+data "Description" "h23c94350gb204g45bega8e7g058bc225baae"
 data "DescriptionParams" ""
 
 // Victory Before Battle
@@ -633,8 +658,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h56f16108g0c69g4785g9704gb6e54f178606"
+data "Description" "h418629f5g72d4g432bg9aefgcc759f073b00"
 data "DescriptionParams" ""
 
 // Ego Whip
@@ -643,8 +668,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hdf83a67dg64ebg423bg8f86gdcd23903b8b4"
+data "Description" "h4ec6a309gb98cg443agbcefg916275943821"
 data "DescriptionParams" ""
 
 // Id Insinuation
@@ -653,8 +678,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hc58f4cd9g303cg4dc7g92a1g14d3144b01ee"
+data "Description" "hcd1d1d7cgb86eg49c8gbdd0g4db4359ef593"
 data "DescriptionParams" ""
 
 // Psychic Crush
@@ -663,8 +688,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h53537f78gb635g488fg9df3gd40a5a1fe3b3"
+data "Description" "hcbcb6cdfg6c48g4fc5gbb48g1abdae16d1d1"
 data "DescriptionParams" ""
 
 // Daze
@@ -673,8 +698,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h0ae47249g80e7g4c32g857fge95297ecc1f6"
+data "Description" "hc4838845gd112g4d8agb23bg984a55aee4e8"
 data "DescriptionParams" ""
 
 // Mind Storm
@@ -683,8 +708,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h8b917677g610ag4756g87a3g17f3a54e503f"
+data "Description" "h95a1fdaage462g47eaga624g309877b78a78"
 data "DescriptionParams" ""
 
 // Environmental Adaptation
@@ -693,8 +718,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h04cf143dgea65g4a1egafcdg316ec104a315"
+data "Description" "h65b53eb8g9835g4416g91b9g3baf1ff1de81"
 data "DescriptionParams" ""
 
 // Energy Adaptation
@@ -703,8 +728,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h817c5c70gb755g474cg89c1gac0d247f3f1b"
+data "Description" "hecd1a052gec52g4136gb037gb8e42b61c807"
 data "DescriptionParams" ""
 
 // Energy Immunity
@@ -713,8 +738,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "he668e2ccg53d3g4394g808ag4017eb898ca7"
+data "Description" "hd2e9ef5dgd2efg45b0ga5c5gc74500cdffbd"
 data "DescriptionParams" ""
 
 // Bestial Claws
@@ -723,8 +748,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h9b340899gf59dg4098ga2b2g9ffd7373e832"
+data "Description" "h38f7b167g698eg479cgbf25g7ab2e0a735f8"
 data "DescriptionParams" ""
 
 // Corrosive Touch
@@ -733,8 +758,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h5af08e03g498cg4438g8e2ag37dfaefcb311"
+data "Description" "ha5cff742ge6f0g47fegbebbg908863aeb55c"
 data "DescriptionParams" ""
 
 // Toppling Shift
@@ -743,8 +768,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hf58d1d4fgad0dg451ega0acg40dea111be50"
+data "Description" "h52a7ed68g999fg4afag8c7eg85681ed2a215"
 data "DescriptionParams" ""
 
 // Mend Wounds
@@ -753,8 +778,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hcb568b55gf117g4703ga0bcg702ed9f0b815"
+data "Description" "h60160178g422cg4831g8214g59c25b3f6386"
 data "DescriptionParams" ""
 
 // Restore Health
@@ -763,8 +788,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hdd0113dag7bceg492aga5e8g36e313327d55"
+data "Description" "hc4afa030g4c61g4dd4g9a70gc61dcb0494bf"
 data "DescriptionParams" ""
 
 // Restore Life
@@ -773,8 +798,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h49acf8cfg084dg4b62gae38gf257a6b83d1a"
+data "Description" "h2e78cc0fg019ag479eg8572g0f6d02cbd02b"
 data "DescriptionParams" ""
 
 // Restore Vigor
@@ -783,8 +808,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hdede492cgcb3cg41ffg9bedg890837af15d2"
+data "Description" "h40aaeb23g4840g4f7dg93bega45dafa156e2"
 data "DescriptionParams" ""
 
 // Animate Air
@@ -793,8 +818,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h6d7a8508gc819g4721g9776gc088c405db0b"
+data "Description" "haca543aeg695dg43d7g80bcg7e1e7961b425"
 data "DescriptionParams" ""
 
 // Rolling Flame
@@ -803,8 +828,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h06524a69g69d0g46f1gb6e8g241fffad8042"
+data "Description" "h9016bc24g4082g4a64ga4c7gf061572ac8df"
 data "DescriptionParams" ""
 
 // Detonation
@@ -813,8 +838,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hdb0b3651g53ddg471agb3c3ge4f5e8a3faad"
+data "Description" "hfa921a8fg668dg44d7gb7cdgadf70c5e712f"
 data "DescriptionParams" ""
 
 // Animate Fire
@@ -823,8 +848,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h2be70227ge413g44cfgb26cg4cd3eef53842"
+data "Description" "h1f08380fg7fd8g412fgac52g1dd4a922e58f"
 data "DescriptionParams" ""
 
 // Push
@@ -833,8 +858,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hc0841745gb78cg47f1g9ef2gb3fb6a330063"
+data "Description" "h07dcb591g2b03g4b38g85b3gb0a4dd2abff1"
 data "DescriptionParams" ""
 
 // Grasp
@@ -843,8 +868,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hc1180697g9634g4b84gb46ag2ef175e42c9c"
+data "Description" "ha82db9a3g45c0g450cgba3fg5651fd1b6911"
 data "DescriptionParams" ""
 
 // Crush
@@ -853,8 +878,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h14fbc9a9g937bg404dg9828ga15d97bae7c0"
+data "Description" "ha5ec3f66gafc7g4df2gba74g2dcb08319156"
 data "DescriptionParams" ""
 
 // Ice Sheet
@@ -863,8 +888,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h23d4e455g6a54g4588g83e6g30c15afb84e4"
+data "Description" "he2419769g603eg4997g8f00g8c8b81f48c95"
 data "DescriptionParams" ""
 
 // Frozen Rain
@@ -873,8 +898,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h5f95805age5e7g44c9g99f6g74be6cf53e5a"
+data "Description" "hf2df9e10g8ae2g466bg9256gbe78684c3235"
 data "DescriptionParams" ""
 
 // Darkness
@@ -883,8 +908,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h68d85accg564bg4affg8219g9c96403a5ff7"
+data "Description" "h00fde1f1g15d3g4934gbffeg3426e8959ebe"
 data "DescriptionParams" ""
 
 // Light
@@ -893,8 +918,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hdfa9f427gc799g4770g85fcg63d116f2e382"
+data "Description" "hc63a4658g2949g40b9g814ag32af6287739f"
 data "DescriptionParams" ""
 
 // Shadow Beasts
@@ -903,8 +928,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h245fbcc4g9e03g4a53g96b0g301999f5064e"
+data "Description" "h9693ee45gcbf1g48aagaacdg210b5a95ceb0"
 data "DescriptionParams" ""
 
 // Watery Grasp
@@ -913,8 +938,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h3117d124g32edg4063g9b47g520fed500eec"
+data "Description" "h67d054a7g10ceg47dega004g980c43d248b7"
 data "DescriptionParams" ""
 
 // Water Sphere
@@ -923,8 +948,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h492bb7acged62g464bg9971g4320777edc4b"
+data "Description" "hecc4ab94g70d3g4aa3g8121g24e692f7a0a1"
 data "DescriptionParams" ""
 
 // Animate Water
@@ -933,8 +958,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h24d90535g0e69g4c4ag869eg10e0a7d0f6db"
+data "Description" "h38bdbceeg97deg4545ga334ge1bf23a92117"
 data "DescriptionParams" ""
 
 // Whirlwind
@@ -942,9 +967,9 @@ new entry "Target_Mystic_Whirlwind"
 type "SpellData"
 data "SpellType" "Target"
 
-data "Icon" "TadpoleSuperPower_BlackHole"
-data "DisplayName" "he71b1f23gc2bdg45f0g99c1g9f476ec396b6;2"
-data "Description" "h3a37227bgeba3g476egbb82gfcbbfc2eca6e;7"
+data "Icon" "Spell_Evocation_GustOfWind"
+data "DisplayName" "h91716e4fgf715g4e88g9ef2gdbcf8113e2ae"
+data "Description" "h5e620313gd393g4b85g848ag09f1e2a5957a"
 data "DescriptionParams" ""
 
 data "SpellProperties" "Force(-6, TargetToEntity, Neutral, false, true)"
@@ -967,15 +992,14 @@ data "TargetEffect" "becd29e0-0520-4842-b8d9-a1a46ac87ab9"
 data "PositionEffect" "94280a3f-4d08-453d-be6a-1a3282d46db1"
 data "Sheathing" "Sheathed"
 
-
 // Thunder Clap
 new entry "Target_Mystic_ThunderClap"
 type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hf7d682f4gd5e3g4375gb91eg48a5f9bd7c5d"
+data "Description" "h05a08ff8g34c6g4c6dga0e0gd05003430d4d"
 data "DescriptionParams" ""
 
 // Warp Weapon
@@ -984,8 +1008,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h83a09a72gd4cdg4b08ga961g3238a6650967"
+data "Description" "h748563bbgacbbg491agb42cgbdde01912d8c"
 data "DescriptionParams" ""
 
 // Warp Armor
@@ -994,8 +1018,8 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h39245a46gf4a7g40f4gb6ceg4949b840ef0e"
+data "Description" "h562c9301g068eg4efdga903gd0a507fc4ea0"
 data "DescriptionParams" ""
 
 // Animate Earth
@@ -1004,6 +1028,6 @@ type "SpellData"
 data "SpellType" "Target"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hc28b8776ge45eg423fgbaf1g537f484ca0b9"
+data "Description" "hc28b8776ge45eg423fgbaf1g537f484ca0b9"
 data "DescriptionParams" ""

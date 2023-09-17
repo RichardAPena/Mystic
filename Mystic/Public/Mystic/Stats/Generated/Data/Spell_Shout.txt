@@ -67,18 +67,20 @@ data "DescriptionParams" "Distance(3)"
 data "TargetConditions" "Self()"
 data "SpellProperties" "ApplyStatus(MYSTIC_LIGHT_STEP,100, 1)"
 data "TooltipStatusApply" "ApplyStatus(MYSTIC_LIGHT_STEP,100,1)"
-data "TooltipPermanentWarnings" "375fe7a4-7a8a-4bbe-812c-0af9584c0740"
+// data "TooltipPermanentWarnings" "375fe7a4-7a8a-4bbe-812c-0af9584c0740"
 data "CastSound" "Spell_Cast_Utility_Light_L0"
 data "TargetSound" "Spell_Impact_Utility_Light_L0"
-data "VocalComponentSound" "Vocal_Component_Light"
+// data "VocalComponentSound" "Vocal_Component_Light"
 data "CastTextEvent" "Cast"
-data "UseCosts" "ActionPoint:1"
-//data "SpellAnimation" "dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;94ad1609-9862-499a-8337-5e6a7d9487f9,c8f325f3-9d7d-4387-af85-b3b4257e26cc,f4b7eabd-2875-46fa-bae3-9f4d0a51c955;8373f3da-2368-4a51-98b1-146ec3586660,12971987-e66c-45dd-9843-b4784c30d9a2,279cd9eb-1d9c-4e4c-a44e-e751ae0eae66;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;499b7945-9eff-40a2-9911-73b8963108e4,,;1d3a29f0-9409-462e-81cd-3f24944f63ca,,"
-data "SpellAnimation" "f94542d9-a79c-478a-92de-573cead9260e,,;,,;87de59c4-1c8f-4fcc-a7fe-013e8da35c63,,;d082596c-2ea7-4c39-89c1-61e91dc0b4cb,,;bd339475-d2b5-46e8-8d0c-9f2ad6a91328,,;,,;7a28f440-1b0b-4a18-96a8-3767959b601a,,;ab17f201-8251-4690-bfac-b42c8561fc91,,;7e13b95d-d114-4c1b-baa9-d29fd71b8be9,,"
-data "VerbalIntent" "Utility"
-data "SpellFlags" "IsSpell;HasVerbalComponent;IsMelee"
+data "UseCosts" "BonusActionPoint:1"
+// data "SpellAnimation" "dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;94ad1609-9862-499a-8337-5e6a7d9487f9,c8f325f3-9d7d-4387-af85-b3b4257e26cc,f4b7eabd-2875-46fa-bae3-9f4d0a51c955;8373f3da-2368-4a51-98b1-146ec3586660,12971987-e66c-45dd-9843-b4784c30d9a2,279cd9eb-1d9c-4e4c-a44e-e751ae0eae66;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;499b7945-9eff-40a2-9911-73b8963108e4,,;1d3a29f0-9409-462e-81cd-3f24944f63ca,,"
+
+// CHANGED TO REFLECTIVE SHELL 3rd component ANIMATION (changes to default)
+data "SpellAnimation" "f94542d9-a79c-478a-92de-573cead9260e,,;,,;ab17f201-8251-4690-bfac-b42c8561fc91,,;d082596c-2ea7-4c39-89c1-61e91dc0b4cb,,;bd339475-d2b5-46e8-8d0c-9f2ad6a91328,,;,,;7a28f440-1b0b-4a18-96a8-3767959b601a,,;ab17f201-8251-4690-bfac-b42c8561fc91,,;7e13b95d-d114-4c1b-baa9-d29fd71b8be9,,"
+// data "VerbalIntent" "Utility"
+data "SpellFlags" "IsSpell;IsMelee"
 data "HitAnimationType" "MagicalNonDamage"
-data "MaximumTargets" "1"
+// data "MaximumTargets" "1"
 data "PrepareEffect" "7121a488-7c9a-4ba1-a585-f79aaa77e97c"
 data "CastEffect" "0198563f-c48b-45e0-afb5-46ef9576adff"
 data "TargetEffect" "b94fcfde-d824-4e7d-b9c5-833a50b66537"
@@ -91,8 +93,8 @@ type "SpellData"
 data "SpellType" "Shout"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h14317c93g0a49g4116g8970gf5060f631559"
+data "Description" "h6aac4741g43c5g4609g93b8g46154d854f92"
 data "DescriptionParams" ""
 
 // Aura of Victory
@@ -101,8 +103,8 @@ type "SpellData"
 data "SpellType" "Shout"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h57e5f748gb553g43adgac10gb5b6bfbd6fd5"
+data "Description" "h039be837g8748g436fgaa7dg1bbff4f743d2"
 data "DescriptionParams" ""
 
 // Unsettling Aura
@@ -111,8 +113,8 @@ type "SpellData"
 data "SpellType" "Shout"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hf54dcf2bg014fg43abg9484g52be7f13e362"
+data "Description" "h93d0582cg5788g43e8g92f5gdc957b0b1cd6"
 data "DescriptionParams" ""
 
 // Aura of Bloodletting
@@ -121,8 +123,8 @@ type "SpellData"
 data "SpellType" "Shout"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h4a8242b3gffc3g43c8g8a25g0b03e9d956df"
+data "Description" "ha64cd2aag4558g4e51gbb58ge0026b35a209"
 data "DescriptionParams" ""
 
 // Aura of Jubilation
@@ -131,8 +133,8 @@ type "SpellData"
 data "SpellType" "Shout"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h48ca2562g2c24g4cdcg890fga373f64c1395"
+data "Description" "h0f384acdg824dg425dga438g59ee967fc5bd"
 data "DescriptionParams" ""
 
 // Perceive the Unseen
@@ -141,8 +143,8 @@ type "SpellData"
 data "SpellType" "Shout"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h301d7faaga53bg4510g8a5fg36b67d971e87"
+data "Description" "ha9db8e54g635ag4239gabbegd4758c9d41d8"
 data "DescriptionParams" ""
 
 // Psychic Redoubt
@@ -151,8 +153,8 @@ type "SpellData"
 data "SpellType" "Shout"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hf41be51cg0881g4fd1gb7c1gfa5965c3e55d"
+data "Description" "h7501f53dg30a8g425fg9565g8c714d323986"
 data "DescriptionParams" ""
 
 // Charming Presence
@@ -161,8 +163,8 @@ type "SpellData"
 data "SpellType" "Shout"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hbb59d6f5gf5f9g48cbg80f0g76ca8ce6e1a8"
+data "Description" "hda21319fg5098g4a7cg93e5gca69247a7efa"
 data "DescriptionParams" ""
 
 // Precognitive Hunch
@@ -171,8 +173,8 @@ type "SpellData"
 data "SpellType" "Shout"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hbf6a3215ge929g47a0ga74egadd04bf3cbed"
+data "Description" "h9da3d564gd6e6g429cg9e5eg82cc54edbf24"
 data "DescriptionParams" ""
 
 // Danger Sense
@@ -181,8 +183,8 @@ type "SpellData"
 data "SpellType" "Shout"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h6c37f967g4d77g4616gbf4eg8320a6c4e591"
+data "Description" "he5861033g372bg4104gb813g6aa045a93cb6"
 data "DescriptionParams" ""
 
 // Bestial Transformation
@@ -191,8 +193,8 @@ type "SpellData"
 data "SpellType" "Shout"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hc4296d32g3725g41fegb775g60d9cbbdefbd"
+data "Description" "hd209e5f1g4385g4512g8dcbgdf6e4cc1fc8a"
 data "DescriptionParams" ""
 
 // Brute Strike
@@ -201,8 +203,8 @@ type "SpellData"
 data "SpellType" "Shout"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h96909d39g467cg414ag9436g40c3d4346af2"
+data "Description" "h5a8514d1gab95g41ffg9956g606887cbfeef"
 data "DescriptionParams" ""
 
 // Feat of Strength
@@ -211,8 +213,8 @@ type "SpellData"
 data "SpellType" "Shout"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h20014ac4g9feeg4775ga235gf9e70dd67cad"
+data "Description" "he2dc5c7ag3db0g49ffg9fdfg1c5c723828ea"
 data "DescriptionParams" ""
 
 // Rapid Step
@@ -221,8 +223,8 @@ type "SpellData"
 data "SpellType" "Shout"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "he2dc5c7ag3db0g49ffg9fdfg1c5c723828ea"
+data "Description" "h93834a62gf596g4d23gb77eg75b87e6da5ef"
 data "DescriptionParams" ""
 
 // Agile Defense
@@ -231,8 +233,8 @@ type "SpellData"
 data "SpellType" "Shout"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h82154629g17e8g4708gabe7g4920a2d720b2"
+data "Description" "hd138bd18g1d2cg413dg9d51gc13771fdc2f0"
 data "DescriptionParams" ""
 
 // Blur of Motion
@@ -241,8 +243,8 @@ type "SpellData"
 data "SpellType" "Shout"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hd18623e6g0e09g4081g98bfg532c1b66b98e"
+data "Description" "h5c687a17gd1dcg4199ga7b0g4679323818e4"
 data "DescriptionParams" ""
 
 // Surge of Speed
@@ -251,8 +253,8 @@ type "SpellData"
 data "SpellType" "Shout"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h14b977c2g2887g4130g9781gd3dc386e2c61"
+data "Description" "h38a63cebg674fg470fga397g409d416a975d"
 data "DescriptionParams" ""
 
 // Surge of Action
@@ -261,8 +263,8 @@ type "SpellData"
 data "SpellType" "Shout"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hf5ba8234gd800g4acbga908g6c92a149977a"
+data "Description" "h3948420cgd477g4303g93b2gfbfe3f168aea"
 data "DescriptionParams" ""
 
 // Miniature Form
@@ -271,8 +273,8 @@ type "SpellData"
 data "SpellType" "Shout"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h2684b6cdg85e1g48d0g8cd1g81fa60b114d4"
+data "Description" "h4d47006fg8a13g408fga191g5eeb8086024a"
 data "DescriptionParams" ""
 
 // Microscopic Form
@@ -281,8 +283,8 @@ type "SpellData"
 data "SpellType" "Shout"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h5160a49eg963cg4bfcga19eg6e6502262cf7"
+data "Description" "h36ab769agdd8fg4e28ga238g33e1a1bd4223"
 data "DescriptionParams" ""
 
 // Ogre Form
@@ -291,8 +293,8 @@ type "SpellData"
 data "SpellType" "Shout"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h47fb9db7gb5dag44c5gb1f5g9d3bc399f8c6"
+data "Description" "hf76d9a28g6d3bg4896g9fe0g26e441cd2fe7"
 data "DescriptionParams" ""
 
 // Giant Form
@@ -301,8 +303,8 @@ type "SpellData"
 data "SpellType" "Shout"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h966f12fdg026bg4b43g8db7g0748c8b49c08"
+data "Description" "h73fdc59cgf510g4958g875eg907ec43b3143"
 data "DescriptionParams" ""
 
 // Steel Hide
@@ -311,8 +313,8 @@ type "SpellData"
 data "SpellType" "Shout"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hf8f1cf0fg28dfg478cg9258g8996d083ba08"
+data "Description" "hdd404baegb627g4189gaf86g7f3fb5bad39e"
 data "DescriptionParams" ""
 
 // Iron Resistance
@@ -321,8 +323,8 @@ type "SpellData"
 data "SpellType" "Shout"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h383b376bgeea3g4c57g9f5bg0cf6b39a1048"
+data "Description" "hb98c8695g05d3g42d5ga841g171150fec39f"
 data "DescriptionParams" ""
 
 // Ethereal Weapon
@@ -331,8 +333,8 @@ type "SpellData"
 data "SpellType" "Shout"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h46383e61g4143g47a9gac5bg5f2170515105"
+data "Description" "he3932f8cgb0afg46d2g8ceag5cccffe16148"
 data "DescriptionParams" ""
 
 // Lethal Strike
@@ -341,8 +343,8 @@ type "SpellData"
 data "SpellType" "Shout"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hc5a2a389g7dbdg4bf7ga663gd4b1b9a0269a"
+data "Description" "h51aa6b39ge4c4g4802g98e7g7495bd716562"
 data "DescriptionParams" ""
 
 // Augmented Weapon
@@ -351,8 +353,8 @@ type "SpellData"
 data "SpellType" "Shout"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h096232f7g42c0g4c6fgada3g7e6141886ce6"
+data "Description" "h4fc32c62g0d3eg42b4g849agba33dfded8ae"
 data "DescriptionParams" ""
 
 // Speed Dart
@@ -361,8 +363,8 @@ type "SpellData"
 data "SpellType" "Shout"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h51cfcff8g9de8g486aga6b9g95276ac98dd7"
+data "Description" "h189b99d6g02d8g4ec9gb154g76d71db32c45"
 data "DescriptionParams" ""
 
 // Faithful Archer
@@ -371,8 +373,8 @@ type "SpellData"
 data "SpellType" "Shout"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h574e8af9g5955g44e7g9784g45fa820d25a1"
+data "Description" "h164ea828g6a86g44b4gbf03g9f9fd500dd03"
 data "DescriptionParams" ""
 
 // Chameleon
@@ -381,8 +383,8 @@ type "SpellData"
 data "SpellType" "Shout"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h7fd9d711g8378g4a2bgb3a6g145c63badc55"
+data "Description" "h3cbc7f68g02e8g482ag9864g3b2c59940729"
 data "DescriptionParams" ""
 
 // Step From Sight
@@ -391,8 +393,8 @@ type "SpellData"
 data "SpellType" "Shout"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h38bcf621g3472g48ecg8dd7gb4fb27ee5ae9"
+data "Description" "h0d4888c9g9951g4042g8c54g221a5cbe11ca"
 data "DescriptionParams" ""
 
 // Enduring Invisibility
@@ -401,8 +403,8 @@ type "SpellData"
 data "SpellType" "Shout"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hb6454ea9g172eg46dagbb5dg0433d81b8006"
+data "Description" "h5c7215d6g79dcg4424g8425g61f92ddd5763"
 data "DescriptionParams" ""
 
 // Tremorsense
@@ -411,8 +413,8 @@ type "SpellData"
 data "SpellType" "Shout"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h80ac6a86g0629g4cecg82efg724543bf70c3"
+data "Description" "h3c7775c7g1584g4141g88eagc93f3eb05b65"
 data "DescriptionParams" ""
 
 // Unwavering Sense
@@ -421,8 +423,8 @@ type "SpellData"
 data "SpellType" "Shout"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h1ce48ca1g9d31g48ebgac4fgb119fcca640c"
+data "Description" "hfccb78e6g43b5g4d34ga094g42573397b535"
 data "DescriptionParams" ""
 
 // Piercing Sight
@@ -431,8 +433,8 @@ type "SpellData"
 data "SpellType" "Shout"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h5d5be424g7e79g4895g9a14g1dea944a0f9a"
+data "Description" "h202ed5c3g8758g4a38g9e52g18c87f9d8e1d"
 data "DescriptionParams" ""
 
 // Truesight
@@ -441,8 +443,8 @@ type "SpellData"
 data "SpellType" "Shout"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h865be973gbb6eg4bfega6b5g65c8d6028af5"
+data "Description" "hbefd9ceegfbddg450egbdf2g7d3cbcdd5650"
 data "DescriptionParams" ""
 
 // Cloak of Air
@@ -451,8 +453,8 @@ type "SpellData"
 data "SpellType" "Shout"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h5d42f170g2a58g4e88ga06aga5a39b850cb0"
+data "Description" "h70f1f9fbgdfe5g4b36gb8e6gd9fcdfab6a8f"
 data "DescriptionParams" ""
 
 // Wind Form
@@ -461,8 +463,8 @@ type "SpellData"
 data "SpellType" "Shout"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h760a194eg204cg4506g8566g0bf5baac8959"
+data "Description" "h48a4619cg17a7g4904gad77g9cf83a8ad8ff"
 data "DescriptionParams" ""
 
 // Misty Form
@@ -471,8 +473,8 @@ type "SpellData"
 data "SpellType" "Shout"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hfc166c59g474fg422ag9a5fgbf6c45e4a451"
+data "Description" "hc742cfd4ge5c8g4445g9785ga19283845ac3"
 data "DescriptionParams" ""
 
 // Fire Form
@@ -481,8 +483,8 @@ type "SpellData"
 data "SpellType" "Shout"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hc1137f43g5b0bg4269g9c8dg17e6d261a14b"
+data "Description" "heed30d02g7e59g4252g9005ge374d3ebfc81"
 data "DescriptionParams" ""
 
 // Inertial Armor
@@ -491,8 +493,8 @@ type "SpellData"
 data "SpellType" "Shout"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hce650e61g9431g4558gbb97gdbc2f4fa1c65"
+data "Description" "h3e3a7ea6gc38ag4f3aga618g28da59a408ec"
 data "DescriptionParams" ""
 
 // Frozen Sanctuary
@@ -501,8 +503,8 @@ type "SpellData"
 data "SpellType" "Shout"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h6d3dd2b8g7058g432ega9cag634db46c2cb6"
+data "Description" "hedad1cc0gefc8g4f3ag84f8g62a28800b33b"
 data "DescriptionParams" ""
 
 // Armored Form
@@ -511,6 +513,6 @@ type "SpellData"
 data "SpellType" "Shout"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h8f07e60bgc7ccg4e05gb730g0070236bd61f"
+data "Description" "h7f453ca8gee30g4e5cg8d39ga323c199aa9a"
 data "DescriptionParams" ""

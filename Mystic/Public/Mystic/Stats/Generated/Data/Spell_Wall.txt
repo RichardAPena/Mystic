@@ -4,8 +4,8 @@ type "SpellData"
 data "SpellType" "Wall"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h52bc941fg3400g43c0g88b1g17e2fc2eec65"
+data "Description" "h0cc6b196gaa72g417ag8d93gafdb4fc13ea0"
 data "DescriptionParams" ""
 
 // Telekinetic Barrier
@@ -14,8 +14,8 @@ type "SpellData"
 data "SpellType" "Wall"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hb7cb3735g1907g4d50g9462g3ce0acc8c7af"
+data "Description" "h4239b128g398eg4700g86edgb1499e0d2496"
 data "DescriptionParams" ""
 
 // Ice Barrier
@@ -24,8 +24,8 @@ type "SpellData"
 data "SpellType" "Wall"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hffbc0d49gca10g4226g8cd5ga1651badf1a7"
+data "Description" "h80c6ef67ga95cg467fga4e7g67f900bb39d4"
 data "DescriptionParams" ""
 
 // Wall of Clouds
@@ -34,8 +34,8 @@ type "SpellData"
 data "SpellType" "Wall"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h236c1b88gf8d4g4d65gb25eg7dfa0205eec4"
+data "Description" "hf07089f7g1ee6g49dag9181g699a25bd460f"
 data "DescriptionParams" ""
 
 // Wall of Thunder
@@ -44,8 +44,8 @@ type "SpellData"
 data "SpellType" "Wall"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h0fdf4a1eg519cg46bcg8735g75b7d7dcc113"
+data "Description" "hf2400914g9a65g461cga04bgb38b576426fc"
 data "DescriptionParams" ""
 
 // Wall of Wood
@@ -54,6 +54,6 @@ type "SpellData"
 data "SpellType" "Wall"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h6fcdffeegbad6g4e69gbfb6g755185e04884"
+data "Description" "h198949eeg4602g4235ga8d8g61ec1bea9738"
 data "DescriptionParams" ""

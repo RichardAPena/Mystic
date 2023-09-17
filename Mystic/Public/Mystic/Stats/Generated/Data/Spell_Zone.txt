@@ -4,8 +4,8 @@ type "SpellData"
 data "SpellType" "Zone"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hd3185e40g210ag4743g9052gdd43ffc47519"
+data "Description" "h59c2ac9eg573fg4abcga1d5ga07a3933b6fd"
 data "DescriptionParams" ""
 
 // Breath of the Black Dragon
@@ -14,8 +14,8 @@ type "SpellData"
 data "SpellType" "Zone"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "ha9f14766g5a6bg47a5g842eg801c7110ebf7"
+data "Description" "hfbea5966g683fg4e51g819bg95f554aaeb22"
 data "DescriptionParams" ""
 
 // Breath of the Green Dragon
@@ -24,8 +24,8 @@ type "SpellData"
 data "SpellType" "Zone"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hd7356d09gec21g401eg938dg34c1b704297e"
+data "Description" "h8a35cdb2gc0c7g4d36g9111ge715158de528"
 data "DescriptionParams" ""
 
 // Wind Stream
@@ -34,8 +34,8 @@ type "SpellData"
 data "SpellType" "Zone"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hc61f7658gd2bbg4a01gb931g4a9510f04ee8"
+data "Description" "hbe829278g2c04g4758g91c5g13631d01f16e"
 data "DescriptionParams" ""
 
 // Water Whip
@@ -44,7 +44,6 @@ type "SpellData"
 data "SpellType" "Zone"
 
 data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h87afed8cg7b25g420cgb445g0c565dd68e33"
+data "Description" "h00b39772gdc47g4097g94c0g58a4cd1e5eb8"
 data "DescriptionParams" ""
-
