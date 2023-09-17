@@ -292,37 +292,50 @@
 	<content contentuid="h19bf8e5eg6f44g4bc2gb5fegd2a1f608b599" version="1">Overwhelm a creature with anguish, &lt;LSTag Type="Status" Tooltip="INCAPACITATED"&gt;Incapacitating&lt;/LSTag&gt; it and reducing its movement speed to 0.</content>
 	<content contentuid="hf7b4f71dg39aeg4582gbe7bgda7d0c9566ac" version="1">&lt;LSTag Type="Status" Tooltip="INCAPACITATED"&gt;Incapacitated&lt;/LSTag&gt;, movement speed reduced to 0.</content>
 	<content contentuid="hd49244fdg189fg49abgafb7g82b523a3ee79" version="1">Eye of Horror</content>
-	<content contentuid="h60a97b1bg8f91g4f28g80bfgcc527aaa1047" version="1">TODO: Eye of Horror Description</content>
+	<content contentuid="h60a97b1bg8f91g4f28g80bfgcc527aaa1047" version="1">Project an image of horror at a creature, reducing their movement speed by half.</content>
+	<content contentuid="" version="1">Movement speed reduced by half.</content>
 	<content contentuid="h52bc941fg3400g43c0g88b1g17e2fc2eec65" version="1">Wall of Repulsion</content>
 	<content contentuid="h0cc6b196gaa72g417ag8d93gafdb4fc13ea0" version="1">Create a wall of energy that may repulse creatures that touch it, reducing their movement speed to 0.</content>
 	<content contentuid="h7e97d15dg98e7g4b8dg9849ga2ed3058e5af" version="1">Visions of Disgust</content>
-	<content contentuid="hf1319c93g4f26g4743g9389g59867ac1f6c3" version="1">TODO a creature. Each turn they take X psychic damage.</content>
+	<content contentuid="hf1319c93g4f26g4743g9389g59867ac1f6c3" version="1">Warp a creature's mind, causing it to regard other beings as horrid. While afflicted, It takes [1] damage per creature within [2] at the end of its turns.</content>
+	<content contentuid="" version="1">Takes [1] damage for each creature within [2] each turn.</content>
 	<content contentuid="hda6638cfg47abg4e04gbe10ge74dd3a7277f" version="1">World of Horror</content>
-	<content contentuid="h8a90a05cg67aeg4fe3gaa05g617f55476434" version="1">TODO up to 6 creatures, Frightening them and preventing them from taking actions. \n Each turn they make a saving throw to free themselves.</content>
+	<content contentuid="h8a90a05cg67aeg4fe3gaa05g617f55476434" version="1">Wreak pandemonium in up to six creatures, Frightening them. While affected, creatures can only use their actions to make melee attacks.</content>
+	<content contentuid="" version="1">Frightened. Can only use actions to make melee attacks.</content>
 	<content contentuid="h914e1a28g2c1cg4684ga041g8e2caa95d498" version="1">Primal Fury</content>
-	<content contentuid="h87d4504egc047g4d99g8221g58c7afa79eb3" version="1">TODO: Primal Fury Description</content>
+	<content contentuid="h87d4504egc047g4d99g8221g58c7afa79eb3" version="1">Assault a creature with a surge of rage, causing them to immediately lose concentration.</content>
 	<content contentuid="h9b203b48gf006g4784g9c17g0595464f3fb1" version="1">Fighting Words</content>
-	<content contentuid="he37df62fg4d93g4b90g8b99g0d9c4f639af3" version="1">TODO: Fighting Words Description</content>
+	<content contentuid="he37df62fg4d93g4b90g8b99g0d9c4f639af3" version="1">Attempt to drive a creature into a frenzy, giving it Advantage on attack rolls, but it can't concentrate on spells and enemies have Advantage on attack rolls against it.</content>
+	<content contentuid="" version="1">Has Advantage on attack rolls, but can't concentrate and enemies have Advantage against this creature.</content>
 	<content contentuid="hbb9dd850g9ca6g430bgb936g8c47b92ce549" version="1">Mindless Courage</content>
-	<content contentuid="hed6f2116gceeeg4621ga1b5gc38cf88ccd86" version="1">TODO: Mindless Courage Description</content>
+	<content contentuid="hed6f2116gceeeg4621ga1b5gc38cf88ccd86" version="1">Provoke a creature, forcing it to move towards you on its turn and do nothing else.</content>
+	<content contentuid="" version="1">TODO: Mindless Courage Status Description</content>
 	<content contentuid="h9e949f54g1892g4f19g86d8gd20bdf2fd643" version="1">Punishing Fury</content>
-	<content contentuid="h3c5d3b88g03d2g45baga1e6g426be49e6f61" version="1">TODO: Punishing Fury Description</content>
+	<content contentuid="h3c5d3b88g03d2g45baga1e6g426be49e6f61" version="1">Escalate a creature's rage, making it attack recklessly. Whenever the creature makes a melee attack, nearby creatures can use their reaction to make a melee attack against them.</content>
+	<content contentuid="" version="1">Boiling with rage. Whenever this creature attacks, other creatures can use their reaction to make a melee attack against them.</content>
 	<content contentuid="h6abf59c0g7ddag4ec7g97ddge6d16248b484" version="1">Coordinated Movement</content>
-	<content contentuid="h1ba91861g777eg4c67ga616g722a9e291280" version="1">TODO: Coordinated Movement Description</content>
+	<content contentuid="h1ba91861g777eg4c67ga616g722a9e291280" version="1">Signal up to five allies to move as a unit, increasing their movement speed by [1].</content>
+	<content contentuid="" version="1">Movement speed increased by [1].</content>
 	<content contentuid="ha478b526ge94eg4689g8876gb131dd371a18" version="1">Commander's Sight</content>
-	<content contentuid="h9f0b9cc3g2c38g4c1bgaba1gd3a27449389f" version="1">TODO: Commander's Sight Description</content>
+	<content contentuid="h9f0b9cc3g2c38g4c1bgaba1gd3a27449389f" version="1">Reveal a creature's weaknesses, giving Advantage to attack rolls against it.</content>
+	<content contentuid="" version="1">Attack rolls have Advantage against this creature.</content>
 	<content contentuid="hbdec4171g964fg48f6ga2a8gde7c977a6c2c" version="1">Command to Strike</content>
-	<content contentuid="h6cc4768dgc11fg453cg92a8gb6a2c8e0853f" version="1">TODO: Command to Strike Description</content>
+	<content contentuid="h6cc4768dgc11fg453cg92a8gb6a2c8e0853f" version="1">Direct an ally to strike a foe. The ally immediately uses their reaction to make a weapon attack.</content>
+	<content contentuid="" version="1">TODO:? Command to Strike Status Description</content>
 	<content contentuid="h14317c93g0a49g4116g8970gf5060f631559" version="1">Strategic Mind</content>
-	<content contentuid="h6aac4741g43c5g4609g93b8g46154d854f92" version="1">TODO: Strategic Mind Description</content>
+	<content contentuid="h6aac4741g43c5g4609g93b8g46154d854f92" version="1">Exert an aura of trust and command, uniting your allies to move as a cohesive unit. Nearby allies Dash or Disengage as a bonus action, or add 1d4 to each attack roll during their turn.</content>
+	<content contentuid="" version="1">Able to Dash or Disengage as a bonus action, or add 1d4 to each damage roll.</content>
 	<content contentuid="hd730826dg9baag45deg9870gf1c6b150b3a3" version="1">Overwhelming Attack</content>
-	<content contentuid="h68cd3e1eg06beg474dg8556g411af0571a30" version="1">TODO: Overwhelming Attack Description</content>
+	<content contentuid="h68cd3e1eg06beg474dg8556g411af0571a30" version="1">Direct up to five allies to strike a foe. They immediately use their reaction to make a weapon attack.</content>
+	<content contentuid="" version="1">TODO:? Overwhelming Attack Status Description</content>	
 	<content contentuid="h97579b00g4679g44f5gbfa6gd8a740be025c" version="1">Incite Courage</content>
-	<content contentuid="h89287d81gc263g462fgad79gb530dfb6fdc9" version="1">TODO: Incite Courage Description</content>
+	<content contentuid="h89287d81gc263g462fgad79gb530dfb6fdc9" version="1">Bestow courage to up to six creatures, removing any Frightened conditions.</content>
 	<content contentuid="h57e5f748gb553g43adgac10gb5b6bfbd6fd5" version="1">Aura of Victory</content>
-	<content contentuid="h039be837g8748g436fgaa7dg1bbff4f743d2" version="1">TODO: Aura of Victory Description</content>
+	<content contentuid="h039be837g8748g436fgaa7dg1bbff4f743d2" version="1">Project an aura that grants you and your allies [1] temporary hit points whenever a nearby enemy is reduced to 0 hit points.</content>
+	<content contentuid="" version="1">Gains temporary hit points whenever a nearby enemy creature is reduced to 0 hit points.</content>
 	<content contentuid="h42c683d7ge2dag40dfg8949gf87025a3d465" version="1">Pillar of Confidence</content>
-	<content contentuid="h12fcfc8bg47d5g4292g8e96g4777cf857a07" version="1">TODO: Pillar of Confidence Description</content>
+	<content contentuid="h12fcfc8bg47d5g4292g8e96g4777cf857a07" version="1">Instill yourself and up to five creatures with a surge of confidence, gaining an extra action each turn.</content>
+	<content contentuid="" version="1">Able to take an additional action each turn.</content>
 	<content contentuid="h3b13f9c6gb05dg4029g861cg73533e60e4ff" version="1">Incite Fear</content>
 	<content contentuid="hc614b36dgf1e2g4d1bgbd39g2043b1fe4ae1" version="1">TODO: Incite Fear Description</content>
 	<content contentuid="hf54dcf2bg014fg43abg9484g52be7f13e362" version="1">Unsettling Aura</content>
@@ -345,6 +358,9 @@
 	<content contentuid="h0f384acdg824dg425dga438g59ee967fc5bd" version="1">TODO: Aura of Jubilation Description</content>
 	<content contentuid="hcda1153bg0b3fg4ac1gaf05g66d825fc6468" version="1">Beacon of Recovery</content>
 	<content contentuid="hd60e75a7g3ab9g47d2gb46dga118a8678ef1" version="1">TODO: Beacon of Recovery Description</content>
+
+
+	
 	<content contentuid="he0898f56gbb0ag412bgbebfg6f5ca51a2c58" version="1">Assess Foe</content>
 	<content contentuid="h0852c2a3g00f4g45c9gb202g41972be5bcd8" version="1">TODO: Assess Foe Description</content>
 	<content contentuid="hf2d8338cg3bbcg432fg9168gc940ce3682b2" version="1">View Aura</content>
