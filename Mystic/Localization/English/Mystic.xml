@@ -293,15 +293,17 @@
 	<content contentuid="hf7b4f71dg39aeg4582gbe7bgda7d0c9566ac" version="1">&lt;LSTag Type="Status" Tooltip="INCAPACITATED"&gt;Incapacitated&lt;/LSTag&gt;, movement speed reduced to 0.</content>
 	<content contentuid="hd49244fdg189fg49abgafb7g82b523a3ee79" version="1">Eye of Horror</content>
 	<content contentuid="h60a97b1bg8f91g4f28g80bfgcc527aaa1047" version="1">Project an image of horror at a creature, reducing their movement speed by half.</content>
-	<content contentuid="" version="1">Movement speed reduced by half.</content>
+	<content contentuid="h77791667gb881g4996g93b4gf60eab7bfb1f" version="1">Movement speed reduced by [1].</content>
 	<content contentuid="h52bc941fg3400g43c0g88b1g17e2fc2eec65" version="1">Wall of Repulsion</content>
 	<content contentuid="h0cc6b196gaa72g417ag8d93gafdb4fc13ea0" version="1">Create a wall of energy that may repulse creatures that touch it, reducing their movement speed to 0.</content>
+	<content contentuid="hfc0eaaa0gc478g4769gb2d8g938c36bf5caf" version="1">Repulsed</content>
+	<content contentuid="hbf9c8b71gd994g4865g929cgd3b8d38708be" version="1">Movement speed reduced to 0.</content>
 	<content contentuid="h7e97d15dg98e7g4b8dg9849ga2ed3058e5af" version="1">Visions of Disgust</content>
 	<content contentuid="hf1319c93g4f26g4743g9389g59867ac1f6c3" version="1">Warp a creature's mind, causing it to regard other beings as horrid. While afflicted, it takes [1] damage per creature within [2] at the end of its turns.</content>
-	<content contentuid="" version="1">Takes [1] damage for each creature within [2] each turn.</content>
+	<content contentuid="h7105a329gdb40g430dgb245g840f85f141ab" version="1">Takes [1] damage for each creature within [2] each turn.</content>
 	<content contentuid="hda6638cfg47abg4e04gbe10ge74dd3a7277f" version="1">World of Horror</content>
 	<content contentuid="h8a90a05cg67aeg4fe3gaa05g617f55476434" version="1">Wreak pandemonium in up to six creatures, &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightening&lt;/LSTag&gt; them. While affected, creatures can only use their actions to make melee attacks.</content>
-	<content contentuid="" version="1">&lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;. Can only use actions to make melee attacks.</content>
+	<content contentuid="h47949da3g6dd3g44b8gbd0eg0b9479fe439c" version="1">&lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;. Can only use actions to make melee attacks.</content>
 	<content contentuid="h914e1a28g2c1cg4684ga041g8e2caa95d498" version="1">Primal Fury</content>
 	<content contentuid="h87d4504egc047g4d99g8221g58c7afa79eb3" version="1">Assault a creature with a surge of rage, causing them to immediately lose concentration.</content>
 	<content contentuid="h9b203b48gf006g4784g9c17g0595464f3fb1" version="1">Fighting Words</content>
