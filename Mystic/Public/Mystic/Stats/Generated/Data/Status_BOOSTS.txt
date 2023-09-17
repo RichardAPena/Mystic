@@ -747,6 +747,7 @@ data "ManagedStatusEffectGroup" "d787f666-8ee6-4185-9365-6aac9ebe76ae"
 data "RemoveConditions" "SavingThrow(Ability.Charisma, SourceSpellDC())"
 data "RemoveEvents" "OnTurn"
 data "TooltipSave" "Charisma"
+data "StatusGroups" "SG_Incapacitated;SG_Condition"
 
 new entry "MYSTIC_EYE_OF_HORROR"
 
