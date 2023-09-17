@@ -72,8 +72,6 @@ data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "Advantage(Skill, Intimidation)"
 
 // Psychic Focus: Crown of Disgust
-// "Enemies within 3m are in Difficult Terrain unless they are immune to being Frightened." (not sure how to do that last part)
-// TODO: copy that one spell
 new entry "PSYCHIC_FOCUS_CROWN_OF_DISGUST"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -82,7 +80,14 @@ data "Description" "h6f45c269gddd9g45edgae6egee9f5f83f1a6"
 data "DescriptionParams" "Distance(3)"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
-data "Boosts" ""
+// data "Boosts" ""
+data "AuraRadius" "6"
+data "AuraStatuses" "TARGET:IF(Character() and Enemy() and not IsImmuneToStatus('SG_FRIGHTENED')):ApplyStatus(DIFFICULT_TERRAIN)"
+// data "AuraFlags" "ShouldCheckLOS"
+data "StatusPropertyFlags" "IgnoreResting;DisableCombatlog"
+// data "StatusGroups" "SG_Light"
+// data "IsUnique" "1"
+
 
 // Psychic Focus: Crown of Rage
 new entry "PSYCHIC_FOCUS_CROWN_OF_RAGE"
