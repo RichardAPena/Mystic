@@ -3,19 +3,29 @@ All:
 - Need to add upcasting to appropriate spells
 - Need to double check every Psychic Focus, but ~90% work as intended
 
+TLDR:
+*Wall of Repulsion
+World of Horror
+Punishing Fury
+Strategic Mind
+Aura of Victory
+Overwhelming Fury
+Soothing Presence
+Beacon of Recovery -> HasSavingThrowWithAbility(Ability.Dexterity) ?
+
 Crown of Despair
  - Crowned in Sorrow
-    > Working as intended
+    > Works as intended
  - Call to Inaction
-    > Working as intended
+    > Works as intended
  - Visions of Despair
-    > Working as intended
+    > Works as intended
  - Dolorous Mind
-    > Seems to be a bit inconsistent with the saves? Otherwise working as intended
+    > Works as intended
 
 Crown of Disgust
  - Eye of Horror
-    > Working as intended
+    > Works as intended
  - Wall of Repulsion
     > It's a wall, so I can't edit that much for now (It's just wall of fire)
  - Visions of Disgust
@@ -25,11 +35,11 @@ Crown of Disgust
 
 Crown of Rage
  - Primal Fury
-    > Working as intended
+    > Works as intended
  - Fighting Words
-    > Working as intended
+    > Works as intended
  - Mindless Courage
-    > Right now it just applies Command: Approach, which is the intended behavior, but I don't like it
+    > Works as intended*
  - Punishing Fury
     > Does nothing, and won't do anything until I figure out Interrupts (reactions)
 
@@ -37,38 +47,39 @@ Mantle of Command
  - Psychic Focus
     > Does nothing
  - Coordinated Movement
-    > Working as intended
+    > Works as intended
  - Commander's Sight
-    > Working as intended (?)
+    > Works as intended
  - Command to Strike
-    > Should work, it's almost identical to Commanders_strike_D8 
+    > Works as intended
  - Strategic Mind
     > Does nothing
  - Overwhelming Attack
-    > Should work, it's basically an AoE version of Command to Strike
+    > Works as intended
 
 Mantle of Courage
  - Incite Courage
-    > Should work as intended
+    > Works as intended
  - Aura of Victory
     > Does nothing
  - Pillar of Confidence
-    > Should work as intended
+    > Works as intended
+
 Mantle of Fear
  - Incite Fear
-    > Doesnt break on no sight, but otherwise should work
+    > Frightened persists even after losing concentration?
  - Unsettling Aura
-    > Should work as intended
+    > Works as intended
  - Incite Panic
-    > Should work as intended
+    > Works as intended
 
 Mantle of Fury
  - Incite Fury
-    > Should work as intended
+    > Works as intended
  - Mindless Charge 
-    > Should work as intended
+    > Works as intended
  - Aura of Bloodletting
-    > Should work as intended
+    > Works as intended
  - Overwhelming Fury
     > Does nothing
 
@@ -76,11 +87,12 @@ Mantle of Joy
  - Soothing Presence
     > Does nothing
  - Comforting Aura
-    > Should work as intended
+    > Works as intended
  - Aura of Jubilation
-    > Should work as intended
+    > Works as intended
  - Beacon of Recovery
     > Does nothing
+
 TODO:
 
 Aura Sight

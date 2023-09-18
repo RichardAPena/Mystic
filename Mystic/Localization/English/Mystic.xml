@@ -138,6 +138,9 @@
 	<content contentuid="h30935e9bg9decg4089g9f85g3789939b3e6d" version="1">Psychic Focus: Mantle of Command</content>
 	<content contentuid="heb843595gc7acg4e46g9d53gd8a7b1232531" version="1">Gain the ability to cast &lt;LSTag Tooltip="Target_Mystic_CommandersImperative"&gt;Commander's Imperative&lt;/LSTag&gt; when not moving during your turn. Doing so will set your movement speed to 0.</content>
 	<content contentuid="h37c8bd6agbc0ag4d3egaf61g8296f4b02afe" version="1">Able to cast &lt;LSTag Tooltip="Target_Mystic_CommandersImperative"&gt;Commander's Imperative&lt;/LSTag&gt;.</content>
+	<content contentuid="he5fc1d3age6c4g4017gb0a2gd2d2f0f6fa4e" version="1">Commander's Imperative</content>
+	<content contentuid="ha78de940ge09dg428eg89c6g161d9f40b1a3" version="1">Mobilize an ally, increasing their movement speed by [1].</content>
+	<content contentuid="hc1502b65g0e96g459cga39dg185ad7bed030" version="1">Movement speed increased by [1].</content>
 	<content contentuid="h8dc5ccf0g5600g4f85g9535g64e9439487ee" version="1">Psychic Focus: Mantle of Courage</content>
 	<content contentuid="had37e37egaba4g4b2fg80f2g09c29641d813" version="1">Mantle of Courage</content>
 	<content contentuid="hb830ea19gbc75g4ad6ga052g28fdd5001b4c" version="1">Allies within [1] will have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; against becoming &lt;LSTag Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;.</content>
@@ -299,7 +302,7 @@
 	<content contentuid="hfc0eaaa0gc478g4769gb2d8g938c36bf5caf" version="1">Repulsed</content>
 	<content contentuid="hbf9c8b71gd994g4865g929cgd3b8d38708be" version="1">Movement speed reduced to 0.</content>
 	<content contentuid="h7e97d15dg98e7g4b8dg9849ga2ed3058e5af" version="1">Visions of Disgust</content>
-	<content contentuid="hf1319c93g4f26g4743g9389g59867ac1f6c3" version="1">Warp a creature's mind, causing it to regard other beings as horrid. While afflicted, it takes [1] damage per creature within [2] at the end of its turns.</content>
+	<content contentuid="hf1319c93g4f26g4743g9389g59867ac1f6c3" version="1">Warp a creature's mind, causing it to regard other beings as horrid. While afflicted, it takes [1] damage at the end of its turns.</content>
 	<content contentuid="h7105a329gdb40g430dgb245g840f85f141ab" version="1">Takes [1] damage for each creature within [2] each turn.</content>
 	<content contentuid="hda6638cfg47abg4e04gbe10ge74dd3a7277f" version="1">World of Horror</content>
 	<content contentuid="h8a90a05cg67aeg4fe3gaa05g617f55476434" version="1">Wreak pandemonium in up to six creatures, &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightening&lt;/LSTag&gt; them. While affected, creatures can only use their actions to make melee attacks.</content>
@@ -346,7 +349,7 @@
 	<content contentuid="h306d89c1g1e5bg4f80gb77fgf8849f6d8d85" version="1">Movement speed is halved.</content>
 	<content contentuid="h0c4f3364gf502g437cg9089g23ddf94ce35a" version="1">Emitting an aura that halves the movement speed of nearby enemies.</content>
 	<content contentuid="h3983f69bgce33g40cdg82e3geecd6d20292f" version="1">Incite Panic</content>
-	<content contentuid="h2b073784g2d6dg4533g8122g2b54aebb16e6" version="1">Sow chaaos in up to eight creatures, &lt;LSTag Type="Status" Tooltip="TIMMASK_SPORES"&gt;Befuddling&lt;/LSTag&gt; them.</content>
+	<content contentuid="h2b073784g2d6dg4533g8122g2b54aebb16e6" version="1">Sow chaos in up to eight creatures, &lt;LSTag Type="Status" Tooltip="TIMMASK_SPORES"&gt;Befuddling&lt;/LSTag&gt; them.</content>
 	<content contentuid="" version="1">TODO: Incite Panic Effect</content>
 	<content contentuid="h3e342734g83e2g43cegb0fegfe74ae247945" version="1">Incite Fury</content>
 	<content contentuid="hb579b8d3g6067g4ea6gafacg291cb41e6984" version="1">Evoke fury in up to three allies, granting them +1d4 to melee weapon damage rolls.</content>

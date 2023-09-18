@@ -164,6 +164,17 @@ data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "UnlockSpell(Target_Mystic_CommandersImperative)"
 
+new entry "MYSTIC_COMMANDERS_IMPERATIVE"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "he5fc1d3age6c4g4017gb0a2gd2d2f0f6fa4e"
+data "Description" "hc1502b65g0e96g459cga39dg185ad7bed030"
+data "DescriptionParams" "Distance(3)"
+data "Icon" "Action_CommandersStrike"
+data "StackId" "MYSTIC_COMMANDERS_IMPERATIVE"
+data "Boosts" "ActionResource(Movement,3,0)"
+
+
 // Psychic Focus: Mantle of Courage
 // "Allies within 3m have Advantage against being Frightened."
 // TODO: Incomplete but should do what it's supposed to
@@ -801,7 +812,8 @@ data "Description" "h47949da3g6dd3g44b8gbd0eg0b9479fe439c"
 data "Icon" "Spell_Illusion_PhantasmalKiller"
 data "StackId" "MYSTIC_WORLD_OF_HORROR"
 data "TickType" "EndTurn"
-data "Boosts" "Disadvantage(AllAbilities);Disadvantage(AttackRoll);ActionResourceBlock(Movement)"
+// FIXME
+data "Boosts" "Disadvantage(AllAbilities);Disadvantage(AttackRoll);ActionResourceBlock(Movement);IF(not IsMeleeAttack()):ActionResourceBlock(ActionPoint)"
 data "StatusGroups" "SG_Frightened;SG_Condition"
 data "RemoveConditions" "SavingThrow(Ability.Charisma, SourceSpellDC())"
 data "RemoveEvents" "OnTurn"
