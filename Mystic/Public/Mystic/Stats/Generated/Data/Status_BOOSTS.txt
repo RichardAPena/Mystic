@@ -1011,6 +1011,9 @@ data "TickType" "EndTurn"
 data "Boosts" ""
 data "AuraRadius" "9"
 data "AuraStatuses" "TARGET:IF(Character() and Ally() and not Self()):ApplyStatus(MYSTIC_AURA_OF_VICTORY_BUFF)"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "HasHPLessThan(1) and Enemy() and Character()"
+data "StatFunctors" "ApplyStatus(MYSTIC_AURA_OF_VICTORY_TEMPORARY_HP,100,-1)"
 
 new entry "MYSTIC_AURA_OF_VICTORY_BUFF"
 type "StatusData"
@@ -1022,12 +1025,26 @@ data "Icon" "Action_InspiringLeader"
 data "StackId" "MYSTIC_AURA_OF_VICTORY_BUFF"
 data "TickType" "EndTurn"
 data "Boosts" ""
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "HasHPLessThan(1) and Enemy() and Character()"
+data "StatFunctors" "ApplyStatus(MYSTIC_AURA_OF_VICTORY_TEMPORARY_HP,100,-1)"
 
 // TODO
 new entry "MYSTIC_AURA_OF_VICTORY_TEMPORARY_HP"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h98195dedg0cdeg45b5gaf3ag2998fcf5e4ed"
+data "Description" "hcd431a9dga128g4531gbfb7g8b871745f056"
+data "DescriptionParams" "1"
+data "Icon" "Action_InspiringLeader"
+data "StackId" "TEMPORARY_HP"
+data "StackPriority" "1"
+data "TickType" "EndTurn"
+data "Boosts" "TemporaryHP(1)"
+data "RemoveConditions" "not HasTemporaryHP()"
+data "RemoveEvents" "OnDamage"
 
-
-// Pillar of Confidencce
+// Pillar of Confidence
 new entry "MYSTIC_PILLAR_OF_CONFIDENCE"
 type "StatusData"
 data "StatusType" "BOOST"
