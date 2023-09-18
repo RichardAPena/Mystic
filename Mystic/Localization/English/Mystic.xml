@@ -320,8 +320,8 @@
 	<content contentuid="h1ba91861g777eg4c67ga616g722a9e291280" version="1">Signal up to five allies to move as a unit, increasing their movement speed by [1].</content>
 	<content contentuid="hfb595d88g0d0eg46feg9b51g356788a0e87d" version="1">Movement speed increased by [1].</content>
 	<content contentuid="ha478b526ge94eg4689g8876gb131dd371a18" version="1">Commander's Sight</content>
-	<content contentuid="h9f0b9cc3g2c38g4c1bgaba1gd3a27449389f" version="1">Reveal a creature's weaknesses, giving Advantage to attack rolls against it.</content>
-	<content contentuid="h5baa6f58g9233g4cc0gb303gafe1a572845e" version="1">Attack rolls have Advantage against this creature.</content>
+	<content contentuid="h9f0b9cc3g2c38g4c1bgaba1gd3a27449389f" version="1">Reveal a creature's weaknesses, giving &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; to attack rolls against it.</content>
+	<content contentuid="h5baa6f58g9233g4cc0gb303gafe1a572845e" version="1">Attack rolls have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; against this creature.</content>
 	<content contentuid="hbdec4171g964fg48f6ga2a8gde7c977a6c2c" version="1">Command to Strike</content>
 	<content contentuid="h6cc4768dgc11fg453cg92a8gb6a2c8e0853f" version="1">Direct an ally to strike a foe. The ally immediately uses their reaction to make a weapon attack.</content>
 	<content contentuid="h3e448fe9g2997g466fg9c1eg3ff168fc516a" version="1">Able to make weapon attack for free.</content>
@@ -355,7 +355,7 @@
 	<content contentuid="h744cdc77g41afg4290g99e6g653fa1854560" version="1">Rouse up to 3 creatures, increasing their movement speed by [1] but giving them &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on Strength, Dexterity and Constitution Saving Throws.</content>
 	<content contentuid="h02127774ga9d0g4ab0g8f61gce7308ee55c1" version="1">Movement speed increased by [1]. &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on Strength, Dexterity and Constitution Saving Throws.</content>
 	<content contentuid="h4a8242b3gffc3g43c8g8a25g0b03e9d956df" version="1">Aura of Bloodletting</content>
-	<content contentuid="ha64cd2aag4558g4e51gbb58ge0026b35a209" version="1">Unleash an aura of range, giving all nearby creatures &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on melee attack rolls.</content>
+	<content contentuid="ha64cd2aag4558g4e51gbb58ge0026b35a209" version="1">Unleash an aura of rage, giving all nearby creatures &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on melee attack rolls.</content>
 	<content contentuid="h0f373053gfb1dg4eb1ga6f6gb10dab129871" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on melee attack rolls.</content>
 	<content contentuid="h085e04a6ge7dcg497cg9164g9d74e624e94b" version="1">Overwhelming Fury</content>
 	<content contentuid="h244e4d56g6167g421ega5b9ga45e43da709b" version="1">Flood rage into a creature, preventing it from taking any actions other than melee attacks.</content>
