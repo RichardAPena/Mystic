@@ -1187,7 +1187,6 @@ data "CastEffect" "ae89577b-9458-4ca0-9d37-07d1f381c830"
 data "TargetEffect" "1b62a284-e05a-4a26-bd5d-1dda752839a1"
 
 // Beacon of Recovery
-// TODO: DOes nothing
 new entry "Target_Mystic_BeaconOfRecovery"
 type "SpellData"
 data "SpellType" "Target"
@@ -1197,11 +1196,11 @@ data "DisplayName" "hcda1153bg0b3fg4ac1gaf05g66d825fc6468"
 data "Description" "hd60e75a7g3ab9g47d2gb46dga118a8678ef1"
 data "DescriptionParams" ""
 
-// data "SpellProperties" "ApplyStatus(MYSTIC_PILLAR_OF_CONFIDENCE,100,1)"
+data "SpellProperties" "ApplyStatus(MYSTIC_BEACON_OF_RECOVERY,100,1)"
 data "TargetRadius" "18"
-data "TargetConditions" "Ally()"
+data "TargetConditions" "Ally() and Character()"
 data "AmountOfTargets" "6"
-// data "TooltipStatusApply" "ApplyStatus(MYSTIC_PILLAR_OF_CONFIDENCE,100,1)"
+data "TooltipStatusApply" "ApplyStatus(MYSTIC_BEACON_OF_RECOVERY,100,1)"
 data "CastSound" "Action_Cast_CommandersStrike"
 data "TargetSound" "Action_Impact_CommandersStrike"
 data "CastTextEvent" "Cast"

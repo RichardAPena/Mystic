@@ -1226,6 +1226,18 @@ data "StackId" "MYSTIC_AURA_OF_JUBILATION_BUFF"
 data "TickType" "EndTurn"
 data "Boosts" "Disadvantage(Skill, Perception);Disadvantage(Skill, Investigation)"
 
+// Beacon of Recovery
+new entry "MYSTIC_BEACON_OF_RECOVERY"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "hcda1153bg0b3fg4ac1gaf05g66d825fc6468"
+data "Description" "hccfe5135g56c3g4aa7g9bb8g0137d85683db"
+// data "DescriptionParams" ""
+data "Icon" ""
+data "StackId" "MYSTIC_AURA_OF_JUBILATION"
+data "TickType" "StartTurn"
+data "StatusPropertyFlags" "TickingWithSource"
+data "Boosts" "RollBonus(SavingThrow,5)"
 
 
 

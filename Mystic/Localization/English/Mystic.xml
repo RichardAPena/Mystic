@@ -382,8 +382,7 @@
 	<content contentuid="h138ad4c4gc8e8g4ad2g9137g8a48aed9624f" version="1">&lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on Perception and Investigation checks.</content>
 	<content contentuid="hcda1153bg0b3fg4ac1gaf05g66d825fc6468" version="1">Beacon of Recovery</content>
 	<content contentuid="hd60e75a7g3ab9g47d2gb46dga118a8678ef1" version="1">You and up to five allies immediately make Saving Throws against every effect they're suffering from.</content>
-
-
+	<content contentuid="hccfe5135g56c3g4aa7g9bb8g0137d85683db" version="1">+5 to Saving Throws.</content>
 	<content contentuid="he0898f56gbb0ag412bgbebfg6f5ca51a2c58" version="1">Assess Foe</content>
 	<content contentuid="h0852c2a3g00f4g45c9gb202g41972be5bcd8" version="1">TODO: Assess Foe Description</content>
 	<content contentuid="hf2d8338cg3bbcg432fg9168gc940ce3682b2" version="1">View Aura</content>
