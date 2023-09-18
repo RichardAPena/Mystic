@@ -4,13 +4,10 @@ All:
 - Need to double check every Psychic Focus, but ~90% work as intended
 
 TLDR:
-*Wall of Repulsion
-World of Horror
-Punishing Fury
-Strategic Mind
-Aura of Victory
-Overwhelming Fury
-Soothing Presence
+Wall of Repulsion -> when i learn walls it MIGHT be done (KEKW)
+Punishing Fury -> as soon as i learn reactions will be done
+Strategic Mind -> containers and temporary actions, should be done soon
+Aura of Victory -> statfunctors and conditions, should be done soon
 Beacon of Recovery -> HasSavingThrowWithAbility(Ability.Dexterity) ?
 
 Crown of Despair
@@ -85,7 +82,7 @@ Mantle of Fury
 
 Mantle of Joy
  - Soothing Presence
-    > Does nothing
+    > Works as intended
  - Comforting Aura
     > Works as intended
  - Aura of Jubilation

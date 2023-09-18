@@ -812,8 +812,8 @@ data "Description" "h47949da3g6dd3g44b8gbd0eg0b9479fe439c"
 data "Icon" "Spell_Illusion_PhantasmalKiller"
 data "StackId" "MYSTIC_WORLD_OF_HORROR"
 data "TickType" "EndTurn"
-// FIXME
-data "Boosts" "Disadvantage(AllAbilities);Disadvantage(AttackRoll);ActionResourceBlock(Movement);IF(not IsMeleeAttack()):ActionResourceBlock(ActionPoint);BlockSpellCast()"
+// data "Boosts" "Disadvantage(AllAbilities);Disadvantage(AttackRoll);ActionResourceBlock(Movement);IF(not IsMeleeAttack()):ActionResourceBlock(ActionPoint);BlockSpellCast()"
+data "Boosts" "Disadvantage(AllAbilities);Disadvantage(AttackRoll);ActionResourceBlock(Movement);ActionResourceBlock(ActionPoint);ActionResourceBlock(BonusActionPoint);UnlockSpell(Target_Mystic_MainHandAttack)"
 data "StatusGroups" "SG_Frightened;SG_Condition"
 data "RemoveConditions" "SavingThrow(Ability.Charisma, SourceSpellDC())"
 data "RemoveEvents" "OnTurn"
@@ -974,6 +974,17 @@ data "Boosts" ""
 // data "Boosts" ""
 
 // Aura of Victory
+// TODO: 
+// data "Conditions" "((HasHPLessThan(1) and not Ally() and Character()) or (HasDamageEffectFlag(DamageFlags.Critical) and not HasDamageEffectFlag(DamageFlags.Miss) and not Ally() and Character())) and not SpellId('Target_GreatWeaponMaster_BonusAttack') and IsWeaponAttack() and IsMeleeAttack()"
+// data "Conditions" "IsMeleeAttack() and Enemy() and HasHPLessThan(1) and TotalDamageDoneGreaterThan(0)"
+// data "Conditions" "HasHPLessThan(1) and Enemy() and Character()"
+// Mess around with Conditions, apply temporary HP when the condition is met
+// So on and so forth
+// The BUFF should tick each time something dies, or have a StatFunctors?
+// Actually probably both
+// data "StatsFunctorContext" "OnDamage"
+// Yeah this sounds good, all of that should apply a shield
+// Whenever something takes damage, and their HP is set to <1
 new entry "MYSTIC_AURA_OF_VICTORY"
 type "StatusData"
 data "StatusType" "BOOST"

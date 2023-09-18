@@ -99,6 +99,10 @@ data "DescriptionParams" ""
 
 data "AreaRadius" "9"
 
+// TODO: Add Dash, Disengage and the +1d4 ability here
+// Make it a container so that they share a per turn cooldown
+// Make sure theyre tagged Temporary
+
 // Aura of Victory
 new entry "Shout_Mystic_AuraOfVictory"
 type "SpellData"

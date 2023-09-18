@@ -1119,7 +1119,7 @@ data "TargetRadius" "18"
 // data "TargetConditions" "Ally() and not Self()"
 // data "AmountOfTargets" "6"
 data "TooltipAttackSave" "Wisdom"
-data "TooltipStatusApply" "ApplyStatus(MYSTIC_OVERWHELMING_FURY,100,10)"
+data "TooltipStatusApply" "ApplyStatus(MYSTIC_OVERWHELMING_FURY,100,10);IF(not Player(context.Source)):ApplyStatus(AI_HELPER_EXTRAATTACK,100,10);"
 data "CastSound" "Action_Cast_CommandersStrike"
 data "TargetSound" "Action_Impact_CommandersStrike"
 data "CastTextEvent" "Cast"
@@ -1636,8 +1636,25 @@ data "Description" "h0453be45g6769g4bc8gad22ga1684eb1357f"
 data "DescriptionParams" ""
 
 // TODO: FORCED MELEE ATTACK
+// Make each weapon/unarmed attack be in its own container
+// So that way they share a cooldown
+// Give out additional attacks if Extra Attack is on the enemy
 new entry "Target_Mystic_MainHandAttack"
 using "Target_MainHandAttack"
 data "UseCosts" ""
 data "Cooldown" "OncePerTurn"
 data "SpellFlags" "IsAttack;IsMelee;IsHarmful;Temporary"
+
+// This is SUPER hacky but it should work regardless
+new entry "Target_Mystic_MainHandAttack_2"
+using "Target_MainHandAttack"
+data "UseCosts" ""
+data "Cooldown" "OncePerTurn"
+data "SpellFlags" "IsAttack;IsMelee;IsHarmful;Temporary"
+
+new entry "Target_Mystic_MainHandAttack_3"
+using "Target_MainHandAttack"
+data "UseCosts" ""
+data "Cooldown" "OncePerTurn"
+data "SpellFlags" "IsAttack;IsMelee;IsHarmful;Temporary"
+
