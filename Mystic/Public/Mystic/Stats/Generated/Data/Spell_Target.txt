@@ -1133,7 +1133,6 @@ data "CastEffect" "ae89577b-9458-4ca0-9d37-07d1f381c830"
 data "TargetEffect" "1b62a284-e05a-4a26-bd5d-1dda752839a1"
 
 // Soothing Presence
-// TODO: DOes nothing
 new entry "Target_Mystic_SoothingPresence"
 type "SpellData"
 data "SpellType" "Target"
@@ -1143,11 +1142,11 @@ data "DisplayName" "h9e88737dg7b52g4340g9ab9g3b54e760a48c"
 data "Description" "he49bc493g1954g435cgbefdg47bf589c50f1"
 data "DescriptionParams" ""
 
-// data "SpellProperties" "ApplyStatus(MYSTIC_PILLAR_OF_CONFIDENCE,100,1)"
+data "SpellProperties" "ApplyStatus(MYSTIC_SOOTHING_PRESENCE,100,-1)"
 data "TargetRadius" "18"
-data "TargetConditions" "Ally()"
+data "TargetConditions" "Ally() and Character()"
 data "AmountOfTargets" "3"
-// data "TooltipStatusApply" "ApplyStatus(MYSTIC_PILLAR_OF_CONFIDENCE,100,1)"
+data "TooltipStatusApply" "ApplyStatus(MYSTIC_SOOTHING_PRESENCE,100,-1)"
 data "CastSound" "Action_Cast_CommandersStrike"
 data "TargetSound" "Action_Impact_CommandersStrike"
 data "CastTextEvent" "Cast"
