@@ -318,58 +318,57 @@
 	<content contentuid="h8b1abde3gc807g48e0g9725g96e373175249" version="1">Boiling with rage. Whenever this creature attacks, other creatures can use their reaction to make a melee attack against them.</content>
 	<content contentuid="h6abf59c0g7ddag4ec7g97ddge6d16248b484" version="1">Coordinated Movement</content>
 	<content contentuid="h1ba91861g777eg4c67ga616g722a9e291280" version="1">Signal up to five allies to move as a unit, increasing their movement speed by [1].</content>
-	<content contentuid="" version="1">Movement speed increased by [1].</content>
+	<content contentuid="hfb595d88g0d0eg46feg9b51g356788a0e87d" version="1">Movement speed increased by [1].</content>
 	<content contentuid="ha478b526ge94eg4689g8876gb131dd371a18" version="1">Commander's Sight</content>
 	<content contentuid="h9f0b9cc3g2c38g4c1bgaba1gd3a27449389f" version="1">Reveal a creature's weaknesses, giving Advantage to attack rolls against it.</content>
-	<content contentuid="" version="1">Attack rolls have Advantage against this creature.</content>
+	<content contentuid="h5baa6f58g9233g4cc0gb303gafe1a572845e" version="1">Attack rolls have Advantage against this creature.</content>
 	<content contentuid="hbdec4171g964fg48f6ga2a8gde7c977a6c2c" version="1">Command to Strike</content>
 	<content contentuid="h6cc4768dgc11fg453cg92a8gb6a2c8e0853f" version="1">Direct an ally to strike a foe. The ally immediately uses their reaction to make a weapon attack.</content>
-	<content contentuid="" version="1">TODO:? Command to Strike Status Description</content>
+	<content contentuid="h3e448fe9g2997g466fg9c1eg3ff168fc516a" version="1">Able to make weapon attack for free.</content>
 	<content contentuid="h14317c93g0a49g4116g8970gf5060f631559" version="1">Strategic Mind</content>
 	<content contentuid="h6aac4741g43c5g4609g93b8g46154d854f92" version="1">Exert an aura of trust and command, uniting your allies to move as a cohesive unit. Nearby allies can Dash or Disengage as a bonus action, or add +1d4 to each attack roll during their turn.</content>
-	<content contentuid="" version="1">Able to Dash or Disengage as a bonus action, or add 1d4 to each damage roll.</content>
+	<content contentuid="hc55eaef0gccd6g48c2g8071g9aa3e2cf88c2" version="1">Able to Dash or Disengage as a bonus action, or add 1d4 to each damage roll.</content>
 	<content contentuid="hd730826dg9baag45deg9870gf1c6b150b3a3" version="1">Overwhelming Attack</content>
 	<content contentuid="h68cd3e1eg06beg474dg8556g411af0571a30" version="1">Direct up to five allies to strike a foe. They immediately use their reaction to make a weapon attack.</content>
-	<content contentuid="" version="1">TODO:? Overwhelming Attack Status Description</content>	
 	<content contentuid="h97579b00g4679g44f5gbfa6gd8a740be025c" version="1">Incite Courage</content>
 	<content contentuid="h89287d81gc263g462fgad79gb530dfb6fdc9" version="1">Bestow courage to up to six creatures, removing any &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt; conditions.</content>
 	<content contentuid="h57e5f748gb553g43adgac10gb5b6bfbd6fd5" version="1">Aura of Victory</content>
 	<content contentuid="h039be837g8748g436fgaa7dg1bbff4f743d2" version="1">Project an aura that grants you and your allies [1] temporary hit points whenever a nearby enemy is reduced to 0 hit points.</content>
-	<content contentuid="" version="1">Gains temporary hit points whenever a nearby enemy creature is reduced to 0 hit points.</content>
+	<content contentuid="h51ed9e73g868fg4439g9026geca810651929" version="1">Gains temporary hit points whenever a nearby enemy creature is reduced to 0 hit points.</content>
 	<content contentuid="h42c683d7ge2dag40dfg8949gf87025a3d465" version="1">Pillar of Confidence</content>
 	<content contentuid="h12fcfc8bg47d5g4292g8e96g4777cf857a07" version="1">Instill yourself and up to five creatures with a surge of confidence, gaining an extra action each turn.</content>
-	<content contentuid="" version="1">Able to take an additional action each turn.</content>
+	<content contentuid="hffb8f667gf1c3g4b89g90f6g2fdf1114160c" version="1">Able to take an additional action this turn.</content>
 	<content contentuid="h3b13f9c6gb05dg4029g861cg73533e60e4ff" version="1">Incite Fear</content>
 	<content contentuid="hc614b36dgf1e2g4d1bgbd39g2043b1fe4ae1" version="1">Invoke fear in a creature, &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightening&lt;/LSTag&gt; them. The target can repeat the Saving Throw at the end of its turn if it can't see you.</content>
 	<content contentuid="" version="1">&lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;. Can repeat the Saving Throw if the caster is out of sight.</content>
 	<content contentuid="hf54dcf2bg014fg43abg9484g52be7f13e362" version="1">Unsettling Aura</content>
 	<content contentuid="h93d0582cg5788g43e8g92f5gdc957b0b1cd6" version="1">Cloak yourself in unsettling psychic energy, halving the movement speed of nearby enemies.&lt;br&gt;&lt;br&gt;Creatures that are immune to being &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt; are unaffected.</content>
-	<content contentuid="" version="1">TODO: Unsettling Aura Effect</content>
-	<content contentuid="" version="1">TODO: Unsettling Aura Slow</content>
+	<content contentuid="h306d89c1g1e5bg4f80gb77fgf8849f6d8d85" version="1">Movement speed is halved.</content>
+	<content contentuid="h0c4f3364gf502g437cg9089g23ddf94ce35a" version="1">Emitting an aura that halves the movement speed of nearby enemies.</content>
 	<content contentuid="h3983f69bgce33g40cdg82e3geecd6d20292f" version="1">Incite Panic</content>
 	<content contentuid="h2b073784g2d6dg4533g8122g2b54aebb16e6" version="1">Sow chaaos in up to eight creatures, &lt;LSTag Type="Status" Tooltip="TIMMASK_SPORES"&gt;Befuddling&lt;/LSTag&gt; them.</content>
-	<content contentuid="" version="1">TODO: Incinte Panic Effect</content>
+	<content contentuid="" version="1">TODO: Incite Panic Effect</content>
 	<content contentuid="h3e342734g83e2g43cegb0fegfe74ae247945" version="1">Incite Fury</content>
 	<content contentuid="hb579b8d3g6067g4ea6gafacg291cb41e6984" version="1">Evoke fury in up to three allies, granting them +1d4 to melee weapon damage rolls.</content>
-	<content contentuid="" version="1">+1d4 to melee weapon damage rolls.</content>
+	<content contentuid="hcf279208g813bg40e7ga351g067152c8878c" version="1">+1d4 to melee weapon damage rolls.</content>
 	<content contentuid="h1483efcbg0d78g40ffga8f8gfab8b74c29d1" version="1">Mindless Charge</content>
 	<content contentuid="h744cdc77g41afg4290g99e6g653fa1854560" version="1">Rouse up to 3 creatures, increasing their movement speed by [1] but giving them &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on Strength, Dexterity and Constitution Saving Throws.</content>
-	<content contentuid="" version="1">Movement speed increased by [1]. &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on Strength, Dexterity and Constitution Saving Throws.</content>
+	<content contentuid="h02127774ga9d0g4ab0g8f61gce7308ee55c1" version="1">Movement speed increased by [1]. &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on Strength, Dexterity and Constitution Saving Throws.</content>
 	<content contentuid="h4a8242b3gffc3g43c8g8a25g0b03e9d956df" version="1">Aura of Bloodletting</content>
 	<content contentuid="ha64cd2aag4558g4e51gbb58ge0026b35a209" version="1">Unleash an aura of range, giving all nearby creatures &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on melee attack rolls.</content>
-	<content contentuid="" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on melee attack rolls.</content>
+	<content contentuid="h0f373053gfb1dg4eb1ga6f6gb10dab129871" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on melee attack rolls.</content>
 	<content contentuid="h085e04a6ge7dcg497cg9164g9d74e624e94b" version="1">Overwhelming Fury</content>
 	<content contentuid="h244e4d56g6167g421ega5b9ga45e43da709b" version="1">Flood rage into a creature, preventing it from taking any actions other than melee attacks.</content>
-	<content contentuid="" version="1">Unable to take any actions but melee attacks.</content>
+	<content contentuid="hd1dbe896ga5c1g4cc5gbf69gec3cf9c465f5" version="1">Unable to take any actions but melee attacks.</content>
 	<content contentuid="h9e88737dg7b52g4340g9ab9g3b54e760a48c" version="1">Soothing Presence</content>
 	<content contentuid="he49bc493g1954g435cgbefdg47bf589c50f1" version="1">Soothe up to three creatures, granting them [1] temporary hit points.</content>
 	<content contentuid="" version="1">TODO: Soothing Presence Status Description</content>
 	<content contentuid="h45bd3babgf7d3g49aag9ec3g2905c02a1873" version="1">Comforting Aura</content>
 	<content contentuid="h80944343gab2fg4802g9b80gb374f9a3c256" version="1">Comfort up to three allies, giving them +1d4 to Saving Throws.</content>
-	<content contentuid="" version="1">TODO: Comforting Aura Status Description</content>
+	<content contentuid="h8a31aedbg294cg4367g99a1gb768e8c1b528" version="1">+1d4 to Saving Throws.</content>
 	<content contentuid="h48ca2562g2c24g4cdcg890fga373f64c1395" version="1">Aura of Jubilation</content>
 	<content contentuid="h0f384acdg824dg425dga438g59ee967fc5bd" version="1">Radiate an aura of distracting mirth, giving nearby creatures &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on Perception and Investigation checks.</content>
-	<content contentuid="" version="1">&lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on Perception and Investigation checks.</content>
+	<content contentuid="h138ad4c4gc8e8g4ad2g9137g8a48aed9624f" version="1">&lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on Perception and Investigation checks.</content>
 	<content contentuid="hcda1153bg0b3fg4ac1gaf05g66d825fc6468" version="1">Beacon of Recovery</content>
 	<content contentuid="hd60e75a7g3ab9g47d2gb46dga118a8678ef1" version="1">You and up to five allies immediately make Saving Throws against every effect they're suffering from.</content>
 

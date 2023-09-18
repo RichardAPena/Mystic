@@ -152,7 +152,7 @@ type "PassiveData"
 data "DisplayName" "h5a4eaa0cgec50g402dg939egcb8f2772fd61"
 data "Description" "hc7afdd83g15d2g4e47gb09ag63498406c770"
 data "Icon" ""
-data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MantleOfCommand);UnlockSpell(Target_Mystic_CoordinatedMovement);UnlockSpell(Target_Mystic_CommandToStrike);UnlockSpell(Shout_Mystic_StrategicMind);UnlockSpell(Target_Mystic_OverwhelmingAttack)"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MantleOfCommand);UnlockSpell(Target_Mystic_CoordinatedMovement);UnlockSpell(Target_Mystic_CommandersSight);UnlockSpell(Target_Mystic_CommandToStrike);UnlockSpell(Shout_Mystic_StrategicMind);UnlockSpell(Target_Mystic_OverwhelmingAttack)"
 
 // Mantle of Courage
 new entry "Discipline_MantleOfCourage"
@@ -368,7 +368,7 @@ type "PassiveData"
 data "DisplayName" "heb25c661gd0e1g43eag89e8gf9a2dbee7054"
 data "Description" "h55ef0306g5c7eg4833ga6f1gdd3c638797c1"
 data "Icon" ""
-data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_ThirdEye);UnlockSpell(Shout_Mystic_Tremorsense);UnlockSpell(Shout_Mystic_UnwaveringSense);UnlockSpell(Shout_Mystic_PiercingSight);UnlockSpell(Shout_Mystic_Truesight)"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_ThirdEye);UnlockSpell(Shout_Mystic_Tremorsense);UnlockSpell(Shout_Mystic_UnwaveringEye);UnlockSpell(Shout_Mystic_PiercingSight);UnlockSpell(Shout_Mystic_Truesight)"
 
 // ==MYSTIC PASSIVE FEATURES==
 
