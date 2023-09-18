@@ -20,7 +20,7 @@ data "InterruptDefaultValue" "Ask;Enabled" // default setting, can be changed in
 new entry "Interrupt_Mystic_PunishingFury"
 type "InterruptData"
 data "DisplayName" "h9e949f54g1892g4f19g86d8gd20bdf2fd643"
-data "Description" "h3c5d3b88g03d2g45baga1e6g426be49e6f61"
+data "Description" "h02f249deg73f6g4362g8633g71803017fe51"
 data "Icon" "Action_GoadingAttack_Melee"
 data "InterruptContext" "OnCastHit"
 data "InterruptContextScope" "Nearby"
