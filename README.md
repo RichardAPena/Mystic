@@ -5,10 +5,6 @@ All:
 
 TLDR:
 Wall of Repulsion -> when i learn walls it MIGHT be done (KEKW)
-Punishing Fury -> as soon as i learn reactions will be done
-Strategic Mind -> containers and temporary actions, should be done soon
-Aura of Victory -> statfunctors and conditions, should be done soon
-Beacon of Recovery -> HasSavingThrowWithAbility(Ability.Dexterity) ? Might rework this to automatically succeeding Saving Throws
 
 Crown of Despair
  - Crowned in Sorrow
@@ -26,9 +22,9 @@ Crown of Disgust
  - Wall of Repulsion
     > It's a wall, so I can't edit that much for now (It's just wall of fire)
  - Visions of Disgust
-    > Initial damage and DoT work, but need to check for nearby creatures
+    > Works as intended
  - World of Horror
-    > Need to make it so that affected entities can only make melee attacks
+    > Works as intended
 
 Crown of Rage
  - Primal Fury
@@ -38,11 +34,11 @@ Crown of Rage
  - Mindless Courage
     > Works as intended*
  - Punishing Fury
-    > Does nothing, and won't do anything until I figure out Interrupts (reactions)
+    > Works as intended
 
 Mantle of Command
  - Psychic Focus
-    > Does nothing
+    > Works as intended
  - Coordinated Movement
     > Works as intended
  - Commander's Sight
@@ -64,7 +60,7 @@ Mantle of Courage
 
 Mantle of Fear
  - Incite Fear
-    > Frightened persists even after losing concentration?
+    > Works as intended
  - Unsettling Aura
     > Works as intended
  - Incite Panic
@@ -78,7 +74,7 @@ Mantle of Fury
  - Aura of Bloodletting
     > Works as intended
  - Overwhelming Fury
-    > Does nothing
+    > Works as intended
 
 Mantle of Joy
  - Soothing Presence
@@ -88,7 +84,7 @@ Mantle of Joy
  - Aura of Jubilation
     > Works as intended
  - Beacon of Recovery
-    > Does nothing
+    > Works as intended
 
 TODO:
 

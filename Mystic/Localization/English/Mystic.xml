@@ -303,7 +303,7 @@
 	<content contentuid="hbf9c8b71gd994g4865g929cgd3b8d38708be" version="1">Movement speed reduced to 0.</content>
 	<content contentuid="h7e97d15dg98e7g4b8dg9849ga2ed3058e5af" version="1">Visions of Disgust</content>
 	<content contentuid="hf1319c93g4f26g4743g9389g59867ac1f6c3" version="1">Warp a creature's mind, causing it to regard other beings as horrid. While afflicted, it takes [1] damage at the end of its turns.</content>
-	<content contentuid="h7105a329gdb40g430dgb245g840f85f141ab" version="1">Takes [1] damage for each creature within [2] each turn.</content>
+	<content contentuid="h7105a329gdb40g430dgb245g840f85f141ab" version="1">Takes [1] damage each turn.</content>
 	<content contentuid="hda6638cfg47abg4e04gbe10ge74dd3a7277f" version="1">World of Horror</content>
 	<content contentuid="h8a90a05cg67aeg4fe3gaa05g617f55476434" version="1">Wreak pandemonium in up to six creatures, &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightening&lt;/LSTag&gt; them. While affected, creatures can only use their actions to make melee attacks.</content>
 	<content contentuid="h47949da3g6dd3g44b8gbd0eg0b9479fe439c" version="1">&lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;. Can only use actions to make melee attacks.</content>
@@ -381,7 +381,7 @@
 	<content contentuid="h0f384acdg824dg425dga438g59ee967fc5bd" version="1">Radiate an aura of distracting mirth, giving nearby creatures &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on Perception and Investigation checks.</content>
 	<content contentuid="h138ad4c4gc8e8g4ad2g9137g8a48aed9624f" version="1">&lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on Perception and Investigation checks.</content>
 	<content contentuid="hcda1153bg0b3fg4ac1gaf05g66d825fc6468" version="1">Beacon of Recovery</content>
-	<content contentuid="hd60e75a7g3ab9g47d2gb46dga118a8678ef1" version="1">You and up to five allies immediately make Saving Throws against every effect they're suffering from.</content>
+	<content contentuid="hd60e75a7g3ab9g47d2gb46dga118a8678ef1" version="1">Release a soothing pulse to up to six allies, giving them +5 to Saving Throws until your next turn.</content>
 	<content contentuid="hccfe5135g56c3g4aa7g9bb8g0137d85683db" version="1">+5 to Saving Throws.</content>
 	<content contentuid="he0898f56gbb0ag412bgbebfg6f5ca51a2c58" version="1">Assess Foe</content>
 	<content contentuid="h0852c2a3g00f4g45c9gb202g41972be5bcd8" version="1">TODO: Assess Foe Description</content>
