@@ -8,7 +8,7 @@ Wall of Repulsion -> when i learn walls it MIGHT be done (KEKW)
 Punishing Fury -> as soon as i learn reactions will be done
 Strategic Mind -> containers and temporary actions, should be done soon
 Aura of Victory -> statfunctors and conditions, should be done soon
-Beacon of Recovery -> HasSavingThrowWithAbility(Ability.Dexterity) ?
+Beacon of Recovery -> HasSavingThrowWithAbility(Ability.Dexterity) ? Might rework this to automatically succeeding Saving Throws
 
 Crown of Despair
  - Crowned in Sorrow
