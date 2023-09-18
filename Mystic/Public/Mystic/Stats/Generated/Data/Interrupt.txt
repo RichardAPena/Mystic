@@ -33,6 +33,21 @@ data "InterruptDefaultValue" "Ask;Enabled"
 data "EnableCondition" "not HasAnyStatus({'SG_Polymorph','SG_Blinded'}) or Tagged('MINDFLAYER')"
 data "EnableContext" "OnStatusApplied;OnStatusRemoved"
 
+// Aura of Victory (Rallying Cry)
+new entry "Interrupt_Mystic_AuraOfVictory"
+type "InterruptData"
+data "DisplayName" "h217c8d85gd7ebg4ddcg901agd58751efd008"
+data "Description" "he9fd8855g276ag4df7gaa45gaef25f12f283"
+data "Icon" "Action_InspiringLeader"
+data "InterruptContext" "OnCastHit"
+data "InterruptContextScope" "Nearby"
+data "Container" "YesNoDecision"
+// data "Conditions" "not Self(context.Source, context.Observer) and HasFunctor(StatsFunctorType.DealDamage) and IsHit()"
+data "Conditions" "HasHPLessThan(1) and Enemy() and Character()"
+data "Properties" "UseSpell(OBSERVER_OBSERVER,Shout_Mystic_Triumph,true,true,true)"
+data "InterruptDefaultValue" "Enabled"
+
+
 
 new entry "Interrupt_Mystic_AdaptiveShield"
 type "InterruptData"

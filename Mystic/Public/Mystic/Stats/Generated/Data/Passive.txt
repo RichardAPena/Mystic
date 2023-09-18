@@ -370,6 +370,26 @@ data "Description" "h55ef0306g5c7eg4833ga6f1gdd3c638797c1"
 data "Icon" ""
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_ThirdEye);UnlockSpell(Shout_Mystic_Tremorsense);UnlockSpell(Shout_Mystic_UnwaveringEye);UnlockSpell(Shout_Mystic_PiercingSight);UnlockSpell(Shout_Mystic_Truesight)"
 
+// Aura of Victory
+new entry "Passive_AuraOfVictory"
+type "PassiveData"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" ""
+data "Boosts" ""
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "HasHPLessThan(1) and Enemy() and Character()"
+data "StatsFunctors" "ApplyStatus(SELF,MYSTIC_AURA_OF_VICTORY_TEMPORARY_HP,100,-1)"
+// data "StatsFunctors" "UseSpell(Shout_Mystic_Triumph,true,true,true)"
+// data "StatsFunctors" "ApplyStatus(SELF,MYSTIC_AURA_OF_VICTORY_TEMPORARY_HP,100,-1);ApplyStatus(MYSTIC_AURA_OF_VICTORY_TEMPORARY_HP,100,-1);"
+// data "StatsFunctors" "IF:(Character() and Ally()):ApplyStatus(MYSTIC_AURA_OF_VICTORY_TEMPORARY_HP,100,-1)"
+// ^ DOESNT WORK
+// need to somehow trigger an effect that 
+// ImmediateCast ?
+// AutoCast ?
+
+
 // ==MYSTIC PASSIVE FEATURES==
 
 // Potent Psionics: Strike

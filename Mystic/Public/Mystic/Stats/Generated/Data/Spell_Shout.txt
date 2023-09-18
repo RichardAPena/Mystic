@@ -215,6 +215,31 @@ data "PrepareEffect" "7121a488-7c9a-4ba1-a585-f79aaa77e97c"
 data "CastEffect" "0198563f-c48b-45e0-afb5-46ef9576adff"
 data "TargetEffect" "b94fcfde-d824-4e7d-b9c5-833a50b66537"
 
+// UseSpell(Shout_SteelWatcher_Quadruped_TerminateBulwarkMode,true,true,true)
+new entry "Shout_Mystic_Triumph"
+type "SpellData"
+data "SpellType" "Shout"
+
+data "Icon" "Action_InspiringLeader"
+data "DisplayName" "h57e5f748gb553g43adgac10gb5b6bfbd6fd5"
+data "Description" "h039be837g8748g436fgaa7dg1bbff4f743d2"
+
+data "AreaRadius" "18"
+data "TargetConditions" "Self()"
+data "Cooldown" "None"
+data "SpellProperties" "ApplyStatus(MYSTIC_AURA_OF_VICTORY_TEMPORARY_HP,100,-1)"
+data "TooltipStatusApply" "ApplyStatus(MYSTIC_AURA_OF_VICTORY_TEMPORARY_HP,-1)"
+
+data "VerbalIntent" "Buff"
+data "CastTextEvent" "Cast"
+data "SpellAnimation" "73afb4e5-8cfe-4479-95cf-16889597fee3,,;7e67bfd0-2fc2-4d10-bed5-cfda9e660de5,,;eb054308-7fce-4b85-bf4c-7a0031fda7ac,,;0b0dc35b-4953-45c0-a9eb-8d3fef5e798a,,;6ec808e1-e128-44ef-9361-a713bf86de8f,,;b2e9c771-3497-444c-b360-23b4441985a1,,;f920a0a6-f257-4ce4-8d17-2dcaa7bb7bbb,,;,,;,,"
+data "SpellFlags" "IsSpell;ImmediateCast"
+data "CastEffect" "5ae6a22b-cca2-4712-aff5-06a02aacfda2"
+data "TargetEffect" "15929690-0a9b-4f77-9c2c-6f7dda893aaf"
+// data "DamageType" "Psychic"
+
+
+
 // Unsettling Aura
 new entry "Shout_Mystic_UnsettlingAura"
 type "SpellData"
