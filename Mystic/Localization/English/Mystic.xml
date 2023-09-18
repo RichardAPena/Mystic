@@ -319,6 +319,7 @@
 	<content contentuid="h9e949f54g1892g4f19g86d8gd20bdf2fd643" version="1">Punishing Fury</content>
 	<content contentuid="h3c5d3b88g03d2g45baga1e6g426be49e6f61" version="1">Escalate a creature's rage, making it attack recklessly. Whenever the creature makes a melee attack, nearby creatures can use their reaction to make a melee attack against them.</content>
 	<content contentuid="h8b1abde3gc807g48e0g9725g96e373175249" version="1">Boiling with rage. Whenever this creature attacks, other creatures can use their reaction to make a melee attack against them.</content>
+	<content contentuid="h3c5d3b88g03d2g45baga1e6g426be49e6f61" version="1">Able to retailate against the entity affected by Punishin Fury.</content>
 	<content contentuid="h6abf59c0g7ddag4ec7g97ddge6d16248b484" version="1">Coordinated Movement</content>
 	<content contentuid="h1ba91861g777eg4c67ga616g722a9e291280" version="1">Signal up to five allies to move as a unit, increasing their movement speed by [1].</content>
 	<content contentuid="hfb595d88g0d0eg46feg9b51g356788a0e87d" version="1">Movement speed increased by [1].</content>
