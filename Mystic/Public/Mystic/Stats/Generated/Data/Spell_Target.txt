@@ -1634,3 +1634,10 @@ data "Icon" ""
 data "DisplayName" "he6887892g1f35g4ab2gb00bgbc8b0ae9f186"
 data "Description" "h0453be45g6769g4bc8gad22ga1684eb1357f"
 data "DescriptionParams" ""
+
+// TODO: FORCED MELEE ATTACK
+new entry "Target_Mystic_MainHandAttack"
+using "Target_MainHandAttack"
+data "UseCosts" ""
+data "Cooldown" "OncePerTurn"
+data "SpellFlags" "IsAttack;IsMelee;IsHarmful;Temporary"
