@@ -99,9 +99,92 @@ data "DescriptionParams" ""
 
 data "AreaRadius" "9"
 
+data "TargetConditions" "Self()"
+data "SpellProperties" "ApplyStatus(MYSTIC_STRATEGIC_MIND,100, 10)"
+data "TooltipStatusApply" "ApplyStatus(MYSTIC_STRATEGIC_MIND,100,10)"
+// data "TooltipPermanentWarnings" "375fe7a4-7a8a-4bbe-812c-0af9584c0740"
+data "CastSound" "Spell_Cast_Utility_Light_L0"
+data "TargetSound" "Spell_Impact_Utility_Light_L0"
+// data "VocalComponentSound" "Vocal_Component_Light"
+data "CastTextEvent" "Cast"
+data "UseCosts" "BonusActionPoint:1"
+// data "SpellAnimation" "dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;94ad1609-9862-499a-8337-5e6a7d9487f9,c8f325f3-9d7d-4387-af85-b3b4257e26cc,f4b7eabd-2875-46fa-bae3-9f4d0a51c955;8373f3da-2368-4a51-98b1-146ec3586660,12971987-e66c-45dd-9843-b4784c30d9a2,279cd9eb-1d9c-4e4c-a44e-e751ae0eae66;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;499b7945-9eff-40a2-9911-73b8963108e4,,;1d3a29f0-9409-462e-81cd-3f24944f63ca,,"
+
+// CHANGED TO REFLECTIVE SHELL 3rd component ANIMATION (changes to default)
+data "SpellAnimation" "f94542d9-a79c-478a-92de-573cead9260e,,;,,;ab17f201-8251-4690-bfac-b42c8561fc91,,;d082596c-2ea7-4c39-89c1-61e91dc0b4cb,,;bd339475-d2b5-46e8-8d0c-9f2ad6a91328,,;,,;7a28f440-1b0b-4a18-96a8-3767959b601a,,;ab17f201-8251-4690-bfac-b42c8561fc91,,;7e13b95d-d114-4c1b-baa9-d29fd71b8be9,,"
+// data "VerbalIntent" "Utility"
+data "SpellFlags" "IsSpell;IsMelee;IsConcentration"
+data "HitAnimationType" "MagicalNonDamage"
+// data "MaximumTargets" "1"
+data "PrepareEffect" "7121a488-7c9a-4ba1-a585-f79aaa77e97c"
+data "CastEffect" "0198563f-c48b-45e0-afb5-46ef9576adff"
+data "TargetEffect" "b94fcfde-d824-4e7d-b9c5-833a50b66537"
+
 // TODO: Add Dash, Disengage and the +1d4 ability here
 // Make it a container so that they share a per turn cooldown
 // Make sure theyre tagged Temporary
+
+new entry "Shout_Mystic_StrategicMind_Options"
+type "SpellData"
+data "SpellType" "Shout"
+
+data "Icon" "Action_Monster_Banite_VoiceOfCommand"
+data "DisplayName" "h14317c93g0a49g4116g8970gf5060f631559"
+data "Description" "h6aac4741g43c5g4609g93b8g46154d854f92"
+data "DescriptionParams" ""
+
+// data "AreaRadius" "9"
+data "ContainerSpells" "Shout_Mystic_StrategicMind_Dash;Shout_Mystic_StrategicMind_Disengage;Shout_Mystic_StrategicMind_D4"
+data "TargetConditions" "Self()"
+data "SpellProperties" "ApplyStatus(MYSTIC_STRATEGIC_MIND,100, 10)"
+data "TooltipStatusApply" "ApplyStatus(MYSTIC_STRATEGIC_MIND,100,10)"
+// data "TooltipPermanentWarnings" "375fe7a4-7a8a-4bbe-812c-0af9584c0740"
+data "CastSound" "Spell_Cast_Utility_Light_L0"
+data "TargetSound" "Spell_Impact_Utility_Light_L0"
+// data "VocalComponentSound" "Vocal_Component_Light"
+data "CastTextEvent" "Cast"
+data "UseCosts" "BonusActionPoint:1"
+// data "SpellAnimation" "dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;94ad1609-9862-499a-8337-5e6a7d9487f9,c8f325f3-9d7d-4387-af85-b3b4257e26cc,f4b7eabd-2875-46fa-bae3-9f4d0a51c955;8373f3da-2368-4a51-98b1-146ec3586660,12971987-e66c-45dd-9843-b4784c30d9a2,279cd9eb-1d9c-4e4c-a44e-e751ae0eae66;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;499b7945-9eff-40a2-9911-73b8963108e4,,;1d3a29f0-9409-462e-81cd-3f24944f63ca,,"
+
+// CHANGED TO REFLECTIVE SHELL 3rd component ANIMATION (changes to default)
+data "SpellAnimation" "f94542d9-a79c-478a-92de-573cead9260e,,;,,;ab17f201-8251-4690-bfac-b42c8561fc91,,;d082596c-2ea7-4c39-89c1-61e91dc0b4cb,,;bd339475-d2b5-46e8-8d0c-9f2ad6a91328,,;,,;7a28f440-1b0b-4a18-96a8-3767959b601a,,;ab17f201-8251-4690-bfac-b42c8561fc91,,;7e13b95d-d114-4c1b-baa9-d29fd71b8be9,,"
+// data "VerbalIntent" "Utility"
+data "SpellFlags" "IsSpell;IsMelee;Temporary;IsLinkedSpellContainer"
+data "HitAnimationType" "MagicalNonDamage"
+// data "MaximumTargets" "1"
+data "PrepareEffect" "7121a488-7c9a-4ba1-a585-f79aaa77e97c"
+data "CastEffect" "0198563f-c48b-45e0-afb5-46ef9576adff"
+data "TargetEffect" "b94fcfde-d824-4e7d-b9c5-833a50b66537
+data "Cooldown" "OncePerTurn"
+
+new entry "Shout_Mystic_StrategicMind_Dash"
+using "Shout_Mystic_StrategicMind_Options"
+data "Icon" "Action_Dash_Bonus"
+data "DisplayName" "hfc469095gb1c3g471aga51fgf9b5195409a5"
+data "Description" "hb4054949gcf3bg42b6g9113gd26bb6fb0d43"
+data "SpellProperties" "IF(HasStatus('DASH_STACKED')):ApplyStatus(DASH_STACKED_2,100,1);IF(not HasStatus('DASH_STACKED_2') and HasStatus('DASH')):ApplyStatus(DASH_STACKED,100,1);IF(not HasStatus('DASH_STACKED_2') and not HasStatus('DASH_STACKED') and not HasStatus('DASH')):ApplyStatus(DASH,100,1)"
+data "TooltipStatusApply" "ApplyStatus(DASH,100,1)"
+data "SpellFlags" "IsSpell;IsMelee;Temporary"
+
+new entry "Shout_Mystic_StrategicMind_Disengage"
+using "Shout_Mystic_StrategicMind_Options"
+data "Icon" "Action_Disengage_Bonus"
+data "DisplayName" "h42fd1334g1251g4ce6gbcd8gc38a02443a74"
+data "Description" "he3aa45a2gc1c2g4a0agb01eg4d4fec94e197"
+data "SpellProperties" "AI_IGNORE:ApplyStatus(DISENGAGE,100,1);AI_ONLY:IF(HasStatus('FLANKED')):ApplyStatus(DISENGAGE,100,1);"
+data "TooltipStatusApply" "ApplyStatus(DISENGAGE,100,1)"
+data "SpellFlags" "IsSpell;IsMelee;Temporary"
+
+new entry "Shout_Mystic_StrategicMind_D4"
+using "Shout_Mystic_StrategicMind_Options"
+data "Icon" "PassiveFeature_Indomitable"
+data "DisplayName" "hfdb93561g3f06g46a9gb03bg2591820976c2"
+data "Description" "h338b81cdg406fg45fag8ebagfd7027c80fab"
+data "SpellProperties" "ApplyStatus(MYSTIC_STRATEGIC_MIND_D4,100,1)"
+data "TooltipStatusApply" "ApplyStatus(MYSTIC_STRATEGIC_MIND_D4,100,1)"
+data "UseCosts" ""
+data "SpellFlags" "IsSpell;IsMelee;Temporary"
+
 
 // Aura of Victory
 new entry "Shout_Mystic_AuraOfVictory"
