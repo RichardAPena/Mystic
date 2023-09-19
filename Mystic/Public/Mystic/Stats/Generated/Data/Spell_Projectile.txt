@@ -16,7 +16,7 @@ type "SpellData"
 data "SpellType" "Projectile"
 
 data "Icon" "Spell_Conjuration_FogCloud"
-data "DisplayName" "hf2960176g262cg43aeg9215g9fc5cf0ad4c1"
+data "DisplayName" "he698e421gecfbg4505g9920g109d0fc2527f"
 data "Description" "h7ba07cedg38bag4861gb3edg239bcdc0739a"
 data "DescriptionParams" ""
 

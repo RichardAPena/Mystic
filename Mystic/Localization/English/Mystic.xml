@@ -428,7 +428,7 @@
 	<content contentuid="h59c2ac9eg573fg4abcga1d5ga07a3933b6fd" version="1">Unleash devastating psychic energy in a cone.</content>
 	<content contentuid="h53537f78gb635g488fg9df3gd40a5a1fe3b3" version="1">Psychic Crush</content>
 	<content contentuid="hcbcb6cdfg6c48g4fc5gbb48g1abdae16d1d1" version="1">TODO: Psychic Crush Description</content>
-	<content contentuid="hf2960176g262cg43aeg9215g9fc5cf0ad4c1" version="1">Distracting Haze</content>
+	<content contentuid="he698e421gecfbg4505g9920g109d0fc2527f" version="1">Distracting Haze</content>
 	<content contentuid="h7ba07cedg38bag4861gb3edg239bcdc0739a" version="1">Obfuscate an enemy's vision, reducing their sight range significantly.</content>
 	<content contentuid="hf2960176g262cg43aeg9215g9fc5cf0ad4c1" version="1">Sight range reduced to [1].</content>
 	<content contentuid="h0ae47249g80e7g4c32g857fge95297ecc1f6" version="1">Daze</content>
@@ -683,13 +683,14 @@
 	<content contentuid="h258664cage7a3g425fg96c4gd5b76a487c25" version="1">TODO: Armored Form Status Description</content>
 	<content contentuid="he6887892g1f35g4ab2gb00bgbc8b0ae9f186" version="1">Animate Earth</content>
 	<content contentuid="h0453be45g6769g4bc8gad22ga1684eb1357f" version="1">TODO: Animate Earth Description</content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
+	<content contentuid="" version="1">Mystical Recovery </content>
+	<content contentuid="h009eccfcg8069g4923gb7ffgcb7dd0bab171" version="1">Strength of Mind</content>
+
+	<content contentuid="h5b0aff1bg6519g473bg99b0ga16788823aa3" version="1">Proficient in Strength Saving Throws.</content>
+	<content contentuid="h6d935d6bg13e8g435egb670g4a1c8255cfe6" version="1">Proficient in Dexterity Saving Throws.</content>
+	<content contentuid="h3c881e01gb65bg4238gab1cg4d81462bfb58" version="1">Proficient in Constitution Saving Throws.</content>
+	<content contentuid="hee834a7dgaa03g44e7ga60ag406c66116ee6" version="1">Proficient in Wisdom Saving Throws.</content>
+	<content contentuid="h438d0cd3g03e6g44f0gb801g7ed486500024" version="1">Proficient in Charisma Saving Throws.</content>
 	<content contentuid="" version="1"> </content>
 	<content contentuid="" version="1"> </content>
 	<content contentuid="" version="1"> </content>

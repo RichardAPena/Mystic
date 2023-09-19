@@ -965,7 +965,6 @@ data "TargetEffect" "b94fcfde-d824-4e7d-b9c5-833a50b66537"
 
 // Iron Hide (Prototype)
 new entry "Shout_Mystic_IronHide"
-new entry "Shout_Mystic_PsychicBacklash"
 type "SpellData"
 data "SpellType" "Shout"
 
@@ -1579,3 +1578,15 @@ data "HitAnimationType" "MagicalNonDamage"
 data "PrepareEffect" "7121a488-7c9a-4ba1-a585-f79aaa77e97c"
 data "CastEffect" "0198563f-c48b-45e0-afb5-46ef9576adff"
 data "TargetEffect" "b94fcfde-d824-4e7d-b9c5-833a50b66537"
+
+// TODO: Mystical Recovery
+
+// TODO: Strength of Mind
+new entry "Shout_Mystic_StrengthOfMind"
+type "SpellData"
+data "SpellType" "Shout"
+
+data "Icon" "Spell_Abjuration_Stoneskin"
+data "DisplayName" "h009eccfcg8069g4923gb7ffgcb7dd0bab171"
+data "Description" "h7f453ca8gee30g4e5cg8d39ga323c199aa9a"
+data "DescriptionParams" ""

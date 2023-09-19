@@ -15,6 +15,11 @@
                     <attribute id="UUID" type="guid" value=""/>
                 </node>
                 <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Strength of Mind"/>
+                    <attribute id="Spells" type="LSString" value="Shout_Mystic_StrengthOfMind"/>
+                    <attribute id="UUID" type="guid" value="6dc0e475-1f9b-4965-8af4-39cacb022285"/>
+                </node>
+                <node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Avatar Level 3 (Aura)"/>
                     <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="337a7c5d-ab33-460c-a54c-ceaa4d4e661d"/>

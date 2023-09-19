@@ -376,6 +376,34 @@ data "StatsFunctors" "ApplyStatus(SELF,MYSTIC_AURA_OF_VICTORY_TEMPORARY_HP_7,100
 
 // ==MYSTIC PASSIVE FEATURES==
 
+// Strength of Mind
+new entry "Passive_Mystic_StrengthOfMind_Strength"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "Boosts" "ProficiencyBonus(SavingThrow,Strength)"
+
+new entry "Passive_Mystic_StrengthOfMind_Dexterity"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "Boosts" "ProficiencyBonus(SavingThrow,Dexterity)"
+
+new entry "Passive_Mystic_StrengthOfMind_Constitution"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "Boosts" "ProficiencyBonus(SavingThrow,Constitution)"
+
+new entry "Passive_Mystic_StrengthOfMind_Wisdom"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "Boosts" "ProficiencyBonus(SavingThrow,Wisdom)"
+
+new entry "Passive_Mystic_StrengthOfMind_Charisma"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "Boosts" "ProficiencyBonus(SavingThrow,Charisma)"
+
+
+
 // Potent Psionics: Strike
 // "Once per turn after dealing weapon damage, you can deal an additional 1d8 Psychic damage."
 

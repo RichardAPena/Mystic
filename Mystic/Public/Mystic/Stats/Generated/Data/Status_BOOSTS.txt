@@ -1555,7 +1555,7 @@ data "Boosts" ""
 new entry "MYSTIC_DISTRACTING_HAZE"
 type "StatusData"
 data "StatusType" "BOOST"
-data "DisplayName" "hf2960176g262cg43aeg9215g9fc5cf0ad4c1"
+data "DisplayName" "he698e421gecfbg4505g9920g109d0fc2527f"
 data "Description" "hf2960176g262cg43aeg9215g9fc5cf0ad4c1"
 data "DescriptionParams" "Distance(3)"
 data "Icon" ""
@@ -2211,6 +2211,54 @@ data "StackId" "MYSTIC_ARMORED_FORM"
 data "Boosts" ""
 
 // Class Features
+
+// TODO: Mystical Recovery
+
+// Strength of Mind
+new entry "MYSTIC_STRENGTH_OF_MIND_STR"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h009eccfcg8069g4923gb7ffgcb7dd0bab171"
+data "Description" "h5b0aff1bg6519g473bg99b0ga16788823aa3"
+data "StackId" "MYSTIC_STRENGTH_OF_MIND"
+data "Passives" "Passive_Mystic_StrengthOfMind_Strength"
+data "StatusPropertyFlags" "IgnoreResting"
+
+new entry "MYSTIC_STRENGTH_OF_MIND_DEX"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h009eccfcg8069g4923gb7ffgcb7dd0bab171"
+data "Description" "h6d935d6bg13e8g435egb670g4a1c8255cfe6"
+data "StackId" "MYSTIC_STRENGTH_OF_MIND"
+data "Passives" "Passive_Mystic_StrengthOfMind_Dexterity"
+data "StatusPropertyFlags" "IgnoreResting"
+
+new entry "MYSTIC_STRENGTH_OF_MIND_CON"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h009eccfcg8069g4923gb7ffgcb7dd0bab171"
+data "Description" "h3c881e01gb65bg4238gab1cg4d81462bfb58"
+data "StackId" "MYSTIC_STRENGTH_OF_MIND"
+data "Passives" "Passive_Mystic_StrengthOfMind_Constitution"
+data "StatusPropertyFlags" "IgnoreResting"
+
+new entry "MYSTIC_STRENGTH_OF_MIND_WIS"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h009eccfcg8069g4923gb7ffgcb7dd0bab171"
+data "Description" "hee834a7dgaa03g44e7ga60ag406c66116ee6"
+data "StackId" "MYSTIC_STRENGTH_OF_MIND"
+data "Passives" "Passive_Mystic_StrengthOfMind_Wisdom"
+data "StatusPropertyFlags" "IgnoreResting"
+
+new entry "MYSTIC_STRENGTH_OF_MIND_CHA"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h009eccfcg8069g4923gb7ffgcb7dd0bab171"
+data "Description" "h438d0cd3g03e6g44f0gb801g7ed486500024"
+data "StackId" "MYSTIC_STRENGTH_OF_MIND"
+data "Passives" "Passive_Mystic_StrengthOfMind_Charisma"
+data "StatusPropertyFlags" "IgnoreResting"
 
 // Subclass Features
 
