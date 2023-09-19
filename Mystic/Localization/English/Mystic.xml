@@ -349,7 +349,7 @@
 	<content contentuid="h217c8d85gd7ebg4ddcg901agd58751efd008" version="1">Rallying Cry</content>
 	<content contentuid="he9fd8855g276ag4df7gaa45gaef25f12f283" version="1">Grants temporary hit points to nearby allies when reducing an enemy to 0 hit points.</content>
 	<content contentuid="h42c683d7ge2dag40dfg8949gf87025a3d465" version="1">Pillar of Confidence</content>
-	<content contentuid="h12fcfc8bg47d5g4292g8e96g4777cf857a07" version="1">Instill yourself and up to five creatures with a surge of confidence, gaining an extra action each turn.</content>
+	<content contentuid="h12fcfc8bg47d5g4292g8e96g4777cf857a07" version="1">Instill up to five creatures with a surge of confidence, gaining an extra action each turn.</content>
 	<content contentuid="hffb8f667gf1c3g4b89g90f6g2fdf1114160c" version="1">Able to take an additional action this turn.</content>
 	<content contentuid="h3b13f9c6gb05dg4029g861cg73533e60e4ff" version="1">Incite Fear</content>
 	<content contentuid="hc614b36dgf1e2g4d1bgbd39g2043b1fe4ae1" version="1">Invoke fear in a creature, &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightening&lt;/LSTag&gt; them. The target can repeat the Saving Throw at the end of its turn if it can't see you.</content>

@@ -42,13 +42,41 @@ data "Icon" "Action_InspiringLeader"
 data "InterruptContext" "OnCastHit"
 data "InterruptContextScope" "Nearby"
 data "Container" "YesNoDecision"
-// data "Conditions" "not Self(context.Source, context.Observer) and HasFunctor(StatsFunctorType.DealDamage) and IsHit()"
 data "Conditions" "HasHPLessThan(1) and Enemy() and Character()"
 data "Properties" "UseSpell(OBSERVER_OBSERVER,Shout_Mystic_Triumph,true,true,true)"
 data "InterruptDefaultValue" "Enabled"
 
+new entry "Interrupt_Mystic_AuraOfVictory_2"
+type "InterruptData"
+using "Interrupt_Mystic_AuraOfVictory"
+data "Properties" "UseSpell(OBSERVER_OBSERVER,Shout_Mystic_Triumph_2,true,true,true)"
 
+new entry "Interrupt_Mystic_AuraOfVictory_3"
+type "InterruptData"
+using "Interrupt_Mystic_AuraOfVictory"
+data "Properties" "UseSpell(OBSERVER_OBSERVER,Shout_Mystic_Triumph_3,true,true,true)"
 
+new entry "Interrupt_Mystic_AuraOfVictory_4"
+type "InterruptData"
+using "Interrupt_Mystic_AuraOfVictory"
+data "Properties" "UseSpell(OBSERVER_OBSERVER,Shout_Mystic_Triumph_4,true,true,true)"
+
+new entry "Interrupt_Mystic_AuraOfVictory_5"
+type "InterruptData"
+using "Interrupt_Mystic_AuraOfVictory"
+data "Properties" "UseSpell(OBSERVER_OBSERVER,Shout_Mystic_Triumph_5,true,true,true)"
+
+new entry "Interrupt_Mystic_AuraOfVictory_6"
+type "InterruptData"
+using "Interrupt_Mystic_AuraOfVictory"
+data "Properties" "UseSpell(OBSERVER_OBSERVER,Shout_Mystic_Triumph_6,true,true,true)"
+
+new entry "Interrupt_Mystic_AuraOfVictory_7"
+type "InterruptData"
+using "Interrupt_Mystic_AuraOfVictory"
+data "Properties" "UseSpell(OBSERVER_OBSERVER,Shout_Mystic_Triumph_7,true,true,true)"
+
+// Adaptive Shield
 new entry "Interrupt_Mystic_AdaptiveShield"
 type "InterruptData"
 data "DisplayName" ""
