@@ -93,7 +93,7 @@
 
                 <node id="Progression"> Mystic Level 3
                     <attribute id="AllowImprovement" type="bool" value="false"/>
-                    <attribute id="Boosts" type="LSString" value="ActionResource(PsiPointsResource,8,0)"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(PsiPointsResource,8,0);ActionResource(PsiLimitResource,255,3)"/>
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="Mystic"/>
                     <attribute id="PassivesAdded" type="LSString" value=""/>
@@ -119,7 +119,7 @@
 
                 <node id="Progression"> Mystic Level 5
                     <attribute id="AllowImprovement" type="bool" value="false"/>
-                    <attribute id="Boosts" type="LSString" value="ActionResource(PsiPointsResource,10,0)"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(PsiPointsResource,10,0);ActionResource(PsiLimitResource,255,4);ActionResource(PsiLimitResource,255,5)"/>
                     <attribute id="Level" type="uint8" value="5"/>
                     <attribute id="Name" type="LSString" value="Mystic"/>
                     <attribute id="PassivesAdded" type="LSString" value=""/>
@@ -145,7 +145,7 @@
 
                 <node id="Progression"> Mystic Level 7
                     <attribute id="AllowImprovement" type="bool" value="false"/>
-                    <attribute id="Boosts" type="LSString" value="ActionResource(PsiPointsResource,6,0)"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(PsiPointsResource,6,0);ActionResource(PsiLimitResource,255,6)"/>
                     <attribute id="Level" type="uint8" value="7"/>
                     <attribute id="Name" type="LSString" value="Mystic"/>
                     <attribute id="PassivesAdded" type="LSString" value=""/>
@@ -171,7 +171,7 @@
 
                 <node id="Progression"> Mystic Level 9
                     <attribute id="AllowImprovement" type="bool" value="false"/>
-                    <attribute id="Boosts" type="LSString" value="ActionResource(PsiPointsResource,13,0)"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(PsiPointsResource,13,0); ActionResource(PsiLimitResource,255,7)"/>
                     <attribute id="Level" type="uint8" value="9"/>
                     <attribute id="Name" type="LSString" value="Mystic"/>
                     <attribute id="PassivesAdded" type="LSString" value=""/>
