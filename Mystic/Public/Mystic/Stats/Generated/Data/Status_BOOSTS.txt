@@ -1875,7 +1875,7 @@ data "Description" "hc07336ebg66b9g450eg9bcdge5b9aa38606a"
 data "DescriptionParams" ""
 data "Icon" ""
 data "StackId" "MYSTIC_STEEL_HIDE"
-// data "TickType" "StartTurn"
+data "TickType" "EndTurn"
 // data "StatusPropertyFlags" "TickingWithSource"
 data "Boosts" ""
 
