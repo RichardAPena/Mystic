@@ -376,6 +376,13 @@ data "StatsFunctors" "ApplyStatus(SELF,MYSTIC_AURA_OF_VICTORY_TEMPORARY_HP_7,100
 
 // ==MYSTIC PASSIVE FEATURES==
 
+new entry "Passive_Mystic_Telepathy"
+type "PassiveData"
+data "DisplayName" "h87f098c4g6b51g49b1g99d6g6adcb79410a3"
+data "Description" "h5530db88ga236g44ccg84d6gb8ca474aa4ef"
+data "Icon" "Spell_Divination_DetectThoughts"
+data "Boosts" "Tag(DETECTTHOUGHTS)"
+
 // Mystical Recovery
 // TODO
 new entry "Passive_Mystic_MysticalRecovery"
@@ -403,6 +410,11 @@ new entry "Passive_Mystic_StrengthOfMind_Constitution"
 type "PassiveData"
 data "Properties" "IsHidden"
 data "Boosts" "ProficiencyBonus(SavingThrow,Constitution)"
+
+new entry "Passive_Mystic_StrengthOfMind_Intelligence"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "Boosts" "ProficiencyBonus(SavingThrow,Intelligence)"
 
 new entry "Passive_Mystic_StrengthOfMind_Wisdom"
 type "PassiveData"

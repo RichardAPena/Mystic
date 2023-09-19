@@ -651,7 +651,7 @@
 	<content contentuid="h3117d124g32edg4063g9b47g520fed500eec" version="1">Watery Grasp</content>
 	<content contentuid="h67d054a7g10ceg47dega004g980c43d248b7" version="1">TODO: Watery Grasp Description</content>
 	<content contentuid="h87afed8cg7b25g420cgb445g0c565dd68e33" version="1">Water Whip</content>
-	<content contentuid="h00b39772gdc47g4097g94c0g58a4cd1e5eb8" version="1">TODO: Water Whip Description </content>
+	<content contentuid="h00b39772gdc47g4097g94c0g58a4cd1e5eb8" version="1">Unleash a jet of water in a line, battering creatures caught in the blast.</content>
 	<content contentuid="h492bb7acged62g464bg9971g4320777edc4b" version="1">Water Sphere</content>
 	<content contentuid="hecc4ab94g70d3g4aa3g8121g24e692f7a0a1" version="1">TODO: Water Sphere Description</content>
 	<content contentuid="hc5304740g7e91g471eg9d78gbb3a9b09e913" version="1">TODO: Water Sphere Status Description</content>
@@ -664,7 +664,7 @@
 	<content contentuid="h91716e4fgf715g4e88g9ef2gdbcf8113e2ae" version="1">Whirlwind</content>
 	<content contentuid="h5e620313gd393g4b85g848ag09f1e2a5957a" version="1">TODO: Whirlwind Description</content>
 	<content contentuid="hd4d177ffg93beg48a1gac30g6cf4dde24fa4" version="1">Lightning Leap</content>
-	<content contentuid="ha7e0bbf8g5d10g4a3bg93d4ged95c225fe28" version="1">TODO: Lightning Leap Description</content>
+	<content contentuid="ha7e0bbf8g5d10g4a3bg93d4ged95c225fe28" version="1">Surge forward with a flash of lightning, dealing damage along your path.</content>
 	<content contentuid="h0fdf4a1eg519cg46bcg8735g75b7d7dcc113" version="1">Wall of Thunder</content>
 	<content contentuid="hf2400914g9a65g461cga04bgb38b576426fc" version="1">TODO: Wall of Thunder Description</content>
 	<content contentuid="hf7d682f4gd5e3g4375gb91eg48a5f9bd7c5d" version="1">Thunder Clap</content>
@@ -683,13 +683,23 @@
 	<content contentuid="h258664cage7a3g425fg96c4gd5b76a487c25" version="1">TODO: Armored Form Status Description</content>
 	<content contentuid="he6887892g1f35g4ab2gb00bgbc8b0ae9f186" version="1">Animate Earth</content>
 	<content contentuid="h0453be45g6769g4bc8gad22ga1684eb1357f" version="1">TODO: Animate Earth Description</content>
+	<content contentuid="h87f098c4g6b51g49b1g99d6g6adcb79410a3" version="1">Telepathy</content>
+	<content contentuid="h5530db88ga236g44ccg84d6gb8ca474aa4ef" version="1">Gain the ability to peer into minds and read thoughts.</content>
 	<content contentuid="h9056fee7g112dg4688g9c65g54a5e5ab47f6" version="1">Mystical Recovery </content>
 	<content contentuid="h63f5ec13ga44bg4706ga3cfgbb3655936380" version="1">After spending psi points, you can spend a bonus action to regain hit points equal to the amount of psi points spent.</content>
 	<content contentuid="" version="1">Regain [1] hit points.</content>
 	<content contentuid="h009eccfcg8069g4923gb7ffgcb7dd0bab171" version="1">Strength of Mind</content>
+	<content contentuid="h3e8253e1ge8f3g4516gb155gdb4f911f0ddf" version="1">Gain Profiency in a Saving Throw of your choice.</content>
+	<content contentuid="h8e4e8f0agfe6cg4affgbff9gb939c80d459f" version="1">Gain Proficiency in Strength Saving Throws.</content>
+	<content contentuid="h48e51a0fg593ag4e01ga0fbgb267d01b0b6d" version="1">Gain Proficiency in Dexterity Saving Throws. </content>
+	<content contentuid="hd04ccb20g3513g44bbgb169ga6db63a5e553" version="1">Gain Proficiency in Constitution Saving Throws. </content>
+	<content contentuid="h483a7661gbd4ag464ag8fd9gf8086d77d7ee" version="1">Gain Proficiency in Intelligence Saving Throws. </content>
+	<content contentuid="h09df4cbdgac58g43e1g9e18g41c3c11059d9" version="1">Gain Proficiency in Wisdom Saving Throws. </content>
+	<content contentuid="hdd45c4f7gaf04g40e3g8875ge3ffd5020633" version="1">Gain Proficiency in Charisma Saving Throws. </content>
 	<content contentuid="h5b0aff1bg6519g473bg99b0ga16788823aa3" version="1">Proficient in Strength Saving Throws.</content>
 	<content contentuid="h6d935d6bg13e8g435egb670g4a1c8255cfe6" version="1">Proficient in Dexterity Saving Throws.</content>
 	<content contentuid="h3c881e01gb65bg4238gab1cg4d81462bfb58" version="1">Proficient in Constitution Saving Throws.</content>
+	<content contentuid="hedd0e68bgb84cg4944g9836g75a8ba726a9a" version="1">Proficient in Intelligence Saving Throws.</content>
 	<content contentuid="hee834a7dgaa03g44e7ga60ag406c66116ee6" version="1">Proficient in Wisdom Saving Throws.</content>
 	<content contentuid="h438d0cd3g03e6g44f0gb801g7ed486500024" version="1">Proficient in Charisma Saving Throws.</content>
 	<content contentuid="h2ae84d46g9f37g45a5g988bg8b08fff62394" version="1">Psionic Strike</content>
