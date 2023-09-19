@@ -160,7 +160,7 @@ data "DisplayName" "h115ff01cg11ceg4134ga89cgf2206ad26123"
 data "Description" "h04a93477g9186g4cc3g8961gcc7b002ea492"
 data "DescriptionParams" ""
 
-data "SpellProperties" "ApplyStatus(MYSTIC_MIND_MELD_BUFF, 100, 10)"
+data "SpellProperties" "ApplyStatus(MYSTIC_MIND_MELD_BUFF, 100, 10);ApplyStatus(SELF,MYSTIC_MIND_MELD_DEBUFF,100,10)"
 data "TargetRadius" "9"
 data "TargetConditions" "Character() and not Self()"
 data "Icon" "Spell_Divination_Guidance"
@@ -214,7 +214,7 @@ data "TargetEffect" "a3e2368b-f486-4cfc-b04a-b02e23383280"
 data "DamageType" "Force"
 
 // Mind Thrust
-new entry "Action_MagicItem_TelekineticBolt"
+new entry "Target_Mystic_MindThrust"
 type "SpellData"
 data "SpellType" "Target"
 
@@ -292,6 +292,9 @@ data "Icon" "Action_MagicItem_BludgeonTheWeak"
 data "DisplayName" "h763d76bag48d9g4037ga829gcb30b54ca333"
 data "Description" "hd3caa123g62c2g4f1bgad5eg15d6f49b3258"
 data "DescriptionParams" "Distance(3)"
+
+data "ContainerSpells" "Target_Mystic_PsychicHammer_Push;Target_Mystic_PsychicHammer_Pull"
+
 data "TargetRadius" "18"
 data "SpellRoll" "not SavingThrow(Ability.Strength, SourceSpellDC())"
 data "SpellSuccess" "DealDamage(LevelMapValue(D6Cantrip),Force,Magical);Force(3)"
@@ -306,19 +309,26 @@ data "CastTextEvent" "Cast"
 data "CycleConditions" "Enemy() and not Dead()"
 data "UseCosts" "ActionPoint:1"
 data "SpellAnimation" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;c17a3562-3758-4c4a-96e8-790cebed1df4,a1227ad0-1db2-4941-836b-0a8d85b87a0b,aef20313-abe9-4abb-8ecf-65c22d25ea80;a8012b19-b279-45ec-89b0-86a1b73ad584,92b2bf7e-5fd5-4016-acb9-dae833b7c2e2,a6874259-8dd1-46fa-99f8-6a19ebb19087;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;efbf3ee5-7340-4b29-8ab5-113b004a8e7b,,;95c387b6-3756-4bb5-accf-75a117eefb5f,,"
-data "VerbalIntent" "Damage"
-data "SpellFlags" ";HasVerbalComponent;HasSomaticComponent;IsMelee;IsHarmful"
+data "SpellFlags" "IsHarmful;IsLinkedSpellContainer"
 data "HitAnimationType" "MagicalDamage_Electric"
 data "PrepareEffect" "77241e8c-ae8d-4402-92d8-a871ce64d86f"
 data "CastEffect" "10fc784a-4312-47a8-a6b8-6b529c646ac4"
 data "TargetEffect" "a3e2368b-f486-4cfc-b04a-b02e23383280"
 data "DamageType" "Force"
 
-// TODO
 new entry "Target_Mystic_PsychicHammer_Push"
+using "Target_Mystic_PsychicHammer"
+data "Description" "h2865267cgf4fcg4291gacc0g2c9355f6ca2f"
+data "SpellContainerID" "Target_Mystic_PsychicHammer"
+data "SpellSuccess" "DealDamage(LevelMapValue(D6Cantrip),Force,Magical);Force(3)"
+data "SpellFlags" "IsHarmful"
 
 new entry "Target_Mystic_PsychicHammer_Pull"
-
+using "Target_Mystic_PsychicHammer"
+data "Description" "he4867284gcd99g4737gaa63gb032030e8102"
+data "SpellContainerID" "Target_Mystic_PsychicHammer"
+data "SpellSuccess" "DealDamage(LevelMapValue(D6Cantrip),Force,Magical);Force(-3)"
+data "SpellFlags" "IsHarmful"
 
 // Psionic Disciplines
 

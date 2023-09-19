@@ -283,6 +283,8 @@
 	<content contentuid="he3754524g8719g427cgba62g073a2634a38d" version="1">Manipulate objects with your mind.</content>
 	<content contentuid="h763d76bag48d9g4037ga829gcb30b54ca333" version="1">Psychic Hammer</content>
 	<content contentuid="hd3caa123g62c2g4f1bgad5eg15d6f49b3258" version="1">Push or pull a creature [1].</content>
+	<content contentuid="h2865267cgf4fcg4291gacc0g2c9355f6ca2f" version="1">Push target creature [1].</content>
+	<content contentuid="he4867284gcd99g4737gaa63gb032030e8102" version="1">Pull target creature [1].</content>
 	<content contentuid="h0d0f8713ge6c2g4f54ga3cdg23dd8ee400e4" version="1">Crowned in Sorrow</content>
 	<content contentuid="h52100dbcgf2ecg4b8bgaf04geb08e9447aaa" version="1">Unable to take reactions.</content>
 	<content contentuid="h351deb92g0694g4786gb8f0g5676412aeaee" version="1">Torment a creature with intense sorrow, preventing it from taking reactions.</content>
