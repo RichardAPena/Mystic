@@ -439,18 +439,31 @@ data "PrepareEffect" "7121a488-7c9a-4ba1-a585-f79aaa77e97c"
 data "CastEffect" "0198563f-c48b-45e0-afb5-46ef9576adff"
 data "TargetEffect" "b94fcfde-d824-4e7d-b9c5-833a50b66537"
 
-// TODO: DUMMY SPELL
+// Psychic Backlash (Prototype)
 new entry "Shout_Mystic_PsychicBacklash"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" "Spell_Abjuration_Aid"
+data "Icon" "Action_FeyPresence"
 data "DisplayName" "h6a32a2fdg7d8fg499cga80eg348f92289a86"
 data "Description" "h34e0c50eg2f15g412ag8f79ge7d9fc0ff80a"
 data "DescriptionParams" ""
-data "SpellProperties" "Invisible;Stealth;Temporary;HideInItemTooltip"
-// data "SpellProperties" "IsHidden"
-// data "Properties" "IsHidden"
+
+data "UseCosts" "ReactionActionPoint:1"
+data "InterruptPrototype" "Interrupt_Mystic_PsychicBacklash"
+
+// Psychic Parry (Prototype)
+new entry "Shout_Mystic_PsychicParry"
+type "SpellData"
+data "SpellType" "Shout"
+
+data "Icon" "Action_FeyPresence"
+data "DisplayName" "he3859f73g3be7g43ddga88bg142c54b26bd8"
+data "Description" "he3446c7fga2b2g4256g93efga0485b80e08e"
+data "DescriptionParams" ""
+
+data "UseCosts" "ReactionActionPoint:1"
+data "InterruptPrototype" "Interrupt_Mystic_PsychicParry"
 
 // Psychic Redoubt
 new entry "Shout_Mystic_PsychicRedoubt"
@@ -534,6 +547,19 @@ data "PrepareEffect" "7121a488-7c9a-4ba1-a585-f79aaa77e97c"
 data "CastEffect" "0198563f-c48b-45e0-afb5-46ef9576adff"
 data "TargetEffect" "b94fcfde-d824-4e7d-b9c5-833a50b66537"
 
+// All-Around Sight (Prototype)
+new entry "Shout_Mystic_AllAroundSight"
+type "SpellData"
+data "SpellType" "Shout"
+
+data "Icon" "Action_FeyPresence"
+data "DisplayName" "hbced9298g8494g4307g9f98g3c8d470714d6"
+data "Description" "hdbb509b6g53fag42c4g84fdgf5a4eebc7955"
+data "DescriptionParams" ""
+
+data "UseCosts" "ReactionActionPoint:1"
+data "InterruptPrototype" "Interrupt_Mystic_AllAroundSight"
+
 // Danger Sense
 new entry "Shout_Mystic_DangerSense"
 type "SpellData"
@@ -561,6 +587,19 @@ data "HitAnimationType" "MagicalNonDamage"
 data "PrepareEffect" "7121a488-7c9a-4ba1-a585-f79aaa77e97c"
 data "CastEffect" "0198563f-c48b-45e0-afb5-46ef9576adff"
 data "TargetEffect" "b94fcfde-d824-4e7d-b9c5-833a50b66537"
+
+// Adaptive Shield (Prototype)
+new entry "Shout_Mystic_AdaptiveShield"
+type "SpellData"
+data "SpellType" "Shout"
+
+data "Icon" "Action_FeyPresence"
+data "DisplayName" "ha4113923g6596g4aa4ga10fg5d07f8d8abe7"
+data "Description" "h6953cb97gffa3g4419gb10bg7aba9f9e8923"
+data "DescriptionParams" ""
+
+data "UseCosts" "ReactionActionPoint:1"
+data "InterruptPrototype" "Interrupt_Mystic_AdaptiveShield"
 
 // Bestial Transformation
 new entry "Shout_Mystic_BestialTransformation"
@@ -604,6 +643,19 @@ data "HitAnimationType" "MagicalNonDamage"
 data "PrepareEffect" "7121a488-7c9a-4ba1-a585-f79aaa77e97c"
 data "CastEffect" "0198563f-c48b-45e0-afb5-46ef9576adff"
 data "TargetEffect" "b94fcfde-d824-4e7d-b9c5-833a50b66537"
+
+// Knock Back (Prototype)
+new entry "Shout_Mystic_KnockBack"
+type "SpellData"
+data "SpellType" "Shout"
+
+data "Icon" "Action_FeyPresence"
+data "DisplayName" "h64861ffdge092g4be5gae41g02d96367cb93"
+data "Description" "hafa0ff17g5d7fg4454gb0c4g5eee7b446f19"
+data "DescriptionParams" ""
+
+data "UseCosts" "ReactionActionPoint:1"
+data "InterruptPrototype" "Interrupt_Mystic_KnockBack"
 
 // Feat of Strength
 new entry "Shout_Mystic_FeatOfStrength"
@@ -773,6 +825,19 @@ data "PrepareEffect" "7121a488-7c9a-4ba1-a585-f79aaa77e97c"
 data "CastEffect" "0198563f-c48b-45e0-afb5-46ef9576adff"
 data "TargetEffect" "b94fcfde-d824-4e7d-b9c5-833a50b66537"
 
+// Acid Spray (Prototype)
+new entry "Shout_Mystic_AcidSpray"
+type "SpellData"
+data "SpellType" "Shout"
+
+data "Icon" "Action_FeyPresence"
+data "DisplayName" "hc7b88abbg0bf9g468aga89fgc539b6688cac"
+data "Description" "h0d03313eg42eeg4e62g99a8gd78ebb954dfe"
+data "DescriptionParams" ""
+
+data "UseCosts" "ReactionActionPoint:1"
+data "InterruptPrototype" "Interrupt_Mystic_AcidSpray"
+
 // Miniature Form
 new entry "Shout_Mystic_MiniatureForm"
 type "SpellData"
@@ -800,6 +865,19 @@ data "HitAnimationType" "MagicalNonDamage"
 data "PrepareEffect" "7121a488-7c9a-4ba1-a585-f79aaa77e97c"
 data "CastEffect" "0198563f-c48b-45e0-afb5-46ef9576adff"
 data "TargetEffect" "b94fcfde-d824-4e7d-b9c5-833a50b66537"
+
+// Sudden Shift (Prototype)
+new entry "Shout_Mystic_SuddenShift"
+type "SpellData"
+data "SpellType" "Shout"
+
+data "Icon" "Action_FeyPresence"
+data "DisplayName" "h3a999e58g5ceeg4ac1ga20aga6efd47b87f3"
+data "Description" "h9de05705gcb47g47dcga990g7ede44af0407"
+data "DescriptionParams" ""
+
+data "UseCosts" "ReactionActionPoint:1"
+data "InterruptPrototype" "Interrupt_Mystic_SuddenShift"
 
 // Microscopic Form
 new entry "Shout_Mystic_MicroscopicForm"
@@ -884,6 +962,22 @@ data "HitAnimationType" "MagicalNonDamage"
 data "PrepareEffect" "7121a488-7c9a-4ba1-a585-f79aaa77e97c"
 data "CastEffect" "0198563f-c48b-45e0-afb5-46ef9576adff"
 data "TargetEffect" "b94fcfde-d824-4e7d-b9c5-833a50b66537"
+
+// Iron Hide (Prototype)
+new entry "Shout_Mystic_IronHide"
+new entry "Shout_Mystic_PsychicBacklash"
+type "SpellData"
+data "SpellType" "Shout"
+
+data "Icon" "Action_FeyPresence"
+data "DisplayName" "h3a5789efg2457g4ca8ga0f8gce3100d94894"
+data "Description" "hc17c8044g089bg4c41g825dg242f478d8782"
+data "DescriptionParams" ""
+
+data "UseCosts" "ReactionActionPoint:1"
+data "InterruptPrototype" "Interrupt_Mystic_IronHide"
+
+// TODO: Add upcast(?)
 
 // Steel Hide
 new entry "Shout_Mystic_SteelHide"
@@ -1052,6 +1146,19 @@ data "HitAnimationType" "MagicalNonDamage"
 data "PrepareEffect" "7121a488-7c9a-4ba1-a585-f79aaa77e97c"
 data "CastEffect" "0198563f-c48b-45e0-afb5-46ef9576adff"
 data "TargetEffect" "b94fcfde-d824-4e7d-b9c5-833a50b66537"
+
+// Seeking Missile (Prototype)
+new entry "Shout_Mystic_SeekingMissile"
+type "SpellData"
+data "SpellType" "Shout"
+
+data "Icon" "Action_FeyPresence"
+data "DisplayName" "h170aeca8g0096g4689g9450g240c79bbc380"
+data "Description" "hfc6b13fdgc440g4072ga6d9g1eb08558a47b"
+data "DescriptionParams" ""
+
+data "UseCosts" "ReactionActionPoint:1"
+data "InterruptPrototype" "Interrupt_Mystic_SeekingMissile"
 
 // Faithful Archer
 new entry "Shout_Mystic_FaithfulArcher"

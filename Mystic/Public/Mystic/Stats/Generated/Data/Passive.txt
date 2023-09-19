@@ -3,13 +3,12 @@
 // TODO: Find a way to show reactions (interrupts) gained
 
 // Adaptive Body
-// TODO: 1 interrupt
 new entry "Discipline_AdaptiveBody"
 type "PassiveData"
 data "DisplayName" "h8eeaa9d1g3467g466eg8caegd75b3e89640d"
 data "Description" "hc27a5463g6488g45a5g88a3g63da94be5c8e"
 data "Icon" ""
-data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_AdaptiveBody);UnlockSpell(Target_Mystic_EnvironmentalAdaptation);UnlockInterrupt(Interrupt_Mystic_AdaptiveShield);UnlockSpell(Target_Mystic_EnergyAdaptation);UnlockSpell(Target_Mystic_EnergyImmunity)"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_AdaptiveBody);UnlockSpell(Target_Mystic_EnvironmentalAdaptation);UnlockSpell(Shout_Mystic_AdaptiveShield);UnlockSpell(Target_Mystic_EnergyAdaptation);UnlockSpell(Target_Mystic_EnergyImmunity)"
 
 // Aura Sight
 new entry "Discipline_AuraSight"
@@ -28,13 +27,12 @@ data "Icon" ""
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_BestialForm);UnlockSpell(Target_Mystic_BestialClaws);UnlockSpell(Shout_Mystic_BestialTransformation)"
 
 // Brute Force
-// TODO: 1 interrupt
 new entry "Discipline_BruteForce"
 type "PassiveData"
 data "DisplayName" "h175e561fg1cb4g4e0ag879dg178034035120"
 data "Description" "hc5996804g22f2g465fga3bdg0a9396d181cf"
 data "Icon" ""
-data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_BruteForce);UnlockSpell(Shout_Mystic_BruteStrike);UnlockInterrupt(Interrupt_Mystic_KnockBack);UnlockSpell(Target_Mystic_MightyLeap);UnlockSpell(Shout_Mystic_FeatOfStrength)"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_BruteForce);UnlockSpell(Shout_Mystic_BruteStrike);UnlockSpell(Shout_Mystic_KnockBack);UnlockSpell(Target_Mystic_MightyLeap);UnlockSpell(Shout_Mystic_FeatOfStrength)"
 
 // Celerity
 new entry "Discipline_Celerity"
@@ -45,13 +43,12 @@ data "Icon" ""
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_Celerity);UnlockSpell(Shout_Mystic_RapidStep);UnlockSpell(Shout_Mystic_AgileDefense);UnlockSpell(Shout_Mystic_BlurOfMotion);UnlockSpell(Shout_Mystic_SurgeOfSpeed);UnlockSpell(Shout_Mystic_SurgeOfAction)"
 
 // Corrosive Metabolism
-// TODO: 1 interrupt
 new entry "Discipline_CorrosiveMetabolism"
 type "PassiveData"
 data "DisplayName" "hbcd31ed4gd387g4bc2gbb9cgca4ad54f5db1"
 data "Description" "h650d7f46g40ebg4fa4gb8b3ge5033d38fdc2"
 data "Icon" ""
-data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_CorrosiveMetabolism);UnlockSpell(Target_Mystic_CorrosiveTouch);UnlockSpell(Projectile_Mystic_VenomStrike);UnlockInterrupt(Interrupt_Mystic_AcidSpray);UnlockSpell(Zone_Mystic_BreathOfTheBlackDragon);UnlockSpell(Zone_Mystic_BreathOfTheGreenDragon)"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_CorrosiveMetabolism);UnlockSpell(Target_Mystic_CorrosiveTouch);UnlockSpell(Projectile_Mystic_VenomStrike);UnlockSpell(Shout_Mystic_AcidSpray);UnlockSpell(Zone_Mystic_BreathOfTheBlackDragon);UnlockSpell(Zone_Mystic_BreathOfTheGreenDragon)"
 
 // Crown of Despair
 new entry "Discipline_CrownOfDespair"
@@ -78,13 +75,12 @@ data "Icon" ""
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_CrownOfRage);UnlockSpell(Target_Mystic_PrimalFury);UnlockSpell(Target_Mystic_FightingWords);UnlockSpell(Target_Mystic_MindlessCourage);UnlockSpell(Target_Mystic_PunishingFury)"
 
 // Diminution
-// TODO: 1 interrupt
 new entry "Discipline_Diminution"
 type "PassiveData"
 data "DisplayName" "h70b6b4d5g3e3eg4573gaa66ge651d2a43ab7"
 data "Description" "he633903cg2b4cg4612g8337g6e34fef03b13"
 data "Icon" ""
-data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_Diminution);UnlockSpell(Shout_Mystic_MiniatureForm);UnlockSpell(Target_Mystic_TopplingShift);UnlockInterrupt(Interrupt_Mystic_SuddenShift);UnlockSpell(Shout_Mystic_MicroscopicForm)"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_Diminution);UnlockSpell(Shout_Mystic_MiniatureForm);UnlockSpell(Target_Mystic_TopplingShift);UnlockSpell(Shout_Mystic_SuddenShift);UnlockSpell(Shout_Mystic_MicroscopicForm)"
 
 // Giant Growth
 new entry "Discipline_GiantGrowth"
@@ -95,23 +91,20 @@ data "Icon" ""
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_GiantGrowth)UnlockSpell(Shout_Mystic_OgreForm);UnlockSpell(Shout_Mystic_GiantForm);"
 
 // Intellect Fortress
-// TODO: 2 interrupts
 new entry "Discipline_IntellectFortress"
 type "PassiveData"
 data "DisplayName" "h29b968fcg568cg4217ga8aag9466fee959ec"
 data "Description" "h6d871580g41c7g45f1g8546gbd1f18740d94"
 data "Icon" ""
-data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_IntellectFortress);UnlockInterrupt(Interrupt_Mystic_PsychicBacklash);UnlockInterrupt(Interrupt_Mystic_PsychicParry);UnlockSpell(Shout_Mystic_PsychicRedoubt)"
-data "Passives" "Discipline_CrownOfDespair"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_IntellectFortress);UnlockSpell(Shout_Mystic_PsychicBacklash);UnlockSpell(Shout_Mystic_PsychicParry);UnlockSpell(Shout_Mystic_PsychicRedoubt)"
 
 // Iron Durability
-// TODO: 1 interrupt
 new entry "Discipline_IronDurability"
 type "PassiveData"
 data "DisplayName" "h5f43b6fdg5126g490dga7e8ge24d3f2647ef"
 data "Description" "hb059cdc4g2763g49f3g91e4g6d77ece2ca00"
 data "Icon" ""
-data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_IronDurability);UnlockInterrupt(Interrupt_Mystic_IronHide);UnlockSpell(Shout_Mystic_SteelHide);UnlockSpell(Shout_Mystic_IronResistance)"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_IronDurability);UnlockSpell(Shout_Mystic_IronHide);UnlockSpell(Shout_Mystic_SteelHide);UnlockSpell(Shout_Mystic_IronResistance)"
 
 // Mantle of Awe
 new entry "Discipline_MantleOfAwe"
@@ -227,13 +220,12 @@ data "Icon" ""
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MasteryOfWoodAndEarth);UnlockSpell(Projectile_Mystic_AnimateWeapon);UnlockSpell(Target_Mystic_WarpWeapon);UnlockSpell(Target_Mystic_WarpArmor);UnlockSpell(Wall_Mystic_WallOfWood);UnlockSpell(Target_Mystic_AnimateEarth)"
 
 // Nomadic Arrow
-// TODO: 1 interrupt
 new entry "Discipline_NomadicArrow"
 type "PassiveData"
 data "DisplayName" "h21280cfag0363g451bgb8deg11da159fe1f6"
 data "Description" "hbfb2bff6g9bf4g4c8dgbc6bgf917c57ce95c"
 data "Icon" ""
-data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_NomadicArrow);UnlockSpell(Shout_Mystic_SpeedDart);UnlockInterrupt(Interrupt_Mystic_SeekingMissile);UnlockSpell(Shout_Mystic_FaithfulArcher)"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_NomadicArrow);UnlockSpell(Shout_Mystic_SpeedDart);UnlockSpell(Shout_Mystic_SeekingMissile);UnlockSpell(Shout_Mystic_FaithfulArcher)"
 
 // Nomadic Chameleon
 new entry "Discipline_NomadicChameleon"
@@ -262,13 +254,12 @@ data "Icon" ""
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_NomadicStep)"
 
 // Precognition
-// TODO: 1 interrupt
 new entry "Discipline_Precognition"
 type "PassiveData"
 data "DisplayName" "h5f9658f2gac4eg4bddga87dgcd276d6d2d72"
 data "Description" "h5430f0e2ge650g45c7g8c1fgd880b557faaf"
 data "Icon" ""
-data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_Precognition);UnlockSpell(Shout_Mystic_PrecognitiveHunch);UnlockInterrupt(Interrupt_Mystic_AllAroundSight);UnlockSpell(Shout_Mystic_DangerSense);UnlockSpell(Target_Mystic_VictoryBeforeBattle)"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_Precognition);UnlockSpell(Shout_Mystic_PrecognitiveHunch);UnlockSpell(Shout_Mystic_AllAroundSight);UnlockSpell(Shout_Mystic_DangerSense);UnlockSpell(Target_Mystic_VictoryBeforeBattle)"
 
 // Psionic Restoration
 new entry "Discipline_PsionicRestoration"
