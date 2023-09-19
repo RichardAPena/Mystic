@@ -1671,6 +1671,8 @@ data "Boosts" ""
 new entry "MYSTIC_MICROSCOPIC_FORM"
 // inherit/copy reduce
 
+// TODO: Include this
+// data "Boosts" "UnlockSpellVariant(SpellId('Projectile_MainHandAttack'),ModifyTargetRadius(Multiplicative,2),ModifyTooltipDescription())"
 // Giant Form
 new entry "MYSTIC_GIANT_FORM"
 // inherit/copy enlarge
