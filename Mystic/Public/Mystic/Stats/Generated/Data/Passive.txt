@@ -376,6 +376,18 @@ data "StatsFunctors" "ApplyStatus(SELF,MYSTIC_AURA_OF_VICTORY_TEMPORARY_HP_7,100
 
 // ==MYSTIC PASSIVE FEATURES==
 
+// Mystical Recovery
+// TODO
+new entry "Passive_Mystic_MysticalRecovery"
+type "PassiveData"
+data "DisplayName" "h9056fee7g112dg4688g9c65g54a5e5ab47f6"
+data "Description" "h63f5ec13ga44bg4706ga3cfgbb3655936380"
+data "Icon" "PassiveFeature_BrutalCritical"
+data "StatsFunctorContext" ""
+data "Conditions" ""
+data "StatsFunctors" ""
+data "Boosts" ""
+
 // Strength of Mind
 new entry "Passive_Mystic_StrengthOfMind_Strength"
 type "PassiveData"
@@ -407,6 +419,7 @@ data "Boosts" "ProficiencyBonus(SavingThrow,Charisma)"
 // Potent Psionics: Strike
 // "Once per turn after dealing weapon damage, you can deal an additional 1d8 Psychic damage."
 
+
 // Potent Psionics: Empower
 // "Add your Intelligence modifier to psionic talent damage rolls."
 
@@ -419,7 +432,7 @@ data "Boosts" "ProficiencyBonus(SavingThrow,Charisma)"
 // Psionic Body
 // ***TODO (VEEEEEEEEEERY MUCH LATER ON)
 
-
+// Avatar of Healing
 new entry "Passive_Mystic_AvatarOfHealing"
 type "PassiveData"
 data "Properties" "IsHidden"
@@ -427,6 +440,15 @@ data "StatsFunctorContext" "OnHealed"
 data "Conditions" "HealDoneGreaterThan(0)"
 data "StatsFunctors" "RegainHitPoints(2)"
 
+// Psionic Strike
+new entry "Passive_Mystic_PsionicStrike"
+type "PassiveData"
+data "DisplayName" "h2ae84d46g9f37g45a5g988bg8b08fff62394"
+data "Description" "hf729263eg37dcg43fbg923cg24cc642f6773"
+data "Icon" "PassiveFeature_BrutalCritical"
+data "DescriptionParams" "DealDamage(1d8,Psychic)"
+data "Boosts" "UnlockInterrupt(Interrupt_PsionicStrike);ActionResource(Interrupt_PsionicStrike,1,0)"
+data "ToggleGroup" "DivineStrike"
 
 // // Avatar of Speed
 // new entry "Mystic_AvatarOfSpeedUnlock"

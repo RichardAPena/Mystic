@@ -161,7 +161,7 @@
                     <attribute id="Boosts" type="LSString" value="ActionResource(PsiPointsResource,6,0)"/>
                     <attribute id="Level" type="uint8" value="8"/>
                     <attribute id="Name" type="LSString" value="Mystic"/>
-                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_PsionicStrike"/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="Selectors" type="LSString" value=""/>
@@ -248,7 +248,8 @@
                     <attribute id="Level" type="uint8" value="6"/>
                     <attribute id="Name" type="LSString" value="Avatar"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="PassivesAdded" type="LSString" value="AddSpells(e15f5536-ab22-44d4-919b-e57c34c58f28)"/> Avatar of Healing
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(e15f5536-ab22-44d4-919b-e57c34c58f28)"/> Avatar of Healing
                     <attribute id="TableUUID" type="guid" value="5fe9f3fd-f73a-47df-b909-96277e832c61"/>
                     <attribute id="UUID" type="guid" value="9068f635-db63-4079-b9b2-31d5308736f0"/>
                 </node>

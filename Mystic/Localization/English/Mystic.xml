@@ -684,6 +684,7 @@
 	<content contentuid="he6887892g1f35g4ab2gb00bgbc8b0ae9f186" version="1">Animate Earth</content>
 	<content contentuid="h0453be45g6769g4bc8gad22ga1684eb1357f" version="1">TODO: Animate Earth Description</content>
 	<content contentuid="h9056fee7g112dg4688g9c65g54a5e5ab47f6" version="1">Mystical Recovery </content>
+	<content contentuid="h63f5ec13ga44bg4706ga3cfgbb3655936380" version="1">After spending psi points, you can spend a bonus action to regain hit points equal to the amount of psi points spent.</content>
 	<content contentuid="" version="1">Regain [1] hit points.</content>
 	<content contentuid="h009eccfcg8069g4923gb7ffgcb7dd0bab171" version="1">Strength of Mind</content>
 	<content contentuid="h5b0aff1bg6519g473bg99b0ga16788823aa3" version="1">Proficient in Strength Saving Throws.</content>
@@ -691,6 +692,12 @@
 	<content contentuid="h3c881e01gb65bg4238gab1cg4d81462bfb58" version="1">Proficient in Constitution Saving Throws.</content>
 	<content contentuid="hee834a7dgaa03g44e7ga60ag406c66116ee6" version="1">Proficient in Wisdom Saving Throws.</content>
 	<content contentuid="h438d0cd3g03e6g44f0gb801g7ed486500024" version="1">Proficient in Charisma Saving Throws.</content>
+	<content contentuid="h2ae84d46g9f37g45a5g988bg8b08fff62394" version="1">Psionic Strike</content>
+	<content contentuid="" version="1"> </content>
+	<content contentuid="" version="1"> </content>
+	<content contentuid="" version="1"> </content>
+
+
 	<content contentuid="h2f333397g29fdg45eag8006g94c8ff848ea0" version="1">Avatar of Battle</content>
 	<content contentuid="h8ec97092ga28cg4010g87d6g937a3c1498a9" version="1">Project an inspiring aura, giving nearby allies +2 to initiative.</content>
 	<content contentuid="h8c23bb63g8001g4df9g817fgcdb0e2ad8e10" version="1">+2 to initiative.</content>

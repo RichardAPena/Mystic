@@ -18,9 +18,16 @@
                     <attribute id="DisplayName" type="TranslatedString" handle="hd44f7002g8382g4663g89f3g88a18f0791bf" version="1"/>
                     <attribute id="MaxLevel" type="uint32" value="7"/>
                     <attribute id="Name" type="FixedString" value="PsiLimitResource"/>
-                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
                     <attribute id="ShowOnActionResourcePanel" type="bool" value="false"/>
                     <attribute id="UUID" type="guid" value="52f4769c-89d4-4e24-9129-76e9fb6ad49c"/>
+                </node>
+                <node id="ActionResourceDefinition"> Psionic Strike
+                    <attribute id="DisplayName" type="TranslatedString" handle="hd4805a67g93a4g4a1ag9dfag49499a52f106" version="1"/>
+                    <attribute id="IsHidden" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="Interrupt_PsionicStrike"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
+                    <attribute id="UUID" type="guid" value="d5b34f89-a352-4ab8-959a-218aa725cba7"/>
                 </node>
                 TODO: Implement Psionic Mastery Charges here? You can cast one spell without requiring concentration per charge
             </children>
