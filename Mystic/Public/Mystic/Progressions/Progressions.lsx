@@ -112,7 +112,7 @@
                     <attribute id="PassivesAdded" type="LSString" value=""/>
                     <attribute id="PassivesRemoved" type="LSString" value="Passive_Mystic_StrengthOfMind_Wisdom"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(6dc0e475-1f9b-4965-8af4-39cacb022285,1,0,,,,AlwaysPrepared)"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(6dc0e475-1f9b-4965-8af4-39cacb022285)"/>
                     <attribute id="TableUUID" type="guid" value="4b5d89ce-9dfb-46c2-a205-77bbf05a6492"/>
                     <attribute id="UUID" type="guid" value="130fd966-08f6-4696-b7c1-d9cea533a00f"/>
                 </node>
@@ -234,20 +234,21 @@
                     <attribute id="UUID" type="guid" value="89d2e0b6-da69-4795-88df-6a9da0df3500"/>
                 </node>
                 <node id="Progression"> Avatar Level 3
-                    <attribute id="Boosts" type="LSString" value=""/> TODO: Avatar of Battle
+                    <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="Avatar"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(337a7c5d-ab33-460c-a54c-ceaa4d4e661d)"/> Avatar of Battle
                     <attribute id="TableUUID" type="guid" value="5fe9f3fd-f73a-47df-b909-96277e832c61"/>
                     <attribute id="UUID" type="guid" value="685db017-ff43-4ef7-a12b-f10d27672811"/>
                 </node>
                 <node id="Progression"> Avatar Level 6
-                    <attribute id="Boosts" type="LSString" value=""/> TODO: Avatar of Healing
+                    <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="6"/>
                     <attribute id="Name" type="LSString" value="Avatar"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesAdded" type="LSString" value="AddSpells(e15f5536-ab22-44d4-919b-e57c34c58f28)"/> Avatar of Healing
                     <attribute id="TableUUID" type="guid" value="5fe9f3fd-f73a-47df-b909-96277e832c61"/>
                     <attribute id="UUID" type="guid" value="9068f635-db63-4079-b9b2-31d5308736f0"/>
                 </node>

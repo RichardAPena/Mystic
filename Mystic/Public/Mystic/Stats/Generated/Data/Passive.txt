@@ -419,21 +419,14 @@ data "Boosts" "ProficiencyBonus(SavingThrow,Charisma)"
 // Psionic Body
 // ***TODO (VEEEEEEEEEERY MUCH LATER ON)
 
-// // Avatar of Battle
-// new entry "Mystic_AvatarOfBattleUnlock"
-// type "PassiveData"
-// data "DisplayName" "heb25c661gd0e1g43eag89e8gf9a2dbee7054"
-// data "Description" "h55ef0306g5c7eg4833ga6f1gdd3c638797c1"
-// data "Icon" ""
-// data "Boosts" ""
 
-// // Avatar of Healing
-// new entry "Mystic_AvatarOfHealingUnlock"
-// type "PassiveData"
-// data "DisplayName" "heb25c661gd0e1g43eag89e8gf9a2dbee7054"
-// data "Description" "h55ef0306g5c7eg4833ga6f1gdd3c638797c1"
-// data "Icon" ""
-// data "Boosts" ""
+new entry "Passive_Mystic_AvatarOfHealing"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnHealed"
+data "Conditions" "HealDoneGreaterThan(0)"
+data "StatsFunctors" "RegainHitPoints(2)"
+
 
 // // Avatar of Speed
 // new entry "Mystic_AvatarOfSpeedUnlock"

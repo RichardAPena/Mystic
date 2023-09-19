@@ -21,12 +21,12 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Avatar Level 3 (Aura)"/>
-                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="Spells" type="LSString" value="Shout_Mystic_AvatarOfBattle"/>
                     <attribute id="UUID" type="guid" value="337a7c5d-ab33-460c-a54c-ceaa4d4e661d"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Avatar Level 6 (Aura)"/>
-                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="Spells" type="LSString" value="Shout_Mystic_AvatarOfHealing"/>
                     <attribute id="UUID" type="guid" value="e15f5536-ab22-44d4-919b-e57c34c58f28"/>
                 </node>
                 <node id="SpellList">
