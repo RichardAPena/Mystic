@@ -342,12 +342,12 @@
 	<content contentuid="h97579b00g4679g44f5gbfa6gd8a740be025c" version="1">Incite Courage</content>
 	<content contentuid="h89287d81gc263g462fgad79gb530dfb6fdc9" version="1">Bestow courage to up to six creatures, removing any &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt; conditions.</content>
 	<content contentuid="h57e5f748gb553g43adgac10gb5b6bfbd6fd5" version="1">Aura of Victory</content>
-	<content contentuid="h039be837g8748g436fgaa7dg1bbff4f743d2" version="1">Project an aura that grants you and your allies [1] temporary hit points whenever a nearby enemy is reduced to 0 hit points.</content>
-	<content contentuid="h51ed9e73g868fg4439g9026geca810651929" version="1">Gains temporary hit points whenever a nearby enemy creature is reduced to 0 hit points.</content>
+	<content contentuid="h039be837g8748g436fgaa7dg1bbff4f743d2" version="1">Project an aura that grants you and your allies [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; whenever a nearby enemy is reduced to 0 hit points.</content>
+	<content contentuid="h51ed9e73g868fg4439g9026geca810651929" version="1">Gains &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; whenever a nearby enemy creature is reduced to 0 hit points.</content>
 	<content contentuid="h98195dedg0cdeg45b5gaf3ag2998fcf5e4ed" version="1">Triumphant</content>
-	<content contentuid="hcd431a9dga128g4531gbfb7g8b871745f056" version="1">Has [1] temporary hit points.</content>
+	<content contentuid="hcd431a9dga128g4531gbfb7g8b871745f056" version="1">Has [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;.</content>
 	<content contentuid="h217c8d85gd7ebg4ddcg901agd58751efd008" version="1">Rallying Cry</content>
-	<content contentuid="he9fd8855g276ag4df7gaa45gaef25f12f283" version="1">Grants temporary hit points to nearby allies when reducing an enemy to 0 hit points.</content>
+	<content contentuid="he9fd8855g276ag4df7gaa45gaef25f12f283" version="1">Grants &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; to nearby allies when reducing an enemy to 0 hit points.</content>
 	<content contentuid="h42c683d7ge2dag40dfg8949gf87025a3d465" version="1">Pillar of Confidence</content>
 	<content contentuid="h12fcfc8bg47d5g4292g8e96g4777cf857a07" version="1">Instill up to five creatures with a surge of confidence, gaining an extra action each turn.</content>
 	<content contentuid="hffb8f667gf1c3g4b89g90f6g2fdf1114160c" version="1">Able to take an additional action this turn.</content>
@@ -373,8 +373,8 @@
 	<content contentuid="h244e4d56g6167g421ega5b9ga45e43da709b" version="1">Flood rage into a creature, preventing it from taking any actions other than melee attacks.</content>
 	<content contentuid="hd1dbe896ga5c1g4cc5gbf69gec3cf9c465f5" version="1">Unable to take any actions but melee attacks.</content>
 	<content contentuid="h9e88737dg7b52g4340g9ab9g3b54e760a48c" version="1">Soothing Presence</content>
-	<content contentuid="he49bc493g1954g435cgbefdg47bf589c50f1" version="1">Soothe up to three creatures, granting them [1] temporary hit points.</content>
-	<content contentuid="hfe25780eg3170g4f8fga8d6g10f3e55f7ed6" version="1">Has [1] temporary hit points.</content>
+	<content contentuid="he49bc493g1954g435cgbefdg47bf589c50f1" version="1">Soothe up to three creatures, granting them [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;.</content>
+	<content contentuid="hfe25780eg3170g4f8fga8d6g10f3e55f7ed6" version="1">Has [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;.</content>
 	<content contentuid="h45bd3babgf7d3g49aag9ec3g2905c02a1873" version="1">Comforting Aura</content>
 	<content contentuid="h80944343gab2fg4802g9b80gb374f9a3c256" version="1">Comfort up to three allies, giving them +1d4 to Saving Throws.</content>
 	<content contentuid="h8a31aedbg294cg4367g99a1gb768e8c1b528" version="1">+1d4 to Saving Throws.</content>
