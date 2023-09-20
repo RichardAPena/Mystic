@@ -1580,15 +1580,29 @@ data "PrepareEffect" "7121a488-7c9a-4ba1-a585-f79aaa77e97c"
 data "CastEffect" "0198563f-c48b-45e0-afb5-46ef9576adff"
 data "TargetEffect" "b94fcfde-d824-4e7d-b9c5-833a50b66537"
 
-// TODO: Mystical Recovery
+// Mystical Recovery
 new entry "Shout_Mystic_MysticalRecovery"
 type "SpellData"
 data "SpellType" "Shout"
 
 data "Icon" "Spell_Abjuration_Stoneskin"
 data "DisplayName" "h9056fee7g112dg4688g9c65g54a5e5ab47f6"
-data "Description" "h7f453ca8gee30g4e5cg8d39ga323c199aa9a"
-data "DescriptionParams" ""
+data "Description" "h32ee756eg1530g47d2gbef1gd45be73fc52a"
+data "DescriptionParams" "(1+ClassLevel(Mystic)/2)"
+
+data "TargetConditions" "Self()"
+data "SpellProperties" "RegainHitPoints(1+ClassLevel(Mystic)/2);RemoveStatus(MYSTIC_MYSTICAL_RECOVERY)"
+data "CastSound" "Spell_Cast_Utility_Light_L0"
+data "TargetSound" "Spell_Impact_Utility_Light_L0"
+data "CastTextEvent" "Cast"
+data "UseCosts" "BonusActionPoint:1"
+data "SpellAnimation" "f94542d9-a79c-478a-92de-573cead9260e,,;,,;ab17f201-8251-4690-bfac-b42c8561fc91,,;d082596c-2ea7-4c39-89c1-61e91dc0b4cb,,;bd339475-d2b5-46e8-8d0c-9f2ad6a91328,,;,,;7a28f440-1b0b-4a18-96a8-3767959b601a,,;ab17f201-8251-4690-bfac-b42c8561fc91,,;7e13b95d-d114-4c1b-baa9-d29fd71b8be9,,"
+data "SpellFlags" "IsMelee"
+data "HitAnimationType" "MagicalNonDamage"
+data "PrepareEffect" "7121a488-7c9a-4ba1-a585-f79aaa77e97c"
+data "CastEffect" "0198563f-c48b-45e0-afb5-46ef9576adff"
+data "TargetEffect" "b94fcfde-d824-4e7d-b9c5-833a50b66537"
+
 
 // Strength of Mind
 new entry "Shout_Mystic_StrengthOfMind"

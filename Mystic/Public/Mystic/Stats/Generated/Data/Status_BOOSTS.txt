@@ -2222,6 +2222,16 @@ data "Boosts" ""
 // Class Features
 
 // TODO: Mystical Recovery
+new entry "MYSTIC_MYSTICAL_RECOVERY"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h9056fee7g112dg4688g9c65g54a5e5ab47f6"
+data "Description" "h58c34810g9a69g4c2fg8ccfg3b99b047b4dc"
+data "DescriptionParams" "(1+ClassLevel(Mystic)/2)"
+data "Icon" "Action_KnowledgeOfTheAges"
+data "TickType" "EndTurn"
+data "StackId" "MYSTIC_MYSTICAL_RECOVERY"
+data "Boosts" "UnlockSpell(Shout_Mystic_MysticalRecovery)"
 
 // Strength of Mind
 new entry "MYSTIC_STRENGTH_OF_MIND_STR"

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="322"/>
+    <region id="ProgressionDescriptions">
+        <node id="root">
+            <children>
+
+                Mystic Progression Descriptions
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h50a4b569gc8f8g4d05g85c2g5c039ffcb237" version="1"/> Description
+                    <attribute id="DisplayName" type="TranslatedString" handle="hb4bc9f84gaefbg4844g9597gd48f569a35db" version="1"/> Display Name
+                    <attribute id="ProgressionTableId" type="guid" value="4b5d89ce-9dfb-46c2-a205-77bbf05a6492"/> ID of the Progression Table
+                    <attribute id="Type" type="FixedString" value="Mystic"/>
+                    <attribute id="UUID" type="guid" value="b1a10f11-bc0c-4d44-949e-0a7ea0464015"/>
+                </node>
+
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h317d0bf1g56c1g438bg8925g351d0acbeccc" version="2"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hb0987083g9246g40c0g8ffdg625e493c146f" version="1"/>
+                    <attribute id="ProgressionTableId" type="guid" value="4b5d89ce-9dfb-46c2-a205-77bbf05a6492"/>
+                    <attribute id="SelectorId" type="FixedString" value="PsionicDisciplines"/>
+                    <attribute id="UUID" type="guid" value="51852b2e-9947-450b-b285-f84154ce2aac"/>
+                </node>
+
+
+
+                
+            </children>
+        </node>
+    </region>
+</save>
