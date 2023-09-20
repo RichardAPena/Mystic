@@ -123,6 +123,7 @@ data "InterruptContext" "OnCastHit"
 data "InterruptContextScope" "Self"
 data "Container" "YesNoDecision"
 data "Conditions" "Self(context.Source,context.Observer) and IsMeleeAttack() and not IsKillingBlow() and IsHit() and Character() and not AnyEntityIsItem()"
+// TODO: CAST THE ACTUAL SPELL, THERE NEEDS TO BE A SAVING THROW
 data "Properties" "Force(9)"
 data "Cost" "ReactionActionPoint:1;PsiPointsResource:2"
 data "InterruptDefaultValue" "Ask;Enabled"
