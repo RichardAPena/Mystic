@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <contentList>
 	<content contentuid="h48ee08b7g1fffg448fgb74cg1869e94eff0c" version="1">Psionic Talents</content>
-	<content contentuid="h72c94b04g8e93g4be5g92e4g00baacbc52e8" version="1">TODO: Psionic Talents Description</content>
+	<content contentuid="h72c94b04g8e93g4be5g92e4g00baacbc52e8" version="1">Psionic talents are minor abilities that require psionic aptitude but don’t drain psionic power.</content>
 	<content contentuid="hb0987083g9246g40c0g8ffdg625e493c146f" version="1">Psionic Disciplines</content>
-	<content contentuid="h317d0bf1g56c1g438bg8925g351d0acbeccc" version="1">TODO: Psionic Disciplines Description</content>
+	<content contentuid="h317d0bf1g56c1g438bg8925g351d0acbeccc" version="1">Psionic disciplines are the heart of a mystic's craft. They are the mental exercises and psionic formulae used to forge will into tangible, magical effects.</content>
 	<content contentuid="h6cbb9077g1bcag4fd4gafe1g25cf764ec67d" version="1">Avatar Disciplines</content>
-	<content contentuid="h74d66f9bg0592g4fe1gbda6g2ff2eac275e8" version="1">TODO: Avatar Disciplines Description</content>
+	<content contentuid="h74d66f9bg0592g4fe1gbda6g2ff2eac275e8" version="1">Select two additional Psionic Disciplines that are specific to disciples of the Order of the Avatar.</content>
 	<content contentuid="h2bcb4d2cg86eeg4fc4gb088g828ecf6b9c5b" version="1">Awakened Disciplines</content>
-	<content contentuid="hc9b85e82g5d07g4cf1gb699g67a7704e3f98" version="1">TODO: Awakened Disciplines Description</content>
+	<content contentuid="hc9b85e82g5d07g4cf1gb699g67a7704e3f98" version="1">Select two additional Psionic Disciplines that are specific to disciples of the Order of the Awakened.</content>
 	<content contentuid="he6884dc0g6395g438cgb573g58f7cf01605e" version="1">Immortal Disciplines</content>
-	<content contentuid="h2089f245g4642g4e4bg9fefg7da10cd4abcf" version="1">TODO: Immortal Disciplines Description</content>
+	<content contentuid="h2089f245g4642g4e4bg9fefg7da10cd4abcf" version="1">Select two additional Psionic Disciplines that are specific to disciples of the Order of the Immortal.</content>
 	<content contentuid="h71605b2ag690fg41dag97b1g8b7600f0f95b" version="1">Nomad Disciplines</content>
-	<content contentuid="he015ebbegfd9dg4370gb1e6gf229704f814d" version="1">TODO: Nomad Disciplines Description</content>
+	<content contentuid="he015ebbegfd9dg4370gb1e6gf229704f814d" version="1">Select two additional Psionic Disciplines that are specific to disciples of the Order of the Nomad.</content>
 	<content contentuid="h641eac2bge475g420cg8367g928983c21a80" version="1">Wu Jen Disciplines</content>
-	<content contentuid="h1aeab2c8gae62g4905g976dg7fb97479f6b0" version="1">TODO: Wu Jen Disciplines Description</content>
+	<content contentuid="h1aeab2c8gae62g4905g976dg7fb97479f6b0" version="1">Select two additional Psionic Disciplines that are specific to disciples of the Order of the Wu Jen.</content>
 	<content contentuid="hfbba16d5gd122g46b3gbda7gc03e7cc09bed" version="1">Psi Points are spent on Psionic Disciplines. The amount of points you can spend at once depends on your Mystic level.</content>
 	<content contentuid="heeb074ebga0e0g459dgb417g87158e793ab2" version="1">Psi Points</content>
 	<content contentuid="h4279b7e2g21b4g4891gba54gd134afe1cd53" version="1">Determines how many Psi Points you can spend at once. Increases with Mystic level.</content>
@@ -500,7 +500,7 @@
 	<content contentuid="hc4296d32g3725g41fegb775g60d9cbbdefbd" version="1">Bestial Transformation</content>
 	<content contentuid="hd209e5f1g4385g4512g8dcbgdf6e4cc1fc8a" version="1">Alter your physical form and gain beast-like qualities.</content>
 	<content contentuid="h58b0a047g5647g4d3dg87fbgb042040d00ad" version="1">Bestial Transformation: Flight</content>
-	<content contentuid="" version="1">Manifest wings, gaining the ability to Fly.</content>
+	<content contentuid="h2364d86dgcd75g455agbf20ge9ab5f86fff5" version="1">Manifest wings, gaining the ability to Fly.</content>
 	<content contentuid="h41db3a00g23fcg498dg86f3g85cd5fa0fad1" version="1">Able to fly.</content>
 	<content contentuid="h07c4c56cg0623g4c49g9906g0abdd8a96d64" version="1">Bestial Transformation: Keen Senses</content>
 	<content contentuid="h1b15d8b3gef38g4855ga2c3g482891599848" version="1">Gain Advantage on Perception Checks.</content>
@@ -758,12 +758,12 @@
 	<content contentuid="" version="1">TODO: Avatar of Speed Description</content>
 	<content contentuid="" version="1">TODO: Avatar of Speed Status Description</content>
 	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
+	<content contentuid="hfd02e5fbge611g4faag9663g00b78f794fd3" version="1">Immortal Durability</content>
+	<content contentuid="ha1b80016g75b0g4b86g980egd47c22370bee" version="1">TODO: Immortal Durability Description</content>
+	<content contentuid="h00ecd105g8ef2g46d7gbad6ge24f139bf19c" version="1">Psionic Resilience</content>
+	<content contentuid="h7673327cg277dg4b16gb394g1b4b25bcc5d9" version="1">TODO: Psionic Resilience Description</content>
+	<content contentuid="h56cb35d0g56f3g4098g8d58gbdab90b41a46" version="1">Surge of Health</content>
+	<content contentuid="h29c97f6dg93efg4497g9f86gdcf3a6ecaa0e" version="1">TODO: Surge of Health Description</content>
 	<content contentuid="" version="1"> </content>
 	<content contentuid="" version="1"> </content>
 	<content contentuid="" version="1"> </content>

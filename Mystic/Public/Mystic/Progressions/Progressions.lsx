@@ -12,7 +12,7 @@
                     <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_StrengthOfMind_Wisdom"/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectPassives(48317e03-fe2a-4767-8f4d-1bdc2a40ac65,1,PsionicDisciplines);SelectSkills(a93e9e09-6bdd-475c-b4e4-3acf69d02111,2);SelectSpells(7b64aaca-d5e5-4555-9df3-a19bb13b5008,2,0,PsionicTalents,,,AlwaysPrepared);"/>  Select ability bonus let you get the +2/+1 at CC
+                    <attribute id="Selectors" type="LSString" value="SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectPassives(48317e03-fe2a-4767-8f4d-1bdc2a40ac65,1,PsionicDisciplines);SelectSkills(a93e9e09-6bdd-475c-b4e4-3acf69d02111,2);SelectSpells(7b64aaca-d5e5-4555-9df3-a19bb13b5008,2,0,PsionicTalents,,,AlwaysPrepared);"/>
 					<attribute id="TableUUID" type="guid" value="4b5d89ce-9dfb-46c2-a205-77bbf05a6492"/>
                     <attribute id="UUID" type="guid" value="0482322d-723e-4705-a41a-99e27902311c"/>
 					<children>
@@ -42,14 +42,14 @@
                 </node>
 				<node id="Progression"> TODO: Mainclass Level 1 MULTICLASS
                     <attribute id="AllowImprovement" type="bool" value="false"/>
-                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(PsiPointsResource,5,0)"/>
                     <attribute id="IsMulticlass" type="bool" value="true"/>
 					<attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Mystic"/>
                     <attribute id="PassivesAdded" type="LSString" value=""/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(48317e03-fe2a-4767-8f4d-1bdc2a40ac65,1,PsionicDisciplines);SelectSpells(7b64aaca-d5e5-4555-9df3-a19bb13b5008,2,0,PsionicTalents,,,AlwaysPrepared);"/>
 					<attribute id="TableUUID" type="guid" value="4b5d89ce-9dfb-46c2-a205-77bbf05a6492"/>
                     <attribute id="UUID" type="guid" value="5e682fd9-6864-45e0-bf8b-f45555555555"/>
 					<children>
@@ -290,7 +290,7 @@
                     <attribute id="Level" type="uint8" value ="1"/>
                     <attribute id="Name" type="LSString" value="Immortal"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="PassivesAdded" type="LSString" value=""/> TODO: Immortal Durability
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_ImmortalDurability"/>
                     <attribute id="Selectors" type="LSString" value="SelectPassives(fcd58fd0-5737-4dcb-b927-84d569a0a7d1,2,ImmortalDisciplines)"/>
                     <attribute id="TableUUID" type="guid" value="a23f7115-85ef-497f-9ab8-79dd64ae4f4f"/>
                     <attribute id="UUID" type="guid" value="04c13ce2-ea36-4fc8-af1e-475d4f8afb6c"/>
@@ -300,7 +300,7 @@
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Immortal"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="PassivesAdded" type="LSString" value=""/> TODO: Psionic Resilience
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_PsionicResilience"/>
                     <attribute id="TableUUID" type="guid" value="a23f7115-85ef-497f-9ab8-79dd64ae4f4f"/>
                     <attribute id="UUID" type="guid" value="fbab0055-4c63-4822-89f7-e2dc88f9f565"/>
                 </node>
@@ -309,7 +309,7 @@
                     <attribute id="Level" type="uint8" value="6"/>
                     <attribute id="Name" type="LSString" value="Immortal"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="PassivesAdded" type="LSString" value=""/> TODO: Surge of Health
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_SurgeOfHealth"/>
                     <attribute id="TableUUID" type="guid" value="a23f7115-85ef-497f-9ab8-79dd64ae4f4f"/>
                     <attribute id="UUID" type="guid" value="cc532625-0f8d-49b2-814e-e564c847046a"/>
                 </node>
