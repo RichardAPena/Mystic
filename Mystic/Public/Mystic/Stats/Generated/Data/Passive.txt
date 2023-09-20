@@ -392,7 +392,7 @@ data "Description" "h63f5ec13ga44bg4706ga3cfgbb3655936380"
 data "Icon" "Action_Paladin_LayOnHands_SmallHeal"
 // data "EnableConditions" "HasActionResource('BonusActionPoint', 1, 0, false, false, context.Source)"
 data "StatsFunctorContext" "OnCast;OnActionResourcesChanged"
-data "Conditions" "IsSpell()"
+data "Conditions" "IsSpell() and not IsCantrip()"
 data "StatsFunctors" "ApplyStatus(SELF,MYSTIC_MYSTICAL_RECOVERY,100,1)"
 
 // Strength of Mind

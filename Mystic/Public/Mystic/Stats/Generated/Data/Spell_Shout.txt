@@ -1846,6 +1846,7 @@ data "Description" "h3e8253e1ge8f3g4516gb155gdb4f911f0ddf"
 data "DescriptionParams" ""
 
 data "ContainerSpells" "Shout_Mystic_StrengthOfMind_Strength;Shout_Mystic_StrengthOfMind_Dexterity;Shout_Mystic_StrengthOfMind_Constitution;Shout_Mystic_StrengthOfMind_Wisdom;Shout_Mystic_StrengthOfMind_Charisma"
+
 data "Cooldown" "OncePerShortRest"
 
 data "TargetConditions" "Self()"
