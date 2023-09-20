@@ -472,7 +472,7 @@
 	<content contentuid="" version="1">TODO: TELEPATHIC CONTACT ABILITY 5</content>
 	<content contentuid="" version="1">TODO: TELEPATHIC CONTACT ABILITY 5 DESCRIPTION</content>
 	<content contentuid="h04cf143dgea65g4a1egafcdg316ec104a315" version="1">Environmental Adaptation</content>
-	<content contentuid="h65b53eb8g9835g4416g91b9g3baf1ff1de81" version="1">Touch a creature to make them resistant to the elements, making them immune to Acid, Wet, Burning, Chilled and Electrocuted.</content>
+	<content contentuid="h65b53eb8g9835g4416g91b9g3baf1ff1de81" version="1">Touch a creature to make them resistant to the elements, making them immune to Acid, Wet, Burning and Chilled.</content>
 	<content contentuid="h98e25074gaff8g417agae94g7104c219aceb" version="1">Immune to Acid, Wet, Burning, Chilled and Electrocuted.</content>
 	<content contentuid="ha4113923g6596g4aa4ga10fg5d07f8d8abe7" version="1">Adaptive Shield</content>
 	<content contentuid="h6953cb97gffa3g4419gb10bg7aba9f9e8923" version="1">As a reaction, when taking Acid, Cold, Fire, Lightning or Thunder damage you can become Resistant to that damage until the end of your next turn.</content>
@@ -765,6 +765,7 @@
 	<content contentuid="h0fb6ae80ge747g4fffg9409gb7fa6353d523" version="1">Gain [1] temporary hit points.</content>
 	<content contentuid="h56cb35d0g56f3g4098g8d58gbdab90b41a46" version="1">Surge of Health</content>
 	<content contentuid="h29c97f6dg93efg4497g9f86gdcf3a6ecaa0e" version="1">As a reaction, halve incoming damage. Usable once per Short or Long Rest.</content>
+	
 	<content contentuid="" version="1"> </content>
 	<content contentuid="" version="1"> </content>
 	<content contentuid="" version="1"> </content>

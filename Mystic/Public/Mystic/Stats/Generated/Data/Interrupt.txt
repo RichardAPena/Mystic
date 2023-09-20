@@ -79,16 +79,18 @@ data "Properties" "UseSpell(OBSERVER_OBSERVER,Shout_Mystic_Triumph_7,true,true,t
 // Adaptive Shield
 new entry "Interrupt_Mystic_AdaptiveShield"
 type "InterruptData"
-data "DisplayName" ""
-data "Description" ""
-data "Icon" ""
-data "InterruptContext" ""
-data "InterruptContextScope" ""
-data "Container" ""
-data "Conditions" ""
-data "Properties" ""
-data "Cost" ""
-data "InterruptDefaultValue" ""
+data "DisplayName" "ha4113923g6596g4aa4ga10fg5d07f8d8abe7"
+data "Description" "h6953cb97gffa3g4419gb10bg7aba9f9e8923"
+data "Icon" "PassiveFeature_AbsorbElements"
+data "InterruptContextScope" "Self"
+data "Conditions" "IsAbleToReact(context.Observer) and Self(context.Target,context.Observer) and (SpellDamageTypeIs(DamageType.Acid) or SpellDamageTypeIs(DamageType.Cold) or SpellDamageTypeIs(DamageType.Fire) or SpellDamageTypeIs(DamageType.Lightning) or SpellDamageTypeIs(DamageType.Thunder)) and not AnyEntityIsItem()"
+data "Properties" "SetDamageResistance(Acid);SetDamageResistance(Cold);SetDamageResistance(Fire);SetDamageResistance(Lightning);SetDamageResistance(Thunder);ApplyStatus(OBSERVER_TARGET, ABSORB_ELEMENTS_ACTIVE,100,1)"
+data "Cost" "ReactionActionPoint:1;PsiPointsResource:1;PsiLimitResource:1:3"
+// data "Cooldown" "OncePerShortRestPerItem"
+data "EnableCondition" "not HasStatus('SG_Polymorph')"
+// and HasActionResource('Interrupt_AbsorbElements', 1, 0, false, false, context.Source)
+data "EnableContext" "OnActionResourcesChanged"
+
 
 new entry "Interrupt_Mystic_PsychicBacklash"
 type "InterruptData"

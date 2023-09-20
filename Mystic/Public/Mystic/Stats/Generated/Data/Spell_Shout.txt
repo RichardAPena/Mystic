@@ -601,7 +601,7 @@ new entry "Shout_Mystic_AdaptiveShield"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" "Action_FeyPresence"
+data "Icon" "PassiveFeature_AbsorbElements"
 data "DisplayName" "ha4113923g6596g4aa4ga10fg5d07f8d8abe7"
 data "Description" "h6953cb97gffa3g4419gb10bg7aba9f9e8923"
 data "DescriptionParams" ""
@@ -614,7 +614,7 @@ new entry "Shout_Mystic_BestialTransformation"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" ""
+data "Icon" "Action_Monster_Minotaur_Gore"
 data "DisplayName" "hc4296d32g3725g41fegb775g60d9cbbdefbd"
 data "Description" "hd209e5f1g4385g4512g8dcbgdf6e4cc1fc8a"
 
@@ -639,7 +639,7 @@ new entry "Shout_Mystic_BestialTransformation_Flight"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" ""
+data "Icon" "Action_Monster_GiantEagle_Fly"
 data "DisplayName" "h58b0a047g5647g4d3dg87fbgb042040d00ad"
 data "Description" "h2364d86dgcd75g455agbf20ge9ab5f86fff5"
 
@@ -662,7 +662,7 @@ new entry "Shout_Mystic_BestialTransformation_KeenSenses"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" ""
+data "Icon" "Action_Ranger_RangersCompanion_Wolf"
 data "DisplayName" "h07c4c56cg0623g4c49g9906g0abdd8a96d64"
 data "Description" "h1b15d8b3gef38g4855ga2c3g482891599848"
 
@@ -685,7 +685,7 @@ new entry "Shout_Mystic_BestialTransformation_PerfectSenses"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" ""
+data "Icon" "Action_Monster_Panther_EnhancedJump"
 data "DisplayName" "h9afc0b62gb35ag4240gb907gf733152ee79b"
 data "Description" "ha0ae7d81g60c0g4bdag89cbg96ea37133fdd"
 
@@ -708,7 +708,7 @@ new entry "Shout_Mystic_BestialTransformation_ToughHide"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" ""
+data "Icon" "Action_Ranger_RangersCompanion_Bear"
 data "DisplayName" "h4c88af96g0d6fg4b41ga12fg186e26fa1ba5"
 data "Description" "h573c7d8bg75c8g4630ga467g32bece7da1f3"
 
@@ -1762,10 +1762,10 @@ new entry "Shout_Mystic_MysticalRecovery"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" "Spell_Abjuration_Stoneskin"
+data "Icon" "Action_Paladin_LayOnHands_SmallHeal"
 data "DisplayName" "h9056fee7g112dg4688g9c65g54a5e5ab47f6"
 data "Description" "h32ee756eg1530g47d2gbef1gd45be73fc52a"
-data "DescriptionParams" "(1+ClassLevel(Mystic)/2)"
+data "DescriptionParams" "RegainHitPoints(1+ClassLevel(Mystic)/2)"
 
 data "TargetConditions" "Self()"
 data "SpellProperties" "RegainHitPoints(1+ClassLevel(Mystic)/2);RemoveStatus(MYSTIC_MYSTICAL_RECOVERY)"

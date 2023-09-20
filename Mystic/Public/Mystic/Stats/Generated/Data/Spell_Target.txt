@@ -1559,10 +1559,10 @@ new entry "Target_Mystic_EnvironmentalAdaptation"
 type "SpellData"
 data "SpellType" "Target"
 
-data "Icon" ""
+data "Icon" "PassiveFeature_Land_Desert"
 data "DisplayName" "h04cf143dgea65g4a1egafcdg316ec104a315"
 data "Description" "h65b53eb8g9835g4416g91b9g3baf1ff1de81"
-data "DescriptionParams" ""
+// data "DescriptionParams" ""
 
 // Energy Adaptation
 new entry "Target_Mystic_EnergyAdaptation"
@@ -1574,15 +1574,34 @@ data "DisplayName" "h817c5c70gb755g474cg89c1gac0d247f3f1b"
 data "Description" "hecd1a052gec52g4136gb037gb8e42b61c807"
 data "DescriptionParams" ""
 
+data "ContainerSpells" "Target_Mystic_EnergyAdaptation_Acid;Target_Mystic_EnergyAdaptation_Cold;Target_Mystic_EnergyAdaptation_Fire;Target_Mystic_EnergyAdaptation_Lightning;Target_Mystic_EnergyAdaptation_Thunder;"
+
+// TODO: ELEMETNAS
+new entry "Target_Mystic_EnergyAdaptation_Acid"
+new entry "Target_Mystic_EnergyAdaptation_Cold"
+new entry "Target_Mystic_EnergyAdaptation_Fire"
+new entry "Target_Mystic_EnergyAdaptation_Lightning"
+new entry "Target_Mystic_EnergyAdaptation_Thunder"
+
 // Energy Immunity
 new entry "Target_Mystic_EnergyImmunity"
 type "SpellData"
 data "SpellType" "Target"
 
-data "Icon" ""
+data "Icon" "PassiveFeature_Land_Arctic"
 data "DisplayName" "he668e2ccg53d3g4394g808ag4017eb898ca7"
 data "Description" "hd2e9ef5dgd2efg45b0ga5c5gc74500cdffbd"
 data "DescriptionParams" ""
+
+data "ContainerSpells" "Target_Mystic_EnergyImmunity_Acid;Target_Mystic_EnergyImmunity_Cold;Target_Mystic_EnergyImmunity_Fire;Target_Mystic_EnergyImmunity_Lightning;Target_Mystic_EnergyImmunity_Thunder;"
+
+
+// TODO: ELEMETNAS
+new entry "Target_Mystic_EnergyImmunity_Acid"
+new entry "Target_Mystic_EnergyImmunity_Cold"
+new entry "Target_Mystic_EnergyImmunity_Fire"
+new entry "Target_Mystic_EnergyImmunity_Lightning"
+new entry "Target_Mystic_EnergyImmunity_Thunder"
 
 // Bestial Claws
 new entry "Target_Mystic_BestialClaws"
