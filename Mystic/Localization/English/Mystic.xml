@@ -1,9 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <contentList>
-	<content contentuid="" version="1">Psionic Talents</content>
-	<content contentuid="" version="1">TODO: Psionic Talents Description</content>
+	<content contentuid="h48ee08b7g1fffg448fgb74cg1869e94eff0c" version="1">Psionic Talents</content>
+	<content contentuid="h72c94b04g8e93g4be5g92e4g00baacbc52e8" version="1">TODO: Psionic Talents Description</content>
 	<content contentuid="hb0987083g9246g40c0g8ffdg625e493c146f" version="1">Psionic Disciplines</content>
 	<content contentuid="h317d0bf1g56c1g438bg8925g351d0acbeccc" version="1">TODO: Psionic Disciplines Description</content>
+	<content contentuid="h6cbb9077g1bcag4fd4gafe1g25cf764ec67d" version="1">Avatar Disciplines</content>
+	<content contentuid="h74d66f9bg0592g4fe1gbda6g2ff2eac275e8" version="1">TODO: Avatar Disciplines Description</content>
+	<content contentuid="h2bcb4d2cg86eeg4fc4gb088g828ecf6b9c5b" version="1">Awakened Disciplines</content>
+	<content contentuid="hc9b85e82g5d07g4cf1gb699g67a7704e3f98" version="1">TODO: Awakened Disciplines Description</content>
+	<content contentuid="he6884dc0g6395g438cgb573g58f7cf01605e" version="1">Immortal Disciplines</content>
+	<content contentuid="h2089f245g4642g4e4bg9fefg7da10cd4abcf" version="1">TODO: Immortal Disciplines Description</content>
+	<content contentuid="h71605b2ag690fg41dag97b1g8b7600f0f95b" version="1">Nomad Disciplines</content>
+	<content contentuid="he015ebbegfd9dg4370gb1e6gf229704f814d" version="1">TODO: Nomad Disciplines Description</content>
+	<content contentuid="h641eac2bge475g420cg8367g928983c21a80" version="1">Wu Jen Disciplines</content>
+	<content contentuid="h1aeab2c8gae62g4905g976dg7fb97479f6b0" version="1">TODO: Wu Jen Disciplines Description</content>
 	<content contentuid="hfbba16d5gd122g46b3gbda7gc03e7cc09bed" version="1">Psi Points are spent on Psionic Disciplines. The amount of points you can spend at once depends on your Mystic level.</content>
 	<content contentuid="heeb074ebga0e0g459dgb417g87158e793ab2" version="1">Psi Points</content>
 	<content contentuid="h4279b7e2g21b4g4891gba54gd134afe1cd53" version="1">Determines how many Psi Points you can spend at once. Increases with Mystic level.</content>
