@@ -390,8 +390,8 @@ type "PassiveData"
 data "DisplayName" "h9056fee7g112dg4688g9c65g54a5e5ab47f6"
 data "Description" "h63f5ec13ga44bg4706ga3cfgbb3655936380"
 data "Icon" "Action_Paladin_LayOnHands_SmallHeal"
-data "EnableConditions" "HasActionResource('BonusActionPoint', 1, 0, false, false, context.Source)"
-data "StatsFunctorContext" "OnCastResolved;OnActionResourcesChanged"
+// data "EnableConditions" "HasActionResource('BonusActionPoint', 1, 0, false, false, context.Source)"
+data "StatsFunctorContext" "OnCast;OnActionResourcesChanged"
 data "Conditions" "IsSpell()"
 data "StatsFunctors" "ApplyStatus(SELF,MYSTIC_MYSTICAL_RECOVERY,100,1)"
 
@@ -510,7 +510,7 @@ data "Boosts" "UnlockInterrupt(Interrupt_Mystic_SurgeOfHealth);ActionResource(In
 // "After slaying an enemy creature with a soul knife attack, regain 2 psi points."
 
 // Elemental Attunement (Wu Jen)
-// 
+// REWORK: You may spend 1 Psi Point at will and choose a resistance to ignore.
 
 // Arcane Dabbler? (Wu Jen)
 // Elemental Mastery (Wu Jen)

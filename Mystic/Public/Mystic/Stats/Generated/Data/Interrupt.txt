@@ -1,21 +1,3 @@
-new entry "Interrupt_Example"
-type "InterruptData"
-data "DisplayName" "b46f93019df6cfa3dc0372013057cd4ad296f;1" // From .loca file //
-data "Description" "dc6cc9b02903e8674849e37d7791a7a298f17;1" // From .lova file //
-data "Icon" "Spell_Shield" // Choose an ingame icon or an Icon you made or leave it blank //
-data "InterruptContext" "OnPostRoll;OnPreDamage" // what kind of trigger is this interrupt looking for //
-data "InterruptContextScope" "Self" // what is the scope of the trigger //
-data "Container" "YesNoDecision" // what kind of decision //
-data "Conditions" "" // what conditions has to be met for the interrupt to trigger //
-data "Properties" "" // what happens when you choose to use it //
-data "Cost" "" // what is the resource cost of the interrupt //
-data "InterruptDefaultValue" "Ask;Enabled" // default setting, can be changed in game //
-
-// Check Modifiers for additional things you can do with Interrupts //
-
-// Potent Psionics: Strike
-// popup window for when you hit someone goes here
-
 // Punishing Fury
 new entry "Interrupt_Mystic_PunishingFury"
 type "InterruptData"
@@ -26,14 +8,13 @@ data "InterruptContext" "OnCastHit"
 data "InterruptContextScope" "Nearby"
 data "Container" "YesNoDecision"
 data "Conditions" "not Self(context.Source,context.Observer) and Ally(context.Target, context.Observer) and Enemy(context.Source, context.Observer) and IsAbleToReact(context.Observer) and IsMeleeAttack() and not DistanceToEntityGreaterThan(2, context.ObserverPosition, context.Source) and not AnyEntityIsItem() and HasLastAttackTriggered() and HasStatus('MYSTIC_PUNISHING_FURY', context.Source)""
-// data "Conditions" "not Self(context.Target,context.Observer) and not Self(context.Source,context.Observer) and Ally(context.Target, context.Observer) and Enemy(context.Source, context.Observer) and IsAbleToReact(context.Observer) and IsMeleeAttack() and not DistanceToEntityGreaterThan(2, context.ObserverPosition, context.Source) and not AnyEntityIsItem() and HasLastAttackTriggered()""
 data "Properties" "UseAttack(OBSERVER_SOURCE)"
 data "Cost" "ReactionActionPoint:1"
 data "InterruptDefaultValue" "Ask;Enabled"
 data "EnableCondition" "not HasAnyStatus({'SG_Polymorph','SG_Blinded'}) or Tagged('MINDFLAYER')"
 data "EnableContext" "OnStatusApplied;OnStatusRemoved"
 
-// Aura of Victory (Rallying Cry)
+// Aura of Victory (Rallying Cry/Triumph)
 new entry "Interrupt_Mystic_AuraOfVictory"
 type "InterruptData"
 data "DisplayName" "h217c8d85gd7ebg4ddcg901agd58751efd008"
@@ -86,12 +67,10 @@ data "InterruptContextScope" "Self"
 data "Conditions" "IsAbleToReact(context.Observer) and Self(context.Target,context.Observer) and (SpellDamageTypeIs(DamageType.Acid) or SpellDamageTypeIs(DamageType.Cold) or SpellDamageTypeIs(DamageType.Fire) or SpellDamageTypeIs(DamageType.Lightning) or SpellDamageTypeIs(DamageType.Thunder)) and not AnyEntityIsItem()"
 data "Properties" "SetDamageResistance(Acid);SetDamageResistance(Cold);SetDamageResistance(Fire);SetDamageResistance(Lightning);SetDamageResistance(Thunder);ApplyStatus(OBSERVER_TARGET, ABSORB_ELEMENTS_ACTIVE,100,1)"
 data "Cost" "ReactionActionPoint:1;PsiPointsResource:1;PsiLimitResource:1:3"
-// data "Cooldown" "OncePerShortRestPerItem"
 data "EnableCondition" "not HasStatus('SG_Polymorph')"
-// and HasActionResource('Interrupt_AbsorbElements', 1, 0, false, false, context.Source)
 data "EnableContext" "OnActionResourcesChanged"
 
-
+// Psychic Backlash
 new entry "Interrupt_Mystic_PsychicBacklash"
 type "InterruptData"
 data "DisplayName" ""
@@ -105,6 +84,7 @@ data "Properties" ""
 data "Cost" ""
 data "InterruptDefaultValue" ""
 
+// Psychic Parry
 new entry "Interrupt_Mystic_PsychicParry"
 type "InterruptData"
 data "DisplayName" ""
@@ -118,6 +98,7 @@ data "Properties" ""
 data "Cost" ""
 data "InterruptDefaultValue" ""
 
+// All-Around Sight
 new entry "Interrupt_Mystic_AllAroundSight"
 type "InterruptData"
 data "DisplayName" ""
@@ -131,19 +112,26 @@ data "Properties" ""
 data "Cost" ""
 data "InterruptDefaultValue" ""
 
+// Knock Back
 new entry "Interrupt_Mystic_KnockBack"
 type "InterruptData"
-data "DisplayName" ""
-data "Description" ""
-data "Icon" ""
-data "InterruptContext" ""
-data "InterruptContextScope" ""
-data "Container" ""
-data "Conditions" ""
-data "Properties" ""
-data "Cost" ""
-data "InterruptDefaultValue" ""
+data "DisplayName" "h64861ffdge092g4be5gae41g02d96367cb93"
+data "Description" "hafa0ff17g5d7fg4454gb0c4g5eee7b446f19"
+data "DescriptionParams" "Distance(9)"
+data "Icon" "Action_Monk_FistOfUnbrokenAir"
+data "InterruptContext" "OnCastHit"
+data "InterruptContextScope" "Self"
+data "Container" "YesNoDecision"
+data "Conditions" "Self(context.Source,context.Observer) and IsMeleeAttack() and not IsKillingBlow() and IsHit() and Character() and not AnyEntityIsItem()"
+data "Properties" "Force(9)"
+data "Cost" "ReactionActionPoint:1;PsiPointsResource:2"
+data "InterruptDefaultValue" "Ask;Enabled"
+// data "EnableCondition" "HasActionResource('Interrupt_PsionicStrike', 1, 0, false, false, context.Source) and (not HasStatus('SG_Polymorph') or Tagged('MINDFLAYER'))"
+// data "EnableContext" "OnActionResourcesChanged"
 
+
+
+// Acid Spray
 new entry "Interrupt_Mystic_AcidSpray"
 type "InterruptData"
 data "DisplayName" ""
@@ -157,6 +145,7 @@ data "Properties" ""
 data "Cost" ""
 data "InterruptDefaultValue" ""
 
+// Sudden Shift
 new entry "Interrupt_Mystic_SuddenShift"
 type "InterruptData"
 data "DisplayName" ""
@@ -170,6 +159,7 @@ data "Properties" ""
 data "Cost" ""
 data "InterruptDefaultValue" ""
 
+// Iron Hide
 new entry "Interrupt_Mystic_IronHide"
 type "InterruptData"
 data "DisplayName" ""
@@ -183,6 +173,7 @@ data "Properties" ""
 data "Cost" ""
 data "InterruptDefaultValue" ""
 
+// Seeking Missile
 new entry "Interrupt_Mystic_SeekingMissile"
 type "InterruptData"
 data "DisplayName" ""
@@ -219,6 +210,8 @@ using "Interrupt_Mystic_PsionicStrike"
 data "DisplayName" ""
 data "Conditions" "Self(context.Source,context.Observer) and IsWeaponAttack() and IsCritical() and not IsKillingBlow() and IsHit() and not IsDivineStrike() and Character() and not AnyEntityIsItem()"
 
+// Psionic Surge
+
 // Surge of Health
 new entry "Interrupt_Mystic_SurgeOfHealth"
 type "InterruptData"
@@ -241,8 +234,5 @@ data "InterruptDefaultValue" "Ask;Enabled"
 data "EnableCondition" "not HasAnyStatus({'SG_Polymorph'}) or Tagged('MINDFLAYER')"
 data "EnableContext" "OnStatusApplied"
 
+// Memory of One Thousand Steps
 
-
-// DELET THIS
-// data "Conditions" "IsAbleToReact(context.Observer) and (Self(context.Target,context.Observer) or Ally(context.Target,context.Observer)) and DampenElementsCheck(context.HitDescription.MainDamageType, context.Target) and not AnyEntityIsItem()"
-// data "Properties" "SetDamageResistance(Acid);SetDamageResistance(Cold);SetDamageResistance(Fire);SetDamageResistance(Lightning);SetDamageResistance(Thunder);ApplyStatus(OBSERVER_TARGET,INTERRUPT_DAMPEN_ELEMENTS,100,0);IF(not Self(context.Target,context.Observer)):UseSpell(OBSERVER_TARGET,Target_DampenElements_Interrupt,true,true,true)"

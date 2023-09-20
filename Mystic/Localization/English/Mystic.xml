@@ -483,18 +483,38 @@
 	<content contentuid="" version="1">Resistant to Thunder damage.</content>
 	<content contentuid="h817c5c70gb755g474cg89c1gac0d247f3f1b" version="1">Energy Adaptation</content>
 	<content contentuid="hecd1a052gec52g4136gb037gb8e42b61c807" version="1">Touch a creature and give it Resistance to Acid, Cold, Fire, Lightning or Thunder damage.</content>
-	<content contentuid="" version="1">Resistant to Acid damage.</content>
-	<content contentuid="" version="1">Resistant to Cold damage.</content>
-	<content contentuid="" version="1">Resistant to Fire damage.</content>
-	<content contentuid="" version="1">Resistant to Lightning damage.</content>
-	<content contentuid="" version="1">Resistant to Thunder damage.</content>
+	<content contentuid="h41946503g3b80g496fg81dcg81c5d6a0010d" version="1">Energy Adaptation: Acid</content>
+	<content contentuid="he4665d32gec48g45ebgb563gfd12fb0aae61" version="1">Energy Adaptation: Cold</content>
+	<content contentuid="h11ae5377gd5dcg44cfg9e9cg97d343c28cbb" version="1">Energy Adaptation: Fire</content>
+	<content contentuid="h5cf61b50gee38g49b1gb5dfg2a937ddea405" version="1">Energy Adaptation: Lightning</content>
+	<content contentuid="hc288f049g1c36g4f56gbd71g5d366b578b02" version="1">Energy Adaptation: Thunder</content>
+	<content contentuid="heab511c0g06d8g4be4g81c4ga7448948bc51" version="1">Touch a creature and give it Resistance to Acid damage.</content>
+	<content contentuid="h7580ef9fg7fa7g4d0dg9135ge924b3a6eb9e" version="1">Touch a creature and give it Resistance to Cold damage.</content>
+	<content contentuid="h550ec4f0g713eg4897g9738g24e030f45e70" version="1">Touch a creature and give it Resistance to Fire damage.</content>
+	<content contentuid="h2d590e57g311fg4a4egb814geb99daa90c46" version="1">Touch a creature and give it Resistance to Lightning damage.</content>
+	<content contentuid="h83dd6f3eg6d3dg4265gb0a0g55aa77556451" version="1">Touch a creature and give it Resistance to Thunder damage.</content>
+	<content contentuid="h911d2507g49dag461ega6c5g2729b928b18d" version="1">Resistant to Acid damage.</content>
+	<content contentuid="hc6e1c14fge76ag41cag8ff9g503fc4adcff9" version="1">Resistant to Cold damage.</content>
+	<content contentuid="hbf5c48c1g8d4bg49aeg96e0g8ee88b55867f" version="1">Resistant to Fire damage.</content>
+	<content contentuid="h9d152a9ag6a06g4e33ga1d2g2417aacc4bf7" version="1">Resistant to Lightning damage.</content>
+	<content contentuid="hb1343c42g6f3dg4c75g99fag3a90c3eb955f" version="1">Resistant to Thunder damage.</content>
 	<content contentuid="he668e2ccg53d3g4394g808ag4017eb898ca7" version="1">Energy Immunity</content>
 	<content contentuid="hd2e9ef5dgd2efg45b0ga5c5gc74500cdffbd" version="1">Touch a creature and give it Immunity to Acid, Cold, Fire, Lightning or Thunder damage.</content>
-	<content contentuid="" version="1">Immune to Acid damage.</content>
-	<content contentuid="" version="1">Immune to Cold damage.</content>
-	<content contentuid="" version="1">Immune to Fire damage.</content>
-	<content contentuid="" version="1">Immune to Lightning damage.</content>
-	<content contentuid="" version="1">Immune to Thunder damage.</content>
+	<content contentuid="hf5445d93g59a4g4c7dg8963gdd0a28155ee2" version="1">Energy Immunity: Acid</content>
+	<content contentuid="hd0aa0a64g9cbag40abg814agd94cbaff3287" version="1">Energy Immunity: Cold</content>
+	<content contentuid="hbab13569g0071g488fga4ebg3af71f66892b" version="1">Energy Immunity: Fire</content>
+	<content contentuid="h95dc079ega544g4574g82aegf9416e982699" version="1">Energy Immunity: Lightning</content>
+	<content contentuid="h134b03cdgdf3fg4a90g87c3gda778f26ceca" version="1">Energy Immunity: Thunder</content>
+	<content contentuid="h5198102fgd473g4d35g8060gf998da09c84a" version="1">Touch a creature and give it Immunity to Acid damage.</content>
+	<content contentuid="hfe79c76agc0cag4593g8314g9e8ad3f8bfa4" version="1">Touch a creature and give it Immunity to Cold damage.</content>
+	<content contentuid="h834c317eg45b0g48edgbcb0g065e05e6b758" version="1">Touch a creature and give it Immunity to Fire damage.</content>
+	<content contentuid="h7b88a056g0cfag41b8gb753gd4fbeae373ec" version="1">Touch a creature and give it Immunity to Lightning damage.</content>
+	<content contentuid="h8ffba70fgde36g4694gbfacgfb75a228b864" version="1">Touch a creature and give it Immunity to Thunder damage.</content>
+	<content contentuid="ha670d989g3043g43eag886ag10e25cad90fe" version="1">Immune to Acid damage.</content>
+	<content contentuid="hd4dfd0b7g2256g4428gb5b2ge6e804234d0e" version="1">Immune to Cold damage.</content>
+	<content contentuid="h0bc0250bgebfeg448bg8c21g59e50381eab6" version="1">Immune to Fire damage.</content>
+	<content contentuid="h16249d5dg90c0g45a5gb593gbd9d5335ac18" version="1">Immune to Lightning damage.</content>
+	<content contentuid="h62c48597g76b4g4851gae64g0c1dc04b8ce5" version="1">Immune to Thunder damage.</content>
 	<content contentuid="h9b340899gf59dg4098ga2b2g9ffd7373e832" version="1">Bestial Claws</content>
 	<content contentuid="h38f7b167g698eg479cgbf25g7ab2e0a735f8" version="1">Manifest sharp claws and swipe at the target.</content>
 	<content contentuid="hc4296d32g3725g41fegb775g60d9cbbdefbd" version="1">Bestial Transformation</content>
@@ -504,13 +524,13 @@
 	<content contentuid="h41db3a00g23fcg498dg86f3g85cd5fa0fad1" version="1">Able to fly.</content>
 	<content contentuid="h07c4c56cg0623g4c49g9906g0abdd8a96d64" version="1">Bestial Transformation: Keen Senses</content>
 	<content contentuid="h1b15d8b3gef38g4855ga2c3g482891599848" version="1">Gain Advantage on Perception Checks.</content>
-	<content contentuid="" version="1">Advantage on Perception Checks.</content>
+	<content contentuid="he737334egb816g4efegb239gfe51ad5c880e" version="1">Advantage on Perception Checks.</content>
 	<content contentuid="h9afc0b62gb35ag4240gb907gf733152ee79b" version="1">Bestial Transformation: Perfect Senses</content>
 	<content contentuid="ha0ae7d81g60c0g4bdag89cbg96ea37133fdd" version="1">Gain Immunity to Blindness and be able to see Invisible creatures within [1].</content>
-	<content contentuid="" version="1">Immune to Blindness. Able to see Invisible creatures within [1].</content>
+	<content contentuid="h0c926aebg6df8g4d22g8893ga32aed670bc4" version="1">Able to see Invisible creatures.</content>
 	<content contentuid="h4c88af96g0d6fg4b41ga12fg186e26fa1ba5" version="1">Bestial Transformation: Tough Hide</content>
 	<content contentuid="h573c7d8bg75c8g4630ga467g32bece7da1f3" version="1">Your skin becomes as tough as leather, increasing your Armour Class by 2.</content>
-	<content contentuid="" version="1">Armour Class increased by 2.</content>
+	<content contentuid="hbbaca92egc196g4f08g9957gce2955684149" version="1">Armour Class increased by 2.</content>
 	<content contentuid="h96909d39g467cg414ag9436g40c3d4346af2" version="1">Brute Strike</content>
 	<content contentuid="h5a8514d1gab95g41ffg9956g606887cbfeef" version="1">Muster up your strength, giving you [1] increased damage on your next melee attack this turn.</content>
 	<content contentuid="hc56a3e6cg024eg409fgbf75g5cab5b51f8a1" version="1">Next melee attack deals an additional [1] damage.</content>
