@@ -1681,6 +1681,7 @@ data "SpellFlags" "IsSpell;IsConcentration;IsMelee"
 new entry "Target_Mystic_EnergyImmunity"
 type "SpellData"
 data "SpellType" "Target"
+data "Level" "7"
 
 data "Icon" "PassiveFeature_Land_Arctic"
 data "DisplayName" "he668e2ccg53d3g4394g808ag4017eb898ca7"
