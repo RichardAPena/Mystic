@@ -25,6 +25,7 @@ data "DescriptionParams" ""
 new entry "Target_Mystic_MightyLeap"
 type "SpellData"
 data "SpellType" "Projectile"
+data "Level" "1"
 
 data "Icon" "Action_AoEDamageOnJump"
 data "DisplayName" "h1598778aga893g4fb9g8c9bg9f3b911368d9"

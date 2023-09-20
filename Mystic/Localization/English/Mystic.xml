@@ -105,7 +105,7 @@
 	<content contentuid="h0aa174f1g2fa2g4e53gb422g0dbdf78e1ad8" version="1">Psychic Disruption</content>
 	<content contentuid="h9d101d3bg7a6ag4d74gb632ga7a96d3a815f" version="1">You create psychic static that disrupts other creatures’ ability to think clearly.</content>
 	<content contentuid="he621a7e5g45fag4c6dg8bf6gcd955f76008a" version="1">Psychic Supression</content>
-	<content contentuid="h1ce046e0gfc9eg48beg9adcgeadc0348a565" version="1">TODO: You reach into a creature’s mind to uncover information or plant ideas within it.</content>
+	<content contentuid="h1ce046e0gfc9eg48beg9adcgeadc0348a565" version="1">You reach deep into a creature’s mind, destroying it from the inside out.</content>
 	<content contentuid="h051f862eg7cdfg4ee6gbae4gd88b406fd1b2" version="1">Telepathic Subjugation</content>
 	<content contentuid="hda770c0ag5375g4a72gbb86g32a49846cbb6" version="1">By channeling psionic power, you gain the ability to control other creatures by substituting your will for their own.</content>
 	<content contentuid="heb25c661gd0e1g43eag89e8gf9a2dbee7054" version="1">Third Eye</content>
@@ -759,11 +759,12 @@
 	<content contentuid="" version="1">TODO: Avatar of Speed Status Description</content>
 	<content contentuid="" version="1"> </content>
 	<content contentuid="hfd02e5fbge611g4faag9663g00b78f794fd3" version="1">Immortal Durability</content>
-	<content contentuid="ha1b80016g75b0g4b86g980egd47c22370bee" version="1">TODO: Immortal Durability Description</content>
+	<content contentuid="ha1b80016g75b0g4b86g980egd47c22370bee" version="1">While not wearing armour, you add your Constitution Modifier to your Armour Class.</content>
 	<content contentuid="h00ecd105g8ef2g46d7gbad6ge24f139bf19c" version="1">Psionic Resilience</content>
-	<content contentuid="h7673327cg277dg4b16gb394g1b4b25bcc5d9" version="1">TODO: Psionic Resilience Description</content>
+	<content contentuid="h7673327cg277dg4b16gb394g1b4b25bcc5d9" version="1">At the start of each of your turns, gain temporary hit points equal to your Intelligence modifier.</content>
+	<content contentuid="h0fb6ae80ge747g4fffg9409gb7fa6353d523" version="1">Gain [1] temporary hit points.</content>
 	<content contentuid="h56cb35d0g56f3g4098g8d58gbdab90b41a46" version="1">Surge of Health</content>
-	<content contentuid="h29c97f6dg93efg4497g9f86gdcf3a6ecaa0e" version="1">TODO: Surge of Health Description</content>
+	<content contentuid="h29c97f6dg93efg4497g9f86gdcf3a6ecaa0e" version="1">As a reaction, halve incoming damage. Usable once per Short or Long Rest.</content>
 	<content contentuid="" version="1"> </content>
 	<content contentuid="" version="1"> </content>
 	<content contentuid="" version="1"> </content>

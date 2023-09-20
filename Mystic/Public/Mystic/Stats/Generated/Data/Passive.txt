@@ -437,7 +437,7 @@ data "DisplayName" "h2ae84d46g9f37g45a5g988bg8b08fff62394"
 data "Description" "hf729263eg37dcg43fbg923cg24cc642f6773"
 data "Icon" "PassiveFeature_BrutalCritical"
 data "DescriptionParams" "DealDamage(1d8,Psychic)"
-data "Boosts" "UnlockInterrupt(Interrupt_PsionicStrike);ActionResource(Interrupt_PsionicStrike,1,0)"
+data "Boosts" "UnlockInterrupt(Interrupt_Mystic_PsionicStrike);UnlockInterrupt(Interrupt_Mystic_PsionicStrike_Critical);ActionResource(Interrupt_PsionicStrike,1,0)"
 data "ToggleGroup" "DivineStrike"
 
 // Potent Psionics: Empower
@@ -445,6 +445,7 @@ data "ToggleGroup" "DivineStrike"
 
 // Consumptive Power
 // "You can now spend hit points instead of psi points to cast psionic disciplines. Only usable once per Long Rest, and your maximum hit points will be reduced until your next Long Rest."
+// Rework: At will, you can sacrifice 7 maximum hit points to gain 7 psi points back. Usable once per long rest.
 
 // Psionic Mastery
 // ***REWORK PLS
@@ -464,37 +465,32 @@ data "StatsFunctors" "RegainHitPoints(2)"
 // "You can spend a reaction/psychic focus to impose Disadvantage on a target's Saving Throw against psionic discipline or talent you use."
 
 // Immortal Durability (Immortal)
-// "When not wearing armor or shields, add your Constitution modifier to your Armour Class."
-// TODO: Copy unarmored defense from barb
 new entry "Passive_Mystic_ImmortalDurability"
 type "PassiveData"
 data "DisplayName" "hfd02e5fbge611g4faag9663g00b78f794fd3"
 data "Description" "ha1b80016g75b0g4b86g980egd47c22370bee"
-data "Icon" ""
-data "DescriptionParams" ""
-data "Boosts" ""
+data "Icon" "PassiveFeature_UnarmoredDefense_Barbarian"
+data "Properties" "Highlighted"
+data "BoostContext" "OnEquip;OnCreate"
+data "BoostConditions" "not WearingArmor(context.Source)"
+data "Boosts" "ACOverrideFormula(10,true,Dexterity,Constitution)"
 
 // Psionic Resilience (Immortal)
-// "At the start of each of your turns, gain temporary hit points equal to your Intelligence modifier." (unless ur downed)
-// TODO: OnTurn start, give urself PsionicResilience -> TEMPORARY_HP(IntelligenceModifier)
 new entry "Passive_Mystic_PsionicResilience"
 type "PassiveData"
 data "DisplayName" "h00ecd105g8ef2g46d7gbad6ge24f139bf19c"
 data "Description" "h7673327cg277dg4b16gb394g1b4b25bcc5d9"
-data "Icon" ""
-data "DescriptionParams" ""
-data "Boosts" ""
+data "Icon" "Action_ShieldShove"
+data "StatsFunctorContext" "OnTurn"
+data "StatsFunctors" "ApplyStatus(SELF,MYSTIC_PSIONIC_RESILIENCE,100,-1)"
 
 // Surge of Health (Immortal)
-// "As a reaction, halve incoming damage. Usable once per Short or Long Rest."
-// TODO
 new entry "Passive_Mystic_SurgeOfHealth"
 type "PassiveData"
 data "DisplayName" "h56cb35d0g56f3g4098g8d58gbdab90b41a46"
 data "Description" "h29c97f6dg93efg4497g9f86gdcf3a6ecaa0e"
-data "Icon" ""
-data "DescriptionParams" ""
-data "Boosts" ""
+data "Icon" "Action_Barbarian_MagicAwareness"
+data "Boosts" "UnlockInterrupt(Interrupt_Mystic_SurgeOfHealth);ActionResource(Interrupt_SurgeOfHealth,1,0)"
 
 // Immortal Will (Immortal)
 // "When you reach 0 hit points, you can spend 5 psi points to restore X hit points. Healing increases with your Mystic level and Constitution modifier."

@@ -29,6 +29,13 @@
                     <attribute id="ReplenishType" type="FixedString" value="Turn"/>
                     <attribute id="UUID" type="guid" value="d5b34f89-a352-4ab8-959a-218aa725cba7"/>
                 </node>
+                <node id="ActionResourceDefinition"> Surge of Health
+                    <attribute id="DisplayName" type="TranslatedString" handle="h56cb35d0g56f3g4098g8d58gbdab90b41a46" version="1"/>
+                    <attribute id="IsHidden" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="Interrupt_SurgeOfHealth"/>
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
+                    <attribute id="UUID" type="guid" value="d956fe4b-341b-460a-af6a-2011cffa16cf"/>
+                </node>                
                 TODO: Implement Psionic Mastery Charges here? You can cast one spell without requiring concentration per charge
             </children>
         </node>
