@@ -267,7 +267,7 @@ type "PassiveData"
 data "DisplayName" "hc4674308g1b84g41eagbab4g01629f7d567f"
 data "Description" "he6f834c1g191fg4109gbb5eg71de823cb9f2"
 data "Icon" ""
-data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_PsionicRestoration);UnlockSpell(Target_Mystic_MendWounds);UnlockSpell(Target_Mystic_RestoreHealth);UnlockSpell(Target_Mystic_RestoreLife);UnlockSpell(Target_Mystic_RestoreVigor)"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_PsionicRestoration);UnlockSpell(Target_Mystic_MendWounds);UnlockSpell(Target_Mystic_RestoreHealth);UnlockSpell(Teleportation_Mystic_RestoreLife);UnlockSpell(Target_Mystic_RestoreVigor)"
 
 // Psionic Weapon
 new entry "Discipline_PsionicWeapon"
@@ -482,7 +482,10 @@ data "DisplayName" "h00ecd105g8ef2g46d7gbad6ge24f139bf19c"
 data "Description" "h7673327cg277dg4b16gb394g1b4b25bcc5d9"
 data "Icon" "Action_ShieldShove"
 data "StatsFunctorContext" "OnTurn"
-data "StatsFunctors" "ApplyStatus(SELF,MYSTIC_PSIONIC_RESILIENCE,100,-1)"
+data "Properties" "Highlighted"
+// data "Conditions" ""
+data "Conditions" "Combat()"
+data "StatsFunctors" "ApplyStatus(MYSTIC_PSIONIC_RESILIENCE,100,1)"
 
 // Surge of Health (Immortal)
 new entry "Passive_Mystic_SurgeOfHealth"
@@ -490,6 +493,7 @@ type "PassiveData"
 data "DisplayName" "h56cb35d0g56f3g4098g8d58gbdab90b41a46"
 data "Description" "h29c97f6dg93efg4497g9f86gdcf3a6ecaa0e"
 data "Icon" "Action_Barbarian_MagicAwareness"
+data "Properties" "Highlighted"
 data "Boosts" "UnlockInterrupt(Interrupt_Mystic_SurgeOfHealth);ActionResource(Interrupt_SurgeOfHealth,1,0)"
 
 // Immortal Will (Immortal)

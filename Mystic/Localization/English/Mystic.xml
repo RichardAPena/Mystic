@@ -566,28 +566,38 @@
 	<content contentuid="hd7356d09gec21g401eg938dg34c1b704297e" version="1">Breath of the Green Dragon</content>
 	<content contentuid="h8a35cdb2gc0c7g4d36g9111ge715158de528" version="1">Exhale a cloud of noxious gas in a cone before you.</content>
 	<content contentuid="h2684b6cdg85e1g48d0g8cd1g81fa60b114d4" version="1">Miniature Form</content>
-	<content contentuid="h4d47006fg8a13g408fga191g5eeb8086024a" version="1">Alter your form, reducing in size.</content>
+	<content contentuid="h4d47006fg8a13g408fga191g5eeb8086024a" version="1">Alter your form, reducing in size.TODO</content>
+	<content contentuid="hf7651df3g3313g4aaeg919dgb4d5ce0cc911" version="1">TODO: Miniature Form Status Description</content>
 	<content contentuid="hf58d1d4fgad0dg451ega0acg40dea111be50" version="1">Toppling Shift</content>
 	<content contentuid="h52a7ed68g999fg4afag8c7eg85681ed2a215" version="1">Topple an enemy, knocking them Prone.</content>
 	<content contentuid="h3a999e58g5ceeg4ac1ga20aga6efd47b87f3" version="1">Sudden Shift</content>
 	<content contentuid="h9de05705gcb47g47dcga990g7ede44af0407" version="1">As a reaction, when you are hit by an attack you can cause it to miss, and you gain the effects of Disengage.</content>
 	<content contentuid="h5160a49eg963cg4bfcga19eg6e6502262cf7" version="1">Microscopic Form</content>
 	<content contentuid="h36ab769agdd8fg4e28ga238g33e1a1bd4223" version="1">TODO: Microscopic Form Description</content>
+	<content contentuid="hd402b24bg75a0g4cebg8b84gf5aca6e0b8d3" version="1">TODO: Microscopic Form Status  Description</content>	
 	<content contentuid="h47fb9db7gb5dag44c5gb1f5g9d3bc399f8c6" version="1">Ogre Form</content>
 	<content contentuid="hf76d9a28g6d3bg4896g9fe0g26e441cd2fe7" version="1">TODO: Ogre Form Description</content>
+	<content contentuid="h3e723b88g2225g473bgb035ga22f7f7b855a" version="1">TODO: Ogre Form Status Description</content>
 	<content contentuid="h966f12fdg026bg4b43g8db7g0748c8b49c08" version="1">Giant Form</content>
 	<content contentuid="h73fdc59cgf510g4958g875eg907ec43b3143" version="1">TODO: Giant Form Description</content>
+	<content contentuid="h83e9cfffg78a2g410dga4afgc166e30ee87b" version="1">TODO: Giant Form Status Description</content>
 	<content contentuid="h3a5789efg2457g4ca8ga0f8gce3100d94894" version="1">Iron Hide</content>
 	<content contentuid="hc17c8044g089bg4c41g825dg242f478d8782" version="1">As a reaction, when you are hit by an attack you can harden your skin, increasing your Armour Class by 3 until the end of your next turn.</content>
-	<content contentuid="" version="1">Armour Class increased by 3.</content>
+	<content contentuid="h3a5789efg2457g4ca8ga0f8gce3100d94894" version="1">Armour Class increased by 3.</content>
 	<content contentuid="hf8f1cf0fg28dfg478cg9258g8996d083ba08" version="1">Steel Hide</content>
 	<content contentuid="hdd404baegb627g4189gaf86g7f3fb5bad39e" version="1">Fortify your body, gaining Resistance to Bludgeoning, Piercing and Slashing damage until the end of your next turn.</content>
 	<content contentuid="hc07336ebg66b9g450eg9bcdge5b9aa38606a" version="1">Resistant to Bludgeoning, Piercing and Slashing damage.</content>
 	<content contentuid="h383b376bgeea3g4c57g9f5bg0cf6b39a1048" version="1">Iron Resistance</content>
 	<content contentuid="hb98c8695g05d3g42d5ga841g171150fec39f" version="1">Gain Resistance to Bludgeoning, Piercing or Slashing damage.</content>
-	<content contentuid="" version="1">Resistant to Bludgeoning damage.</content>
-	<content contentuid="" version="1">Resistant to Piercing damage.</content>
-	<content contentuid="" version="1">Resistant to Slashing damage.</content>
+	<content contentuid="haf7e0325gc295g4540gb10ag31f46deec09b" version="1">Iron Resistance: Bludgeoning</content>
+	<content contentuid="he9700fbcgfb48g4962gb645g3c5ecd6a54dd" version="1">Iron Resistance: Piercing</content>
+	<content contentuid="h7089b283g0bfdg437ega849gbb50cf81a2ec" version="1">Iron Resistance: Slashing</content>
+	<content contentuid="ha2ecc87cg42c3g4baaga1c7g1b27911ab60c" version="1">Gain Resistance to Bludgeoning damage.</content>
+	<content contentuid="h256c8db3gd766g43abgadf3g2812a7a92e1f" version="1">Gain Resistance to Piercing damage.</content>
+	<content contentuid="hbb8b40adgaac6g4f1fg83a0gdec995098fea" version="1">Gain Resistance to Slashing damage.</content>	
+	<content contentuid="h962319fage2bbg468bg9774g7de335ee4be5" version="1">Resistant to Bludgeoning damage.</content>
+	<content contentuid="h0dc0f8f5g2134g4eabga861gfb48a3f6fe93" version="1">Resistant to Piercing damage.</content>
+	<content contentuid="h738dd4bbgc214g4b3fg8c38g4d848acc8566" version="1">Resistant to Slashing damage.</content>
 	<content contentuid="hcb568b55gf117g4703ga0bcg702ed9f0b815" version="1">Mend Wounds</content>
 	<content contentuid="h60160178g422cg4831g8214g59c25b3f6386" version="1">Heal a creature you can touch.</content>
 	<content contentuid="hdd0113dag7bceg492aga5e8g36e313327d55" version="1">Restore Health</content>

@@ -211,7 +211,7 @@
                 <node id="Progression"> Mystic Level 12
                     <attribute id="AllowImprovement" type="bool" value="true"/>
                     <attribute id="Boosts" type="LSString" value=""/>
-                    <attribute id="Level" type="uint8" value="2"/>
+                    <attribute id="Level" type="uint8" value="12"/>
                     <attribute id="Name" type="LSString" value="Mystic"/>
                     <attribute id="PassivesAdded" type="LSString" value=""/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
@@ -257,7 +257,7 @@
                 TODO: AVATAR LEVEL 14
 
                 <node id="Progression"> Awakened Level 1
-                    <attribute id="Level" type="uint8" value ="1"/>
+                    <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Awakened"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="PassivesAdded" type="LSString" value=""/>
@@ -287,7 +287,7 @@
                 TODO: AWAKENED LEVEL 14
 
                 <node id="Progression"> Immortal Level 1
-                    <attribute id="Level" type="uint8" value ="1"/>
+                    <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Immortal"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_ImmortalDurability"/>
@@ -297,7 +297,7 @@
                 </node>
                 <node id="Progression"> Immortal Level 3
                     <attribute id="Boosts" type="LSString" value=""/>
-                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="Immortal"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_PsionicResilience"/>
@@ -317,7 +317,7 @@
                 TODO: IMMORTAL LEVEL 14
 
                 <node id="Progression"> Nomad Level 1
-                    <attribute id="Level" type="uint8" value ="1"/>
+                    <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Nomad"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="PassivesAdded" type="LSString" value=""/> TODO: Breadth of Knowledge
@@ -348,7 +348,7 @@
 
                 <node id="Progression"> Soul Knife Level 1
                     <attribute id="Boosts" type="LSString" value="Proficiency(MartialWeapons);Proficiency(MediumArmor)"/> Martial Training
-                    <attribute id="Level" type="uint8" value ="1"/>
+                    <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="SoulKnife"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="PassivesAdded" type="LSString" value=""/> TODO: Soul Knife
@@ -377,7 +377,7 @@
                 TODO: SOUL KNIFE LEVEL 14
 
                 <node id="Progression"> Wu Jen Level 1
-                    <attribute id="Level" type="uint8" value ="1"/>
+                    <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="WuJen"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="PassivesAdded" type="LSString" value=""/>

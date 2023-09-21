@@ -1,1 +1,17 @@
 // TODO: Probably most of nomadic step
+
+// Restore Life
+new entry "Teleportation_Mystic_RestoreLife"
+type "SpellData"
+data "SpellType" "Teleportation"
+
+using "Teleportation_Revivify"
+data "Level" "5"
+data "SpellSchool" ""
+
+data "DisplayName" "h49acf8cfg084dg4b62gae38gf257a6b83d1a"
+data "Description" "h2e78cc0fg019ag479eg8572g0f6d02cbd02b"
+
+data "TooltipUpcastDescription" "6ff1780a-855a-414c-a8bf-811251537206"
+data "CastSound" ""
+data "UseCosts" "ActionPoint:1;PsiPointsResource:5;PsiLimitResource:1:5"

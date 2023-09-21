@@ -162,18 +162,19 @@ data "Container" "YesNoDecision"
 data "InterruptDefaultValue" "Ask;Enabled"
 
 // Sudden Shift
+// TODO: Maybe works?
 new entry "Interrupt_Mystic_SuddenShift"
 type "InterruptData"
-data "DisplayName" ""
-data "Description" ""
-data "Icon" ""
-data "InterruptContext" ""
-data "InterruptContextScope" ""
-data "Container" ""
-data "Conditions" ""
-data "Properties" ""
-data "Cost" ""
-data "InterruptDefaultValue" ""
+data "DisplayName" "h3a999e58g5ceeg4ac1ga20aga6efd47b87f3"
+data "Description" "h9de05705gcb47g47dcga990g7ede44af0407"
+data "Icon" "Spell_Illusion_MirrorImage"
+data "InterruptContext" "OnPostRoll;OnPreDamage"
+data "InterruptContextScope" "Self"
+data "Container" "YesNoDecision"
+data "Conditions" "IsAbleToReact(context.Observer) and Self(context.Target,context.Observer) and not AnyEntityIsItem()"
+data "Properties" "SetRoll(0);ApplyStatus(OBSERVER_OBSERVER,DISENGAGE,100,1)"
+data "Cost" "ReactionActionPoint:1;PsiPointsResource:5;PsiLimitResource:1:5"
+data "InterruptDefaultValue" "Ask;Enabled"
 
 // Iron Hide
 new entry "Interrupt_Mystic_IronHide"
@@ -190,10 +191,8 @@ data "Cost" "ReactionActionPoint:1;PsiPointsResource:1"
 data "InterruptDefaultValue" "Ask;Enabled"
 data "EnableCondition" "not HasStatus('SG_Polymorph') or Tagged('MINDFLAYER')"
 data "EnableContext" "OnStatusApplied"
-
-// TODO
-data "Conditions" "IsAbleToReact(context.Observer) and Self(context.Target,context.Observer) and ((HasInterruptedAttack() and IsFlatValueInterruptInteresting(3, context.Source))) and not AnyEntityIsItem() and not HasStatus('SHIELD',context.Observer)"
-data "Properties" "IF(HasInterruptedAttack()):AdjustRoll(-3);ApplyStatus(INTERRUPT_SHIELD_WIZARD,100,1);ApplyStatus(OBSERVER_OBSERVER,SHIELD,100,1)"
+data "Conditions" "IsAbleToReact(context.Observer) and Self(context.Target,context.Observer) and ((HasInterruptedAttack() and IsFlatValueInterruptInteresting(3, context.Source))) and not AnyEntityIsItem() and not HasStatus('MYSTIC_IRON_HIDE',context.Observer)"
+data "Properties" "IF(HasInterruptedAttack()):AdjustRoll(-3);ApplyStatus(OBSERVER_OBSERVER,MYSTIC_IRON_HIDE,100,1)"
 
 
 
