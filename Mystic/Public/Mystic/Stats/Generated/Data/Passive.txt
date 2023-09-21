@@ -32,7 +32,7 @@ type "PassiveData"
 data "DisplayName" "h175e561fg1cb4g4e0ag879dg178034035120"
 data "Description" "hc5996804g22f2g465fga3bdg0a9396d181cf"
 data "Icon" ""
-data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_BruteForce);UnlockSpell(Shout_Mystic_BruteStrike);UnlockSpell(Shout_Mystic_KnockBack);UnlockSpell(Target_Mystic_MightyLeap);UnlockSpell(Shout_Mystic_FeatOfStrength)"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_BruteForce);UnlockSpell(Shout_Mystic_BruteStrike);UnlockSpell(Target_Mystic_KnockBack);UnlockSpell(Target_Mystic_MightyLeap);UnlockSpell(Shout_Mystic_FeatOfStrength)"
 
 // Celerity
 new entry "Discipline_Celerity"

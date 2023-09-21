@@ -1541,6 +1541,7 @@ data "DisplayName" "h817c5c70gb755g474cg89c1gac0d247f3f1b"
 data "Description" "h911d2507g49dag461ega6c5g2729b928b18d"
 data "DescriptionParams" "Acid"
 data "Icon" "GenericIcon_DamageType_Acid"
+data "TickType" "EndTurn"
 data "StackId" "MYSTIC_ENERGY_ADAPTATION"
 data "Boosts" "Resistance(Acid,Resistant)"
 

@@ -536,6 +536,7 @@
 	<content contentuid="hc56a3e6cg024eg409fgbf75g5cab5b51f8a1" version="1">Next melee attack deals an additional [1] damage.</content>
 	<content contentuid="h64861ffdge092g4be5gae41g02d96367cb93" version="1">Knock Back</content>
 	<content contentuid="hafa0ff17g5d7fg4454gb0c4g5eee7b446f19" version="1">As a reaction, after you hit an enemy with a melee attack, you can knock them away [1].</content>
+	<content contentuid="h3ef06455gfb79g448egb84dgd970cb657bc4" version="1">Does not consume reaction points or psi points.</content>
 	<content contentuid="h1598778aga893g4fb9g8c9bg9f3b911368d9" version="1">Mighty Leap</content>
 	<content contentuid="h3e1bda4bg49cbg4f46g99fbg1b09c977a6c4" version="1">Propel yourself with psionic energy, jumping up to [1].</content>
 	<content contentuid="h20014ac4g9feeg4775ga235gf9e70dd67cad" version="1">Feat of Strength</content>
