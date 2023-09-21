@@ -128,16 +128,6 @@ data "UseCosts" "Movement:3;PsiPointsResource:7;PsiLimitResource:1:7"
 data "PowerLevel" "7"
 data "ContainerSpells" ""
 
-// Venom Strike
-new entry "Projectile_Mystic_VenomStrike"
-type "SpellData"
-data "SpellType" "Projectile"
-
-data "Icon" "Spell_Conjuration_PoisonSpray"
-data "DisplayName" "hb6fb98b7g55a3g44ccga81ega04e4d07c5cb"
-data "Description" "h1bb2686bg46afg44b3ga060g1b30422db67e"
-data "DescriptionParams" ""
-
 // Wind Step
 // Jump and Fly are categorized as projectiles :shrug:
 new entry "Projectile_Mystic_WindStep"

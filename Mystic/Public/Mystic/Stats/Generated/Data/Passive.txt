@@ -48,7 +48,7 @@ type "PassiveData"
 data "DisplayName" "hbcd31ed4gd387g4bc2gbb9cgca4ad54f5db1"
 data "Description" "h650d7f46g40ebg4fa4gb8b3ge5033d38fdc2"
 data "Icon" ""
-data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_CorrosiveMetabolism);UnlockSpell(Target_Mystic_CorrosiveTouch);UnlockSpell(Projectile_Mystic_VenomStrike);UnlockSpell(Shout_Mystic_AcidSpray);UnlockSpell(Zone_Mystic_BreathOfTheBlackDragon);UnlockSpell(Zone_Mystic_BreathOfTheGreenDragon)"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_CorrosiveMetabolism);UnlockSpell(Target_Mystic_CorrosiveTouch);UnlockSpell(Target_Mystic_VenomStrike);UnlockSpell(Shout_Mystic_AcidSpray);UnlockSpell(Zone_Mystic_BreathOfTheBlackDragon);UnlockSpell(Zone_Mystic_BreathOfTheGreenDragon)"
 
 // Crown of Despair
 new entry "Discipline_CrownOfDespair"

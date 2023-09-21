@@ -476,11 +476,11 @@
 	<content contentuid="h98e25074gaff8g417agae94g7104c219aceb" version="1">Immune to Acid, Wet, Burning, Chilled and Electrocuted.</content>
 	<content contentuid="ha4113923g6596g4aa4ga10fg5d07f8d8abe7" version="1">Adaptive Shield</content>
 	<content contentuid="h6953cb97gffa3g4419gb10bg7aba9f9e8923" version="1">As a reaction, when taking Acid, Cold, Fire, Lightning or Thunder damage you can become Resistant to that damage until the end of your next turn.</content>
-	<content contentuid="" version="1">Resistant to Acid damage.</content>
-	<content contentuid="" version="1">Resistant to Cold damage.</content>
-	<content contentuid="" version="1">Resistant to Fire damage.</content>
-	<content contentuid="" version="1">Resistant to Lightning damage.</content>
-	<content contentuid="" version="1">Resistant to Thunder damage.</content>
+	<content contentuid="hdbcc6710g7afbg4546gb43egb8b49b8eb0b0" version="1">Resistant to Acid damage.</content>
+	<content contentuid="h58ac8f98gbeacg4bb8g8f6dge1932b18235d" version="1">Resistant to Cold damage.</content>
+	<content contentuid="h955b420eg6ae9g4a12g9150g2885657971bd" version="1">Resistant to Fire damage.</content>
+	<content contentuid="hfd3832a4g6509g4715gb65dg1a7930e14cf6" version="1">Resistant to Lightning damage.</content>
+	<content contentuid="h7e64f695g33dfg4063g93a7gfc76549c9307" version="1">Resistant to Thunder damage.</content>
 	<content contentuid="h817c5c70gb755g474cg89c1gac0d247f3f1b" version="1">Energy Adaptation</content>
 	<content contentuid="hecd1a052gec52g4136gb037gb8e42b61c807" version="1">Touch a creature and give it Resistance to Acid, Cold, Fire, Lightning or Thunder damage.</content>
 	<content contentuid="h41946503g3b80g496fg81dcg81c5d6a0010d" version="1">Energy Adaptation: Acid</content>
@@ -560,13 +560,13 @@
 	<content contentuid="hb6fb98b7g55a3g44ccga81ega04e4d07c5cb" version="1">Venom Strike</content>
 	<content contentuid="h1bb2686bg46afg44b3ga060g1b30422db67e" version="1">Discharge a spray of venom, Poisoning the target creature.</content>
 	<content contentuid="hc7b88abbg0bf9g468aga89fgc539b6688cac" version="1">Acid Spray</content>
-	<content contentuid="h0d03313eg42eeg4e62g99a8gd78ebb954dfe" version="1">As a reaction, after you take damage you can cause acid to spray from your wound, dealing [1] damage to creatures within [2].</content>
+	<content contentuid="h0d03313eg42eeg4e62g99a8gd78ebb954dfe" version="1">As a reaction, after you take Piercing or Slashing damage you can cause acid to spray from your wound, dealing [1] damage to creatures within [2].</content>
 	<content contentuid="ha9f14766g5a6bg47a5g842eg801c7110ebf7" version="1">Breath of the Black Dragon</content>
 	<content contentuid="hfbea5966g683fg4e51g819bg95f554aaeb22" version="1">Exhale a wave of acid in a line before you.</content>
 	<content contentuid="hd7356d09gec21g401eg938dg34c1b704297e" version="1">Breath of the Green Dragon</content>
 	<content contentuid="h8a35cdb2gc0c7g4d36g9111ge715158de528" version="1">Exhale a cloud of noxious gas in a cone before you.</content>
 	<content contentuid="h2684b6cdg85e1g48d0g8cd1g81fa60b114d4" version="1">Miniature Form</content>
-	<content contentuid="h4d47006fg8a13g408fga191g5eeb8086024a" version="1">TODO: Miniature Form Description</content>
+	<content contentuid="h4d47006fg8a13g408fga191g5eeb8086024a" version="1">Alter your form, reducing in size.</content>
 	<content contentuid="hf58d1d4fgad0dg451ega0acg40dea111be50" version="1">Toppling Shift</content>
 	<content contentuid="h52a7ed68g999fg4afag8c7eg85681ed2a215" version="1">Topple an enemy, knocking them Prone.</content>
 	<content contentuid="h3a999e58g5ceeg4ac1ga20aga6efd47b87f3" version="1">Sudden Shift</content>

@@ -68,7 +68,7 @@ data "InterruptContextScope" "Self"
 data "Conditions" "IsAbleToReact(context.Observer) and Self(context.Target,context.Observer) and (SpellDamageTypeIs(DamageType.Acid) or SpellDamageTypeIs(DamageType.Cold) or SpellDamageTypeIs(DamageType.Fire) or SpellDamageTypeIs(DamageType.Lightning) or SpellDamageTypeIs(DamageType.Thunder)) and not AnyEntityIsItem()"
 // data "Properties" "SetDamageResistance(Acid);SetDamageResistance(Cold);SetDamageResistance(Fire);SetDamageResistance(Lightning);SetDamageResistance(Thunder);ApplyStatus(OBSERVER_TARGET, ABSORB_ELEMENTS_ACTIVE,100,1)"
 // TODO: test
-data "Properties" "SetDamageResistance(Acid);SetDamageResistance(Cold);SetDamageResistance(Fire);SetDamageResistance(Lightning);SetDamageResistance(Thunder);IF(SpellDamageTypeIs(DamageType.Acid)):ApplyStatus(OBSERVER_TARGET, MYSTIC_ENERGY_ADAPTATION_ACID,100,1);IF(SpellDamageTypeIs(DamageType.Cold)):ApplyStatus(OBSERVER_TARGET, MYSTIC_ENERGY_ADAPTATION_COLD,100,1);IF(SpellDamageTypeIs(DamageType.Fire)):ApplyStatus(OBSERVER_TARGET, MYSTIC_ENERGY_ADAPTATION_FIRE,100,1);IF(SpellDamageTypeIs(DamageType.Lightning)):ApplyStatus(OBSERVER_TARGET, MYSTIC_ENERGY_ADAPTATION_LIGHTNING,100,1);IF(SpellDamageTypeIs(DamageType.Thunder)):ApplyStatus(OBSERVER_TARGET, MYSTIC_ENERGY_ADAPTATION_THUNDER,100,1);"
+data "Properties" "SetDamageResistance(Acid);SetDamageResistance(Cold);SetDamageResistance(Fire);SetDamageResistance(Lightning);SetDamageResistance(Thunder);IF(SpellDamageTypeIs(DamageType.Acid)):ApplyStatus(OBSERVER_TARGET, MYSTIC_ADAPTIVE_SHIELD_ACID,100,1);IF(SpellDamageTypeIs(DamageType.Cold)):ApplyStatus(OBSERVER_TARGET, MYSTIC_ADAPTIVE_SHIELD_COLD,100,1);IF(SpellDamageTypeIs(DamageType.Fire)):ApplyStatus(OBSERVER_TARGET, MYSTIC_ADAPTIVE_SHIELD_FIRE,100,1);IF(SpellDamageTypeIs(DamageType.Lightning)):ApplyStatus(OBSERVER_TARGET, MYSTIC_ADAPTIVE_SHIELD_LIGHTNING,100,1);IF(SpellDamageTypeIs(DamageType.Thunder)):ApplyStatus(OBSERVER_TARGET, MYSTIC_ADAPTIVE_SHIELD_THUNDER,100,1);"
 data "Cost" "ReactionActionPoint:1;PsiPointsResource:3;PsiLimitResource:1:3"
 data "EnableCondition" "not HasStatus('SG_Polymorph')"
 data "EnableContext" "OnActionResourcesChanged"
@@ -120,6 +120,7 @@ data "Cost" ""
 data "InterruptDefaultValue" ""
 
 // Knock Back
+// DEPRECATED
 new entry "Interrupt_Mystic_KnockBack"
 type "InterruptData"
 data "DisplayName" "h64861ffdge092g4be5gae41g02d96367cb93"
@@ -147,16 +148,18 @@ data "InterruptDefaultValue" "Ask;Enabled"
 // Acid Spray
 new entry "Interrupt_Mystic_AcidSpray"
 type "InterruptData"
-data "DisplayName" ""
-data "Description" ""
-data "Icon" ""
-data "InterruptContext" ""
-data "InterruptContextScope" ""
-data "Container" ""
-data "Conditions" ""
-data "Properties" ""
-data "Cost" ""
-data "InterruptDefaultValue" ""
+data "DisplayName" "hc7b88abbg0bf9g468aga89fgc539b6688cac"
+data "Description" "h0d03313eg42eeg4e62g99a8gd78ebb954dfe"
+data "Icon" "Spell_Conjuration_AcidSplash"
+data "InterruptContext" "OnPreDamage"
+data "InterruptContextScope" "Self"
+data "Conditions" "IsAbleToReact(context.Observer) and Self(context.Target,context.Observer) and (SpellDamageTypeIs(DamageType.Piercing) or SpellDamageTypeIs(DamageType.Slashing)) and not AnyEntityIsItem()"
+data "Properties" "UseSpell(OBSERVER_OBSERVER,Shout_Mystic_AcidSpray_Interrupt,true,true,true)"
+data "Cost" "ReactionActionPoint:1;PsiPointsResource:2"
+data "EnableCondition" "not HasStatus('SG_Polymorph')"
+data "EnableContext" "OnActionResourcesChanged"
+data "Container" "YesNoDecision"
+data "InterruptDefaultValue" "Ask;Enabled"
 
 // Sudden Shift
 new entry "Interrupt_Mystic_SuddenShift"
@@ -178,13 +181,21 @@ type "InterruptData"
 data "DisplayName" ""
 data "Description" ""
 data "Icon" ""
-data "InterruptContext" ""
-data "InterruptContextScope" ""
-data "Container" ""
+data "InterruptContext" "OnPostRoll;OnPreDamage"
+data "InterruptContextScope" "Self"
+data "Container" "YesNoDecision"
 data "Conditions" ""
 data "Properties" ""
-data "Cost" ""
-data "InterruptDefaultValue" ""
+data "Cost" "ReactionActionPoint:1;PsiPointsResource:1"
+data "InterruptDefaultValue" "Ask;Enabled"
+data "EnableCondition" "not HasStatus('SG_Polymorph') or Tagged('MINDFLAYER')"
+data "EnableContext" "OnStatusApplied"
+
+// TODO
+data "Conditions" "IsAbleToReact(context.Observer) and Self(context.Target,context.Observer) and ((HasInterruptedAttack() and IsFlatValueInterruptInteresting(3, context.Source))) and not AnyEntityIsItem() and not HasStatus('SHIELD',context.Observer)"
+data "Properties" "IF(HasInterruptedAttack()):AdjustRoll(-3);ApplyStatus(INTERRUPT_SHIELD_WIZARD,100,1);ApplyStatus(OBSERVER_OBSERVER,SHIELD,100,1)"
+
+
 
 // Seeking Missile
 new entry "Interrupt_Mystic_SeekingMissile"
@@ -226,6 +237,23 @@ data "Conditions" "Self(context.Source,context.Observer) and IsWeaponAttack() an
 // Psionic Surge
 
 // Surge of Health
+
+// Look at this it's from UNcanny Dodge from Rouge
+// It's ni passives
+// DamageReduction(All,Half,)
+// new entry "UncannyDodge"
+// type "PassiveData"
+// data "DisplayName" "h488725bbg091fg45d3g861eg92471d21a857;2"
+// data "Description" "h834e2af0g618ag44c4gbc44gcde3210f48c0;2"
+// data "Icon" "PassiveFeature_UncannyDodge"
+// data "EnabledConditions" "HasActionResource('ReactionActionPoint', 1, 0, false)"
+// data "EnabledContext" "OnDamaged;OnTurn;OnStatusApplied"
+// data "Properties" "ToggledDefaultOn;ToggledDefaultAddToHotbar;IsToggled"
+// data "Boosts" "DamageReduction(All,Half,)"
+// data "StatsFunctorContext" "OnDamaged"
+// data "StatsFunctors" "UseActionResource(ReactionActionPoint,1,0);ApplyStatus(UNCANNYDODGE_HELPER,100,1)"
+// figure it out i believe in u
+
 new entry "Interrupt_Mystic_SurgeOfHealth"
 type "InterruptData"
 data "DisplayName" "h56cb35d0g56f3g4098g8d58gbdab90b41a46"
