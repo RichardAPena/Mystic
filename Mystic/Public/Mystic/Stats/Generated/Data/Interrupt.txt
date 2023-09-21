@@ -66,16 +66,12 @@ data "Icon" "PassiveFeature_AbsorbElements"
 data "InterruptContext" "OnPreDamage"
 data "InterruptContextScope" "Self"
 data "Conditions" "IsAbleToReact(context.Observer) and Self(context.Target,context.Observer) and (SpellDamageTypeIs(DamageType.Acid) or SpellDamageTypeIs(DamageType.Cold) or SpellDamageTypeIs(DamageType.Fire) or SpellDamageTypeIs(DamageType.Lightning) or SpellDamageTypeIs(DamageType.Thunder)) and not AnyEntityIsItem()"
-// data "Properties" "SetDamageResistance(Acid);SetDamageResistance(Cold);SetDamageResistance(Fire);SetDamageResistance(Lightning);SetDamageResistance(Thunder);ApplyStatus(OBSERVER_TARGET, ABSORB_ELEMENTS_ACTIVE,100,1)"
-// TODO: test
 data "Properties" "SetDamageResistance(Acid);SetDamageResistance(Cold);SetDamageResistance(Fire);SetDamageResistance(Lightning);SetDamageResistance(Thunder);IF(SpellDamageTypeIs(DamageType.Acid)):ApplyStatus(OBSERVER_TARGET, MYSTIC_ADAPTIVE_SHIELD_ACID,100,1);IF(SpellDamageTypeIs(DamageType.Cold)):ApplyStatus(OBSERVER_TARGET, MYSTIC_ADAPTIVE_SHIELD_COLD,100,1);IF(SpellDamageTypeIs(DamageType.Fire)):ApplyStatus(OBSERVER_TARGET, MYSTIC_ADAPTIVE_SHIELD_FIRE,100,1);IF(SpellDamageTypeIs(DamageType.Lightning)):ApplyStatus(OBSERVER_TARGET, MYSTIC_ADAPTIVE_SHIELD_LIGHTNING,100,1);IF(SpellDamageTypeIs(DamageType.Thunder)):ApplyStatus(OBSERVER_TARGET, MYSTIC_ADAPTIVE_SHIELD_THUNDER,100,1);"
 data "Cost" "ReactionActionPoint:1;PsiPointsResource:3;PsiLimitResource:1:3"
 data "EnableCondition" "not HasStatus('SG_Polymorph')"
 data "EnableContext" "OnActionResourcesChanged"
 data "Container" "YesNoDecision"
 data "InterruptDefaultValue" "Ask;Enabled"
-
-
 
 // Psychic Backlash
 new entry "Interrupt_Mystic_PsychicBacklash"
@@ -121,27 +117,27 @@ data "InterruptDefaultValue" ""
 
 // Knock Back
 // DEPRECATED
-new entry "Interrupt_Mystic_KnockBack"
-type "InterruptData"
-data "DisplayName" "h64861ffdge092g4be5gae41g02d96367cb93"
-data "Description" "hafa0ff17g5d7fg4454gb0c4g5eee7b446f19"
-data "DescriptionParams" "Distance(9)"
-data "Icon" "Action_Monk_FistOfUnbrokenAir"
-data "InterruptContext" "OnCastHit"
-data "InterruptContextScope" "Nearby"
-data "Container" "YesNoDecision"
-data "Conditions" "Self(context.Source,context.Observer) and IsMeleeAttack() and not IsKillingBlow() and IsHit() and Character() and not AnyEntityIsItem()"
-// TODO: CAST THE ACTUAL SPELL, THERE NEEDS TO BE A SAVING THROW
-// data "Roll" "not SavingThrow(Ability.Strength, SourceSpellDC())"
-// data "Roll" "not SavingThrow(Ability.Wisdom, SourceSpellDC(14,context.Observer,Ability.Intelligence),,false,context.Source)"
-// data "Success" "Force(9)"
-// data "Properties" "Force(9);DealDamage(1,Radiant)"
-data "Properties" "UseSpell(OBSERVER_TARGET,Target_Mystic_KnockBack_Interrupt,true,true,true)"
-data "Cost" "ReactionActionPoint:1;PsiPointsResource:2"
-data "InterruptDefaultValue" "Ask;Enabled"
-// data "EnableCondition" "HasActionResource('Interrupt_PsionicStrike', 1, 0, false, false, context.Source) and (not HasStatus('SG_Polymorph') or Tagged('MINDFLAYER'))"
-// data "EnableContext" "OnActionResourcesChanged"
-// data "Properties" "AdjustRoll(-1d4);IF(not Self(context.Target,context.Observer) and HasInterruptedAttack()):UseSpell(OBSERVER_SOURCE,Target_BendLuck_Interrupt_Negative,true,true,true);IF(not Self(context.Target,context.Observer) and HasInterruptedSavingThrow()):UseSpell(OBSERVER_TARGET,Target_BendLuck_Interrupt_Negative,true,true,true)"
+// new entry "Interrupt_Mystic_KnockBack"
+// type "InterruptData"
+// data "DisplayName" "h64861ffdge092g4be5gae41g02d96367cb93"
+// data "Description" "hafa0ff17g5d7fg4454gb0c4g5eee7b446f19"
+// data "DescriptionParams" "Distance(9)"
+// data "Icon" "Action_Monk_FistOfUnbrokenAir"
+// data "InterruptContext" "OnCastHit"
+// data "InterruptContextScope" "Nearby"
+// data "Container" "YesNoDecision"
+// data "Conditions" "Self(context.Source,context.Observer) and IsMeleeAttack() and not IsKillingBlow() and IsHit() and Character() and not AnyEntityIsItem()"
+// // TODO: CAST THE ACTUAL SPELL, THERE NEEDS TO BE A SAVING THROW
+// // data "Roll" "not SavingThrow(Ability.Strength, SourceSpellDC())"
+// // data "Roll" "not SavingThrow(Ability.Wisdom, SourceSpellDC(14,context.Observer,Ability.Intelligence),,false,context.Source)"
+// // data "Success" "Force(9)"
+// // data "Properties" "Force(9);DealDamage(1,Radiant)"
+// data "Properties" "UseSpell(OBSERVER_TARGET,Target_Mystic_KnockBack_Interrupt,true,true,true)"
+// data "Cost" "ReactionActionPoint:1;PsiPointsResource:2"
+// data "InterruptDefaultValue" "Ask;Enabled"
+// // data "EnableCondition" "HasActionResource('Interrupt_PsionicStrike', 1, 0, false, false, context.Source) and (not HasStatus('SG_Polymorph') or Tagged('MINDFLAYER'))"
+// // data "EnableContext" "OnActionResourcesChanged"
+// // data "Properties" "AdjustRoll(-1d4);IF(not Self(context.Target,context.Observer) and HasInterruptedAttack()):UseSpell(OBSERVER_SOURCE,Target_BendLuck_Interrupt_Negative,true,true,true);IF(not Self(context.Target,context.Observer) and HasInterruptedSavingThrow()):UseSpell(OBSERVER_TARGET,Target_BendLuck_Interrupt_Negative,true,true,true)"
 
 
 
@@ -162,7 +158,6 @@ data "Container" "YesNoDecision"
 data "InterruptDefaultValue" "Ask;Enabled"
 
 // Sudden Shift
-// TODO: Maybe works?
 new entry "Interrupt_Mystic_SuddenShift"
 type "InterruptData"
 data "DisplayName" "h3a999e58g5ceeg4ac1ga20aga6efd47b87f3"
@@ -179,22 +174,18 @@ data "InterruptDefaultValue" "Ask;Enabled"
 // Iron Hide
 new entry "Interrupt_Mystic_IronHide"
 type "InterruptData"
-data "DisplayName" ""
-data "Description" ""
-data "Icon" ""
+data "DisplayName" "h3a5789efg2457g4ca8ga0f8gce3100d94894"
+data "Description" "hc17c8044g089bg4c41g825dg242f478d8782"
+data "Icon" "PassiveFeature_HeavilyArmored"
 data "InterruptContext" "OnPostRoll;OnPreDamage"
 data "InterruptContextScope" "Self"
 data "Container" "YesNoDecision"
-data "Conditions" ""
-data "Properties" ""
 data "Cost" "ReactionActionPoint:1;PsiPointsResource:1"
 data "InterruptDefaultValue" "Ask;Enabled"
 data "EnableCondition" "not HasStatus('SG_Polymorph') or Tagged('MINDFLAYER')"
 data "EnableContext" "OnStatusApplied"
 data "Conditions" "IsAbleToReact(context.Observer) and Self(context.Target,context.Observer) and ((HasInterruptedAttack() and IsFlatValueInterruptInteresting(3, context.Source))) and not AnyEntityIsItem() and not HasStatus('MYSTIC_IRON_HIDE',context.Observer)"
 data "Properties" "IF(HasInterruptedAttack()):AdjustRoll(-3);ApplyStatus(OBSERVER_OBSERVER,MYSTIC_IRON_HIDE,100,1)"
-
-
 
 // Seeking Missile
 new entry "Interrupt_Mystic_SeekingMissile"
@@ -230,7 +221,7 @@ data "EnableContext" "OnActionResourcesChanged"
 new entry "Interrupt_Mystic_PsionicStrike_Critical"
 type "InterruptData"
 using "Interrupt_Mystic_PsionicStrike"
-data "DisplayName" ""
+data "DisplayName" "hd3ca609cg1645g4f9fgaed4g5b36b263fa89"
 data "Conditions" "Self(context.Source,context.Observer) and IsWeaponAttack() and IsCritical() and not IsKillingBlow() and IsHit() and not IsDivineStrike() and Character() and not AnyEntityIsItem()"
 
 // Psionic Surge
@@ -274,4 +265,4 @@ data "EnableCondition" "not HasAnyStatus({'SG_Polymorph'}) or Tagged('MINDFLAYER
 data "EnableContext" "OnStatusApplied"
 
 // Memory of One Thousand Steps
-
+new entry "Interrupt_Mystic_MemoryOfOneThousandSteps"

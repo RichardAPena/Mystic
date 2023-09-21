@@ -566,24 +566,24 @@
 	<content contentuid="hd7356d09gec21g401eg938dg34c1b704297e" version="1">Breath of the Green Dragon</content>
 	<content contentuid="h8a35cdb2gc0c7g4d36g9111ge715158de528" version="1">Exhale a cloud of noxious gas in a cone before you.</content>
 	<content contentuid="h2684b6cdg85e1g48d0g8cd1g81fa60b114d4" version="1">Miniature Form</content>
-	<content contentuid="h4d47006fg8a13g408fga191g5eeb8086024a" version="1">Alter your form, reducing in size.TODO</content>
-	<content contentuid="hf7651df3g3313g4aaeg919dgb4d5ce0cc911" version="1">TODO: Miniature Form Status Description</content>
+	<content contentuid="h4d47006fg8a13g408fga191g5eeb8086024a" version="1">Alter your form, reducing in size and becoming harder to see.</content>
+	<content contentuid="hf7651df3g3313g4aaeg919dgb4d5ce0cc911" version="1">Disadvantage in Strength Checks and Saving Throws, size reduced and carrying capacity reduced. +5 to Stealth Checks.</content>
 	<content contentuid="hf58d1d4fgad0dg451ega0acg40dea111be50" version="1">Toppling Shift</content>
 	<content contentuid="h52a7ed68g999fg4afag8c7eg85681ed2a215" version="1">Topple an enemy, knocking them Prone.</content>
 	<content contentuid="h3a999e58g5ceeg4ac1ga20aga6efd47b87f3" version="1">Sudden Shift</content>
 	<content contentuid="h9de05705gcb47g47dcga990g7ede44af0407" version="1">As a reaction, when you are hit by an attack you can cause it to miss, and you gain the effects of Disengage.</content>
 	<content contentuid="h5160a49eg963cg4bfcga19eg6e6502262cf7" version="1">Microscopic Form</content>
-	<content contentuid="h36ab769agdd8fg4e28ga238g33e1a1bd4223" version="1">TODO: Microscopic Form Description</content>
-	<content contentuid="hd402b24bg75a0g4cebg8b84gf5aca6e0b8d3" version="1">TODO: Microscopic Form Status  Description</content>	
+	<content contentuid="h36ab769agdd8fg4e28ga238g33e1a1bd4223" version="1">Reduce your size significantly, becoming much harder to see and hit, but negating weapon damage.</content>
+	<content contentuid="hd402b24bg75a0g4cebg8b84gf5aca6e0b8d3" version="1">Disadvantage in Strength Checks and Saving Throws, size reduced significantly and carrying capacity reduced. +10 to Stealth Checks. +5 to Armour Class. Weapon damage negated.</content>	
 	<content contentuid="h47fb9db7gb5dag44c5gb1f5g9d3bc399f8c6" version="1">Ogre Form</content>
-	<content contentuid="hf76d9a28g6d3bg4896g9fe0g26e441cd2fe7" version="1">TODO: Ogre Form Description</content>
-	<content contentuid="h3e723b88g2225g473bgb035ga22f7f7b855a" version="1">TODO: Ogre Form Status Description</content>
+	<content contentuid="hf76d9a28g6d3bg4896g9fe0g26e441cd2fe7" version="1">Grow in size, gaining [1] temporary hit points. Melee weapon attacks will deal an additional [2] damage and have [3] increased range.</content>
+	<content contentuid="h3e723b88g2225g473bgb035ga22f7f7b855a" version="1">Weapon attacks deal an additional [1] damage. Melee weapon attack range increased by [2].</content>
 	<content contentuid="h966f12fdg026bg4b43g8db7g0748c8b49c08" version="1">Giant Form</content>
-	<content contentuid="h73fdc59cgf510g4958g875eg907ec43b3143" version="1">TODO: Giant Form Description</content>
-	<content contentuid="h83e9cfffg78a2g410dga4afgc166e30ee87b" version="1">TODO: Giant Form Status Description</content>
+	<content contentuid="h73fdc59cgf510g4958g875eg907ec43b3143" version="1">Grow to a tremendous size,       </content>
+	<content contentuid="h83e9cfffg78a2g410dga4afgc166e30ee87b" version="1">Weapon attacks deal an additional [1] damage. Melee weapon attack range increased by [2].</content>
 	<content contentuid="h3a5789efg2457g4ca8ga0f8gce3100d94894" version="1">Iron Hide</content>
 	<content contentuid="hc17c8044g089bg4c41g825dg242f478d8782" version="1">As a reaction, when you are hit by an attack you can harden your skin, increasing your Armour Class by 3 until the end of your next turn.</content>
-	<content contentuid="h3a5789efg2457g4ca8ga0f8gce3100d94894" version="1">Armour Class increased by 3.</content>
+	<content contentuid="hb70f2573g1af0g4071g9300g12f1d71e9c65" version="1">Armour Class increased by 3.</content>
 	<content contentuid="hf8f1cf0fg28dfg478cg9258g8996d083ba08" version="1">Steel Hide</content>
 	<content contentuid="hdd404baegb627g4189gaf86g7f3fb5bad39e" version="1">Fortify your body, gaining Resistance to Bludgeoning, Piercing and Slashing damage until the end of your next turn.</content>
 	<content contentuid="hc07336ebg66b9g450eg9bcdge5b9aa38606a" version="1">Resistant to Bludgeoning, Piercing and Slashing damage.</content>
@@ -610,7 +610,7 @@
 	<content contentuid="he3932f8cgb0afg46d2g8ceag5cccffe16148" version="1">Transform your weapons into pure psionic energy. Your next attack becomes a Dexterity Saving Throw instead of an Attack Roll, dealing half damage on save.</content>
 	<content contentuid="h1bddf10bg85aeg4891gae66g13c4bfd86fb4" version="1">Weapon attack rolls become Dexterity Saving Throws instead, dealing half damage on save.</content>
 	<content contentuid="hc5a2a389g7dbdg4bf7ga663gd4b1b9a0269a" version="1">Lethal Strike</content>
-	<content contentuid="h51aa6b39ge4c4g4802g98e7g7495bd716562" version="1">Imbue your weapons with psychic energy. Your next hit weapon attack will deal an additional [1] damage.</content>
+	<content contentuid="h51aa6b39ge4c4g4802g98e7g7495bd716562" version="1">Imbue your weapons with psychic energy. Your next weapon attack will deal an additional [1] damage.</content>
 	<content contentuid="h4f69363eg4bbfg4f59gaac3g4e3b5feb0075" version="1">Next weapon attack deals an additional [1] damage.</content>
 	<content contentuid="h096232f7g42c0g4c6fgada3g7e6141886ce6" version="1">Augmented Weapon</content>
 	<content contentuid="h4fc32c62g0d3eg42b4g849agba33dfded8ae" version="1">Infuse a weapon with psionic energy. The weapon becomes magical, receiving a +3 bonus to Attack and Damage Rolls.</content>
@@ -774,7 +774,7 @@
 	<content contentuid="hee834a7dgaa03g44e7ga60ag406c66116ee6" version="1">Proficient in Wisdom Saving Throws.</content>
 	<content contentuid="h438d0cd3g03e6g44f0gb801g7ed486500024" version="1">Proficient in Charisma Saving Throws.</content>
 	<content contentuid="h2ae84d46g9f37g45a5g988bg8b08fff62394" version="1">Psionic Strike</content>
-	<content contentuid="" version="1"> </content>
+	<content contentuid="hd3ca609cg1645g4f9fgaed4g5b36b263fa89" version="1">Psionic Strike (Critical)</content>
 	<content contentuid="" version="1"> </content>
 	<content contentuid="" version="1"> </content>
 
