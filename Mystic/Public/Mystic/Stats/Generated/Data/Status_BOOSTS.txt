@@ -767,42 +767,74 @@ data "TickType" "EndTurn"
 data "Boosts" "ActionResource(Movement,-4.5,0)"
 
 // Wall of Repulsion (Repulsed)
-// :) TODO
-new entry "MYSTIC_REPULSED"
+new entry "MYSTIC_REPULSED_EFFECT"
 type "StatusData"
 data "StatusType" "BOOST"
 data "DisplayName" "hfc0eaaa0gc478g4769gb2d8g938c36bf5caf"
 data "Description" "hbf9c8b71gd994g4865g929cgd3b8d38708be"
 data "Icon" "Spell_WallOfThorns"
-data "StackId" "MYSTIC_REPULSED"
+data "StackId" "MYSTIC_REPULSED_EFFECT"
+data "StackPriority" "1"
 data "TickType" "EndTurn"
 data "Boosts" "ActionResourceBlock(Movement)"
-data "SoundLoop" "Spell_Impact_Damage_WallOfFire_L4to5_Loop"
-data "SoundStop" "Spell_End_Loop_Damage_WallOfFire_L4to5"
-data "AuraRadius" "3"
-data "AuraStatuses" "ApplyStatus(MYSTIC_REPULSED_AURA,100,1)"
-data "TooltipSave" "Dexterity"
-data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;InitiateCombat;BringIntoCombat"
-data "StatusEffect" "b5b3c933-801e-461e-8d55-eb2790d4962b"
 
-new entry "MYSTIC_REPULSED_AURA"
+new entry "MYSTIC_WALLOFREPULSION"
 type "StatusData"
 data "StatusType" "BOOST"
-data "DisplayName" "hfc0eaaa0gc478g4769gb2d8g938c36bf5caf"
-data "Description" "hbf9c8b71gd994g4865g929cgd3b8d38708be"
+data "DisplayName" "h52bc941fg3400g43c0g88b1g17e2fc2eec65"
+data "Description" "h06f51e75gf735g4d07g9257ga36cc845e932"
 data "Icon" "Spell_WallOfThorns"
-data "StackId" "MYSTIC_REPULSED"
-data "StackPriority" "0"
-data "TickType" "EndTurn"
-data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog"
-data "OnApplyRoll" "WallOfFireCheck(Ability.Dexterity,SourceSpellDC(10,GetSummoner(context.Source)))"
-data "OnApplySuccess" "IF(not HasStatus('WALLOFFIRE_DAMAGE_RECEIVED')):DealDamage(5d8,Fire,Magical);IF(not HasStatus('WALLOFFIRE_DAMAGE_RECEIVED')):ApplyStatus(WALLOFFIRE_DAMAGE_RECEIVED,100,1)"
-// data "OnApplyFail" "IF(not HasStatus('WALLOFFIRE_DAMAGE_RECEIVED')):DealDamage(5d8/2,Fire,Magical);IF(not HasStatus('WALLOFFIRE_DAMAGE_RECEIVED',context.Target)):ApplyStatus(WALLOFFIRE_DAMAGE_RECEIVED,100,1)"
-// data "OnTickRoll" "WallOfFireCheck(Ability.Dexterity,SourceSpellDC(10,GetSummoner(context.Source)))"
-// data "OnTickSuccess" "IF(not HasStatus('WALLOFFIRE_DAMAGE_RECEIVED') or StatusDurationLessThan(context.Source, 'WALLOFFIRE_DAMAGE_RECEIVED', 0.1)):DealDamage(5d8,Fire,Magical);ApplyStatus(WALLOFFIRE_DAMAGE_RECEIVED,100,1)"
-// data "OnTickFail" "IF(not HasStatus('WALLOFFIRE_DAMAGE_RECEIVED') or StatusDurationLessThan(context.Source, 'WALLOFFIRE_DAMAGE_RECEIVED', 0.1)):DealDamage(5d8/2,Fire,Magical);ApplyStatus(WALLOFFIRE_DAMAGE_RECEIVED,100,1)"
+data "SoundLoop" "Spell_Impact_Damage_WallOfFire_L4to5_Loop"
+data "SoundStop" "Spell_End_Loop_Damage_WallOfFire_L4to5"
+data "StackId" "MYSTIC_WALLOFREPULSION"
+data "StackPriority" "1"
+data "AuraRadius" "3"
+// data "AuraStatuses" "IF(not Dead() and not (HasPassive('SculptSpells', context.Source) and Ally())):ApplyStatus(MYSTIC_WALLOFREPULSION_AURA,100,1)"
+data "AuraStatuses" "IF(not Dead() and not HasStatus('MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED')):ApplyStatus(MYSTIC_WALLOFREPULSION_AURA,100,1)"
+data "TooltipSave" "Wisdom"
+// data "TooltipDamage" "DealDamage(5d8,Fire)"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;InitiateCombat;BringIntoCombat"
+data "StatusEffect" "362f2080-b927-4846-8aec-66752dbafd07"
 
-new entry "MYSTIC_REPULSED_EFFECT"
+new entry "MYSTIC_WALLOFREPULSION_AURA"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h52bc941fg3400g43c0g88b1g17e2fc2eec65"
+data "Description" "h06f51e75gf735g4d07g9257ga36cc845e932"
+// data "DescriptionParams" "Distance(3);DealDamage(5d8,Fire)"
+data "Icon" "Spell_WallOfThorns"
+data "StackId" "MYSTIC_WALLOFREPULSION"
+data "StackPriority" "0"
+// data "TickType" "EndTurn"
+// data "TooltipDamage" "DealDamage(5d8,Fire)"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog"
+data "OnApplyRoll" "WallOfFireCheck(Ability.Wisdom,SourceSpellDC(10,GetSummoner(context.Source)))"
+data "OnApplySuccess" "IF(not HasStatus('MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED')):ApplyStatus(MYSTIC_REPULSED_EFFECT,100,1);IF(not HasStatus('MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED')):ApplyStatus(MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED,100,2)"
+// data "OnApplyFail" "IF(not HasStatus('MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED')):DealDamage(5d8/2,Fire,Magical);IF(not HasStatus('MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED',context.Target)):ApplyStatus(MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED,100,1)"
+// data "OnApplyFail" "ApplyStatus(MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED,100,2);ApplyStatus(MYSTIC_REPULSEDNT,100,1)"
+data "OnApplyFail" "ApplyStatus(MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED,100,2)"
+
+// data "OnTickRoll" "WallOfFireCheck(Ability.Dexterity,SourceSpellDC(10,GetSummoner(context.Source)))"
+// data "OnTickSuccess" "IF(not HasStatus('MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED') or StatusDurationLessThan(context.Source, 'MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED', 0.1)):DealDamage(5d8,Fire,Magical);ApplyStatus(MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED,100,1)"
+// data "OnTickFail" "IF(not HasStatus('MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED') or StatusDurationLessThan(context.Source, 'MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED', 0.1)):DealDamage(5d8/2,Fire,Magical);ApplyStatus(MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED,100,1)"
+
+new entry "MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "hc1c85c22g14b9g46e8g9d57geea57d525898;2"
+data "Icon" "Spell_Evocation_WallOfFire"
+data "TickType" "EndTurn"
+data "StackId" "MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+
+
+
+
+
+
+
+
 
 
 // Visions of Disgust
@@ -2478,6 +2510,17 @@ data "Icon" "Action_KnowledgeOfTheAges"
 data "StackId" "MYSTIC_STRENGTH_OF_MIND"
 data "Passives" "Passive_Mystic_StrengthOfMind_Charisma"
 data "StatusPropertyFlags" "IgnoreResting"
+
+// Consumptive Power
+new entry "MYSTIC_CONSUMPTIVE_POWER"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "hc50db36dg77fbg42eag8f4cg2ceeee4025b9"
+data "Description" "hff2ceb41gea66g4d25gb16fgc325168527b7"
+data "DescriptionParams" "7"
+data "Icon" "Spell_Evocation_Shatter"
+data "StackId" "MYSTIC_CONSUMPTIVE_POWER"
+data "Boosts" "IncreaseMaxHP(-7)"
 
 // Subclass Features
 

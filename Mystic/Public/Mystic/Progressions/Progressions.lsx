@@ -190,7 +190,7 @@
                     <attribute id="PassivesAdded" type="LSString" value=""/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(7b64aaca-d5e5-4555-9df3-a19bb13b5008,1,0,PsionicTalents,,,AlwaysPrepared)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(7b64aaca-d5e5-4555-9df3-a19bb13b5008,1,0,PsionicTalents,,,AlwaysPrepared);AddSpells(01efd68c-d6bc-4867-a558-0d264bbb07f8)"/>
                     <attribute id="TableUUID" type="guid" value="4b5d89ce-9dfb-46c2-a205-77bbf05a6492"/>
                     <attribute id="UUID" type="guid" value="c6d25fa6-3582-48e6-9d6a-06c58f61d877"/>
                 </node>

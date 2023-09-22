@@ -9,15 +9,15 @@
                     <attribute id="Spells" type="LSString" value="Shout_Mystic_Beacon;Shout_Mystic_BladeMeld;Shout_Mystic_LightStep;Target_Mystic_BlindSpot;Target_Mystic_Delusion;Target_Mystic_MindMeld;Target_Mystic_MindSlam;Target_Mystic_MindThrust;Target_Mystic_MysticCharm;Target_Mystic_PsychicHammer;Projectile_Mystic_EnergyBeam;Throw_Mystic_MysticHand"/>
                     <attribute id="UUID" type="guid" value="7b64aaca-d5e5-4555-9df3-a19bb13b5008"/>
                 </node>
-                <node id="SpellList"> Not sure how to implement yet, either spells give you the bonus action whenever you have a passive or this becomes usable after being affected by a buff
-                    <attribute id="Comment" type="LSString" value="Mystical Recovery"/>
-                    <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value=""/>
-                </node>
                 <node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Strength of Mind"/>
                     <attribute id="Spells" type="LSString" value="Shout_Mystic_StrengthOfMind"/>
                     <attribute id="UUID" type="guid" value="6dc0e475-1f9b-4965-8af4-39cacb022285"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Consumptive Power"/>
+                    <attribute id="Spells" type="LSString" value="Shout_Mystic_ConsumptivePower"/>
+                    <attribute id="UUID" type="guid" value="01efd68c-d6bc-4867-a558-0d264bbb07f8"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Avatar Level 3 (Aura)"/>
