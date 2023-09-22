@@ -2256,7 +2256,7 @@ type "StatusData"
 data "StatusType" "BOOST"
 using "GASEOUS_FORM"
 data "DisplayName" "h760a194eg204cg4506g8566g0bf5baac8959"
-data "Description" "h880ccd03gf1e1g419cgbc2bg88c24dad10e8"
+// data "Description" "h880ccd03gf1e1g419cgbc2bg88c24dad10e8"
 data "Icon" "PassiveFeature_MistyEscape"
 
 // TODO: THIS IS CLOUD OF DAGGERS
@@ -2320,11 +2320,20 @@ data "StatusType" "BOOST"
 data "DisplayName" "hce650e61g9431g4558gbb97gdbc2f4fa1c65"
 data "Description" "h2cbb948dgde72g449eg9bb0gf34d81b458b9"
 data "DescriptionParams" ""
-data "Icon" ""
-data "StackId" "MYSTIC_INERTIAL_ARMOR"
+data "Icon" "Spell_Abjuration_MageArmor"
+// data "StackId" "MYSTIC_INERTIAL_ARMOR"
 // data "TickType" "StartTurn"
 // data "StatusPropertyFlags" "TickingWithSource"
-data "Boosts" ""
+// data "Boosts" ""
+data "SoundStop" "Spell_Status_MageArmor_MO_Stop"
+data "StackId" "MAGE_ARMOR"
+data "Boosts" "ACOverrideFormula(14,true,Dexterity)"
+data "RemoveConditions" "WearingArmor()"
+data "RemoveEvents" "OnEquip;OnTurn"
+data "OnApplyFunctors" "AI_ONLY:IF(not HasStatus('MAGE_ARMOR')):ApplyStatus(AI_HELPER_MAGEARMOR,100,4)"
+data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusEffect" "b605de22-7474-4f7b-9eeb-287ef6a94dce"
+
 
 // Grasp
 new entry "MYSTIC_GRASP"
@@ -2339,6 +2348,8 @@ data "StackId" "MYSTIC_GRASP"
 // data "TickType" "StartTurn"
 // data "StatusPropertyFlags" "TickingWithSource"
 data "Boosts" ""
+
+// TODO: unlock spell crush
 
 // Ice Spike
 new entry "MYSTIC_ICE_SPIKE"

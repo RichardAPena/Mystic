@@ -373,7 +373,7 @@
 	<content contentuid="h12fcfc8bg47d5g4292g8e96g4777cf857a07" version="1">Instill up to six creatures with a surge of confidence, gaining an extra action each turn.</content>
 	<content contentuid="hffb8f667gf1c3g4b89g90f6g2fdf1114160c" version="1">Able to take an additional action this turn.</content>
 	<content contentuid="h3b13f9c6gb05dg4029g861cg73533e60e4ff" version="1">Incite Fear</content>
-	<content contentuid="hc614b36dgf1e2g4d1bgbd39g2043b1fe4ae1" version="1">Invoke fear in a creature, &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightening&lt;/LSTag&gt; them. The target can repeat the &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; at the end of its turn if it can't see you.</content>
+	<content contentuid="hc614b36dgf1e2g4d1bgbd39g2043b1fe4ae1" version="1">Invoke fear in a creature, &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightening&lt;/LSTag&gt; them.</content>
 	<content contentuid="" version="1">&lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;. Can repeat the &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; if the caster is out of sight.</content>
 	<content contentuid="hf54dcf2bg014fg43abg9484g52be7f13e362" version="1">Unsettling Aura</content>
 	<content contentuid="h93d0582cg5788g43e8g92f5gdc957b0b1cd6" version="1">Cloak yourself in unsettling psychic energy, halving the movement speed of nearby enemies.&lt;br&gt;&lt;br&gt;Creatures that are immune to being &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt; are unaffected.</content>
@@ -622,7 +622,7 @@
 	<content contentuid="h189b99d6g02d8g4ec9gb154g76d71db32c45" version="1">Imbue your ranged weapon with psionic energy. The next attack you make with it deals an additional [1] damage.</content>
 	<content contentuid="hbeb579b0g85dcg4283gb867g60545a50eaa2" version="1">Next ranged weapon attack deals an additional [1] damage.</content>
 	<content contentuid="h170aeca8g0096g4689g9450g240c79bbc380" version="1">Seeking Missile</content>
-	<content contentuid="hfc6b13fdgc440g4072ga6d9g1eb08558a47b" version="1">As a reaction, when you miss with a ranged weapon attack, you can repeat the &lt;LSTag Tooltip="AttackRoll"&gt;Attack&lt;/LSTag&gt; Rolls against the same target.</content>
+	<content contentuid="hfc6b13fdgc440g4072ga6d9g1eb08558a47b" version="1">As a reaction, when you miss with a ranged weapon attack, you can repeat the &lt;LSTag Tooltip="AttackRoll"&gt;Attack&lt;/LSTag&gt; Roll against the same target.</content>
 	<content contentuid="h574e8af9g5955g44e7g9784g45fa820d25a1" version="1">Faithful Archer</content>
 	<content contentuid="h164ea828g6a86g44b4gbf03g9f9fd500dd03" version="1">Imbue your ranged weapon with a limited sentience, allowing you to perform an extra ranged weapon attack for free each turn.</content>
 	<content contentuid="h50719c0eg4303g48dega765gc79a5b0bd0fa" version="1">Able to perform an additional ranged weapon attack for free.</content>
@@ -677,7 +677,7 @@
 	<content contentuid="h9016bc24g4082g4a64ga4c7gf061572ac8df" version="1">Summon a patch of flames, dealing [1] damage to creatures when placed and when they end their turn inside.</content>
 	<content contentuid="he21f9a01g02afg45e9g9c92g0421abbfd8dd" version="1">Taking [1] damage at the end of each turn.</content>
 	<content contentuid="hdb0b3651g53ddg471agb3c3ge4f5e8a3faad" version="1">Detonation</content>
-	<content contentuid="hfa921a8fg668dg44d7gb7cdgadf70c5e712f" version="1">TODO: Detonation Description</content>
+	<content contentuid="hfa921a8fg668dg44d7gb7cdgadf70c5e712f" version="1">Create a fiery explosion, causing creatures inside to be knocked Prone.</content>
 	<content contentuid="hc1137f43g5b0bg4269g9c8dg17e6d261a14b" version="1">Fire Form</content>
 	<content contentuid="heed30d02g7e59g4252g9005ge374d3ebfc81" version="1">Wreathe yourself in flames, dealing [1] damage to creatures that end their turn within [2] of you.</content>
 	<content contentuid="hf9d44f36gdf24g4437ga1ffgce4a38f3e99e" version="1">Dealing [1] damage to creatures that end their turn within [2] of you.</content>
@@ -692,7 +692,7 @@
 	<content contentuid="h3e3a7ea6gc38ag4f3aga618g28da59a408ec" version="1">Encase yourself in a veil of pure kinetic energy, increasing your base Armour Class to 14.</content>
 	<content contentuid="h2cbb948dgde72g449eg9bb0gf34d81b458b9" version="1">Base Armour Class increased to 14.</content>
 	<content contentuid="hb7cb3735g1907g4d50g9462g3ce0acc8c7af" version="1">Telekinetic Barrier</content>
-	<content contentuid="h4239b128g398eg4700g86edgb1499e0d2496" version="1">TODO: Telekinetic Barrier Description</content>
+	<content contentuid="h4239b128g398eg4700g86edgb1499e0d2496" version="1">Manifest a line of increased surface tension. Creatures within will be in Difficult Terrain.</content>
 	<content contentuid="hc1180697g9634g4b84gb46ag2ef175e42c9c" version="1">Grasp</content>
 	<content contentuid="ha82db9a3g45c0g450cgba3fg5651fd1b6911" version="1">Grasp a creature in telekinetic energy, Restraining it. While concentrating on this, you can cast Crush.</content>
 	<content contentuid="hcbf42d0fgf5aeg498dg8606g4be4f97997e2" version="1">TODO: Grasp Status Description</content>
