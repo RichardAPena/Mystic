@@ -167,7 +167,7 @@ type "PassiveData"
 data "DisplayName" "hb246fc5fg1436g48b5g9d57ga6131560be24"
 data "Description" "he4efcefageec9g4d22g9859g8743b9a2b1a5"
 data "Icon" ""
-data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MasteryOfFire);UnlockSpell(Projectile_Mystic_Combustion);UnlockSpell(Target_Mystic_RollingFlame);UnlockSpell(Target_Mystic_Detonation);UnlockSpell(Shout_Mystic_FireForm);UnlockSpell(Target_Mystic_AnimateFire)"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MasteryOfFire);UnlockSpell(Target_Mystic_Combustion);UnlockSpell(Target_Mystic_RollingFlame);UnlockSpell(Target_Mystic_Detonation);UnlockSpell(Shout_Mystic_FireForm);UnlockSpell(Target_Mystic_AnimateFire)"
 
 // Mastery of Force
 new entry "Discipline_MasteryOfForce"
@@ -199,7 +199,7 @@ type "PassiveData"
 data "DisplayName" "h79f3b1d1gdd8ag4f3cgac34g1489d6e88bba"
 data "Description" "h4858cae4g0258g4d6fga6d7g9ee0c38bb0bb"
 data "Icon" ""
-data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MasteryOfWater);UnlockSpell(Projectile_Mystic_Dessicate);UnlockSpell(Target_Mystic_WateryGrasp);UnlockSpell(Zone_Mystic_WaterWhip);UnlockSpell(Target_Mystic_WaterSphere);UnlockSpell(Target_Mystic_AnimateWater)"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MasteryOfWater);UnlockSpell(Target_Mystic_Dessicate);UnlockSpell(Target_Mystic_WateryGrasp);UnlockSpell(Zone_Mystic_WaterWhip);UnlockSpell(Target_Mystic_WaterSphere);UnlockSpell(Target_Mystic_AnimateWater)"
 
 // Mastery of Weather
 new entry "Discipline_MasteryOfWeather"
@@ -294,7 +294,7 @@ type "PassiveData"
 data "DisplayName" "h0aa174f1g2fa2g4e53gb422g0dbdf78e1ad8"
 data "Description" "h9d101d3bg7a6ag4d74gb632ga7a96d3a815f"
 data "Icon" ""
-data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_PsychicDisruption);UnlockSpell(Projectile_Mystic_DistractingHaze);UnlockSpell(Target_Mystic_Daze);UnlockSpell(Target_Mystic_MindStorm)"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_PsychicDisruption);UnlockSpell(Target_Mystic_DistractingHaze);UnlockSpell(Target_Mystic_Daze);UnlockSpell(Target_Mystic_MindStorm)"
 
 // Psychic Supression (Psychic Inquisition)
 // TODO: Mid-rework
@@ -403,8 +403,8 @@ data "DisplayName" "h9056fee7g112dg4688g9c65g54a5e5ab47f6"
 data "Description" "h63f5ec13ga44bg4706ga3cfgbb3655936380"
 data "Icon" "Action_Paladin_LayOnHands_SmallHeal"
 data "StatsFunctorContext" "OnCast;OnActionResourcesChanged"
-// data "Conditions" "IsSpell() and not IsCantrip()"
-data "Conditions" "IsSpell() and not IsCantrip() and not IsSpellSchool(SpellSchool.Abjuration) and not IsSpellSchool(SpellSchool.Conjuration) and not IsSpellSchool(SpellSchool.Divination) and not IsSpellSchool(SpellSchool.Enchantment) and not IsSpellSchool(SpellSchool.Evocation) and not IsSpellSchool(SpellSchool.Illusion) and not IsSpellSchool(SpellSchool.Necromancy) and not IsSpellSchool(SpellSchool.Transmutation)"
+data "Conditions" "IsSpell() and not IsCantrip()"
+// data "Conditions" "IsSpell() and not IsCantrip() and not IsSpellSchool(SpellSchool.Abjuration) and not IsSpellSchool(SpellSchool.Conjuration) and not IsSpellSchool(SpellSchool.Divination) and not IsSpellSchool(SpellSchool.Enchantment) and not IsSpellSchool(SpellSchool.Evocation) and not IsSpellSchool(SpellSchool.Illusion) and not IsSpellSchool(SpellSchool.Necromancy) and not IsSpellSchool(SpellSchool.Transmutation)"
 
 
 
@@ -530,7 +530,23 @@ data "Boosts" "UnlockInterrupt(Interrupt_Mystic_SurgeOfHealth);ActionResource(In
 
 // Elemental Attunement (Wu Jen)
 // REWORK: You may spend 1 Psi Point at will and choose a resistance to ignore.
+new entry "Passive_Mystic_ElementalAttunement"
+type "PassiveData"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" ""
+data "Properties" "Highlighted"
+data "Boosts" ""
 
 // Arcane Dabbler? (Wu Jen)
+new entry "Passive_Mystic_ArcaneDabbler"
+type "PassiveData"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" ""
+data "Properties" "Highlighted"
+data "Boosts" ""
+
+
 // Elemental Mastery (Wu Jen)
 

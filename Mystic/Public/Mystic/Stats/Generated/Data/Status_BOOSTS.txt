@@ -1807,7 +1807,6 @@ using "MYSTIC_RAPID_STEP_1"
 data "DescriptionParams" "Distance(21)"
 data "Boosts" "ActionResource(Movement,21,0)"
 
-
 // Agile Defense
 new entry "MYSTIC_AGILE_DEFENSE"
 type "StatusData"
@@ -1854,11 +1853,6 @@ data "SoundLoop" "Misc_Status_Reduce_MO"
 data "SoundStop" "Misc_Status_Reduce_MO_Stop"
 data "StackId" "SIZE"
 data "Boosts" "Disadvantage(Ability, Strength); Disadvantage(SavingThrow, Strength);ObjectSize(-2);WeightCategory(-2);ScaleMultiplier(0.33);CarryCapacityMultiplier(0.5);AC(5);Skill(Stealth, 10);CharacterWeaponDamage(-99)"
-// TODO: ???
-// data "Passives" "Ethereal"
-// data "TemplateID" "1bfcc6e2-73e8-4c31-87a9-b03716d0b6d4"
-// data "Rules" "9eef2bd2-604f-459a-83b2-3e6b7ce3bfde"
-//
 data "StatusGroups" "SG_RemoveOnRespec"
 data "StatusEffect" "63ac2820-3c0d-4305-b269-f6df70cf45b7"
 
@@ -2202,6 +2196,38 @@ data "Boosts" "UnlockSpell(Projectile_Fly_Spell)"
 // Misty Form
 // new entry "MYSTIC_MISTY_FORM"
 // just copy gaseous form
+
+
+// TODO: THIS IS CLOUD OF DAGGERS
+new entry "MYSTIC_ROLLING_FLAME"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h06524a69g69d0g46f1gb6e8g241fffad8042"
+data "Description" "hf75fea9dg2950g45b5g9153gc03d0834def3"
+data "DescriptionParams" "DealDamage(5,Fire)"
+data "Icon" "Spell_Evocation_BurningHands"
+data "StackId" "MYSTIC_ROLLING_FLAME"
+// data "TooltipDamage" "DealDamage(5,Fire)"
+data "TickFunctors" "DealDamage(5,Fire,Magical)"
+data "TickType" "EndTurn"
+// data "OnApplyFunctors" "DealDamage(4d4,Slashing,Magical)"
+
+// TODO: THIS IS CLOUD OF DAGGERS TOO
+new entry "MYSTIC_ROLLING_FLAME_AURA"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h06524a69g69d0g46f1gb6e8g241fffad8042"
+data "Description" "he21f9a01g02afg45e9g9c92g0421abbfd8dd"
+data "DescriptionParams" "DealDamage(5,Fire)"
+data "Icon" "Spell_Evocation_BurningHands"
+data "SoundLoop" "Misc_Status_Burning_MO"
+data "SoundStop" "Spell_Status_CloudOfDaggers_ST_Stop"
+data "StackId" "MYSTIC_ROLLING_FLAME_AURA"
+data "AuraRadius" "6"
+data "AuraStatuses" "ApplyStatus(MYSTIC_ROLLING_FLAME,100,1)"
+data "StatusPropertyFlags" "InitiateCombat;BringIntoCombat"
+data "StatusEffect" "76d8dddf-6ab9-4ee0-a130-601e981081fc"
+
 
 // Fire Form
 new entry "MYSTIC_FIRE_FORM"

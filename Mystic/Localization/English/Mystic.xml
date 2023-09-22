@@ -18,6 +18,10 @@
 	<content contentuid="heeb074ebga0e0g459dgb417g87158e793ab2" version="1">Psi Points</content>
 	<content contentuid="h4279b7e2g21b4g4891gba54gd134afe1cd53" version="1">Determines how many Psi Points you can spend at once. Increases with Mystic level.</content>
 	<content contentuid="hd44f7002g8382g4663g89f3g88a18f0791bf" version="1">Psi Limit</content>
+	<content contentuid="h967a52b9g432ag4290g8b17g216c46ac45d9" version="1">Psi Limit raised to 3</content>
+	<content contentuid="" version="1">Psi Limit raised to 5</content>
+	<content contentuid="" version="1">Psi Limit raised to 6</content>
+	<content contentuid="" version="1">Psi Limit raised to 7</content>
 	<content contentuid="h50a4b569gc8f8g4d05g85c2g5c039ffcb237" version="1">Using their inner, psychic strength, mystics can read minds, fade into invisibility, transform their bodies into living iron, and seize control of the physical world and bend it to their will.</content>
 	<content contentuid="hb4bc9f84gaefbg4844g9597gd48f569a35db" version="1">Mystic</content>
 	<content contentuid="h31fd1f11g371eg4779gad70gdd7b6130470a" version="1">The Order of the Avatar focuses on manipulating emotion, rallying allies and crippling foes.</content>
@@ -666,75 +670,77 @@
 	<content contentuid="h6d7a8508gc819g4721g9776gc088c405db0b" version="1">Animate Air</content>
 	<content contentuid="haca543aeg695dg43d7g80bcg7e1e7961b425" version="1">Summon an Air Elemental.</content>
 	<content contentuid="h59022a24gd4b7g4d79gab10g497349ebb068" version="1">Combustion</content>
-	<content contentuid="he5878be1gd6d8g4acbg8d8egfb5acd722cae" version="1">TODO: Combustion Description</content>
+	<content contentuid="he5878be1gd6d8g4acbg8d8egfb5acd722cae" version="1">Cause a creature to spontaneously combust into flames, setting them aflame.</content>
 	<content contentuid="h06524a69g69d0g46f1gb6e8g241fffad8042" version="1">Rolling Flame</content>
-	<content contentuid="h9016bc24g4082g4a64ga4c7gf061572ac8df" version="1">TODO: Rolling Flame Description</content>
+	<content contentuid="h9016bc24g4082g4a64ga4c7gf061572ac8df" version="1">Summon a patch of flames, dealing [1] damage to creatures when placed and when they end their turn inside.</content>
+	<content contentuid="he21f9a01g02afg45e9g9c92g0421abbfd8dd" version="1">Taking [1] damage at the end of each turn.</content>
 	<content contentuid="hdb0b3651g53ddg471agb3c3ge4f5e8a3faad" version="1">Detonation</content>
 	<content contentuid="hfa921a8fg668dg44d7gb7cdgadf70c5e712f" version="1">TODO: Detonation Description</content>
 	<content contentuid="hc1137f43g5b0bg4269g9c8dg17e6d261a14b" version="1">Fire Form</content>
-	<content contentuid="heed30d02g7e59g4252g9005ge374d3ebfc81" version="1">TODO: Fire Form Description</content>
-	<content contentuid="hf9d44f36gdf24g4437ga1ffgce4a38f3e99e" version="1">TODO: Fire Form Status Description</content>
+	<content contentuid="heed30d02g7e59g4252g9005ge374d3ebfc81" version="1">Wreathe yourself in flames, dealing [1] damage to creatures that end their turn within [2] of you.</content>
+	<content contentuid="hf9d44f36gdf24g4437ga1ffgce4a38f3e99e" version="1">Dealing [1] damage to creatures that end their turn within [2] of you.</content>
+	<content contentuid="hf75fea9dg2950g45b5g9153gc03d0834def3" version="1">Taking [1] at the end of your turn.</content>
 	<content contentuid="h2be70227ge413g44cfgb26cg4cd3eef53842" version="1">Animate Fire </content>
 	<content contentuid="h1f08380fg7fd8g412fgac52g1dd4a922e58f" version="1">Summon a Fire Elemental.</content>
 	<content contentuid="hc0841745gb78cg47f1g9ef2gb3fb6a330063" version="1">Push</content>
-	<content contentuid="h07dcb591g2b03g4b38g85b3gb0a4dd2abff1" version="1">TODO: Push Description</content>
+	<content contentuid="h07dcb591g2b03g4b38g85b3gb0a4dd2abff1" version="1">Exert a wave of kinetic force, pushing a creature [1].</content>
 	<content contentuid="h13b67091gc5b9g45a6g8daag1c23f5d24516" version="1">Move</content>
-	<content contentuid="h64b9f99cg200bg4085g96c7gd94c9160f410" version="1">Unleash a force in a small area, pushing enemies away from its epicenter.</content>
+	<content contentuid="h64b9f99cg200bg4085g96c7gd94c9160f410" version="1">Unleash concentrated burst of energy in a small area, pushing enemies away from its epicenter.</content>
 	<content contentuid="hce650e61g9431g4558gbb97gdbc2f4fa1c65" version="1">Inertial Armor</content>
-	<content contentuid="h3e3a7ea6gc38ag4f3aga618g28da59a408ec" version="1">TODO: Inertial Armor Description</content>
-	<content contentuid="h2cbb948dgde72g449eg9bb0gf34d81b458b9" version="1">TODO: Inertial Armor Status Description</content>
+	<content contentuid="h3e3a7ea6gc38ag4f3aga618g28da59a408ec" version="1">Encase yourself in a veil of pure kinetic energy, increasing your base Armour Class to 14.</content>
+	<content contentuid="h2cbb948dgde72g449eg9bb0gf34d81b458b9" version="1">Base Armour Class increased to 14.</content>
 	<content contentuid="hb7cb3735g1907g4d50g9462g3ce0acc8c7af" version="1">Telekinetic Barrier</content>
 	<content contentuid="h4239b128g398eg4700g86edgb1499e0d2496" version="1">TODO: Telekinetic Barrier Description</content>
 	<content contentuid="hc1180697g9634g4b84gb46ag2ef175e42c9c" version="1">Grasp</content>
-	<content contentuid="ha82db9a3g45c0g450cgba3fg5651fd1b6911" version="1">TODO: Grasp Description</content>
+	<content contentuid="ha82db9a3g45c0g450cgba3fg5651fd1b6911" version="1">Grasp a creature in telekinetic energy, Restraining it. While concentrating on this, you can cast Crush.</content>
 	<content contentuid="hcbf42d0fgf5aeg498dg8606g4be4f97997e2" version="1">TODO: Grasp Status Description</content>
 	<content contentuid="h14fbc9a9g937bg404dg9828ga15d97bae7c0" version="1">Crush</content>
-	<content contentuid="ha5ec3f66gafc7g4df2gba74g2dcb08319156" version="1">TODO: Crush Description</content>
+	<content contentuid="ha5ec3f66gafc7g4df2gba74g2dcb08319156" version="1">Crush a Restrained creature.</content>
 	<content contentuid="hca8006b4gc36fg4945gb217gaed13e17b2ed" version="1">Ice Spike</content>
-	<content contentuid="hd9305583gb3b5g4943g8cf1g6dc5598e61a7" version="1">TODO: Ice Spike Description</content>
-	<content contentuid="h9068ef18g784cg4e0agb49bgf11637d26257" version="1">TODO: Ice Spike Status Description</content>
+	<content contentuid="hd9305583gb3b5g4943g8cf1g6dc5598e61a7" version="1">Hurl a sharp chunk of ice, reducing the target's movement speed by [1].</content>
+	<content contentuid="h9068ef18g784cg4e0agb49bgf11637d26257" version="1">Movement speed reduced by [1].</content>
 	<content contentuid="h23d4e455g6a54g4588g83e6g30c15afb84e4" version="1">Ice Sheet</content>
-	<content contentuid="he2419769g603eg4997g8f00g8c8b81f48c95" version="1">TODO: Ice Sheet Description</content>
+	<content contentuid="he2419769g603eg4997g8f00g8c8b81f48c95" version="1">Condense and freeze the air in an area, creating an ice surface.</content>
 	<content contentuid="h6d3dd2b8g7058g432ega9cag634db46c2cb6" version="1">Frozen Sanctuary</content>
-	<content contentuid="hedad1cc0gefc8g4f3ag84f8g62a28800b33b" version="1">TODO: Frozen Sanctuary Description</content>
-	<content contentuid="h3fac742ag0b3dg4dcag8f31g72cd0c2de35f" version="1">TODO: Frozen Sanctuary Status Description.</content>
+	<content contentuid="hedad1cc0gefc8g4f3ag84f8g62a28800b33b" version="1">Sheathe yourself in icy resilience, gaining [1] temporary hit points.</content>
+	<content contentuid="h3fac742ag0b3dg4dcag8f31g72cd0c2de35f" version="1">Gain [1] temporary hit points.</content>
 	<content contentuid="h5f95805age5e7g44c9g99f6g74be6cf53e5a" version="1">Frozen Rain</content>
-	<content contentuid="hf2df9e10g8ae2g466bg9256gbe78684c3235" version="1">TODO: Frozen Rain Description</content>
-	<content contentuid="h59281052gd2c2g4a8cgaa8bgcfc39a66321c" version="1">TODO: Frozen Rain Description</content>
+	<content contentuid="hf2df9e10g8ae2g466bg9256gbe78684c3235" version="1">Create an area filled with deathly cold and saturated moisture, reducing the movement speed of creatures within to 0. Each turn, creatures affected make a Strength Saving Throw to attempt to free themselves.</content>
+	<content contentuid="h59281052gd2c2g4a8cgaa8bgcfc39a66321c" version="1">Movement speed reduced to 0.</content>
 	<content contentuid="hffbc0d49gca10g4226g8cd5ga1651badf1a7" version="1">Ice Barrier</content>
 	<content contentuid="h80c6ef67ga95cg467fga4e7g67f900bb39d4" version="1">TODO: Ice Barrier Description</content>
 	<content contentuid="h68d85accg564bg4affg8219g9c96403a5ff7" version="1">Darkness</content>
-	<content contentuid="h00fde1f1g15d3g4934gbffeg3426e8959ebe" version="1">TODO: Darkness Description</content>
+	<content contentuid="h00fde1f1g15d3g4934gbffeg3426e8959ebe" version="1">Summon a cloud of darkness with a radius of [1].</content>
 	<content contentuid="hdfa9f427gc799g4770g85fcg63d116f2e382" version="1">Light</content>
-	<content contentuid="hc63a4658g2949g40b9g814ag32af6287739f" version="1">TODO: Light Description</content>
-	<content contentuid="hae3300acgd414g47d9g9a97gb47f02ef7803" version="1">TODO: Light Status Description </content>
+	<content contentuid="hc63a4658g2949g40b9g814ag32af6287739f" version="1">Touch a creature, causing it to shed a bright light. Attack rolls against it will have Advantage and it won't be able to hide.</content>
+	<content contentuid="hae3300acgd414g47d9g9a97gb47f02ef7803" version="1">Attack Rolls against this creature have Advantage. Can't hide.</content>
 	<content contentuid="h245fbcc4g9e03g4a53g96b0g301999f5064e" version="1">Shadow Beasts</content>
-	<content contentuid="h9693ee45gcbf1g48aagaacdg210b5a95ceb0" version="1">TODO: Shadow Beasts Description</content>
+	<content contentuid="h9693ee45gcbf1g48aagaacdg210b5a95ceb0" version="1">TODO: Shadow Beasts Description, this will probably be done last</content>
 	<content contentuid="h715c4038gb88bg4c46gbec2g0d5c201ee518" version="1">Radiant Beam</content>
 	<content contentuid="hbf895ed3g83eeg40cfg9d54ga2bda01397a8" version="1">TODO: Radiant Beam Description</content>
-	<content contentuid="hf302a4a4g69cag42b0ga2fcgf5ba3647f346" version="1">Dessicate</content>
-	<content contentuid="h0f56755ag8741g4841ga841g6e8448d58868" version="1">TODO: Dessicate Description</content>
+	<content contentuid="hf302a4a4g69cag42b0ga2fcgf5ba3647f346" version="1">Desiccate</content>
+	<content contentuid="h0f56755ag8741g4841ga841g6e8448d58868" version="1">Drain the moisture from a creature.</content>
 	<content contentuid="h3117d124g32edg4063g9b47g520fed500eec" version="1">Watery Grasp</content>
-	<content contentuid="h67d054a7g10ceg47dega004g980c43d248b7" version="1">TODO: Watery Grasp Description</content>
+	<content contentuid="h67d054a7g10ceg47dega004g980c43d248b7" version="1">be water my friend</content>
 	<content contentuid="h87afed8cg7b25g420cgb445g0c565dd68e33" version="1">Water Whip</content>
 	<content contentuid="h00b39772gdc47g4097g94c0g58a4cd1e5eb8" version="1">Unleash a jet of water in a line, battering creatures caught in the blast.</content>
 	<content contentuid="h492bb7acged62g464bg9971g4320777edc4b" version="1">Water Sphere</content>
-	<content contentuid="hecc4ab94g70d3g4aa3g8121g24e692f7a0a1" version="1">TODO: Water Sphere Description</content>
-	<content contentuid="hc5304740g7e91g471eg9d78gbb3a9b09e913" version="1">TODO: Water Sphere Status Description</content>
+	<content contentuid="hecc4ab94g70d3g4aa3g8121g24e692f7a0a1" version="1">Create a sphere of water around a creature, trapping it. While trapped, its speed is halved, it suffers Disadvantage on Attack Rolls and its sight range is reduced to [1], however, Attack Rolls against it also suffer Disadvantage. The creature can repeat the Saving Throw at the end of each of its turns.</content>
+	<content contentuid="hc5304740g7e91g471eg9d78gbb3a9b09e913" version="1">Encased in a sphere of water. Movement speed halved. Disadvantage on Attack Rolls. Sight range is reduced to [1]. Incoming Attacks have Disadvantage.</content>
 	<content contentuid="h24d90535g0e69g4c4ag869eg10e0a7d0f6db" version="1">Animate Water</content>
-	<content contentuid="h38bdbceeg97deg4545ga334ge1bf23a92117" version="1">TODO: Animate Water Description</content>
+	<content contentuid="h38bdbceeg97deg4545ga334ge1bf23a92117" version="1">Suummon a Water Elemental.</content>
 	<content contentuid="h40892606g8591g42ebg878egf992f30447d8" version="1">Hungry Lightning</content>
-	<content contentuid="h44fa40f8g5563g4bd9g8f21gc569d1545bb0" version="1">TODO: Hungry Lightning Description</content>
+	<content contentuid="h44fa40f8g5563g4bd9g8f21gc569d1545bb0" version="1">Lash out with tendrils of lightning. Has Advantage on creatures wearing metal armour.</content>
 	<content contentuid="h236c1b88gf8d4g4d65gb25eg7dfa0205eec4" version="1">Wall of Clouds</content>
-	<content contentuid="hf07089f7g1ee6g49dag9181g699a25bd460f" version="1">TODO: Wall of Clouds Description</content>
+	<content contentuid="hf07089f7g1ee6g49dag9181g699a25bd460f" version="1">Summon a cloud that blocks vision.</content>
 	<content contentuid="h91716e4fgf715g4e88g9ef2gdbcf8113e2ae" version="1">Whirlwind</content>
-	<content contentuid="h5e620313gd393g4b85g848ag09f1e2a5957a" version="1">TODO: Whirlwind Description</content>
+	<content contentuid="h5e620313gd393g4b85g848ag09f1e2a5957a" version="1">Create a vortex of howling winds, pulling creatures towards its center.</content>
 	<content contentuid="hd4d177ffg93beg48a1gac30g6cf4dde24fa4" version="1">Lightning Leap</content>
-	<content contentuid="ha7e0bbf8g5d10g4a3bg93d4ged95c225fe28" version="1">Surge forward with a flash of lightning, dealing damage along your path.</content>
+	<content contentuid="ha7e0bbf8g5d10g4a3bg93d4ged95c225fe28" version="1">Surge forward with a flash of lightning, shocking everything along your path.</content>
 	<content contentuid="h0fdf4a1eg519cg46bcg8735g75b7d7dcc113" version="1">Wall of Thunder</content>
-	<content contentuid="hf2400914g9a65g461cga04bgb38b576426fc" version="1">TODO: Wall of Thunder Description</content>
+	<content contentuid="hf2400914g9a65g461cga04bgb38b576426fc" version="1">TODO: Wall of Thunder Description :/</content>
 	<content contentuid="hf7d682f4gd5e3g4375gb91eg48a5f9bd7c5d" version="1">Thunder Clap</content>
-	<content contentuid="h05a08ff8g34c6g4c6dga0e0gd05003430d4d" version="1">TODO: Thunder Clap Description</content>
+	<content contentuid="h05a08ff8g34c6g4c6dga0e0gd05003430d4d" version="1">Thunderous energy erupts in a targeted area, Stunning enemies inside.</content>
 	<content contentuid="hfd6106d9g3b27g40cdg9600gb68249c8af8d" version="1">Animate Weapon</content>
 	<content contentuid="he473eb03g1569g4174gb71egb75d1e25a527" version="1">Seize control of a weapon you're holding, dealing its damage plus an additional [1] damage to a creature.</content>
 	<content contentuid="h83a09a72gd4cdg4b08ga961g3238a6650967" version="1">Warp Weapon</content>

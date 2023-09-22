@@ -380,8 +380,8 @@
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="WuJen"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="PassivesAdded" type="LSString" value=""/>
-                    <attribute id="Selectors" type="LSString" value="SelectSkills(617e273e-cc5e-44ea-aa33-ae38865d224f,2);SelectPassives(7b38171b-da70-470e-b3a8-4edabc8da3c8,2,WuJenDisciplines)"/> Hermit's Study
+                    <attribute id="PassivesAdded" type="LSString" value=""/> SelectSkills(617e273e-cc5e-44ea-aa33-ae38865d224f,2)
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(7b38171b-da70-470e-b3a8-4edabc8da3c8,2,WuJenDisciplines)"/>
                     <attribute id="TableUUID" type="guid" value="5be9ee51-acca-46da-be13-e66a6ff5a080"/>
                     <attribute id="UUID" type="guid" value="28d0587c-981c-4be2-84b1-c6f1870f88da"/>
                 </node>
@@ -390,7 +390,7 @@
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="WuJen"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="PassivesAdded" type="LSString" value=""/> TODO: Elemental Attunement
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_ElementalAttunement"/>
                     <attribute id="TableUUID" type="guid" value="5be9ee51-acca-46da-be13-e66a6ff5a080"/>
                     <attribute id="UUID" type="guid" value="b2ceca91-e185-4e81-8675-d69365c47db5"/>
                 </node>
@@ -399,12 +399,12 @@
                     <attribute id="Level" type="uint8" value="6"/>
                     <attribute id="Name" type="LSString" value="WuJen"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="PassivesAdded" type="LSString" value=""/> TODO: Arcane Dabbler
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_ArcaneDabbler"/>
                     <attribute id="TableUUID" type="guid" value="5be9ee51-acca-46da-be13-e66a6ff5a080"/>
                     <attribute id="UUID" type="guid" value="66c868a2-f29a-4777-ae33-7586a41930b0"/>
                 </node>
 
-                TODO: WU JEN LEVELS 7-12, 13-20, replace spells
+                TODO: WU JEN LEVELS 7-12, 13-20, replace spells?
                 
             </children>
         </node>

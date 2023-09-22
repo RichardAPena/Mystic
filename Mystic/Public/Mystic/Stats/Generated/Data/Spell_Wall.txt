@@ -40,11 +40,14 @@ data "SpellSoundMagnitude" "Big"
 new entry "Wall_Mystic_TelekineticBarrier"
 type "SpellData"
 data "SpellType" "Wall"
+data "Level" "3"
 
-data "Icon" ""
+data "Icon" "Spell_Evocation_BladeBarrier"
 data "DisplayName" "hb7cb3735g1907g4d50g9462g3ce0acc8c7af"
 data "Description" "h4239b128g398eg4700g86edgb1499e0d2496"
 data "DescriptionParams" ""
+
+data "SpellFlags" "IsSpell"
 
 // Ice Barrier
 new entry "Wall_Mystic_IceBarrier"

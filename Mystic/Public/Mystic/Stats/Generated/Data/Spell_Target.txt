@@ -150,7 +150,6 @@ data "TooltipDamageList" "DealDamage(LevelMapValue(D8Cantrip),Thunder)"
 data "DamageType" "Thunder"
 
 // Mind Meld
-// TODO: Add debuff to self
 new entry "Target_Mystic_MindMeld"
 type "SpellData"
 data "SpellType" "Target"
@@ -283,7 +282,6 @@ data "CastEffect" "10fc784a-4312-47a8-a6b8-6b529c646ac4"
 data "TargetEffect" "a3e2368b-f486-4cfc-b04a-b02e23383280"
 
 // Psychic Hammer
-// TODO: Rn it just pushes
 new entry "Target_Mystic_PsychicHammer"
 type "SpellData"
 data "SpellType" "Target"
@@ -1532,6 +1530,16 @@ data "DisplayName" "h53537f78gb635g488fg9df3gd40a5a1fe3b3"
 data "Description" "hcbcb6cdfg6c48g4fc5gbb48g1abdae16d1d1"
 data "DescriptionParams" ""
 
+// Distracting Haze
+new entry "Target_Mystic_DistractingHaze"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" "Spell_Conjuration_FogCloud"
+data "DisplayName" "he698e421gecfbg4505g9920g109d0fc2527f"
+data "Description" "h7ba07cedg38bag4861gb3edg239bcdc0739a"
+data "DescriptionParams" ""
+
 // Daze
 new entry "Target_Mystic_Daze"
 type "SpellData"
@@ -1939,9 +1947,6 @@ data "VerbalIntent" "Damage"
 data "SpellFlags" "IsMelee;IsSpell;IsHarmful;IsLinkedSpellContainer"
 data "PrepareEffect" "9b55a45f-1859-4f55-8fd4-44a27d3fcba1"
 data "CastEffect" "f573afc5-f018-4a87-a3a9-d1c0fe4e5b0d"
-
-// TODO: idk if this works
-// TESTING!!!!!!!!!!!!!!!!
 data "TooltipOnMiss" "ca9da2ff-3b94-4653-aa11-621aa7987200"
 data "TooltipAttackSave" "MeleeWeaponAttack;Strength"
 
@@ -2458,6 +2463,8 @@ new entry "Target_Mystic_AnimateAir"
 type "SpellData"
 data "SpellType" "Target"
 using "Target_ConjureElemental_Elemental_Air"
+data "Level" "7" 
+data "SpellContainerID" ""
 
 data "Icon" "Spell_Conjuration_ConjureElemental_Air"
 data "DisplayName" "h6d7a8508gc819g4721g9776gc088c405db0b"
@@ -2465,16 +2472,57 @@ data "Description" "haca543aeg695dg43d7g80bcg7e1e7961b425"
 data "DescriptionParams" ""
 data "UseCosts" "ActionPoint:1"
 
+// Combustion
+new entry "Target_Mystic_Combustion"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" "Spell_HellishRebuke"
+data "DisplayName" "h59022a24gd4b7g4d79gab10g497349ebb068"
+data "Description" "he5878be1gd6d8g4acbg8d8egfb5acd722cae"
+data "DescriptionParams" ""
+
 // Rolling Flame
+// TODO: Set things aflame
 new entry "Target_Mystic_RollingFlame"
 type "SpellData"
 data "SpellType" "Target"
+data "Level" "2"
 
 data "Icon" "Spell_Evocation_BurningHands"
 // data "Icon" "Action_ExhaleFire"
 data "DisplayName" "h06524a69g69d0g46f1gb6e8g241fffad8042"
 data "Description" "h9016bc24g4082g4a64ga4c7gf061572ac8df"
 data "DescriptionParams" ""
+
+// data "SpellSchool" "Conjuration"
+
+// cloud of daggers: 
+// flaming sphere: a4ca1c8f-d59b-4393-9c06-987713f8f74d
+data "SpellProperties" "AI_IGNORE:GROUND:Summon(0ba4af65-19d0-4a31-9a42-2c365462841b, 10,,,,MYSTIC_ROLLING_FLAME_AURA);AI_ONLY:DealDamage(5,Fire);DealDamage(5,Fire)"
+data "TargetRadius" "1.5"
+data "AreaRadius" "6"
+data "AoEConditions" "not Self()"
+data "TargetConditions" "not Self()"
+
+// data "TooltipDamageList" "DealDamage(5,Fire)"
+data "TooltipStatusApply" "ApplyStatus(MYSTIC_ROLLING_FLAME_AURA,100,10)"
+// data "TooltipUpcastDescription" "66388a6f-44dd-4c9f-a9e7-910c50e70755"
+// data "TooltipUpcastDescriptionParams" "DealDamage(2d4,Slashing)"
+// data "CastSound" "Spell_Cast_Damage_Physical_CloudOfDaggers_L1to3"
+data "TargetSound" "Spell_Impact_Damage_Physical_CloudOfDaggers_L1to3"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
+data "UseCosts" "ActionPoint:1;PsiPointsResource:3;PsiLimitResource:1:3"
+data "SpellAnimation" "dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;7abe77ed-9c77-4eac-872c-5b8caed070b6,,;cb171bda-f065-4520-b470-e447f678ba1f,,;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;,,;,,"
+// data "VerbalIntent" "Damage"
+data "SpellFlags" "IsSpell;HasHighGroundRangeExtension;IsConcentration;IsHarmful;CannotTargetItems"
+data "PrepareEffect" "7121a488-7c9a-4ba1-a585-f79aaa77e97c"
+data "CastEffect" "e61d2266-f041-4bd5-a488-7b66e76d781c"
+data "PositionEffect" "1a3a7ca5-2072-43fe-b07e-cd52e1bbf3e6"
+data "DamageType" "Fire"
+
+
 
 // Detonation
 new entry "Target_Mystic_Detonation"
@@ -2491,7 +2539,9 @@ new entry "Target_Mystic_AnimateFire"
 type "SpellData"
 data "SpellType" "Target"
 using "Target_ConjureElemental_Elemental_Fire"
+data "Level" "7"
 
+data "SpellContainerID" ""
 data "Icon" "Spell_Conjuration_ConjureElemental_Fire"
 data "DisplayName" "h2be70227ge413g44cfgb26cg4cd3eef53842"
 data "Description" "h1f08380fg7fd8g412fgac52g1dd4a922e58f"
@@ -2503,7 +2553,7 @@ new entry "Target_Mystic_Push"
 type "SpellData"
 data "SpellType" "Target"
 
-data "Icon" ""
+data "Icon" "PassiveAction_RepellingBlast"
 data "DisplayName" "hc0841745gb78cg47f1g9ef2gb3fb6a330063"
 data "Description" "h07dcb591g2b03g4b38g85b3gb0a4dd2abff1"
 data "DescriptionParams" ""
@@ -2513,7 +2563,7 @@ new entry "Target_Mystic_Move"
 type "SpellData"
 data "SpellType" "Target"
 
-data "Icon" ""
+data "Icon" "PassiveFeature_AgonizingBlast"
 data "DisplayName" "h13b67091gc5b9g45a6g8daag1c23f5d24516"
 data "Description" "h64b9f99cg200bg4085g96c7gd94c9160f410"
 data "DescriptionParams" ""
@@ -2523,7 +2573,7 @@ new entry "Target_Mystic_Grasp"
 type "SpellData"
 data "SpellType" "Target"
 
-data "Icon" ""
+data "Icon" "Action_Imp_Claws"
 data "DisplayName" "hc1180697g9634g4b84gb46ag2ef175e42c9c"
 data "Description" "ha82db9a3g45c0g450cgba3fg5651fd1b6911"
 data "DescriptionParams" ""
@@ -2533,7 +2583,7 @@ new entry "Target_Mystic_Crush"
 type "SpellData"
 data "SpellType" "Target"
 
-data "Icon" ""
+data "Icon" "Action_Mag_GrandSlam"
 data "DisplayName" "h14fbc9a9g937bg404dg9828ga15d97bae7c0"
 data "Description" "ha5ec3f66gafc7g4df2gba74g2dcb08319156"
 data "DescriptionParams" ""
@@ -2588,6 +2638,16 @@ data "DisplayName" "h245fbcc4g9e03g4a53g96b0g301999f5064e"
 data "Description" "h9693ee45gcbf1g48aagaacdg210b5a95ceb0"
 data "DescriptionParams" ""
 
+// Dessicate
+new entry "Target_Mystic_Dessicate"
+type "SpellData"
+data "SpellType" "Target"
+
+data "Icon" ""
+data "DisplayName" "hf302a4a4g69cag42b0ga2fcgf5ba3647f346"
+data "Description" "h0f56755ag8741g4841ga841g6e8448d58868"
+data "DescriptionParams" ""
+
 // Watery Grasp
 new entry "Target_Mystic_WateryGrasp"
 type "SpellData"
@@ -2613,6 +2673,8 @@ new entry "Target_Mystic_AnimateWater"
 type "SpellData"
 data "SpellType" "Target"
 using "Target_ConjureElemental_Elemental_Water"
+data "Level" "7"
+data "SpellContainerID" ""
 
 data "Icon" "Spell_Conjuration_ConjureElemental_Water"
 data "DisplayName" "h24d90535g0e69g4c4ag869eg10e0a7d0f6db"
@@ -2654,7 +2716,7 @@ new entry "Target_Mystic_ThunderClap"
 type "SpellData"
 data "SpellType" "Target"
 
-data "Icon" ""
+data "Icon" "GenericIcon_DamageType_Thunder"
 data "DisplayName" "hf7d682f4gd5e3g4375gb91eg48a5f9bd7c5d"
 data "Description" "h05a08ff8g34c6g4c6dga0e0gd05003430d4d"
 data "DescriptionParams" ""
@@ -2664,7 +2726,7 @@ new entry "Target_Mystic_WarpWeapon"
 type "SpellData"
 data "SpellType" "Target"
 
-data "Icon" ""
+data "Icon" "Spell_Abjuration_Transmutation_Shillelagh"
 data "DisplayName" "h83a09a72gd4cdg4b08ga961g3238a6650967"
 data "Description" "h748563bbgacbbg491agb42cgbdde01912d8c"
 data "DescriptionParams" ""
@@ -2674,7 +2736,7 @@ new entry "Target_Mystic_WarpArmor"
 type "SpellData"
 data "SpellType" "Target"
 
-data "Icon" ""
+data "Icon" "Spell_Abjuration_MagicCircle"
 data "DisplayName" "h39245a46gf4a7g40f4gb6ceg4949b840ef0e"
 data "Description" "h562c9301g068eg4efdga903gd0a507fc4ea0"
 data "DescriptionParams" ""
@@ -2683,8 +2745,11 @@ data "DescriptionParams" ""
 new entry "Target_Mystic_AnimateEarth"
 type "SpellData"
 data "SpellType" "Target"
+using "Target_ConjureElemental_Elemental_Earth"
+data "Level" "7"
+data "SpellContainerID" ""
 
-data "Icon" ""
+// data "Icon" ""
 data "DisplayName" "he6887892g1f35g4ab2gb00bgbc8b0ae9f186"
 data "Description" "h0453be45g6769g4bc8gad22ga1684eb1357f"
 data "DescriptionParams" ""
@@ -2693,6 +2758,7 @@ data "DescriptionParams" ""
 // Make each weapon/unarmed attack be in its own container
 // So that way they share a cooldown
 // Give out additional attacks if Extra Attack is on the enemy
+// TODO: either change to unlockspellvariant or use EAC
 new entry "Target_Mystic_MainHandAttack"
 using "Target_MainHandAttack"
 data "UseCosts" ""
@@ -2721,6 +2787,7 @@ data "SpellFail" "DealDamage((max(1,MainMeleeWeapon)/2, MainMeleeWeaponDamageTyp
 data "TooltipAttackSave" "Dexterity"
 data "TooltipOnSave" "961753f4-c345-4bc4-b408-1d5b87a5ab0c"
 
+// todo: uh oh stinky
 new entry "Target_Mystic_EtherealWeapon_Ranged"
 using "Projectile_MainHandAttack"
 data "SpellFlags" "IsAttack;IsMelee;IsHarmful;Temporary"

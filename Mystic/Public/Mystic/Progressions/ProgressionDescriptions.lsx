@@ -43,6 +43,13 @@
                 Need more?
 
                 TODO: Psi Limit
+                <node id="ProgressionDescription"> FIXME: not sure if this will work
+                    <attribute id="Description" type="TranslatedString" handle="h967a52b9g432ag4290g8b17g216c46ac45d9" version="4"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h967a52b9g432ag4290g8b17g216c46ac45d9" version="2"/>
+                    <attribute id="ExactMatch" type="FixedString" value="ActionResource(PsiLimitResource,255,3)"/>
+                    <attribute id="ProgressionId" type="guid" value="ebad23af-e802-40e0-ba1c-090997fe337d"/>
+                    <attribute id="UUID" type="guid" value="1183b6fe-0b69-4d32-ad30-7e3aff9ccab8"/>
+                </node>
 
                 Avatar Disciplines
                 <node id="ProgressionDescription">

@@ -179,11 +179,14 @@ data "DamageType" "Poison"
 new entry "Zone_Mystic_WindStream"
 type "SpellData"
 data "SpellType" "Zone"
+data "Level" "1"
 
-data "Icon" ""
+data "Icon" "Spell_Conjuration_ArmsOfHadar"
 data "DisplayName" "hc61f7658gd2bbg4a01gb931g4a9510f04ee8"
 data "Description" "hbe829278g2c04g4758g91c5g13631d01f16e"
 data "DescriptionParams" ""
+
+data "SpellFlags" "IsSpell"
 
 // TODO: Add Wind Stream upcast
 
