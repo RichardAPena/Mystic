@@ -1875,7 +1875,7 @@ data "Level" "5"
 data "Icon" "Spell_Conjuration_ConjureMinorElementals"
 data "DisplayName" "hc1137f43g5b0bg4269g9c8dg17e6d261a14b"
 data "Description" "heed30d02g7e59g4252g9005ge374d3ebfc81"
-data "DescriptionParams" "DealDamage(3d6,Fire)"
+data "DescriptionParams" "DealDamage(3d6,Fire);Distance(3)"
 
 data "TargetConditions" "Self()"
 data "SpellProperties" "ApplyStatus(MYSTIC_FIRE_FORM,100, 10)"

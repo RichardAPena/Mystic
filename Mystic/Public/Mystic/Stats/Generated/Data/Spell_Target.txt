@@ -2471,6 +2471,8 @@ data "DisplayName" "h6d7a8508gc819g4721g9776gc088c405db0b"
 data "Description" "haca543aeg695dg43d7g80bcg7e1e7961b425"
 data "DescriptionParams" ""
 data "UseCosts" "ActionPoint:1;PsiPointsResource:7;PsiLimitResource:1:7"
+data "MemoryCost" ""
+data "SpellFlags" "IsSpell"
 
 // Combustion
 new entry "Target_Mystic_Combustion"
@@ -2920,6 +2922,8 @@ data "DisplayName" "h24d90535g0e69g4c4ag869eg10e0a7d0f6db"
 data "Description" "h38bdbceeg97deg4545ga334ge1bf23a92117"
 data "DescriptionParams" ""
 data "UseCosts" "ActionPoint:1"
+data "MemoryCost" ""
+data "SpellFlags" "IsSpell"
 
 // Whirlwind
 new entry "Target_Mystic_Whirlwind"
@@ -2995,6 +2999,8 @@ data "SpellContainerID" ""
 data "DisplayName" "he6887892g1f35g4ab2gb00bgbc8b0ae9f186"
 data "Description" "h0453be45g6769g4bc8gad22ga1684eb1357f"
 data "DescriptionParams" ""
+data "MemoryCost" ""
+data "SpellFlags" "IsSpell"
 
 // TODO: FORCED MELEE ATTACK
 // Make each weapon/unarmed attack be in its own container

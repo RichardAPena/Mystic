@@ -1389,5 +1389,3 @@ data "SpellStyleGroup" "Class"
 data "SpellFlags" "IsSpell"
 data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
 data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
-
-> 
