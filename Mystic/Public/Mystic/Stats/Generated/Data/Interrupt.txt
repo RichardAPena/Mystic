@@ -205,6 +205,26 @@ data "Properties" ""
 data "Cost" ""
 data "InterruptDefaultValue" ""
 
+// Cloak of Air
+new entry "Interrupt_Mystic_CloakOfAir"
+type "InterruptData"
+data "DisplayName" "h5d42f170g2a58g4e88ga06aga5a39b850cb0"
+data "Description" "h93c76e27ge89dg4ae4gbd44gdfddde815d75"
+data "DescriptionParams" "DealDamage(1d6,Slashing)"
+data "Icon" "Spell_Transmutation_Blink"
+data "InterruptContext" "OnPostRoll"
+data "InterruptContextScope" "Nearby"
+data "Container" "YesNoDecision"
+data "Cost" ""
+data "InterruptDefaultValue" "Enabled"
+data "EnableCondition" "not HasStatus('SG_Polymorph') or Tagged('MINDFLAYER')"
+data "EnableContext" "OnStatusApplied"
+data "Conditions" "Self(context.Target,context.Observer) and IsMeleeAttack() and (IsCriticalMiss() or IsMiss()) and not AnyEntityIsItem()"
+// data "Conditions" "IsAbleToReact(context.Observer) and Self(context.Target,context.Observer) and ((HasInterruptedAttack() and IsFlatValueInterruptInteresting(3, context.Source))) and not AnyEntityIsItem() and not HasStatus('MYSTIC_IRON_HIDE',context.Observer)"
+// data "Properties" "IF(HasInterruptedAttack()):AdjustRoll(-3);ApplyStatus(OBSERVER_OBSERVER,MYSTIC_IRON_HIDE,100,1)"
+data "Properties" "DealDamage(OBSERVER_SOURCE,1d6,Slashing)"
+
+
 // Psionic Strike
 new entry "Interrupt_Mystic_PsionicStrike"
 type "InterruptData"

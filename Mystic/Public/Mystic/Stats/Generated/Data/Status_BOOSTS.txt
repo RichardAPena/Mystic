@@ -2235,12 +2235,10 @@ new entry "MYSTIC_CLOAK_OF_AIR"
 type "StatusData"
 data "StatusType" "BOOST"
 data "DisplayName" "h5d42f170g2a58g4e88ga06aga5a39b850cb0"
-data "Description" "h48ed6606g7f54g4a3ag8487ga1011be52858"
+data "Description" "h93c76e27ge89dg4ae4gbd44gdfddde815d75"
 data "Icon" "Spell_Transmutation_Blink"
 data "StackId" "MYSTIC_CLOAK_OF_AIR"
-// data "TickType" "StartTurn"
-// data "StatusPropertyFlags" "TickingWithSource"
-data "Boosts" ""
+data "Boosts" "Disadvantage(AttackTarget);UnlockInterrupt(Interrupt_Mystic_CloakOfAir)"
 
 // Wind Form
 new entry "MYSTIC_WIND_FORM"
@@ -2253,9 +2251,13 @@ data "StackId" "MYSTIC_WIND_FORM"
 data "Boosts" "UnlockSpell(Projectile_Fly_Spell)"
 
 // Misty Form
-// new entry "MYSTIC_MISTY_FORM"
-// just copy gaseous form
-
+new entry "MYSTIC_MISTY_FORM"
+type "StatusData"
+data "StatusType" "BOOST"
+using "GASEOUS_FORM"
+data "DisplayName" "h760a194eg204cg4506g8566g0bf5baac8959"
+data "Description" "h880ccd03gf1e1g419cgbc2bg88c24dad10e8"
+data "Icon" "PassiveFeature_MistyEscape"
 
 // TODO: THIS IS CLOUD OF DAGGERS
 new entry "MYSTIC_ROLLING_FLAME"
@@ -2287,19 +2289,28 @@ data "AuraStatuses" "ApplyStatus(MYSTIC_ROLLING_FLAME,100,1)"
 data "StatusPropertyFlags" "InitiateCombat;BringIntoCombat"
 data "StatusEffect" "76d8dddf-6ab9-4ee0-a130-601e981081fc"
 
-
 // Fire Form
 new entry "MYSTIC_FIRE_FORM"
 type "StatusData"
 data "StatusType" "BOOST"
 data "DisplayName" "hc1137f43g5b0bg4269g9c8dg17e6d261a14b"
 data "Description" "hf9d44f36gdf24g4437ga1ffgce4a38f3e99e"
-data "DescriptionParams" ""
-data "Icon" ""
+data "DescriptionParams" "DealDamage(3d6,Fire);Distance(1.5)"
+data "Icon" "Spell_Conjuration_ConjureMinorElementals"
 data "StackId" "MYSTIC_FIRE_FORM"
-// data "TickType" "StartTurn"
-// data "StatusPropertyFlags" "TickingWithSource"
-data "Boosts" ""
+data "AuraRadius" "1.5"
+data "AuraStatuses" "TARGET:IF(not Self()):ApplyStatus(MYSTIC_FIRE_FORM_AURA)"
+
+new entry "MYSTIC_FIRE_FORM_AURA"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "hc1137f43g5b0bg4269g9c8dg17e6d261a14b"
+data "Description" "hf9d44f36gdf24g4437ga1ffgce4a38f3e99e"
+data "DescriptionParams" "DealDamage(3d6,Fire)"
+data "Icon" "Spell_Conjuration_ConjureMinorElementals"
+data "StackId" "MYSTIC_FIRE_FORM_AURA"
+data "TickType" "EndTurn"
+data "TickFunctors" "DealDamage(3d6,Fire,Magical)"
 
 // Inertial Armor
 new entry "MYSTIC_INERTIAL_ARMOR"

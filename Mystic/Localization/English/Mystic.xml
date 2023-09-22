@@ -661,13 +661,14 @@
 	<content contentuid="hc61f7658gd2bbg4a01gb931g4a9510f04ee8" version="1">Wind Stream</content>
 	<content contentuid="hbe829278g2c04g4758g91c5g13631d01f16e" version="1">Release a wind blast that knocks targets &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
 	<content contentuid="h5d42f170g2a58g4e88ga06aga5a39b850cb0" version="1">Cloak of Air</content>
-	<content contentuid="h70f1f9fbgdfe5g4b36gb8e6gd9fcdfab6a8f" version="1">Seize control of the air around, creating a protective veil. &lt;LSTag Tooltip="AttackRoll"&gt;Attack&lt;/LSTag&gt; Rolls against you will have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;, and when a melee attack misses you, you can use your reaction to force the creature to repeat the &lt;LSTag Tooltip="AttackRoll"&gt;Attack&lt;/LSTag&gt; Roll on itself.</content>
+	<content contentuid="h70f1f9fbgdfe5g4b36gb8e6gd9fcdfab6a8f" version="1">Seize control of the air around, creating a protective veil. &lt;LSTag Tooltip="AttackRoll"&gt;Attack&lt;/LSTag&gt; Rolls against you will have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;, and when a melee attack misses you, deal [1] damage to the attacker.</content>
 	<content contentuid="h48ed6606g7f54g4a3ag8487ga1011be52858" version="1">&lt;LSTag Tooltip="AttackRoll"&gt;Attack&lt;/LSTag&gt; Rolls against this creature have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;. Able to retaliate when an incoming melee attack misses.</content>
+	<content contentuid="h93c76e27ge89dg4ae4gbd44gdfddde815d75" version="1">Incoming attacks have Disadvantage. Dealing [1] damage to melee attackers when they miss.</content>
 	<content contentuid="h760a194eg204cg4506g8566g0bf5baac8959" version="1">Wind Form</content>
 	<content contentuid="h48a4619cg17a7g4904gad77g9cf83a8ad8ff" version="1">Manipulate the winds around you, gaining the ability to Fly.</content>
 	<content contentuid="h880ccd03gf1e1g419cgbc2bg88c24dad10e8" version="1">Able to to Fly.</content>
 	<content contentuid="hfc166c59g474fg422ag9a5fgbf6c45e4a451" version="1">Misty Form</content>
-	<content contentuid="hc742cfd4ge5c8g4445g9785ga19283845ac3" version="1">Transform yourself or an ally into a tiny gas cloud. It can't fall, and fits through small openings. It is very hard to damage. The cloud has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Constitution, Dexterity, and Strength &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
+	<content contentuid="hc742cfd4ge5c8g4445g9785ga19283845ac3" version="1">Transform yourself into a tiny gas cloud. It can't fall, and fits through small openings. It is very hard to damage. The cloud has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Constitution, Dexterity, and Strength &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
 	<content contentuid="h6d7a8508gc819g4721g9776gc088c405db0b" version="1">Animate Air</content>
 	<content contentuid="haca543aeg695dg43d7g80bcg7e1e7961b425" version="1">Summon an Air Elemental.</content>
 	<content contentuid="h59022a24gd4b7g4d79gab10g497349ebb068" version="1">Combustion</content>
