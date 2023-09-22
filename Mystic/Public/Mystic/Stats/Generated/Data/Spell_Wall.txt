@@ -1,4 +1,7 @@
-// TODO: Any wall spells are cringe
+// TODO: Any wall spells are NOT cringe!
+// Just use SurfaceType and ItemWallStatus
+// Many FogCloud Xd
+// Wonder if I can also change their thing
 
 // Wall of Repulsion
 new entry "Wall_Mystic_WallOfRepulsion"
@@ -28,8 +31,8 @@ data "UseCosts" "ActionPoint:1;PsiPointsResource:3;PsiLimitResource:1:3"
 data "SpellAnimation" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;6123de84-27e4-4e81-9e1f-8031cc0ebc0d,,;cb171bda-f065-4520-b470-e447f678ba1f,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,,"
 data "SpellFlags" "IsSpell;IsConcentration;"
 // data "VerbalIntent" "Damage"
-// data "ItemWall" "WallOfFire"
-// data "ItemWallStatus" "WALLOFFIRE"
+data "ItemWall" "WallOfFire"
+data "ItemWallStatus" "MYSTIC_REPULSED"
 // data "MemoryCost" "1"
 data "PrepareEffect" "504f1c24-74a4-44b5-98b4-7028a165a783"
 data "CastEffect" "fa8655db-890f-4c1f-b3fc-739a807c390c"
@@ -84,7 +87,7 @@ new entry "Wall_Mystic_WallOfWood"
 type "SpellData"
 data "SpellType" "Wall"
 
-data "Icon" ""
+data "Icon" "Spell_WallOfStone"
 data "DisplayName" "h6fcdffeegbad6g4e69gbfb6g755185e04884"
 data "Description" "h198949eeg4602g4235ga8d8g61ec1bea9738"
 data "DescriptionParams" ""

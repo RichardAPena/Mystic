@@ -767,7 +767,7 @@ data "TickType" "EndTurn"
 data "Boosts" "ActionResource(Movement,-4.5,0)"
 
 // Wall of Repulsion (Repulsed)
-// :(
+// :) TODO
 new entry "MYSTIC_REPULSED"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -777,6 +777,33 @@ data "Icon" "Spell_WallOfThorns"
 data "StackId" "MYSTIC_REPULSED"
 data "TickType" "EndTurn"
 data "Boosts" "ActionResourceBlock(Movement)"
+data "SoundLoop" "Spell_Impact_Damage_WallOfFire_L4to5_Loop"
+data "SoundStop" "Spell_End_Loop_Damage_WallOfFire_L4to5"
+data "AuraRadius" "3"
+data "AuraStatuses" "ApplyStatus(MYSTIC_REPULSED_AURA,100,1)"
+data "TooltipSave" "Dexterity"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;InitiateCombat;BringIntoCombat"
+data "StatusEffect" "b5b3c933-801e-461e-8d55-eb2790d4962b"
+
+new entry "MYSTIC_REPULSED_AURA"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "hfc0eaaa0gc478g4769gb2d8g938c36bf5caf"
+data "Description" "hbf9c8b71gd994g4865g929cgd3b8d38708be"
+data "Icon" "Spell_WallOfThorns"
+data "StackId" "MYSTIC_REPULSED"
+data "StackPriority" "0"
+data "TickType" "EndTurn"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog"
+data "OnApplyRoll" "WallOfFireCheck(Ability.Dexterity,SourceSpellDC(10,GetSummoner(context.Source)))"
+data "OnApplySuccess" "IF(not HasStatus('WALLOFFIRE_DAMAGE_RECEIVED')):DealDamage(5d8,Fire,Magical);IF(not HasStatus('WALLOFFIRE_DAMAGE_RECEIVED')):ApplyStatus(WALLOFFIRE_DAMAGE_RECEIVED,100,1)"
+// data "OnApplyFail" "IF(not HasStatus('WALLOFFIRE_DAMAGE_RECEIVED')):DealDamage(5d8/2,Fire,Magical);IF(not HasStatus('WALLOFFIRE_DAMAGE_RECEIVED',context.Target)):ApplyStatus(WALLOFFIRE_DAMAGE_RECEIVED,100,1)"
+// data "OnTickRoll" "WallOfFireCheck(Ability.Dexterity,SourceSpellDC(10,GetSummoner(context.Source)))"
+// data "OnTickSuccess" "IF(not HasStatus('WALLOFFIRE_DAMAGE_RECEIVED') or StatusDurationLessThan(context.Source, 'WALLOFFIRE_DAMAGE_RECEIVED', 0.1)):DealDamage(5d8,Fire,Magical);ApplyStatus(WALLOFFIRE_DAMAGE_RECEIVED,100,1)"
+// data "OnTickFail" "IF(not HasStatus('WALLOFFIRE_DAMAGE_RECEIVED') or StatusDurationLessThan(context.Source, 'WALLOFFIRE_DAMAGE_RECEIVED', 0.1)):DealDamage(5d8/2,Fire,Magical);ApplyStatus(WALLOFFIRE_DAMAGE_RECEIVED,100,1)"
+
+new entry "MYSTIC_REPULSED_EFFECT"
+
 
 // Visions of Disgust
 new entry "MYSTIC_VISIONS_OF_DISGUST"

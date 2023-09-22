@@ -2493,7 +2493,7 @@ data "Icon" "Spell_Evocation_BurningHands"
 // data "Icon" "Action_ExhaleFire"
 data "DisplayName" "h06524a69g69d0g46f1gb6e8g241fffad8042"
 data "Description" "h9016bc24g4082g4a64ga4c7gf061572ac8df"
-data "DescriptionParams" ""
+data "DescriptionParams" "DealDamage(5,Fire)"
 
 // data "SpellSchool" "Conjuration"
 
@@ -2643,7 +2643,7 @@ new entry "Target_Mystic_Dessicate"
 type "SpellData"
 data "SpellType" "Target"
 
-data "Icon" ""
+data "Icon" "Spell_Necromancy_Blight"
 data "DisplayName" "hf302a4a4g69cag42b0ga2fcgf5ba3647f346"
 data "Description" "h0f56755ag8741g4841ga841g6e8448d58868"
 data "DescriptionParams" ""

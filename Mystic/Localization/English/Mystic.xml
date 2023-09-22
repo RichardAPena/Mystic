@@ -660,7 +660,7 @@
 	<content contentuid="hc61f7658gd2bbg4a01gb931g4a9510f04ee8" version="1">Wind Stream</content>
 	<content contentuid="hbe829278g2c04g4758g91c5g13631d01f16e" version="1">Release a wind blast that knocks targets &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
 	<content contentuid="h5d42f170g2a58g4e88ga06aga5a39b850cb0" version="1">Cloak of Air</content>
-	<content contentuid="h70f1f9fbgdfe5g4b36gb8e6gd9fcdfab6a8f" version="1">Seize control of the air around, create a protective veil. &lt;LSTag Tooltip="AttackRoll"&gt;Attack&lt;/LSTag&gt; rolls against you will have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; and when a melee attack misses you, you can use your reaction to force the creature to repeat the &lt;LSTag Tooltip="AttackRoll"&gt;Attack&lt;/LSTag&gt; roll on itself.</content>
+	<content contentuid="h70f1f9fbgdfe5g4b36gb8e6gd9fcdfab6a8f" version="1">Seize control of the air around, creating a protective veil. &lt;LSTag Tooltip="AttackRoll"&gt;Attack&lt;/LSTag&gt; Rolls against you will have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;, and when a melee attack misses you, you can use your reaction to force the creature to repeat the &lt;LSTag Tooltip="AttackRoll"&gt;Attack&lt;/LSTag&gt; Roll on itself.</content>
 	<content contentuid="h48ed6606g7f54g4a3ag8487ga1011be52858" version="1">&lt;LSTag Tooltip="AttackRoll"&gt;Attack&lt;/LSTag&gt; Rolls against this creature have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;. Able to retaliate when an incoming melee attack misses.</content>
 	<content contentuid="h760a194eg204cg4506g8566g0bf5baac8959" version="1">Wind Form</content>
 	<content contentuid="h48a4619cg17a7g4904gad77g9cf83a8ad8ff" version="1">Manipulate the winds around you, gaining the ability to Fly.</content>
@@ -740,7 +740,7 @@
 	<content contentuid="h0fdf4a1eg519cg46bcg8735g75b7d7dcc113" version="1">Wall of Thunder</content>
 	<content contentuid="hf2400914g9a65g461cga04bgb38b576426fc" version="1">TODO: Wall of Thunder Description :/</content>
 	<content contentuid="hf7d682f4gd5e3g4375gb91eg48a5f9bd7c5d" version="1">Thunder Clap</content>
-	<content contentuid="h05a08ff8g34c6g4c6dga0e0gd05003430d4d" version="1">Thunderous energy erupts in a targeted area, Stunning enemies inside.</content>
+	<content contentuid="h05a08ff8g34c6g4c6dga0e0gd05003430d4d" version="1">Thunderous energy erupts in a targeted area, Stunning creatures inside.</content>
 	<content contentuid="hfd6106d9g3b27g40cdg9600gb68249c8af8d" version="1">Animate Weapon</content>
 	<content contentuid="he473eb03g1569g4174gb71egb75d1e25a527" version="1">Seize control of a weapon you're holding, dealing its damage plus an additional [1] damage to a creature.</content>
 	<content contentuid="h83a09a72gd4cdg4b08ga961g3238a6650967" version="1">Warp Weapon</content>
