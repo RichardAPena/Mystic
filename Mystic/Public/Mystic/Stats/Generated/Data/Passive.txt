@@ -1,6 +1,5 @@
 // Psionic Disciplines
 // TODO: Give icons to each discipline
-// TODO: Find a way to show reactions (interrupts) gained
 
 // Adaptive Body
 new entry "Discipline_AdaptiveBody"
@@ -171,13 +170,12 @@ data "Icon" ""
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MasteryOfFire);UnlockSpell(Projectile_Mystic_Combustion);UnlockSpell(Target_Mystic_RollingFlame);UnlockSpell(Target_Mystic_Detonation);UnlockSpell(Shout_Mystic_FireForm);UnlockSpell(Target_Mystic_AnimateFire)"
 
 // Mastery of Force
-// TODO: Move
 new entry "Discipline_MasteryOfForce"
 type "PassiveData"
 data "DisplayName" "hdeb7a5b6gbfcbg414dg8ac3g31f2a4f5f5e7"
 data "Description" "h1f75f587g5c70g4c07gbf9cgbf3c7d4279d5"
 data "Icon" ""
-data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MasteryOfForce);UnlockSpell(Target_Mystic_Push);UnlockSpell(Shout_Mystic_InertialArmor);UnlockSpell(Wall_Mystic_TelekineticBarrier);UnlockSpell(Target_Mystic_Grasp)"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MasteryOfForce);UnlockSpell(Target_Mystic_Push);UnlockSpell(Target_Mystic_Move);UnlockSpell(Shout_Mystic_InertialArmor);UnlockSpell(Wall_Mystic_TelekineticBarrier);UnlockSpell(Target_Mystic_Grasp)"
 
 // Mastery of Ice
 new entry "Discipline_MasteryOfIce"
@@ -237,6 +235,11 @@ data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_NomadicChameleon);UnlockSpe
 
 // Nomadic Mind
 // TODO: Still mid rework
+// Shout_Mystic_Featherweight
+// Unveil
+// FindCreature
+// ItemLore
+// PsychichSpeech
 new entry "Discipline_NomadicMind"
 type "PassiveData"
 data "DisplayName" "h1ea947d4g29e6g4b81gabaeg5ba74ba636f4"
@@ -319,6 +322,15 @@ data "Description" "h55ef0306g5c7eg4833ga6f1gdd3c638797c1"
 data "Icon" ""
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_ThirdEye);UnlockSpell(Shout_Mystic_Tremorsense);UnlockSpell(Shout_Mystic_UnwaveringEye);UnlockSpell(Shout_Mystic_PiercingSight);UnlockSpell(Shout_Mystic_Truesight)"
 
+// Psionic Restoration Effect
+new entry "Discipline_PsionicRestoration_Effect"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnHeal"
+data "Conditions" "HealDoneGreaterThan(0) and IsSpell() and not IsCantrip()"
+data "StatsFunctors" "RegainHitPoints(2)"
+// data "StatsFunctors" "RegainHitPoints(2+SpellPowerLevel);"
+
 // Aura of Victory
 new entry "Passive_AuraOfVictory"
 type "PassiveData"
@@ -384,15 +396,18 @@ data "Icon" "Action_ReadThoughts"
 data "Boosts" "Tag(DETECTTHOUGHTS)"
 
 // Mystical Recovery
-// TODO
+// Shouldn't trigger on "real" spells now
 new entry "Passive_Mystic_MysticalRecovery"
 type "PassiveData"
 data "DisplayName" "h9056fee7g112dg4688g9c65g54a5e5ab47f6"
 data "Description" "h63f5ec13ga44bg4706ga3cfgbb3655936380"
 data "Icon" "Action_Paladin_LayOnHands_SmallHeal"
-// data "EnableConditions" "HasActionResource('BonusActionPoint', 1, 0, false, false, context.Source)"
 data "StatsFunctorContext" "OnCast;OnActionResourcesChanged"
-data "Conditions" "IsSpell() and not IsCantrip()"
+// data "Conditions" "IsSpell() and not IsCantrip()"
+data "Conditions" "IsSpell() and not IsCantrip() and not IsSpellSchool(SpellSchool.Abjuration) and not IsSpellSchool(SpellSchool.Conjuration) and not IsSpellSchool(SpellSchool.Divination) and not IsSpellSchool(SpellSchool.Enchantment) and not IsSpellSchool(SpellSchool.Evocation) and not IsSpellSchool(SpellSchool.Illusion) and not IsSpellSchool(SpellSchool.Necromancy) and not IsSpellSchool(SpellSchool.Transmutation)"
+
+
+
 data "StatsFunctors" "ApplyStatus(SELF,MYSTIC_MYSTICAL_RECOVERY,100,1)"
 
 // Strength of Mind
