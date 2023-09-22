@@ -558,7 +558,7 @@
 	<content contentuid="hb6fb98b7g55a3g44ccga81ega04e4d07c5cb" version="1">Venom Strike</content>
 	<content contentuid="h1bb2686bg46afg44b3ga060g1b30422db67e" version="1">Discharge a spray of venom, &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisoning&lt;/LSTag&gt; the target creature.</content>
 	<content contentuid="hc7b88abbg0bf9g468aga89fgc539b6688cac" version="1">Acid Spray</content>
-	<content contentuid="h0d03313eg42eeg4e62g99a8gd78ebb954dfe" version="1">As a reaction, after you take Piercing or Slashing damage you can cause acid to spray from your wound, dealing [1] damage to creatures within [2].</content>
+	<content contentuid="h0d03313eg42eeg4e62g99a8gd78ebb954dfe" version="1">As a reaction, after you take damage you can cause acid to spray from your wounds, dealing [1] damage to creatures within [2].</content>
 	<content contentuid="ha9f14766g5a6bg47a5g842eg801c7110ebf7" version="1">Breath of the Black Dragon</content>
 	<content contentuid="hfbea5966g683fg4e51g819bg95f554aaeb22" version="1">Exhale a wave of acid in a line before you.</content>
 	<content contentuid="hd7356d09gec21g401eg938dg34c1b704297e" version="1">Breath of the Green Dragon</content>
