@@ -15,3 +15,61 @@ data "Description" "h2e78cc0fg019ag479eg8572g0f6d02cbd02b"
 data "TooltipUpcastDescription" "6ff1780a-855a-414c-a8bf-811251537206"
 data "CastSound" ""
 data "UseCosts" "ActionPoint:1;PsiPointsResource:5;PsiLimitResource:1:5"
+
+
+// TEMPLATE
+
+// new entry "Target_MistyStep"
+// type "SpellData"
+// data "SpellType" "Target"
+// data "Level" "2"
+
+// data "Icon" "Spell_Conjuration_MistyStep"
+// data "DisplayName" ""
+// data "Description" ""
+
+// data "SpellProperties" "GROUND:TeleportSource();"
+// data "TargetRadius" "18"
+// data "TargetConditions" "CanStand('') and not Character() and not Self()"
+// data "TooltipUpcastDescription" "6ff1780a-855a-414c-a8bf-811251537206"
+// data "CastSound" "Spell_Cast_Utility_MistyStep_L1to3"
+// data "TargetSound" "Spell_Impact_Utility_MistyStep_L1to3"
+// data "VocalComponentSound" "Vocal_Component_Teleport"
+// data "CastTextEvent" "Cast"
+// data "UseCosts" "BonusActionPoint:1"
+// data "SpellAnimation" "dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;39daf365-ec06-49a8-81f3-9032640699d7,,;5c400e93-0266-499c-a2e1-75d53358460f,,;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;,,;,,"
+// data "VerbalIntent" "Utility"
+// data "SpellFlags" "IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold"
+
+// data "LineOfSightFlags" "AddSourceHeight"
+// data "PrepareEffect" "7121a488-7c9a-4ba1-a585-f79aaa77e97c"
+// data "CastEffect" "71859b27-bdda-44c3-8c65-7f142a1a2f60"
+
+// TEMPLATE END
+
+
+new entry "Target_Mystic_ThereAndBackAgain"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "2"
+
+data "Icon" "Spell_Conjuration_MistyStep"
+data "DisplayName" ""
+data "Description" ""
+
+data "SpellProperties" "GROUND:TeleportSource();"
+data "TargetRadius" "18"
+data "TargetConditions" "CanStand('') and not Character() and not Self()"
+
+data "CastSound" "Spell_Cast_Utility_MistyStep_L1to3"
+data "TargetSound" "Spell_Impact_Utility_MistyStep_L1to3"
+data "VocalComponentSound" "Vocal_Component_Teleport"
+data "CastTextEvent" "Cast"
+data "UseCosts" "BonusActionPoint:1"
+data "SpellAnimation" "dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;39daf365-ec06-49a8-81f3-9032640699d7,,;5c400e93-0266-499c-a2e1-75d53358460f,,;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;,,;,,"
+data "VerbalIntent" "Utility"
+data "SpellFlags" "IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold"
+
+data "LineOfSightFlags" "AddSourceHeight"
+data "PrepareEffect" "7121a488-7c9a-4ba1-a585-f79aaa77e97c"
+data "CastEffect" "71859b27-bdda-44c3-8c65-7f142a1a2f60"

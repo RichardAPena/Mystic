@@ -2948,7 +2948,7 @@ data "SpellProperties" "GROUND:CreateSurface(6,10,WaterFrozen)"
 data "TargetRadius" "18"
 data "AreaRadius" "6"
 
-data "SpellRoll" "not SavingThrow(Ability.Dexterity, SourceSpellDC())
+data "SpellRoll" "not SavingThrow(Ability.Dexterity, SourceSpellDC())"
 data "SpellSuccess" "ApplyStatus(PRONE,100,1)"
 data "TooltipAttackSave" "Dexterity"
 data "TooltipStatusApply" "ApplyStatus(PRONE,100,1)"

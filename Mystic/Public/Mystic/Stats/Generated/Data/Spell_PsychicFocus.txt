@@ -68,7 +68,7 @@ data "SpellType" "Shout"
 data "Level" "1"
 
 data "DisplayName" "h8f18ccb2gadc2g43dcgaaf4g8dedefaebc98"
-data "Description" h79f8fbc2gb4a1g46edgbad5gef9933da9ee6"
+data "Description" "h79f8fbc2gb4a1g46edgbad5gef9933da9ee6"
 data "DescriptionParams" ""
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 

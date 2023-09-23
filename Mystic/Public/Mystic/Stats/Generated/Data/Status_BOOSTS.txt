@@ -330,8 +330,8 @@ data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "AC(1)"
 
 // Psychic Focus: Nomadic Arrow
-// TODO: "Your ranged weapon attack rolls ignore Disadvantage.
-//        If Disadvantage would normally apply to the roll, it can't benefit from Advantage."
+// TODO: Your ranged weapon attack rolls ignore Disadvantage.
+//        If Disadvantage would normally apply to the roll, it can't benefit from Advantage.
 new entry "PSYCHIC_FOCUS_NOMADIC_ARROW"
 type "StatusData"
 data "StatusType" "BOOST"

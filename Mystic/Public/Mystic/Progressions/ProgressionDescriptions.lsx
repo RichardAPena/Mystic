@@ -70,7 +70,8 @@
                     <attribute id="ExactMatch" type="FixedString" value="ActionResource(PsiLimitResource,255,7)"/>
                     <attribute id="ProgressionId" type="guid" value="f8bbd9b3-6df7-47cb-b461-07cec3355cff"/>
                     <attribute id="UUID" type="guid" value="0ff5ed6d-929d-4d0b-b73a-7d1e836166d1"/>
-                </node>                
+                </node>
+                
                 Avatar Disciplines
                 <node id="ProgressionDescription">
                     <attribute id="Description" type="TranslatedString" handle="h74d66f9bg0592g4fe1gbda6g2ff2eac275e8" version="2"/>

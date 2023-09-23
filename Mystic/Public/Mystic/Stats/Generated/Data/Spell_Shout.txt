@@ -148,7 +148,7 @@ data "HitAnimationType" "MagicalNonDamage"
 // data "MaximumTargets" "1"
 data "PrepareEffect" "7121a488-7c9a-4ba1-a585-f79aaa77e97c"
 data "CastEffect" "0198563f-c48b-45e0-afb5-46ef9576adff"
-data "TargetEffect" "b94fcfde-d824-4e7d-b9c5-833a50b66537
+data "TargetEffect" "b94fcfde-d824-4e7d-b9c5-833a50b66537"
 data "Cooldown" "OncePerTurn"
 
 new entry "Shout_Mystic_StrategicMind_Dash"
