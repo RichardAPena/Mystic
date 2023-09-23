@@ -175,7 +175,7 @@ type "PassiveData"
 data "DisplayName" "hdeb7a5b6gbfcbg414dg8ac3g31f2a4f5f5e7"
 data "Description" "h1f75f587g5c70g4c07gbf9cgbf3c7d4279d5"
 data "Icon" ""
-data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MasteryOfForce);UnlockSpell(Target_Mystic_Push);UnlockSpell(Target_Mystic_Move);UnlockSpell(Shout_Mystic_InertialArmor);UnlockSpell(Wall_Mystic_TelekineticBarrier);UnlockSpell(Target_Mystic_Grasp)"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MasteryOfForce);UnlockSpell(Target_Mystic_Push);UnlockSpell(Projectile_Mystic_Move);UnlockSpell(Shout_Mystic_InertialArmor);UnlockSpell(Wall_Mystic_TelekineticBarrier);UnlockSpell(Target_Mystic_Grasp)"
 
 // Mastery of Ice
 new entry "Discipline_MasteryOfIce"
@@ -380,6 +380,24 @@ data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnDamage"
 data "Conditions" "HasHPLessThan(1) and Enemy() and Character()"
 data "StatsFunctors" "ApplyStatus(SELF,MYSTIC_AURA_OF_VICTORY_TEMPORARY_HP_7,100,-1)"
+
+// Cloak of Air
+new entry "Passive_Mystic_CloakOfAir"
+type "PassiveData"
+// data "DisplayName" "h2a542605g8b4fg42c0g9a91g455ee7cf3626;1"
+// data "Description" "hcfbe8760g8a9eg4c44gbee7g3fe6bedaf98c;3"
+// data "DescriptionParams" "DealDamage(2d10,Fire)"
+// data "ExtraDescription" "h5de390dcgd1fag48eag87abgde4ed1439900;5"
+// data "TooltipUseCosts" "ReactionActionPoint:1"
+// data "Icon" "PassiveFeature_HellishRebuke"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnAttacked"
+// data "PriorityOrder" "2"
+// data "Properties" "IsToggled;ToggledDefaultAddToHotbar;ToggledDefaultOn;Highlighted;Temporary"
+// data "StatsFunctorContext" "OnDamaged"
+data "Conditions" "IsMiss() and IsMeleeAttack()"
+data "StatsFunctors" "DealDamage(1d6,Slashing)"
+
 
 // data "DisplayName" ""
 // data "Description" ""

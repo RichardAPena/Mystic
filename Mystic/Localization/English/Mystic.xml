@@ -762,7 +762,7 @@
 	<content contentuid="hf7d682f4gd5e3g4375gb91eg48a5f9bd7c5d" version="1">Thunder Clap</content>
 	<content contentuid="h05a08ff8g34c6g4c6dga0e0gd05003430d4d" version="1">Thunderous energy erupts in a targeted area, Stunning creatures inside.</content>
 	<content contentuid="hfd6106d9g3b27g40cdg9600gb68249c8af8d" version="1">Animate Weapon</content>
-	<content contentuid="he473eb03g1569g4174gb71egb75d1e25a527" version="1">Seize control of a weapon you're holding, dealing its damage plus an additional [1] damage to a creature.</content>
+	<content contentuid="he473eb03g1569g4174gb71egb75d1e25a527" version="1">Seize control of a melee weapon you're holding, dealing its damage plus an additional [1] damage to a creature.</content>
 	<content contentuid="h83a09a72gd4cdg4b08ga961g3238a6650967" version="1">Warp Weapon</content>
 	<content contentuid="h748563bbgacbbg491agb42cgbdde01912d8c" version="1">Warp a creature's weapon, forcing them to drop it.</content>
 	<content contentuid="h39245a46gf4a7g40f4gb6ceg4949b840ef0e" version="1">Warp Armor</content>

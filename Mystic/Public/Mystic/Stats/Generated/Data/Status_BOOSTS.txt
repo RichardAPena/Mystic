@@ -2239,7 +2239,9 @@ data "Description" "h93c76e27ge89dg4ae4gbd44gdfddde815d75"
 data "DescriptionParams" "DealDamage(1d6,Slashing)" 
 data "Icon" "Spell_Transmutation_Blink"
 data "StackId" "MYSTIC_CLOAK_OF_AIR"
-data "Boosts" "Disadvantage(AttackTarget);UnlockInterrupt(Interrupt_Mystic_CloakOfAir)"
+data "Boosts" "Disadvantage(AttackTarget);"
+// UnlockInterrupt(Interrupt_Mystic_CloakOfAir)
+data "Passives" "Passive_Mystic_CloakOfAir"
 
 // Wind Form
 new entry "MYSTIC_WIND_FORM"
@@ -2388,11 +2390,11 @@ data "StatusType" "BOOST"
 data "DisplayName" "hc1180697g9634g4b84gb46ag2ef175e42c9c"
 data "Description" "hcbf42d0fgf5aeg498dg8606g4be4f97997e2"
 data "DescriptionParams" ""
-data "Icon" ""
+data "Icon" "Action_Imp_Claws"
 data "StackId" "MYSTIC_GRASP"
 // data "TickType" "StartTurn"
 // data "StatusPropertyFlags" "TickingWithSource"
-data "Boosts" ""
+data "Boosts" "UnlockSpell(Target_Mystic_Crush)"
 
 // TODO: unlock spell crush
 
@@ -2417,10 +2419,11 @@ data "DisplayName" "h6d3dd2b8g7058g432ega9cag634db46c2cb6"
 data "Description" "h3fac742ag0b3dg4dcag8f31g72cd0c2de35f"
 data "DescriptionParams" "20"
 data "Icon" "PassiveFeature_ArmorOfAgathys"
-data "StackId" ""
-// data "TickType" "StartTurn"
-// data "StatusPropertyFlags" "TickingWithSource"
-data "Boosts" ""
+data "StackId" "TEMPORARY_HP"
+data "StackPriority" "20"
+data "Boosts" "TemporaryHP(20)"
+data "RemoveConditions" "not HasTemporaryHP()"
+data "RemoveEvents" "OnDamage"
 
 // Frozen Rain
 new entry "MYSTIC_FROZEN_RAIN"
@@ -2441,41 +2444,170 @@ type "StatusData"
 data "StatusType" "BOOST"
 data "DisplayName" "hdfa9f427gc799g4770g85fcg63d116f2e382"
 data "Description" "hae3300acgd414g47d9g9a97gb47f02ef7803"
-data "DescriptionParams" ""
-data "Icon" ""
-data "StackId" "MYSTIC_LIGHT"
-// data "TickType" "StartTurn"
-// data "StatusPropertyFlags" "TickingWithSource"
-data "Boosts" ""
+// data "DescriptionParams" ""
+data "Icon" "Spell_Evocation_DancingLights"
+data "Boosts" "GameplayLight(9,false,0.1);"
+data "StackId" "INVISIBILITY"
+data "StackPriority" "10"
+data "Boosts" "Advantage(AttackTarget);GameplayLight(9,false,0.1);StatusImmunity(SG_Invisible)"
 
 // Radiant Beam
 new entry "MYSTIC_RADIANT_BEAM"
-// this might be necessary to have the saving throw component?
 type "StatusData"
 data "StatusType" "BOOST"
-data "DisplayName" ""
-data "Description" ""
-data "DescriptionParams" ""
-data "Icon" ""
-// TODO: stack id blindness, or just copy blindness
-data "StackId" ""
-// data "TickType" "StartTurn"
-// data "StatusPropertyFlags" "TickingWithSource"
-data "Boosts" ""
+using "BLINDED"
+data "TickType" "EndTurn"
+data "RemoveConditions" "SavingThrow(Ability.Dexterity, SourceSpellDC())"
+data "RemoveEvents" "OnTurn"
+data "TooltipSave" "Dexterity"
+data "OnTickRoll" "SavingThrow(Ability.Dexterity, CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source)))"
+data "OnTickSuccess" "RemoveStatus(MYSTIC_RADIANT_BEAM)"
 
 // Water Sphere
 new entry "MYSTIC_WATER_SPHERE"
-// this spell is DOGSHIT holy shit i might mega buff this
 type "StatusData"
 data "StatusType" "BOOST"
 data "DisplayName" "h492bb7acged62g464bg9971g4320777edc4b"
 data "Description" "hc5304740g7e91g471eg9d78gbb3a9b09e913"
-data "DescriptionParams" ""
-data "Icon" ""
+data "DescriptionParams" "Distance(3)"
+data "Icon" "Spell_Evocation_OtilukesResilientSphere"
 data "StackId" "MYSTIC_WATER_SPHERE"
-// data "TickType" "StartTurn"
+data "TickType" "EndTurn"
 // data "StatusPropertyFlags" "TickingWithSource"
-data "Boosts" ""
+data "Boosts" "Disadvantage(AttackRoll); Disadvantage(AttackTarget); SightRangeMaximum(3);ActionResourceConsumeMultiplier(Movement, 2,0);MovementSpeedLimit(Walk)"
+data "StatusEffect" "2419c2ea-a3b6-45e7-8b57-dd6cecf0ec2d"
+
+// TODO: WALL OF THUNDER
+new entry "MYSTIC_WALLOFTHUNDER"
+data "StatusType" "BOOST"
+data "DisplayName" "h0fdf4a1eg519cg46bcg8735g75b7d7dcc113"
+data "Description" "hf2400914g9a65g461cga04bgb38b576426fc"
+data "DescriptionParams" "Distance(3);DealDamage(6d6,Thunder)"
+data "Icon" "Spell_Evocation_Thunderwave"
+data "SoundLoop" "Spell_Impact_Damage_WallOfFire_L4to5_Loop"
+data "SoundStop" "Spell_End_Loop_Damage_WallOfFire_L4to5"
+data "StackId" "MYSTIC_WALLOFTHUNDER"
+data "StackPriority" "1"
+data "AuraRadius" "3"
+data "AuraStatuses" "IF(not Dead()):ApplyStatus(MYSTIC_WALLOFTHUNDER_AURA,100,1)"
+data "TooltipSave" "Strength"
+data "TooltipDamage" "DealDamage(6d6,Thunder)"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;InitiateCombat;BringIntoCombat"
+// data "StatusEffect" "e53dac27-440d-445a-9dc5-2d86536c2048" 
+data "StatusEffect" "9fa7b901-439a-4425-ae92-b027775cf5af"
+
+
+
+
+new entry "MYSTIC_WALLOFTHUNDER_AURA"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h0fdf4a1eg519cg46bcg8735g75b7d7dcc113"
+data "Description" "hf2400914g9a65g461cga04bgb38b576426fc"
+data "DescriptionParams" "Distance(3);DealDamage(6d6,Thunder)"
+data "Icon" "Spell_Evocation_Thunderwave"
+data "StackId" "MYSTIC_WALLOFTHUNDER"
+data "StackPriority" "0"
+data "TickType" "StartTurn"
+data "TooltipDamage" "DealDamage(6d6,Thunder)"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog"
+
+data "OnApplyRoll" "WallOfFireCheck(Ability.Strength,SourceSpellDC(10,GetSummoner(context.Source)))"
+// TODO: Add Force (if it's even possible here)
+data "OnApplySuccess" "IF(not HasStatus('MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED')):DealDamage(6d6,Thunder,Magical);  IF(not HasStatus('MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED')):ApplyStatus(MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED,100,1);"
+data "OnApplyFail"    "IF(not HasStatus('MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED')):DealDamage(6d6/2,Thunder,Magical);IF(not HasStatus('MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED',context.Target)):ApplyStatus(MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED,100,1)"
+
+data "OnTickRoll" "WallOfFireCheck(Ability.Strength,SourceSpellDC(10,GetSummoner(context.Source)))"
+// TODO: Add Force (if it's even possible here)
+data "OnTickSuccess" "IF(not HasStatus('MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED')):DealDamage(6d6,Thunder,Magical);  IF(not HasStatus('MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED')):ApplyStatus(MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED,100,1)"
+data "OnTickFail"    "IF(not HasStatus('MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED')):DealDamage(6d6/2,Thunder,Magical);IF(not HasStatus('MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED',context.Target)):ApplyStatus(MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED,100,1)"
+// data "OnTickSuccess" "IF(not HasStatus('MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED') or StatusDurationLessThan(context.Source, 'MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED', 0.1)):DealDamage(5d8,Fire,Magical);ApplyStatus(MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED,100,1)"
+// data "OnTickFail" "IF(not HasStatus('MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED') or StatusDurationLessThan(context.Source, 'MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED', 0.1)):DealDamage(5d8/2,Fire,Magical);ApplyStatus(MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED,100,1)"
+
+
+
+
+
+
+// shouldnt need this anymore?
+// data "OnApplySuccess" "IF(not HasStatus('WALLOFFIRE_DAMAGE_RECEIVED')):DealDamage(5d8,Fire,Magical);  IF(not HasStatus('WALLOFFIRE_DAMAGE_RECEIVED')):ApplyStatus(WALLOFFIRE_DAMAGE_RECEIVED,100,1)"
+// data "OnApplyFail"    "IF(not HasStatus('WALLOFFIRE_DAMAGE_RECEIVED')):DealDamage(5d8/2,Fire,Magical);IF(not HasStatus('WALLOFFIRE_DAMAGE_RECEIVED',context.Target)):ApplyStatus(WALLOFFIRE_DAMAGE_RECEIVED,100,1)"
+
+data "OnTickSuccess" "IF(not HasStatus('WALLOFFIRE_DAMAGE_RECEIVED') or StatusDurationLessThan(context.Source, 'WALLOFFIRE_DAMAGE_RECEIVED', 0.1)):DealDamage(5d8,Fire,Magical);ApplyStatus(WALLOFFIRE_DAMAGE_RECEIVED,100,1)"
+data "OnTickFail" "IF(not HasStatus('WALLOFFIRE_DAMAGE_RECEIVED') or StatusDurationLessThan(context.Source, 'WALLOFFIRE_DAMAGE_RECEIVED', 0.1)):DealDamage(5d8/2,Fire,Magical);ApplyStatus(WALLOFFIRE_DAMAGE_RECEIVED,100,1)"
+
+
+new entry "MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h0fdf4a1eg519cg46bcg8735g75b7d7dcc113"
+data "Icon" "Spell_Evocation_Thunderwave"
+// data "TickType" "EndTurn"
+data "StackId" "MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+
+
+
+
+
+
+
+// // Wall of Repulsion (Repulsed)
+// new entry "MYSTIC_REPULSED_EFFECT"
+// type "StatusData"
+// data "StatusType" "BOOST"
+// data "DisplayName" "hfc0eaaa0gc478g4769gb2d8g938c36bf5caf"
+// data "Description" "hbf9c8b71gd994g4865g929cgd3b8d38708be"
+// data "Icon" "Spell_WallOfThorns"
+// data "StackId" "MYSTIC_REPULSED_EFFECT"
+// data "StackPriority" "1"
+// data "TickType" "EndTurn"
+// data "Boosts" "ActionResourceBlock(Movement)"
+
+// new entry "MYSTIC_WALLOFREPULSION"
+// type "StatusData"
+// data "StatusType" "BOOST"
+// data "DisplayName" "h52bc941fg3400g43c0g88b1g17e2fc2eec65"
+// data "Description" "h06f51e75gf735g4d07g9257ga36cc845e932"
+// data "Icon" "Spell_WallOfThorns"
+// data "SoundLoop" "Spell_Impact_Damage_WallOfFire_L4to5_Loop"
+// data "SoundStop" "Spell_End_Loop_Damage_WallOfFire_L4to5"
+// data "StackId" "MYSTIC_WALLOFREPULSION"
+// data "StackPriority" "1"
+// data "AuraRadius" "3"
+// // data "AuraStatuses" "IF(not Dead() and not (HasPassive('SculptSpells', context.Source) and Ally())):ApplyStatus(MYSTIC_WALLOFREPULSION_AURA,100,1)"
+// data "AuraStatuses" "IF(not Dead() and not HasStatus('MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED')):ApplyStatus(MYSTIC_WALLOFREPULSION_AURA,100,1)"
+// data "TooltipSave" "Wisdom"
+// // data "TooltipDamage" "DealDamage(5d8,Fire)"
+// data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;InitiateCombat;BringIntoCombat"
+// data "StatusEffect" "362f2080-b927-4846-8aec-66752dbafd07"
+
+// new entry "MYSTIC_WALLOFREPULSION_AURA"
+// type "StatusData"
+// data "StatusType" "BOOST"
+// data "DisplayName" "h52bc941fg3400g43c0g88b1g17e2fc2eec65"
+// data "Description" "h06f51e75gf735g4d07g9257ga36cc845e932"
+// // data "DescriptionParams" "Distance(3);DealDamage(5d8,Fire)"
+// data "Icon" "Spell_WallOfThorns"
+// data "StackId" "MYSTIC_WALLOFREPULSION"
+// data "StackPriority" "0"
+// // data "TickType" "EndTurn"
+// // data "TooltipDamage" "DealDamage(5d8,Fire)"
+// data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog"
+// data "OnApplyRoll" "WallOfFireCheck(Ability.Wisdom,SourceSpellDC(10,GetSummoner(context.Source)))"
+// data "OnApplySuccess" "IF(not HasStatus('MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED')):ApplyStatus(MYSTIC_REPULSED_EFFECT,100,1);IF(not HasStatus('MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED')):ApplyStatus(MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED,100,2)"
+// // data "OnApplyFail" "IF(not HasStatus('MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED')):DealDamage(5d8/2,Fire,Magical);IF(not HasStatus('MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED',context.Target)):ApplyStatus(MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED,100,1)"
+// // data "OnApplyFail" "ApplyStatus(MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED,100,2);ApplyStatus(MYSTIC_REPULSEDNT,100,1)"
+// data "OnApplyFail" "ApplyStatus(MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED,100,2)"
+
+// // data "OnTickRoll" "WallOfFireCheck(Ability.Dexterity,SourceSpellDC(10,GetSummoner(context.Source)))"
+// // data "OnTickSuccess" "IF(not HasStatus('MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED') or StatusDurationLessThan(context.Source, 'MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED', 0.1)):DealDamage(5d8,Fire,Magical);ApplyStatus(MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED,100,1)"
+// // data "OnTickFail" "IF(not HasStatus('MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED') or StatusDurationLessThan(context.Source, 'MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED', 0.1)):DealDamage(5d8/2,Fire,Magical);ApplyStatus(MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED,100,1)"
+
+
+
+// TODO: END
 
 // Warp Armor
 new entry "MYSTIC_WARP_ARMOR"
