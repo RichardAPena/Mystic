@@ -683,7 +683,7 @@
 	<content contentuid="h5d42f170g2a58g4e88ga06aga5a39b850cb0" version="1">Cloak of Air</content>
 	<content contentuid="h70f1f9fbgdfe5g4b36gb8e6gd9fcdfab6a8f" version="1">Seize control of the air around, creating a protective veil. &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against you will have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;, and when a melee attack misses you, deal [1] damage to the attacker.</content>
 	<content contentuid="h48ed6606g7f54g4a3ag8487ga1011be52858" version="1">&lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against this creature have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;. Able to retaliate when an incoming melee attack misses.</content>
-	<content contentuid="h93c76e27ge89dg4ae4gbd44gdfddde815d75" version="1">Incoming attacks have Disadvantage. Dealing [1] damage to melee attackers when they miss.</content>
+	<content contentuid="h93c76e27ge89dg4ae4gbd44gdfddde815d75" version="1">Incoming attacks have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;. Dealing [1] damage to melee attackers when they miss.</content>
 	<content contentuid="h760a194eg204cg4506g8566g0bf5baac8959" version="1">Wind Form</content>
 	<content contentuid="h48a4619cg17a7g4904gad77g9cf83a8ad8ff" version="1">Manipulate the winds around you, gaining the ability to Fly.</content>
 	<content contentuid="h880ccd03gf1e1g419cgbc2bg88c24dad10e8" version="1">Able to to Fly.</content>
@@ -732,8 +732,8 @@
 	<content contentuid="h68d85accg564bg4affg8219g9c96403a5ff7" version="1">Darkness</content>
 	<content contentuid="h00fde1f1g15d3g4934gbffeg3426e8959ebe" version="1">Summon a cloud of darkness with a radius of [1].</content>
 	<content contentuid="hdfa9f427gc799g4770g85fcg63d116f2e382" version="1">Light</content>
-	<content contentuid="hc63a4658g2949g40b9g814ag32af6287739f" version="1">Touch a creature, causing it to shed a bright light. &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against it will have Advantage and it won't be able to hide.</content>
-	<content contentuid="hae3300acgd414g47d9g9a97gb47f02ef7803" version="1">&lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against this creature have Advantage. Can't hide.</content>
+	<content contentuid="hc63a4658g2949g40b9g814ag32af6287739f" version="1">Touch a creature, causing it to shed a bright light. &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against it will have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; and it won't be able to hide.</content>
+	<content contentuid="hae3300acgd414g47d9g9a97gb47f02ef7803" version="1">&lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against this creature have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. Can't hide.</content>
 	<content contentuid="h245fbcc4g9e03g4a53g96b0g301999f5064e" version="1">Shadow Beasts</content>
 	<content contentuid="h9693ee45gcbf1g48aagaacdg210b5a95ceb0" version="1">Summon a pair of shadow beasts.</content>
 	<content contentuid="h715c4038gb88bg4c46gbec2g0d5c201ee518" version="1">Radiant Beam</content>
@@ -745,12 +745,12 @@
 	<content contentuid="h87afed8cg7b25g420cgb445g0c565dd68e33" version="1">Water Whip</content>
 	<content contentuid="h00b39772gdc47g4097g94c0g58a4cd1e5eb8" version="1">Unleash a jet of water in a line, battering creatures caught in the blast.</content>
 	<content contentuid="h492bb7acged62g464bg9971g4320777edc4b" version="1">Water Sphere</content>
-	<content contentuid="hecc4ab94g70d3g4aa3g8121g24e692f7a0a1" version="1">Create a sphere of water around a creature, trapping it. While trapped, its movement speed is halved, it suffers Disadvantage on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and its sight range is reduced to [1], however, &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against it also suffer Disadvantage. The creature can repeat the Saving Throw at the end of each of its turns.</content>
-	<content contentuid="hc5304740g7e91g471eg9d78gbb3a9b09e913" version="1">Encased in a sphere of water. Movement speed halved. Disadvantage on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;. Sight range is reduced to [1]. Incoming Attacks have Disadvantage.</content>
+	<content contentuid="hecc4ab94g70d3g4aa3g8121g24e692f7a0a1" version="1">Create a sphere of water around a creature, trapping it. While trapped, its movement speed is halved, it suffers &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and its sight range is reduced to [1], however, &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against it also suffer &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;. The creature can repeat the Saving Throw at the end of each of its turns.</content>
+	<content contentuid="hc5304740g7e91g471eg9d78gbb3a9b09e913" version="1">Encased in a sphere of water. Movement speed halved. &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;. Sight range is reduced to [1]. Incoming Attacks have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
 	<content contentuid="h24d90535g0e69g4c4ag869eg10e0a7d0f6db" version="1">Animate Water</content>
 	<content contentuid="h38bdbceeg97deg4545ga334ge1bf23a92117" version="1">Summon a Water Elemental.</content>
 	<content contentuid="h40892606g8591g42ebg878egf992f30447d8" version="1">Hungry Lightning</content>
-	<content contentuid="h44fa40f8g5563g4bd9g8f21gc569d1545bb0" version="1">Lash out with tendrils of lightning. Has Advantage on creatures wearing metal armour.</content>
+	<content contentuid="h44fa40f8g5563g4bd9g8f21gc569d1545bb0" version="1">Lash out with tendrils of lightning. Has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on creatures wearing metal armour.</content>
 	<content contentuid="h236c1b88gf8d4g4d65gb25eg7dfa0205eec4" version="1">Wall of Clouds</content>
 	<content contentuid="hf07089f7g1ee6g49dag9181g699a25bd460f" version="1">Summon a cloud that blocks vision.</content>
 	<content contentuid="h91716e4fgf715g4e88g9ef2gdbcf8113e2ae" version="1">Whirlwind</content>
@@ -765,12 +765,12 @@
 	<content contentuid="he473eb03g1569g4174gb71egb75d1e25a527" version="1">Seize control of a melee weapon you're holding, dealing its damage plus an additional [1] damage to a creature.</content>
 	<content contentuid="h83a09a72gd4cdg4b08ga961g3238a6650967" version="1">Warp Weapon</content>
 	<content contentuid="h748563bbgacbbg491agb42cgbdde01912d8c" version="1">Warp a creature's weapon, forcing them to drop it.</content>
-	<content contentuid="h39245a46gf4a7g40f4gb6ceg4949b840ef0e" version="1">Warp Armor</content>
-	<content contentuid="h562c9301g068eg4efdga903gd0a507fc4ea0" version="1">Warp a creature's armor. Their &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; becomes 10 + their Dexterity modifier until the start of your next turn.</content>
-	<content contentuid="h44a60c02g007bg40d3gbed1g47f29b4c22e3" version="1">Armor rendered unusable.</content>
+	<content contentuid="h39245a46gf4a7g40f4gb6ceg4949b840ef0e" version="1">Warp Armour</content>
+	<content contentuid="h562c9301g068eg4efdga903gd0a507fc4ea0" version="1">Warp a creature's armour. Their &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; becomes 10 + their Dexterity modifier until the start of your next turn.</content>
+	<content contentuid="h44a60c02g007bg40d3gbed1g47f29b4c22e3" version="1">Armour rendered unusable.</content>
 	<content contentuid="h6fcdffeegbad6g4e69gbfb6g755185e04884" version="1">Wall of Wood</content>
 	<content contentuid="h198949eeg4602g4235ga8d8g61ec1bea9738" version="1">Raise a wall of non-magical, solid wood.</content>
-	<content contentuid="h8f07e60bgc7ccg4e05gb730g0070236bd61f" version="1">Armored Form</content>
+	<content contentuid="h8f07e60bgc7ccg4e05gb730g0070236bd61f" version="1">Armoured Form</content>
 	<content contentuid="h7f453ca8gee30g4e5cg8d39ga323c199aa9a" version="1">Strengthen your body, gaining Resistance to Bludgeoning, Piercing, and Slashing damage.</content>
 	<content contentuid="h258664cage7a3g425fg96c4gd5b76a487c25" version="1">&lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Bludgeoning, Piercing, and Slashing damage.</content>
 	<content contentuid="he6887892g1f35g4ab2gb00bgbc8b0ae9f186" version="1">Animate Earth</content>

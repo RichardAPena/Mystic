@@ -3486,6 +3486,7 @@ data "TargetEffect" "66fe76c3-b68e-44b2-8f0a-9b6e00e4482c"
 data "PositionEffect" "9723eb8f-4eed-434a-b802-6e7e732b2ff4"
 data "Sheathing" "Sheathed"
 data "SpellFlags" "IsSpell"
+data "UseCosts" "ActionPoint:1;PsiPointsResource:2"
 
 // Thunder Clap
 new entry "Target_Mystic_ThunderClap"

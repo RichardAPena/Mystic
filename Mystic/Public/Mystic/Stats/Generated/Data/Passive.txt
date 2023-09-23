@@ -396,7 +396,7 @@ data "StatsFunctorContext" "OnAttacked"
 // data "Properties" "IsToggled;ToggledDefaultAddToHotbar;ToggledDefaultOn;Highlighted;Temporary"
 // data "StatsFunctorContext" "OnDamaged"
 data "Conditions" "IsMiss() and IsMeleeAttack()"
-data "StatsFunctors" "DealDamage(1d6,Slashing)"
+data "StatsFunctors" "DealDamage(SWAP,1d6,Slashing,Magical)"
 
 
 // data "DisplayName" ""

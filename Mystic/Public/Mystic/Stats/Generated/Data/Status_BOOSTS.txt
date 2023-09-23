@@ -649,6 +649,8 @@ data "DescriptionParams" "Distance(3)"
 data "Icon" "Spell_Transmutation_Longstrider"
 data "StackId" "MYSTIC_LIGHT_STEP"
 data "Boosts" "ActionResource(Movement,3,0);StatusImmunity(PRONE)"
+data "StatusEffect" "9e863d8f-a1f5-4f68-88ca-ddb56828c8d8"
+data "StatusGroups" "SG_Light;SG_RemoveOnRespec"
 
 // Blind Spot
 new entry "MYSTIC_BLIND_SPOT"
@@ -2431,12 +2433,18 @@ type "StatusData"
 data "StatusType" "BOOST"
 data "DisplayName" "h5f95805age5e7g44c9g99f6g74be6cf53e5a"
 data "Description" "h59281052gd2c2g4a8cgaa8bgcfc39a66321c"
-data "DescriptionParams" ""
-data "Icon" ""
+// data "DescriptionParams" ""
+data "Icon" "Spell_Evocation_IceStorm"
 data "StackId" "MYSTIC_FROZEN_RAIN"
 // data "TickType" "StartTurn"
 // data "StatusPropertyFlags" "TickingWithSource"
-data "Boosts" ""
+data "Boosts" "ActionResourceBlock(Movement)"
+data "TickType" "EndTurn"
+data "RemoveConditions" "SavingThrow(Ability.Dexterity, SourceSpellDC())"
+data "RemoveEvents" "OnTurn"
+data "TooltipSave" "Strength"
+data "OnTickRoll" "SavingThrow(Ability.Strength, CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source)))"
+data "OnTickSuccess" "RemoveStatus(MYSTIC_FROZEN_RAIN)"
 
 // Light
 new entry "MYSTIC_LIGHT"
@@ -2471,11 +2479,13 @@ data "DisplayName" "h492bb7acged62g464bg9971g4320777edc4b"
 data "Description" "hc5304740g7e91g471eg9d78gbb3a9b09e913"
 data "DescriptionParams" "Distance(3)"
 data "Icon" "Spell_Evocation_OtilukesResilientSphere"
-data "StackId" "MYSTIC_WATER_SPHERE"
+data "StackId" "RESILIENT_SPHERE"
 data "TickType" "EndTurn"
 // data "StatusPropertyFlags" "TickingWithSource"
 data "Boosts" "Disadvantage(AttackRoll); Disadvantage(AttackTarget); SightRangeMaximum(3);ActionResourceConsumeMultiplier(Movement, 2,0);MovementSpeedLimit(Walk)"
 data "StatusEffect" "2419c2ea-a3b6-45e7-8b57-dd6cecf0ec2d"
+data "OnApplyFunctors" "IF(Tagged('WEIGHT_SMALL')):ApplyStatus(RESILIENT_SPHERE_SMALL,100,-1);IF(Tagged('WEIGHT_MEDIUM')):ApplyStatus(RESILIENT_SPHERE_MEDIUM,100,-1);IF(Tagged('WEIGHT_LARGE')):ApplyStatus(RESILIENT_SPHERE_LARGE,100,-1);IF(Tagged('WEIGHT_TINY') or Tagged('WEIGHT_HUGE') or Tagged('WEIGHT_GARGANTUAN')):ApplyStatus(RESILIENT_SPHERE_OVERLAY,100,-1)"
+
 
 // TODO: WALL OF THUNDER
 new entry "MYSTIC_WALLOFTHUNDER"
@@ -2552,61 +2562,6 @@ data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndi
 
 
 
-
-// // Wall of Repulsion (Repulsed)
-// new entry "MYSTIC_REPULSED_EFFECT"
-// type "StatusData"
-// data "StatusType" "BOOST"
-// data "DisplayName" "hfc0eaaa0gc478g4769gb2d8g938c36bf5caf"
-// data "Description" "hbf9c8b71gd994g4865g929cgd3b8d38708be"
-// data "Icon" "Spell_WallOfThorns"
-// data "StackId" "MYSTIC_REPULSED_EFFECT"
-// data "StackPriority" "1"
-// data "TickType" "EndTurn"
-// data "Boosts" "ActionResourceBlock(Movement)"
-
-// new entry "MYSTIC_WALLOFREPULSION"
-// type "StatusData"
-// data "StatusType" "BOOST"
-// data "DisplayName" "h52bc941fg3400g43c0g88b1g17e2fc2eec65"
-// data "Description" "h06f51e75gf735g4d07g9257ga36cc845e932"
-// data "Icon" "Spell_WallOfThorns"
-// data "SoundLoop" "Spell_Impact_Damage_WallOfFire_L4to5_Loop"
-// data "SoundStop" "Spell_End_Loop_Damage_WallOfFire_L4to5"
-// data "StackId" "MYSTIC_WALLOFREPULSION"
-// data "StackPriority" "1"
-// data "AuraRadius" "3"
-// // data "AuraStatuses" "IF(not Dead() and not (HasPassive('SculptSpells', context.Source) and Ally())):ApplyStatus(MYSTIC_WALLOFREPULSION_AURA,100,1)"
-// data "AuraStatuses" "IF(not Dead() and not HasStatus('MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED')):ApplyStatus(MYSTIC_WALLOFREPULSION_AURA,100,1)"
-// data "TooltipSave" "Wisdom"
-// // data "TooltipDamage" "DealDamage(5d8,Fire)"
-// data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;InitiateCombat;BringIntoCombat"
-// data "StatusEffect" "362f2080-b927-4846-8aec-66752dbafd07"
-
-// new entry "MYSTIC_WALLOFREPULSION_AURA"
-// type "StatusData"
-// data "StatusType" "BOOST"
-// data "DisplayName" "h52bc941fg3400g43c0g88b1g17e2fc2eec65"
-// data "Description" "h06f51e75gf735g4d07g9257ga36cc845e932"
-// // data "DescriptionParams" "Distance(3);DealDamage(5d8,Fire)"
-// data "Icon" "Spell_WallOfThorns"
-// data "StackId" "MYSTIC_WALLOFREPULSION"
-// data "StackPriority" "0"
-// // data "TickType" "EndTurn"
-// // data "TooltipDamage" "DealDamage(5d8,Fire)"
-// data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog"
-// data "OnApplyRoll" "WallOfFireCheck(Ability.Wisdom,SourceSpellDC(10,GetSummoner(context.Source)))"
-// data "OnApplySuccess" "IF(not HasStatus('MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED')):ApplyStatus(MYSTIC_REPULSED_EFFECT,100,1);IF(not HasStatus('MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED')):ApplyStatus(MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED,100,2)"
-// // data "OnApplyFail" "IF(not HasStatus('MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED')):DealDamage(5d8/2,Fire,Magical);IF(not HasStatus('MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED',context.Target)):ApplyStatus(MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED,100,1)"
-// // data "OnApplyFail" "ApplyStatus(MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED,100,2);ApplyStatus(MYSTIC_REPULSEDNT,100,1)"
-// data "OnApplyFail" "ApplyStatus(MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED,100,2)"
-
-// // data "OnTickRoll" "WallOfFireCheck(Ability.Dexterity,SourceSpellDC(10,GetSummoner(context.Source)))"
-// // data "OnTickSuccess" "IF(not HasStatus('MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED') or StatusDurationLessThan(context.Source, 'MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED', 0.1)):DealDamage(5d8,Fire,Magical);ApplyStatus(MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED,100,1)"
-// // data "OnTickFail" "IF(not HasStatus('MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED') or StatusDurationLessThan(context.Source, 'MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED', 0.1)):DealDamage(5d8/2,Fire,Magical);ApplyStatus(MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED,100,1)"
-
-
-
 // TODO: END
 
 // Warp Armor
@@ -2627,12 +2582,12 @@ type "StatusData"
 data "StatusType" "BOOST"
 data "DisplayName" "h8f07e60bgc7ccg4e05gb730g0070236bd61f"
 data "Description" "h258664cage7a3g425fg96c4gd5b76a487c25"
-data "DescriptionParams" ""
-data "Icon" ""
+// data "DescriptionParams" ""
+data "Icon" "Spell_Abjuration_Stoneskin"
 data "StackId" "MYSTIC_ARMORED_FORM"
 // data "TickType" "StartTurn"
 // data "StatusPropertyFlags" "TickingWithSource"
-data "Boosts" ""
+data "Boosts" "Resistance(Bludgeoning, Resistant);Resistance(Piercing, Resistant);Resistance(Slashing, Resistant)"
 
 // Class Features
 
