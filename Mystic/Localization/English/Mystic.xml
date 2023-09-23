@@ -15,13 +15,13 @@
 	<content contentuid="h641eac2bge475g420cg8367g928983c21a80" version="1">Wu Jen Disciplines</content>
 	<content contentuid="h1aeab2c8gae62g4905g976dg7fb97479f6b0" version="1">Select two additional Psionic Disciplines that are specific to disciples of the Order of the Wu Jen.</content>
 	<content contentuid="hfbba16d5gd122g46b3gbda7gc03e7cc09bed" version="1">Psi Points are spent on Psionic Disciplines. The amount of points you can spend at once depends on your Mystic level.</content>
-	<content contentuid="heeb074ebga0e0g459dgb417g87158e793ab2" version="1">Psi Points</content>
+	<content contentuid="heeb074ebga0e0g459dgb417g87158e793ab2" version="1">Psi Point(s)</content>
 	<content contentuid="h4279b7e2g21b4g4891gba54gd134afe1cd53" version="1">Determines how many Psi Points you can spend at once. Increases with Mystic level.</content>
 	<content contentuid="hd44f7002g8382g4663g89f3g88a18f0791bf" version="1">Psi Limit</content>
 	<content contentuid="h967a52b9g432ag4290g8b17g216c46ac45d9" version="1">Psi Limit raised to 3</content>
-	<content contentuid="" version="1">Psi Limit raised to 5</content>
-	<content contentuid="" version="1">Psi Limit raised to 6</content>
-	<content contentuid="" version="1">Psi Limit raised to 7</content>
+	<content contentuid="hdd48efa6g225cg4fe9ga0d1gdc46eae0d739" version="1">Psi Limit raised to 5</content>
+	<content contentuid="hb4c95b5bg4e36g46b6g8ea4g57b54e754033" version="1">Psi Limit raised to 6</content>
+	<content contentuid="h1f60ff81gca80g4631gaafbg5452c5922f64" version="1">Psi Limit raised to 7</content>
 	<content contentuid="h50a4b569gc8f8g4d05g85c2g5c039ffcb237" version="1">Using their inner, psychic strength, mystics can read minds, fade into invisibility, transform their bodies into living iron, and seize control of the physical world and bend it to their will.</content>
 	<content contentuid="hb4bc9f84gaefbg4844g9597gd48f569a35db" version="1">Mystic</content>
 	<content contentuid="h31fd1f11g371eg4779gad70gdd7b6130470a" version="1">The Order of the Avatar focuses on manipulating emotion, rallying allies and crippling foes.</content>
@@ -417,7 +417,7 @@
 	<content contentuid="h6a32a2fdg7d8fg499cga80eg348f92289a86" version="1">Psychic Backlash </content>
 	<content contentuid="h34e0c50eg2f15g412ag8f79ge7d9fc0ff80a" version="1">As a reaction, impose &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on an attack against you. If it still hits you, deal [1] damage to the attacker.</content>
 	<content contentuid="he3859f73g3be7g43ddga88bg142c54b26bd8" version="1">Psychic Parry</content>
-	<content contentuid="he3446c7fga2b2g4256g93efga0485b80e08e" version="1">As a reaction, when you make an Intelligence, Wisdom or Charisma &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;, you can gain a +1 bonus to that &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; per psi point spent.</content>
+	<content contentuid="he3446c7fga2b2g4256g93efga0485b80e08e" version="1">As a reaction, when you make an Intelligence, Wisdom or Charisma &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;, you can gain a +1 bonus to that &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; per Psi Point spent.</content>
 	<content contentuid="hf41be51cg0881g4fd1gb7c1gfa5965c3e55d" version="1">Psychic Redoubt </content>
 	<content contentuid="h7501f53dg30a8g425fg9565g8c714d323986" version="1">Manifest a field of protective psionic energy, giving nearby allies &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to psychic damage and &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Intelligence, Wisdom and Charisma &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
 	<content contentuid="h315be883g6a8ag43bfga828gda303f16c97a" version="1">&lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to psychic damage. &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Intelligence, Wisdom and Charisma &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
@@ -539,7 +539,7 @@
 	<content contentuid="hc56a3e6cg024eg409fgbf75g5cab5b51f8a1" version="1">Next melee attack deals an additional [1] damage.</content>
 	<content contentuid="h64861ffdge092g4be5gae41g02d96367cb93" version="1">Knock Back</content>
 	<content contentuid="hafa0ff17g5d7fg4454gb0c4g5eee7b446f19" version="1">Blast your target with immense strength, knocking them back [1].</content>
-	<content contentuid="h3ef06455gfb79g448egb84dgd970cb657bc4" version="1">Does not consume reaction points or psi points.</content>
+	<content contentuid="h3ef06455gfb79g448egb84dgd970cb657bc4" version="1">Does not consume Reaction points or Psi Points.</content>
 	<content contentuid="h1598778aga893g4fb9g8c9bg9f3b911368d9" version="1">Mighty Leap</content>
 	<content contentuid="h3e1bda4bg49cbg4f46g99fbg1b09c977a6c4" version="1">Propel yourself with psionic energy, jumping up to [1].</content>
 	<content contentuid="h20014ac4g9feeg4775ga235gf9e70dd67cad" version="1">Feat of Strength</content>
@@ -692,7 +692,7 @@
 	<content contentuid="h3e3a7ea6gc38ag4f3aga618g28da59a408ec" version="1">Encase yourself in a veil of pure kinetic energy, increasing your base Armour Class to 14.</content>
 	<content contentuid="h2cbb948dgde72g449eg9bb0gf34d81b458b9" version="1">Base Armour Class increased to 14.</content>
 	<content contentuid="hb7cb3735g1907g4d50g9462g3ce0acc8c7af" version="1">Telekinetic Barrier</content>
-	<content contentuid="h4239b128g398eg4700g86edgb1499e0d2496" version="1">Manifest a line of increased surface tension. Creatures within will be in Difficult Terrain.</content>
+	<content contentuid="h4239b128g398eg4700g86edgb1499e0d2496" version="1">Manifest a wall of pressurized force. Creatures within will be in Difficult Terrain.</content>
 	<content contentuid="hc1180697g9634g4b84gb46ag2ef175e42c9c" version="1">Grasp</content>
 	<content contentuid="ha82db9a3g45c0g450cgba3fg5651fd1b6911" version="1">Grasp a creature in telekinetic energy, Restraining it. While concentrating on this, you can cast Crush.</content>
 	<content contentuid="hcbf42d0fgf5aeg498dg8606g4be4f97997e2" version="1">TODO: Grasp Status Description</content>
@@ -803,12 +803,49 @@
 	<content contentuid="h56cb35d0g56f3g4098g8d58gbdab90b41a46" version="1">Surge of Health</content>
 	<content contentuid="h29c97f6dg93efg4497g9f86gdcf3a6ecaa0e" version="1">As a reaction, halve incoming damage. Usable once per Short or Long Rest.</content>
 	
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
+	<content contentuid="h4f2b9252g0aebg4086gad50g7fc336859005" version="1">Elemental Attunement</content>
+	<content contentuid="he04500b3g2ca8g4705g8da0g41bd6ca90872" version="1">Once per turn as a free action, you can choose an element and ignore any creature's Resistances to that element until the end of your turn.</content>
+	<content contentuid="h98300e6fgf3cdg4009g91f3g2c0aef6d002d" version="1">Choose an element and ignore creatures' Resistance to it when dealing damage.</content>
+	<content contentuid="h58ee04e2ga202g46adgb18egd1ad430e69f2" version="1">Elemental Attunement: Acid</content>
+	<content contentuid="hb50efea3g5b43g4999ga961g91cdd6eab87e" version="1">Elemental Attunement: Cold</content>
+	<content contentuid="h448e483dg3af3g4128gb36fgbe468fac59d3" version="1">Elemental Attunement: Fire</content>
+	<content contentuid="h3ad5ae1ag6e4fg4857gb2beg46613269565c" version="1">Elemental Attunement: Force</content>
+	<content contentuid="h4c459f95g3c0ag41e0g9fc4gc2084a7a01b4" version="1">Elemental Attunement: Lightning</content>
+	<content contentuid="hf1c1928cg108eg4258gaf52g0798233cc76a" version="1">Elemental Attunement: Necrotic</content>
+	<content contentuid="hf70a4892g422eg49b4gbe0fgcac176cd4afa" version="1">Elemental Attunement: Poison</content>
+	<content contentuid="hf64e14d4g12aag492egbdf4gd71d9d44f5b1" version="1">Elemental Attunement: Psychic</content>
+	<content contentuid="h1d70a243gfa49g45a9g89a4gfa5430308f7a" version="1">Elemental Attunement: Radiant</content>
+	<content contentuid="h54e19348gd316g46fcg868ag3c848cfdb2ad" version="1">Elemental Attunement: Thunder</content>
+	<content contentuid="h54551b6fgb96dg4ec6gbc93g7934caf8bfc3" version="1">Ignore creatures' Resistance to Acid damage.</content>
+	<content contentuid="hf9fc0c91gf546g43bdg8c68g8b735188f44b" version="1">Ignore creatures' Resistance to Cold damage.</content>
+	<content contentuid="hf7101ee6ga74ag4556gb429gce4c2fdd11ab" version="1">Ignore creatures' Resistance to Fire damage.</content>
+	<content contentuid="ha9efaa06g1fc5g45b3g8222g40bd2d9d8c7f" version="1">Ignore creatures' Resistance to Force damage.</content>
+	<content contentuid="h2f7f8acag36cag41feg8d48g6c9e6888e3ad" version="1">Ignore creatures' Resistance to Lightning damage.</content>
+	<content contentuid="hba95f925gc5c7g4a81ga8e6g4ab2f388bcc3" version="1">Ignore creatures' Resistance to Necrotic damage.</content>
+	<content contentuid="h96d957bfgeeb5g46aegb0d3g605434324747" version="1">Ignore creatures' Resistance to Poison damage.</content>
+	<content contentuid="h017dcb5ag1062g43eeg9047g306af5f2d6ec" version="1">Ignore creatures' Resistance to Psychic damage.</content>
+	<content contentuid="hdf14c6d7g1086g4c3dg9aabge56ebfb22d71" version="1">Ignore creatures' Resistance to Radiant damage.</content>
+	<content contentuid="h52faa940g6b39g4d46g883bg16c222ab286c" version="1">Ignore creatures' Resistance to Thunder damage.</content>
+	<content contentuid="hb6aeb778g137eg485cg8182g3e7d715ce4e8" version="1">Ignores creatures' Resistance to Acid damage.</content>
+	<content contentuid="hdfcd33ccgeadcg4597ga0c7gd5a72dddb71e" version="1">Ignores creatures' Resistance to Cold damage.</content>
+	<content contentuid="h5a5862e4g5a11g4b30g9fa4g94373b1cc398" version="1">Ignores creatures' Resistance to Fire damage.</content>
+	<content contentuid="h952e4576g8e02g4c37gaea8gdf242a23693c" version="1">Ignores creatures' Resistance to Force damage.</content>
+	<content contentuid="h1aa07231gca27g4ba1g94b6g07f33ea1631a" version="1">Ignores creatures' Resistance to Lightning damage.</content>
+	<content contentuid="h9cf09930gd838g49bfg9209g0f4b4d94ca24" version="1">Ignores creatures' Resistance to Necrotic damage.</content>
+	<content contentuid="h57b65fc4g7589g454dga11cg00e17390715f" version="1">Ignores creatures' Resistance to Poison damage.</content>
+	<content contentuid="habe61b14g1ac9g407dgac50gd5f9bc094312" version="1">Ignores creatures' Resistance to Psychic damage.</content>
+	<content contentuid="hf586ed90gb857g459cga271g55f834caea22" version="1">Ignores creatures' Resistance to Radiant damage.</content>
+	<content contentuid="h753d68f8gf21dg4839g88e8ge4dd0702ba1b" version="1">Ignores creatures' Resistance to Thunder damage.</content>		
+	<content contentuid="h8ced69f1g42cfg4828ga538g852944622e0c" version="1">Arcane Dabbler</content>
+	<content contentuid="h5bd00090g1bd2g462ag92e0g0fc72ba7ade1" version="1">Your skill in manipulating the elements allows you to control the Weave. You learn three Wizard spells, and can spend Psi Points to gain spell slots. These spell slots are lost after you Long Rest.</content>
+	<content contentuid="h9bcfb552g62deg47e4ga2bfga08470f32fe9" version="1">Create Spell Slot</content>
+	<content contentuid="hb634d0efg8140g4116g851agde5047b1179e" version="1">Spend Psi Points to unlock a spell slot.</content>
+	<content contentuid="hb26dbe65gaf92g4ab0gbb14g28d241be8767" version="1">Create Spell Slot: Level 1</content>
+	<content contentuid="hc2a6824cgb188g4f0agb1eag75530ef51579" version="1">Create Spell Slot: Level 2</content>
+	<content contentuid="h79783b33g141dg43abgb057g69aae4544d4d" version="1">Create Spell Slot: Level 3</content>
+	<content contentuid="h489a4028g39b0g4b25g88b1g5fb669da9989" version="1">Create Spell Slot: Level 4</content>
+	<content contentuid="h395f3de4g7337g4046g95b2gac5963ebbb35" version="1">Create Spell Slot: Level 5</content>	
+	<content contentuid="h8811fab1g5c9dg4c03ga4b1g8a4aead193fd" version="1">Spend [1] Psi Points to unlock a level [2] &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt;.</content>
 	<content contentuid="" version="1"> </content>
 	<content contentuid="" version="1"> </content>
 	<content contentuid="" version="1"> </content>

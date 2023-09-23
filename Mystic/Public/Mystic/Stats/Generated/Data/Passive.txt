@@ -403,7 +403,9 @@ data "DisplayName" "h9056fee7g112dg4688g9c65g54a5e5ab47f6"
 data "Description" "h63f5ec13ga44bg4706ga3cfgbb3655936380"
 data "Icon" "Action_Paladin_LayOnHands_SmallHeal"
 data "StatsFunctorContext" "OnCast;OnActionResourcesChanged"
+// data "Conditions" "IsSpell() and not IsCantrip()"
 data "Conditions" "IsSpell() and not IsCantrip() and not PsychicFocusCheck()"
+
 // data "Conditions" "IsSpell() and not IsCantrip() and not IsSpellSchool(SpellSchool.Abjuration) and not IsSpellSchool(SpellSchool.Conjuration) and not IsSpellSchool(SpellSchool.Divination) and not IsSpellSchool(SpellSchool.Enchantment) and not IsSpellSchool(SpellSchool.Evocation) and not IsSpellSchool(SpellSchool.Illusion) and not IsSpellSchool(SpellSchool.Necromancy) and not IsSpellSchool(SpellSchool.Transmutation)"
 
 
@@ -532,20 +534,20 @@ data "Boosts" "UnlockInterrupt(Interrupt_Mystic_SurgeOfHealth);ActionResource(In
 // REWORK: You may spend 1 Psi Point at will and choose a resistance to ignore.
 new entry "Passive_Mystic_ElementalAttunement"
 type "PassiveData"
-data "DisplayName" ""
-data "Description" ""
-data "Icon" ""
+data "DisplayName" "h4f2b9252g0aebg4086gad50g7fc336859005"
+data "Description" "he04500b3g2ca8g4705g8da0g41bd6ca90872"
+data "Icon" "Spell_Abjuration_GlyphOfWarding_ExplosiveRunes"
 data "Properties" "Highlighted"
 data "Boosts" ""
 
 // Arcane Dabbler? (Wu Jen)
 new entry "Passive_Mystic_ArcaneDabbler"
 type "PassiveData"
-data "DisplayName" ""
-data "Description" ""
-data "Icon" ""
+data "DisplayName" "h8ced69f1g42cfg4828ga538g852944622e0c"
+data "Description" "h5bd00090g1bd2g462ag92e0g0fc72ba7ade1"
+data "Icon" "Action_Mag_SpellSlotRestoration"
 data "Properties" "Highlighted"
-data "Boosts" ""
+data "Boosts" "UnlockSpell(Shout_Mystic_CreateSpellSlot)"
 
 
 // Elemental Mastery (Wu Jen)

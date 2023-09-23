@@ -398,8 +398,9 @@
                     <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="6"/>
                     <attribute id="Name" type="LSString" value="WuJen"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/> 
                     <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_ArcaneDabbler"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(22755771-ca11-49f4-b772-13d8b8fecd93,3,0,PsionicTalents,,,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="5be9ee51-acca-46da-be13-e66a6ff5a080"/>
                     <attribute id="UUID" type="guid" value="66c868a2-f29a-4777-ae33-7586a41930b0"/>
                 </node>

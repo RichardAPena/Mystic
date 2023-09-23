@@ -50,7 +50,27 @@
                     <attribute id="ProgressionId" type="guid" value="ebad23af-e802-40e0-ba1c-090997fe337d"/>
                     <attribute id="UUID" type="guid" value="1183b6fe-0b69-4d32-ad30-7e3aff9ccab8"/>
                 </node>
-
+                <node id="ProgressionDescription"> FIXME: not sure if this will work
+                    <attribute id="Description" type="TranslatedString" handle="hdd48efa6g225cg4fe9ga0d1gdc46eae0d739" version="4"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hdd48efa6g225cg4fe9ga0d1gdc46eae0d739" version="2"/>
+                    <attribute id="ExactMatch" type="FixedString" value="ActionResource(PsiLimitResource,255,5)"/>
+                    <attribute id="ProgressionId" type="guid" value="78848998-cd64-4257-8df4-6465bc126862"/>
+                    <attribute id="UUID" type="guid" value="16bcc214-2a3a-4470-b928-73c8c903694d"/>
+                </node>
+                <node id="ProgressionDescription"> FIXME: not sure if this will work
+                    <attribute id="Description" type="TranslatedString" handle="hb4c95b5bg4e36g46b6g8ea4g57b54e754033" version="4"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hb4c95b5bg4e36g46b6g8ea4g57b54e754033" version="2"/>
+                    <attribute id="ExactMatch" type="FixedString" value="ActionResource(PsiLimitResource,255,6)"/>
+                    <attribute id="ProgressionId" type="guid" value="efd82e1d-b4a4-4781-a573-ceef12681ff9"/>
+                    <attribute id="UUID" type="guid" value="16705c06-7b98-45b6-8270-852c70d8d5ee"/>
+                </node>
+                <node id="ProgressionDescription"> FIXME: not sure if this will work
+                    <attribute id="Description" type="TranslatedString" handle="h1f60ff81gca80g4631gaafbg5452c5922f64" version="4"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h1f60ff81gca80g4631gaafbg5452c5922f64" version="2"/>
+                    <attribute id="ExactMatch" type="FixedString" value="ActionResource(PsiLimitResource,255,7)"/>
+                    <attribute id="ProgressionId" type="guid" value="f8bbd9b3-6df7-47cb-b461-07cec3355cff"/>
+                    <attribute id="UUID" type="guid" value="0ff5ed6d-929d-4d0b-b73a-7d1e836166d1"/>
+                </node>                
                 Avatar Disciplines
                 <node id="ProgressionDescription">
                     <attribute id="Description" type="TranslatedString" handle="h74d66f9bg0592g4fe1gbda6g2ff2eac275e8" version="2"/>

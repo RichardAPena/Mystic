@@ -218,11 +218,11 @@ data "Level" "1"
 data "Icon" "Spell_Conjuration_IceKnife"
 data "DisplayName" "hca8006b4gc36fg4945gb217gaed13e17b2ed"
 data "Description" "hd9305583gb3b5g4943g8cf1g6dc5598e61a7"
-data "DescriptionParams" ""
+data "DescriptionParams" "Distance(4.5)"
 
 data "ContainerSpells" "Projectile_Mystic_IceSpike_1;Projectile_Mystic_IceSpike_2;Projectile_Mystic_IceSpike_3;Projectile_Mystic_IceSpike_4;Projectile_Mystic_IceSpike_5;Projectile_Mystic_IceSpike_6;Projectile_Mystic_IceSpike_7"
 
-data "SpellProperties" "GROUND:SurfaceChange(Freeze);GROUND:SurfaceChange(Douse);RemoveStatus(BURNING);GROUND:CreateSurface(2,2,WaterFrozen)"
+data "SpellProperties" "GROUND:SurfaceChange(Freeze);GROUND:SurfaceChange(Douse);RemoveStatus(BURNING);"
 data "TargetFloor" "-1"
 data "TargetRadius" "18"
 // data "ExplodeRadius" "2"
