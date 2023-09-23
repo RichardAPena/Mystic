@@ -2081,7 +2081,8 @@ data "Description" "hd8ba7b71gce4bg456cg881dg74d7247ccc16"
 data "DescriptionParams" "14"
 
 data "TargetConditions" "Self()"
-// TODO: Restore
+
+data "Cooldown" "OncePerRest"
 data "SpellProperties" "ApplyStatus(MYSTIC_CONSUMPTIVE_POWER,100, -1);RestoreResource(PsiPointsResource,7,0)"
 data "TooltipStatusApply" "ApplyStatus(MYSTIC_CONSUMPTIVE_POWER, -1)"
 data "CastSound" "Spell_Cast_Utility_Light_L0"

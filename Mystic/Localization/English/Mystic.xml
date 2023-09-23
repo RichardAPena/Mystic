@@ -201,7 +201,7 @@
 	<content contentuid="h065bc831g06ecg4b9dgb9c3g51bc2fe08cb0" version="1">&lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; increased by 1.</content>
 	<content contentuid="hc7e29d53g3ebcg47b5g8e62gc0eef01fa7d0" version="1">Psychic Focus: Nomadic Arrow</content>
 	<content contentuid="h356fa408gfff8g46adg9497gacbd4660ec50" version="1">Your ranged weapon attacks ignore &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;. If &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; would normally apply to the roll, it cannot gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
-	<content contentuid="hca14baebg02c9g40a5g8eabgb35e9956e0bd" version="1">Weapon &lt;LSTag Tooltip="AttackRoll"&gt;Attack&lt;/LSTag&gt; Rolls cannot suffer &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;. Weapon &lt;LSTag Tooltip="AttackRoll"&gt;Attack&lt;/LSTag&gt; Rolls that would normally have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; can't gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
+	<content contentuid="hca14baebg02c9g40a5g8eabgb35e9956e0bd" version="1">Weapon &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; cannot suffer &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;. Weapon &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; that would normally have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; can't gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
 	<content contentuid="h1d1b7109gd26dg4c56g8f66g086fbe2c0f85" version="1">Psychic Focus: Nomadic Chameleon</content>
 	<content contentuid="ha9772555gdf2fg4af3gbfcfgfd19583b096b" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Stealth &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="hfa7f9479g9ebeg429bg8e47g51703175ea4d" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Stealth &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
@@ -334,8 +334,8 @@
 	<content contentuid="h87d4504egc047g4d99g8221g58c7afa79eb3" version="1">Assault a creature with a surge of rage, causing them to immediately lose concentration.</content>
 	<content contentuid="h23e08979g16efg46d2g943bg2f9097535007" version="1">Can't concentrate on spells.</content>	
 	<content contentuid="h9b203b48gf006g4784g9c17g0595464f3fb1" version="1">Fighting Words</content>
-	<content contentuid="he37df62fg4d93g4b90g8b99g0d9c4f639af3" version="1">Drive a creature into a frenzy, giving it &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack&lt;/LSTag&gt; Rolls, but it can't concentrate on spells and enemies have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack&lt;/LSTag&gt; Rolls against it.</content>
-	<content contentuid="hc39d9017g337dg40f1g833eg0f05e443ad00" version="1">Has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack&lt;/LSTag&gt; Rolls, but can't concentrate and enemies have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack&lt;/LSTag&gt; Rolls against this creature.</content>
+	<content contentuid="he37df62fg4d93g4b90g8b99g0d9c4f639af3" version="1">Drive a creature into a frenzy, giving it &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;, but it can't concentrate on spells and enemies have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against it.</content>
+	<content contentuid="hc39d9017g337dg40f1g833eg0f05e443ad00" version="1">Has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;, but can't concentrate and enemies have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against this creature.</content>
 	<content contentuid="hbb9dd850g9ca6g430bgb936g8c47b92ce549" version="1">Mindless Courage</content>
 	<content contentuid="hed6f2116gceeeg4621ga1b5gc38cf88ccd86" version="1">Provoke a creature, forcing it to move towards you on its turn and do nothing else.</content>
 	<content contentuid="h422fcb65g1e3fg4b2agb4ceg438b6be7a684" version="1">Affected entity has to move towards the spellcaster using the shortest route possible and can't take any other actions or bonus actions.</content>
@@ -347,8 +347,8 @@
 	<content contentuid="h1ba91861g777eg4c67ga616g722a9e291280" version="1">Signal up to five allies to move as a unit, increasing their movement speed by [1].</content>
 	<content contentuid="hfb595d88g0d0eg46feg9b51g356788a0e87d" version="1">Movement speed increased by [1].</content>
 	<content contentuid="ha478b526ge94eg4689g8876gb131dd371a18" version="1">Commander's Sight</content>
-	<content contentuid="h9f0b9cc3g2c38g4c1bgaba1gd3a27449389f" version="1">Reveal a creature's weaknesses, giving &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; to &lt;LSTag Tooltip="AttackRoll"&gt;Attack&lt;/LSTag&gt; Rolls against it.</content>
-	<content contentuid="h5baa6f58g9233g4cc0gb303gafe1a572845e" version="1">&lt;LSTag Tooltip="AttackRoll"&gt;Attack&lt;/LSTag&gt; Rolls have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; against this creature.</content>
+	<content contentuid="h9f0b9cc3g2c38g4c1bgaba1gd3a27449389f" version="1">Reveal a creature's weaknesses, giving &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against it.</content>
+	<content contentuid="h5baa6f58g9233g4cc0gb303gafe1a572845e" version="1">&lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; against this creature.</content>
 	<content contentuid="hbdec4171g964fg48f6ga2a8gde7c977a6c2c" version="1">Command to Strike</content>
 	<content contentuid="h6cc4768dgc11fg453cg92a8gb6a2c8e0853f" version="1">Direct an ally to strike a foe. The ally immediately uses their reaction to make a weapon attack.</content>
 	<content contentuid="h3e448fe9g2997g466fg9c1eg3ff168fc516a" version="1">Able to make weapon attack for free.</content>
@@ -388,8 +388,8 @@
 	<content contentuid="h744cdc77g41afg4290g99e6g653fa1854560" version="1">Rouse up to 3 creatures, increasing their movement speed by [1] but giving them &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on Strength, Dexterity and Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
 	<content contentuid="h02127774ga9d0g4ab0g8f61gce7308ee55c1" version="1">Movement speed increased by [1]. &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on Strength, Dexterity and Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
 	<content contentuid="h4a8242b3gffc3g43c8g8a25g0b03e9d956df" version="1">Aura of Bloodletting</content>
-	<content contentuid="ha64cd2aag4558g4e51gbb58ge0026b35a209" version="1">Unleash an aura of rage, giving all nearby creatures &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on melee &lt;LSTag Tooltip="AttackRoll"&gt;Attack&lt;/LSTag&gt; Rolls.</content>
-	<content contentuid="h0f373053gfb1dg4eb1ga6f6gb10dab129871" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on melee &lt;LSTag Tooltip="AttackRoll"&gt;Attack&lt;/LSTag&gt; Rolls.</content>
+	<content contentuid="ha64cd2aag4558g4e51gbb58ge0026b35a209" version="1">Unleash an aura of rage, giving all nearby creatures &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on melee &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
+	<content contentuid="h0f373053gfb1dg4eb1ga6f6gb10dab129871" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on melee &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
 	<content contentuid="h085e04a6ge7dcg497cg9164g9d74e624e94b" version="1">Overwhelming Fury</content>
 	<content contentuid="h244e4d56g6167g421ega5b9ga45e43da709b" version="1">Flood rage into a creature, preventing it from taking any actions other than melee attacks.</content>
 	<content contentuid="hd1dbe896ga5c1g4cc5gbf69gec3cf9c465f5" version="1">Unable to take any actions but melee attacks.</content>
@@ -428,8 +428,8 @@
 	<content contentuid="h2a17cf99g441fg4d1bg91e3gefa6c845f4d3" version="1">Invoke Awe</content>
 	<content contentuid="h23c94350gb204g45bega8e7g058bc225baae" version="1">Inspire awe in up to 5 creatures, bending them to your will.</content>
 	<content contentuid="hbf6a3215ge929g47a0ga74egadd04bf3cbed" version="1">Precognitive Hunch</content>
-	<content contentuid="h9da3d564gd6e6g429cg9e5eg82cc54edbf24" version="1">Open yourself to receive momentary insights, giving you +1d4 to &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt;, &lt;LSTag Tooltip="AttackRoll"&gt;Attack&lt;/LSTag&gt; Rolls and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
-	<content contentuid="ha6de1587ge1a9g4744g828bg4cef160e4ef1" version="1">+1d4 to Ability &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;, &lt;LSTag Tooltip="AttackRoll"&gt;Attack&lt;/LSTag&gt; Rolls and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
+	<content contentuid="h9da3d564gd6e6g429cg9e5eg82cc54edbf24" version="1">Open yourself to receive momentary insights, giving you +1d4 to &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt;, &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
+	<content contentuid="ha6de1587ge1a9g4744g828bg4cef160e4ef1" version="1">+1d4 to Ability &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;, &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
 	<content contentuid="hbced9298g8494g4307g9f98g3c8d470714d6" version="1">All-Around Sight</content>
 	<content contentuid="hdbb509b6g53fag42c4g84fdgf5a4eebc7955" version="1">As a reaction, impose &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on an incoming attack.</content>
 	<content contentuid="h6c37f967g4d77g4616gbf4eg8320a6c4e591" version="1">Danger Sense</content>
@@ -611,7 +611,7 @@
 	<content contentuid="h40aaeb23g4840g4f7dg93bega45dafa156e2" version="1">Touch a creature and negate any &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charm&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="PETRIFIED"&gt;Petrification&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stun&lt;/LSTag&gt;, or curse afflicting it.</content>
 	<content contentuid="h46383e61g4143g47a9gac5bg5f2170515105" version="1">Ethereal Weapon</content>
 	<content contentuid="he3932f8cgb0afg46d2g8ceag5cccffe16148" version="1">Transform your weapons into pure psionic energy. Your next attack becomes a Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; instead of an &lt;LSTag Tooltip="AttackRoll"&gt;Attack&lt;/LSTag&gt; Roll, dealing half damage on a sucessful save.</content>
-	<content contentuid="h1bddf10bg85aeg4891gae66g13c4bfd86fb4" version="1">Weapon &lt;LSTag Tooltip="AttackRoll"&gt;Attack&lt;/LSTag&gt; Rolls become Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; instead, dealing half damage on save.</content>
+	<content contentuid="h1bddf10bg85aeg4891gae66g13c4bfd86fb4" version="1">Weapon &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; become Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; instead, dealing half damage on save.</content>
 	<content contentuid="hc5a2a389g7dbdg4bf7ga663gd4b1b9a0269a" version="1">Lethal Strike</content>
 	<content contentuid="h51aa6b39ge4c4g4802g98e7g7495bd716562" version="1">Imbue your weapons with psychic energy. Your next weapon attack will deal an additional [1] damage.</content>
 	<content contentuid="h4f69363eg4bbfg4f59gaac3g4e3b5feb0075" version="1">Next weapon attack deals an additional [1] damage.</content>
@@ -634,15 +634,35 @@
 	<content contentuid="hb6454ea9g172eg46dagbb5dg0433d81b8006" version="1">Enduring Invisibility</content>
 	<content contentuid="h5c7215d6g79dcg4424g8425g61f92ddd5763" version="1">Turn yourself &lt;LSTag Type="Status" Tooltip="GREATER_INVISIBILITY"&gt;Invisible&lt;/LSTag&gt;. Attacks against you have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; and you attack with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
 	<content contentuid="" version="1">Featherweight</content>
-	<content contentuid="" version="1">TODO: NOMADIC MIND  ABILITY 1 DESCRIPTION</content>
+	<content contentuid="" version="1">Reduce the weight of you and nearby allies, granting immunity to Falling damage.</content>
 	<content contentuid="" version="1">Unearth</content>
-	<content contentuid="" version="1">TODO: NOMADIC MIND  ABILITY 2 DESCRIPTION</content>
+	<content contentuid="" version="1">Unlock an object that is held shut by a mundane lock.</content>
 	<content contentuid="" version="1">Find Creature</content>
-	<content contentuid="" version="1">TODO: NOMADIC MIND  ABILITY 3 DESCRIPTION</content>
+	<content contentuid="" version="1">Reveal all creatures in a large radius.</content>
 	<content contentuid="" version="1">Item Lore</content>
-	<content contentuid="" version="1">TODO: NOMADIC MIND  ABILITY 4 DESCRIPTION</content>
+	<content contentuid="" version="1">Conjure a thieves' tools, trap disarm toolkit or shovel.</content>
 	<content contentuid="" version="1">Psychic Speech</content>
-	<content contentuid="" version="1">TODO: NOMADIC MIND  ABILITY 5 DESCRIPTION</content>
+	<content contentuid="" version="1">Gain Expertise in all Skills.</content>
+	<content contentuid="" version="1">Step of a Dozen Paces</content>
+	<content contentuid="" version="1">Teleport up to [1].</content>
+	<content contentuid="" version="1">Nomadic Anchor</content>
+	<content contentuid="" version="1">TODO: Nomadic Anchor Description</content>
+	<content contentuid="" version="1">Nomadic Anchor: Recall</content>
+	<content contentuid="" version="1">TODO: Nomadic Anchor: Recall Description</content>
+	<content contentuid="" version="1">Defensive Step</content>
+	<content contentuid="" version="1">As a reaction, when you are about to be hit by an attack, you can increase your Armour Class by 4, possibly causing the attack to miss.</content>
+	<content contentuid="" version="1">There and Back Again</content>
+	<content contentuid="" version="1">TODO: There and Back Again Description</content>
+	<content contentuid="" version="1">Back Again</content>
+	<content contentuid="" version="1">TODO: Back Again Description</content>
+	<content contentuid="" version="1">Transposition</content>
+	<content contentuid="" version="1">Swap positions with an ally.</content>
+	<content contentuid="" version="1">Baleful Transposition</content>
+	<content contentuid="" version="1">Attempt to swap positions with an enemy.</content>
+	<content contentuid="" version="1">Phantom Caravan</content>
+	<content contentuid="" version="1">Teleport yourself and up to six allies.</content>
+	<content contentuid="" version="1">Nomad's Gate</content>
+	<content contentuid="" version="1">Create two linked teleportation portals.</content>
 	<content contentuid="h80ac6a86g0629g4cecg82efg724543bf70c3" version="1">Tremorsense</content>
 	<content contentuid="h3c7775c7g1584g4141g88eagc93f3eb05b65" version="1">Sense disturbances in the earth. You and nearby allies can't be Surprised.</content>
 	<content contentuid="hcce359fag52aeg488eg9e1ag27abe2a7ff8c" version="1">Can't be Surprised.</content>
@@ -661,8 +681,8 @@
 	<content contentuid="hc61f7658gd2bbg4a01gb931g4a9510f04ee8" version="1">Wind Stream</content>
 	<content contentuid="hbe829278g2c04g4758g91c5g13631d01f16e" version="1">Release a wind blast that knocks targets &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
 	<content contentuid="h5d42f170g2a58g4e88ga06aga5a39b850cb0" version="1">Cloak of Air</content>
-	<content contentuid="h70f1f9fbgdfe5g4b36gb8e6gd9fcdfab6a8f" version="1">Seize control of the air around, creating a protective veil. &lt;LSTag Tooltip="AttackRoll"&gt;Attack&lt;/LSTag&gt; Rolls against you will have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;, and when a melee attack misses you, deal [1] damage to the attacker.</content>
-	<content contentuid="h48ed6606g7f54g4a3ag8487ga1011be52858" version="1">&lt;LSTag Tooltip="AttackRoll"&gt;Attack&lt;/LSTag&gt; Rolls against this creature have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;. Able to retaliate when an incoming melee attack misses.</content>
+	<content contentuid="h70f1f9fbgdfe5g4b36gb8e6gd9fcdfab6a8f" version="1">Seize control of the air around, creating a protective veil. &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against you will have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;, and when a melee attack misses you, deal [1] damage to the attacker.</content>
+	<content contentuid="h48ed6606g7f54g4a3ag8487ga1011be52858" version="1">&lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against this creature have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;. Able to retaliate when an incoming melee attack misses.</content>
 	<content contentuid="h93c76e27ge89dg4ae4gbd44gdfddde815d75" version="1">Incoming attacks have Disadvantage. Dealing [1] damage to melee attackers when they miss.</content>
 	<content contentuid="h760a194eg204cg4506g8566g0bf5baac8959" version="1">Wind Form</content>
 	<content contentuid="h48a4619cg17a7g4904gad77g9cf83a8ad8ff" version="1">Manipulate the winds around you, gaining the ability to Fly.</content>
@@ -695,7 +715,6 @@
 	<content contentuid="h4239b128g398eg4700g86edgb1499e0d2496" version="1">Manifest a wall of pressurized force. Creatures within will be in Difficult Terrain.</content>
 	<content contentuid="hc1180697g9634g4b84gb46ag2ef175e42c9c" version="1">Grasp</content>
 	<content contentuid="ha82db9a3g45c0g450cgba3fg5651fd1b6911" version="1">Grasp a creature in telekinetic energy, Restraining it. While concentrating on this, you can cast Crush.</content>
-	<content contentuid="hcbf42d0fgf5aeg498dg8606g4be4f97997e2" version="1">TODO: Grasp Status Description</content>
 	<content contentuid="h14fbc9a9g937bg404dg9828ga15d97bae7c0" version="1">Crush</content>
 	<content contentuid="ha5ec3f66gafc7g4df2gba74g2dcb08319156" version="1">Crush a Restrained creature.</content>
 	<content contentuid="hca8006b4gc36fg4945gb217gaed13e17b2ed" version="1">Ice Spike</content>
@@ -710,27 +729,26 @@
 	<content contentuid="hf2df9e10g8ae2g466bg9256gbe78684c3235" version="1">Create an area filled with deathly cold and saturated moisture, reducing the movement speed of creatures within to 0. Each turn, creatures affected make a Strength Saving Throw to attempt to free themselves.</content>
 	<content contentuid="h59281052gd2c2g4a8cgaa8bgcfc39a66321c" version="1">Movement speed reduced to 0.</content>
 	<content contentuid="hffbc0d49gca10g4226g8cd5ga1651badf1a7" version="1">Ice Barrier</content>
-	<content contentuid="h80c6ef67ga95cg467fga4e7g67f900bb39d4" version="1">TODO: Ice Barrier Description</content>
 	<content contentuid="h68d85accg564bg4affg8219g9c96403a5ff7" version="1">Darkness</content>
 	<content contentuid="h00fde1f1g15d3g4934gbffeg3426e8959ebe" version="1">Summon a cloud of darkness with a radius of [1].</content>
 	<content contentuid="hdfa9f427gc799g4770g85fcg63d116f2e382" version="1">Light</content>
-	<content contentuid="hc63a4658g2949g40b9g814ag32af6287739f" version="1">Touch a creature, causing it to shed a bright light. Attack rolls against it will have Advantage and it won't be able to hide.</content>
-	<content contentuid="hae3300acgd414g47d9g9a97gb47f02ef7803" version="1">Attack Rolls against this creature have Advantage. Can't hide.</content>
+	<content contentuid="hc63a4658g2949g40b9g814ag32af6287739f" version="1">Touch a creature, causing it to shed a bright light. &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against it will have Advantage and it won't be able to hide.</content>
+	<content contentuid="hae3300acgd414g47d9g9a97gb47f02ef7803" version="1">&lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against this creature have Advantage. Can't hide.</content>
 	<content contentuid="h245fbcc4g9e03g4a53g96b0g301999f5064e" version="1">Shadow Beasts</content>
-	<content contentuid="h9693ee45gcbf1g48aagaacdg210b5a95ceb0" version="1">TODO: Shadow Beasts Description, this will probably be done last</content>
+	<content contentuid="h9693ee45gcbf1g48aagaacdg210b5a95ceb0" version="1">Summon a pair of shadow beasts.</content>
 	<content contentuid="h715c4038gb88bg4c46gbec2g0d5c201ee518" version="1">Radiant Beam</content>
-	<content contentuid="hbf895ed3g83eeg40cfg9d54ga2bda01397a8" version="1">TODO: Radiant Beam Description</content>
+	<content contentuid="hbf895ed3g83eeg40cfg9d54ga2bda01397a8" version="1">Project a beam of light, Blinding the target.</content>
 	<content contentuid="hf302a4a4g69cag42b0ga2fcgf5ba3647f346" version="1">Desiccate</content>
 	<content contentuid="h0f56755ag8741g4841ga841g6e8448d58868" version="1">Drain the moisture from a creature.</content>
 	<content contentuid="h3117d124g32edg4063g9b47g520fed500eec" version="1">Watery Grasp</content>
-	<content contentuid="h67d054a7g10ceg47dega004g980c43d248b7" version="1">be water my friend</content>
+	<content contentuid="h67d054a7g10ceg47dega004g980c43d248b7" version="1">Pull creatures in an area with a tidal force.</content>
 	<content contentuid="h87afed8cg7b25g420cgb445g0c565dd68e33" version="1">Water Whip</content>
 	<content contentuid="h00b39772gdc47g4097g94c0g58a4cd1e5eb8" version="1">Unleash a jet of water in a line, battering creatures caught in the blast.</content>
 	<content contentuid="h492bb7acged62g464bg9971g4320777edc4b" version="1">Water Sphere</content>
-	<content contentuid="hecc4ab94g70d3g4aa3g8121g24e692f7a0a1" version="1">Create a sphere of water around a creature, trapping it. While trapped, its speed is halved, it suffers Disadvantage on Attack Rolls and its sight range is reduced to [1], however, Attack Rolls against it also suffer Disadvantage. The creature can repeat the Saving Throw at the end of each of its turns.</content>
-	<content contentuid="hc5304740g7e91g471eg9d78gbb3a9b09e913" version="1">Encased in a sphere of water. Movement speed halved. Disadvantage on Attack Rolls. Sight range is reduced to [1]. Incoming Attacks have Disadvantage.</content>
+	<content contentuid="hecc4ab94g70d3g4aa3g8121g24e692f7a0a1" version="1">Create a sphere of water around a creature, trapping it. While trapped, its movement speed is halved, it suffers Disadvantage on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and its sight range is reduced to [1], however, &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against it also suffer Disadvantage. The creature can repeat the Saving Throw at the end of each of its turns.</content>
+	<content contentuid="hc5304740g7e91g471eg9d78gbb3a9b09e913" version="1">Encased in a sphere of water. Movement speed halved. Disadvantage on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;. Sight range is reduced to [1]. Incoming Attacks have Disadvantage.</content>
 	<content contentuid="h24d90535g0e69g4c4ag869eg10e0a7d0f6db" version="1">Animate Water</content>
-	<content contentuid="h38bdbceeg97deg4545ga334ge1bf23a92117" version="1">Suummon a Water Elemental.</content>
+	<content contentuid="h38bdbceeg97deg4545ga334ge1bf23a92117" version="1">Summon a Water Elemental.</content>
 	<content contentuid="h40892606g8591g42ebg878egf992f30447d8" version="1">Hungry Lightning</content>
 	<content contentuid="h44fa40f8g5563g4bd9g8f21gc569d1545bb0" version="1">Lash out with tendrils of lightning. Has Advantage on creatures wearing metal armour.</content>
 	<content contentuid="h236c1b88gf8d4g4d65gb25eg7dfa0205eec4" version="1">Wall of Clouds</content>
@@ -740,7 +758,7 @@
 	<content contentuid="hd4d177ffg93beg48a1gac30g6cf4dde24fa4" version="1">Lightning Leap</content>
 	<content contentuid="ha7e0bbf8g5d10g4a3bg93d4ged95c225fe28" version="1">Surge forward with a flash of lightning, shocking everything along your path.</content>
 	<content contentuid="h0fdf4a1eg519cg46bcg8735g75b7d7dcc113" version="1">Wall of Thunder</content>
-	<content contentuid="hf2400914g9a65g461cga04bgb38b576426fc" version="1">TODO: Wall of Thunder Description :/</content>
+	<content contentuid="hf2400914g9a65g461cga04bgb38b576426fc" version="1">Create a wall of raging thunderclouds. Creatures moving through the clouds have their movement speed halved. The clouds damage and repel enemies that try to enter or remain inside.</content>
 	<content contentuid="hf7d682f4gd5e3g4375gb91eg48a5f9bd7c5d" version="1">Thunder Clap</content>
 	<content contentuid="h05a08ff8g34c6g4c6dga0e0gd05003430d4d" version="1">Thunderous energy erupts in a targeted area, Stunning creatures inside.</content>
 	<content contentuid="hfd6106d9g3b27g40cdg9600gb68249c8af8d" version="1">Animate Weapon</content>
@@ -748,7 +766,7 @@
 	<content contentuid="h83a09a72gd4cdg4b08ga961g3238a6650967" version="1">Warp Weapon</content>
 	<content contentuid="h748563bbgacbbg491agb42cgbdde01912d8c" version="1">Warp a creature's weapon, forcing them to drop it.</content>
 	<content contentuid="h39245a46gf4a7g40f4gb6ceg4949b840ef0e" version="1">Warp Armor</content>
-	<content contentuid="h562c9301g068eg4efdga903gd0a507fc4ea0" version="1">Warp a creature's armor. Their &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; becomes 10 + their Dexterity modifier.</content>
+	<content contentuid="h562c9301g068eg4efdga903gd0a507fc4ea0" version="1">Warp a creature's armor. Their &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; becomes 10 + their Dexterity modifier until the start of your next turn.</content>
 	<content contentuid="h44a60c02g007bg40d3gbed1g47f29b4c22e3" version="1">Armor rendered unusable.</content>
 	<content contentuid="h6fcdffeegbad6g4e69gbfb6g755185e04884" version="1">Wall of Wood</content>
 	<content contentuid="h198949eeg4602g4235ga8d8g61ec1bea9738" version="1">Raise a wall of non-magical, solid wood.</content>
