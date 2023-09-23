@@ -687,7 +687,7 @@
 	<content contentuid="hc0841745gb78cg47f1g9ef2gb3fb6a330063" version="1">Push</content>
 	<content contentuid="h07dcb591g2b03g4b38g85b3gb0a4dd2abff1" version="1">Exert a wave of kinetic force, pushing a creature [1].</content>
 	<content contentuid="h13b67091gc5b9g45a6g8daag1c23f5d24516" version="1">Move</content>
-	<content contentuid="h64b9f99cg200bg4085g96c7gd94c9160f410" version="1">Unleash concentrated burst of energy in a small area, pushing enemies away from its epicenter.</content>
+	<content contentuid="h64b9f99cg200bg4085g96c7gd94c9160f410" version="1">Unleash concentrated burst of energy in a small area, pushing enemies [1] away from its epicenter.</content>
 	<content contentuid="hce650e61g9431g4558gbb97gdbc2f4fa1c65" version="1">Inertial Armor</content>
 	<content contentuid="h3e3a7ea6gc38ag4f3aga618g28da59a408ec" version="1">Encase yourself in a veil of pure kinetic energy, increasing your base Armour Class to 14.</content>
 	<content contentuid="h2cbb948dgde72g449eg9bb0gf34d81b458b9" version="1">Base Armour Class increased to 14.</content>
@@ -804,7 +804,7 @@
 	<content contentuid="h29c97f6dg93efg4497g9f86gdcf3a6ecaa0e" version="1">As a reaction, halve incoming damage. Usable once per Short or Long Rest.</content>
 	
 	<content contentuid="h4f2b9252g0aebg4086gad50g7fc336859005" version="1">Elemental Attunement</content>
-	<content contentuid="he04500b3g2ca8g4705g8da0g41bd6ca90872" version="1">Once per turn as a free action, you can choose an element and ignore any creature's Resistances to that element until the end of your turn.</content>
+	<content contentuid="he04500b3g2ca8g4705g8da0g41bd6ca90872" version="1">Once per turn as a free action, you can choose an element and ignore creatures' Resistance to that element until the end of your turn.</content>
 	<content contentuid="h98300e6fgf3cdg4009g91f3g2c0aef6d002d" version="1">Choose an element and ignore creatures' Resistance to it when dealing damage.</content>
 	<content contentuid="h58ee04e2ga202g46adgb18egd1ad430e69f2" version="1">Elemental Attunement: Acid</content>
 	<content contentuid="hb50efea3g5b43g4999ga961g91cdd6eab87e" version="1">Elemental Attunement: Cold</content>

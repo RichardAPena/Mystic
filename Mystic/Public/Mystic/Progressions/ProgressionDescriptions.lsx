@@ -116,7 +116,14 @@
                     <attribute id="UUID" type="guid" value="46d347fe-6462-4ccf-988a-cf523636e6e6"/>
                 </node>
                 
-                Arcane Dabbler?
+                Arcane Dabbler
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h5bd00090g1bd2g462ag92e0g0fc72ba7ade1" version="2"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h8ced69f1g42cfg4828ga538g852944622e0c" version="1"/>
+                    <attribute id="ProgressionTableId" type="guid" value="66c868a2-f29a-4777-ae33-7586a41930b0"/>
+                    <attribute id="SelectorId" type="FixedString" value="ArcaneDabbler"/>
+                    <attribute id="UUID" type="guid" value="bfbecc78-e01c-4f8e-8aca-3eaf0f1085ec"/>
+                </node>
 
             </children>
         </node>

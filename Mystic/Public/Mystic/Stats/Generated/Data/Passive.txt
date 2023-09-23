@@ -538,7 +538,7 @@ data "DisplayName" "h4f2b9252g0aebg4086gad50g7fc336859005"
 data "Description" "he04500b3g2ca8g4705g8da0g41bd6ca90872"
 data "Icon" "Spell_Abjuration_GlyphOfWarding_ExplosiveRunes"
 data "Properties" "Highlighted"
-data "Boosts" ""
+data "Boosts" "UnlockSpell(Shout_Mystic_ElementalAttunement)"
 
 // Arcane Dabbler? (Wu Jen)
 new entry "Passive_Mystic_ArcaneDabbler"
