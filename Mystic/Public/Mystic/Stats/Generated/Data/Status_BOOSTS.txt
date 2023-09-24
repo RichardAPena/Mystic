@@ -2205,18 +2205,16 @@ data "Boosts" "ExpertiseBonus(Athletics);ExpertiseBonus(Acrobatics);ExpertiseBon
 new entry "MYSTIC_NOMADIC_ANCHOR"
 // ?????
 
-// Defensive Step
-// new entry "MYSTIC_DEFENSIVE_STEP"
-// type "StatusData"
-// data "StatusType" "BOOST"
-// data "DisplayName" ""
-// data "Description" ""
-// data "DescriptionParams" ""
-// data "Icon" ""
-// data "StackId" ""
-// data "TickType" "StartTurn"
-// data "StatusPropertyFlags" "TickingWithSource"
-// data "Boosts" ""
+// There And Back Again
+new entry "MYSTIC_THERE_AND_BACK_AGAIN"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h1783bf72g5aacg459dgb9a3gace3af6f3807"
+data "Description" "hb987f909gc923g4733ga4b4g8b18b4513ec4"
+data "TickType" "EndTurn"
+data "Icon" "Spell_Transmutation_Haste"
+data "StackId" "MYSTIC_THERE_AND_BACK_AGAIN"
+data "Boosts" "ActionResource(Movement,4.5,0);UnlockSpell(Target_Mystic_BackAgain)"
 
 // Tremorsense
 new entry "MYSTIC_TREMORSENSE"

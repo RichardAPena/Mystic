@@ -629,7 +629,7 @@
 	<content contentuid="hb63cc365gbd43g49d3ga20dg947243e20100" version="1">Faithful Quiver</content>
 	<content contentuid="h64c1f7begbf8bg4d8cga8fagfe0329da93d5" version="1">While concentrating on Faithful Archer, perform an additional ranged shot.</content>
 	<content contentuid="h7fd9d711g8378g4a2bgb3a6g145c63badc55" version="1">Chameleon</content>
-	<content contentuid="h3cbc7f68g02e8g482ag9864g3b2c59940729" version="1">Blend in with your surroundings, gaining a +10 bonus to Stealth and gaining the effects of Hide. You lose these effects when you stop Hiding.</content>
+	<content contentuid="h3cbc7f68g02e8g482ag9864g3b2c59940729" version="1">Blend in with your surroundings, gaining a +10 bonus to Stealth Checks.</content>
 	<content contentuid="hcfce4a6dgf820g4fffga302g0d0afc33a80f" version="1">+10 to Stealth.</content>
 	<content contentuid="h38bcf621g3472g48ecg8dd7gb4fb27ee5ae9" version="1">Step from Sight</content>
 	<content contentuid="h0d4888c9g9951g4042g8c54g221a5cbe11ca" version="1">Cloak yourself from sight, turning yourself &lt;LSTag Type="Status" Tooltip="GREATER_INVISIBILITY"&gt;Invisible&lt;/LSTag&gt;. Attacks against you have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; and you attack with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
@@ -657,11 +657,12 @@
 	<content contentuid="" version="1">Nomadic Anchor: Recall</content>
 	<content contentuid="" version="1">TODO: Nomadic Anchor: Recall Description</content>
 	<content contentuid="h5bebca69g2c85g4ba9gb640g656b4ec66241" version="1">Defensive Step</content>
-	<content contentuid="h3a3f0db7g14a3g4655ga986g1635f41bc6fa" version="1">As a reaction, when you are about to be hit by an attack, you can increase your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by 4, possibly causing the attack to miss.</content>
+	<content contentuid="h3a3f0db7g14a3g4655ga986g1635f41bc6fa" version="1">As a reaction, when you are about to be hit by an attack, you can increase your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by 4, possibly causing the attack to miss, as well as gaining the effects of Disengage.</content>
 	<content contentuid="h1783bf72g5aacg459dgb9a3gace3af6f3807" version="1">There and Back Again</content>
-	<content contentuid="h7c166e11gf8a2g40eagb30bg000b31c2e911" version="1">TODO: There and Back Again Description</content>
-	<content contentuid="" version="1">Back Again</content>
-	<content contentuid="" version="1">TODO: Back Again Description</content>
+	<content contentuid="h7c166e11gf8a2g40eagb30bg000b31c2e911" version="1">Teleport up to [1]. Until the end of your turn, your movement speed increases by [1] and you can cast Back Again.</content>
+	<content contentuid="hb987f909gc923g4733ga4b4g8b18b4513ec4" version="1">Movement speed increases by [1]. Able to cast Back Again.</content>
+	<content contentuid="h152b7208ga0dfg46adg90cbg5d2fbeba4c4e" version="1">Back Again</content>
+	<content contentuid="hadf23575gdfa5g44ddg92d0gd6460413f88e" version="1">Teleport up to [1].</content>
 	<content contentuid="" version="1">Transposition</content>
 	<content contentuid="" version="1">Swap positions with an ally.</content>
 	<content contentuid="" version="1">Baleful Transposition</content>
