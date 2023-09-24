@@ -6,7 +6,7 @@
             <children>
                 <node id="Progression"> Mainclass Level 1
                     <attribute id="AllowImprovement" type="bool" value="false"/>
-                    <attribute id="Boosts" type="LSString" value="ActionResource(PsiPointsResource,5,0);ProficiencyBonus(SavingThrow,Intelligence);Proficiency(SimpleWeapons);Proficiency(LightArmor)"/> Adds resource, proficiency, etc.
+                    <attribute id="Boosts" type="LSString" value="ActionResource(PsiPointsResource,5,0);ProficiencyBonus(SavingThrow,Intelligence);Proficiency(SimpleWeapons);Proficiency(LightArmor)"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Mystic"/>
                     <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_StrengthOfMind_Wisdom"/>
@@ -171,7 +171,7 @@
 
                 <node id="Progression"> Mystic Level 9
                     <attribute id="AllowImprovement" type="bool" value="false"/>
-                    <attribute id="Boosts" type="LSString" value="ActionResource(PsiPointsResource,13,0); ActionResource(PsiLimitResource,255,7)"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(PsiPointsResource,13,0);ActionResource(PsiLimitResource,255,7)"/>
                     <attribute id="Level" type="uint8" value="9"/>
                     <attribute id="Name" type="LSString" value="Mystic"/>
                     <attribute id="PassivesAdded" type="LSString" value=""/>
@@ -321,7 +321,7 @@
                     <attribute id="Name" type="LSString" value="Nomad"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="PassivesAdded" type="LSString" value=""/> TODO: Breadth of Knowledge
-                    <attribute id="Selectors" type="LSString" value="SelectPassives(c4e6f52e-e45b-42fe-b221-5ac7e3e074e7,2,NomadDisciplines)"/>                    
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(c4e6f52e-e45b-42fe-b221-5ac7e3e074e7,2,NomadDisciplines)"/>
                     <attribute id="TableUUID" type="guid" value="85b6bc90-3632-4df3-994c-d03e318f9f4b"/>
                     <attribute id="UUID" type="guid" value="bcf7e39e-068e-4eb4-b9be-da4d29ba117f"/>
                 </node>
@@ -355,7 +355,7 @@
                     <attribute id="TableUUID" type="guid" value="70571154-e86d-4a0b-a222-9bfdc2b60a58"/>
                     <attribute id="UUID" type="guid" value="5ef2ef16-d481-4e91-bb22-daf22f3189a3"/>
                 </node>
-                <node id="Progression"> Soul Knife Level 3 
+                <node id="Progression"> Soul Knife Level 3
                     <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="SoulKnife"/>
@@ -372,7 +372,7 @@
                     <attribute id="PassivesAdded" type="LSString" value=""/> TODO: Consumptive Knife
                     <attribute id="TableUUID" type="guid" value="70571154-e86d-4a0b-a222-9bfdc2b60a58"/>
                     <attribute id="UUID" type="guid" value="e9125c04-66b3-4ea1-b192-051faf70dfe4"/>
-                </node>                
+                </node>
 
                 TODO: SOUL KNIFE LEVEL 14
 
@@ -380,7 +380,7 @@
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="WuJen"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="PassivesAdded" type="LSString" value=""/> SelectSkills(617e273e-cc5e-44ea-aa33-ae38865d224f,2)
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
                     <attribute id="Selectors" type="LSString" value="SelectPassives(7b38171b-da70-470e-b3a8-4edabc8da3c8,2,WuJenDisciplines)"/>
                     <attribute id="TableUUID" type="guid" value="5be9ee51-acca-46da-be13-e66a6ff5a080"/>
                     <attribute id="UUID" type="guid" value="28d0587c-981c-4be2-84b1-c6f1870f88da"/>
@@ -398,8 +398,8 @@
                     <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,3)"/>
                     <attribute id="Level" type="uint8" value="6"/>
                     <attribute id="Name" type="LSString" value="WuJen"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/> 
-                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_ArcaneDabbler"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_ArcaneDabbler;Passive_Mystic_ArcaneDabbler_RemoveSpellSlot"/>
                     <attribute id="Selectors" type="LSString" value="SelectSpells(22755771-ca11-49f4-b772-13d8b8fecd93,3,0,ArcaneDabbler)"/>
                     <attribute id="TableUUID" type="guid" value="5be9ee51-acca-46da-be13-e66a6ff5a080"/>
                     <attribute id="UUID" type="guid" value="66c868a2-f29a-4777-ae33-7586a41930b0"/>
@@ -409,7 +409,7 @@
                     <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="7"/>
                     <attribute id="Name" type="LSString" value="WuJen"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/> 
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="PassivesAdded" type="LSString" value=""/>
                     <attribute id="Selectors" type="LSString" value="SelectSpells(22755771-ca11-49f4-b772-13d8b8fecd93,0,2,ArcaneDabbler)"/>
                     <attribute id="TableUUID" type="guid" value="5be9ee51-acca-46da-be13-e66a6ff5a080"/>
@@ -420,7 +420,7 @@
                     <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="8"/>
                     <attribute id="Name" type="LSString" value="WuJen"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/> 
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="PassivesAdded" type="LSString" value=""/>
                     <attribute id="Selectors" type="LSString" value="SelectSpells(22755771-ca11-49f4-b772-13d8b8fecd93,0,2,ArcaneDabbler)"/>
                     <attribute id="TableUUID" type="guid" value="5be9ee51-acca-46da-be13-e66a6ff5a080"/>
@@ -431,7 +431,7 @@
                     <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="9"/>
                     <attribute id="Name" type="LSString" value="WuJen"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/> 
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="PassivesAdded" type="LSString" value=""/>
                     <attribute id="Selectors" type="LSString" value="SelectSpells(22755771-ca11-49f4-b772-13d8b8fecd93,0,2,ArcaneDabbler)"/>
                     <attribute id="TableUUID" type="guid" value="5be9ee51-acca-46da-be13-e66a6ff5a080"/>
@@ -442,7 +442,7 @@
                     <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="10"/>
                     <attribute id="Name" type="LSString" value="WuJen"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/> 
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="PassivesAdded" type="LSString" value=""/>
                     <attribute id="Selectors" type="LSString" value="SelectSpells(22755771-ca11-49f4-b772-13d8b8fecd93,0,2,ArcaneDabbler)"/>
                     <attribute id="TableUUID" type="guid" value="5be9ee51-acca-46da-be13-e66a6ff5a080"/>
@@ -453,7 +453,7 @@
                     <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="11"/>
                     <attribute id="Name" type="LSString" value="WuJen"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/> 
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="PassivesAdded" type="LSString" value=""/>
                     <attribute id="Selectors" type="LSString" value="SelectSpells(22755771-ca11-49f4-b772-13d8b8fecd93,0,2,ArcaneDabbler)"/>
                     <attribute id="TableUUID" type="guid" value="5be9ee51-acca-46da-be13-e66a6ff5a080"/>
@@ -464,7 +464,7 @@
                     <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="12"/>
                     <attribute id="Name" type="LSString" value="WuJen"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/> 
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="PassivesAdded" type="LSString" value=""/>
                     <attribute id="Selectors" type="LSString" value="SelectSpells(22755771-ca11-49f4-b772-13d8b8fecd93,0,2,ArcaneDabbler)"/>
                     <attribute id="TableUUID" type="guid" value="5be9ee51-acca-46da-be13-e66a6ff5a080"/>

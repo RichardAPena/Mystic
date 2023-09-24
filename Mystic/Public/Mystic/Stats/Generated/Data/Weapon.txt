@@ -2,14 +2,41 @@
 
 new entry "WPN_SoulKnife_Dagger_MainHand"
 type "Weapon"
+using "WPN_Shortsword_1"
+data "RootTemplate" "66d6cbd5-c231-4fc4-a3b7-80f781b579f7"
+data "Rarity" "Rare"
+data "Damage Type" "Psychic"
+data "Damage" "1d8"
+data "ValueUUID" "aa05c69d-93e9-46fd-a1f5-332b5666690a"
+data "DefaultBoosts" "CannotBeDisarmed();WeaponProperty(Magical);WeaponAttackRollAbilityOverride(Intelligence)"
+data "PassivesOnEquip" ""
+data "Unique" "1"
+data "Weapon Group" "SimpleMeleeWeapon"
+data "Weapon Properties" "Finesse;Light;Melee;Dippable"
+data "Proficiency Group" "Daggers;SimpleWeapons"
+data "Slot" "Melee Main Weapon"
+
+new entry "WPN_SoulKnife_Dagger_OffHand"
+type "Weapon"
+using "WPN_SoulKnife_Dagger_MainHand"
+data "RootTemplate" "66d6cbd5-c231-4fc4-a3b7-80f781b579f7"
+data "Slot" "Melee Offhand Weapon"
+
+
+
+
+
+
+
+
+
+
+
+
 // using "WPN_Dagger"
 
 // new entry "WPN_Armorer_Gauntlets_Guardian_Right"
-// type "Weapon"
-// using "WPN_Scimitar"
 // data "RootTemplate" "997badfb-ec7c-441a-9dd8-b4a2392d29c2"
-// data "Rarity" "Rare"
-// data "Damage Type" "Thunder"
 // data "Damage" "1d8"
 // data "Weight" "0.9"
 // data "Icon" "Item_ArcReactor"

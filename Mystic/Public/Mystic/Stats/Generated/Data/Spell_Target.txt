@@ -358,7 +358,7 @@ data "TargetSound" "Spell_Impact_Damage_Psychic_DissonantWhispers_L1to3"
 data "CastTextEvent" "Cast"
 data "CycleConditions" "Enemy() and not Dead()"
 data "UseCosts" "ActionPoint:1;PsiPointsResource:1"
-data "SpellAnimation" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;af94aac1-d8eb-4ccb-9520-694ade11b61c,,;f5db4001-b136-4c48-9aa4-026c4a7dd3b7,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,,"
+data "SpellAnimation" "9fd22d7d-5d7a-470b-a939-810046915bed,,;,,;af94aac1-d8eb-4ccb-9520-694ade11b61c,,;f5db4001-b136-4c48-9aa4-026c4a7dd3b7,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,,"
 data "SpellFlags" "IsSpell;IsHarmful;IsLinkedSpellContainer"
 data "HitAnimationType" "MagicalDamage_Psychic"
 data "PrepareEffect" "752219e2-351d-46ea-9448-3a714b3d3acc"
@@ -2480,7 +2480,30 @@ data "MemoryCost" ""
 
 // Step of a Dozen Paces
 new entry "Target_Mystic_StepOfADozenPaces"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "2"
 
+data "Icon" "Spell_Conjuration_MistyStep"
+data "DisplayName" "h3edfc105g327fg4c7dgb6bbg4f4781a6631a"
+data "Description" "h20a687b8gcc11g4f63gb7e7g76a38ebe08dd"
+
+data "SpellProperties" "GROUND:TeleportSource();"
+data "TargetRadius" "18"
+data "TargetConditions" "CanStand('') and not Character() and not Self()"
+
+data "CastSound" "Spell_Cast_Utility_MistyStep_L1to3"
+data "TargetSound" "Spell_Impact_Utility_MistyStep_L1to3"
+data "VocalComponentSound" "Vocal_Component_Teleport"
+data "CastTextEvent" "Cast"
+data "UseCosts" "BonusActionPoint:1"
+data "SpellAnimation" "dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;39daf365-ec06-49a8-81f3-9032640699d7,,;5c400e93-0266-499c-a2e1-75d53358460f,,;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;,,;,,"
+data "VerbalIntent" "Utility"
+data "SpellFlags" "IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold"
+
+data "LineOfSightFlags" "AddSourceHeight"
+data "PrepareEffect" "7121a488-7c9a-4ba1-a585-f79aaa77e97c"
+data "CastEffect" "71859b27-bdda-44c3-8c65-7f142a1a2f60"
 
 // There and Back Again
 new entry "Target_Mystic_ThereAndBackAgain"
@@ -2488,9 +2511,9 @@ type "SpellData"
 data "SpellType" "Target"
 data "Level" "2"
 
-data "Icon" "Spell_Conjuration_MistyStep"
-data "DisplayName" ""
-data "Description" ""
+data "Icon" "Spell_Transmutation_Haste"
+data "DisplayName" "h1783bf72g5aacg459dgb9a3gace3af6f3807"
+data "Description" "h7c166e11gf8a2g40eagb30bg000b31c2e911"
 
 data "SpellProperties" "GROUND:TeleportSource();"
 data "TargetRadius" "18"

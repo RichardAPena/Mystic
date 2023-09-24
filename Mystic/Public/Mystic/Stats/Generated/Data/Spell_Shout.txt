@@ -1768,9 +1768,9 @@ type "SpellData"
 data "SpellType" "Shout"
 data "Level" "3"
 
-data "Icon" ""
-data "DisplayName" ""
-data "Description" ""
+data "Icon" "Spell_Conjuration_ProduceFlame_Dismiss"
+data "DisplayName" "h766fee09g64bfg492dg9a62ge935a133042e"
+data "Description" "h9861dbd9gfa92g4c79gbbfag763994cf8284"
 
 data "AreaRadius" "9"
 data "TargetConditions" "Self()"
@@ -1794,14 +1794,14 @@ type "SpellData"
 data "SpellType" "Shout"
 data "Level" "5"
 
-data "Icon" "Action_Monster_Bulette_Burrow"
-data "DisplayName" "h80ac6a86g0629g4cecg82efg724543bf70c3"
-data "Description" "h3c7775c7g1584g4141g88eagc93f3eb05b65"
+data "Icon" "Action_Singing"
+data "DisplayName" "h259dee98gfbe8g484fgaa96gd5294b4e00f2"
+data "Description" "h4946426dgf383g4ae1gbf01gb90f5a14c181"
 
 // data "AreaRadius" "9"
 data "TargetConditions" "Self()"
-// data "SpellProperties" "ApplyStatus(MYSTIC_TREMORSENSE,100, 10)"
-// data "TooltipStatusApply" "ApplyStatus(MYSTIC_TREMORSENSE,100, 10)"
+data "SpellProperties" "ApplyStatus(MYSTIC_PSYCHIC_SPEECH,100, 10)"
+data "TooltipStatusApply" "ApplyStatus(MYSTIC_PSYCHIC_SPEECH,100, 10)"
 data "CastSound" "Spell_Cast_Utility_Light_L0"
 data "TargetSound" "Spell_Impact_Utility_Light_L0"
 data "CastTextEvent" "Cast"
@@ -2346,10 +2346,29 @@ new entry "Shout_Mystic_SoulKnife"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" "Spell_Abjuration_Stoneskin"
+data "Icon" "Spell_Illusion_ShadowBlade"
 data "DisplayName" "h2f333397g29fdg45eag8006g94c8ff848ea0"
 data "Description" "h8ec97092ga28cg4010g87d6g937a3c1498a9"
 data "DescriptionParams" ""
+
+data "TargetConditions" "Self()"
+
+// new entry "Shout_ShadowBlade"
+// data "SpellProperties" "AI_IGNORE:SummonInInventory(66d6cbd5-c231-4fc4-a3b7-80f781b579f7,10,1,true,true,true,,,SHADOW_BLADE,SHADOW_BLADE);ApplyStatus(SELF, MAG_SHADOW_BLADE_OWNER, 100, -1)"
+
+data "PrepareSound" "Action_Prepare_Item_ShadowBlade"
+data "PrepareLoopSound" "Action_Loop_Item_ShadowBlade"
+data "CastSound" "Action_Cast_Item_ShadowBlade"
+data "TargetSound" "Action_Impact_Item_ShadowBlade"
+// data "VocalComponentSound" "Vocal_Component_EnchantWeapon"
+data "CastTextEvent" "Cast"
+data "UseCosts" "BonusActionPoint:1"
+data "SpellAnimation" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;35b644cf-5c13-4407-9dc1-23bf4309216e,,;823e3ddf-c670-41ef-b7b4-9f4a4e38300b,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,,"
+// data "VerbalIntent" "Damage"
+data "SpellFlags" "IsSpellSwitchSheathUnsheathOnCast;Force1HSSubSetDuringCast"
+data "SpellAnimationIntentType" "Aggressive"
+data "PrepareEffect" "3998daf3-8dd5-4b10-b33a-5ab51bb97860"
+data "CastEffect" "514ecdc7-87b3-43f8-bd8a-69fb3b46f8da"
 
 // TODO: Hone the Blade
 new entry "Shout_Mystic_HoneTheBlade"
@@ -2360,6 +2379,8 @@ data "Icon" "Spell_Abjuration_Stoneskin"
 data "DisplayName" "h2f333397g29fdg45eag8006g94c8ff848ea0"
 data "Description" "h8ec97092ga28cg4010g87d6g937a3c1498a9"
 data "DescriptionParams" ""
+
+
 
 // Elemental Attunement
 new entry "Shout_Mystic_ElementalAttunement"

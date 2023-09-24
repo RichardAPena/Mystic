@@ -561,6 +561,12 @@ data "Icon" "Action_Mag_SpellSlotRestoration"
 data "Properties" "Highlighted"
 data "Boosts" "UnlockSpell(Shout_Mystic_CreateSpellSlot)"
 
+new entry "Passive_Mystic_ArcaneDabbler_RemoveSpellSlot"
+type "PassiveData"
+data "Properties" "IsHidden;OncePerLongRest"
+data "StatsFunctorContext" "OnActionResourcesChanged"
+// data "Conditions" "HealDoneGreaterThan(0) and IsSpell() and not IsCantrip()"
+data "StatsFunctors" "RestoreResource(SELF,SpellSlot,-1,3)"
 
 // Elemental Mastery (Wu Jen)
 

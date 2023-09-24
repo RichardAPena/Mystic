@@ -650,7 +650,7 @@ data "Icon" "Spell_Transmutation_Longstrider"
 data "StackId" "MYSTIC_LIGHT_STEP"
 data "Boosts" "ActionResource(Movement,3,0);StatusImmunity(PRONE)"
 data "StatusEffect" "9e863d8f-a1f5-4f68-88ca-ddb56828c8d8"
-data "StatusGroups" "SG_Light;SG_RemoveOnRespec"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Blind Spot
 new entry "MYSTIC_BLIND_SPOT"
@@ -2190,29 +2190,33 @@ data "StackId" "MYSTIC_CHAMELEON"
 // data "StatusPropertyFlags" "TickingWithSource"
 data "Boosts" "Skill(Stealth, 10)"
 
-// new entry "MYSTIC_STEP_FROM_SIGHT"
-// just apply regular invisibility
 
-// new entry "MYSTIC_ENDURING_INVISIBILITY"
-// just apply greater invisibilty
 
-// TODO: Nomadic Mind
+// TODO: Psychic Speech
+new entry "MYSTIC_PSYCHIC_SPEECH"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h259dee98gfbe8g484fgaa96gd5294b4e00f2"
+data "Description" "h621580adgff31g4c7dgba5bg0a4510cdf502"
+data "Icon" "Action_Singing"
+data "StackId" "MYSTIC_PSYCHIC_SPEECH"
+data "Boosts" "ExpertiseBonus(Athletics);ExpertiseBonus(Acrobatics);ExpertiseBonus(SleightOfHand);ExpertiseBonus(Stealth);ExpertiseBonus(Arcana);ExpertiseBonus(History);ExpertiseBonus(Investigation);ExpertiseBonus(Nature);ExpertiseBonus(Religion);ExpertiseBonus(AnimalHandling);ExpertiseBonus(Insight);ExpertiseBonus(Medicine);ExpertiseBonus(Perception);ExpertiseBonus(Survival);ExpertiseBonus(Deception);ExpertiseBonus(Intimidation);ExpertiseBonus(Performance);ExpertiseBonus(Persuasion);"
 
 new entry "MYSTIC_NOMADIC_ANCHOR"
 // ?????
 
 // Defensive Step
-new entry "MYSTIC_DEFENSIVE_STEP"
-type "StatusData"
-data "StatusType" "BOOST"
-data "DisplayName" ""
-data "Description" ""
-data "DescriptionParams" ""
-data "Icon" ""
-data "StackId" ""
+// new entry "MYSTIC_DEFENSIVE_STEP"
+// type "StatusData"
+// data "StatusType" "BOOST"
+// data "DisplayName" ""
+// data "Description" ""
+// data "DescriptionParams" ""
+// data "Icon" ""
+// data "StackId" ""
 // data "TickType" "StartTurn"
 // data "StatusPropertyFlags" "TickingWithSource"
-data "Boosts" ""
+// data "Boosts" ""
 
 // Tremorsense
 new entry "MYSTIC_TREMORSENSE"
@@ -2517,6 +2521,7 @@ data "Boosts" "GameplayLight(9,false,0.1);"
 data "StackId" "INVISIBILITY"
 data "StackPriority" "10"
 data "Boosts" "Advantage(AttackTarget);GameplayLight(9,false,0.1);StatusImmunity(SG_Invisible)"
+data "StatusGroups" "SG_Light;SG_RemoveOnRespec"
 
 // Radiant Beam
 new entry "MYSTIC_RADIANT_BEAM"

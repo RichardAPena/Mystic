@@ -65,7 +65,7 @@ data "Description" "h7d878a52ga59cg44fdg9680gcb478bbccc50"
 
 data "TargetRadius" "18"
 data "AreaRadius" "50"
-// data "NumberOfTargets" "6"
+data "NumberOfTargets" "6"
 data "LineOfSightFlags" "AddSourceHeight"
 data "SpellProperties" "GROUND:TeleportSource()"
 data "TargetConditions" "CanStand('') and not Character()"

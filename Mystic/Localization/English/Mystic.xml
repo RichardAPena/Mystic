@@ -353,7 +353,7 @@
 	<content contentuid="h6cc4768dgc11fg453cg92a8gb6a2c8e0853f" version="1">Direct an ally to strike a foe. The ally immediately uses their reaction to make a weapon attack.</content>
 	<content contentuid="h3e448fe9g2997g466fg9c1eg3ff168fc516a" version="1">Able to make weapon attack for free.</content>
 	<content contentuid="h14317c93g0a49g4116g8970gf5060f631559" version="1">Strategic Mind</content>
-	<content contentuid="h6aac4741g43c5g4609g93b8g46154d854f92" version="1">Exert an aura of trust and command, uniting your allies to move as a cohesive unit. Nearby allies can Dash or Disengage as a bonus action, or add +1d4 to each &lt;LSTag Tooltip="AttackRoll"&gt;Attack&lt;/LSTag&gt; Roll during their turn.</content>
+	<content contentuid="h6aac4741g43c5g4609g93b8g46154d854f92" version="1">Exert an aura of trust and command, uniting your allies to move as a cohesive unit. Nearby allies can Dash or Disengage as a bonus action, or add +1d4 to each &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; during their turn.</content>
 	<content contentuid="hc55eaef0gccd6g48c2g8071g9aa3e2cf88c2" version="1">Able to Dash or Disengage as a bonus action, or add 1d4 to each damage roll.</content>
 	<content contentuid="hfdb93561g3f06g46a9gb03bg2591820976c2" version="1">Press the Attack</content>
 	<content contentuid="h338b81cdg406fg45fag8ebagfd7027c80fab" version="1">Gain +1d4 to damage rolls.</content>
@@ -610,7 +610,7 @@
 	<content contentuid="hdede492cgcb3cg41ffg9bedg890837af15d2" version="1">Restore Vigor</content>
 	<content contentuid="h40aaeb23g4840g4f7dg93bega45dafa156e2" version="1">Touch a creature and negate any &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charm&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="PETRIFIED"&gt;Petrification&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stun&lt;/LSTag&gt;, or curse afflicting it.</content>
 	<content contentuid="h46383e61g4143g47a9gac5bg5f2170515105" version="1">Ethereal Weapon</content>
-	<content contentuid="he3932f8cgb0afg46d2g8ceag5cccffe16148" version="1">Transform your weapons into pure psionic energy. Your next attack becomes a Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; instead of an &lt;LSTag Tooltip="AttackRoll"&gt;Attack&lt;/LSTag&gt; Roll, dealing half damage on a sucessful save.</content>
+	<content contentuid="he3932f8cgb0afg46d2g8ceag5cccffe16148" version="1">Transform your weapons into pure psionic energy. Your next attack becomes a Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; instead of an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, dealing half damage on a sucessful save.</content>
 	<content contentuid="h1bddf10bg85aeg4891gae66g13c4bfd86fb4" version="1">Weapon &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; become Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; instead, dealing half damage on save.</content>
 	<content contentuid="hc5a2a389g7dbdg4bf7ga663gd4b1b9a0269a" version="1">Lethal Strike</content>
 	<content contentuid="h51aa6b39ge4c4g4802g98e7g7495bd716562" version="1">Imbue your weapons with psychic energy. Your next weapon attack will deal an additional [1] damage.</content>
@@ -622,7 +622,7 @@
 	<content contentuid="h189b99d6g02d8g4ec9gb154g76d71db32c45" version="1">Imbue your ranged weapon with psionic energy. The next attack you make with it deals an additional [1] damage.</content>
 	<content contentuid="hbeb579b0g85dcg4283gb867g60545a50eaa2" version="1">Next ranged weapon attack deals an additional [1] damage.</content>
 	<content contentuid="h170aeca8g0096g4689g9450g240c79bbc380" version="1">Seeking Missile</content>
-	<content contentuid="hfc6b13fdgc440g4072ga6d9g1eb08558a47b" version="1">As a reaction, when you miss with a ranged weapon attack, you can repeat the &lt;LSTag Tooltip="AttackRoll"&gt;Attack&lt;/LSTag&gt; Roll against the same target.</content>
+	<content contentuid="hfc6b13fdgc440g4072ga6d9g1eb08558a47b" version="1">As a reaction, when you miss with a ranged weapon attack, you can repeat the &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against the same target.</content>
 	<content contentuid="h574e8af9g5955g44e7g9784g45fa820d25a1" version="1">Faithful Archer</content>
 	<content contentuid="h164ea828g6a86g44b4gbf03g9f9fd500dd03" version="1">Imbue your ranged weapon with a limited sentience, allowing you to perform an extra ranged weapon attack for free each turn.</content>
 	<content contentuid="h50719c0eg4303g48dega765gc79a5b0bd0fa" version="1">Able to perform an additional ranged weapon attack for free.</content>
@@ -639,20 +639,27 @@
 	<content contentuid="h37cb72dage85cg41b3g9849gc2f725be428b" version="1">Reduce the weight of you and nearby allies, granting immunity to Falling damage.</content>
 	<content contentuid="hf92f209bg207bg4007g8050g528f79e1ea9e" version="1">Unearth</content>
 	<content contentuid="h92cc8698gbbc9g4aa3g8accg2c0dcaa2983e" version="1">Unlock an object that is held shut by a mundane lock.</content>
-	<content contentuid="" version="1">Item Lore</content>
-	<content contentuid="" version="1">Conjure a thieves' tools, trap disarm toolkit or shovel.</content>
-	<content contentuid="" version="1">Psychic Speech</content>
-	<content contentuid="" version="1">Gain Expertise in all Skills.</content>
-	<content contentuid="" version="1">Step of a Dozen Paces</content>
-	<content contentuid="" version="1">Teleport up to [1].</content>
+	<content contentuid="h766fee09g64bfg492dg9a62ge935a133042e" version="1">Item Lore</content>
+	<content contentuid="h9861dbd9gfa92g4c79gbbfag763994cf8284" version="1">Conjure a thieves' tools, trap disarm toolkit or shovel.</content>
+	<content contentuid="" version="1">Thieves' Tools</content>
+	<content contentuid="" version="1">Trap Disarm Toolkit</content>
+	<content contentuid="" version="1">Shovel</content>
+	<content contentuid="" version="1">Conjure a thieves' tools.</content>
+	<content contentuid="" version="1">Conjure a thieves' tools.</content>
+	<content contentuid="" version="1">Conjure a thieves' tools.</content>	
+	<content contentuid="h259dee98gfbe8g484fgaa96gd5294b4e00f2" version="1">Psychic Speech</content>
+	<content contentuid="h4946426dgf383g4ae1gbf01gb90f5a14c181" version="1">Gain Expertise in all Skills.</content>
+	<content contentuid="h621580adgff31g4c7dgba5bg0a4510cdf502" version="1">Has Expertise in all Skills.</content>
+	<content contentuid="h3edfc105g327fg4c7dgb6bbg4f4781a6631a" version="1">Step of a Dozen Paces</content>
+	<content contentuid="h20a687b8gcc11g4f63gb7e7g76a38ebe08dd" version="1">Teleport up to [1].</content>
 	<content contentuid="" version="1">Nomadic Anchor</content>
 	<content contentuid="" version="1">TODO: Nomadic Anchor Description</content>
 	<content contentuid="" version="1">Nomadic Anchor: Recall</content>
 	<content contentuid="" version="1">TODO: Nomadic Anchor: Recall Description</content>
 	<content contentuid="h5bebca69g2c85g4ba9gb640g656b4ec66241" version="1">Defensive Step</content>
 	<content contentuid="h3a3f0db7g14a3g4655ga986g1635f41bc6fa" version="1">As a reaction, when you are about to be hit by an attack, you can increase your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by 4, possibly causing the attack to miss.</content>
-	<content contentuid="" version="1">There and Back Again</content>
-	<content contentuid="" version="1">TODO: There and Back Again Description</content>
+	<content contentuid="h1783bf72g5aacg459dgb9a3gace3af6f3807" version="1">There and Back Again</content>
+	<content contentuid="h7c166e11gf8a2g40eagb30bg000b31c2e911" version="1">TODO: There and Back Again Description</content>
 	<content contentuid="" version="1">Back Again</content>
 	<content contentuid="" version="1">TODO: Back Again Description</content>
 	<content contentuid="" version="1">Transposition</content>
