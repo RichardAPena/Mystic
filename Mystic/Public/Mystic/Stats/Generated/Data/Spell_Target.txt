@@ -174,7 +174,7 @@ data "UseCosts" "ActionPoint:1"
 data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;8252328a-66dd-4dc0-bbe0-00eea3204922,,;982d842b-5d44-4ef6-ab33-14d5ae514a50,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;236087a5-5597-4ee7-ab06-75b01147f596,,;ee0b6a78-c6b6-4852-aecb-d7c474a37d68,,"
 data "VerbalIntent" "Buff"
 data "SpellStyleGroup" "Class"
-data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;;IsConcentration"
+data "SpellFlags" "IsSpell;IsConcentration"
 data "HitAnimationType" "MagicalNonDamage"
 data "PrepareEffect" "78b419eb-8ada-47f4-904a-5f335971a331"
 data "CastEffect" "5d7a0ad1-ac47-4f03-8c36-cce8184e1df0"
@@ -1474,31 +1474,40 @@ data "DescriptionParams" ""
 new entry "Target_Mystic_CenterOfAttention"
 type "SpellData"
 data "SpellType" "Target"
+data "Level" "2"
 
 data "Icon" "Spell_Enchantment_Enthrall"
 data "DisplayName" "hb5d3880cg42cfg4264ga2cag6ce63682365e"
 data "Description" "h5c761de9ge229g4c77g9c3egdb9b0e953327"
 data "DescriptionParams" ""
 
+data "SpellFlags" "IsSpell"
+
 // Invoke Awe
 new entry "Target_Mystic_InvokeAwe"
 type "SpellData"
 data "SpellType" "Target"
+data "Level" "7"
 
 data "Icon" "Spell_Enchantment_DominatePerson"
 data "DisplayName" "h2a17cf99g441fg4d1bg91e3gefa6c845f4d3"
 data "Description" "h23c94350gb204g45bega8e7g058bc225baae"
 data "DescriptionParams" ""
 
+data "SpellFlags" "IsSpell"
+
 // Victory Before Battle
 new entry "Target_Mystic_VictoryBeforeBattle"
 type "SpellData"
 data "SpellType" "Target"
+data "Level" "7"
 
 data "Icon" "Action_PrecisionAttack"
 data "DisplayName" "h56f16108g0c69g4785g9704gb6e54f178606"
 data "Description" "h418629f5g72d4g432bg9aefgcc759f073b00"
 data "DescriptionParams" ""
+
+data "SpellFlags" "IsSpell"
 
 // Ego Whip
 new entry "Target_Mystic_EgoWhip"
@@ -1525,7 +1534,7 @@ new entry "Target_Mystic_PsychicCrush"
 type "SpellData"
 data "SpellType" "Target"
 
-data "Icon" ""
+data "Icon" "Spell_Evocation_WrathfulSmite"
 data "DisplayName" "h53537f78gb635g488fg9df3gd40a5a1fe3b3"
 data "Description" "hcbcb6cdfg6c48g4fc5gbb48g1abdae16d1d1"
 data "DescriptionParams" ""
@@ -1545,7 +1554,7 @@ new entry "Target_Mystic_Daze"
 type "SpellData"
 data "SpellType" "Target"
 
-data "Icon" ""
+data "Icon" "Action_Glut_PacifyingSpores"
 data "DisplayName" "h0ae47249g80e7g4c32g857fge95297ecc1f6"
 data "Description" "hc4838845gd112g4d8agb23bg984a55aee4e8"
 data "DescriptionParams" ""
@@ -1555,7 +1564,7 @@ new entry "Target_Mystic_MindStorm"
 type "SpellData"
 data "SpellType" "Target"
 
-data "Icon" ""
+data "Icon" "Spell_Conjuration_HungerOfHadar"
 data "DisplayName" "h8b917677g610ag4756g87a3g17f3a54e503f"
 data "Description" "h95a1fdaage462g47eaga624g309877b78a78"
 data "DescriptionParams" ""
@@ -2457,6 +2466,52 @@ data "SpellFlags" "IsSpell;IsConcentration;IsMelee"
 data "PrepareEffect" "33302a46-4a12-41dd-8845-6b7314d50022"
 data "CastEffect" "bcd66fb0-b0bc-41d0-abba-ad443d63dd72"
 
+// Unearth (NEW - Nomadic Mind)
+new entry "Target_Mystic_Unearth"
+using "Target_Knock"
+// data "Icon" "Action_DivineIntervention_Heal"
+data "DisplayName" "hf92f209bg207bg4007g8050g528f79e1ea9e"
+data "Description" "h92cc8698gbbc9g4aa3g8accg2c0dcaa2983e"
+
+data "VocalComponentSound" ""
+data "SpellSchool" ""
+data "UseCosts" "ActionPoint:1;PsiPointsResource:2"
+data "MemoryCost" ""
+
+// Step of a Dozen Paces
+new entry "Target_Mystic_StepOfADozenPaces"
+
+
+// There and Back Again
+new entry "Target_Mystic_ThereAndBackAgain"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "2"
+
+data "Icon" "Spell_Conjuration_MistyStep"
+data "DisplayName" ""
+data "Description" ""
+
+data "SpellProperties" "GROUND:TeleportSource();"
+data "TargetRadius" "18"
+data "TargetConditions" "CanStand('') and not Character() and not Self()"
+
+data "CastSound" "Spell_Cast_Utility_MistyStep_L1to3"
+data "TargetSound" "Spell_Impact_Utility_MistyStep_L1to3"
+data "VocalComponentSound" "Vocal_Component_Teleport"
+data "CastTextEvent" "Cast"
+data "UseCosts" "BonusActionPoint:1"
+data "SpellAnimation" "dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;39daf365-ec06-49a8-81f3-9032640699d7,,;5c400e93-0266-499c-a2e1-75d53358460f,,;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;,,;,,"
+data "VerbalIntent" "Utility"
+data "SpellFlags" "IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold"
+
+data "LineOfSightFlags" "AddSourceHeight"
+data "PrepareEffect" "7121a488-7c9a-4ba1-a585-f79aaa77e97c"
+data "CastEffect" "71859b27-bdda-44c3-8c65-7f142a1a2f60"
+
+// Back Again
+
+
 
 // Animate Air
 new entry "Target_Mystic_AnimateAir"
@@ -2795,6 +2850,7 @@ data "SpellFlags" "IsSpell;IsHarmful"
 data "ContainerSpells" ""
 
 // Move
+// DEPRECATED
 new entry "Target_Mystic_Move"
 type "SpellData"
 data "SpellType" "Target"
@@ -2918,7 +2974,29 @@ data "DisplayName" "hc1180697g9634g4b84gb46ag2ef175e42c9c"
 data "Description" "ha82db9a3g45c0g450cgba3fg5651fd1b6911"
 data "DescriptionParams" ""
 
-data "SpellFlags" "IsSpell"
+data "TargetRadius" "18"
+data "SpellRoll" "not SavingThrow(Ability.Strength, SourceSpellDC())"
+data "SpellSuccess" "ApplyStatus(MYSTIC_GRASPED,100,10);ApplyStatus(SELF,MYSTIC_GRASP,100,10);"
+// data "SpellFail" "DealDamage((1d8)/2,Force,Magical)"
+data "TargetConditions" "Character() and not Self()"
+// data "TooltipDamageList" "DealDamage(1d8,Force)"
+data "TooltipAttackSave" "Strength"
+data "TooltipStatusApply" "ApplyStatus(MYSTIC_GRASPED,100,10)"
+// data "TooltipOnSave" "961753f4-c345-4bc4-b408-1d5b87a5ab0c"
+// TODO: Make a new upcast description for this
+// data "TooltipUpcastDescription" "66388a6f-44dd-4c9f-a9e7-910c50e70755"
+// data "TooltipUpcastDescriptionParams" "DealDamage(1d8,Force)"
+data "CastSound" "Spell_Cast_Damage_Psychic_DissonantWhispers_L1to3"
+data "TargetSound" "Spell_Impact_Damage_Psychic_DissonantWhispers_L1to3"
+data "CastTextEvent" "Cast"
+// data "CycleConditions" "Enemy() and not Dead()"
+data "UseCosts" "ActionPoint:1;PsiPointsResource:3;PsiLimitResource:1:3"
+data "SpellAnimation" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;af94aac1-d8eb-4ccb-9520-694ade11b61c,,;f5db4001-b136-4c48-9aa4-026c4a7dd3b7,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,,"
+data "SpellFlags" "IsSpell;IsHarmful;IsConcentration"
+data "HitAnimationType" "MagicalDamage_Psychic"
+data "PrepareEffect" "752219e2-351d-46ea-9448-3a714b3d3acc"
+data "CastEffect" "bd2fc245-5645-452f-a2cd-d158b751bbe4"
+data "TargetEffect" "a0aee53a-d702-4901-9bb3-7cf08e214346"
 
 // Crush
 new entry "Target_Mystic_Crush"
@@ -2931,6 +3009,31 @@ data "DisplayName" "h14fbc9a9g937bg404dg9828ga15d97bae7c0"
 data "Description" "ha5ec3f66gafc7g4df2gba74g2dcb08319156"
 data "DescriptionParams" ""
 
+data "TargetRadius" "18"
+data "SpellProperties" "DealDamage(3d6,Bludgeoning,Magical)"
+// data "SpellRoll" "not SavingThrow(Ability.Strength, SourceSpellDC())"
+// data "SpellSuccess" "DealDamage(1d8,Force,Magical);Force(1.5)"
+// data "SpellFail" "DealDamage((1d8)/2,Force,Magical)"
+data "TargetConditions" "HasStatus('MYSTIC_GRASPED')"
+data "TooltipDamageList" "DealDamage(3d6,Bludgeoning)"
+// data "TooltipAttackSave" "Strength"
+// data "TooltipStatusApply" "ApplyStatus(MYSTIC_EYE_OF_HORROR,100,1)"
+// data "TooltipOnSave" "961753f4-c345-4bc4-b408-1d5b87a5ab0c"
+// TODO: Make a new upcast description for this
+// data "TooltipUpcastDescription" "66388a6f-44dd-4c9f-a9e7-910c50e70755"
+// data "TooltipUpcastDescriptionParams" "DealDamage(1d8,Force)"
+data "CastSound" "Spell_Cast_Damage_Psychic_DissonantWhispers_L1to3"
+data "TargetSound" "Spell_Impact_Damage_Psychic_DissonantWhispers_L1to3"
+data "CastTextEvent" "Cast"
+data "CycleConditions" "Enemy() and not Dead()"
+data "UseCosts" "BonusActionPoint:1;PsiPointsResource:3;PsiLimitResource:1:3"
+data "SpellAnimation" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;af94aac1-d8eb-4ccb-9520-694ade11b61c,,;f5db4001-b136-4c48-9aa4-026c4a7dd3b7,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,,"
+data "SpellFlags" "IsSpell;IsHarmful;Temporary"
+data "HitAnimationType" "MagicalDamage_Psychic"
+data "PrepareEffect" "752219e2-351d-46ea-9448-3a714b3d3acc"
+data "CastEffect" "bd2fc245-5645-452f-a2cd-d158b751bbe4"
+data "TargetEffect" "a0aee53a-d702-4901-9bb3-7cf08e214346"
+data "DamageType" "Bludgeoning"
 
 
 // Ice Sheet
@@ -2976,6 +3079,7 @@ data "PositionEffect" "38480f98-ea71-41e5-9427-a4aa3bf20fd4"
 new entry "Target_Mystic_FrozenRain"
 type "SpellData"
 data "SpellType" "Target"
+data "Level" "5"
 
 data "Icon" "Spell_Evocation_IceStorm"
 data "DisplayName" "h5f95805age5e7g44c9g99f6g74be6cf53e5a"
@@ -3042,6 +3146,7 @@ data "ContainerSpells" ""
 new entry "Target_Mystic_Darkness"
 type "SpellData"
 data "SpellType" "Target"
+data "Level" "1"
 
 data "Icon" "Spell_Evocation_Darkness"
 data "DisplayName" "h68d85accg564bg4affg8219g9c96403a5ff7"
@@ -3064,7 +3169,7 @@ data "TargetSound" "Spell_Impact_Control_Grease_L1to3"
 data "PreviewCursor" "Cast"
 data "CastTextEvent" "Cast"
 data "CycleConditions" "Enemy() and not Dead()"
-data "UseCosts" "ActionPoint:1;PsiPointsResource:2"
+data "UseCosts" "ActionPoint:1;PsiPointsResource:1"
 data "SpellAnimation" "554a18f7-952e-494a-b301-7702a85d4bc9,,;,,;7abe77ed-9c77-4eac-872c-5b8caed070b6,,;cb171bda-f065-4520-b470-e447f678ba1f,,;22dfbbf4-f417-4c84-b39e-2039315961e6,,;,,;5bfbe9f9-4fc3-4f26-b112-43d404db6a89,,;,,;,,"
 data "VerbalIntent" "Control"
 data "SpellFlags" "IsSpell;HasHighGroundRangeExtension;IsLinkedSpellContainer"
@@ -3153,6 +3258,7 @@ data "ContainerSpells" ""
 new entry "Target_Mystic_Light"
 type "SpellData"
 data "SpellType" "Target"
+data "Level" "2"
 
 data "Icon" "Spell_Evocation_DancingLights"
 data "DisplayName" "hdfa9f427gc799g4770g85fcg63d116f2e382"
@@ -3187,16 +3293,20 @@ data "TargetEffect" "a0aee53a-d702-4901-9bb3-7cf08e214346"
 new entry "Target_Mystic_ShadowBeasts"
 type "SpellData"
 data "SpellType" "Target"
+data "Level" "3"
 
 data "Icon" "Spell_Enchantment_AnimalFriendship"
 data "DisplayName" "h245fbcc4g9e03g4a53g96b0g301999f5064e"
 data "Description" "h9693ee45gcbf1g48aagaacdg210b5a95ceb0"
 data "DescriptionParams" ""
 
+data "SpellFlags" "IsSpell"
+
 // Desiccate
 new entry "Target_Mystic_Dessicate"
 type "SpellData"
 data "SpellType" "Target"
+data "Level" "1"
 
 data "Icon" "Spell_Necromancy_Blight"
 data "DisplayName" "hf302a4a4g69cag42b0ga2fcgf5ba3647f346"
@@ -3407,6 +3517,7 @@ data "ContainerSpells" ""
 new entry "Target_Mystic_WaterSphere"
 type "SpellData"
 data "SpellType" "Target"
+data "Level" "6"
 
 data "Icon" "Spell_Evocation_OtilukesResilientSphere"
 data "DisplayName" "h492bb7acged62g464bg9971g4320777edc4b"

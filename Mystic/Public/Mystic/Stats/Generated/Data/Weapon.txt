@@ -1,5 +1,9 @@
 // TODO: Soul Knife
 
+new entry "WPN_SoulKnife_Dagger_MainHand"
+type "Weapon"
+// using "WPN_Dagger"
+
 // new entry "WPN_Armorer_Gauntlets_Guardian_Right"
 // type "Weapon"
 // using "WPN_Scimitar"

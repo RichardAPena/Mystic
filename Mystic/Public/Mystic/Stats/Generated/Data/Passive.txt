@@ -215,7 +215,7 @@ type "PassiveData"
 data "DisplayName" "hf6ead5ccg2df1g4f7agb826g9ad1f2cf9ee0"
 data "Description" "h25d5884cg40fdg4f36ga49eg16c0743e37e5"
 data "Icon" ""
-data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MasteryOfWoodAndEarth);UnlockSpell(Projectile_Mystic_AnimateWeapon);UnlockSpell(Target_Mystic_WarpWeapon);UnlockSpell(Target_Mystic_WarpArmor);UnlockSpell(Wall_Mystic_WallOfWood);UnlockSpell(Target_Mystic_AnimateEarth)"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MasteryOfWoodAndEarth);UnlockSpell(Projectile_Mystic_AnimateWeapon);UnlockSpell(Target_Mystic_WarpWeapon);UnlockSpell(Target_Mystic_WarpArmor);UnlockSpell(Wall_Mystic_WallOfWood);UnlockSpell(Shout_Mystic_ArmoredForm);UnlockSpell(Target_Mystic_AnimateEarth)"
 
 // Nomadic Arrow
 new entry "Discipline_NomadicArrow"
@@ -234,27 +234,22 @@ data "Icon" ""
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_NomadicChameleon);UnlockSpell(Shout_Mystic_Chameleon);UnlockSpell(Shout_Mystic_StepFromSight);UnlockSpell(Shout_Mystic_EnduringInvisibility)"
 
 // Nomadic Mind
-// TODO: Still mid rework
-// Shout_Mystic_Featherweight
-// Unveil
-// FindCreature
-// ItemLore
-// PsychichSpeech
 new entry "Discipline_NomadicMind"
 type "PassiveData"
 data "DisplayName" "h1ea947d4g29e6g4b81gabaeg5ba74ba636f4"
 data "Description" "habcf7807g5ec8g4f68g8857g0a0159e436a6"
 data "Icon" ""
-data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_NomadicMind)"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_NomadicMind);UnlockSpell(Shout_Mystic_Featherweight);UnlockSpell(Target_Mystic_Unearth);UnlockSpell(Shout_Mystic_ItemLore);UnlockSpell(Shout_Mystic_PsychicSpeech)"
 
 // Nomadic Step
-// TODO: Nothing is in yet
+// Leaving out Nomadic Anchor
+// May figure it out one day but not now
 new entry "Discipline_NomadicStep"
 type "PassiveData"
 data "DisplayName" "he29f18f7ge21cg47deg8c4cgd87359fb99eb"
 data "Description" "h2b60f7b8g3618g468cg94e6g74605cfad833"
 data "Icon" ""
-data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_NomadicStep)"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_NomadicStep);UnlockSpell(Target_Mystic_StepOfADozenPaces);UnlockSpell(Shout_Mystic_DefensiveStep);UnlockSpell(Target_Mystic_ThereAndBackAgain);UnlockSpell(Teleportation_Mystic_Transposition);UnlockSpell(Teleportation_Mystic_BalefulTransposition);UnlockSpell(Teleportation_Mystic_PhantomCaravan);UnlockSpell(Teleportation_Mystic_NomadicGate)"
 
 // Precognition
 new entry "Discipline_Precognition"
@@ -329,7 +324,6 @@ data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnHeal"
 data "Conditions" "HealDoneGreaterThan(0) and IsSpell() and not IsCantrip()"
 data "StatsFunctors" "RegainHitPoints(2)"
-// data "StatsFunctors" "RegainHitPoints(2+SpellPowerLevel);"
 
 // Aura of Victory
 new entry "Passive_AuraOfVictory"

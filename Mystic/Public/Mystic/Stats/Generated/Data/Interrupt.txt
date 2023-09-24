@@ -115,34 +115,8 @@ data "Properties" ""
 data "Cost" ""
 data "InterruptDefaultValue" ""
 
-// Knock Back
-// DEPRECATED
-// new entry "Interrupt_Mystic_KnockBack"
-// type "InterruptData"
-// data "DisplayName" "h64861ffdge092g4be5gae41g02d96367cb93"
-// data "Description" "hafa0ff17g5d7fg4454gb0c4g5eee7b446f19"
-// data "DescriptionParams" "Distance(9)"
-// data "Icon" "Action_Monk_FistOfUnbrokenAir"
-// data "InterruptContext" "OnCastHit"
-// data "InterruptContextScope" "Nearby"
-// data "Container" "YesNoDecision"
-// data "Conditions" "Self(context.Source,context.Observer) and IsMeleeAttack() and not IsKillingBlow() and IsHit() and Character() and not AnyEntityIsItem()"
-// // TODO: CAST THE ACTUAL SPELL, THERE NEEDS TO BE A SAVING THROW
-// // data "Roll" "not SavingThrow(Ability.Strength, SourceSpellDC())"
-// // data "Roll" "not SavingThrow(Ability.Wisdom, SourceSpellDC(14,context.Observer,Ability.Intelligence),,false,context.Source)"
-// // data "Success" "Force(9)"
-// // data "Properties" "Force(9);DealDamage(1,Radiant)"
-// data "Properties" "UseSpell(OBSERVER_TARGET,Target_Mystic_KnockBack_Interrupt,true,true,true)"
-// data "Cost" "ReactionActionPoint:1;PsiPointsResource:2"
-// data "InterruptDefaultValue" "Ask;Enabled"
-// // data "EnableCondition" "HasActionResource('Interrupt_PsionicStrike', 1, 0, false, false, context.Source) and (not HasStatus('SG_Polymorph') or Tagged('MINDFLAYER'))"
-// // data "EnableContext" "OnActionResourcesChanged"
-// // data "Properties" "AdjustRoll(-1d4);IF(not Self(context.Target,context.Observer) and HasInterruptedAttack()):UseSpell(OBSERVER_SOURCE,Target_BendLuck_Interrupt_Negative,true,true,true);IF(not Self(context.Target,context.Observer) and HasInterruptedSavingThrow()):UseSpell(OBSERVER_TARGET,Target_BendLuck_Interrupt_Negative,true,true,true)"
-
-
-
 // Acid Spray
-// TODO: not working?
+// TODO: weapon attacks arent b/p/s spells (cringe)
 new entry "Interrupt_Mystic_AcidSpray"
 type "InterruptData"
 data "DisplayName" "hc7b88abbg0bf9g468aga89fgc539b6688cac"
@@ -194,18 +168,35 @@ data "Properties" "IF(HasInterruptedAttack()):AdjustRoll(-3);ApplyStatus(OBSERVE
 // Seeking Missile
 new entry "Interrupt_Mystic_SeekingMissile"
 type "InterruptData"
-data "DisplayName" ""
-data "Description" ""
-data "Icon" ""
-data "InterruptContext" ""
-data "InterruptContextScope" ""
-data "Container" ""
-data "Conditions" ""
-data "Properties" ""
-data "Cost" ""
-data "InterruptDefaultValue" ""
+data "DisplayName" "h170aeca8g0096g4689g9450g240c79bbc380"
+data "Description" "hfc6b13fdgc440g4072ga6d9g1eb08558a47b"
+data "Icon" "Spell_Evocation_MagicMissile"
+data "InterruptContext" "OnPostRoll"
+data "InterruptContextScope" "Self"
+data "Container" "YesNoDecision"
+data "Conditions" "not Dead(context.Observer) and (HasInterruptedAttack() and Self(context.Observer,context.Source) and IsRerollInterruptInteresting(context.Source)) and IsWeaponAttack() and IsRangedAttack() and not AnyEntityIsItem()"
+data "Properties" "SetReroll(19,false)"
+data "Cost" "ReactionActionPoint:1;PsiPointsResource:2"
+data "InterruptDefaultValue" "Ask;Enabled"
+data "EnableCondition" "not HasStatus('SG_Polymorph') or Tagged('MINDFLAYER')"
+data "EnableContext" "OnStatusApplied"
+
+// Defensive Step
+new entry "Interrupt_Mystic_DefensiveStep"
+type "InterruptData"
+data "DisplayName" "h5bebca69g2c85g4ba9gb640g656b4ec66241"
+data "Description" "h3a3f0db7g14a3g4655ga986g1635f41bc6fa"
+data "Icon" "Action_Sprint"
+data "InterruptContext" "OnPostRoll;OnPreDamage"
+data "InterruptContextScope" "Self"
+data "Container" "YesNoDecision"
+data "Conditions" "IsAbleToReact(context.Observer) and Self(context.Target,context.Observer) and ((HasInterruptedAttack() and IsFlatValueInterruptInteresting(3, context.Source))) and not AnyEntityIsItem()"
+data "Properties" "IF(HasInterruptedAttack()):AdjustRoll(-4);ApplyStatus(OBSERVER_OBSERVER,DISENGAGE,100,1);"
+data "Cost" "ReactionActionPoint:1;PsiPointsResource:2"
+data "InterruptDefaultValue" "Ask;Enabled"
 
 // Cloak of Air
+// DEPRECATED
 new entry "Interrupt_Mystic_CloakOfAir"
 type "InterruptData"
 data "DisplayName" "h5d42f170g2a58g4e88ga06aga5a39b850cb0"

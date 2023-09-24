@@ -156,7 +156,7 @@
 	<content contentuid="hc5c3d2eage8c2g4ad9gb40bg49fa398d1db0" version="1">Gain half of your Intelligence modifier as a bonus to Charisma &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="h2992fa4fgf81bg45c1g81adge4e0e19a9c37" version="1">+[1] to Charisma &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="h30935e9bg9decg4089g9f85g3789939b3e6d" version="1">Psychic Focus: Mantle of Command</content>
-	<content contentuid="heb843595gc7acg4e46g9d53gd8a7b1232531" version="1">Gain the ability to cast &lt;LSTag Tooltip="Target_Mystic_CommandersImperative"&gt;Commander's Imperative&lt;/LSTag&gt; when not moving during your turn. Doing so will set your movement speed to 0.</content>
+	<content contentuid="heb843595gc7acg4e46g9d53gd8a7b1232531" version="1">Gain the ability to cast &lt;LSTag Tooltip="Target_Mystic_CommandersImperative"&gt;Commander's Imperative&lt;/LSTag&gt; for free, once per turn.</content>
 	<content contentuid="h37c8bd6agbc0ag4d3egaf61g8296f4b02afe" version="1">Able to cast &lt;LSTag Tooltip="Target_Mystic_CommandersImperative"&gt;Commander's Imperative&lt;/LSTag&gt;.</content>
 	<content contentuid="he5fc1d3age6c4g4017gb0a2gd2d2f0f6fa4e" version="1">Commander's Imperative</content>
 	<content contentuid="ha78de940ge09dg428eg89c6g161d9f40b1a3" version="1">Mobilize an ally, increasing their movement speed by [1].</content>
@@ -449,7 +449,7 @@
 	<content contentuid="hd3185e40g210ag4743g9052gdd43ffc47519" version="1">Psychic Blast</content>
 	<content contentuid="h59c2ac9eg573fg4abcga1d5ga07a3933b6fd" version="1">Unleash devastating psychic energy in a cone.</content>
 	<content contentuid="h53537f78gb635g488fg9df3gd40a5a1fe3b3" version="1">Psychic Crush</content>
-	<content contentuid="hcbcb6cdfg6c48g4fc5gbb48g1abdae16d1d1" version="1">Warp and compress space around the targeted area, Stunning any creatures within.</content>
+	<content contentuid="hcbcb6cdfg6c48g4fc5gbb48g1abdae16d1d1" version="1">Warp and compress space around the targeted area, &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stunning&lt;/LSTag&gt; any creatures within.</content>
 	<content contentuid="he698e421gecfbg4505g9920g109d0fc2527f" version="1">Distracting Haze</content>
 	<content contentuid="h7ba07cedg38bag4861gb3edg239bcdc0739a" version="1">Obfuscate an enemy's vision, reducing their sight range significantly.</content>
 	<content contentuid="hf2960176g262cg43aeg9215g9fc5cf0ad4c1" version="1">Sight range reduced to [1].</content>
@@ -626,6 +626,8 @@
 	<content contentuid="h574e8af9g5955g44e7g9784g45fa820d25a1" version="1">Faithful Archer</content>
 	<content contentuid="h164ea828g6a86g44b4gbf03g9f9fd500dd03" version="1">Imbue your ranged weapon with a limited sentience, allowing you to perform an extra ranged weapon attack for free each turn.</content>
 	<content contentuid="h50719c0eg4303g48dega765gc79a5b0bd0fa" version="1">Able to perform an additional ranged weapon attack for free.</content>
+	<content contentuid="hb63cc365gbd43g49d3ga20dg947243e20100" version="1">Faithful Quiver</content>
+	<content contentuid="h64c1f7begbf8bg4d8cga8fagfe0329da93d5" version="1">While concentrating on Faithful Archer, perform an additional ranged shot.</content>
 	<content contentuid="h7fd9d711g8378g4a2bgb3a6g145c63badc55" version="1">Chameleon</content>
 	<content contentuid="h3cbc7f68g02e8g482ag9864g3b2c59940729" version="1">Blend in with your surroundings, gaining a +10 bonus to Stealth and gaining the effects of Hide. You lose these effects when you stop Hiding.</content>
 	<content contentuid="hcfce4a6dgf820g4fffga302g0d0afc33a80f" version="1">+10 to Stealth.</content>
@@ -633,12 +635,10 @@
 	<content contentuid="h0d4888c9g9951g4042g8c54g221a5cbe11ca" version="1">Cloak yourself from sight, turning yourself &lt;LSTag Type="Status" Tooltip="GREATER_INVISIBILITY"&gt;Invisible&lt;/LSTag&gt;. Attacks against you have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; and you attack with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
 	<content contentuid="hb6454ea9g172eg46dagbb5dg0433d81b8006" version="1">Enduring Invisibility</content>
 	<content contentuid="h5c7215d6g79dcg4424g8425g61f92ddd5763" version="1">Turn yourself &lt;LSTag Type="Status" Tooltip="GREATER_INVISIBILITY"&gt;Invisible&lt;/LSTag&gt;. Attacks against you have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; and you attack with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
-	<content contentuid="" version="1">Featherweight</content>
-	<content contentuid="" version="1">Reduce the weight of you and nearby allies, granting immunity to Falling damage.</content>
-	<content contentuid="" version="1">Unearth</content>
-	<content contentuid="" version="1">Unlock an object that is held shut by a mundane lock.</content>
-	<content contentuid="" version="1">Find Creature</content>
-	<content contentuid="" version="1">Reveal all creatures in a large radius.</content>
+	<content contentuid="h14fa3b32g5cccg43a9g8457gbf9613fddac3" version="1">Featherweight</content>
+	<content contentuid="h37cb72dage85cg41b3g9849gc2f725be428b" version="1">Reduce the weight of you and nearby allies, granting immunity to Falling damage.</content>
+	<content contentuid="hf92f209bg207bg4007g8050g528f79e1ea9e" version="1">Unearth</content>
+	<content contentuid="h92cc8698gbbc9g4aa3g8accg2c0dcaa2983e" version="1">Unlock an object that is held shut by a mundane lock.</content>
 	<content contentuid="" version="1">Item Lore</content>
 	<content contentuid="" version="1">Conjure a thieves' tools, trap disarm toolkit or shovel.</content>
 	<content contentuid="" version="1">Psychic Speech</content>
@@ -649,8 +649,8 @@
 	<content contentuid="" version="1">TODO: Nomadic Anchor Description</content>
 	<content contentuid="" version="1">Nomadic Anchor: Recall</content>
 	<content contentuid="" version="1">TODO: Nomadic Anchor: Recall Description</content>
-	<content contentuid="" version="1">Defensive Step</content>
-	<content contentuid="" version="1">As a reaction, when you are about to be hit by an attack, you can increase your Armour Class by 4, possibly causing the attack to miss.</content>
+	<content contentuid="h5bebca69g2c85g4ba9gb640g656b4ec66241" version="1">Defensive Step</content>
+	<content contentuid="h3a3f0db7g14a3g4655ga986g1635f41bc6fa" version="1">As a reaction, when you are about to be hit by an attack, you can increase your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by 4, possibly causing the attack to miss.</content>
 	<content contentuid="" version="1">There and Back Again</content>
 	<content contentuid="" version="1">TODO: There and Back Again Description</content>
 	<content contentuid="" version="1">Back Again</content>
@@ -659,10 +659,10 @@
 	<content contentuid="" version="1">Swap positions with an ally.</content>
 	<content contentuid="" version="1">Baleful Transposition</content>
 	<content contentuid="" version="1">Attempt to swap positions with an enemy.</content>
-	<content contentuid="" version="1">Phantom Caravan</content>
-	<content contentuid="" version="1">Teleport yourself and up to six allies.</content>
-	<content contentuid="" version="1">Nomad's Gate</content>
-	<content contentuid="" version="1">Create two linked teleportation portals.</content>
+	<content contentuid="ha132063cg8fafg418cg8adeg67f15f2f2aa4" version="1">Phantom Caravan</content>
+	<content contentuid="h7d878a52ga59cg44fdg9680gcb478bbccc50" version="1">Teleport yourself and up to six allies.</content>
+	<content contentuid="h7285fa34gde9bg44e0gb0fagca90dab02ff9" version="1">Nomad's Gate</content>
+	<content contentuid="hc31bb328gcb0cg48d3g9d82gb4583be8f670" version="1">Create two linked teleportation portals.</content>
 	<content contentuid="h80ac6a86g0629g4cecg82efg724543bf70c3" version="1">Tremorsense</content>
 	<content contentuid="h3c7775c7g1584g4141g88eagc93f3eb05b65" version="1">Sense disturbances in the earth. You and nearby allies can't be Surprised.</content>
 	<content contentuid="hcce359fag52aeg488eg9e1ag27abe2a7ff8c" version="1">Can't be Surprised.</content>
@@ -675,7 +675,7 @@
 	<content contentuid="h865be973gbb6eg4bfega6b5g65c8d6028af5" version="1">Truesight</content>
 	<content contentuid="hbefd9ceegfbddg450egbdf2g7d3cbcdd5650" version="1">Gain True Sight, gaining the ability to see past magical and non-magical darkness, see Invisible creatures and imposing &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on Stealth &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt; to non-allied creatures.</content>
 	<content contentuid="h254a3983g962dg411fg8ba5g2facc2f350f5" version="1"></content>
-	<content contentuid="" version="1">&lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on Stealth &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="hfb5d9e3agf60dg4d03ga851gbd7c3aafd72d" version="1">&lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on Stealth &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="h1ae376b6g097eg48ecg8f2agab9cfeea71a5" version="1">Wind Step</content>
 	<content contentuid="h9539428dg538ag4b07g925ag77cbb20cc1c5" version="1">Fly up to [1] in a gust of wind.</content>
 	<content contentuid="hc61f7658gd2bbg4a01gb931g4a9510f04ee8" version="1">Wind Stream</content>
@@ -697,7 +697,7 @@
 	<content contentuid="h9016bc24g4082g4a64ga4c7gf061572ac8df" version="1">Summon a patch of flames, dealing [1] damage to creatures when placed and when they end their turn inside.</content>
 	<content contentuid="he21f9a01g02afg45e9g9c92g0421abbfd8dd" version="1">Taking [1] damage at the end of each turn.</content>
 	<content contentuid="hdb0b3651g53ddg471agb3c3ge4f5e8a3faad" version="1">Detonation</content>
-	<content contentuid="hfa921a8fg668dg44d7gb7cdgadf70c5e712f" version="1">Create a fiery explosion, causing creatures inside to be knocked Prone.</content>
+	<content contentuid="hfa921a8fg668dg44d7gb7cdgadf70c5e712f" version="1">Create a fiery explosion, causing creatures inside to be knocked &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
 	<content contentuid="hc1137f43g5b0bg4269g9c8dg17e6d261a14b" version="1">Fire Form</content>
 	<content contentuid="heed30d02g7e59g4252g9005ge374d3ebfc81" version="1">Wreathe yourself in flames, dealing [1] damage to creatures that end their turn within [2] of you.</content>
 	<content contentuid="hf9d44f36gdf24g4437ga1ffgce4a38f3e99e" version="1">Dealing [1] damage to creatures that end their turn within [2] of you.</content>
@@ -708,25 +708,28 @@
 	<content contentuid="h07dcb591g2b03g4b38g85b3gb0a4dd2abff1" version="1">Exert a wave of kinetic force, pushing a creature [1].</content>
 	<content contentuid="h13b67091gc5b9g45a6g8daag1c23f5d24516" version="1">Move</content>
 	<content contentuid="h64b9f99cg200bg4085g96c7gd94c9160f410" version="1">Unleash concentrated burst of energy in a small area, pushing enemies [1] away from its epicenter.</content>
-	<content contentuid="hce650e61g9431g4558gbb97gdbc2f4fa1c65" version="1">Inertial Armor</content>
-	<content contentuid="h3e3a7ea6gc38ag4f3aga618g28da59a408ec" version="1">Encase yourself in a veil of pure kinetic energy, increasing your base Armour Class to 14.</content>
-	<content contentuid="h2cbb948dgde72g449eg9bb0gf34d81b458b9" version="1">Base Armour Class increased to 14.</content>
+	<content contentuid="hce650e61g9431g4558gbb97gdbc2f4fa1c65" version="1">Inertial Armour</content>
+	<content contentuid="h3e3a7ea6gc38ag4f3aga618g28da59a408ec" version="1">Encase yourself in a veil of pure kinetic energy, increasing your base &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; to 14.</content>
+	<content contentuid="h2cbb948dgde72g449eg9bb0gf34d81b458b9" version="1">Base &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; increased to 14.</content>
 	<content contentuid="hb7cb3735g1907g4d50g9462g3ce0acc8c7af" version="1">Telekinetic Barrier</content>
-	<content contentuid="h4239b128g398eg4700g86edgb1499e0d2496" version="1">Manifest a wall of pressurized force. Creatures within will be in Difficult Terrain.</content>
+	<content contentuid="h4239b128g398eg4700g86edgb1499e0d2496" version="1">Manifest a wall of pressurized force. Creatures within will be in &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;.</content>
 	<content contentuid="hc1180697g9634g4b84gb46ag2ef175e42c9c" version="1">Grasp</content>
-	<content contentuid="ha82db9a3g45c0g450cgba3fg5651fd1b6911" version="1">Grasp a creature in telekinetic energy, Restraining it. While concentrating on this, you can cast Crush.</content>
+	<content contentuid="ha82db9a3g45c0g450cgba3fg5651fd1b6911" version="1">Grasp a creature in telekinetic energy, halving its movement speed. While concentrating on this, you can cast &lt;LSTag Tooltip="Target_Mystic_Crush"&gt;Crush&lt;/LSTag&gt;.</content>
+	<content contentuid="h562d0efag59ddg4a12gbdfdg526d998d4277" version="1">Grasped</content>
+	<content contentuid="ha67be8f6g0b8fg4f69g85e5gd6b9820aa018" version="1">Movement speed halved.</content>
+	<content contentuid="hcbf42d0fgf5aeg498dg8606g4be4f97997e2" version="1">Able to cast &lt;LSTag Tooltip="Target_Mystic_Crush"&gt;Crush&lt;/LSTag&gt;.</content>
 	<content contentuid="h14fbc9a9g937bg404dg9828ga15d97bae7c0" version="1">Crush</content>
-	<content contentuid="ha5ec3f66gafc7g4df2gba74g2dcb08319156" version="1">Crush a Restrained creature.</content>
+	<content contentuid="ha5ec3f66gafc7g4df2gba74g2dcb08319156" version="1">Crush the creature in your grasp.</content>
 	<content contentuid="hca8006b4gc36fg4945gb217gaed13e17b2ed" version="1">Ice Spike</content>
 	<content contentuid="hd9305583gb3b5g4943g8cf1g6dc5598e61a7" version="1">Hurl a sharp chunk of ice, reducing the target's movement speed by [1].</content>
 	<content contentuid="h9068ef18g784cg4e0agb49bgf11637d26257" version="1">Movement speed reduced by [1].</content>
 	<content contentuid="h23d4e455g6a54g4588g83e6g30c15afb84e4" version="1">Ice Sheet</content>
 	<content contentuid="he2419769g603eg4997g8f00g8c8b81f48c95" version="1">Condense and freeze the air in an area, creating an ice surface.</content>
 	<content contentuid="h6d3dd2b8g7058g432ega9cag634db46c2cb6" version="1">Frozen Sanctuary</content>
-	<content contentuid="hedad1cc0gefc8g4f3ag84f8g62a28800b33b" version="1">Sheathe yourself in icy resilience, gaining [1] temporary hit points.</content>
-	<content contentuid="h3fac742ag0b3dg4dcag8f31g72cd0c2de35f" version="1">Gain [1] temporary hit points.</content>
+	<content contentuid="hedad1cc0gefc8g4f3ag84f8g62a28800b33b" version="1">Sheathe yourself in icy resilience, gaining [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;.</content>
+	<content contentuid="h3fac742ag0b3dg4dcag8f31g72cd0c2de35f" version="1">Gain [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;.</content>
 	<content contentuid="h5f95805age5e7g44c9g99f6g74be6cf53e5a" version="1">Frozen Rain</content>
-	<content contentuid="hf2df9e10g8ae2g466bg9256gbe78684c3235" version="1">Create an area filled with deathly cold and saturated moisture, reducing the movement speed of creatures within to 0. Each turn, creatures affected make a Strength Saving Throw to attempt to free themselves.</content>
+	<content contentuid="hf2df9e10g8ae2g466bg9256gbe78684c3235" version="1">Create an area filled with deathly cold and saturated moisture, reducing the movement speed of creatures within to 0. Each turn, creatures affected make a Strength &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; to attempt to free themselves.</content>
 	<content contentuid="h59281052gd2c2g4a8cgaa8bgcfc39a66321c" version="1">Movement speed reduced to 0.</content>
 	<content contentuid="hffbc0d49gca10g4226g8cd5ga1651badf1a7" version="1">Ice Barrier</content>
 	<content contentuid="h68d85accg564bg4affg8219g9c96403a5ff7" version="1">Darkness</content>
@@ -745,7 +748,7 @@
 	<content contentuid="h87afed8cg7b25g420cgb445g0c565dd68e33" version="1">Water Whip</content>
 	<content contentuid="h00b39772gdc47g4097g94c0g58a4cd1e5eb8" version="1">Unleash a jet of water in a line, battering creatures caught in the blast.</content>
 	<content contentuid="h492bb7acged62g464bg9971g4320777edc4b" version="1">Water Sphere</content>
-	<content contentuid="hecc4ab94g70d3g4aa3g8121g24e692f7a0a1" version="1">Create a sphere of water around a creature, trapping it. While trapped, its movement speed is halved, it suffers &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and its sight range is reduced to [1], however, &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against it also suffer &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;. The creature can repeat the Saving Throw at the end of each of its turns.</content>
+	<content contentuid="hecc4ab94g70d3g4aa3g8121g24e692f7a0a1" version="1">Create a sphere of water around a creature, trapping it. While trapped, its movement speed is halved, it suffers &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and its sight range is reduced to [1], however, &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against it also suffer &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;. The creature can repeat the &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; at the end of each of its turns.</content>
 	<content contentuid="hc5304740g7e91g471eg9d78gbb3a9b09e913" version="1">Encased in a sphere of water. Movement speed halved. &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;. Sight range is reduced to [1]. Incoming Attacks have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
 	<content contentuid="h24d90535g0e69g4c4ag869eg10e0a7d0f6db" version="1">Animate Water</content>
 	<content contentuid="h38bdbceeg97deg4545ga334ge1bf23a92117" version="1">Summon a Water Elemental.</content>
@@ -760,7 +763,7 @@
 	<content contentuid="h0fdf4a1eg519cg46bcg8735g75b7d7dcc113" version="1">Wall of Thunder</content>
 	<content contentuid="hf2400914g9a65g461cga04bgb38b576426fc" version="1">Create a wall of raging thunderclouds. Creatures moving through the clouds have their movement speed halved. The clouds damage and repel enemies that try to enter or remain inside.</content>
 	<content contentuid="hf7d682f4gd5e3g4375gb91eg48a5f9bd7c5d" version="1">Thunder Clap</content>
-	<content contentuid="h05a08ff8g34c6g4c6dga0e0gd05003430d4d" version="1">Thunderous energy erupts in a targeted area, Stunning creatures inside.</content>
+	<content contentuid="h05a08ff8g34c6g4c6dga0e0gd05003430d4d" version="1">Thunderous energy erupts in a targeted area, &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stuning&lt;/LSTag&gt; creatures inside.</content>
 	<content contentuid="hfd6106d9g3b27g40cdg9600gb68249c8af8d" version="1">Animate Weapon</content>
 	<content contentuid="he473eb03g1569g4174gb71egb75d1e25a527" version="1">Seize control of a melee weapon you're holding, dealing its damage plus an additional [1] damage to a creature.</content>
 	<content contentuid="h83a09a72gd4cdg4b08ga961g3238a6650967" version="1">Warp Weapon</content>
@@ -771,7 +774,7 @@
 	<content contentuid="h6fcdffeegbad6g4e69gbfb6g755185e04884" version="1">Wall of Wood</content>
 	<content contentuid="h198949eeg4602g4235ga8d8g61ec1bea9738" version="1">Raise a wall of non-magical, solid wood.</content>
 	<content contentuid="h8f07e60bgc7ccg4e05gb730g0070236bd61f" version="1">Armoured Form</content>
-	<content contentuid="h7f453ca8gee30g4e5cg8d39ga323c199aa9a" version="1">Strengthen your body, gaining Resistance to Bludgeoning, Piercing, and Slashing damage.</content>
+	<content contentuid="h7f453ca8gee30g4e5cg8d39ga323c199aa9a" version="1">Strengthen your body, gaining &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Bludgeoning, Piercing, and Slashing damage.</content>
 	<content contentuid="h258664cage7a3g425fg96c4gd5b76a487c25" version="1">&lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Bludgeoning, Piercing, and Slashing damage.</content>
 	<content contentuid="he6887892g1f35g4ab2gb00bgbc8b0ae9f186" version="1">Animate Earth</content>
 	<content contentuid="h0453be45g6769g4bc8gad22ga1684eb1357f" version="1">Summon an Earth Elemental.</content>
@@ -822,8 +825,8 @@
 	<content contentuid="h29c97f6dg93efg4497g9f86gdcf3a6ecaa0e" version="1">As a reaction, halve incoming damage. Usable once per Short or Long Rest.</content>
 	
 	<content contentuid="h4f2b9252g0aebg4086gad50g7fc336859005" version="1">Elemental Attunement</content>
-	<content contentuid="he04500b3g2ca8g4705g8da0g41bd6ca90872" version="1">Once per turn as a free action, you can choose an element and ignore creatures' Resistance to that element until the end of your turn.</content>
-	<content contentuid="h98300e6fgf3cdg4009g91f3g2c0aef6d002d" version="1">Choose an element and ignore creatures' Resistance to it when dealing damage.</content>
+	<content contentuid="he04500b3g2ca8g4705g8da0g41bd6ca90872" version="1">Once per turn as a free action, you can choose an element and ignore creatures' &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to that element until the end of your turn.</content>
+	<content contentuid="h98300e6fgf3cdg4009g91f3g2c0aef6d002d" version="1">Choose an element and ignore creatures' &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to it when dealing damage.</content>
 	<content contentuid="h58ee04e2ga202g46adgb18egd1ad430e69f2" version="1">Elemental Attunement: Acid</content>
 	<content contentuid="hb50efea3g5b43g4999ga961g91cdd6eab87e" version="1">Elemental Attunement: Cold</content>
 	<content contentuid="h448e483dg3af3g4128gb36fgbe468fac59d3" version="1">Elemental Attunement: Fire</content>
@@ -834,26 +837,26 @@
 	<content contentuid="hf64e14d4g12aag492egbdf4gd71d9d44f5b1" version="1">Elemental Attunement: Psychic</content>
 	<content contentuid="h1d70a243gfa49g45a9g89a4gfa5430308f7a" version="1">Elemental Attunement: Radiant</content>
 	<content contentuid="h54e19348gd316g46fcg868ag3c848cfdb2ad" version="1">Elemental Attunement: Thunder</content>
-	<content contentuid="h54551b6fgb96dg4ec6gbc93g7934caf8bfc3" version="1">Ignore creatures' Resistance to Acid damage.</content>
-	<content contentuid="hf9fc0c91gf546g43bdg8c68g8b735188f44b" version="1">Ignore creatures' Resistance to Cold damage.</content>
-	<content contentuid="hf7101ee6ga74ag4556gb429gce4c2fdd11ab" version="1">Ignore creatures' Resistance to Fire damage.</content>
-	<content contentuid="ha9efaa06g1fc5g45b3g8222g40bd2d9d8c7f" version="1">Ignore creatures' Resistance to Force damage.</content>
-	<content contentuid="h2f7f8acag36cag41feg8d48g6c9e6888e3ad" version="1">Ignore creatures' Resistance to Lightning damage.</content>
-	<content contentuid="hba95f925gc5c7g4a81ga8e6g4ab2f388bcc3" version="1">Ignore creatures' Resistance to Necrotic damage.</content>
-	<content contentuid="h96d957bfgeeb5g46aegb0d3g605434324747" version="1">Ignore creatures' Resistance to Poison damage.</content>
-	<content contentuid="h017dcb5ag1062g43eeg9047g306af5f2d6ec" version="1">Ignore creatures' Resistance to Psychic damage.</content>
-	<content contentuid="hdf14c6d7g1086g4c3dg9aabge56ebfb22d71" version="1">Ignore creatures' Resistance to Radiant damage.</content>
-	<content contentuid="h52faa940g6b39g4d46g883bg16c222ab286c" version="1">Ignore creatures' Resistance to Thunder damage.</content>
-	<content contentuid="hb6aeb778g137eg485cg8182g3e7d715ce4e8" version="1">Ignores creatures' Resistance to Acid damage.</content>
-	<content contentuid="hdfcd33ccgeadcg4597ga0c7gd5a72dddb71e" version="1">Ignores creatures' Resistance to Cold damage.</content>
-	<content contentuid="h5a5862e4g5a11g4b30g9fa4g94373b1cc398" version="1">Ignores creatures' Resistance to Fire damage.</content>
-	<content contentuid="h952e4576g8e02g4c37gaea8gdf242a23693c" version="1">Ignores creatures' Resistance to Force damage.</content>
-	<content contentuid="h1aa07231gca27g4ba1g94b6g07f33ea1631a" version="1">Ignores creatures' Resistance to Lightning damage.</content>
-	<content contentuid="h9cf09930gd838g49bfg9209g0f4b4d94ca24" version="1">Ignores creatures' Resistance to Necrotic damage.</content>
-	<content contentuid="h57b65fc4g7589g454dga11cg00e17390715f" version="1">Ignores creatures' Resistance to Poison damage.</content>
-	<content contentuid="habe61b14g1ac9g407dgac50gd5f9bc094312" version="1">Ignores creatures' Resistance to Psychic damage.</content>
-	<content contentuid="hf586ed90gb857g459cga271g55f834caea22" version="1">Ignores creatures' Resistance to Radiant damage.</content>
-	<content contentuid="h753d68f8gf21dg4839g88e8ge4dd0702ba1b" version="1">Ignores creatures' Resistance to Thunder damage.</content>		
+	<content contentuid="h54551b6fgb96dg4ec6gbc93g7934caf8bfc3" version="1">Ignore creatures' &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Acid damage.</content>
+	<content contentuid="hf9fc0c91gf546g43bdg8c68g8b735188f44b" version="1">Ignore creatures' &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Cold damage.</content>
+	<content contentuid="hf7101ee6ga74ag4556gb429gce4c2fdd11ab" version="1">Ignore creatures' &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Fire damage.</content>
+	<content contentuid="ha9efaa06g1fc5g45b3g8222g40bd2d9d8c7f" version="1">Ignore creatures' &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Force damage.</content>
+	<content contentuid="h2f7f8acag36cag41feg8d48g6c9e6888e3ad" version="1">Ignore creatures' &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Lightning damage.</content>
+	<content contentuid="hba95f925gc5c7g4a81ga8e6g4ab2f388bcc3" version="1">Ignore creatures' &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Necrotic damage.</content>
+	<content contentuid="h96d957bfgeeb5g46aegb0d3g605434324747" version="1">Ignore creatures' &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Poison damage.</content>
+	<content contentuid="h017dcb5ag1062g43eeg9047g306af5f2d6ec" version="1">Ignore creatures' &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Psychic damage.</content>
+	<content contentuid="hdf14c6d7g1086g4c3dg9aabge56ebfb22d71" version="1">Ignore creatures' &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Radiant damage.</content>
+	<content contentuid="h52faa940g6b39g4d46g883bg16c222ab286c" version="1">Ignore creatures' &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Thunder damage.</content>
+	<content contentuid="hb6aeb778g137eg485cg8182g3e7d715ce4e8" version="1">Ignores creatures' &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Acid damage.</content>
+	<content contentuid="hdfcd33ccgeadcg4597ga0c7gd5a72dddb71e" version="1">Ignores creatures' &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Cold damage.</content>
+	<content contentuid="h5a5862e4g5a11g4b30g9fa4g94373b1cc398" version="1">Ignores creatures' &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Fire damage.</content>
+	<content contentuid="h952e4576g8e02g4c37gaea8gdf242a23693c" version="1">Ignores creatures' &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Force damage.</content>
+	<content contentuid="h1aa07231gca27g4ba1g94b6g07f33ea1631a" version="1">Ignores creatures' &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Lightning damage.</content>
+	<content contentuid="h9cf09930gd838g49bfg9209g0f4b4d94ca24" version="1">Ignores creatures' &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Necrotic damage.</content>
+	<content contentuid="h57b65fc4g7589g454dga11cg00e17390715f" version="1">Ignores creatures' &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Poison damage.</content>
+	<content contentuid="habe61b14g1ac9g407dgac50gd5f9bc094312" version="1">Ignores creatures' &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Psychic damage.</content>
+	<content contentuid="hf586ed90gb857g459cga271g55f834caea22" version="1">Ignores creatures' &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Radiant damage.</content>
+	<content contentuid="h753d68f8gf21dg4839g88e8ge4dd0702ba1b" version="1">Ignores creatures' &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Thunder damage.</content>		
 	<content contentuid="h8ced69f1g42cfg4828ga538g852944622e0c" version="1">Arcane Dabbler</content>
 	<content contentuid="h5bd00090g1bd2g462ag92e0g0fc72ba7ade1" version="1">Your skill in manipulating the elements allows you to control the Weave. You learn three Wizard spells, and can spend Psi Points to gain spell slots. These spell slots are lost after you Long Rest.</content>
 	<content contentuid="h9bcfb552g62deg47e4ga2bfga08470f32fe9" version="1">Create Spell Slot</content>

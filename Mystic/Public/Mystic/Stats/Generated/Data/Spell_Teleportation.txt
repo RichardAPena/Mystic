@@ -47,29 +47,72 @@ data "UseCosts" "ActionPoint:1;PsiPointsResource:5;PsiLimitResource:1:5"
 
 // TEMPLATE END
 
+// Transposition
+new entry "Teleportation_Mystic_Transposition"
 
-new entry "Target_Mystic_ThereAndBackAgain"
+// Baleful Transposition
+new entry "Teleportation_Mystic_BalefulTransposition"
+
+// Phantom Caravan
+new entry "Teleportation_Mystic_PhantomCaravan"
 type "SpellData"
-data "SpellType" "Target"
-data "Level" "2"
+data "SpellType" "Teleportation"
+data "Level" "6"
 
-data "Icon" "Spell_Conjuration_MistyStep"
-data "DisplayName" ""
-data "Description" ""
+data "Icon" "Spell_Conjuration_DimensionDoor"
+data "DisplayName" "ha132063cg8fafg418cg8adeg67f15f2f2aa4"
+data "Description" "h7d878a52ga59cg44fdg9680gcb478bbccc50"
 
-data "SpellProperties" "GROUND:TeleportSource();"
 data "TargetRadius" "18"
-data "TargetConditions" "CanStand('') and not Character() and not Self()"
-
-data "CastSound" "Spell_Cast_Utility_MistyStep_L1to3"
-data "TargetSound" "Spell_Impact_Utility_MistyStep_L1to3"
-data "VocalComponentSound" "Vocal_Component_Teleport"
-data "CastTextEvent" "Cast"
-data "UseCosts" "BonusActionPoint:1"
-data "SpellAnimation" "dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;39daf365-ec06-49a8-81f3-9032640699d7,,;5c400e93-0266-499c-a2e1-75d53358460f,,;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;,,;,,"
-data "VerbalIntent" "Utility"
-data "SpellFlags" "IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold"
-
+data "AreaRadius" "50"
+// data "NumberOfTargets" "6"
 data "LineOfSightFlags" "AddSourceHeight"
+data "SpellProperties" "GROUND:TeleportSource()"
+data "TargetConditions" "CanStand('') and not Character()"
+data "OriginTargetConditions" "Ally() and (Tagged('WEIGHT_MEDIUM') or Tagged('WEIGHT_SMALL') or Tagged('WEIGHT_TINY'))"
+data "TeleportSelf" "No"
+data "TeleportSurface" "No"
+
+// data "CastSound" "Spell_Cast_Utility_DimensionDoor_L4to5"
+data "TargetSound" "Spell_Impact_Utility_DimensionDoor_L4to5"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
+data "UseCosts" "ActionPoint:1"
+data "SpellAnimation" "dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;7abe77ed-9c77-4eac-872c-5b8caed070b6,,;cb171bda-f065-4520-b470-e447f678ba1f,,;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;,,;,,"
+data "SpellFlags" "IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;CannotTargetItems"
+data "HitAnimationType" "None"
+data "VerbalIntent" "Utility"
 data "PrepareEffect" "7121a488-7c9a-4ba1-a585-f79aaa77e97c"
-data "CastEffect" "71859b27-bdda-44c3-8c65-7f142a1a2f60"
+data "CastEffect" "4d65f0dd-ff5e-4253-8aa1-f0e12e539a40"
+data "DisappearEffect" "b214ce9c-33c2-4dfc-bfc2-3af8e4124714"
+
+// Nomadic Gate
+new entry "Teleportation_Mystic_NomadicGate"
+type "SpellData"
+data "SpellType" "Teleportation"
+data "Level" "6"
+
+data "Icon" "Spell_Abjuration_ArcaneGate"
+data "DisplayName" "h7285fa34gde9bg44e0gb0fagca90dab02ff9"
+data "Description" "hc31bb328gcb0cg48d3g9d82gb4583be8f670"
+
+data "TargetRadius" "18"
+data "AreaRadius" "18"
+data "LineOfSightFlags" "AddSourceHeight"
+data "SpellProperties" "GROUND:Summon(721dcc51-9733-463b-87c5-6afcda6fef65,10,,ArcaneGate2)"
+data "TargetConditions" "CanStand('721dcc51-9733-463b-87c5-6afcda6fef65') and not Character()"
+data "OriginSpellProperties" "GROUND:Summon(721dcc51-9733-463b-87c5-6afcda6fef65,10,,,ArcaneGate1)"
+data "OriginTargetConditions" "CanStand('721dcc51-9733-463b-87c5-6afcda6fef65') and not Character() and not Item()"
+data "TeleportSelf" "No"
+data "TeleportSurface" "No"
+
+data "CastSound" "Spell_Cast_Utility_ArcaneGate_L6to8"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
+data "UseCosts" "ActionPoint:1;PsiPointsResource:7;PsiLimitResource:1:7"
+data "SpellAnimation" "dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;7abe77ed-9c77-4eac-872c-5b8caed070b6,,;cb171bda-f065-4520-b470-e447f678ba1f,,;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;,,;,,"
+data "SpellFlags" "HasHighGroundRangeExtension;IsConcentration;IsSpell;CannotTargetItems;CannotTargetCharacter;RangeIgnoreVerticalThreshold"
+data "VerbalIntent" "Utility"
+data "PrepareEffect" "7121a488-7c9a-4ba1-a585-f79aaa77e97c"
+data "CastEffect" "518bc78f-c169-43ba-b951-977d75429199"
+data "IgnoreTeleport" "Yes"

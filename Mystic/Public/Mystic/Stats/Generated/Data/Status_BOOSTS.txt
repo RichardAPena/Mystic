@@ -2056,42 +2056,42 @@ type "StatusData"
 data "StatusType" "BOOST"
 using "MYSTIC_LETHAL_STRIKE_1"
 data "DescriptionParams" "DealDamage(2d10,Psychic)"
-data "Boosts" "IF(IsWeaponAttack()):DamageBonus(2d10)"
+data "Boosts" "IF(IsWeaponAttack()):DamageBonus(2d10,Psychic)"
 
 new entry "MYSTIC_LETHAL_STRIKE_3"
 type "StatusData"
 data "StatusType" "BOOST"
 using "MYSTIC_LETHAL_STRIKE_1"
 data "DescriptionParams" "DealDamage(3d10,Psychic)"
-data "Boosts" "IF(IsWeaponAttack()):DamageBonus(3d10)"
+data "Boosts" "IF(IsWeaponAttack()):DamageBonus(3d10,Psychic)"
 
 new entry "MYSTIC_LETHAL_STRIKE_4"
 type "StatusData"
 data "StatusType" "BOOST"
 using "MYSTIC_LETHAL_STRIKE_1"
 data "DescriptionParams" "DealDamage(4d10,Psychic)"
-data "Boosts" "IF(IsWeaponAttack()):DamageBonus(4d10)"
+data "Boosts" "IF(IsWeaponAttack()):DamageBonus(4d10,Psychic)"
 
 new entry "MYSTIC_LETHAL_STRIKE_5"
 type "StatusData"
 data "StatusType" "BOOST"
 using "MYSTIC_LETHAL_STRIKE_1"
 data "DescriptionParams" "DealDamage(5d10,Psychic)"
-data "Boosts" "IF(IsWeaponAttack()):DamageBonus(5d10)"
+data "Boosts" "IF(IsWeaponAttack()):DamageBonus(5d10,Psychic)"
 
 new entry "MYSTIC_LETHAL_STRIKE_6"
 type "StatusData"
 data "StatusType" "BOOST"
 using "MYSTIC_LETHAL_STRIKE_1"
 data "DescriptionParams" "DealDamage(6d10,Psychic)"
-data "Boosts" "IF(IsWeaponAttack()):DamageBonus(6d10)"
+data "Boosts" "IF(IsWeaponAttack()):DamageBonus(6d10,Psychic)"
 
 new entry "MYSTIC_LETHAL_STRIKE_7"
 type "StatusData"
 data "StatusType" "BOOST"
 using "MYSTIC_LETHAL_STRIKE_1"
 data "DescriptionParams" "DealDamage(7d10,Psychic)"
-data "Boosts" "IF(IsWeaponAttack()):DamageBonus(7d10)"
+data "Boosts" "IF(IsWeaponAttack()):DamageBonus(7d10,Psychic)"
 
 // Augmented Weapon
 new entry "MYSTIC_AUGMENTED_WEAPON"
@@ -2109,17 +2109,60 @@ data "ApplyEffect" "6994e8dc-14ac-48a5-9c8e-c1925031e852"
 data "StatusEffect" "359918c9-0c9a-4714-a032-0deac359d00b"
 
 // Speed Dart
-new entry "MYSTIC_SPEED_DART"
+new entry "MYSTIC_SPEED_DART_1"
 type "StatusData"
 data "StatusType" "BOOST"
 data "DisplayName" "h51cfcff8g9de8g486aga6b9g95276ac98dd7"
 data "Description" "hbeb579b0g85dcg4283gb867g60545a50eaa2"
-data "DescriptionParams" ""
-data "Icon" ""
+data "DescriptionParams" "DealDamage(1d10,Psychic)"
+data "Icon" "Spell_Conjuration_HailOfThorns"
 data "StackId" "MYSTIC_SPEED_DART"
-// data "TickType" "StartTurn"
-// data "StatusPropertyFlags" "TickingWithSource"
-data "Boosts" ""
+data "TickType" "EndTurn"
+data "Boosts" "IF(IsRangedWeaponAttack()):DamageBonus(1d10,Psychic)"
+data "RemoveConditions" "IsRangedWeaponAttack() and (HasDamageEffectFlag(DamageFlags.Hit) or HasDamageEffectFlag(DamageFlags.Critical)) and not (IsCriticalMiss() or IsMiss())"
+data "RemoveEvents" "OnDamage"
+
+new entry "MYSTIC_SPEED_DART_2"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MYSTIC_SPEED_DART_1"
+data "DescriptionParams" "DealDamage(2d10,Psychic)"
+data "Boosts" "IF(IsRangedWeaponAttack()):DamageBonus(2d10,Psychic)"
+
+new entry "MYSTIC_SPEED_DART_3"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MYSTIC_SPEED_DART_1"
+data "DescriptionParams" "DealDamage(3d10,Psychic)"
+data "Boosts" "IF(IsRangedWeaponAttack()):DamageBonus(3d10,Psychic)"
+
+new entry "MYSTIC_SPEED_DART_4"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MYSTIC_SPEED_DART_1"
+data "DescriptionParams" "DealDamage(4d10,Psychic)"
+data "Boosts" "IF(IsRangedWeaponAttack()):DamageBonus(4d10,Psychic)"
+
+new entry "MYSTIC_SPEED_DART_5"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MYSTIC_SPEED_DART_1"
+data "DescriptionParams" "DealDamage(5d10,Psychic)"
+data "Boosts" "IF(IsRangedWeaponAttack()):DamageBonus(5d10,Psychic)"
+
+new entry "MYSTIC_SPEED_DART_6"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MYSTIC_SPEED_DART_1"
+data "DescriptionParams" "DealDamage(6d10,Psychic)"
+data "Boosts" "IF(IsRangedWeaponAttack()):DamageBonus(6d10,Psychic)"
+
+new entry "MYSTIC_SPEED_DART_7"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MYSTIC_SPEED_DART_1"
+data "DescriptionParams" "DealDamage(7d10,Psychic)"
+data "Boosts" "IF(IsRangedWeaponAttack()):DamageBonus(7d10,Psychic)"
 
 // Faithful Archer
 new entry "MYSTIC_FAITHFUL_ARCHER"
@@ -2127,12 +2170,12 @@ type "StatusData"
 data "StatusType" "BOOST"
 data "DisplayName" "h574e8af9g5955g44e7g9784g45fa820d25a1"
 data "Description" "h50719c0eg4303g48dega765gc79a5b0bd0fa"
-data "DescriptionParams" ""
-data "Icon" ""
+// data "DescriptionParams" ""
+data "Icon" "Action_Steady_Ranged"
 data "StackId" "MYSTIC_FAITHFUL_ARCHER"
 // data "TickType" "StartTurn"
 // data "StatusPropertyFlags" "TickingWithSource"
-data "Boosts" ""
+data "Boosts" "UnlockSpell(Projectile_Mystic_FaithfulQuiver)"
 
 // Chameleon
 new entry "MYSTIC_CHAMELEON"
@@ -2140,12 +2183,12 @@ type "StatusData"
 data "StatusType" "BOOST"
 data "DisplayName" "h7fd9d711g8378g4a2bgb3a6g145c63badc55"
 data "Description" "hcfce4a6dgf820g4fffga302g0d0afc33a80f"
-data "DescriptionParams" ""
-data "Icon" ""
+// data "DescriptionParams" ""
+data "Icon" "Action_Warlock_OneWithShadows"
 data "StackId" "MYSTIC_CHAMELEON"
 // data "TickType" "StartTurn"
 // data "StatusPropertyFlags" "TickingWithSource"
-data "Boosts" ""
+data "Boosts" "Skill(Stealth, 10)"
 
 // new entry "MYSTIC_STEP_FROM_SIGHT"
 // just apply regular invisibility
@@ -2201,8 +2244,6 @@ data "Description" "he113895dgf352g4cbbgbe98g767e062c3c26"
 data "DescriptionParams" ""
 data "Icon" "PassiveFeature_ExpertDivination"
 data "StackId" "MYSTIC_UNWAVERING_EYE"
-// data "TickType" "StartTurn"
-// data "StatusPropertyFlags" "TickingWithSource"
 data "Boosts" "Advantage(Ability, Wisdom)"
 
 // Piercing Sight
@@ -2212,25 +2253,38 @@ data "StatusType" "BOOST"
 using "SEE_INVISIBILITY"
 data "DisplayName" "h5d5be424g7e79g4895g9a14g1dea944a0f9a"
 data "Description" "h1da8bc4bga85fg4909gb052g0c504c8dae1f"
-// data "DescriptionParams" ""
 data "Icon" "Action_Raven_BeakAttack"
 data "StackId" "MYSTIC_PIERCING_SIGHT"
-// data "TickType" "StartTurn"
-// data "StatusPropertyFlags" "TickingWithSource"
-// data "Boosts" ""
 
 // Truesight
 new entry "MYSTIC_TRUESIGHT"
 type "StatusData"
 data "StatusType" "BOOST"
+using "SEE_INVISIBILITY"
 data "DisplayName" "h865be973gbb6eg4bfega6b5g65c8d6028af5"
 data "Description" "h254a3983g962dg411fg8ba5g2facc2f350f5"
-data "DescriptionParams" ""
-data "Icon" ""
+// data "DescriptionParams" ""
+data "Icon" "Action_TransmuterStone_Darkvision"
 data "StackId" "MYSTIC_TRUESIGHT"
 // data "TickType" "StartTurn"
 // data "StatusPropertyFlags" "TickingWithSource"
-data "Boosts" ""
+data "Boosts" "StatusImmunity(BLINDED_DARKNESS);IgnoreSurfaceCover(SurfaceDarknessCloud)"
+data "AuraRadius" "9"
+// data "AuraStatuses" "TARGET:IF(Character() and Enemy()):ApplyStatus(MYSTIC_TRUESIGHT_BUFF)"
+data "AuraStatuses" "TARGET:IF(not HasAnyStatus({'SG_Unconscious','SG_Incapacitated','SG_Blinded'},{},{},context.Source) and not Ally() and HasStatus('SG_Invisible')):ApplyStatus(SEE_INVISIBILITY_SEEN);TARGET:IF(Character() and Enemy()):ApplyStatus(MYSTIC_TRUESIGHT_BUFF)"
+data "AuraFlags" "CanAffectInvisibleItems;AIIgnoreOnSelf"
+data "OnApplyFunctors" "AI_ONLY:IF(not HasStatus('SEE_INVISIBILITY')):ApplyStatus(AI_HELPER_SEEINVISIBILITY,100,3)"
+data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusEffect" "d8452a11-7c66-45fb-8ccb-64e2fa56ada5"
+
+
+new entry "MYSTIC_TRUESIGHT_BUFF"
+data "DisplayName" "h865be973gbb6eg4bfega6b5g65c8d6028af5"
+data "Description" "hfb5d9e3agf60dg4d03ga851gbd7c3aafd72d"
+// data "DescriptionParams" ""
+data "Icon" "Action_TransmuterStone_Darkvision"
+data "StackId" "MYSTIC_TRUESIGHT"
+data "Boosts" "Disadvantage(Skill, Stealth)"
 
 // Cloak of Air
 new entry "MYSTIC_CLOAK_OF_AIR"
@@ -2386,7 +2440,6 @@ data "StatusEffect" "b605de22-7474-4f7b-9eeb-287ef6a94dce"
 
 // Grasp
 new entry "MYSTIC_GRASP"
-// ?????
 type "StatusData"
 data "StatusType" "BOOST"
 data "DisplayName" "hc1180697g9634g4b84gb46ag2ef175e42c9c"
@@ -2394,11 +2447,17 @@ data "Description" "hcbf42d0fgf5aeg498dg8606g4be4f97997e2"
 data "DescriptionParams" ""
 data "Icon" "Action_Imp_Claws"
 data "StackId" "MYSTIC_GRASP"
-// data "TickType" "StartTurn"
-// data "StatusPropertyFlags" "TickingWithSource"
 data "Boosts" "UnlockSpell(Target_Mystic_Crush)"
 
-// TODO: unlock spell crush
+new entry "MYSTIC_GRASPED"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h562d0efag59ddg4a12gbdfdg526d998d4277"
+data "Description" "ha67be8f6g0b8fg4f69g85e5gd6b9820aa018"
+data "DescriptionParams" ""
+data "Icon" "Action_Imp_Claws"
+data "StackId" "MYSTIC_GRASPED"
+data "Boosts" "ActionResourceConsumeMultiplier(Movement, 2,0);"
 
 // Ice Spike
 new entry "MYSTIC_ICE_SPIKE"
@@ -2489,6 +2548,7 @@ data "OnApplyFunctors" "IF(Tagged('WEIGHT_SMALL')):ApplyStatus(RESILIENT_SPHERE_
 
 // TODO: WALL OF THUNDER
 new entry "MYSTIC_WALLOFTHUNDER"
+type "StatusData"
 data "StatusType" "BOOST"
 data "DisplayName" "h0fdf4a1eg519cg46bcg8735g75b7d7dcc113"
 data "Description" "hf2400914g9a65g461cga04bgb38b576426fc"
@@ -2503,11 +2563,9 @@ data "AuraStatuses" "IF(not Dead()):ApplyStatus(MYSTIC_WALLOFTHUNDER_AURA,100,1)
 data "TooltipSave" "Strength"
 data "TooltipDamage" "DealDamage(6d6,Thunder)"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;InitiateCombat;BringIntoCombat"
-// data "StatusEffect" "e53dac27-440d-445a-9dc5-2d86536c2048" 
-data "StatusEffect" "9fa7b901-439a-4425-ae92-b027775cf5af"
-
-
-
+data "StatusEffect" "e53dac27-440d-445a-9dc5-2d86536c2048" 
+// data "StatusEffect" "9fa7b901-439a-4425-ae92-b027775cf5af"
+// data "StatusEffect" "362f2080-b927-4846-8aec-66752dbafd07"
 
 new entry "MYSTIC_WALLOFTHUNDER_AURA"
 type "StatusData"
@@ -2521,6 +2579,7 @@ data "StackPriority" "0"
 data "TickType" "StartTurn"
 data "TooltipDamage" "DealDamage(6d6,Thunder)"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog"
+data "Boosts" "ActionResourceConsumeMultiplier(Movement, 2,0);MovementSpeedLimit(Walk)"
 
 data "OnApplyRoll" "WallOfFireCheck(Ability.Strength,SourceSpellDC(10,GetSummoner(context.Source)))"
 // TODO: Add Force (if it's even possible here)
@@ -2534,17 +2593,12 @@ data "OnTickFail"    "IF(not HasStatus('MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED')):
 // data "OnTickSuccess" "IF(not HasStatus('MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED') or StatusDurationLessThan(context.Source, 'MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED', 0.1)):DealDamage(5d8,Fire,Magical);ApplyStatus(MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED,100,1)"
 // data "OnTickFail" "IF(not HasStatus('MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED') or StatusDurationLessThan(context.Source, 'MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED', 0.1)):DealDamage(5d8/2,Fire,Magical);ApplyStatus(MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED,100,1)"
 
-
-
-
-
-
 // shouldnt need this anymore?
 // data "OnApplySuccess" "IF(not HasStatus('WALLOFFIRE_DAMAGE_RECEIVED')):DealDamage(5d8,Fire,Magical);  IF(not HasStatus('WALLOFFIRE_DAMAGE_RECEIVED')):ApplyStatus(WALLOFFIRE_DAMAGE_RECEIVED,100,1)"
 // data "OnApplyFail"    "IF(not HasStatus('WALLOFFIRE_DAMAGE_RECEIVED')):DealDamage(5d8/2,Fire,Magical);IF(not HasStatus('WALLOFFIRE_DAMAGE_RECEIVED',context.Target)):ApplyStatus(WALLOFFIRE_DAMAGE_RECEIVED,100,1)"
 
-data "OnTickSuccess" "IF(not HasStatus('WALLOFFIRE_DAMAGE_RECEIVED') or StatusDurationLessThan(context.Source, 'WALLOFFIRE_DAMAGE_RECEIVED', 0.1)):DealDamage(5d8,Fire,Magical);ApplyStatus(WALLOFFIRE_DAMAGE_RECEIVED,100,1)"
-data "OnTickFail" "IF(not HasStatus('WALLOFFIRE_DAMAGE_RECEIVED') or StatusDurationLessThan(context.Source, 'WALLOFFIRE_DAMAGE_RECEIVED', 0.1)):DealDamage(5d8/2,Fire,Magical);ApplyStatus(WALLOFFIRE_DAMAGE_RECEIVED,100,1)"
+// data "OnTickSuccess" "IF(not HasStatus('WALLOFFIRE_DAMAGE_RECEIVED') or StatusDurationLessThan(context.Source, 'WALLOFFIRE_DAMAGE_RECEIVED', 0.1)):DealDamage(5d8,Fire,Magical);ApplyStatus(WALLOFFIRE_DAMAGE_RECEIVED,100,1)"
+// data "OnTickFail" "IF(not HasStatus('WALLOFFIRE_DAMAGE_RECEIVED') or StatusDurationLessThan(context.Source, 'WALLOFFIRE_DAMAGE_RECEIVED', 0.1)):DealDamage(5d8/2,Fire,Magical);ApplyStatus(WALLOFFIRE_DAMAGE_RECEIVED,100,1)"
 
 
 new entry "MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED"
