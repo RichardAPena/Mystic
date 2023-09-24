@@ -200,7 +200,7 @@
 	<content contentuid="h169b1e54g4babg40efg829bg8567e4cbc641" version="1">Increase your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by 1.</content>
 	<content contentuid="h065bc831g06ecg4b9dgb9c3g51bc2fe08cb0" version="1">&lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; increased by 1.</content>
 	<content contentuid="hc7e29d53g3ebcg47b5g8e62gc0eef01fa7d0" version="1">Psychic Focus: Nomadic Arrow</content>
-	<content contentuid="h356fa408gfff8g46adg9497gacbd4660ec50" version="1">Your ranged weapon attacks ignore &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;. If &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; would normally apply to the roll, it cannot gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
+	<content contentuid="h356fa408gfff8g46adg9497gacbd4660ec50" version="1">Your ranged attacks ignore &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;. If &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; would normally apply to the roll, it cannot gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
 	<content contentuid="hca14baebg02c9g40a5g8eabgb35e9956e0bd" version="1">Weapon &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; cannot suffer &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;. Weapon &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; that would normally have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; can't gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
 	<content contentuid="h1d1b7109gd26dg4c56g8f66g086fbe2c0f85" version="1">Psychic Focus: Nomadic Chameleon</content>
 	<content contentuid="ha9772555gdf2fg4af3gbfcfgfd19583b096b" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Stealth &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
@@ -663,12 +663,17 @@
 	<content contentuid="hb987f909gc923g4733ga4b4g8b18b4513ec4" version="1">Movement speed increases by [1]. Able to cast Back Again.</content>
 	<content contentuid="h152b7208ga0dfg46adg90cbg5d2fbeba4c4e" version="1">Back Again</content>
 	<content contentuid="hadf23575gdfa5g44ddg92d0gd6460413f88e" version="1">Teleport up to [1].</content>
-	<content contentuid="" version="1">Transposition</content>
-	<content contentuid="" version="1">Swap positions with an ally.</content>
-	<content contentuid="" version="1">Baleful Transposition</content>
-	<content contentuid="" version="1">Attempt to swap positions with an enemy.</content>
+	<content contentuid="h7506c6d4g1fc3g431aga858gd2d916d6f513" version="1">Transposition</content>
+	<content contentuid="h72ba4088g8393g4ed6gad6cgc03f63b6b839" version="1">Swap positions with an ally.</content>
+	<content contentuid="hb0644e83g0eddg4b4cg8a6aga7361829e54d" version="1">Baleful Transposition</content>
+	<content contentuid="h3f2af343ge7e9g4f51gb5a1gece26dc1f7ca" version="1">Attempt to swap positions with an enemy.</content>
 	<content contentuid="ha132063cg8fafg418cg8adeg67f15f2f2aa4" version="1">Phantom Caravan</content>
-	<content contentuid="h7d878a52ga59cg44fdg9680gcb478bbccc50" version="1">Teleport yourself and up to six allies.</content>
+	<content contentuid="h7d878a52ga59cg44fdg9680gcb478bbccc50" version="1">Gain the effect of Phantom Caravan, allowing you to teleport as many allies as you like. This effect ends if you move or at the end of your turn. Once affected, allies can't be targeted again until their next turn.</content>
+	<content contentuid="hbd7f36c3g521fg48e2g9430g9221e302c46b" version="1">Able to cast Phantom Journey while standing still.</content>
+	<content contentuid="hbab2b130g7b8cg4dbbg8bdbg2d6e40c8d97d" version="1">Phantom Journey</content>
+	<content contentuid="h36632121g776eg493bg97cbg245da3511d09" version="1">Teleport an ally to an unoccupied space.</content>
+	<content contentuid="h46a7c66eg83eag4be8g8dfbg55b6d41b6266" version="1">Arrived at Destination</content>
+	<content contentuid="h5de026eeg6455g48c1ga5c0gdca2dd91a677" version="1">Can't be targeted by Phantom Journey.</content>
 	<content contentuid="h7285fa34gde9bg44e0gb0fagca90dab02ff9" version="1">Nomad's Gate</content>
 	<content contentuid="hc31bb328gcb0cg48d3g9d82gb4583be8f670" version="1">Create two linked teleportation portals.</content>
 	<content contentuid="h80ac6a86g0629g4cecg82efg724543bf70c3" version="1">Tremorsense</content>
@@ -831,7 +836,14 @@
 	<content contentuid="h0fb6ae80ge747g4fffg9409gb7fa6353d523" version="1">Gain [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;.</content>
 	<content contentuid="h56cb35d0g56f3g4098g8d58gbdab90b41a46" version="1">Surge of Health</content>
 	<content contentuid="h29c97f6dg93efg4497g9f86gdcf3a6ecaa0e" version="1">As a reaction, halve incoming damage. Usable once per Short or Long Rest.</content>
-	
+	<content contentuid="h91b43ea0g8a4cg406cg8809gb21958563387" version="1">Breadth of Knowledge</content>
+	<content contentuid="he1fa0398g08fcg459bgade7ge5b41ca5f15f" version="1">Your vast and varied experience grants you a +1 bonus to all Skills.</content>
+	<content contentuid="h6572d753g277fg4e06ga35bgb9df9f0d9c69" version="1">Memory of One Thousand Steps</content>
+	<content contentuid="h49108727g9317g4c3fgb887g5d2e09c8c720" version="1">As a reaction, you can force an attack to miss you. Until the end of your next turn, you can use Memory of One Thousand Steps to teleport up to [1]. Usable once per Short or Long Rest.</content>
+	<content contentuid="h19aa3564gf2b5g486egbd08g20fb384b249e" version="1">Able to teleport up to [1].</content>
+	<content contentuid="h22b03d2egfc61g4112gbb13gca5105a6388a" version="1">Teleport up to [1].</content>
+	<content contentuid="h34693707ge485g441fg8551g9d1ae7dc820a" version="1">Superior Teleportation</content>
+	<content contentuid="hd424fda3gf256g4519g8d76g15dced640ac1" version="1">Increase the teleportation range of psionic disciplines by [1].</content>
 	<content contentuid="h4f2b9252g0aebg4086gad50g7fc336859005" version="1">Elemental Attunement</content>
 	<content contentuid="he04500b3g2ca8g4705g8da0g41bd6ca90872" version="1">Once per turn as a free action, you can choose an element and ignore creatures' &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to that element until the end of your turn.</content>
 	<content contentuid="h98300e6fgf3cdg4009g91f3g2c0aef6d002d" version="1">Choose an element and ignore creatures' &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to it when dealing damage.</content>

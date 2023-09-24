@@ -16,62 +16,95 @@ data "TooltipUpcastDescription" "6ff1780a-855a-414c-a8bf-811251537206"
 data "CastSound" ""
 data "UseCosts" "ActionPoint:1;PsiPointsResource:5;PsiLimitResource:1:5"
 
-
-// TEMPLATE
-
-// new entry "Target_MistyStep"
+//  Transposition
+// DEPRECATED
+// new entry "Teleportation_Mystic_Transposition"
 // type "SpellData"
-// data "SpellType" "Target"
-// data "Level" "2"
+// data "SpellType" "Teleportation"
+// data "Level" "3"
 
-// data "Icon" "Spell_Conjuration_MistyStep"
-// data "DisplayName" ""
-// data "Description" ""
-
-// data "SpellProperties" "GROUND:TeleportSource();"
+// data "Icon" "Action_Monster_Djinni_MistyStep"
+// data "DisplayName" "h7506c6d4g1fc3g431aga858gd2d916d6f513"
+// data "Description" "h72ba4088g8393g4ed6gad6cgc03f63b6b839"
 // data "TargetRadius" "18"
-// data "TargetConditions" "CanStand('') and not Character() and not Self()"
-// data "TooltipUpcastDescription" "6ff1780a-855a-414c-a8bf-811251537206"
-// data "CastSound" "Spell_Cast_Utility_MistyStep_L1to3"
-// data "TargetSound" "Spell_Impact_Utility_MistyStep_L1to3"
-// data "VocalComponentSound" "Vocal_Component_Teleport"
-// data "CastTextEvent" "Cast"
-// data "UseCosts" "BonusActionPoint:1"
-// data "SpellAnimation" "dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;39daf365-ec06-49a8-81f3-9032640699d7,,;5c400e93-0266-499c-a2e1-75d53358460f,,;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;,,;,,"
-// data "VerbalIntent" "Utility"
-// data "SpellFlags" "IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold"
+// data "AreaRadius" "50"
 
 // data "LineOfSightFlags" "AddSourceHeight"
+// data "SpellProperties" "TARGET:TeleportSource()"
+// data "TargetConditions" "CanStand('') and not Self()"
+// data "OriginTargetConditions" "Ally() and (Tagged('WEIGHT_MEDIUM') or Tagged('WEIGHT_SMALL') or Tagged('WEIGHT_TINY'))"
+// data "TeleportSelf" "Yes"
+// data "TeleportSurface" "No" 
+
+// data "TargetSound" "Spell_Impact_Utility_DimensionDoor_L4to5"
+// data "PreviewCursor" "Cast"
+// data "CastTextEvent" "Cast"
+// data "UseCosts" "ActionPoint:1"
+// data "SpellAnimation" "dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;7abe77ed-9c77-4eac-872c-5b8caed070b6,,;cb171bda-f065-4520-b470-e447f678ba1f,,;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;,,;,,"
+// data "SpellFlags" "IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;CannotTargetItems"
+// data "HitAnimationType" "None"
+// data "VerbalIntent" "Utility"
 // data "PrepareEffect" "7121a488-7c9a-4ba1-a585-f79aaa77e97c"
-// data "CastEffect" "71859b27-bdda-44c3-8c65-7f142a1a2f60"
+// data "CastEffect" "4d65f0dd-ff5e-4253-8aa1-f0e12e539a40"
+// data "DisappearEffect" "b214ce9c-33c2-4dfc-bfc2-3af8e4124714"
 
-// TEMPLATE END
+//  Baleful Transposition
+// DEPRECATED
 
-// Transposition
-new entry "Teleportation_Mystic_Transposition"
+// new entry "Teleportation_Mystic_BalefulTransposition"
+// type "SpellData"
+// data "SpellType" "Teleportation"
+// // data "SpellType" "Target"
+// data "Level" "5"
 
-// Baleful Transposition
-new entry "Teleportation_Mystic_BalefulTransposition"
+// data "Icon" "Action_Mag_Hellcrawler"
+// data "DisplayName" "hb0644e83g0eddg4b4cg8a6aga7361829e54d"
+// data "Description" "h3f2af343ge7e9g4f51gb5a1gece26dc1f7ca"
+// data "TargetRadius" "18"
+// data "AreaRadius" "50"
 
-// Phantom Caravan
+// data "LineOfSightFlags" "AddSourceHeight"
+// data "SpellProperties" "GROUND:TeleportSource()"
+// data "TargetConditions" "CanStand('') and not Character()"
+// data "OriginTargetConditions" "(Tagged('WEIGHT_MEDIUM') or Tagged('WEIGHT_SMALL') or Tagged('WEIGHT_TINY'))"
+// data "TeleportSelf" "Yes"
+// data "TeleportSurface" "No" 
+
+// data "TargetSound" "Spell_Impact_Utility_DimensionDoor_L4to5"
+// data "PreviewCursor" "Cast"
+// data "CastTextEvent" "Cast"
+// data "UseCosts" "ActionPoint:1"
+// data "SpellAnimation" "dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;7abe77ed-9c77-4eac-872c-5b8caed070b6,,;cb171bda-f065-4520-b470-e447f678ba1f,,;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;,,;,,"
+// data "SpellFlags" "IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;CannotTargetItems"
+// data "HitAnimationType" "None"
+// data "VerbalIntent" "Utility"
+// data "PrepareEffect" "7121a488-7c9a-4ba1-a585-f79aaa77e97c"
+// data "CastEffect" "4d65f0dd-ff5e-4253-8aa1-f0e12e539a40"
+// data "DisappearEffect" "b214ce9c-33c2-4dfc-bfc2-3af8e4124714"
+
+// TODO: Phantom Caravan
+// If nothing else works, just have a buff that lets you recast and fades on moving
 new entry "Teleportation_Mystic_PhantomCaravan"
 type "SpellData"
 data "SpellType" "Teleportation"
 data "Level" "6"
 
 data "Icon" "Spell_Conjuration_DimensionDoor"
+// Gain the effect of Phantom Caravan, allowing you to teleport as many allies as you like.
+// This effect ends if you move or at the end of your turn.
+// Once affected, allies can't be targeted again until their next turn.
 data "DisplayName" "ha132063cg8fafg418cg8adeg67f15f2f2aa4"
 data "Description" "h7d878a52ga59cg44fdg9680gcb478bbccc50"
-
 data "TargetRadius" "18"
-data "AreaRadius" "50"
-data "AmountOfTargets" "6"
+data "AreaRadius" "18"
+
 data "LineOfSightFlags" "AddSourceHeight"
-data "SpellProperties" "GROUND:TeleportSource()"
+// data "SpellProperties" "GROUND:TeleportSource()"
 data "TargetConditions" "CanStand('') and not Character()"
 data "OriginTargetConditions" "Ally() and (Tagged('WEIGHT_MEDIUM') or Tagged('WEIGHT_SMALL') or Tagged('WEIGHT_TINY'))"
 data "TeleportSelf" "No"
-data "TeleportSurface" "No"
+data "TeleportSurface" "No" 
+// TODO: ??? ^^^^^^^^^
 
 // data "CastSound" "Spell_Cast_Utility_DimensionDoor_L4to5"
 data "TargetSound" "Spell_Impact_Utility_DimensionDoor_L4to5"
@@ -85,6 +118,63 @@ data "VerbalIntent" "Utility"
 data "PrepareEffect" "7121a488-7c9a-4ba1-a585-f79aaa77e97c"
 data "CastEffect" "4d65f0dd-ff5e-4253-8aa1-f0e12e539a40"
 data "DisappearEffect" "b214ce9c-33c2-4dfc-bfc2-3af8e4124714"
+
+
+
+
+
+
+
+// data "SpellProperties" "GROUND:TeleportSource()"
+// data "OriginSpellProperties" "GROUND:Summon(1a1fc113-a50f-4a6c-bf5f-fcd8afcbda53,3,Projectile_AiHelper_Summon_Strong,,,DISPLACER_BEAST_ILLUSION_VFX,CREATEILLUSION_DISPLACERBEAST)"
+// data "OriginSpellRoll" "not SavingThrow(Ability.Intelligence,13)"
+// data "OriginSpellSuccess" "DealDamage(2d8,Psychic)"
+// data "OriginSpellFail" "DealDamage(2d8/2,Psychic)"
+// data "OriginTargetConditions" "Character() and not Self()"
+// data "TeleportSelf" "Yes"
+
+// Phantom Journey
+new entry "Teleportation_Mystic_PhantomJourney"
+type "SpellData"
+data "SpellType" "Teleportation"
+// data "Level" "6"
+
+data "Icon" "Spell_Conjuration_DimensionDoor"
+// Gain the effect of Phantom Caravan, allowing you to teleport as many allies as you like.
+// This effect ends if you move or at the end of your turn.
+// Once affected, allies can't be targeted again until their next turn.
+data "DisplayName" "hbab2b130g7b8cg4dbbg8bdbg2d6e40c8d97d"
+data "Description" "h36632121g776eg493bg97cbg245da3511d09"
+data "TargetRadius" "18"
+data "AreaRadius" "18"
+
+data "SpellProperties" "ApplyStatus(MYSTIC_ARRIVED_AT_DESTINATION,100,1)"
+data "LineOfSightFlags" "AddSourceHeight"
+data "TargetConditions" "CanStand('') and not Character() and not HasStatus('MYSTIC_ARRIVED_AT_DESTINATION')"
+data "OriginTargetConditions" "Ally() and (Tagged('WEIGHT_MEDIUM') or Tagged('WEIGHT_SMALL') or Tagged('WEIGHT_TINY'))"
+data "TeleportSelf" "No"
+data "TeleportSurface" "No" 
+
+data "TooltipStatusApply" "ApplyStatus(MYSTIC_ARRIVED_AT_DESTINATION,100,1)"
+data "TargetSound" "Spell_Impact_Utility_DimensionDoor_L4to5"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
+data "UseCosts" ""
+data "SpellAnimation" "dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;7abe77ed-9c77-4eac-872c-5b8caed070b6,,;cb171bda-f065-4520-b470-e447f678ba1f,,;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;,,;,,"
+data "SpellFlags" "Temporary;IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;CannotTargetItems"
+data "HitAnimationType" "None"
+data "VerbalIntent" "Utility"
+data "PrepareEffect" "7121a488-7c9a-4ba1-a585-f79aaa77e97c"
+data "CastEffect" "4d65f0dd-ff5e-4253-8aa1-f0e12e539a40"
+data "DisappearEffect" "b214ce9c-33c2-4dfc-bfc2-3af8e4124714"
+
+
+
+
+
+
+
+
 
 // Nomadic Gate
 new entry "Teleportation_Mystic_NomadicGate"

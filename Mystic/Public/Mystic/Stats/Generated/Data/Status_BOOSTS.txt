@@ -80,14 +80,9 @@ data "Description" "h6f45c269gddd9g45edgae6egee9f5f83f1a6"
 data "DescriptionParams" "Distance(3)"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
-// data "Boosts" ""
 data "AuraRadius" "6"
 data "AuraStatuses" "TARGET:IF(Character() and Enemy() and not IsImmuneToStatus('SG_FRIGHTENED')):ApplyStatus(DIFFICULT_TERRAIN)"
-// data "AuraFlags" "ShouldCheckLOS"
 data "StatusPropertyFlags" "IgnoreResting;DisableCombatlog"
-// data "StatusGroups" "SG_Light"
-// data "IsUnique" "1"
-
 
 // Psychic Focus: Crown of Rage
 new entry "PSYCHIC_FOCUS_CROWN_OF_RAGE"
@@ -330,8 +325,6 @@ data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "AC(1)"
 
 // Psychic Focus: Nomadic Arrow
-// TODO: Your ranged weapon attack rolls ignore Disadvantage.
-//        If Disadvantage would normally apply to the roll, it can't benefit from Advantage.
 new entry "PSYCHIC_FOCUS_NOMADIC_ARROW"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -339,7 +332,7 @@ data "DisplayName" "hc7e29d53g3ebcg47b5g8e62gc0eef01fa7d0"
 data "Description" "hca14baebg02c9g40a5g8eabgb35e9956e0bd"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
-data "Boosts" ""
+data "Boosts" "IF(HasDisadvantage() and IsRangedAttack()):Advantage(AttackRoll)"
 
 // Psychic Focus: Nomadic Chameleon
 new entry "PSYCHIC_FOCUS_NOMADIC_CHAMELEON"
@@ -506,7 +499,6 @@ data "Description" "h93fc80d0g8ce6g4fd3g9c64g79c531ca403c"
 data "Boosts" "ProficiencyBonus(Skill,Persuasion)"
 
 // Psychic Focus: Nomadic Step
-// TODO: "Increase movement speed by 3m after teleporting, once per turn."
 new entry "PSYCHIC_FOCUS_NOMADIC_STEP"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -515,7 +507,7 @@ data "Description" "hf2da775dge311g4bbfg868dg18d69963f3b1"
 data "DescriptionParams" "Distance(3)"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
-data "Boosts" ""
+data "Passives" "Discipline_NomadicStep_Effect"
 
 new entry "PSYCHIC_FOCUS_NOMADIC_STEP_BUFF"
 type "StatusData"
@@ -525,7 +517,7 @@ data "Description" "hae23a909g3456g4fa2gac4ag07ca17d6c2dd"
 data "DescriptionParams" "Distance(3)"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS_NOMADIC_STEP_BUFF"
-data "Boosts" ""
+data "Boosts" "ActionResource(Movement,3,0)"
 
 // Psychic Focus: Precognition
 new entry "PSYCHIC_FOCUS_PRECOGNITION"
@@ -2216,6 +2208,30 @@ data "Icon" "Spell_Transmutation_Haste"
 data "StackId" "MYSTIC_THERE_AND_BACK_AGAIN"
 data "Boosts" "ActionResource(Movement,4.5,0);UnlockSpell(Target_Mystic_BackAgain)"
 
+// Phantom Caravan
+new entry "MYSTIC_PHANTOM_CARAVAN"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "ha132063cg8fafg418cg8adeg67f15f2f2aa4"
+data "Description" "hbd7f36c3g521fg48e2g9430g9221e302c46b"
+data "TickType" "EndTurn"
+data "Icon" "Spell_Conjuration_DimensionDoor"
+data "StackId" "MYSTIC_PHANTOM_CARAVAN"
+data "Boosts" "UnlockSpell(Teleportation_Mystic_PhantomJourney)"
+// data "StatsFunctorContext" "OnMove"
+// data 
+data "RemoveEvents" "OnMove"
+
+new entry "MYSTIC_ARRIVED_AT_DESTINATION"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h46a7c66eg83eag4be8g8dfbg55b6d41b6266"
+data "Description" "h5de026eeg6455g48c1ga5c0gdca2dd91a677"
+// data "TickType" "EndTurn"
+data "Icon" "Spell_Conjuration_DimensionDoor"
+data "StackId" "MYSTIC_ARRIVED_AT_DESTINATION"
+data "Boosts" ""
+
 // Tremorsense
 new entry "MYSTIC_TREMORSENSE"
 type "StatusData"
@@ -2793,6 +2809,17 @@ data "StackPriority" "IntelligenceModifier"
 data "Boosts" "TemporaryHP(IntelligenceModifier)"
 data "RemoveConditions" "not HasTemporaryHP()"
 data "RemoveEvents" "OnDamage"
+
+// Memory of One Thousand Steps
+new entry "MYSTIC_MEMORY_OF_ONE_THOUSAND_STEPS"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h6572d753g277fg4e06ga35bgb9df9f0d9c69"
+data "Description" "h19aa3564gf2b5g486egbd08g20fb384b249e"
+data "Icon" "Spell_Divination_ExpeditiousRetreat"
+data "StackId" "MYSTIC_MEMORY_OF_ONE_THOUSAND_STEPS"
+data "Boosts" "UnlockSpell(Target_Mystic_MemoryOfOneThousandSteps)"
+data "TickType" "EndTurn"
 
 // Elemental Attunement
 new entry "MYSTIC_ELEMENTAL_ATTUNEMENT_ACID"

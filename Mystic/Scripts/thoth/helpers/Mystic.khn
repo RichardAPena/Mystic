@@ -63,3 +63,15 @@ function PsychicFocusCheck()
       | SpellId('Shout_Mystic_PsychicFocus_TelepathicSubjugation')
       | SpellId('Shout_Mystic_PsychicFocus_ThirdEye')
 end
+
+function SuperiorTeleportationCheck()
+    return SpellId('Target_Mystic_StepOfADozenPaces')
+      | SpellId('Target_Mystic_ThereAndBackAgain')
+      | SpellId('Target_Mystic_Transposition')
+      | SpellId('Target_Mystic_BalefulTransposition')
+      | SpellId('Teleportation_Mystic_PhantomJourney')
+      | SpellId('Teleportation_Mystic_NomadicGate')
+end
+
+
+

@@ -35,7 +35,14 @@
                     <attribute id="Name" type="FixedString" value="Interrupt_SurgeOfHealth"/>
                     <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
                     <attribute id="UUID" type="guid" value="d956fe4b-341b-460a-af6a-2011cffa16cf"/>
-                </node>                
+                </node>
+                <node id="ActionResourceDefinition"> Memory of One Thousand Steps
+                    <attribute id="DisplayName" type="TranslatedString" handle="h6572d753g277fg4e06ga35bgb9df9f0d9c69" version="1"/>
+                    <attribute id="IsHidden" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="Interrupt_MemoryOfOneThousandSteps"/>
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
+                    <attribute id="UUID" type="guid" value="4bac6a22-2d74-4503-aeef-95987c02cab3"/>
+                </node>
                 TODO: Implement Psionic Mastery Charges here? You can cast one spell without requiring concentration per charge
             </children>
         </node>

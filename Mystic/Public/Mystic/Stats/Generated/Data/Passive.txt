@@ -249,7 +249,7 @@ type "PassiveData"
 data "DisplayName" "he29f18f7ge21cg47deg8c4cgd87359fb99eb"
 data "Description" "h2b60f7b8g3618g468cg94e6g74605cfad833"
 data "Icon" ""
-data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_NomadicStep);UnlockSpell(Target_Mystic_StepOfADozenPaces);UnlockSpell(Shout_Mystic_DefensiveStep);UnlockSpell(Target_Mystic_ThereAndBackAgain);UnlockSpell(Teleportation_Mystic_Transposition);UnlockSpell(Teleportation_Mystic_BalefulTransposition);UnlockSpell(Teleportation_Mystic_PhantomCaravan);UnlockSpell(Teleportation_Mystic_NomadicGate)"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_NomadicStep);UnlockSpell(Target_Mystic_StepOfADozenPaces);UnlockSpell(Shout_Mystic_DefensiveStep);UnlockSpell(Target_Mystic_ThereAndBackAgain);UnlockSpell(Target_Mystic_Transposition);UnlockSpell(Target_Mystic_BalefulTransposition);UnlockSpell(Shout_Mystic_PhantomCaravan);UnlockSpell(Teleportation_Mystic_NomadicGate)"
 
 // Precognition
 new entry "Discipline_Precognition"
@@ -324,6 +324,16 @@ data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnHeal"
 data "Conditions" "HealDoneGreaterThan(0) and IsSpell() and not IsCantrip()"
 data "StatsFunctors" "RegainHitPoints(2)"
+
+new entry "Discipline_NomadicStep_Effect"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnCast"
+data "StatsFunctors" "IF(SuperiorTeleportationCheck()):ApplyStatus(SELF,PSYCHIC_FOCUS_NOMADIC_STEP_BUFF,100,1)"
+// data "StatsFunctorContext" "OnAttack"
+// data "Conditions" "HasDamageEffectFlag(DamageFlags.Hit)"
+// data "StatsFunctors" "IF(IsSupply(context.HitDescription.ThrownObject)):ApplyStatus(BLINDED,100,1)"
+
 
 // Aura of Victory
 new entry "Passive_AuraOfVictory"
@@ -528,12 +538,36 @@ data "Boosts" "UnlockInterrupt(Interrupt_Mystic_SurgeOfHealth);ActionResource(In
 // Immortal Will (Immortal)
 // "When you reach 0 hit points, you can spend 5 psi points to restore X hit points. Healing increases with your Mystic level and Constitution modifier."
 
+// Breadth of Knowledge
+new entry "Passive_Mystic_BreadthOfKnowledge"
+type "PassiveData"
+data "DisplayName" "h91b43ea0g8a4cg406cg8809gb21958563387"
+data "Description" "he1fa0398g08fcg459bgade7ge5b41ca5f15f"
+data "Icon" "Action_AstralKnowledge"
+data "Properties" "Highlighted"
+data "Boosts" "Skill(Athletics, 1);Skill(Acrobatics, 1);Skill(SleightOfHand, 1);Skill(Stealth, 1);Skill(Arcana, 1);Skill(History, 1);Skill(Investigation, 1);Skill(Nature, 1);Skill(Religion, 1);Skill(AnimalHandling, 1);Skill(Insight, 1);Skill(Medicine, 1);Skill(Perception, 1);Skill(Survival, 1);Skill(Deception, 1);Skill(Intimidation, 1);Skill(Performance, 1);Skill(Persuasion, 1)"
+
 // Memory of One Thousand Steps (Nomad)
-// ***SLIGHTLY REWORKED
-// "As a reaction, when you are hit by an attack you can force it to miss you and gain 6m of movement speed for 1 turn. Usable once per Short or Long Rest."
+new entry "Passive_Mystic_MemoryOfOneThousandSteps"
+type "PassiveData"
+data "DisplayName" "h6572d753g277fg4e06ga35bgb9df9f0d9c69"
+data "Description" "h49108727g9317g4c3fgb887g5d2e09c8c720"
+data "Icon" "Spell_Divination_ExpeditiousRetreat"
+data "Properties" "Highlighted"
+data "Boosts" "UnlockInterrupt(Interrupt_Mystic_MemoryOfOneThousandSteps);ActionResource(Interrupt_MemoryOfOneThousandSteps,1,0)"
 
 // Superior Teleportation (Nomad)
-// "Increase the teleportation range of psionic disciplines by 3m."
+new entry "Passive_Mystic_SuperiorTeleportation"
+type "PassiveData"
+data "DisplayName" "h34693707ge485g441fg8551g9d1ae7dc820a"
+data "Description" "hd424fda3gf256g4519g8d76g15dced640ac1"
+data "DescriptionParams" "Distance(3)"
+data "Icon" "Spell_Conjuration_PlanarAlly"
+data "Properties" "Highlighted"
+// data "BoostContext" "OnEquip;OnCreate"
+// data "BoostConditions" "not WearingArmor(context.Source)"
+// data "Boosts" "ACOverrideFormula(10,true,Dexterity,Constitution)"
+data "Boosts" "UnlockSpellVariant(SuperiorTeleportationCheck(), ModifyTargetRadius(AdditiveBase, 3), ModifyTooltipDescription)"
 
 // Effortless Journey? (Nomad)
 // - This might just be an action
