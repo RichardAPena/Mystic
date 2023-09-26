@@ -221,7 +221,21 @@ using "Interrupt_Mystic_PsionicStrike"
 data "DisplayName" "hd3ca609cg1645g4f9fgaed4g5b36b263fa89"
 data "Conditions" "Self(context.Source,context.Observer) and IsWeaponAttack() and IsCritical() and not IsKillingBlow() and IsHit() and not IsDivineStrike() and Character() and not AnyEntityIsItem()"
 
-// Psionic Surge
+// TODO: Psionic Surge
+new entry "Interrupt_Mystic_PsionicSurge"
+type "InterruptData"
+data "DisplayName" "he2f4f7f4g276dg4d9bga0d9g8351051384b8"
+data "Description" "hc8df6a32g2235g427cga697g74f6fa505179"
+data "Icon" ""
+data "InterruptContext" "OnPreDamage"
+data "InterruptContextScope" "Nearby"
+data "Container" "YesNoDecision"
+data "Conditions" "IsAbleToReact(context.Observer) and Self(context.Target,context.Observer)"
+data "Properties" "SetDamageResistance(Bludgeoning);SetDamageResistance(Piercing);SetDamageResistance(Slashing);SetDamageResistance(Acid);SetDamageResistance(Cold);SetDamageResistance(Fire);SetDamageResistance(Force);SetDamageResistance(Lightning);SetDamageResistance(Necrotic);SetDamageResistance(Poison);SetDamageResistance(Psychic);SetDamageResistance(Radiant);SetDamageResistance(Thunder);"
+data "Cost" "ReactionActionPoint:1;Interrupt_SurgeOfHealth:1"
+data "InterruptDefaultValue" "Ask;Enabled"
+data "EnableCondition" "not HasAnyStatus({'SG_Polymorph'}) or Tagged('MINDFLAYER')"
+data "EnableContext" "OnStatusApplied"
 
 // Surge of Health
 
@@ -266,6 +280,7 @@ new entry "Interrupt_Mystic_MemoryOfOneThousandSteps"
 type "InterruptData"
 data "DisplayName" "h6572d753g277fg4e06ga35bgb9df9f0d9c69"
 data "Description" "h49108727g9317g4c3fgb887g5d2e09c8c720"
+data "DescriptionParams" "Distance(9)"
 data "Icon" "Spell_Divination_ExpeditiousRetreat"
 data "InterruptContext" "OnPostRoll;OnPreDamage"
 data "InterruptContextScope" "Self"

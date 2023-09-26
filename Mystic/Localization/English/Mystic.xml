@@ -777,7 +777,7 @@
 	<content contentuid="h0fdf4a1eg519cg46bcg8735g75b7d7dcc113" version="1">Wall of Thunder</content>
 	<content contentuid="hf2400914g9a65g461cga04bgb38b576426fc" version="1">Create a wall of raging thunderclouds. Creatures moving through the clouds have their movement speed halved. The clouds damage and repel enemies that try to enter or remain inside.</content>
 	<content contentuid="hf7d682f4gd5e3g4375gb91eg48a5f9bd7c5d" version="1">Thunder Clap</content>
-	<content contentuid="h05a08ff8g34c6g4c6dga0e0gd05003430d4d" version="1">Thunderous energy erupts in a targeted area, &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stuning&lt;/LSTag&gt; creatures inside.</content>
+	<content contentuid="h05a08ff8g34c6g4c6dga0e0gd05003430d4d" version="1">Thunderous energy erupts in a targeted area, &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stunning&lt;/LSTag&gt; creatures inside.</content>
 	<content contentuid="hfd6106d9g3b27g40cdg9600gb68249c8af8d" version="1">Animate Weapon</content>
 	<content contentuid="he473eb03g1569g4174gb71egb75d1e25a527" version="1">Seize control of a melee weapon you're holding, dealing its damage plus an additional [1] damage to a creature.</content>
 	<content contentuid="h83a09a72gd4cdg4b08ga961g3238a6650967" version="1">Warp Weapon</content>
@@ -818,8 +818,8 @@
 	<content contentuid="hc50db36dg77fbg42eag8f4cg2ceeee4025b9" version="1">Consumptive Power</content>
 	<content contentuid="hd8ba7b71gce4bg456cg881dg74d7247ccc16" version="1">Tap into your own life force, regaining 7 Psi Points but reducing your maximum hit points by [1].</content>
 	<content contentuid="hff2ceb41gea66g4d25gb16fgc325168527b7" version="1">Maximum hit points reduced by [1].</content>
-
-
+	<content contentuid="h73c12dd2gef0ag4f02g9b52g4cd9336023b0" version="1">Armour Training</content>
+	<content contentuid="h31b494b2g60f7g4109ga3f4gb7870b784e7c" version="1">Gain Profiency with medium armour and shields.</content>
 	<content contentuid="h2f333397g29fdg45eag8006g94c8ff848ea0" version="1">Avatar of Battle</content>
 	<content contentuid="h8ec97092ga28cg4010g87d6g937a3c1498a9" version="1">Project an inspiring aura, giving nearby allies +2 to Initiative.</content>
 	<content contentuid="h8c23bb63g8001g4df9g817fgcdb0e2ad8e10" version="1">+2 to Initiative.</content>
@@ -829,7 +829,10 @@
 	<content contentuid="" version="1">Avatar of Speed</content>
 	<content contentuid="" version="1">TODO: Avatar of Speed Description</content>
 	<content contentuid="" version="1">TODO: Avatar of Speed Status Description</content>
-	<content contentuid="" version="1"> </content>
+	<content contentuid="h29dbe5fdg2e21g4bcfgb3aag03941771738a" version="1">Psionic Investigation</content>
+	<content contentuid="he19cc2bbgb1c5g493fg92b8g0247feb4f0b7" version="1">TODO: Psionic Investigation Description</content>
+	<content contentuid="he2f4f7f4g276dg4d9bga0d9g8351051384b8" version="1">Psionic Surge</content>
+	<content contentuid="hc8df6a32g2235g427cga697g74f6fa505179" version="1">TODO: Psionic Surge Description</content>
 	<content contentuid="hfd02e5fbge611g4faag9663g00b78f794fd3" version="1">Immortal Durability</content>
 	<content contentuid="ha1b80016g75b0g4b86g980egd47c22370bee" version="1">While not wearing armour, you add your Constitution Modifier to your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;.</content>
 	<content contentuid="h00ecd105g8ef2g46d7gbad6ge24f139bf19c" version="1">Psionic Resilience</content>
@@ -845,6 +848,14 @@
 	<content contentuid="h22b03d2egfc61g4112gbb13gca5105a6388a" version="1">Teleport up to [1].</content>
 	<content contentuid="h34693707ge485g441fg8551g9d1ae7dc820a" version="1">Superior Teleportation</content>
 	<content contentuid="hd424fda3gf256g4519g8d76g15dced640ac1" version="1">Increase the teleportation range of psionic disciplines by [1].</content>
+	<content contentuid="h248529ceg6c81g47cbgae19g7d937b7904ca" version="1">Martial Training</content>
+	<content contentuid="hfdf8fba9gb1eeg4c9egb03dg14111a5a462b" version="1">Gain Proficiency in medium armour and martial weapons.</content>
+	<content contentuid="h44e3ede5g8eadg4f23g917dge892947fae40" version="1">Soul Knife</content>
+	<content contentuid="ha769c607gff4dg4b13g878ag7fa6d50058d8" version="1">TODO: Soul Knife Description</content>
+	<content contentuid="h813a60cbgd0beg4a65ga5aagacd8fd7a3684" version="1">Hone the Blade</content>
+	<content contentuid="h45aef2a3g34a6g4a4bg9b3dg16f926668010" version="1">TODO: Hone the Blade Description</content>
+	<content contentuid="h5865a518g1703g4875gbae9g637cc7d3126b" version="1">Consumptive Knife</content>
+	<content contentuid="hac405107geb31g41a9gadafgc7c1e4414996" version="1">TODO: Consumptive Knife Description</content>
 	<content contentuid="h4f2b9252g0aebg4086gad50g7fc336859005" version="1">Elemental Attunement</content>
 	<content contentuid="he04500b3g2ca8g4705g8da0g41bd6ca90872" version="1">Once per turn as a free action, you can choose an element and ignore creatures' &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to that element until the end of your turn.</content>
 	<content contentuid="h98300e6fgf3cdg4009g91f3g2c0aef6d002d" version="1">Choose an element and ignore creatures' &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to it when dealing damage.</content>

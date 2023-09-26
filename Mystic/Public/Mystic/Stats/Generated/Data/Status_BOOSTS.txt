@@ -332,7 +332,8 @@ data "DisplayName" "hc7e29d53g3ebcg47b5g8e62gc0eef01fa7d0"
 data "Description" "hca14baebg02c9g40a5g8eabgb35e9956e0bd"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
-data "Boosts" "IF(HasDisadvantage() and IsRangedAttack()):Advantage(AttackRoll)"
+data "Boosts" "IF(HasDisadvantage() and IsRangedAttack()):Advantage(AttackRoll);IgnorePointBlankDisadvantage()"
+data "Passives" "Discipline_NomadicArrow_Effect"
 
 // Psychic Focus: Nomadic Chameleon
 new entry "PSYCHIC_FOCUS_NOMADIC_CHAMELEON"
@@ -2194,7 +2195,7 @@ data "Icon" "Action_Singing"
 data "StackId" "MYSTIC_PSYCHIC_SPEECH"
 data "Boosts" "ExpertiseBonus(Athletics);ExpertiseBonus(Acrobatics);ExpertiseBonus(SleightOfHand);ExpertiseBonus(Stealth);ExpertiseBonus(Arcana);ExpertiseBonus(History);ExpertiseBonus(Investigation);ExpertiseBonus(Nature);ExpertiseBonus(Religion);ExpertiseBonus(AnimalHandling);ExpertiseBonus(Insight);ExpertiseBonus(Medicine);ExpertiseBonus(Perception);ExpertiseBonus(Survival);ExpertiseBonus(Deception);ExpertiseBonus(Intimidation);ExpertiseBonus(Performance);ExpertiseBonus(Persuasion);"
 
-new entry "MYSTIC_NOMADIC_ANCHOR"
+// new entry "MYSTIC_NOMADIC_ANCHOR"
 // ?????
 
 // There And Back Again
@@ -2259,7 +2260,6 @@ type "StatusData"
 data "StatusType" "BOOST"
 data "DisplayName" "h1ce48ca1g9d31g48ebgac4fgb119fcca640c"
 data "Description" "he113895dgf352g4cbbgbe98g767e062c3c26"
-data "DescriptionParams" ""
 data "Icon" "PassiveFeature_ExpertDivination"
 data "StackId" "MYSTIC_UNWAVERING_EYE"
 data "Boosts" "Advantage(Ability, Wisdom)"
@@ -2294,7 +2294,6 @@ data "AuraFlags" "CanAffectInvisibleItems;AIIgnoreOnSelf"
 data "OnApplyFunctors" "AI_ONLY:IF(not HasStatus('SEE_INVISIBILITY')):ApplyStatus(AI_HELPER_SEEINVISIBILITY,100,3)"
 data "StatusGroups" "SG_RemoveOnRespec"
 data "StatusEffect" "d8452a11-7c66-45fb-8ccb-64e2fa56ada5"
-
 
 new entry "MYSTIC_TRUESIGHT_BUFF"
 data "DisplayName" "h865be973gbb6eg4bfega6b5g65c8d6028af5"
@@ -2602,13 +2601,13 @@ data "Boosts" "ActionResourceConsumeMultiplier(Movement, 2,0);MovementSpeedLimit
 
 data "OnApplyRoll" "WallOfFireCheck(Ability.Strength,SourceSpellDC(10,GetSummoner(context.Source)))"
 // TODO: Add Force (if it's even possible here)
-data "OnApplySuccess" "IF(not HasStatus('MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED')):DealDamage(6d6,Thunder,Magical);  IF(not HasStatus('MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED')):ApplyStatus(MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED,100,1);"
+data "OnApplySuccess" "IF(not HasStatus('MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED')):DealDamage(6d6,Thunder,Magical);  IF(not HasStatus('MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED')):ApplyStatus(MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED,100,1);IF(not HasStatus('MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED')):Force(3)"
 data "OnApplyFail"    "IF(not HasStatus('MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED')):DealDamage(6d6/2,Thunder,Magical);IF(not HasStatus('MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED',context.Target)):ApplyStatus(MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED,100,1)"
 
 data "OnTickRoll" "WallOfFireCheck(Ability.Strength,SourceSpellDC(10,GetSummoner(context.Source)))"
 // TODO: Add Force (if it's even possible here)
-data "OnTickSuccess" "IF(not HasStatus('MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED')):DealDamage(6d6,Thunder,Magical);  IF(not HasStatus('MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED')):ApplyStatus(MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED,100,1)"
-data "OnTickFail"    "IF(not HasStatus('MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED')):DealDamage(6d6/2,Thunder,Magical);IF(not HasStatus('MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED',context.Target)):ApplyStatus(MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED,100,1)"
+data "OnTickSuccess"  "IF(not HasStatus('MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED')):DealDamage(6d6,Thunder,Magical);  IF(not HasStatus('MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED')):ApplyStatus(MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED,100,1);IF(not HasStatus('MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED')):Force(3)"
+data "OnTickFail"     "IF(not HasStatus('MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED')):DealDamage(6d6/2,Thunder,Magical);IF(not HasStatus('MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED',context.Target)):ApplyStatus(MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED,100,1)"
 // data "OnTickSuccess" "IF(not HasStatus('MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED') or StatusDurationLessThan(context.Source, 'MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED', 0.1)):DealDamage(5d8,Fire,Magical);ApplyStatus(MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED,100,1)"
 // data "OnTickFail" "IF(not HasStatus('MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED') or StatusDurationLessThan(context.Source, 'MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED', 0.1)):DealDamage(5d8/2,Fire,Magical);ApplyStatus(MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED,100,1)"
 
@@ -2816,6 +2815,7 @@ type "StatusData"
 data "StatusType" "BOOST"
 data "DisplayName" "h6572d753g277fg4e06ga35bgb9df9f0d9c69"
 data "Description" "h19aa3564gf2b5g486egbd08g20fb384b249e"
+data "DescriptionParams" "Distance(9)"
 data "Icon" "Spell_Divination_ExpeditiousRetreat"
 data "StackId" "MYSTIC_MEMORY_OF_ONE_THOUSAND_STEPS"
 data "Boosts" "UnlockSpell(Target_Mystic_MemoryOfOneThousandSteps)"

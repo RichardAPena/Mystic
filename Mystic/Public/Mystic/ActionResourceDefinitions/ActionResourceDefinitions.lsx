@@ -29,6 +29,13 @@
                     <attribute id="ReplenishType" type="FixedString" value="Turn"/>
                     <attribute id="UUID" type="guid" value="d5b34f89-a352-4ab8-959a-218aa725cba7"/>
                 </node>
+                <node id="ActionResourceDefinition"> Psionic Surge
+                    <attribute id="DisplayName" type="TranslatedString" handle="he2f4f7f4g276dg4d9bga0d9g8351051384b8" version="1"/>
+                    <attribute id="IsHidden" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="Interrupt_PsionicSurge"/>
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
+                    <attribute id="UUID" type="guid" value="a6e27630-07fb-4c70-85d7-8d982bae855e"/>
+                </node>                
                 <node id="ActionResourceDefinition"> Surge of Health
                     <attribute id="DisplayName" type="TranslatedString" handle="h56cb35d0g56f3g4098g8d58gbdab90b41a46" version="1"/>
                     <attribute id="IsHidden" type="bool" value="true"/>

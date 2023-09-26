@@ -250,6 +250,9 @@ data "DisplayName" "he29f18f7ge21cg47deg8c4cgd87359fb99eb"
 data "Description" "h2b60f7b8g3618g468cg94e6g74605cfad833"
 data "Icon" ""
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_NomadicStep);UnlockSpell(Target_Mystic_StepOfADozenPaces);UnlockSpell(Shout_Mystic_DefensiveStep);UnlockSpell(Target_Mystic_ThereAndBackAgain);UnlockSpell(Target_Mystic_Transposition);UnlockSpell(Target_Mystic_BalefulTransposition);UnlockSpell(Shout_Mystic_PhantomCaravan);UnlockSpell(Teleportation_Mystic_NomadicGate)"
+data "StatsFunctorContext" "OnCast"
+data "Conditions" "SpellId('Target_Mystic_ThereAndBackAgain')"
+data "StatsFunctors" "ApplyStatus(SELF,MYSTIC_THERE_AND_BACK_AGAIN,100,1)"
 
 // Precognition
 new entry "Discipline_Precognition"
@@ -325,6 +328,15 @@ data "StatsFunctorContext" "OnHeal"
 data "Conditions" "HealDoneGreaterThan(0) and IsSpell() and not IsCantrip()"
 data "StatsFunctors" "RegainHitPoints(2)"
 
+// Nomadic Arrow Effect
+new entry "Discipline_NomadicArrow_Effect"
+type "PassiveData"
+data "DisplayName" "hc7e29d53g3ebcg47b5g8e62gc0eef01fa7d0"
+data "Properties" "IsHidden"
+data "BoostConditions" "HasDisadvantage()"
+data "Boosts" "Advantage(AttackRoll)"
+
+// Nomadic Step Effect
 new entry "Discipline_NomadicStep_Effect"
 type "PassiveData"
 data "Properties" "IsHidden"
@@ -334,6 +346,12 @@ data "StatsFunctors" "IF(SuperiorTeleportationCheck()):ApplyStatus(SELF,PSYCHIC_
 // data "Conditions" "HasDamageEffectFlag(DamageFlags.Hit)"
 // data "StatsFunctors" "IF(IsSupply(context.HitDescription.ThrownObject)):ApplyStatus(BLINDED,100,1)"
 
+// new entry "Passive_Mystic_ThereAndBackAgain"
+// type "PassiveData"
+// data "Properties" "IsHidden"
+// data "StatsFunctorContext" "OnCast"
+// data "Conditions" "SpellId('Target_Mystic_ThereAndBackAgain')"
+// data "StatsFunctors" "ApplyStatus(SELF,MYSTIC_THERE_AND_BACK_AGAIN,100,1)"
 
 // Aura of Victory
 new entry "Passive_AuraOfVictory"
@@ -465,11 +483,7 @@ type "PassiveData"
 data "Properties" "IsHidden"
 data "Boosts" "ProficiencyBonus(SavingThrow,Charisma)"
 
-
-
 // Potent Psionics: Strike
-// Psionic Strike
-// TODO: Readd crit
 new entry "Passive_Mystic_PsionicStrike"
 type "PassiveData"
 data "DisplayName" "h2ae84d46g9f37g45a5g988bg8b08fff62394"
@@ -482,15 +496,20 @@ data "ToggleGroup" "DivineStrike"
 // Potent Psionics: Empower
 // "Add your Intelligence modifier to psionic talent damage rolls."
 
-// Consumptive Power
-// "You can now spend hit points instead of psi points to cast psionic disciplines. Only usable once per Long Rest, and your maximum hit points will be reduced until your next Long Rest."
-// Rework: At will, you can sacrifice 7 maximum hit points to gain 7 psi points back. Usable once per long rest.
 
 // Psionic Mastery
 // ***REWORK PLS
 
 // Psionic Body
 // ***TODO (VEEEEEEEEEERY MUCH LATER ON)
+
+// Armor Training
+new entry "Passive_Mystic_ArmorTraining"
+type "PassiveData"
+data "Properties" "Highlighted"
+data "DisplayName" "h73c12dd2gef0ag4f02g9b52g4cd9336023b0"
+data "Description" "h31b494b2g60f7g4109ga3f4gb7870b784e7c"
+data "Icon" "PassiveFeature_MediumArmorMaster"
 
 // Avatar of Healing
 new entry "Passive_Mystic_AvatarOfHealing"
@@ -502,6 +521,13 @@ data "StatsFunctors" "RegainHitPoints(2)"
 
 // Psionic Surge (Awakened)
 // "You can spend a reaction/psychic focus to impose Disadvantage on a target's Saving Throw against psionic discipline or talent you use."
+new entry "Passive_Mystic_PsionicSurge"
+type "PassiveData"
+data "Properties" "Highlighted"
+data "DisplayName" "he2f4f7f4g276dg4d9bga0d9g8351051384b8"
+data "Description" "hc8df6a32g2235g427cga697g74f6fa505179"
+data "Icon" ""
+data "Boosts" "UnlockInterrupt(Interrupt_Mystic_PsionicSurge);ActionResource(Interrupt_PsionicSurge,1,0)"
 
 // Immortal Durability (Immortal)
 new entry "Passive_Mystic_ImmortalDurability"
@@ -564,17 +590,30 @@ data "Description" "hd424fda3gf256g4519g8d76g15dced640ac1"
 data "DescriptionParams" "Distance(3)"
 data "Icon" "Spell_Conjuration_PlanarAlly"
 data "Properties" "Highlighted"
-// data "BoostContext" "OnEquip;OnCreate"
-// data "BoostConditions" "not WearingArmor(context.Source)"
-// data "Boosts" "ACOverrideFormula(10,true,Dexterity,Constitution)"
-data "Boosts" "UnlockSpellVariant(SuperiorTeleportationCheck(), ModifyTargetRadius(AdditiveBase, 3), ModifyTooltipDescription)"
+data "Boosts" "UnlockSpellVariant(SuperiorTeleportationCheck(), ModifyTargetRadius(AdditiveBase, 3))"
 
 // Effortless Journey? (Nomad)
 // - This might just be an action
 // "Using your movement speed, teleport."
 
+//
+new entry "Passive_Mystic_MartialTraining"
+type "PassiveData"
+data "Properties" "Highlighted"
+data "DisplayName" "h248529ceg6c81g47cbgae19g7d937b7904ca"
+data "Description" "hfdf8fba9gb1eeg4c9egb03dg14111a5a462b"
+data "Icon" "PassiveFeature_Elf_WeaponTraining"
+
 // Consumptive Knife (Soul Knife)
 // "After slaying an enemy creature with a soul knife attack, regain 2 psi points."
+// TODO
+new entry "Passive_Mystic_ConsumptiveKnife"
+type "PassiveData"
+data "DisplayName" "h5865a518g1703g4875gbae9g637cc7d3126b"
+data "Description" "hac405107geb31g41a9gadafgc7c1e4414996"
+data "Icon" ""
+data "Properties" "Highlighted"
+data "Boosts" ""
 
 // Elemental Attunement (Wu Jen)
 // REWORK: You may spend 1 Psi Point at will and choose a resistance to ignore.

@@ -224,11 +224,11 @@
                 TODO: MYSTIC LEVEL 13-20
 
                 <node id="Progression"> Avatar Level 1
-                    <attribute id="Boosts" type="LSString" value="Proficiency(Shields);Proficiency(MediumArmor)"/> Armor Training
+                    <attribute id="Boosts" type="LSString" value="Proficiency(Shields);Proficiency(MediumArmor)"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Avatar"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_ArmorTraining"/>
                     <attribute id="Selectors" type="LSString" value="SelectPassives(c3273c5f-2773-4f08-842a-914ba94fd1fa,2,AvatarDisciplines)"/>
                     <attribute id="TableUUID" type="guid" value="5fe9f3fd-f73a-47df-b909-96277e832c61"/>
                     <attribute id="UUID" type="guid" value="89d2e0b6-da69-4795-88df-6a9da0df3500"/>
@@ -239,7 +239,7 @@
                     <attribute id="Name" type="LSString" value="Avatar"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="PassivesAdded" type="LSString" value=""/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(337a7c5d-ab33-460c-a54c-ceaa4d4e661d)"/> Avatar of Battle
+                    <attribute id="Selectors" type="LSString" value="AddSpells(337a7c5d-ab33-460c-a54c-ceaa4d4e661d)"/>
                     <attribute id="TableUUID" type="guid" value="5fe9f3fd-f73a-47df-b909-96277e832c61"/>
                     <attribute id="UUID" type="guid" value="685db017-ff43-4ef7-a12b-f10d27672811"/>
                 </node>
@@ -249,7 +249,7 @@
                     <attribute id="Name" type="LSString" value="Avatar"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="PassivesAdded" type="LSString" value=""/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(e15f5536-ab22-44d4-919b-e57c34c58f28)"/> Avatar of Healing
+                    <attribute id="Selectors" type="LSString" value="AddSpells(e15f5536-ab22-44d4-919b-e57c34c58f28)"/>
                     <attribute id="TableUUID" type="guid" value="5fe9f3fd-f73a-47df-b909-96277e832c61"/>
                     <attribute id="UUID" type="guid" value="9068f635-db63-4079-b9b2-31d5308736f0"/>
                 </node>
@@ -261,7 +261,7 @@
                     <attribute id="Name" type="LSString" value="Awakened"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="PassivesAdded" type="LSString" value=""/>
-                    <attribute id="Selectors" type="LSString" value="SelectSkills(d7789c63-8915-4996-80c2-6e992129ec36,2);SelectPassives(69bee73b-9040-4f1e-a863-9a9981d07c93,2,AwakenedDisciplines)"/> Awakened Talent
+                    <attribute id="Selectors" type="LSString" value="SelectSkills(d7789c63-8915-4996-80c2-6e992129ec36,1);SelectPassives(69bee73b-9040-4f1e-a863-9a9981d07c93,2,AwakenedDisciplines)"/>
                     <attribute id="TableUUID" type="guid" value="29eed076-402f-480f-a7b6-cf690d28e103"/>
                     <attribute id="UUID" type="guid" value="cfdfeebb-048a-4759-82e0-73a125c76f65"/>
                 </node>
@@ -269,8 +269,9 @@
                     <attribute id="Boosts" type="LSString" value=""/> 
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="Awakened"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="PassivesAdded" type="LSString" value=""/> TODO: Psionic Investigation
+                    <attribute id="ProgressionType" type="uint8" value="1"/> 
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(d04fe056-b7c5-4df1-a1fa-2d273c502851)"/>
                     <attribute id="TableUUID" type="guid" value="29eed076-402f-480f-a7b6-cf690d28e103"/>
                     <attribute id="UUID" type="guid" value="a9c195ce-3109-44bc-95b8-81a8c17d5299"/>
                 </node>
@@ -279,7 +280,7 @@
                     <attribute id="Level" type="uint8" value="6"/>
                     <attribute id="Name" type="LSString" value="Awakened"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="PassivesAdded" type="LSString" value=""/> TODO: Psionic Surge
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_PsionicSurge"/>
                     <attribute id="TableUUID" type="guid" value="29eed076-402f-480f-a7b6-cf690d28e103"/>
                     <attribute id="UUID" type="guid" value="9a91421f-8318-41ba-80ae-d9ab31f717b9"/>
                 </node>
@@ -347,11 +348,12 @@
                 TODO: NOMAD LEVEL 14
 
                 <node id="Progression"> Soul Knife Level 1
-                    <attribute id="Boosts" type="LSString" value="Proficiency(MartialWeapons);Proficiency(MediumArmor)"/> Martial Training
+                    <attribute id="Boosts" type="LSString" value="Proficiency(MartialWeapons);Proficiency(MediumArmor)"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="SoulKnife"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="PassivesAdded" type="LSString" value=""/> TODO: Soul Knife
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_MartialTraining"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(8ea7bbf2-ef4d-49f6-8b5f-a8354fd6507d)"/>
                     <attribute id="TableUUID" type="guid" value="70571154-e86d-4a0b-a222-9bfdc2b60a58"/>
                     <attribute id="UUID" type="guid" value="5ef2ef16-d481-4e91-bb22-daf22f3189a3"/>
                 </node>
@@ -360,7 +362,8 @@
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="SoulKnife"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="PassivesAdded" type="LSString" value=""/> TODO: Hone the Blade
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(b93655e3-7035-4d26-b763-f0f1625c5532)"/>
                     <attribute id="TableUUID" type="guid" value="70571154-e86d-4a0b-a222-9bfdc2b60a58"/>
                     <attribute id="UUID" type="guid" value="fe8fa022-35cb-4137-bb3e-437675a0974c"/>
                 </node>
@@ -369,7 +372,7 @@
                     <attribute id="Level" type="uint8" value="6"/>
                     <attribute id="Name" type="LSString" value="SoulKnife"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="PassivesAdded" type="LSString" value=""/> TODO: Consumptive Knife
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_ConsumptiveKnife"/>
                     <attribute id="TableUUID" type="guid" value="70571154-e86d-4a0b-a222-9bfdc2b60a58"/>
                     <attribute id="UUID" type="guid" value="e9125c04-66b3-4ea1-b192-051faf70dfe4"/>
                 </node>
@@ -381,7 +384,7 @@
                     <attribute id="Name" type="LSString" value="WuJen"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="PassivesAdded" type="LSString" value=""/>
-                    <attribute id="Selectors" type="LSString" value="SelectPassives(7b38171b-da70-470e-b3a8-4edabc8da3c8,2,WuJenDisciplines)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(7b38171b-da70-470e-b3a8-4edabc8da3c8,2,WuJenDisciplines);SelectSkills(617e273e-cc5e-44ea-aa33-ae38865d224f,1);"/>
                     <attribute id="TableUUID" type="guid" value="5be9ee51-acca-46da-be13-e66a6ff5a080"/>
                     <attribute id="UUID" type="guid" value="28d0587c-981c-4be2-84b1-c6f1870f88da"/>
                 </node>
