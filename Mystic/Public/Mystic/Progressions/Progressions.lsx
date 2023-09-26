@@ -320,7 +320,7 @@
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Nomad"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="PassivesAdded" type="LSString" value=""/> TODO: Breadth of Knowledge
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_BreadthOfKnowledge"/>
                     <attribute id="Selectors" type="LSString" value="SelectPassives(c4e6f52e-e45b-42fe-b221-5ac7e3e074e7,2,NomadDisciplines)"/>
                     <attribute id="TableUUID" type="guid" value="85b6bc90-3632-4df3-994c-d03e318f9f4b"/>
                     <attribute id="UUID" type="guid" value="bcf7e39e-068e-4eb4-b9be-da4d29ba117f"/>
@@ -330,7 +330,7 @@
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="Nomad"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="PassivesAdded" type="LSString" value=""/> TODO: Memory of One Thousand Steps
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_MemoryOfOneThousandSteps"/>
                     <attribute id="TableUUID" type="guid" value="85b6bc90-3632-4df3-994c-d03e318f9f4b"/>
                     <attribute id="UUID" type="guid" value="ef087635-b8ef-4eb3-acda-0b7c9af83e99"/>
                 </node>
@@ -339,7 +339,7 @@
                     <attribute id="Level" type="uint8" value="6"/>
                     <attribute id="Name" type="LSString" value="Nomad"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="PassivesAdded" type="LSString" value=""/> TODO: Superior Teleportation
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_SuperiorTeleportation"/>
                     <attribute id="TableUUID" type="guid" value="85b6bc90-3632-4df3-994c-d03e318f9f4b"/>
                     <attribute id="UUID" type="guid" value="62b4d465-1764-4b1c-98ae-207dfeb31f68"/>
                 </node>

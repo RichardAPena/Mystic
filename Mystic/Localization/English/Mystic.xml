@@ -459,7 +459,8 @@
 	<content contentuid="h95a1fdaage462g47eaga624g309877b78a78" version="1">Evoke a storm of psionic energy, causing creatures within to suffer &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
 	<content contentuid="h9f699da1gab25g4f70g99fbg9495fdf0dec4" version="1">&lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
 	<content contentuid="" version="1">Hammer of Inquisition</content>
-	<content contentuid="" version="1">TODO: PSYCHIC INQUISITION ABILITY 1 DESCRIPTION</content>
+	<content contentuid="" version="1">Assault an enemy's mind. They have Disadvantage on Wisdom Saving Throws until the end of your next turn.</content>
+	<content contentuid="" version="1">Disadvantage on Wisdom Saving Throws.</content>
 	<content contentuid="" version="1">TODO: PSYCHIC INQUISITION ABILITY 2</content>
 	<content contentuid="" version="1">TODO: PSYCHIC INQUISITION ABILITY 2 DESCRIPTION</content>
 	<content contentuid="" version="1">Mental Decay</content>
@@ -467,13 +468,13 @@
 	<content contentuid="" version="1">Atrophy</content>
 	<content contentuid="" version="1">TODO: PSYCHIC INQUISITION ABILITY 4 DESCRIPTION</content>
 	<content contentuid="" version="1">Broken Will</content>
-	<content contentuid="" version="1">TODO: TELEPATHIC CONTACT ABILITY 1 DESCRIPTION</content>
+	<content contentuid="" version="1">Shatter a creature's will, forcing them to fall Prone and do nothing for a turn.</content>
 	<content contentuid="" version="1">Psionic Grip</content>
-	<content contentuid="" version="1">TODO: TELEPATHIC CONTACT ABILITY 2 DESCRIPTION</content>
+	<content contentuid="" version="1">Hold a humanoid enemy still. They can't move, act or react. Attacks from within 3m are always Critical Hits.</content>
 	<content contentuid="" version="1">Psychic Grasp</content>
-	<content contentuid="" version="1">TODO: TELEPATHIC CONTACT ABILITY 3 DESCRIPTION</content>
+	<content contentuid="" version="1">Paralyse a creature. It can't move, act or react. Attacks from within 3m are always Critical Hits.</content>
 	<content contentuid="" version="1">Pyschic Domination</content>
-	<content contentuid="" version="1">TODO: TELEPATHIC CONTACT ABILITY 4 DESCRIPTION</content>
+	<content contentuid="" version="1">Make a humanoid fight alongside you. Every time the creature takes damage, it makes a Wisdom Saving Throw against your domination. Allies cannot be dominated.</content>
 	<content contentuid="h04cf143dgea65g4a1egafcdg316ec104a315" version="1">Environmental Adaptation</content>
 	<content contentuid="h65b53eb8g9835g4416g91b9g3baf1ff1de81" version="1">Touch a creature to make them resistant to the elements, making them immune to Acid, Wet, Burning and Chilled.</content>
 	<content contentuid="h98e25074gaff8g417agae94g7104c219aceb" version="1">&lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to Acid, Wet, Burning, Chilled.</content>
@@ -641,12 +642,12 @@
 	<content contentuid="h92cc8698gbbc9g4aa3g8accg2c0dcaa2983e" version="1">Unlock an object that is held shut by a mundane lock.</content>
 	<content contentuid="h766fee09g64bfg492dg9a62ge935a133042e" version="1">Item Lore</content>
 	<content contentuid="h9861dbd9gfa92g4c79gbbfag763994cf8284" version="1">Conjure a thieves' tools, trap disarm toolkit or shovel.</content>
-	<content contentuid="" version="1">Thieves' Tools</content>
-	<content contentuid="" version="1">Trap Disarm Toolkit</content>
-	<content contentuid="" version="1">Shovel</content>
-	<content contentuid="" version="1">Conjure a thieves' tools.</content>
-	<content contentuid="" version="1">Conjure a thieves' tools.</content>
-	<content contentuid="" version="1">Conjure a thieves' tools.</content>	
+	<content contentuid="h047cf03dg6d34g45d0g9e1cgf1046a96db2a" version="1">Item Lore: Thieves' Tools</content>
+	<content contentuid="he19b1a0dgbe55g4df5gb10cga3eade81552f" version="1">Item Lore: Trap Disarm Toolkit</content>
+	<content contentuid="h09371a24gcfc9g49f3g8381g4802e5c23c9c" version="1">Item Lore: Shovel</content>
+	<content contentuid="h1bb1f91bg8061g41a8ga9dfg1d14f7737a3b" version="1">Conjure a thieves' tools.</content>
+	<content contentuid="h30126a00g96cag4536g8d67g0ff7fa66ded3" version="1">Conjure a trap disarm toolkit.</content>
+	<content contentuid="hc2875347g98f9g4695gb379gd932151df495" version="1">Conjure a shovel.</content>	
 	<content contentuid="h259dee98gfbe8g484fgaa96gd5294b4e00f2" version="1">Psychic Speech</content>
 	<content contentuid="h4946426dgf383g4ae1gbf01gb90f5a14c181" version="1">Gain Expertise in all Skills.</content>
 	<content contentuid="h621580adgff31g4c7dgba5bg0a4510cdf502" version="1">Has Expertise in all Skills.</content>

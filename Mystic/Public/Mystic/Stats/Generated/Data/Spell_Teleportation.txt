@@ -148,10 +148,11 @@ data "Description" "h36632121g776eg493bg97cbg245da3511d09"
 data "TargetRadius" "18"
 data "AreaRadius" "18"
 
-data "SpellProperties" "ApplyStatus(MYSTIC_ARRIVED_AT_DESTINATION,100,1)"
+data "SpellProperties" "TARGET:ApplyStatus(MYSTIC_ARRIVED_AT_DESTINATION,100,1)"
 data "LineOfSightFlags" "AddSourceHeight"
 data "TargetConditions" "CanStand('') and not Character() and not HasStatus('MYSTIC_ARRIVED_AT_DESTINATION')"
-data "OriginTargetConditions" "Ally() and (Tagged('WEIGHT_MEDIUM') or Tagged('WEIGHT_SMALL') or Tagged('WEIGHT_TINY'))"
+data "OriginTargetConditions" "Ally() and (Tagged('WEIGHT_MEDIUM') or Tagged('WEIGHT_SMALL') or Tagged('WEIGHT_TINY')) and not HasStatus('MYSTIC_ARRIVED_AT_DESTINATION')"
+data "OriginSpellProperties" "ApplyStatus(MYSTIC_ARRIVED_AT_DESTINATION,100,1)"
 data "TeleportSelf" "No"
 data "TeleportSurface" "No" 
 
