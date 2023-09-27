@@ -263,11 +263,11 @@
 	<content contentuid="h40f05e1fgacd7g4ba2gaad9g0d630594f822" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Deception &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="hced1892egf4efg429bg9617gd1919319dab7" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Deception &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="h5e97d2e0g91ffg4197gaf37g61ce815a6a01" version="1">Psychic Focus: Psychic Suppression</content>
-	<content contentuid="h33f6e466g1369g493dgae15gd2f8882d8c7c" version="1">TODO: PSYCHIC SUPPRESSION DESCRIPTION 1</content>
-	<content contentuid="h573ce019g24e2g4afbg98fdga7098e625410" version="1">TODO: PSYCHIC SUPPRESSION DESCRIPTION 2</content>
+	<content contentuid="h33f6e466g1369g493dgae15gd2f8882d8c7c" version="1"></content>
+	<content contentuid="h573ce019g24e2g4afbg98fdga7098e625410" version="1"></content>
 	<content contentuid="he9dd3d0ag15f4g49fegaa51gfa289381c51f" version="1">Psychic Focus: Telepathic Subjugation</content>
-	<content contentuid="h8ee396fdg45cag4e39g92e9g9f4eb142326b" version="1">TODO: TELEPATHIC SUBJUGATION DESCRIPTION 1</content>
-	<content contentuid="hf1f7cbd5g230bg40d0g87a6g2a2cf90c4ab7" version="1">TODO: TELEPATHIC SUBJUGATION DESCRIPTION 2</content>
+	<content contentuid="h8ee396fdg45cag4e39g92e9g9f4eb142326b" version="1">Gain +1 to &lt;LSTag Tooltip="SpellDifficultyClass"&gt;Spell Save DC&lt;/LSTag&gt;.</content>
+	<content contentuid="hf1f7cbd5g230bg40d0g87a6g2a2cf90c4ab7" version="1">+1 to &lt;LSTag Tooltip="SpellDifficultyClass"&gt;Spell Save DC&lt;/LSTag&gt;.</content>
 	<content contentuid="h038f2a55gf66eg467egb1a8g99b7fb49a149" version="1">Psychic Focus: Third Eye</content>
 	<content contentuid="h8e4b6e52gdfffg4f5bg998fg8f6856453fd7" version="1">Gain [1] of Darkvision.</content>
 	<content contentuid="h98643e69g2072g44eagae0ag594b75277bfd" version="1">Can see in the dark up to [1]</content>
@@ -419,7 +419,7 @@
 	<content contentuid="he3859f73g3be7g43ddga88bg142c54b26bd8" version="1">Psychic Parry</content>
 	<content contentuid="he3446c7fga2b2g4256g93efga0485b80e08e" version="1">As a reaction, when you make an Intelligence, Wisdom or Charisma &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;, you can gain a +1 bonus to that &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; per Psi Point spent.</content>
 	<content contentuid="hf41be51cg0881g4fd1gb7c1gfa5965c3e55d" version="1">Psychic Redoubt </content>
-	<content contentuid="h7501f53dg30a8g425fg9565g8c714d323986" version="1">Manifest a field of protective psionic energy, giving nearby allies &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to psychic damage and &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Intelligence, Wisdom and Charisma &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
+	<content contentuid="h7501f53dg30a8g425fg9565g8c714d323986" version="1">Manifest a field of protective psionic energy, giving nearby allies &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Psychic damage and &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Intelligence, Wisdom and Charisma &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
 	<content contentuid="h315be883g6a8ag43bfga828gda303f16c97a" version="1">&lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to psychic damage. &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Intelligence, Wisdom and Charisma &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
 	<content contentuid="hbb59d6f5gf5f9g48cbg80f0g76ca8ce6e1a8" version="1">Charming Presence</content>
 	<content contentuid="hda21319fg5098g4a7cg93e5gca69247a7efa" version="1">Exude an aura of sympathetic power, Charming nearby creatures.</content>
@@ -433,8 +433,8 @@
 	<content contentuid="hbced9298g8494g4307g9f98g3c8d470714d6" version="1">All-Around Sight</content>
 	<content contentuid="hdbb509b6g53fag42c4g84fdgf5a4eebc7955" version="1">As a reaction, impose &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on an incoming attack.</content>
 	<content contentuid="h6c37f967g4d77g4616gbf4eg8320a6c4e591" version="1">Danger Sense</content>
-	<content contentuid="he5861033g372bg4104gb813g6aa045a93cb6" version="1">Create a psychic model of reality and peer into its future, gaining a +10 bonus to Initiative and preventing you from being Surprised.</content>
-	<content contentuid="h8bd8eab5g5c86g4a84gbdc6gf93b111bcfa5" version="1">+10 to Initiative and can't be Surprised.</content>
+	<content contentuid="he5861033g372bg4104gb813g6aa045a93cb6" version="1">Create a psychic model of reality and peer into its future, gaining a +10 bonus to Initiative and preventing you from being &lt;LSTag Type="Status" Tooltip="SURPRISED"&gt;Surprised&lt;/LSTag&gt;.</content>
+	<content contentuid="h8bd8eab5g5c86g4a84gbdc6gf93b111bcfa5" version="1">+10 to Initiative and can't be &lt;LSTag Type="Status" Tooltip="SURPRISED"&gt;Surprised&lt;/LSTag&gt;.</content>
 	<content contentuid="h56f16108g0c69g4785g9704gb6e54f178606" version="1">Victory Before Battle</content>
 	<content contentuid="h418629f5g72d4g432bg9aefgcc759f073b00" version="1">Impart knowledge of the future to up to six creatures, giving them +10 to Initiative the next time they start combat.</content>
 	<content contentuid="hf805d57fgda44g46a0ga7cbgf2222b2101a6" version="1">+10 to Initiative.</content>
@@ -454,27 +454,28 @@
 	<content contentuid="h7ba07cedg38bag4861gb3edg239bcdc0739a" version="1">Obfuscate an enemy's vision, reducing their sight range significantly.</content>
 	<content contentuid="hf2960176g262cg43aeg9215g9fc5cf0ad4c1" version="1">Sight range reduced to [1].</content>
 	<content contentuid="h0ae47249g80e7g4c32g857fge95297ecc1f6" version="1">Daze</content>
-	<content contentuid="hc4838845gd112g4d8agb23bg984a55aee4e8" version="1">Incapacitate an enemy until the end of your next turn or until it takes damage.</content>
+	<content contentuid="hc4838845gd112g4d8agb23bg984a55aee4e8" version="1">&lt;LSTag Type="Status" Tooltip="INCAPACITATED"&gt;Incapacitate&lt;/LSTag&gt; an enemy until the end of your next turn or until it takes damage.</content>
+	<content contentuid="h0f96d299g34abg47d3gac05g94fbddbb25fd" version="1">&lt;LSTag Type="Status" Tooltip="INCAPACITATED"&gt;Incapacitated&lt;/LSTag&gt; unless damaged.</content>	
 	<content contentuid="h8b917677g610ag4756g87a3g17f3a54e503f" version="1">Mind Storm</content>
-	<content contentuid="h95a1fdaage462g47eaga624g309877b78a78" version="1">Evoke a storm of psionic energy, causing creatures within to suffer &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
+	<content contentuid="h95a1fdaage462g47eaga624g309877b78a78" version="1">Evoke a storm of psionic energy, causing creatures within to suffer &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; until the end of your next turn.</content>
 	<content contentuid="h9f699da1gab25g4f70g99fbg9495fdf0dec4" version="1">&lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
 	<content contentuid="" version="1">Hammer of Inquisition</content>
 	<content contentuid="" version="1">Assault an enemy's mind. They have Disadvantage on Wisdom Saving Throws until the end of your next turn.</content>
 	<content contentuid="" version="1">Disadvantage on Wisdom Saving Throws.</content>
-	<content contentuid="" version="1">TODO: PSYCHIC INQUISITION ABILITY 2</content>
-	<content contentuid="" version="1">TODO: PSYCHIC INQUISITION ABILITY 2 DESCRIPTION</content>
-	<content contentuid="" version="1">Mental Decay</content>
-	<content contentuid="" version="1">TODO: PSYCHIC INQUISITION ABILITY 3 DESCRIPTION</content>
-	<content contentuid="" version="1">Atrophy</content>
-	<content contentuid="" version="1">TODO: PSYCHIC INQUISITION ABILITY 4 DESCRIPTION</content>
-	<content contentuid="" version="1">Broken Will</content>
-	<content contentuid="" version="1">Shatter a creature's will, forcing them to fall Prone and do nothing for a turn.</content>
-	<content contentuid="" version="1">Psionic Grip</content>
-	<content contentuid="" version="1">Hold a humanoid enemy still. They can't move, act or react. Attacks from within 3m are always Critical Hits.</content>
-	<content contentuid="" version="1">Psychic Grasp</content>
-	<content contentuid="" version="1">Paralyse a creature. It can't move, act or react. Attacks from within 3m are always Critical Hits.</content>
-	<content contentuid="" version="1">Pyschic Domination</content>
-	<content contentuid="" version="1">Make a humanoid fight alongside you. Every time the creature takes damage, it makes a Wisdom Saving Throw against your domination. Allies cannot be dominated.</content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="h458d8f35g3206g470agac6bg95005a72dc1a" version="1">Broken Will</content>
+	<content contentuid="h42e7ed85g4829g4eeagbb27gd9d6b065754c" version="1">Shatter a creature's will, forcing them to fall &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; and do nothing for a turn.</content>
+	<content contentuid="h579cef56g7c55g4a19gadcbgb9607e112817" version="1">Psionic Grip</content>
+	<content contentuid="h3012d00dg8735g458bg9878g199513e700ec" version="1">&lt;LSTag Type="Status" Tooltip="HOLD_PERSON"&gt;Hold&lt;/LSTag&gt; a humanoid enemy still. They can't move, act or react. Attacks from within 3m are always Critical Hits.</content>
+	<content contentuid="hb347b50bg8493g447dga5b8g579dc8a359bc" version="1">Psychic Grasp</content>
+	<content contentuid="hddc8c491g16d1g4d25g93e7ga69557ed914a" version="1">&lt;LSTag Type="Status" Tooltip="PARALYZED"&gt;Paralyse&lt;/LSTag&gt; a creature. It can't move, act or react. Attacks from within 3m are always Critical Hits.</content>
+	<content contentuid="hbb736357g4467g401cga8d6g9c61f0083de8" version="1">Pyschic Domination</content>
+	<content contentuid="h82fccda1gadf2g4b80g9f60g5d8359d3e0be" version="1">Make a humanoid fight alongside you. Every time the creature takes damage, it makes an Intelligence &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; against your domination. Allies cannot be dominated.</content>
 	<content contentuid="h04cf143dgea65g4a1egafcdg316ec104a315" version="1">Environmental Adaptation</content>
 	<content contentuid="h65b53eb8g9835g4416g91b9g3baf1ff1de81" version="1">Touch a creature to make them resistant to the elements, making them immune to Acid, Wet, Burning and Chilled.</content>
 	<content contentuid="h98e25074gaff8g417agae94g7104c219aceb" version="1">&lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to Acid, Wet, Burning, Chilled.</content>
@@ -653,10 +654,10 @@
 	<content contentuid="h621580adgff31g4c7dgba5bg0a4510cdf502" version="1">Has Expertise in all Skills.</content>
 	<content contentuid="h3edfc105g327fg4c7dgb6bbg4f4781a6631a" version="1">Step of a Dozen Paces</content>
 	<content contentuid="h20a687b8gcc11g4f63gb7e7g76a38ebe08dd" version="1">Teleport up to [1].</content>
-	<content contentuid="" version="1">Nomadic Anchor</content>
-	<content contentuid="" version="1">TODO: Nomadic Anchor Description</content>
-	<content contentuid="" version="1">Nomadic Anchor: Recall</content>
-	<content contentuid="" version="1">TODO: Nomadic Anchor: Recall Description</content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
 	<content contentuid="h5bebca69g2c85g4ba9gb640g656b4ec66241" version="1">Defensive Step</content>
 	<content contentuid="h3a3f0db7g14a3g4655ga986g1635f41bc6fa" version="1">As a reaction, when you are about to be hit by an attack, you can increase your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by 4, possibly causing the attack to miss, as well as gaining the effects of Disengage.</content>
 	<content contentuid="h1783bf72g5aacg459dgb9a3gace3af6f3807" version="1">There and Back Again</content>
@@ -678,8 +679,8 @@
 	<content contentuid="h7285fa34gde9bg44e0gb0fagca90dab02ff9" version="1">Nomad's Gate</content>
 	<content contentuid="hc31bb328gcb0cg48d3g9d82gb4583be8f670" version="1">Create two linked teleportation portals.</content>
 	<content contentuid="h80ac6a86g0629g4cecg82efg724543bf70c3" version="1">Tremorsense</content>
-	<content contentuid="h3c7775c7g1584g4141g88eagc93f3eb05b65" version="1">Sense disturbances in the earth. You and nearby allies can't be Surprised.</content>
-	<content contentuid="hcce359fag52aeg488eg9e1ag27abe2a7ff8c" version="1">Can't be Surprised.</content>
+	<content contentuid="h3c7775c7g1584g4141g88eagc93f3eb05b65" version="1">Sense disturbances in the earth. You and nearby allies can't be &lt;LSTag Type="Status" Tooltip="SURPRISED"&gt;Surprised&lt;/LSTag&gt;.</content>
+	<content contentuid="hcce359fag52aeg488eg9e1ag27abe2a7ff8c" version="1">Can't be &lt;LSTag Type="Status" Tooltip="SURPRISED"&gt;Surprised&lt;/LSTag&gt;.</content>
 	<content contentuid="h1ce48ca1g9d31g48ebgac4fgb119fcca640c" version="1">Unwavering Eye</content>
 	<content contentuid="hfccb78e6g43b5g4d34ga094g42573397b535" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Wisdom &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="he113895dgf352g4cbbgbe98g767e062c3c26" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Wisdom &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
@@ -819,7 +820,7 @@
 	<content contentuid="hd8ba7b71gce4bg456cg881dg74d7247ccc16" version="1">Tap into your own life force, regaining 7 Psi Points but reducing your maximum hit points by [1].</content>
 	<content contentuid="hff2ceb41gea66g4d25gb16fgc325168527b7" version="1">Maximum hit points reduced by [1].</content>
 	<content contentuid="h73c12dd2gef0ag4f02g9b52g4cd9336023b0" version="1">Armour Training</content>
-	<content contentuid="h31b494b2g60f7g4109ga3f4gb7870b784e7c" version="1">Gain Profiency with medium armour and shields.</content>
+	<content contentuid="h31b494b2g60f7g4109ga3f4gb7870b784e7c" version="1">You have &lt;LSTag Tooltip="ArmourProficiency"&gt;Armour Proficiency&lt;/LSTag&gt; with Medium Armour and Shields.</content>
 	<content contentuid="h2f333397g29fdg45eag8006g94c8ff848ea0" version="1">Avatar of Battle</content>
 	<content contentuid="h8ec97092ga28cg4010g87d6g937a3c1498a9" version="1">Project an inspiring aura, giving nearby allies +2 to Initiative.</content>
 	<content contentuid="h8c23bb63g8001g4df9g817fgcdb0e2ad8e10" version="1">+2 to Initiative.</content>
@@ -827,12 +828,13 @@
 	<content contentuid="h5f8fefd6g38f9g415fg872bg1260816a1289" version="1">Project a soothing aura, causing nearby allies to regain 2 additional hit points from all sources of healing.</content>
 	<content contentuid="h5bb0eed8g2635g4626g92d8g068d55d30155" version="1">Receives 2 additional hit points from all healing sources.</content>
 	<content contentuid="" version="1">Avatar of Speed</content>
-	<content contentuid="" version="1">TODO: Avatar of Speed Description</content>
-	<content contentuid="" version="1">TODO: Avatar of Speed Status Description</content>
+	<content contentuid="" version="1">Avatar of Speed Description</content>
+	<content contentuid="" version="1">Avatar of Speed Status Description</content>
 	<content contentuid="h29dbe5fdg2e21g4bcfgb3aag03941771738a" version="1">Psionic Investigation</content>
-	<content contentuid="he19cc2bbgb1c5g493fg92b8g0247feb4f0b7" version="1">TODO: Psionic Investigation Description</content>
+	<content contentuid="he19cc2bbgb1c5g493fg92b8g0247feb4f0b7" version="1">Gain Advantage on Investigation, Insight and History Checks.</content>
+	<content contentuid="hfd3b8cf9gcc4eg4acfgb1f7g7790973b80ae" version="1">Advantage on Investigation, Insight and History Checks.</content>
 	<content contentuid="he2f4f7f4g276dg4d9bga0d9g8351051384b8" version="1">Psionic Surge</content>
-	<content contentuid="hc8df6a32g2235g427cga697g74f6fa505179" version="1">TODO: Psionic Surge Description</content>
+	<content contentuid="hc8df6a32g2235g427cga697g74f6fa505179" version="1">As a reaction, impose Disadvantage on a creature's Saving Throw. Usable once per Short or Long Rest.</content>
 	<content contentuid="hfd02e5fbge611g4faag9663g00b78f794fd3" version="1">Immortal Durability</content>
 	<content contentuid="ha1b80016g75b0g4b86g980egd47c22370bee" version="1">While not wearing armour, you add your Constitution Modifier to your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;.</content>
 	<content contentuid="h00ecd105g8ef2g46d7gbad6ge24f139bf19c" version="1">Psionic Resilience</content>
@@ -849,7 +851,7 @@
 	<content contentuid="h34693707ge485g441fg8551g9d1ae7dc820a" version="1">Superior Teleportation</content>
 	<content contentuid="hd424fda3gf256g4519g8d76g15dced640ac1" version="1">Increase the teleportation range of psionic disciplines by [1].</content>
 	<content contentuid="h248529ceg6c81g47cbgae19g7d937b7904ca" version="1">Martial Training</content>
-	<content contentuid="hfdf8fba9gb1eeg4c9egb03dg14111a5a462b" version="1">Gain Proficiency in medium armour and martial weapons.</content>
+	<content contentuid="hfdf8fba9gb1eeg4c9egb03dg14111a5a462b" version="1">You have Armour Proficiency with Medium Armour and &lt;LSTag Tooltip="WeaponProficiency"&gt;Weapon Proficiency&lt;/LSTag&gt; with Martial Weapons.</content>
 	<content contentuid="h44e3ede5g8eadg4f23g917dge892947fae40" version="1">Soul Knife</content>
 	<content contentuid="ha769c607gff4dg4b13g878ag7fa6d50058d8" version="1">TODO: Soul Knife Description</content>
 	<content contentuid="h813a60cbgd0beg4a65ga5aagacd8fd7a3684" version="1">Hone the Blade</content>

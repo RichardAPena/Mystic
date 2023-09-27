@@ -2,6 +2,7 @@
 new entry "Zone_Mystic_PsychicBlast"
 type "SpellData"
 data "SpellType" "Zone"
+data "Level" "6"
 
 data "Icon" "PassiveFeature_CRE_BrainDamage_INT"
 data "DisplayName" "hd3185e40g210ag4743g9052gdd43ffc47519"
@@ -175,7 +176,6 @@ data "TargetEffect" "a4786ee9-eb7c-4d0d-aaa9-9a637d9eaeaf"
 data "DamageType" "Poison"
 
 // Wind Stream
-// TODO
 new entry "Zone_Mystic_WindStream"
 type "SpellData"
 data "SpellType" "Zone"
@@ -308,7 +308,6 @@ data "SurfaceLifetime" "0"
 data "SurfaceGrowStep" "5"
 data "SurfaceGrowInterval" "10"
 data "SpellRoll" "not SavingThrow(Ability.Strength, SourceSpellDC())"
-// TODO: not sure if thsi will work, its from black hole
 data "SpellSuccess" "DealDamage(3d6,Bludgeoning,Magical);Force(3, TargetToEntity, Neutral, false, true)"
 data "SpellFail" "DealDamage((3d6)/2,Bludgeoning,Magical)"
 data "TargetConditions" "not Dead()"

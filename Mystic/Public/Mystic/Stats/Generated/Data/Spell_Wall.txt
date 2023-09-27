@@ -1,8 +1,3 @@
-// TODO: Any wall spells are NOT cringe!
-// Just use SurfaceType and ItemWallStatus
-// Many FogCloud Xd
-// Wonder if I can also change their thing
-
 // Wall of Repulsion
 new entry "Wall_Mystic_WallOfRepulsion"
 type "SpellData"

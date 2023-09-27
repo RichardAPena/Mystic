@@ -40,7 +40,7 @@
                         </node>
                     </children>
                 </node>
-				<node id="Progression"> TODO: Mainclass Level 1 MULTICLASS
+				<node id="Progression"> Mystic Multiclass
                     <attribute id="AllowImprovement" type="bool" value="false"/>
                     <attribute id="Boosts" type="LSString" value="ActionResource(PsiPointsResource,5,0)"/>
                     <attribute id="IsMulticlass" type="bool" value="true"/>

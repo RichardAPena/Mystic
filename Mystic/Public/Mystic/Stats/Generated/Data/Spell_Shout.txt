@@ -416,8 +416,8 @@ data "Description" "ha9db8e54g635ag4239gabbegd4758c9d41d8"
 // data "DescriptionParams" ""
 
 data "TargetConditions" "Self()"
-data "SpellProperties" "ApplyStatus(MYSTIC_PERCEIVE_THE_UNSEEN,100, 10)"
-data "TooltipStatusApply" "ApplyStatus(MYSTIC_PERCEIVE_THE_UNSEEN,100,10)"
+data "SpellProperties" "ApplyStatus(MYSTIC_PERCEIVE_THE_UNSEEN,100, -1)"
+data "TooltipStatusApply" "ApplyStatus(MYSTIC_PERCEIVE_THE_UNSEEN,100,-1)"
 // data "TooltipPermanentWarnings" "375fe7a4-7a8a-4bbe-812c-0af9584c0740"
 data "CastSound" "Spell_Cast_Utility_Light_L0"
 data "TargetSound" "Spell_Impact_Utility_Light_L0"
@@ -442,7 +442,7 @@ data "Level" "2"
 data "Icon" "Action_Charger_Push"
 data "DisplayName" "h6a32a2fdg7d8fg499cga80eg348f92289a86"
 data "Description" "h34e0c50eg2f15g412ag8f79ge7d9fc0ff80a"
-data "DescriptionParams" ""
+data "DescriptionParams" "DealDamage(2d10,Psychic)"
 
 data "SpellFlags" "IsSpell"
 data "UseCosts" "ReactionActionPoint:1;PsiPointsResource:2"
@@ -493,7 +493,7 @@ data "TargetEffect" "b94fcfde-d824-4e7d-b9c5-833a50b66537"
 new entry "Shout_Mystic_CharmingPresence"
 type "SpellData"
 data "SpellType" "Shout"
-data "Level" "3"
+data "Level" "2"
 
 data "Icon" "Action_FeyPresence"
 data "DisplayName" "hbb59d6f5gf5f9g48cbg80f0g76ca8ce6e1a8"
@@ -573,8 +573,8 @@ data "Description" "he5861033g372bg4104gb813g6aa045a93cb6"
 data "DescriptionParams" ""
 
 data "TargetConditions" "Self()"
-data "SpellProperties" "ApplyStatus(MYSTIC_DANGER_SENSE,100, 10)"
-data "TooltipStatusApply" "ApplyStatus(MYSTIC_DANGER_SENSE,100,10)"
+data "SpellProperties" "ApplyStatus(MYSTIC_DANGER_SENSE,100, -1)"
+data "TooltipStatusApply" "ApplyStatus(MYSTIC_DANGER_SENSE,100,-1)"
 data "CastSound" "Spell_Cast_Utility_Light_L0"
 data "TargetSound" "Spell_Impact_Utility_Light_L0"
 data "CastTextEvent" "Cast"
@@ -1006,8 +1006,7 @@ data "CastSound" "Spell_Cast_Utility_Light_L0"
 data "TargetSound" "Spell_Impact_Utility_Light_L0"
 data "CastTextEvent" "Cast"
 data "UseCosts" "ActionPoint:1;PsiPointsResource:2"
-// TODO: Might wanna make a new animation for this
-data "SpellAnimation" "9fd22d7d-5d7a-470b-a939-810046915bed,,;,,;9d86c202-31a5-4ba3-ae60-ec4fbb425665,,;a4112e22-e36f-44ff-828f-81252360da53,,;2d19a206-bf18-4f4d-ba95-f83c5fc38fd7,,;,,;57db495b-2467-467b-a599-d7df2fa4d659,,;,,;,,;"
+data "SpellAnimation" "9fd22d7d-5d7a-470b-a939-810046915bed,,;,,;39daf365-ec06-49a8-81f3-9032640699d7,,;5c400e93-0266-499c-a2e1-75d53358460f,,;2d19a206-bf18-4f4d-ba95-f83c5fc38fd7,,;,,;57db495b-2467-467b-a599-d7df2fa4d659,,;,,;,,;"
 data "SpellFlags" "IsSpell;IsMelee"
 data "HitAnimationType" "MagicalNonDamage"
 data "PrepareEffect" "7121a488-7c9a-4ba1-a585-f79aaa77e97c"
@@ -2287,11 +2286,7 @@ data "PrepareEffect" "7121a488-7c9a-4ba1-a585-f79aaa77e97c"
 data "CastEffect" "0198563f-c48b-45e0-afb5-46ef9576adff"
 data "TargetEffect" "b94fcfde-d824-4e7d-b9c5-833a50b66537"
 
-//dsiplaymane hc50db36dg77fbg42eag8f4cg2ceeee4025b9
-//descripton hd8ba7b71gce4bg456cg881dg74d7247ccc16
-// TODO: Rest of class features
-
-// Psionic Mastery
+// TODO: Psionic Mastery
 
 // Avatar of Battle
 new entry "Shout_Mystic_AvatarOfBattle"
@@ -2345,7 +2340,7 @@ data "PrepareEffect" "7121a488-7c9a-4ba1-a585-f79aaa77e97c"
 data "CastEffect" "0198563f-c48b-45e0-afb5-46ef9576adff"
 data "TargetEffect" "b94fcfde-d824-4e7d-b9c5-833a50b66537"
 
-// TODO: Avatar of Speed
+// Avatar of Speed
 new entry "Shout_Mystic_AvatarOfSpeed"
 type "SpellData"
 data "SpellType" "Shout"
@@ -2355,23 +2350,24 @@ data "DisplayName" "h2f333397g29fdg45eag8006g94c8ff848ea0"
 data "Description" "h8ec97092ga28cg4010g87d6g937a3c1498a9"
 data "DescriptionParams" ""
 
-// TODO: Psionic Investigation
+// Psionic Investigation
 new entry "Shout_Mystic_PsionicInvestigation"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" ""
+data "Icon" "PassiveFeature_ArcaneWard"
 data "DisplayName" "h29dbe5fdg2e21g4bcfgb3aag03941771738a"
 data "Description" "he19cc2bbgb1c5g493fg92b8g0247feb4f0b7"
 data "DescriptionParams" ""
 
+data "Cooldown" "OncePerShortRest"
 data "TargetConditions" "Self()"
-data "SpellProperties" "ApplyStatus(MYSTIC_AVATAR_OF_HEALING,100, -1)"
-data "TooltipStatusApply" "ApplyStatus(MYSTIC_AVATAR_OF_HEALING,100, -1)"
+data "SpellProperties" "ApplyStatus(MYSTIC_PSIONIC_INVESTIGATION,100, 10)"
+data "TooltipStatusApply" "ApplyStatus(MYSTIC_PSIONIC_INVESTIGATION,100, 10)"
 data "CastSound" "Spell_Cast_Utility_Light_L0"
 data "TargetSound" "Spell_Impact_Utility_Light_L0"
 data "CastTextEvent" "Cast"
-data "UseCosts" "BonusActionPoint:1"
+data "UseCosts" "ActionPoint:1"
 data "SpellAnimation" "9fd22d7d-5d7a-470b-a939-810046915bed,,;,,;2f893fad-98eb-47cf-a524-dd4efd42bc2a,,;ca3147a8-2cf6-45a8-ac9a-1ce0fc11305f,,;2d19a206-bf18-4f4d-ba95-f83c5fc38fd7,,;,,;57db495b-2467-467b-a599-d7df2fa4d659,,;,,;,,;"
 data "SpellFlags" "IsMelee"
 data "HitAnimationType" "MagicalNonDamage"
@@ -2392,7 +2388,7 @@ data "DescriptionParams" ""
 data "TargetConditions" "Self()"
 
 // new entry "Shout_ShadowBlade"
-// data "SpellProperties" "AI_IGNORE:SummonInInventory(66d6cbd5-c231-4fc4-a3b7-80f781b579f7,10,1,true,true,true,,,SHADOW_BLADE,SHADOW_BLADE);ApplyStatus(SELF, MAG_SHADOW_BLADE_OWNER, 100, -1)"
+// data "SpellProperties" "AI_IGNORE:SummonInInventory(66d6cbd5-c231-4fc4-a3b7-80f781b579f7,10,1,true,true,true,,,SOUL_KNIFE,SOUL_KNIFE)"
 
 data "PrepareSound" "Action_Prepare_Item_ShadowBlade"
 data "PrepareLoopSound" "Action_Loop_Item_ShadowBlade"

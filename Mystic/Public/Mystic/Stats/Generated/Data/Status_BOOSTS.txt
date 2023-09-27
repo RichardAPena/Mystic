@@ -1,5 +1,3 @@
-// TODO: Everything is Thaumaturgy
-
 // Psychic Focus: Adaptive Body
 new entry "PSYCHIC_FOCUS_ADAPTIVE_BODY"
 type "StatusData"
@@ -572,9 +570,6 @@ data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "Advantage(Skill, Deception)"
 
 // Psychic Focus: Psychic Suppression (Psychic Inquisition)
-// While focused on this discipline, you know when a creature communicating with you via telepathy is lying.
-// ***IMPOSSIBLE
-// TODO: WIP: BEING REWORKED UNDER CONSTRUCTION
 new entry "PSYCHIC_FOCUS_PSYCHIC_SUPPRESSION"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -585,10 +580,6 @@ data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" ""
 
 // Psychic Focus: Telepathic Subjugation (Telepathic Contact) 
-// While focused on this discipline, you gain the ability to use your Telepathy class feature with up to six creatures at once.
-// If you don’t have that feature from the mystic class, you instead gain it while focused on this discipline.
-// ***IMPOSSIBLE
-// TODO: WIP: BEING REWORKED UNDER CONSTRUCTION
 new entry "PSYCHIC_FOCUS_TELEPATHIC_SUBJUGATION"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -596,7 +587,7 @@ data "DisplayName" "he9dd3d0ag15f4g49fegaa51gfa289381c51f"
 data "Description" "hf1f7cbd5g230bg40d0g87a6g2a2cf90c4ab7"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
-data "Boosts" ""
+data "Boosts" "SpellSaveDC(1)"
 
 // Psychic Focus: Third Eye
 new entry "PSYCHIC_FOCUS_THIRD_EYE"
@@ -654,6 +645,9 @@ data "Description" "hbe6f4eeeg729ag4a55ga001g1886fef14a34"
 data "Icon" "Spell_Necromancy_Blindness"
 data "StackId" "MYSTIC_BLIND_SPOT"
 data "Boosts" "SightRangeMaximum(3)"
+data "StatusGroups" "SG_Blinded;SG_Condition"
+data "ApplyEffect" "39044361-a2df-4730-90ca-ce37ddcbc482"
+data "StatusEffect" "5c53ef4c-bd94-4567-94c1-8b1a8cefa7e3"
 
 // Mind Meld
 new entry "MYSTIC_MIND_MELD_BUFF"
@@ -1407,7 +1401,7 @@ type "StatusData"
 data "StatusType" "BOOST"
 data "DisplayName" "hf2d8338cg3bbcg432fg9168gc940ce3682b2"
 data "Description" "he207afeagf1dbg416fgb44cgb1e75ac96743"
-data "Icon" ""
+data "Icon" "Spell_Divination_TrueSeeing"
 data "StackId" "MYSTIC_VIEW_AURA"
 data "Boosts" "Advantage(SourceDialogue,Charisma);Advantage(SourceDialogue,Intelligence)"
 
@@ -1432,6 +1426,16 @@ data "Icon" "Action_Mag_Illithid_MindTax"
 data "StackId" "MYSTIC_PERCEIVE_THE_UNSEEN_BUFF"
 data "Boosts" "Skill(Perception, 10)"
 
+// Psychic Backlash
+new entry "MYSTIC_PSYCHIC_BACKLASH"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h6a32a2fdg7d8fg499cga80eg348f92289a86"
+data "Description" "h34e0c50eg2f15g412ag8f79ge7d9fc0ff80a"
+data "Icon" "Action_Charger_Push"
+data "Passives" "Passive_Mystic_PsychicBacklash"
+data "RemoveEvents" "OnAttacked"
+
 // Psychic Redoubt
 new entry "MYSTIC_PSYCHIC_REDOUBT"
 type "StatusData"
@@ -1449,6 +1453,7 @@ type "StatusData"
 data "StatusType" "BOOST"
 using "ENTHRAL"
 data "DisplayName" "hb5d3880cg42cfg4264ga2cag6ce63682365e"
+data "Icon" "Spell_Enchantment_Enthrall"
 // data "Description" ""
 // data "DescriptionParams" ""
 // data "Icon" ""
@@ -1486,6 +1491,7 @@ data "Description" "hf805d57fgda44g46a0ga7cbgf2222b2101a6"
 data "Icon" "Action_PrecisionAttack"
 data "StackId" "MYSTIC_VICTORY_BEFORE_BATTLE"
 data "Boosts" "Initiative(10)"
+data "RemoveConditions" "Combat()"
 
 // Ego Whip
 new entry "MYSTIC_EGO_WHIP"
@@ -1495,7 +1501,7 @@ data "DisplayName" "hdf83a67dg64ebg423bg8f86gdcd23903b8b4"
 data "Description" "h21d8eb7bg9281g439bga92cg96e196aea82f"
 data "Icon" "Spell_Conjuration_Entangled"
 data "StackId" "MYSTIC_EGO_WHIP"
-// data "TickType" "StartTurn"
+data "TickType" "EndTurn"
 // data "StatusPropertyFlags" "TickingWithSource"
 data "Boosts" ""
 
@@ -1518,11 +1524,30 @@ data "StatusType" "BOOST"
 data "DisplayName" "he698e421gecfbg4505g9920g109d0fc2527f"
 data "Description" "hf2960176g262cg43aeg9215g9fc5cf0ad4c1"
 data "DescriptionParams" "Distance(3)"
-data "Icon" ""
+data "Icon" "Action_HaloOfSpores"
 data "StackId" "MYSTIC_DISTRACTING_HAZE"
 // data "TickType" "StartTurn"
 // data "StatusPropertyFlags" "TickingWithSource"
 data "Boosts" "SightRangeMaximum(3)"
+data "StatusGroups" "SG_Blinded;SG_Condition"
+data "ApplyEffect" "39044361-a2df-4730-90ca-ce37ddcbc482"
+data "StatusEffect" "5c53ef4c-bd94-4567-94c1-8b1a8cefa7e3"
+
+// Daze
+new entry "MYSTIC_DAZE"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h0ae47249g80e7g4c32g857fge95297ecc1f6"
+data "Description" "h0f96d299g34abg47d3gac05g94fbddbb25fd"
+data "Icon" "Action_Glut_PacifyingSpores"
+data "StillAnimationType" "Dazed"
+data "StillAnimationPriority" "Dazed"
+data "TickType" "EndTurn"
+data "StatusPropertyFlags" "TickingWithSource"
+data "StackId" "INCAPACITATED_DND"
+data "Boosts" "ActionResourceBlock(ActionPoint);ActionResourceBlock(ReactionActionPoint);ActionResourceBlock(BonusActionPoint);"
+data "StatusGroups" "SG_Incapacitated;SG_Condition"
+data "RemoveEvents" "OnDamaged"
 
 // Mind Storm
 new entry "MYSTIC_MIND_STORM"
@@ -1530,16 +1555,49 @@ type "StatusData"
 data "StatusType" "BOOST"
 data "DisplayName" "h8b917677g610ag4756g87a3g17f3a54e503f"
 data "Description" "h9f699da1gab25g4f70g99fbg9495fdf0dec4"
-data "DescriptionParams" ""
-data "Icon" ""
+// data "DescriptionParams" ""
+data "Icon" "Spell_Conjuration_HungerOfHadar"
 data "StackId" "MYSTIC_MIND_STORM"
-// data "TickType" "StartTurn"
-// data "StatusPropertyFlags" "TickingWithSource"
+data "TickType" "EndTurn"
+data "StatusPropertyFlags" "TickingWithSource"
 data "Boosts" "Disadvantage(AllSavingThrows)"
 
-// TODO: Psychic Inquisition
+// Psychic Inquisition
 
-// TODO: Telepathic Contact
+// Broken Will
+new entry "MYSTIC_BROKEN_WILL"
+type "StatusData"
+data "StatusType" "BOOST"
+using "COMMAND_GROVEL"
+data "DisplayName" "h458d8f35g3206g470agac6bg95005a72dc1a"
+// data "Description" ""
+
+// Psionic Grip
+new entry "MYSTIC_PSIONIC_GRIP"
+type "StatusData"
+data "StatusType" "BOOST"
+using "HOLD_PERSON"
+data "DisplayName" "h579cef56g7c55g4a19gadcbgb9607e112817"
+data "RemoveConditions" "SavingThrow(Ability.Intelligence, SourceSpellDC())"
+data "TooltipSave" "Intelligence"
+
+// Psychic Grasp
+new entry "MYSTIC_PSYCHIC_GRASP"
+type "StatusData"
+data "StatusType" "BOOST"
+using "HOLD_MONSTER"
+data "DisplayName" "hb347b50bg8493g447dga5b8g579dc8a359bc"
+data "RemoveConditions" "SavingThrow(Ability.Intelligence, SourceSpellDC())"
+data "TooltipSave" "Intelligence"
+
+// Psychic Domination
+new entry "MYSTIC_PSYCHIC_DOMINATION"
+type "StatusData"
+data "StatusType" "BOOST"
+using "DOMINATE_PERSON"
+data "DisplayName" "hbb736357g4467g401cga8d6g9c61f0083de8"
+data "RemoveConditions" "SavingThrow(Ability.Intelligence, SourceSpellDC(), AdvantageOnCharmed())"
+data "TooltipSave" "Intelligence"
 
 // Environmental Adaptation
 new entry "MYSTIC_ENVIRONMENTAL_ADAPTATION"
@@ -2024,7 +2082,7 @@ data "StackId" "MYSTIC_ETHEREAL_WEAPON"
 // data "TickType" "StartTurn"
 // data "StatusPropertyFlags" "TickingWithSource"
 // data "Boosts" "UnlockSpellVariant(ExtraAttackCheck(),ModifySpellRoll('AttackType.MeleeWeaponAttack','not SavingThrow(Ability.Dexterity, SourceSpellDC())'), ModifyIconGlow(),ModifyTooltipDescription());"
-// TODO: test this one
+// test this one
 // data "Boosts" "UnlockSpellVariant(ExtraAttackCheck(),ModifySpellRoll('AttackType.MeleeWeaponAttack' or 'AttackType.RangedWeaponAttack','not SavingThrow(Ability.Dexterity, SourceSpellDC())'), ModifyIconGlow(),ModifyTooltipDescription());"
 data "Boosts" "UnlockSpell(Target_Mystic_EtherealWeapon_Melee);UnlockSpell(Target_Mystic_EtherealWeapon_Ranged);"
 // data "RemoveConditions" ""
@@ -2185,7 +2243,7 @@ data "Boosts" "Skill(Stealth, 10)"
 
 
 
-// TODO: Psychic Speech
+// Psychic Speech
 new entry "MYSTIC_PSYCHIC_SPEECH"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -2342,7 +2400,7 @@ using "BURNING"
 data "TickType" "EndTurn"
 data "OnApplyFunctors" ""
 
-// TODO: THIS IS CLOUD OF DAGGERS
+// Rolling Flame
 new entry "MYSTIC_ROLLING_FLAME"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -2356,7 +2414,6 @@ data "TickFunctors" "DealDamage(5,Fire,Magical)"
 data "TickType" "EndTurn"
 // data "OnApplyFunctors" "DealDamage(4d4,Slashing,Magical)"
 
-// TODO: THIS IS CLOUD OF DAGGERS TOO
 new entry "MYSTIC_ROLLING_FLAME_AURA"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -2562,9 +2619,11 @@ data "TickType" "EndTurn"
 data "Boosts" "Disadvantage(AttackRoll); Disadvantage(AttackTarget); SightRangeMaximum(3);ActionResourceConsumeMultiplier(Movement, 2,0);MovementSpeedLimit(Walk)"
 data "StatusEffect" "2419c2ea-a3b6-45e7-8b57-dd6cecf0ec2d"
 data "OnApplyFunctors" "IF(Tagged('WEIGHT_SMALL')):ApplyStatus(RESILIENT_SPHERE_SMALL,100,-1);IF(Tagged('WEIGHT_MEDIUM')):ApplyStatus(RESILIENT_SPHERE_MEDIUM,100,-1);IF(Tagged('WEIGHT_LARGE')):ApplyStatus(RESILIENT_SPHERE_LARGE,100,-1);IF(Tagged('WEIGHT_TINY') or Tagged('WEIGHT_HUGE') or Tagged('WEIGHT_GARGANTUAN')):ApplyStatus(RESILIENT_SPHERE_OVERLAY,100,-1)"
+data "StatusGroups" "SG_Blinded;SG_Condition"
+data "ApplyEffect" "39044361-a2df-4730-90ca-ce37ddcbc482"
+data "StatusEffect" "5c53ef4c-bd94-4567-94c1-8b1a8cefa7e3"
 
-
-// TODO: WALL OF THUNDER
+// Wall of Thunder
 new entry "MYSTIC_WALLOFTHUNDER"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -2600,41 +2659,20 @@ data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog"
 data "Boosts" "ActionResourceConsumeMultiplier(Movement, 2,0);MovementSpeedLimit(Walk)"
 
 data "OnApplyRoll" "WallOfFireCheck(Ability.Strength,SourceSpellDC(10,GetSummoner(context.Source)))"
-// TODO: Add Force (if it's even possible here)
 data "OnApplySuccess" "IF(not HasStatus('MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED')):DealDamage(6d6,Thunder,Magical);  IF(not HasStatus('MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED')):ApplyStatus(MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED,100,1);IF(not HasStatus('MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED')):Force(3)"
 data "OnApplyFail"    "IF(not HasStatus('MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED')):DealDamage(6d6/2,Thunder,Magical);IF(not HasStatus('MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED',context.Target)):ApplyStatus(MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED,100,1)"
 
 data "OnTickRoll" "WallOfFireCheck(Ability.Strength,SourceSpellDC(10,GetSummoner(context.Source)))"
-// TODO: Add Force (if it's even possible here)
 data "OnTickSuccess"  "IF(not HasStatus('MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED')):DealDamage(6d6,Thunder,Magical);  IF(not HasStatus('MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED')):ApplyStatus(MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED,100,1);IF(not HasStatus('MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED')):Force(3)"
 data "OnTickFail"     "IF(not HasStatus('MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED')):DealDamage(6d6/2,Thunder,Magical);IF(not HasStatus('MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED',context.Target)):ApplyStatus(MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED,100,1)"
-// data "OnTickSuccess" "IF(not HasStatus('MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED') or StatusDurationLessThan(context.Source, 'MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED', 0.1)):DealDamage(5d8,Fire,Magical);ApplyStatus(MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED,100,1)"
-// data "OnTickFail" "IF(not HasStatus('MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED') or StatusDurationLessThan(context.Source, 'MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED', 0.1)):DealDamage(5d8/2,Fire,Magical);ApplyStatus(MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED,100,1)"
-
-// shouldnt need this anymore?
-// data "OnApplySuccess" "IF(not HasStatus('WALLOFFIRE_DAMAGE_RECEIVED')):DealDamage(5d8,Fire,Magical);  IF(not HasStatus('WALLOFFIRE_DAMAGE_RECEIVED')):ApplyStatus(WALLOFFIRE_DAMAGE_RECEIVED,100,1)"
-// data "OnApplyFail"    "IF(not HasStatus('WALLOFFIRE_DAMAGE_RECEIVED')):DealDamage(5d8/2,Fire,Magical);IF(not HasStatus('WALLOFFIRE_DAMAGE_RECEIVED',context.Target)):ApplyStatus(WALLOFFIRE_DAMAGE_RECEIVED,100,1)"
-
-// data "OnTickSuccess" "IF(not HasStatus('WALLOFFIRE_DAMAGE_RECEIVED') or StatusDurationLessThan(context.Source, 'WALLOFFIRE_DAMAGE_RECEIVED', 0.1)):DealDamage(5d8,Fire,Magical);ApplyStatus(WALLOFFIRE_DAMAGE_RECEIVED,100,1)"
-// data "OnTickFail" "IF(not HasStatus('WALLOFFIRE_DAMAGE_RECEIVED') or StatusDurationLessThan(context.Source, 'WALLOFFIRE_DAMAGE_RECEIVED', 0.1)):DealDamage(5d8/2,Fire,Magical);ApplyStatus(WALLOFFIRE_DAMAGE_RECEIVED,100,1)"
-
 
 new entry "MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED"
 type "StatusData"
 data "StatusType" "BOOST"
 data "DisplayName" "h0fdf4a1eg519cg46bcg8735g75b7d7dcc113"
 data "Icon" "Spell_Evocation_Thunderwave"
-// data "TickType" "EndTurn"
 data "StackId" "MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
-
-
-
-
-
-
-
-// TODO: END
 
 // Warp Armor
 new entry "MYSTIC_WARP_ARMOR"
@@ -2794,6 +2832,16 @@ data "Icon" "Action_Paladin_HealingRadiance"
 data "StackId" "MYSTIC_AVATAR_OF_HEALING_BUFF"
 data "Passives" "Passive_Mystic_AvatarOfHealing"
 data "StatusPropertyFlags" "IgnoreResting"
+
+// Psionic Investigation
+new entry "MYSTIC_PSIONIC_INVESTIGATION"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h29dbe5fdg2e21g4bcfgb3aag03941771738a"
+data "Description" "hfd3b8cf9gcc4eg4acfgb1f7g7790973b80ae"
+data "Icon" "PassiveFeature_ArcaneWard"
+data "StackId" "MYSTIC_AVATAR_OF_HEALING_BUFF"
+data "Boosts" "Advantage(Skill, Investigation);Advantage(Skill, Insight);Advantage(Skill, History)"
 
 // Psionic Resilience
 new entry "MYSTIC_PSIONIC_RESILIENCE"

@@ -1,5 +1,4 @@
 // Psionic Disciplines
-// TODO: Give icons to each discipline
 
 // Adaptive Body
 new entry "Discipline_AdaptiveBody"
@@ -95,7 +94,7 @@ type "PassiveData"
 data "DisplayName" "h29b968fcg568cg4217ga8aag9466fee959ec"
 data "Description" "h6d871580g41c7g45f1g8546gbd1f18740d94"
 data "Icon" ""
-data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_IntellectFortress);UnlockSpell(Shout_Mystic_PsychicBacklash);UnlockSpell(Shout_Mystic_PsychicParry);UnlockSpell(Shout_Mystic_PsychicRedoubt)"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_IntellectFortress);UnlockSpell(Shout_Mystic_PsychicBacklash);UnlockSpell(Shout_Mystic_PsychicParry);UnlockInterrupt(Interrupt_Mystic_PsychicParry_2);UnlockInterrupt(Interrupt_Mystic_PsychicParry_3);UnlockInterrupt(Interrupt_Mystic_PsychicParry_4);UnlockInterrupt(Interrupt_Mystic_PsychicParry_5);UnlockInterrupt(Interrupt_Mystic_PsychicParry_6);UnlockInterrupt(Interrupt_Mystic_PsychicParry_7);UnlockSpell(Shout_Mystic_PsychicRedoubt)"
 
 // Iron Durability
 new entry "Discipline_IronDurability"
@@ -295,7 +294,7 @@ data "Icon" ""
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_PsychicDisruption);UnlockSpell(Target_Mystic_DistractingHaze);UnlockSpell(Target_Mystic_Daze);UnlockSpell(Target_Mystic_MindStorm)"
 
 // Psychic Supression (Psychic Inquisition)
-// TODO: Mid-rework
+// Deprecated (For now at least)
 new entry "Discipline_PsychicSuppression"
 type "PassiveData"
 data "DisplayName" "he621a7e5g45fag4c6dg8bf6gcd955f76008a"
@@ -304,13 +303,12 @@ data "Icon" ""
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_PsychicSuppression)"
 
 // Telepathic Subjugation (Telepathic Contact)
-// TODO: Mid-rework
 new entry "Discipline_TelepathicSubjugation"
 type "PassiveData"
 data "DisplayName" "h051f862eg7cdfg4ee6gbae4gd88b406fd1b2"
 data "Description" "hda770c0ag5375g4a72gbb86g32a49846cbb6"
 data "Icon" ""
-data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_TelepathicSubjugation)"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_TelepathicSubjugation);UnlockSpell(Target_Mystic_BrokenWill);UnlockSpell(Target_Mystic_PsionicGrip);UnlockSpell(Target_Mystic_PsychicGrasp);UnlockSpell(Target_Mystic_PsychicDomination)"
 
 // Third Eye
 new entry "Discipline_ThirdEye"
@@ -403,30 +401,23 @@ data "StatsFunctorContext" "OnDamage"
 data "Conditions" "HasHPLessThan(1) and Enemy() and Character()"
 data "StatsFunctors" "ApplyStatus(SELF,MYSTIC_AURA_OF_VICTORY_TEMPORARY_HP_7,100,-1)"
 
+// Psychic Backlash
+new entry "Passive_Mystic_PsychicBacklash"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnAttacked"
+data "Conditions" "not IsMiss()"
+data "StatsFunctors" "DealDamage(SWAP,2d10,Psychic,Magical)"
+
 // Cloak of Air
 new entry "Passive_Mystic_CloakOfAir"
 type "PassiveData"
-// data "DisplayName" "h2a542605g8b4fg42c0g9a91g455ee7cf3626;1"
-// data "Description" "hcfbe8760g8a9eg4c44gbee7g3fe6bedaf98c;3"
-// data "DescriptionParams" "DealDamage(2d10,Fire)"
-// data "ExtraDescription" "h5de390dcgd1fag48eag87abgde4ed1439900;5"
-// data "TooltipUseCosts" "ReactionActionPoint:1"
-// data "Icon" "PassiveFeature_HellishRebuke"
 data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnAttacked"
-// data "PriorityOrder" "2"
-// data "Properties" "IsToggled;ToggledDefaultAddToHotbar;ToggledDefaultOn;Highlighted;Temporary"
-// data "StatsFunctorContext" "OnDamaged"
 data "Conditions" "IsMiss() and IsMeleeAttack()"
 data "StatsFunctors" "DealDamage(SWAP,1d6,Slashing,Magical)"
 
-
-// data "DisplayName" ""
-// data "Description" ""
-// data "Icon" ""
-// data "Boosts" ""
-
-// ==MYSTIC PASSIVE FEATURES==
+// Mystic Class Features
 
 new entry "Passive_Mystic_Telepathy"
 type "PassiveData"
@@ -437,6 +428,7 @@ data "Boosts" "Tag(DETECTTHOUGHTS)"
 
 // Mystical Recovery
 // Shouldn't trigger on "real" spells now
+// Still need a check for if the spell has any spell school
 new entry "Passive_Mystic_MysticalRecovery"
 type "PassiveData"
 data "DisplayName" "h9056fee7g112dg4688g9c65g54a5e5ab47f6"
@@ -445,11 +437,7 @@ data "Icon" "Action_Paladin_LayOnHands_SmallHeal"
 data "StatsFunctorContext" "OnCast;OnActionResourcesChanged"
 // data "Conditions" "IsSpell() and not IsCantrip()"
 data "Conditions" "IsSpell() and not IsCantrip() and not PsychicFocusCheck()"
-
 // data "Conditions" "IsSpell() and not IsCantrip() and not IsSpellSchool(SpellSchool.Abjuration) and not IsSpellSchool(SpellSchool.Conjuration) and not IsSpellSchool(SpellSchool.Divination) and not IsSpellSchool(SpellSchool.Enchantment) and not IsSpellSchool(SpellSchool.Evocation) and not IsSpellSchool(SpellSchool.Illusion) and not IsSpellSchool(SpellSchool.Necromancy) and not IsSpellSchool(SpellSchool.Transmutation)"
-
-
-
 data "StatsFunctors" "ApplyStatus(SELF,MYSTIC_MYSTICAL_RECOVERY,100,1)"
 
 // Strength of Mind
@@ -493,17 +481,12 @@ data "DescriptionParams" "DealDamage(1d8,Psychic)"
 data "Boosts" "UnlockInterrupt(Interrupt_Mystic_PsionicStrike);UnlockInterrupt(Interrupt_Mystic_PsionicStrike_Critical);ActionResource(Interrupt_PsionicStrike,1,0)"
 data "ToggleGroup" "DivineStrike"
 
-// Potent Psionics: Empower
-// "Add your Intelligence modifier to psionic talent damage rolls."
-
-
 // Psionic Mastery
 // ***REWORK PLS
 
 // Psionic Body
-// ***TODO (VEEEEEEEEEERY MUCH LATER ON)
 
-// Armor Training
+// Armor Training (Avatar)
 new entry "Passive_Mystic_ArmorTraining"
 type "PassiveData"
 data "Properties" "Highlighted"
@@ -511,7 +494,7 @@ data "DisplayName" "h73c12dd2gef0ag4f02g9b52g4cd9336023b0"
 data "Description" "h31b494b2g60f7g4109ga3f4gb7870b784e7c"
 data "Icon" "PassiveFeature_MediumArmorMaster"
 
-// Avatar of Healing
+// Avatar of Healing (Avatar)
 new entry "Passive_Mystic_AvatarOfHealing"
 type "PassiveData"
 data "Properties" "IsHidden"
@@ -520,13 +503,12 @@ data "Conditions" "HealDoneGreaterThan(0)"
 data "StatsFunctors" "RegainHitPoints(2)"
 
 // Psionic Surge (Awakened)
-// "You can spend a reaction/psychic focus to impose Disadvantage on a target's Saving Throw against psionic discipline or talent you use."
 new entry "Passive_Mystic_PsionicSurge"
 type "PassiveData"
 data "Properties" "Highlighted"
 data "DisplayName" "he2f4f7f4g276dg4d9bga0d9g8351051384b8"
 data "Description" "hc8df6a32g2235g427cga697g74f6fa505179"
-data "Icon" ""
+data "Icon" "PassiveFeature_Generic_Explosion"
 data "Boosts" "UnlockInterrupt(Interrupt_Mystic_PsionicSurge);ActionResource(Interrupt_PsionicSurge,1,0)"
 
 // Immortal Durability (Immortal)
@@ -548,7 +530,6 @@ data "Description" "h7673327cg277dg4b16gb394g1b4b25bcc5d9"
 data "Icon" "Action_ShieldShove"
 data "StatsFunctorContext" "OnTurn"
 data "Properties" "Highlighted"
-// data "Conditions" ""
 data "Conditions" "Combat()"
 data "StatsFunctors" "ApplyStatus(MYSTIC_PSIONIC_RESILIENCE,100,1)"
 
@@ -596,7 +577,7 @@ data "Boosts" "UnlockSpellVariant(SuperiorTeleportationCheck(), ModifyTargetRadi
 // - This might just be an action
 // "Using your movement speed, teleport."
 
-//
+// Martial Training (Soul Knife)
 new entry "Passive_Mystic_MartialTraining"
 type "PassiveData"
 data "Properties" "Highlighted"
@@ -605,18 +586,17 @@ data "Description" "hfdf8fba9gb1eeg4c9egb03dg14111a5a462b"
 data "Icon" "PassiveFeature_Elf_WeaponTraining"
 
 // Consumptive Knife (Soul Knife)
-// "After slaying an enemy creature with a soul knife attack, regain 2 psi points."
-// TODO
 new entry "Passive_Mystic_ConsumptiveKnife"
 type "PassiveData"
 data "DisplayName" "h5865a518g1703g4875gbae9g637cc7d3126b"
 data "Description" "hac405107geb31g41a9gadafgc7c1e4414996"
-data "Icon" ""
+data "Icon" "Action_MagicItem_SlashTheWeak"
 data "Properties" "Highlighted"
-data "Boosts" ""
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "HasHPLessThan(1) and Enemy() and Character()"
+data "StatsFunctors" "RestoreResource(SELF,PsiPointsResource,2)"
 
 // Elemental Attunement (Wu Jen)
-// REWORK: You may spend 1 Psi Point at will and choose a resistance to ignore.
 new entry "Passive_Mystic_ElementalAttunement"
 type "PassiveData"
 data "DisplayName" "h4f2b9252g0aebg4086gad50g7fc336859005"
@@ -625,7 +605,7 @@ data "Icon" "Spell_Abjuration_GlyphOfWarding_ExplosiveRunes"
 data "Properties" "Highlighted"
 data "Boosts" "UnlockSpell(Shout_Mystic_ElementalAttunement)"
 
-// Arcane Dabbler? (Wu Jen)
+// Arcane Dabbler (Wu Jen)
 new entry "Passive_Mystic_ArcaneDabbler"
 type "PassiveData"
 data "DisplayName" "h8ced69f1g42cfg4828ga538g852944622e0c"
@@ -638,7 +618,6 @@ new entry "Passive_Mystic_ArcaneDabbler_RemoveSpellSlot"
 type "PassiveData"
 data "Properties" "IsHidden;OncePerLongRest"
 data "StatsFunctorContext" "OnActionResourcesChanged"
-// data "Conditions" "HealDoneGreaterThan(0) and IsSpell() and not IsCantrip()"
 data "StatsFunctors" "RestoreResource(SELF,SpellSlot,-1,3)"
 
 // Elemental Mastery (Wu Jen)
