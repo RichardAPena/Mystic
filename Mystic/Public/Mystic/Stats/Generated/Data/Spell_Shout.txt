@@ -2390,7 +2390,8 @@ data "TargetConditions" "Self()"
 // new entry "Shout_ShadowBlade"
 // data "SpellProperties" "SummonInInventory(997badfb-ec7c-441a-9dd8-b4a2392d29c2,Permanent,1,true,true,true,,,'ArmGauntletsRight',ARMORER_GLOVE_WEAPON_EFFECT,UNSTOWABLE_CONJURED_WEAPON,GAUNTLETS_SUMMON_DISMISS_ON_INFILTRATOR);SummonInInventory(998badfb-ec7c-441a-9dd8-b4a2392d29c2,Permanent,1,true,true,true,,,'ArmGauntletsLeft',ARMORER_GLOVE_WEAPON_EFFECT,UNSTOWABLE_CONJURED_WEAPON,GAUNTLETS_SUMMON_DISMISS_ON_INFILTRATOR)"
 // SummonInInventory(997badfb-ec7c-441a-9dd8-b4a2392d29c2,Permanent,1,true,true,true,,,'ArmGauntletsRight',ARMORER_GLOVE_WEAPON_EFFECT,UNSTOWABLE_CONJURED_WEAPON,GAUNTLETS_SUMMON_DISMISS_ON_INFILTRATOR)
-data "SpellProperties" "SummonInInventory(4911e6e2-f188-4419-856a-92f78391e2d9,Permanent,1,true,true,true,,,'SoulKnifeRight')"
+data "SpellProperties" "SummonInInventory(4911e6e2-f188-4419-856a-92f78391e2d9,Permanent,1,true,true,true,,,'SoulKnifeRight');SummonInInventory(aca0d1ad-e712-4154-8e22-46b839054305,Permanent,1,true,true,true,,,'SoulKnifeLeft',)"
+// aca0d1ad-e712-4154-8e22-46b839054305
 
 data "PrepareSound" "Action_Prepare_Item_ShadowBlade"
 data "PrepareLoopSound" "Action_Loop_Item_ShadowBlade"
