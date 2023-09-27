@@ -1,13 +1,17 @@
 // TODO: Soul Knife
 
-new entry "WPN_SoulKnife_Dagger_MainHand"
+new entry "WPN_Mystic_SoulKnife_SoulKnife_Right"
 type "Weapon"
 using "WPN_Shortsword_1"
-data "RootTemplate" "66d6cbd5-c231-4fc4-a3b7-80f781b579f7"
+data "RootTemplate" "4911e6e2-f188-4419-856a-92f78391e2d9"
 data "Rarity" "Rare"
 data "Damage Type" "Psychic"
 data "Damage" "1d8"
-data "ValueUUID" "aa05c69d-93e9-46fd-a1f5-332b5666690a"
+data "Weight" "0.9"
+data "Icon" "Item_ArcReactor"
+data "StatusOnEquip" ""
+
+// data "ValueUUID" "aa05c69d-93e9-46fd-a1f5-332b5666690a"
 data "DefaultBoosts" "CannotBeDisarmed();WeaponProperty(Magical);WeaponAttackRollAbilityOverride(Intelligence)"
 data "PassivesOnEquip" ""
 data "Unique" "1"
@@ -15,12 +19,17 @@ data "Weapon Group" "SimpleMeleeWeapon"
 data "Weapon Properties" "Finesse;Light;Melee;Dippable"
 data "Proficiency Group" "Daggers;SimpleWeapons"
 data "Slot" "Melee Main Weapon"
+data "BoostsOnEquipMainHand" ""
+data "BoostsOnEquipOffHand" ""
+data "ValueOverride" "1"
+// data "DefaultBoosts" "WeaponProperty(Magical);WeaponAttackRollAbilityOverride(Intelligence)"
 
-new entry "WPN_SoulKnife_Dagger_OffHand"
-type "Weapon"
-using "WPN_SoulKnife_Dagger_MainHand"
-data "RootTemplate" "66d6cbd5-c231-4fc4-a3b7-80f781b579f7"
-data "Slot" "Melee Offhand Weapon"
+
+// new entry "WPN_SoulKnife_Dagger_OffHand"
+// type "Weapon"
+// using "WPN_SoulKnife_Dagger_MainHand"
+// data "RootTemplate" "66d6cbd5-c231-4fc4-a3b7-80f781b579f7"
+// data "Slot" "Melee Offhand Weapon"
 
 
 
