@@ -26,7 +26,7 @@ data "DisplayName" "h8f18ccb2gadc2g43dcgaaf4g8dedefaebc98"
 data "Description" "h6ad83d69g3615g4834gb5bfg00e832fa9a8b"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
-data "Boosts" "Advantage(Skill, Animal Handling)"
+data "Boosts" "Advantage(Skill, AnimalHandling)"
 
 // Psychic Focus: Brute Force
 new entry "PSYCHIC_FOCUS_BRUTE_FORCE"
@@ -111,7 +111,7 @@ data "Description" "h72ec5b09g5dcag4820gae0ege21494e8da77"
 data "DescriptionParams" "Distance(1.5)"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
-data "Boosts" "UnlockSpellVariant(SpellId('Target_MainHandAttack'), ModifyTargetRadius(AdditiveBase, 1.5), ModifyTooltipDescription())"
+data "Boosts" "UnlockSpellVariant(SpellId('Target_MainHandAttack'), ModifyTargetRadius(AdditiveBase, 1.5), ModifyTooltipDescription());UnlockSpellVariant(SpellId('Target_OffhandAttack'), ModifyTargetRadius(AdditiveBase, 1.5), ModifyTooltipDescription())"
 
 // Psychic Focus: Intellect Fortress
 new entry "PSYCHIC_FOCUS_INTELLECT_FORTRESS"
@@ -161,6 +161,7 @@ data "DisplayName" "he5fc1d3age6c4g4017gb0a2gd2d2f0f6fa4e"
 data "Description" "hc1502b65g0e96g459cga39dg185ad7bed030"
 data "DescriptionParams" "Distance(3)"
 data "Icon" "Action_CommandersStrike"
+data "TickType" "EndTurn"
 data "StackId" "MYSTIC_COMMANDERS_IMPERATIVE"
 data "Boosts" "ActionResource(Movement,3,0)"
 
@@ -205,7 +206,7 @@ type "StatusData"
 data "StatusType" "BOOST"
 data "DisplayName" "hc21e69eag6aa9g4ee1ga46cg469669c0be8f"
 data "Description" "h9959e0ddg4cc5g4ecdg9c81ge81518589673"
-data "DescriptionParams" "Distance(3);Distance(1.5)"
+data "DescriptionParams" "Distance(3);Distance(3)"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
 data "AuraRadius" "3"
@@ -633,7 +634,7 @@ data "DescriptionParams" "Distance(3)"
 data "Icon" "Spell_Transmutation_Longstrider"
 data "StackId" "MYSTIC_LIGHT_STEP"
 data "Boosts" "ActionResource(Movement,3,0);StatusImmunity(PRONE)"
-data "StatusEffect" "9e863d8f-a1f5-4f68-88ca-ddb56828c8d8"
+// data "StatusEffect" "9e863d8f-a1f5-4f68-88ca-ddb56828c8d8"
 data "StatusGroups" "SG_RemoveOnRespec"
 
 // Blind Spot
@@ -935,7 +936,7 @@ data "Description" "h5baa6f58g9233g4cc0gb303gafe1a572845e"
 data "Icon" "Spell_Divination_TrueStrike"
 data "StackId" "MYSTIC_COMMANDERS_SIGHT"
 data "StatusPropertyFlags" "TickingWithSource"
-data "TickType" "StartTurn"
+data "TickType" "EndTurn"
 data "Boosts" "Advantage(AttackTarget)"
 
 // Command to Strike
@@ -1503,7 +1504,7 @@ data "Icon" "Spell_Conjuration_Entangled"
 data "StackId" "MYSTIC_EGO_WHIP"
 data "TickType" "EndTurn"
 // data "StatusPropertyFlags" "TickingWithSource"
-data "Boosts" ""
+data "Boosts" "ActionResourceBlock(ActionPoint)"
 
 // Id Insinuation
 new entry "MYSTIC_ID_INSINUATION"
@@ -1515,7 +1516,7 @@ data "Icon" "Action_Paladin_TurnTheFaithless"
 data "StackId" "MYSTIC_ID_INSINUATION"
 // data "TickType" "StartTurn"
 // data "StatusPropertyFlags" "TickingWithSource"
-data "Boosts" ""
+data "Boosts" "ActionResourceBlock(ActionPoint);UnlockSpell(Target_Mystic_MainHandAttack)"
 
 // Distracting Haze
 new entry "MYSTIC_DISTRACTING_HAZE"
@@ -1980,7 +1981,7 @@ data "Icon" "Spell_Transmutation_Enlarge"
 data "SoundLoop" "MAG_Status_EnlargeSelf_Loop"
 data "SoundStop" "MAG_Status_EnlargeSelf_End"
 data "StackId" "SIZE"
-data "Boosts" "Advantage(Ability, Strength); Advantage(SavingThrow, Strength);CharacterWeaponDamage(1d4);ObjectSize(+1);ScaleMultiplier(1.33);CharacterUnarmedDamage(1d4);CarryCapacityMultiplier(1.25);UnlockSpellVariant(SpellId('Target_MainHandAttack'), ModifyTargetRadius(AdditiveBase, 1.5), ModifyTooltipDescription())"
+data "Boosts" "Advantage(Ability, Strength); Advantage(SavingThrow, Strength);CharacterWeaponDamage(1d4);ObjectSize(+1);ScaleMultiplier(1.33);CharacterUnarmedDamage(1d4);CarryCapacityMultiplier(1.25);UnlockSpellVariant(SpellId('Target_MainHandAttack'), ModifyTargetRadius(AdditiveBase, 1.5), ModifyTooltipDescription());UnlockSpellVariant(SpellId('Target_OffhandAttack'), ModifyTargetRadius(AdditiveBase, 1.5), ModifyTooltipDescription())"
 data "Passives" "EnlargeWeightMedium;EnlargeWeightLarge"
 data "StatusGroups" "SG_RemoveOnRespec"
 data "StatusEffect" "ead75c6a-806e-4db7-8d51-f06beca00fe2"
@@ -2010,7 +2011,7 @@ data "Icon" "Action_Monster_Minotaur_Reckless"
 data "SoundLoop" "MAG_Status_EnlargeSelf_Loop"
 data "SoundStop" "MAG_Status_EnlargeSelf_End"
 data "StackId" "SIZE"
-data "Boosts" "Advantage(Ability, Strength); Advantage(SavingThrow, Strength);CharacterWeaponDamage(2d6);ObjectSize(+2);ScaleMultiplier(1.5);CharacterUnarmedDamage(2d6);CarryCapacityMultiplier(1.5);UnlockSpellVariant(SpellId('Target_MainHandAttack'), ModifyTargetRadius(AdditiveBase, 3), ModifyTooltipDescription())"
+data "Boosts" "Advantage(Ability, Strength); Advantage(SavingThrow, Strength);CharacterWeaponDamage(2d6);ObjectSize(+2);ScaleMultiplier(1.5);CharacterUnarmedDamage(2d6);CarryCapacityMultiplier(1.5);UnlockSpellVariant(SpellId('Target_MainHandAttack'), ModifyTargetRadius(AdditiveBase, 3), ModifyTooltipDescription());UnlockSpellVariant(SpellId('Target_OffhandAttack'), ModifyTargetRadius(AdditiveBase, 3), ModifyTooltipDescription())"
 data "Passives" "EnlargeWeightMedium;EnlargeWeightLarge"
 data "StatusGroups" "SG_RemoveOnRespec"
 data "StatusEffect" "ead75c6a-806e-4db7-8d51-f06beca00fe2"
@@ -2869,6 +2870,39 @@ data "StackId" "MYSTIC_MEMORY_OF_ONE_THOUSAND_STEPS"
 data "Boosts" "UnlockSpell(Target_Mystic_MemoryOfOneThousandSteps)"
 data "TickType" "EndTurn"
 
+// Hone the Blade
+new entry "MYSTIC_HONE_THE_BLADE_1"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h5ac3104ag96e5g47f0ga303ge6f7c82b846a"
+data "Description" "h9fbe9405g92f5g45aaga300ge34880afa709"
+data "DescriptionParams" "1"
+data "Icon" "Action_Paladin_DivineSmite"
+data "StackId" "MYSTIC_HONE_THE_BLADE"
+data "Boosts" "WeaponEnchantment(1)"
+data "StatusGroups" "SG_RemoveOnRespec"
+data "ApplyEffect" "6994e8dc-14ac-48a5-9c8e-c1925031e852"
+data "StatusEffect" "359918c9-0c9a-4714-a032-0deac359d00b"
+data "StackPriority" "1"
+
+new entry "MYSTIC_HONE_THE_BLADE_2"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MYSTIC_HONE_THE_BLADE_1"
+data "DisplayName" "hc5678adeg028dg4066gb8b7g7174b04ae89a"
+data "DescriptionParams" "2"
+data "Boosts" "WeaponEnchantment(2)"
+data "StackPriority" "2"
+
+new entry "MYSTIC_HONE_THE_BLADE_3"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MYSTIC_HONE_THE_BLADE_1"
+data "DisplayName" "h1e426582g313dg4422ga57dg3245cc27f923"
+data "DescriptionParams" "4"
+data "Boosts" "WeaponEnchantment(4)"
+data "StackPriority" "4"
+
 // Elemental Attunement
 new entry "MYSTIC_ELEMENTAL_ATTUNEMENT_ACID"
 type "StatusData"
@@ -2973,8 +3007,6 @@ data "Boosts" "IgnoreResistance(Thunder,Resistant)"
 // ==OTHER BUFFS/DEBUFFS==
 // * = Higher than level 12
 // *Avatar of Speed
-// Mental Exhaustion (Can't cast Psychic Focuses, applied by things that remove your Psychic Focus, namely Psionic Surge)
-// Memory of One Thousand Steps (buff that allows you to Misty Step)
 // Soul Parry (Soul Knife Parry - AC Buff)
 // *Elemental Mastery
 // - Bludgeoning

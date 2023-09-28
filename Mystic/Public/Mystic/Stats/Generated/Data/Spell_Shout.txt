@@ -2375,15 +2375,16 @@ data "PrepareEffect" "7121a488-7c9a-4ba1-a585-f79aaa77e97c"
 data "CastEffect" "0198563f-c48b-45e0-afb5-46ef9576adff"
 data "TargetEffect" "b94fcfde-d824-4e7d-b9c5-833a50b66537"
 
-// TODO: Soul Knife
+// Soul Knife
+// TODO: Equip both
 new entry "Shout_Mystic_SoulKnife"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" "Spell_Illusion_ShadowBlade"
+data "Icon" "Action_Mag_EnsnaringStrands"
 data "DisplayName" "h44e3ede5g8eadg4f23g917dge892947fae40"
 data "Description" "ha769c607gff4dg4b13g878ag7fa6d50058d8"
-data "DescriptionParams" ""
+data "DescriptionParams" "DealDamage(1d8,Psychic)"
 
 data "TargetConditions" "Self()"
 
@@ -2399,7 +2400,7 @@ data "CastSound" "Action_Cast_Item_ShadowBlade"
 data "TargetSound" "Action_Impact_Item_ShadowBlade"
 // data "VocalComponentSound" "Vocal_Component_EnchantWeapon"
 data "CastTextEvent" "Cast"
-data "UseCosts" "BonusActionPoint:1"
+data "UseCosts" "ActionPoint:1"
 data "SpellAnimation" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;35b644cf-5c13-4407-9dc1-23bf4309216e,,;823e3ddf-c670-41ef-b7b4-9f4a4e38300b,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,,"
 // data "VerbalIntent" "Damage"
 data "SpellFlags" "IsSpellSwitchSheathUnsheathOnCast;Force1HSSubSetDuringCast"
@@ -2407,15 +2408,74 @@ data "SpellAnimationIntentType" "Aggressive"
 data "PrepareEffect" "3998daf3-8dd5-4b10-b33a-5ab51bb97860"
 data "CastEffect" "514ecdc7-87b3-43f8-bd8a-69fb3b46f8da"
 
-// TODO: Hone the Blade
+// Hone the Blade
 new entry "Shout_Mystic_HoneTheBlade"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" "Spell_Abjuration_Stoneskin"
+data "Icon" "Action_Paladin_DivineSmite"
 data "DisplayName" "h813a60cbgd0beg4a65ga5aagacd8fd7a3684"
 data "Description" "h45aef2a3g34a6g4a4bg9b3dg16f926668010"
 data "DescriptionParams" ""
+
+data "ContainerSpells" "Shout_Mystic_HoneTheBlade_1;Shout_Mystic_HoneTheBlade_2;Shout_Mystic_HoneTheBlade_3"
+
+data "TargetConditions" "Self()"
+// new entry "Shout_ShadowBlade"
+// data "SpellProperties" "SummonInInventory(997badfb-ec7c-441a-9dd8-b4a2392d29c2,Permanent,1,true,true,true,,,'ArmGauntletsRight',ARMORER_GLOVE_WEAPON_EFFECT,UNSTOWABLE_CONJURED_WEAPON,GAUNTLETS_SUMMON_DISMISS_ON_INFILTRATOR);SummonInInventory(998badfb-ec7c-441a-9dd8-b4a2392d29c2,Permanent,1,true,true,true,,,'ArmGauntletsLeft',ARMORER_GLOVE_WEAPON_EFFECT,UNSTOWABLE_CONJURED_WEAPON,GAUNTLETS_SUMMON_DISMISS_ON_INFILTRATOR)"
+// SummonInInventory(997badfb-ec7c-441a-9dd8-b4a2392d29c2,Permanent,1,true,true,true,,,'ArmGauntletsRight',ARMORER_GLOVE_WEAPON_EFFECT,UNSTOWABLE_CONJURED_WEAPON,GAUNTLETS_SUMMON_DISMISS_ON_INFILTRATOR)
+// data "SpellProperties" "SummonInInventory(4911e6e2-f188-4419-856a-92f78391e2d9,Permanent,1,true,true,true,,,'SoulKnifeRight');SummonInInventory(aca0d1ad-e712-4154-8e22-46b839054305,Permanent,1,true,true,true,,,'SoulKnifeLeft',)"
+// aca0d1ad-e712-4154-8e22-46b839054305
+
+// data "SpellProperties" ""
+data "PrepareSound" "Action_Prepare_Item_ShadowBlade"
+data "PrepareLoopSound" "Action_Loop_Item_ShadowBlade"
+data "CastSound" "Action_Cast_Item_ShadowBlade"
+data "TargetSound" "Action_Impact_Item_ShadowBlade"
+data "CastTextEvent" "Cast"
+data "UseCosts" "ActionPoint:1;PsiPointsResource:2"
+data "SpellAnimation" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;35b644cf-5c13-4407-9dc1-23bf4309216e,,;823e3ddf-c670-41ef-b7b4-9f4a4e38300b,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,,"
+data "SpellFlags" "IsSpellSwitchSheathUnsheathOnCast;Force1HSSubSetDuringCast;IsLinkedSpellContainer"
+data "SpellAnimationIntentType" "Aggressive"
+data "PrepareEffect" "3998daf3-8dd5-4b10-b33a-5ab51bb97860"
+data "CastEffect" "514ecdc7-87b3-43f8-bd8a-69fb3b46f8da"
+data "RequirementConditions" "not Unarmed();"
+// ^ TODO: MAke it so you can only target your soul knives
+
+new entry "Shout_Mystic_HoneTheBlade_1"
+using "Shout_Mystic_HoneTheBlade"
+data "SpellContainerID" "Shout_Mystic_HoneTheBlade"
+data "ContainerSpells" ""
+data "SpellFlags" "IsSpellSwitchSheathUnsheathOnCast;Force1HSSubSetDuringCast"
+data "DisplayName" "h5ac3104ag96e5g47f0ga303ge6f7c82b846a"
+data "Description" h02d2b21cg4fe5g43d3g8684g4fe55107c574""
+data "SpellProperties" "IF():ApplyEquipmentStatus(MainHand, MYSTIC_HONE_THE_BLADE_1, 100, -1);IF():ApplyEquipmentStatus(OffHand, MYSTIC_HONE_THE_BLADE_1, 100, -1);"
+data "TooltipStatusApply" "ApplyStatus(MYSTIC_HONE_THE_BLADE_1,100,-1)"
+data "PowerLevel" "2"
+
+new entry "Shout_Mystic_HoneTheBlade_2"
+using "Shout_Mystic_HoneTheBlade"
+data "SpellContainerID" "Shout_Mystic_HoneTheBlade"
+data "ContainerSpells" ""
+data "SpellFlags" "IsSpellSwitchSheathUnsheathOnCast;Force1HSSubSetDuringCast"
+data "DisplayName" "hc5678adeg028dg4066gb8b7g7174b04ae89a"
+data "Description" "h700a9d70g1078g42e8ga501gfaba8ee5a36d"
+data "SpellProperties" "IF():ApplyEquipmentStatus(MainHand, MYSTIC_HONE_THE_BLADE_2, 100, -1);IF():ApplyEquipmentStatus(OffHand, MYSTIC_HONE_THE_BLADE_2, 100, -1);"
+data "TooltipStatusApply" "ApplyStatus(MYSTIC_HONE_THE_BLADE_2,100,-1)"
+data "UseCosts" "ActionPoint:1;PsiPointsResource:5;PsiLimitResource:1:5"
+data "PowerLevel" "5"
+
+new entry "Shout_Mystic_HoneTheBlade_3"
+using "Shout_Mystic_HoneTheBlade"
+data "SpellContainerID" "Shout_Mystic_HoneTheBlade"
+data "ContainerSpells" ""
+data "SpellFlags" "IsSpellSwitchSheathUnsheathOnCast;Force1HSSubSetDuringCast"
+data "DisplayName" "h1e426582g313dg4422ga57dg3245cc27f923"
+data "Description" "hc796e635g38cdg489fg8f5dgb74d55ce2422"
+data "SpellProperties" "IF():ApplyEquipmentStatus(MainHand, MYSTIC_HONE_THE_BLADE_3, 100, -1);IF():ApplyEquipmentStatus(OffHand, MYSTIC_HONE_THE_BLADE_3, 100, -1);"
+data "TooltipStatusApply" "ApplyStatus(MYSTIC_HONE_THE_BLADE_3,100,-1)"
+data "UseCosts" "ActionPoint:1;PsiPointsResource:7;PsiLimitResource:1:7"
+data "PowerLevel" "7"
 
 // Elemental Attunement
 new entry "Shout_Mystic_ElementalAttunement"

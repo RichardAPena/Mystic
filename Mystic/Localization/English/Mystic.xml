@@ -853,15 +853,22 @@
 	<content contentuid="h248529ceg6c81g47cbgae19g7d937b7904ca" version="1">Martial Training</content>
 	<content contentuid="hfdf8fba9gb1eeg4c9egb03dg14111a5a462b" version="1">You have Armour Proficiency with Medium Armour and &lt;LSTag Tooltip="WeaponProficiency"&gt;Weapon Proficiency&lt;/LSTag&gt; with Martial Weapons.</content>
 	<content contentuid="h44e3ede5g8eadg4f23g917dge892947fae40" version="1">Soul Knife</content>
-	<content contentuid="ha769c607gff4dg4b13g878ag7fa6d50058d8" version="1">TODO: Soul Knife Description</content>
-	<content contentuid="h4201ca91gf3a8g4afeg8e5fg77fbd99e3adc" version="1">TODO: Soul Knife Main Weapon</content>
-	<content contentuid="hbeb77f94gc6cdg4131g92a8g52fcdf4c8895" version="1">TODO: Soul Knife Main Weapon Description</content>
-	<content contentuid="hd70f67e7ge6e5g46b0g8b38gc3ff2684f0c8" version="1">TODO: Soul Knife Off Hand Weapon</content>
-	<content contentuid="ha5e740e5ga763g45c4g80d0gd2b340edde3d" version="1">TODO: Soul Knife Off Hand Weapon Description</content>
+	<content contentuid="ha769c607gff4dg4b13g878ag7fa6d50058d8" version="1">Summons a pair of soul knives in your hands. They are Light, Finesse daggers that deal [1] damage.</content>
+	<content contentuid="h4201ca91gf3a8g4afeg8e5fg77fbd99e3adc" version="1">Soul Knife</content>
+	<content contentuid="hbeb77f94gc6cdg4131g92a8g52fcdf4c8895" version="1">A scintillating blade of pure psychic energy.</content>
+	<content contentuid="hd70f67e7ge6e5g46b0g8b38gc3ff2684f0c8" version="1">Soul Knife</content>
+	<content contentuid="ha5e740e5ga763g45c4g80d0gd2b340edde3d" version="1">A scintillating blade of pure psychic energy.</content>
 	<content contentuid="h813a60cbgd0beg4a65ga5aagacd8fd7a3684" version="1">Hone the Blade</content>
-	<content contentuid="h45aef2a3g34a6g4a4bg9b3dg16f926668010" version="1">TODO: Hone the Blade Description</content>
+	<content contentuid="h45aef2a3g34a6g4a4bg9b3dg16f926668010" version="1">Spend Psi Points to augment your Soul Knives.</content>
+	<content contentuid="h5ac3104ag96e5g47f0ga303ge6f7c82b846a" version="1">Hone the Blade: Lesser Infusion</content>
+	<content contentuid="hc5678adeg028dg4066gb8b7g7174b04ae89a" version="1">Hone the Blade: Medium Infusion</content>
+	<content contentuid="h1e426582g313dg4422ga57dg3245cc27f923" version="1">Hone the Blade: Greater Infusion</content>
+	<content contentuid="h02d2b21cg4fe5g43d3g8684g4fe55107c574" version="1">Grant your Soul Knives a +1 bonus to &lt;LSTag Tooltip="AttackRoll"&gt;Attack&lt;/LSTag&gt; and Damage Rolls.</content>
+	<content contentuid="h700a9d70g1078g42e8ga501gfaba8ee5a36d" version="1">Grant your Soul Knives a +2 bonus to &lt;LSTag Tooltip="AttackRoll"&gt;Attack&lt;/LSTag&gt; and Damage Rolls.</content>
+	<content contentuid="hc796e635g38cdg489fg8f5dgb74d55ce2422" version="1">Grant your Soul Knives a +4 bonus to &lt;LSTag Tooltip="AttackRoll"&gt;Attack&lt;/LSTag&gt; and Damage Rolls.</content>
+	<content contentuid="h9fbe9405g92f5g45aaga300ge34880afa709" version="1">+[1] to &lt;LSTag Tooltip="AttackRoll"&gt;Attack&lt;/LSTag&gt; and Damage Rolls.</content>
 	<content contentuid="h5865a518g1703g4875gbae9g637cc7d3126b" version="1">Consumptive Knife</content>
-	<content contentuid="hac405107geb31g41a9gadafgc7c1e4414996" version="1">TODO: Consumptive Knife Description</content>
+	<content contentuid="hac405107geb31g41a9gadafgc7c1e4414996" version="1">Restore 2 Psi Points after reducing an enemy to 0 hit points.</content>
 	<content contentuid="h4f2b9252g0aebg4086gad50g7fc336859005" version="1">Elemental Attunement</content>
 	<content contentuid="he04500b3g2ca8g4705g8da0g41bd6ca90872" version="1">Once per turn as a free action, you can choose an element and ignore creatures' &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to that element until the end of your turn.</content>
 	<content contentuid="h98300e6fgf3cdg4009g91f3g2c0aef6d002d" version="1">Choose an element and ignore creatures' &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to it when dealing damage.</content>

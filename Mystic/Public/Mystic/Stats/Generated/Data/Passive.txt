@@ -594,7 +594,7 @@ data "Icon" "Action_MagicItem_SlashTheWeak"
 data "Properties" "Highlighted"
 data "StatsFunctorContext" "OnDamage"
 data "Conditions" "HasHPLessThan(1) and Enemy() and Character()"
-data "StatsFunctors" "RestoreResource(SELF,PsiPointsResource,2)"
+data "StatsFunctors" "RestoreResource(SELF,PsiPointsResource,2,0)"
 
 // Elemental Attunement (Wu Jen)
 new entry "Passive_Mystic_ElementalAttunement"

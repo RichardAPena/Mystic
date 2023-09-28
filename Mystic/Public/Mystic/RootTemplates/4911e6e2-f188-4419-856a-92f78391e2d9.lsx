@@ -8,7 +8,7 @@
 					<attribute id="MapKey" type="FixedString" value="4911e6e2-f188-4419-856a-92f78391e2d9"/>
 					<attribute id="Name" type="LSString" value="WPN_Mystic_SoulKnife_SoulKnife_Right"/>
 					<attribute id="Stats" type="FixedString" value="WPN_Mystic_SoulKnife_SoulKnife_Right"/>
-					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Dagger_Orin_A_Netherstone_A"/> TODO: Icon
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Dagger_Orin_A_Netherstone_A"/>
 					<attribute id="VisualTemplate" type="FixedString" value="f67bf9d2-2bd7-4d3f-5723-6e41f8e0ee3f"/>
 					<attribute id="LevelName" type="FixedString" value=""/>
 					<attribute id="Type" type="FixedString" value="item"/>
@@ -23,8 +23,8 @@
 					<attribute id="Race" type="int8" value="0"/>
 					<attribute id="Tooltip" type="uint8" value="2"/>
 					<attribute id="Description" type="TranslatedString" handle="hbeb77f94gc6cdg4131g92a8g52fcdf4c8895" version="1"/>
-					<attribute id="EquipmentTypeID" type="guid" value="2fc3e6f9-120c-4adf-c3b7-9078d7ae12c3"/> TODO: ???
-					<attribute id="IsInspector" type="bool" value="False"/> TODO: ???
+					
+					<attribute id="IsInspector" type="bool" value="False"/>
 					<children>
 						<node id="Tags">
 							<children>

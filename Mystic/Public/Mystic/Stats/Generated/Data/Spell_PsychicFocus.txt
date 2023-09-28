@@ -533,7 +533,7 @@ data "Level" "1"
 
 data "DisplayName" "hc21e69eag6aa9g4ee1ga46cg469669c0be8f"
 data "Description" "h9959e0ddg4cc5g4ecdg9c81ge81518589673"
-data "DescriptionParams" "Distance(3);Distance(1.5)"
+data "DescriptionParams" "Distance(3);Distance(3)"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 
 data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_MANTLE_OF_FURY,100,-1)"

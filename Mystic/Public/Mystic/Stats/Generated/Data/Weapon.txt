@@ -2,7 +2,7 @@
 
 new entry "WPN_Mystic_SoulKnife_SoulKnife_Right"
 type "Weapon"
-using "WPN_Shortsword_1"
+using "WPN_Dagger"
 data "RootTemplate" "4911e6e2-f188-4419-856a-92f78391e2d9"
 data "Rarity" "Rare"
 data "Damage Type" "Psychic"
@@ -26,74 +26,6 @@ type "Weapon"
 using "WPN_Mystic_SoulKnife_SoulKnife_Right"
 data "RootTemplate" "aca0d1ad-e712-4154-8e22-46b839054305"
 data "Slot" "Melee Offhand Weapon"
-
-
-
-// new entry "WPN_Armorer_Gauntlets_Guardian_Left"
-// type "Weapon"
-// using "WPN_Armorer_Gauntlets_Guardian_Right"
-// data "RootTemplate" "998badfb-ec7c-441a-9dd8-b4a2392d29c2"
-// data "Slot" "Melee Offhand Weapon"
-
-
-// data "RootTemplate" "66d6cbd5-c231-4fc4-a3b7-80f781b579f7"
-// data "Slot" "Melee Offhand Weapon"
-
-
-
-
-
-
-
-
-
-
-
-
-// using "WPN_Dagger"
-
-// new entry "WPN_Armorer_Gauntlets_Guardian_Right"
-// data "RootTemplate" "997badfb-ec7c-441a-9dd8-b4a2392d29c2"
-// data "Damage" "1d8"
-// data "Weight" "0.9"
-// data "Icon" "Item_ArcReactor"
-// data "StatusOnEquip" ""
-// data "Weapon Group" "SimpleMeleeWeapon"
-// data "Weapon Properties" "Melee;Light;Unstowable"
-// data "Proficiency Group" ""
-// data "Slot" "Melee Main Weapon"
-// data "BoostsOnEquipMainHand" ""
-// data "BoostsOnEquipOffHand" ""
-// data "ValueOverride" "1"
-// data "DefaultBoosts" "WeaponProperty(Magical);WeaponAttackRollAbilityOverride(Intelligence)"
-
-// new entry "WPN_Armorer_Gauntlets_Guardian_Left"
-// type "Weapon"
-// using "WPN_Armorer_Gauntlets_Guardian_Right"
-// data "RootTemplate" "998badfb-ec7c-441a-9dd8-b4a2392d29c2"
-// data "Slot" "Melee Offhand Weapon"
-
-// new entry "WPN_Armorer_Gauntlets_Guardian_Right"
-// type "Weapon"
-// using "WPN_Scimitar"
-// data "RootTemplate" "997badfb-ec7c-441a-9dd8-b4a2392d29c2"
-// data "Rarity" "Rare"
-// data "Damage Type" "Thunder"
-// data "Damage" "1d8"
-// data "Weight" "0.9"
-// data "Icon" "Item_ArcReactor"
-// data "StatusOnEquip" ""
-// data "Weapon Group" "SimpleMeleeWeapon"
-// data "Weapon Properties" "Melee;Light;Unstowable"
-// data "Proficiency Group" ""
-// data "Slot" "Melee Main Weapon"
-// data "BoostsOnEquipMainHand" ""
-// data "BoostsOnEquipOffHand" ""
-// data "ValueOverride" "1"
-// data "DefaultBoosts" "WeaponProperty(Magical);WeaponAttackRollAbilityOverride(Intelligence)"
-
-// new entry "WPN_Armorer_Gauntlets_Guardian_Left"
-// type "Weapon"
-// using "WPN_Armorer_Gauntlets_Guardian_Right"
-// data "RootTemplate" "998badfb-ec7c-441a-9dd8-b4a2392d29c2"
-// data "Slot" "Melee Offhand Weapon"
+data "DefaultBoosts" "CannotBeDisarmed();WeaponProperty(Magical);WeaponAttackRollAbilityOverride(Intelligence)"
+data "Weapon Properties" "Finesse;Light;Melee;Dippable"
+data "Proficiency Group" "Daggers;SimpleWeapons"
