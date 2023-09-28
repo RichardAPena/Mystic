@@ -3,7 +3,7 @@ add initialweaponset "Melee"
 add equipmentgroup
 add equipment entry "WPN_Spear"
 add equipmentgroup
-add equipment entry "WPN_HandCrossbow"
+add equipment entry "WPN_LightCrossbow"
 add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
 add equipmentgroup
@@ -32,7 +32,7 @@ add initialweaponset "Melee"
 add equipmentgroup
 add equipment entry "WPN_Spear"
 add equipmentgroup
-add equipment entry "WPN_HandCrossbow"
+add equipment entry "WPN_LightCrossbow"
 add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
 add equipmentgroup
@@ -59,7 +59,7 @@ add initialweaponset "Melee"
 add equipmentgroup
 add equipment entry "WPN_Spear"
 add equipmentgroup
-add equipment entry "WPN_HandCrossbow"
+add equipment entry "WPN_LightCrossbow"
 add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
 add equipmentgroup
@@ -86,7 +86,7 @@ add initialweaponset "Melee"
 add equipmentgroup
 add equipment entry "WPN_Spear"
 add equipmentgroup
-add equipment entry "WPN_HandCrossbow"
+add equipment entry "WPN_LightCrossbow"
 add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
 add equipmentgroup
@@ -113,7 +113,7 @@ add initialweaponset "Melee"
 add equipmentgroup
 add equipment entry "WPN_Longsword"
 add equipmentgroup
-add equipment entry "WPN_HandCrossbow"
+add equipment entry "WPN_LightCrossbow"
 add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
 add equipmentgroup
@@ -140,7 +140,7 @@ add initialweaponset "Melee"
 add equipmentgroup
 add equipment entry "WPN_Spear"
 add equipmentgroup
-add equipment entry "WPN_HandCrossbow"
+add equipment entry "WPN_LightCrossbow"
 add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
 add equipmentgroup

@@ -6,7 +6,7 @@
             <children>
                 <node id="Progression"> Mainclass Level 1
                     <attribute id="AllowImprovement" type="bool" value="false"/>
-                    <attribute id="Boosts" type="LSString" value="ActionResource(PsiPointsResource,5,0);ProficiencyBonus(SavingThrow,Intelligence);Proficiency(SimpleWeapons);Proficiency(LightArmor)"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(PsiPointsResource,4,0);ProficiencyBonus(SavingThrow,Intelligence);Proficiency(SimpleWeapons);Proficiency(LightArmor)"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Mystic"/>
                     <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_StrengthOfMind_Wisdom"/>

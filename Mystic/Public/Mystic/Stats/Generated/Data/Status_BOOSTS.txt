@@ -7,6 +7,7 @@ data "Description" "h526b95d1g0efdg4969g8802gd5dad3fb875c"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "CarryCapacityMultiplier(1.5)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Psychic Focus: Aura Sight
 new entry "PSYCHIC_FOCUS_AURA_SIGHT"
@@ -17,6 +18,7 @@ data "Description" "h457c4470g04f6g4494gbe55gca1bf48c8345"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "Advantage(Skill, Insight)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Psychic Focus: Bestial Form
 new entry "PSYCHIC_FOCUS_BESTIAL_FORM"
@@ -27,6 +29,7 @@ data "Description" "h6ad83d69g3615g4834gb5bfg00e832fa9a8b"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "Advantage(Skill, AnimalHandling)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Psychic Focus: Brute Force
 new entry "PSYCHIC_FOCUS_BRUTE_FORCE"
@@ -37,6 +40,7 @@ data "Description" "hafcd2a8eg444cg4c00gbbf3ga580261bcbe7"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "Advantage(Skill, Athletics)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Psychic Focus: Celerity
 new entry "PSYCHIC_FOCUS_CELERITY"
@@ -48,6 +52,7 @@ data "DescriptionParams" "Distance(3)"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "ActionResource(Movement,3,0)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Psychic Focus: Corrosive Metabolism
 new entry "PSYCHIC_FOCUS_CORROSIVE_METABOLISM"
@@ -58,6 +63,7 @@ data "Description" "h8eb7016ag1bd1g4ad0g8c9fg390c56acf5b1"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "Resistance(Poison, Resistant);Resistance(Acid, Resistant)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Psychic Focus: Crown of Despair
 new entry "PSYCHIC_FOCUS_CROWN_OF_DESPAIR"
@@ -68,6 +74,7 @@ data "Description" "h3a6b7459gfdbdg4939g970bgfb8247e79389"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "Advantage(Skill, Intimidation)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Psychic Focus: Crown of Disgust
 new entry "PSYCHIC_FOCUS_CROWN_OF_DISGUST"
@@ -81,6 +88,7 @@ data "StackId" "PSYCHIC_FOCUS"
 data "AuraRadius" "6"
 data "AuraStatuses" "TARGET:IF(Character() and Enemy() and not IsImmuneToStatus('SG_FRIGHTENED')):ApplyStatus(DIFFICULT_TERRAIN)"
 data "StatusPropertyFlags" "IgnoreResting;DisableCombatlog"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Psychic Focus: Crown of Rage
 new entry "PSYCHIC_FOCUS_CROWN_OF_RAGE"
@@ -91,6 +99,7 @@ data "Description" "haa107eabge299g42dbg96bagba6e034ebc7f"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "IF(IsMeleeAttack()):Disadvantage(AttackTarget)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Psychic Focus: Diminution
 new entry "PSYCHIC_FOCUS_DIMINUTION"
@@ -101,6 +110,7 @@ data "Description" "h80ef2293g0ac8g45deg95d4gf6aef52a25e5"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "Advantage(Skill, Stealth)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Psychic Focus: Giant Growth
 new entry "PSYCHIC_FOCUS_GIANT_GROWTH"
@@ -112,6 +122,7 @@ data "DescriptionParams" "Distance(1.5)"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "UnlockSpellVariant(SpellId('Target_MainHandAttack'), ModifyTargetRadius(AdditiveBase, 1.5), ModifyTooltipDescription());UnlockSpellVariant(SpellId('Target_OffhandAttack'), ModifyTargetRadius(AdditiveBase, 1.5), ModifyTooltipDescription())"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Psychic Focus: Intellect Fortress
 new entry "PSYCHIC_FOCUS_INTELLECT_FORTRESS"
@@ -122,6 +133,7 @@ data "Description" "hc39a6ad2g5f0fg41eega4a1gc18d19175a16"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "Resistance(Psychic, Resistant)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Psychic Focus: Iron Durability
 new entry "PSYCHIC_FOCUS_IRON_DURABILITY"
@@ -132,6 +144,7 @@ data "Description" "h4caf2c5dg58e8g4e6agbf53gddabfbd0f126"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "AC(1)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Psychic Focus: Mantle of Awe
 new entry "PSYCHIC_FOCUS_MANTLE_OF_AWE"
@@ -143,6 +156,7 @@ data "DescriptionParams" "max(1,IntelligenceModifier/2)"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "Skill(Deception, max(1,IntelligenceModifier/2));Skill(Intimidation, max(1,IntelligenceModifier/2));Skill(Performance, max(1,IntelligenceModifier/2));Skill(Persuasion, max(1,IntelligenceModifier/2))"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Psychic Focus: Mantle of Command
 new entry "PSYCHIC_FOCUS_MANTLE_OF_COMMAND"
@@ -153,6 +167,7 @@ data "Description" "h37c8bd6agbc0ag4d3egaf61g8296f4b02afe"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "UnlockSpell(Target_Mystic_CommandersImperative)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "MYSTIC_COMMANDERS_IMPERATIVE"
 type "StatusData"
@@ -164,6 +179,7 @@ data "Icon" "Action_CommandersStrike"
 data "TickType" "EndTurn"
 data "StackId" "MYSTIC_COMMANDERS_IMPERATIVE"
 data "Boosts" "ActionResource(Movement,3,0)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Psychic Focus: Mantle of Courage
 new entry "PSYCHIC_FOCUS_MANTLE_OF_COURAGE"
@@ -189,6 +205,7 @@ data "Description" "h062aea1cgc28dg4ee0gb8d9g67bbfbf0fe68"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS_MANTLE_OF_COURAGE_BUFF"
 data "Boosts" "Tag(FRIGHTENED_ADV)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Psychic Focus: Mantle of Fear
 new entry "PSYCHIC_FOCUS_MANTLE_OF_FEAR"
@@ -199,6 +216,7 @@ data "Description" "h6e572917gc8e2g4615g9155g202b2bbe5edf"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "Advantage(Skill, Intimidation)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Psychic Focus: Mantle of Fury
 new entry "PSYCHIC_FOCUS_MANTLE_OF_FURY"
@@ -213,6 +231,7 @@ data "AuraRadius" "3"
 data "AuraStatuses" "TARGET:IF(Character() and Ally()):ApplyStatus(PSYCHIC_FOCUS_MANTLE_OF_FURY_SPEED)"
 data "StatsFunctorContext" "OnTurn"
 data "StatsFunctors" "ApplyStatus(PSYCHIC_FOCUS_MANTLE_OF_FURY_SPEED,100,1)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "PSYCHIC_FOCUS_MANTLE_OF_FURY_BUFF"
 type "StatusData"
@@ -223,6 +242,7 @@ data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS_MANTLE_OF_FURY_BUFF"
 data "StatsFunctorContext" "OnTurn"
 data "StatsFunctors" "ApplyStatus(PSYCHIC_FOCUS_MANTLE_OF_FURY_SPEED,100,1)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "PSYCHIC_FOCUS_MANTLE_OF_FURY_SPEED"
 type "StatusData"
@@ -232,6 +252,7 @@ data "Description" "h39a4cbe8gcca5g4b98g83d0g3c19761536e1"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS_MANTLE_OF_FURY_BUFF"
 data "Boosts" "ActionResource(Movement,3,0)" 
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Psychic Focus: Mantle of Joy
 new entry "PSYCHIC_FOCUS_MANTLE_OF_JOY"
@@ -242,6 +263,7 @@ data "Description" "ha54972cfg3b1eg49a7ga1ddg7fc587806d15"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "Advantage(Skill, Persuasion)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Psychic Focus: Mastery of Air
 new entry "PSYCHIC_FOCUS_MASTERY_OF_AIR"
@@ -252,6 +274,7 @@ data "Description" "h3feb34c9g880dg4f8fg8938g8e6f6674699b"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "IgnoreFallDamage();StatusImmunity(SG_DifficultTerrain)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Psychic Focus: Mastery of Fire
 new entry "PSYCHIC_FOCUS_MASTERY_OF_FIRE"
@@ -262,6 +285,7 @@ data "Description" "h3049c887ga7d4g4736gb860g0feb22ac3156"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "Resistance(Fire, Resistant);DamageBonus(2)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Psychic Focus: Mastery of Force
 new entry "PSYCHIC_FOCUS_MASTERY_OF_FORCE"
@@ -272,6 +296,7 @@ data "Description" "hbbb23703gbf6cg4fe3g9f3bg90a264b95be1"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "Advantage(Ability, Strength)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Psychic Focus: Mastery of Ice
 new entry "PSYCHIC_FOCUS_MASTERY_OF_ICE"
@@ -282,6 +307,7 @@ data "Description" "h189fc1a6g1be8g4953ga80egcf0eebe1c6de"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "Resistance(Cold, Resistant);StatusImmunity(PRONE_ICE)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Psychic Focus: Mastery of Light and Darkness
 new entry "PSYCHIC_FOCUS_MASTERY_OF_LIGHT_AND_DARKNESS"
@@ -292,6 +318,7 @@ data "Description" "h0110a29ega524g4cd9g809fg274095556bfb"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "StatusImmunity(BLINDED_DARKNESS);IgnoreSurfaceCover(SurfaceDarknessCloud)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Psychic Focus: Mastery of Water
 new entry "PSYCHIC_FOCUS_MASTERY_OF_WATER"
@@ -302,6 +329,7 @@ data "Description" "hbde3cd99g13f5g4458ga094g930039f93b66"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "Resistance(Fire, Resistant);StatusImmunity(DIFFICULT_TERRAIN_MUD);StatusImmunity(DIFFICULT_TERRAIN_DEEPWATER)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Psychic Focus: Mastery of Weather
 new entry "PSYCHIC_FOCUS_MASTERY_OF_WEATHER"
@@ -312,6 +340,7 @@ data "Description" "h0e91a3a2gbf6ag4cbbgae2dgde3bfbed1cf9"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "Resistance(Lightning, Resistant);Resistance(Thunder, Resistant)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Psychic Focus: Mastery of Wood and Earth
 new entry "PSYCHIC_FOCUS_MASTERY_OF_WOOD_AND_EARTH"
@@ -322,6 +351,7 @@ data "Description" "h065bc831g06ecg4b9dgb9c3g51bc2fe08cb0"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "AC(1)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Psychic Focus: Nomadic Arrow
 new entry "PSYCHIC_FOCUS_NOMADIC_ARROW"
@@ -333,6 +363,7 @@ data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "IF(HasDisadvantage() and IsRangedAttack()):Advantage(AttackRoll);IgnorePointBlankDisadvantage()"
 data "Passives" "Discipline_NomadicArrow_Effect"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Psychic Focus: Nomadic Chameleon
 new entry "PSYCHIC_FOCUS_NOMADIC_CHAMELEON"
@@ -343,6 +374,7 @@ data "Description" "hfa7f9479g9ebeg429bg8e47g51703175ea4d"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "Advantage(Skill, Stealth)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Psychic Focus: Nomadic Mind
 new entry "PSYCHIC_FOCUS_NOMADIC_MIND"
@@ -352,6 +384,7 @@ data "DisplayName" "hdbdfd45bg1f25g40ecg8c18g211c4bea1076"
 data "Description" "h892cf89bg58d2g40d1gb3e3gdb2b1045c9aa"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "PSYCHIC_FOCUS_NOMADIC_MIND_ATHLETICS"
 type "StatusData"
@@ -361,6 +394,7 @@ data "Description" "hae85821cgb8c5g415egbe54gd5e2370dba00"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "ProficiencyBonus(Skill,Athletics);"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "PSYCHIC_FOCUS_NOMADIC_MIND_ACROBATICS"
 type "StatusData"
@@ -369,6 +403,7 @@ using "PSYCHIC_FOCUS_NOMADIC_MIND_ATHLETICS"
 data "DisplayName" "hdbdfd45bg1f25g40ecg8c18g211c4bea1076"
 data "Description" "hb6d7cb19g0828g4396gb623g67933a4e565f"
 data "Boosts" "ProficiencyBonus(Skill,Acrobatics)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "PSYCHIC_FOCUS_NOMADIC_MIND_SLEIGHT_OF_HAND"
 type "StatusData"
@@ -377,6 +412,7 @@ using "PSYCHIC_FOCUS_NOMADIC_MIND_ATHLETICS"
 data "DisplayName" "hdbdfd45bg1f25g40ecg8c18g211c4bea1076"
 data "Description" "h10724fc0g067dg4f02g9017g224fd491dcb2"
 data "Boosts" "ProficiencyBonus(Skill,SleightOfHand)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "PSYCHIC_FOCUS_NOMADIC_MIND_STEALTH"
 type "StatusData"
@@ -385,6 +421,7 @@ using "PSYCHIC_FOCUS_NOMADIC_MIND_ATHLETICS"
 data "DisplayName" "hdbdfd45bg1f25g40ecg8c18g211c4bea1076"
 data "Description" "ha32177adg159dg4c9cga8dcgb0311611228d"
 data "Boosts" "ProficiencyBonus(Skill,Stealth)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "PSYCHIC_FOCUS_NOMADIC_MIND_ARCANA"
 type "StatusData"
@@ -393,6 +430,7 @@ using "PSYCHIC_FOCUS_NOMADIC_MIND_ATHLETICS"
 data "DisplayName" "hdbdfd45bg1f25g40ecg8c18g211c4bea1076"
 data "Description" "h1f3291b9geff6g4a85g8c3eg4495ff7f7432"
 data "Boosts" "ProficiencyBonus(Skill,Arcana)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "PSYCHIC_FOCUS_NOMADIC_MIND_HISTORY"
 type "StatusData"
@@ -401,6 +439,7 @@ using "PSYCHIC_FOCUS_NOMADIC_MIND_ATHLETICS"
 data "DisplayName" "hdbdfd45bg1f25g40ecg8c18g211c4bea1076"
 data "Description" "h08cc5ae2gde2cg406bg9408gcaaabbd0ba8d"
 data "Boosts" "ProficiencyBonus(Skill,History)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "PSYCHIC_FOCUS_NOMADIC_MIND_INVESTIGATION"
 type "StatusData"
@@ -409,6 +448,7 @@ using "PSYCHIC_FOCUS_NOMADIC_MIND_ATHLETICS"
 data "DisplayName" "hdbdfd45bg1f25g40ecg8c18g211c4bea1076"
 data "Description" "h5241c350gd23fg47a9gba8eg948104b12405"
 data "Boosts" "ProficiencyBonus(Skill,Investigation)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "PSYCHIC_FOCUS_NOMADIC_MIND_NATURE"
 type "StatusData"
@@ -417,6 +457,7 @@ using "PSYCHIC_FOCUS_NOMADIC_MIND_ATHLETICS"
 data "DisplayName" "hdbdfd45bg1f25g40ecg8c18g211c4bea1076"
 data "Description" "h8d056f92ge346g4048ga960gf40fadd4fe03"
 data "Boosts" "ProficiencyBonus(Skill,Nature)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "PSYCHIC_FOCUS_NOMADIC_MIND_RELIGION"
 type "StatusData"
@@ -425,6 +466,7 @@ using "PSYCHIC_FOCUS_NOMADIC_MIND_ATHLETICS"
 data "DisplayName" "hdbdfd45bg1f25g40ecg8c18g211c4bea1076"
 data "Description" "he35d65d8gd4cfg4265g8478g50925d2ae8ae"
 data "Boosts" "ProficiencyBonus(Skill,Religion)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "PSYCHIC_FOCUS_NOMADIC_MIND_ANIMAL_HANDLING"
 type "StatusData"
@@ -433,6 +475,7 @@ using "PSYCHIC_FOCUS_NOMADIC_MIND_ATHLETICS"
 data "DisplayName" "hdbdfd45bg1f25g40ecg8c18g211c4bea1076"
 data "Description" "h475f4e8dga5f5g470fg9e0fg93c851936840"
 data "Boosts" "ProficiencyBonus(Skill,AnimalHandling)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "PSYCHIC_FOCUS_NOMADIC_MIND_INSIGHT"
 type "StatusData"
@@ -441,6 +484,7 @@ using "PSYCHIC_FOCUS_NOMADIC_MIND_ATHLETICS"
 data "DisplayName" "hdbdfd45bg1f25g40ecg8c18g211c4bea1076"
 data "Description" "hda86f744g96aag444bg99a0g2e9c8dddb4b9"
 data "Boosts" "ProficiencyBonus(Skill,Insight)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "PSYCHIC_FOCUS_NOMADIC_MIND_MEDICINE"
 type "StatusData"
@@ -449,6 +493,7 @@ using "PSYCHIC_FOCUS_NOMADIC_MIND_ATHLETICS"
 data "DisplayName" "hdbdfd45bg1f25g40ecg8c18g211c4bea1076"
 data "Description" "h9b84032dg07c3g423ag8384g6610a4a51eef"
 data "Boosts" "ProficiencyBonus(Skill,Medicine)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "PSYCHIC_FOCUS_NOMADIC_MIND_PERCEPTION"
 type "StatusData"
@@ -457,6 +502,7 @@ using "PSYCHIC_FOCUS_NOMADIC_MIND_ATHLETICS"
 data "DisplayName" "hdbdfd45bg1f25g40ecg8c18g211c4bea1076"
 data "Description" "hbe258c43g9a76g401eg9e1dgb0bc5c19ceb4"
 data "Boosts" "ProficiencyBonus(Skill,Perception)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "PSYCHIC_FOCUS_NOMADIC_MIND_SURVIVAL"
 type "StatusData"
@@ -465,6 +511,7 @@ using "PSYCHIC_FOCUS_NOMADIC_MIND_ATHLETICS"
 data "DisplayName" "hdbdfd45bg1f25g40ecg8c18g211c4bea1076"
 data "Description" "h79c04562gd838g465dgafc2gf953978f629b"
 data "Boosts" "ProficiencyBonus(Skill,Survival)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "PSYCHIC_FOCUS_NOMADIC_MIND_DECEPTION"
 type "StatusData"
@@ -473,6 +520,7 @@ using "PSYCHIC_FOCUS_NOMADIC_MIND_ATHLETICS"
 data "DisplayName" "hdbdfd45bg1f25g40ecg8c18g211c4bea1076"
 data "Description" "h97bf2ca9gced4g43d0gba21gb62815d4809b"
 data "Boosts" "ProficiencyBonus(Skill,Deception)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "PSYCHIC_FOCUS_NOMADIC_MIND_INTIMIDATION"
 type "StatusData"
@@ -481,6 +529,7 @@ using "PSYCHIC_FOCUS_NOMADIC_MIND_ATHLETICS"
 data "DisplayName" "hdbdfd45bg1f25g40ecg8c18g211c4bea1076"
 data "Description" "h8bb83f65g3f66g4576g8c5agf58ad012d8a8"
 data "Boosts" "ProficiencyBonus(Skill,Intimidation)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "PSYCHIC_FOCUS_NOMADIC_MIND_PERFORMANCE"
 type "StatusData"
@@ -489,6 +538,7 @@ using "PSYCHIC_FOCUS_NOMADIC_MIND_ATHLETICS"
 data "DisplayName" "hdbdfd45bg1f25g40ecg8c18g211c4bea1076"
 data "Description" "h76ecf2ffgca6eg4849gbb90gda2231e300ef"
 data "Boosts" "ProficiencyBonus(Skill,Performance)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "PSYCHIC_FOCUS_NOMADIC_MIND_PERSUASION"
 type "StatusData"
@@ -497,6 +547,7 @@ using "PSYCHIC_FOCUS_NOMADIC_MIND_ATHLETICS"
 data "DisplayName" "hdbdfd45bg1f25g40ecg8c18g211c4bea1076"
 data "Description" "h93fc80d0g8ce6g4fd3g9c64g79c531ca403c"
 data "Boosts" "ProficiencyBonus(Skill,Persuasion)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Psychic Focus: Nomadic Step
 new entry "PSYCHIC_FOCUS_NOMADIC_STEP"
@@ -508,6 +559,7 @@ data "DescriptionParams" "Distance(3)"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
 data "Passives" "Discipline_NomadicStep_Effect"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "PSYCHIC_FOCUS_NOMADIC_STEP_BUFF"
 type "StatusData"
@@ -518,6 +570,7 @@ data "DescriptionParams" "Distance(3)"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS_NOMADIC_STEP_BUFF"
 data "Boosts" "ActionResource(Movement,3,0)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Psychic Focus: Precognition
 new entry "PSYCHIC_FOCUS_PRECOGNITION"
@@ -528,6 +581,7 @@ data "Description" "h0bec5880g57b5g4588g9aa6g66e689b94dfd"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "Initiative(3)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Psychic Focus: Psionic Restoration
 new entry "PSYCHIC_FOCUS_PSIONIC_RESTORATION"
@@ -538,6 +592,7 @@ data "Description" "h614de249g73b3g41cdg9887gba59864e91e2"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
 data "Passives" "Discipline_PsionicRestoration_Effect"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Psychic Focus: Psionic Weapon
 new entry "PSYCHIC_FOCUS_PSIONIC_WEAPON"
@@ -548,6 +603,7 @@ data "Description" "h302d10ecg7f3cg4b97gba4fgb0853ab32168"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "UnarmedMagicalProperty();WeaponProperty(Magical)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Psychic Focus: Psychic Assault
 new entry "PSYCHIC_FOCUS_PSYCHIC_ASSAULT"
@@ -557,8 +613,8 @@ data "DisplayName" "he07c3361g4749g4ea6gb302g7728bec50281"
 data "Description" "h14f88da9g40e0g4b28g92e3g7a311387e805"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
-// TODO: Change this to Psychic damage only
 data "Boosts" "IF(IsCantrip()):DamageBonus(2)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Psychic Focus: Psychic Disruption
 new entry "PSYCHIC_FOCUS_PSYCHIC_DISRUPTION"
@@ -569,8 +625,10 @@ data "Description" "hced1892egf4efg429bg9617gd1919319dab7"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "Advantage(Skill, Deception)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Psychic Focus: Psychic Suppression (Psychic Inquisition)
+// DEPRECATED
 new entry "PSYCHIC_FOCUS_PSYCHIC_SUPPRESSION"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -579,6 +637,7 @@ data "Description" "h573ce019g24e2g4afbg98fdga7098e625410"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" ""
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Psychic Focus: Telepathic Subjugation (Telepathic Contact) 
 new entry "PSYCHIC_FOCUS_TELEPATHIC_SUBJUGATION"
@@ -589,6 +648,7 @@ data "Description" "hf1f7cbd5g230bg40d0g87a6g2a2cf90c4ab7"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "SpellSaveDC(1)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Psychic Focus: Third Eye
 new entry "PSYCHIC_FOCUS_THIRD_EYE"
@@ -600,6 +660,7 @@ data "DescriptionParams" "Distance(12)"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "DarkvisionRangeMin(12);ActiveCharacterLight(051648e6-f05a-e41f-e398-ffd5cd148989)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Beacon
 new entry "MYSTIC_BEACON"
@@ -611,7 +672,6 @@ data "Icon" "Action_Monk_WholenessOfBody"
 data "StackId" "LIGHT"
 data "Boosts" "GameplayLight(9,false,0.1)"
 data "StatusGroups" "SG_Light;SG_RemoveOnRespec"
-data "IsUnique" "1"
 data "StatusEffect" "9e863d8f-a1f5-4f68-88ca-ddb56828c8d8"
 
 // Blade Meld
@@ -623,6 +683,7 @@ data "Description" "hf925d812g1888g43fcg868egb9a8bfc1dd34"
 data "Icon" "Skill_Warlock_PactOfTheBlade_BoundWeapon"
 data "StackId" "MYSTIC_BLADE_MELD"
 data "Boosts" "CannotBeDisarmed();ItemReturnToOwner()"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Light Step
 new entry "MYSTIC_LIGHT_STEP"
@@ -634,7 +695,6 @@ data "DescriptionParams" "Distance(3)"
 data "Icon" "Spell_Transmutation_Longstrider"
 data "StackId" "MYSTIC_LIGHT_STEP"
 data "Boosts" "ActionResource(Movement,3,0);StatusImmunity(PRONE)"
-// data "StatusEffect" "9e863d8f-a1f5-4f68-88ca-ddb56828c8d8"
 data "StatusGroups" "SG_RemoveOnRespec"
 
 // Blind Spot
@@ -649,6 +709,7 @@ data "Boosts" "SightRangeMaximum(3)"
 data "StatusGroups" "SG_Blinded;SG_Condition"
 data "ApplyEffect" "39044361-a2df-4730-90ca-ce37ddcbc482"
 data "StatusEffect" "5c53ef4c-bd94-4567-94c1-8b1a8cefa7e3"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Mind Meld
 new entry "MYSTIC_MIND_MELD_BUFF"
@@ -659,6 +720,7 @@ data "Description" "h211147b3ge4e6g420fg9e53g4e36d045fef1"
 data "Icon" "GenericIcon_Intent_Buff"
 data "StackId" "MYSTIC_MIND_MELD"
 data "Boosts" "Ability(Strength, 1);Ability(Dexterity, 1);Ability(Constitution, 1);Ability(Intelligence, 1);Ability(Wisdom, 1);Ability(Charisma, 1)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "MYSTIC_MIND_MELD_DEBUFF"
 type "StatusData"
@@ -668,6 +730,7 @@ data "Description" "h0e62824ag55abg406fgaae4g3510777914fb"
 data "Icon" "GenericIcon_Intent_Debuff"
 data "StackId" "MYSTIC_MIND_MELD"
 data "Boosts" "Ability(Strength, -1);Ability(Dexterity, -1);Ability(Constitution, -1);Ability(Intelligence, -1);Ability(Wisdom, -1);Ability(Charisma, -1)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Psionic Disciplines
 
@@ -676,12 +739,8 @@ new entry "MYSTIC_CROWNED_IN_SORROW"
 type "StatusData"
 data "StatusType" "BOOST"
 data "TickType" "StartTurn"
-
 data "ManagedStatusEffectType" "Negative"
 data "ManagedStatusEffectGroup" "6435c10a-c67d-4f79-8813-b84b0762f92b"
-
-type "StatusData"
-data "StatusType" "BOOST"
 using "CURSE_ATTACK"
 data "DisplayName" "h0d0f8713ge6c2g4f54ga3cdg23dd8ee400e4"
 data "Description" "h52100dbcgf2ecg4b8bgaf04geb08e9447aaa;1"
@@ -724,6 +783,7 @@ data "Boosts" "ActionResourceBlock(Movement)"
 data "ManagedStatusEffectType" "Negative"
 data "ManagedStatusEffectGroup" "d787f666-8ee6-4185-9365-6aac9ebe76ae"
 
+// Dolorous Mind
 new entry "MYSTIC_DOLOROUS_MIND"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -752,6 +812,8 @@ data "DisplayName" "hd49244fdg189fg49abgafb7g82b523a3ee79"
 data "Description" "h77791667gb881g4996g93b4gf60eab7bfb1f"
 data "DescriptionParams" "Distance(4.5)"
 data "Icon" "Spell_Eyebite_Panicked"
+data "SoundLoop" "Spell_Status_Cold_MO"
+data "SoundStop" "Spell_Status_Cold_MO_Stop"
 data "StackId" "MYSTIC_EYE_OF_HORROR"
 data "TickType" "EndTurn"
 data "Boosts" "ActionResource(Movement,-4.5,0)"
@@ -779,10 +841,8 @@ data "SoundStop" "Spell_End_Loop_Damage_WallOfFire_L4to5"
 data "StackId" "MYSTIC_WALLOFREPULSION"
 data "StackPriority" "1"
 data "AuraRadius" "3"
-// data "AuraStatuses" "IF(not Dead() and not (HasPassive('SculptSpells', context.Source) and Ally())):ApplyStatus(MYSTIC_WALLOFREPULSION_AURA,100,1)"
 data "AuraStatuses" "IF(not Dead() and not HasStatus('MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED')):ApplyStatus(MYSTIC_WALLOFREPULSION_AURA,100,1)"
 data "TooltipSave" "Wisdom"
-// data "TooltipDamage" "DealDamage(5d8,Fire)"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;InitiateCombat;BringIntoCombat"
 data "StatusEffect" "362f2080-b927-4846-8aec-66752dbafd07"
 
@@ -791,22 +851,13 @@ type "StatusData"
 data "StatusType" "BOOST"
 data "DisplayName" "h52bc941fg3400g43c0g88b1g17e2fc2eec65"
 data "Description" "h06f51e75gf735g4d07g9257ga36cc845e932"
-// data "DescriptionParams" "Distance(3);DealDamage(5d8,Fire)"
 data "Icon" "Spell_WallOfThorns"
 data "StackId" "MYSTIC_WALLOFREPULSION"
 data "StackPriority" "0"
-// data "TickType" "EndTurn"
-// data "TooltipDamage" "DealDamage(5d8,Fire)"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog"
 data "OnApplyRoll" "WallOfFireCheck(Ability.Wisdom,SourceSpellDC(10,GetSummoner(context.Source)))"
 data "OnApplySuccess" "IF(not HasStatus('MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED')):ApplyStatus(MYSTIC_REPULSED_EFFECT,100,1);IF(not HasStatus('MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED')):ApplyStatus(MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED,100,2)"
-// data "OnApplyFail" "IF(not HasStatus('MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED')):DealDamage(5d8/2,Fire,Magical);IF(not HasStatus('MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED',context.Target)):ApplyStatus(MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED,100,1)"
-// data "OnApplyFail" "ApplyStatus(MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED,100,2);ApplyStatus(MYSTIC_REPULSEDNT,100,1)"
 data "OnApplyFail" "ApplyStatus(MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED,100,2)"
-
-// data "OnTickRoll" "WallOfFireCheck(Ability.Dexterity,SourceSpellDC(10,GetSummoner(context.Source)))"
-// data "OnTickSuccess" "IF(not HasStatus('MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED') or StatusDurationLessThan(context.Source, 'MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED', 0.1)):DealDamage(5d8,Fire,Magical);ApplyStatus(MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED,100,1)"
-// data "OnTickFail" "IF(not HasStatus('MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED') or StatusDurationLessThan(context.Source, 'MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED', 0.1)):DealDamage(5d8/2,Fire,Magical);ApplyStatus(MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED,100,1)"
 
 new entry "MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED"
 type "StatusData"
@@ -816,16 +867,6 @@ data "Icon" "Spell_Evocation_WallOfFire"
 data "TickType" "EndTurn"
 data "StackId" "MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
-
-
-
-
-
-
-
-
-
-
 
 // Visions of Disgust
 new entry "MYSTIC_VISIONS_OF_DISGUST"
@@ -848,7 +889,6 @@ data "Description" "h47949da3g6dd3g44b8gbd0eg0b9479fe439c"
 data "Icon" "Spell_Illusion_PhantasmalKiller"
 data "StackId" "MYSTIC_WORLD_OF_HORROR"
 data "TickType" "EndTurn"
-// data "Boosts" "Disadvantage(AllAbilities);Disadvantage(AttackRoll);ActionResourceBlock(Movement);IF(not IsMeleeAttack()):ActionResourceBlock(ActionPoint);BlockSpellCast()"
 data "Boosts" "Disadvantage(AllAbilities);Disadvantage(AttackRoll);ActionResourceBlock(Movement);ActionResourceBlock(ActionPoint);ActionResourceBlock(BonusActionPoint);UnlockSpell(Target_Mystic_MainHandAttack)"
 data "StatusGroups" "SG_Frightened;SG_Condition"
 data "RemoveConditions" "SavingThrow(Ability.Charisma, SourceSpellDC())"
@@ -876,9 +916,9 @@ data "Icon" "Action_DippedFire_Melee"
 data "TickType" "EndTurn"
 data "StackId" "MYSTIC_FIGHTING_WORDS"
 data "Boosts" "BlockSpellCast();Advantage(AttackRoll);Advantage(AttackTarget)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Mindless Courage
-// It's just Command: Approach
 new entry "MYSTIC_MINDLESS_COURAGE"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -926,6 +966,7 @@ data "Icon" "Skill_Fighter_Rally"
 data "StackId" "MYSTIC_COORDINATED_MOVEMENT"
 data "TickType" "EndTurn"
 data "Boosts" "ActionResource(Movement, 4.5, 0)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Commander's Sight
 new entry "MYSTIC_COMMANDERS_SIGHT"
@@ -938,6 +979,7 @@ data "StackId" "MYSTIC_COMMANDERS_SIGHT"
 data "StatusPropertyFlags" "TickingWithSource"
 data "TickType" "EndTurn"
 data "Boosts" "Advantage(AttackTarget)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Command to Strike
 new entry "MYSTIC_COMMAND_TO_STRIKE"
@@ -970,13 +1012,14 @@ data "TickType" "EndTurn"
 data "Boosts" "UnlockSpell(Shout_Mystic_StrategicMind_Options)"
 data "AuraRadius" "9"
 data "AuraStatuses" "TARGET:IF(Character() and Ally() and not Self()):ApplyStatus(MYSTIC_STRATEGIC_MIND_BUFF)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "MYSTIC_STRATEGIC_MIND_BUFF"
 type "StatusData"
 data "StatusType" "BOOST"
 data "DisplayName" "h14317c93g0a49g4116g8970gf5060f631559"
 data "Description" "hc55eaef0gccd6g48c2g8071g9aa3e2cf88c2"
-data "Icon" "Shout_Mystic_StrategicMind"
+data "Icon" "Action_Monster_Banite_VoiceOfCommand"
 data "StackId" "MYSTIC_STRATEGIC_MIND"
 data "TickType" "EndTurn"
 // data "Boosts" "UnlockSpell(Shout_Mystic_StrategicMind_Dash);UnlockSpell(Shout_Mystic_StrategicMind_Disengage);UnlockSpell(Shout_Mystic_StrategicMind_D4);"
@@ -987,14 +1030,12 @@ type "StatusData"
 data "StatusType" "BOOST"
 data "DisplayName" "hfdb93561g3f06g46a9gb03bg2591820976c2"
 data "Description" "h841727d8gcb21g43bdga510gc7574ab21fcd"
-// data "DescriptionParams" ""
 data "Icon" "PassiveFeature_Indomitable"
 data "StackId" "MYSTIC_STRATEGIC_MIND_D4"
 data "TickType" "EndTurn"
 data "Boosts" "RollBonus(Attack,1d4)"
 
 // Aura of Victory
-// Need to have a different Aura for each level (SIGH)
 new entry "MYSTIC_AURA_OF_VICTORY"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -1008,6 +1049,7 @@ data "Boosts" "UnlockInterrupt(Interrupt_Mystic_AuraOfVictory)"
 data "Passives" "Passive_AuraOfVictory"
 data "AuraRadius" "9"
 data "AuraStatuses" "TARGET:IF(Character() and Ally() and not Self()):ApplyStatus(MYSTIC_AURA_OF_VICTORY_BUFF)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "MYSTIC_AURA_OF_VICTORY_2"
 type "StatusData"
@@ -1074,6 +1116,7 @@ data "StackId" "MYSTIC_AURA_OF_VICTORY_BUFF"
 data "TickType" "EndTurn"
 data "Boosts" "UnlockInterrupt(Interrupt_Mystic_AuraOfVictory)"
 data "Passives" "Passive_AuraOfVictory"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "MYSTIC_AURA_OF_VICTORY_BUFF_2"
 type "StatusData"
@@ -1195,6 +1238,7 @@ data "Icon" "Spell_Evocation_CrusadersMantle"
 data "StackId" "MYSTIC_PILLAR_OF_CONFIDENCE"
 data "TickType" "EndTurn"
 data "Boosts" "ActionResource(ActionPoint,1,0)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Unsettling Aura
 new entry "MYSTIC_UNSETTLING_AURA"
@@ -1209,6 +1253,7 @@ data "AuraRadius" "9"
 // data "AuraStatuses" "TARGET:IF(Enemy()):ApplyStatus(MYSTIC_UNSETTLING_AURA_BUFF)"
 data "AuraStatuses" "IF(Enemy() and not IsImmuneToStatus('SG_FRIGHTENED')):ApplyStatus(MYSTIC_UNSETTLING_AURA_BUFF)"
 // data "AuraStatuses" "IF(Enemy() and not IsImmuneToStatus('SG_FRIGHTENED')):ApplyStatus(AURA_OF_TERROR_BUFF);"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "MYSTIC_UNSETTLING_AURA_BUFF"
 type "StatusData"
@@ -1226,11 +1271,11 @@ type "StatusData"
 data "StatusType" "BOOST"
 data "DisplayName" "h3e342734g83e2g43cegb0fegfe74ae247945"
 data "Description" "hcf279208g813bg40e7ga351g067152c8878c"
-// data "DescriptionParams" ""
 data "Icon" "Spell_Enchantment_ViciousMockery"
 data "StackId" "MYSTIC_INCITE_FURY"
 data "TickType" "EndTurn"
 data "Boosts" "IF(IsMeleeAttack() and IsWeaponAttack()):CharacterWeaponDamage(1d4)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Mindless Charge
 new entry "MYSTIC_MINDLESS_CHARGE"
@@ -1243,6 +1288,7 @@ data "Icon" "PassiveFeature_RelentlessAvenger"
 data "StackId" "MYSTIC_MINDLESS_CHARGE"
 data "TickType" "EndTurn"
 data "Boosts" "ActionResource(Movement,9,0);Disadvantage(SavingThrow, Strength);Disadvantage(SavingThrow, Dexterity);Disadvantage(SavingThrow, Constitution);"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Aura of Bloodletting
 new entry "MYSTIC_AURA_OF_BLOODLETTING"
@@ -1256,6 +1302,7 @@ data "TickType" "EndTurn"
 data "Boosts" "IF(IsMeleeAttack()):Advantage(AttackRoll)"
 data "AuraRadius" "18"
 data "AuraStatuses" "TARGET:IF(Character() and not Self()):ApplyStatus(MYSTIC_AURA_OF_BLOODLETTING_BUFF)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "MYSTIC_AURA_OF_BLOODLETTING_BUFF"
 type "StatusData"
@@ -1266,6 +1313,7 @@ data "Icon" "Action_SneakAttack_Melee"
 data "StackId" "MYSTIC_AURA_OF_BLOODLETTING_BUFF"
 data "TickType" "EndTurn"
 data "Boosts" "IF(IsMeleeAttack()):Advantage(AttackRoll)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Overwhelming Fury
 new entry "MYSTIC_OVERWHELMING_FURY"
@@ -1276,9 +1324,10 @@ data "Description" "hd1dbe896ga5c1g4cc5gbf69gec3cf9c465f5"
 data "Icon" "Action_Barbarian_RecklessAttack"
 data "StackId" "MYSTIC_OVERWHELMING_FURY"
 data "TickType" "EndTurn"
-// data "Boosts" "BlockSpellCast()"
 // data "Boosts" "ActionResourceBlock(ActionPoint); ActionResourceBlock(BonusActionPoint);UnlockSpellVariant(ExtraAttackCheck(),ModifyUseCosts(Replace,ActionPoint,0,0,ActionPoint))"
 data "Boosts" "ActionResourceBlock(ActionPoint);ActionResourceBlock(BonusActionPoint);UnlockSpell(Target_Mystic_MainHandAttack)"
+// data "Boosts" "ActionResourceBlock(ActionPoint);ActionResourceBlock(BonusActionPoint);UnlockSpellVariant(SpellId('Target_MainHandAttack'),ModifyUseCosts(Replace,ActionPoint,0,0,ActionPoint),ModifyCooldown())"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Soothing Presence
 new entry "MYSTIC_SOOTHING_PRESENCE"
@@ -1347,6 +1396,7 @@ data "Icon" "Action_Healer_Heal"
 data "StackId" "MYSTIC_COMFORTING_AURA"
 data "TickType" "EndTurn"
 data "Boosts" "RollBonus(SavingThrow,1d4)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Aura of Jubilation
 new entry "MYSTIC_AURA_OF_JUBILATION"
@@ -1360,6 +1410,7 @@ data "TickType" "EndTurn"
 data "Boosts" "Disadvantage(Skill, Perception);Disadvantage(Skill, Investigation)"
 data "AuraRadius" "18"
 data "AuraStatuses" "TARGET:IF(Character() and not Self()):ApplyStatus(MYSTIC_AURA_OF_JUBILATION_BUFF)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "MYSTIC_AURA_OF_JUBILATION_BUFF"
 type "StatusData"
@@ -1370,6 +1421,7 @@ data "Icon" "Spell_Abjuration_Aid"
 data "StackId" "MYSTIC_AURA_OF_JUBILATION_BUFF"
 data "TickType" "EndTurn"
 data "Boosts" "Disadvantage(Skill, Perception);Disadvantage(Skill, Investigation)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Beacon of Recovery
 new entry "MYSTIC_BEACON_OF_RECOVERY"
@@ -1377,12 +1429,12 @@ type "StatusData"
 data "StatusType" "BOOST"
 data "DisplayName" "hcda1153bg0b3fg4ac1gaf05g66d825fc6468"
 data "Description" "hccfe5135g56c3g4aa7g9bb8g0137d85683db"
-// data "DescriptionParams" ""
 data "Icon" "Action_Barbarian_UnrelentingFerocity"
 data "StackId" "MYSTIC_AURA_OF_JUBILATION"
 data "TickType" "StartTurn"
 data "StatusPropertyFlags" "TickingWithSource"
 data "Boosts" "RollBonus(SavingThrow,5)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Assess Foe
 new entry "MYSTIC_ASSESS_FOE"
@@ -1405,6 +1457,7 @@ data "Description" "he207afeagf1dbg416fgb44cgb1e75ac96743"
 data "Icon" "Spell_Divination_TrueSeeing"
 data "StackId" "MYSTIC_VIEW_AURA"
 data "Boosts" "Advantage(SourceDialogue,Charisma);Advantage(SourceDialogue,Intelligence)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Perceive the Unseen
 new entry "MYSTIC_PERCEIVE_THE_UNSEEN"
@@ -1446,10 +1499,10 @@ data "Description" "h315be883g6a8ag43bfga828gda303f16c97a"
 data "Icon" "PassiveFeature_Resilient"
 data "StackId" "MYSTIC_PSYCHIC_REDOUBT"
 data "Boosts" "Resistance(Psychic,Resistant);Advantage(SavingThrow,Intelligence);Advantage(SavingThrow,Wisdom);Advantage(SavingThrow,Charisma)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Center of Attention
 new entry "MYSTIC_CENTER_OF_ATTENTION"
-// copy Enthral
 type "StatusData"
 data "StatusType" "BOOST"
 using "ENTHRAL"
@@ -1472,6 +1525,7 @@ data "Description" "ha6de1587ge1a9g4744g828bg4cef160e4ef1"
 data "Icon" "Action_KiResonation_Blast"
 data "StackId" "MYSTIC_PRECOGNITIVE_HUNCH"
 data "Boosts" "RollBonus(SkillCheck,1d4);RollBonus(Attack,1d4);RollBonus(SavingThrow,1d4)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Danger Sense
 new entry "MYSTIC_DANGER_SENSE"
@@ -1482,6 +1536,7 @@ data "Description" "h8bd8eab5g5c86g4a84gbdc6gf93b111bcfa5"
 data "Icon" "Action_Paladin_DivineSense"
 data "StackId" "MYSTIC_DANGER_SENSE"
 data "Boosts" "Initiative(10);StatusImmunity(SURPRISED)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Victory Before Battle
 new entry "MYSTIC_VICTORY_BEFORE_BATTLE"
@@ -1493,6 +1548,7 @@ data "Icon" "Action_PrecisionAttack"
 data "StackId" "MYSTIC_VICTORY_BEFORE_BATTLE"
 data "Boosts" "Initiative(10)"
 data "RemoveConditions" "Combat()"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Ego Whip
 new entry "MYSTIC_EGO_WHIP"
@@ -1504,7 +1560,7 @@ data "Icon" "Spell_Conjuration_Entangled"
 data "StackId" "MYSTIC_EGO_WHIP"
 data "TickType" "EndTurn"
 // data "StatusPropertyFlags" "TickingWithSource"
-data "Boosts" "ActionResourceBlock(ActionPoint)"
+data "Boosts" "ActionResourceBlock(ActionPoint);ActionResourceBlock(BonusActionPoint);UnlockSpell(Shout_Mystic_Hide);UnlockSpell(Shout_Mystic_Disengage);"
 
 // Id Insinuation
 new entry "MYSTIC_ID_INSINUATION"
@@ -1516,7 +1572,7 @@ data "Icon" "Action_Paladin_TurnTheFaithless"
 data "StackId" "MYSTIC_ID_INSINUATION"
 // data "TickType" "StartTurn"
 // data "StatusPropertyFlags" "TickingWithSource"
-data "Boosts" "ActionResourceBlock(ActionPoint);UnlockSpell(Target_Mystic_MainHandAttack)"
+data "Boosts" "ActionResourceBlock(ActionPoint);ActionResourceBlock(BonusActionPoint);UnlockSpell(Target_Mystic_MainHandAttack)"
 
 // Distracting Haze
 new entry "MYSTIC_DISTRACTING_HAZE"
@@ -1599,6 +1655,7 @@ using "DOMINATE_PERSON"
 data "DisplayName" "hbb736357g4467g401cga8d6g9c61f0083de8"
 data "RemoveConditions" "SavingThrow(Ability.Intelligence, SourceSpellDC(), AdvantageOnCharmed())"
 data "TooltipSave" "Intelligence"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Environmental Adaptation
 new entry "MYSTIC_ENVIRONMENTAL_ADAPTATION"
@@ -1609,6 +1666,7 @@ data "Description" "h98e25074gaff8g417agae94g7104c219aceb"
 data "Icon" "PassiveFeature_Land_Desert"
 data "StackId" "MYSTIC_ENVIRONMENTAL_ADAPTATION"
 data "Boosts" "StatusImmunity(WET);StatusImmunity(BURNING);StatusImmunity(ACID);StatusImmunity(CHILLED)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Adaptive Shield
 new entry "MYSTIC_ADAPTIVE_SHIELD_ACID"
@@ -1621,6 +1679,7 @@ data "Icon" "GenericIcon_DamageType_Acid"
 data "TickType" "EndTurn"
 data "StackId" "MYSTIC_ADAPTIVE_SHIELD"
 data "Boosts" "Resistance(Acid,Resistant)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "MYSTIC_ADAPTIVE_SHIELD_COLD"
 type "StatusData"
@@ -1632,6 +1691,7 @@ data "Icon" "GenericIcon_DamageType_Cold"
 data "TickType" "EndTurn"
 data "StackId" "MYSTIC_ADAPTIVE_SHIELD"
 data "Boosts" "Resistance(Cold,Resistant)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "MYSTIC_ADAPTIVE_SHIELD_FIRE"
 type "StatusData"
@@ -1643,6 +1703,7 @@ data "Icon" "GenericIcon_DamageType_Fire"
 data "TickType" "EndTurn"
 data "StackId" "MYSTIC_ADAPTIVE_SHIELD"
 data "Boosts" "Resistance(Fire,Resistant)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "MYSTIC_ADAPTIVE_SHIELD_LIGHTNING"
 type "StatusData"
@@ -1654,6 +1715,7 @@ data "Icon" "GenericIcon_DamageType_Lightning"
 data "TickType" "EndTurn"
 data "StackId" "MYSTIC_ADAPTIVE_SHIELD"
 data "Boosts" "Resistance(Lightning,Resistant)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "MYSTIC_ADAPTIVE_SHIELD_THUNDER"
 type "StatusData"
@@ -1665,6 +1727,7 @@ data "Icon" "GenericIcon_DamageType_Thunder"
 data "TickType" "EndTurn"
 data "StackId" "MYSTIC_ADAPTIVE_SHIELD"
 data "Boosts" "Resistance(Thunder,Resistant)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Energy Adaptation
 new entry "MYSTIC_ENERGY_ADAPTATION_ACID"
@@ -1677,6 +1740,7 @@ data "Icon" "GenericIcon_DamageType_Acid"
 data "TickType" "EndTurn"
 data "StackId" "MYSTIC_ENERGY_ADAPTATION"
 data "Boosts" "Resistance(Acid,Resistant)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "MYSTIC_ENERGY_ADAPTATION_COLD"
 type "StatusData"
@@ -1687,6 +1751,7 @@ data "DescriptionParams" "Cold"
 data "Icon" "GenericIcon_DamageType_Cold"
 data "StackId" "MYSTIC_ENERGY_ADAPTATION"
 data "Boosts" "Resistance(Cold,Resistant)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "MYSTIC_ENERGY_ADAPTATION_FIRE"
 type "StatusData"
@@ -1697,6 +1762,7 @@ data "DescriptionParams" "Fire"
 data "Icon" "GenericIcon_DamageType_Fire"
 data "StackId" "MYSTIC_ENERGY_ADAPTATION"
 data "Boosts" "Resistance(Fire,Resistant)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "MYSTIC_ENERGY_ADAPTATION_LIGHTNING"
 type "StatusData"
@@ -1707,6 +1773,7 @@ data "DescriptionParams" "Lightning"
 data "Icon" "GenericIcon_DamageType_Lightning"
 data "StackId" "MYSTIC_ENERGY_ADAPTATION"
 data "Boosts" "Resistance(Lightning,Resistant)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "MYSTIC_ENERGY_ADAPTATION_THUNDER"
 type "StatusData"
@@ -1717,6 +1784,7 @@ data "DescriptionParams" "Thunder"
 data "Icon" "GenericIcon_DamageType_Thunder"
 data "StackId" "MYSTIC_ENERGY_ADAPTATION"
 data "Boosts" "Resistance(Thunder,Resistant)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Energy Immunity
 new entry "MYSTIC_ENERGY_IMMUNITY_ACID"
@@ -1728,6 +1796,7 @@ data "DescriptionParams" "Acid"
 data "Icon" "GenericIcon_DamageType_Acid"
 data "StackId" "MYSTIC_ENERGY_IMMUNITY"
 data "Boosts" "Resistance(Acid,Immune)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "MYSTIC_ENERGY_IMMUNITY_COLD"
 type "StatusData"
@@ -1738,6 +1807,7 @@ data "DescriptionParams" "Cold"
 data "Icon" "GenericIcon_DamageType_Cold"
 data "StackId" "MYSTIC_ENERGY_IMMUNITY"
 data "Boosts" "Resistance(Cold,Immune)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "MYSTIC_ENERGY_IMMUNITY_FIRE"
 type "StatusData"
@@ -1748,6 +1818,7 @@ data "DescriptionParams" "Fire"
 data "Icon" "GenericIcon_DamageType_Fire"
 data "StackId" "MYSTIC_ENERGY_IMMUNITY"
 data "Boosts" "Resistance(Fire,Immune)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "MYSTIC_ENERGY_IMMUNITY_LIGHTNING"
 type "StatusData"
@@ -1758,6 +1829,7 @@ data "DescriptionParams" "Lightning"
 data "Icon" "GenericIcon_DamageType_Lightning"
 data "StackId" "MYSTIC_ENERGY_IMMUNITY"
 data "Boosts" "Resistance(Lightning,Immune)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "MYSTIC_ENERGY_IMMUNITY_THUNDER"
 type "StatusData"
@@ -1768,6 +1840,7 @@ data "DescriptionParams" "Thunder"
 data "Icon" "GenericIcon_DamageType_Thunder"
 data "StackId" "MYSTIC_ENERGY_IMMUNITY"
 data "Boosts" "Resistance(Thunder,Immune)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Bestial Transformation
 new entry "MYSTIC_BESTIAL_TRANSFORMATION_FLIGHT"
@@ -1778,6 +1851,7 @@ data "Description" "h41db3a00g23fcg498dg86f3g85cd5fa0fad1"
 data "Icon" "Action_Monster_GiantEagle_Fly"
 data "StackId" "MYSTIC_BESTIAL_TRANSFORMATION_FLIGHT"
 data "Boosts" "UnlockSpell(Projectile_Fly_Spell)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "MYSTIC_BESTIAL_TRANSFORMATION_KEEN_SENSES"
 type "StatusData"
@@ -1787,6 +1861,7 @@ data "Description" "he737334egb816g4efegb239gfe51ad5c880e"
 data "Icon" "Action_Ranger_RangersCompanion_Wolf"
 data "StackId" "MYSTIC_BESTIAL_TRANSFORMATIN_KEEN_SENSES"
 data "Boosts" "Advantage(Skill, Perception)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "MYSTIC_BESTIAL_TRANSFORMATION_PERFECT_SENSES"
 type "StatusData"
@@ -1796,6 +1871,7 @@ data "DisplayName" "h9afc0b62gb35ag4240gb907gf733152ee79b"
 data "Description" "h0c926aebg6df8g4d22g8893ga32aed670bc4"
 data "Icon" "Action_Monster_Panther_EnhancedJump"
 data "StackId" "MYSTIC_BESTIAL_TRANSFORMATION_PERFECT_SENSES"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "MYSTIC_BESTIAL_TRANSFORMATION_TOUGH_HIDE"
 type "StatusData"
@@ -1805,6 +1881,7 @@ data "Description" "hbbaca92egc196g4f08g9957gce2955684149"
 data "Icon" "Action_Ranger_RangersCompanion_Bear"
 data "StackId" "MYSTIC_BESTIAL_TRANSFORMATION_TOUGH_HIDE"
 data "Boosts" "AC(2)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Brute Strike
 new entry "MYSTIC_BRUTE_STRIKE_1"
@@ -1819,6 +1896,7 @@ data "TickType" "EndTurn"
 data "Boosts" "IF(IsMeleeAttack()):DamageBonus(1d6,MainMeleeWeaponDamageType)"
 data "RemoveConditions" "IsMeleeAttack() and (HasDamageEffectFlag(DamageFlags.Hit) or HasDamageEffectFlag(DamageFlags.Critical)) and not (IsCriticalMiss() or IsMiss())"
 data "RemoveEvents" "OnDamage"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "MYSTIC_BRUTE_STRIKE_2"
 type "StatusData"
@@ -1872,6 +1950,7 @@ data "TickType" "EndTurn"
 data "Icon" "PassiveFeature_KiEmpoweredStrikes"
 data "StackId" "MYSTIC_FEAT_OF_STRENGTH"
 data "Boosts" "Ability(Strength, 5)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Rapid Step
 new entry "MYSTIC_RAPID_STEP_1"
@@ -1883,6 +1962,7 @@ data "DescriptionParams" "Distance(3)"
 data "Icon" "Action_Monk_StepOfTheWind_Dash"
 data "StackId" "MYSTIC_RAPID_STEP"
 data "Boosts" "ActionResource(Movement,3,0)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "MYSTIC_RAPID_STEP_2"
 type "StatusData"
@@ -1929,6 +2009,7 @@ data "Description" "h24c3c76fge786g4e1egac8ag0fd1610db3db"
 data "Icon" "Action_Monk_PatientDefense"
 data "StackId" "MYSTIC_AGILE_DEFENSE"
 data "Boosts" "Advantage(SavingThrow,Dexterity);Disadvantage(AttackTarget)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Blur of Motion
 new entry "MYSTIC_BLUR_OF_MOTION"
@@ -2031,13 +2112,15 @@ data "RemoveEvents" "OnDamage"
 data "StatusGroups" "SG_RemoveOnRespec"
 
 // Iron Hide
-new entry "MYSTIC_IRON_HIDE"type "StatusData"
+new entry "MYSTIC_IRON_HIDE"
+type "StatusData"
 data "StatusType" "BOOST"
 data "DisplayName" "h3a5789efg2457g4ca8ga0f8gce3100d94894"
 data "Description" "hb70f2573g1af0g4071g9300g12f1d71e9c65"
 data "Icon" "PassiveFeature_HeavilyArmored"
 data "StackId" "MYSTIC_IRON_HIDE"
 data "Boosts" "AC(3)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Steel Hide
 new entry "MYSTIC_STEEL_HIDE"
@@ -2049,6 +2132,7 @@ data "Icon" "Spell_Transmutation_Barkskin"
 data "StackId" "MYSTIC_STEEL_HIDE"
 data "TickType" "EndTurn"
 data "Boosts" "Resistance(Bludgeoning, Resistant);Resistance(Piercing, Resistant);Resistance(Slashing, Resistant)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Iron Resistance
 new entry "MYSTIC_IRON_RESISTANCE_BLUDGEONING"
@@ -2059,18 +2143,21 @@ data "Description" "h962319fage2bbg468bg9774g7de335ee4be5"
 data "Icon" "GenericIcon_DamageType_Physical"
 data "StackId" "MYSTIC_IRON_RESISTANCE"
 data "Boosts" "Resistance(Bludgeoning, Resistant)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "MYSTIC_IRON_RESISTANCE_PIERCING"
 type "StatusData"
 using "MYSTIC_IRON_RESISTANCE_BLUDGEONING"
 data "Description" "h0dc0f8f5g2134g4eabga861gfb48a3f6fe93"
 data "Boosts" "Resistance(Piercing, Resistant)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "MYSTIC_IRON_RESISTANCE_SLASHING"
 type "StatusData"
 using "MYSTIC_IRON_RESISTANCE_BLUDGEONING"
 data "Description" "h738dd4bbgc214g4b3fg8c38g4d848acc8566"
 data "Boosts" "Resistance(Slashing, Resistant)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Ethereal Weapon
 new entry "MYSTIC_ETHEREAL_WEAPON"
@@ -2222,12 +2309,10 @@ type "StatusData"
 data "StatusType" "BOOST"
 data "DisplayName" "h574e8af9g5955g44e7g9784g45fa820d25a1"
 data "Description" "h50719c0eg4303g48dega765gc79a5b0bd0fa"
-// data "DescriptionParams" ""
 data "Icon" "Action_Steady_Ranged"
 data "StackId" "MYSTIC_FAITHFUL_ARCHER"
-// data "TickType" "StartTurn"
-// data "StatusPropertyFlags" "TickingWithSource"
 data "Boosts" "UnlockSpell(Projectile_Mystic_FaithfulQuiver)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Chameleon
 new entry "MYSTIC_CHAMELEON"
@@ -2235,14 +2320,10 @@ type "StatusData"
 data "StatusType" "BOOST"
 data "DisplayName" "h7fd9d711g8378g4a2bgb3a6g145c63badc55"
 data "Description" "hcfce4a6dgf820g4fffga302g0d0afc33a80f"
-// data "DescriptionParams" ""
 data "Icon" "Action_Warlock_OneWithShadows"
 data "StackId" "MYSTIC_CHAMELEON"
-// data "TickType" "StartTurn"
-// data "StatusPropertyFlags" "TickingWithSource"
 data "Boosts" "Skill(Stealth, 10)"
-
-
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Psychic Speech
 new entry "MYSTIC_PSYCHIC_SPEECH"
@@ -2253,6 +2334,7 @@ data "Description" "h621580adgff31g4c7dgba5bg0a4510cdf502"
 data "Icon" "Action_Singing"
 data "StackId" "MYSTIC_PSYCHIC_SPEECH"
 data "Boosts" "ExpertiseBonus(Athletics);ExpertiseBonus(Acrobatics);ExpertiseBonus(SleightOfHand);ExpertiseBonus(Stealth);ExpertiseBonus(Arcana);ExpertiseBonus(History);ExpertiseBonus(Investigation);ExpertiseBonus(Nature);ExpertiseBonus(Religion);ExpertiseBonus(AnimalHandling);ExpertiseBonus(Insight);ExpertiseBonus(Medicine);ExpertiseBonus(Perception);ExpertiseBonus(Survival);ExpertiseBonus(Deception);ExpertiseBonus(Intimidation);ExpertiseBonus(Performance);ExpertiseBonus(Persuasion);"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // new entry "MYSTIC_NOMADIC_ANCHOR"
 // ?????
@@ -2267,6 +2349,7 @@ data "TickType" "EndTurn"
 data "Icon" "Spell_Transmutation_Haste"
 data "StackId" "MYSTIC_THERE_AND_BACK_AGAIN"
 data "Boosts" "ActionResource(Movement,4.5,0);UnlockSpell(Target_Mystic_BackAgain)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Phantom Caravan
 new entry "MYSTIC_PHANTOM_CARAVAN"
@@ -2278,9 +2361,8 @@ data "TickType" "EndTurn"
 data "Icon" "Spell_Conjuration_DimensionDoor"
 data "StackId" "MYSTIC_PHANTOM_CARAVAN"
 data "Boosts" "UnlockSpell(Teleportation_Mystic_PhantomJourney)"
-// data "StatsFunctorContext" "OnMove"
-// data 
 data "RemoveEvents" "OnMove"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "MYSTIC_ARRIVED_AT_DESTINATION"
 type "StatusData"
@@ -2303,6 +2385,7 @@ data "StackId" "MYSTIC_TREMORSENSE"
 data "Boosts" "StatusImmunity(SURPRISED)"
 data "AuraRadius" "9"
 data "AuraStatuses" "TARGET:IF(Character() and Ally() and not Self()):ApplyStatus(MYSTIC_TREMORSENSE_BUFF)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "MYSTIC_TREMORSENSE_BUFF"
 type "StatusData"
@@ -2312,6 +2395,7 @@ data "Description" "hcce359fag52aeg488eg9e1ag27abe2a7ff8c"
 data "Icon" "Action_Monster_Bulette_Burrow"
 data "StackId" "MYSTIC_TREMORSENSE"
 data "Boosts" "StatusImmunity(SURPRISED)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Unwavering Eye
 new entry "MYSTIC_UNWAVERING_EYE"
@@ -2322,6 +2406,7 @@ data "Description" "he113895dgf352g4cbbgbe98g767e062c3c26"
 data "Icon" "PassiveFeature_ExpertDivination"
 data "StackId" "MYSTIC_UNWAVERING_EYE"
 data "Boosts" "Advantage(Ability, Wisdom)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Piercing Sight
 new entry "MYSTIC_PIERCING_SIGHT"
@@ -2332,6 +2417,7 @@ data "DisplayName" "h5d5be424g7e79g4895g9a14g1dea944a0f9a"
 data "Description" "h1da8bc4bga85fg4909gb052g0c504c8dae1f"
 data "Icon" "Action_Raven_BeakAttack"
 data "StackId" "MYSTIC_PIERCING_SIGHT"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Truesight
 new entry "MYSTIC_TRUESIGHT"
@@ -2357,10 +2443,10 @@ data "StatusEffect" "d8452a11-7c66-45fb-8ccb-64e2fa56ada5"
 new entry "MYSTIC_TRUESIGHT_BUFF"
 data "DisplayName" "h865be973gbb6eg4bfega6b5g65c8d6028af5"
 data "Description" "hfb5d9e3agf60dg4d03ga851gbd7c3aafd72d"
-// data "DescriptionParams" ""
 data "Icon" "Action_TransmuterStone_Darkvision"
 data "StackId" "MYSTIC_TRUESIGHT"
 data "Boosts" "Disadvantage(Skill, Stealth)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Cloak of Air
 new entry "MYSTIC_CLOAK_OF_AIR"
@@ -2372,8 +2458,8 @@ data "DescriptionParams" "DealDamage(1d6,Slashing)"
 data "Icon" "Spell_Transmutation_Blink"
 data "StackId" "MYSTIC_CLOAK_OF_AIR"
 data "Boosts" "Disadvantage(AttackTarget);"
-// UnlockInterrupt(Interrupt_Mystic_CloakOfAir)
 data "Passives" "Passive_Mystic_CloakOfAir"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Wind Form
 new entry "MYSTIC_WIND_FORM"
@@ -2384,6 +2470,7 @@ data "Description" "h880ccd03gf1e1g419cgbc2bg88c24dad10e8"
 data "Icon" "Spell_Transmutation_GaseousForm"
 data "StackId" "MYSTIC_WIND_FORM"
 data "Boosts" "UnlockSpell(Projectile_Fly_Spell)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Misty Form
 new entry "MYSTIC_MISTY_FORM"
@@ -2391,8 +2478,8 @@ type "StatusData"
 data "StatusType" "BOOST"
 using "GASEOUS_FORM"
 data "DisplayName" "h760a194eg204cg4506g8566g0bf5baac8959"
-// data "Description" "h880ccd03gf1e1g419cgbc2bg88c24dad10e8"
 data "Icon" "PassiveFeature_MistyEscape"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "MYSTIC_COMBUSTION"
 type "StatusData"
@@ -2400,6 +2487,7 @@ data "StatusType" "BOOST"
 using "BURNING"
 data "TickType" "EndTurn"
 data "OnApplyFunctors" ""
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Rolling Flame
 new entry "MYSTIC_ROLLING_FLAME"
@@ -2414,6 +2502,7 @@ data "StackId" "MYSTIC_ROLLING_FLAME"
 data "TickFunctors" "DealDamage(5,Fire,Magical)"
 data "TickType" "EndTurn"
 // data "OnApplyFunctors" "DealDamage(4d4,Slashing,Magical)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "MYSTIC_ROLLING_FLAME_AURA"
 type "StatusData"
@@ -2429,6 +2518,7 @@ data "AuraRadius" "6"
 data "AuraStatuses" "ApplyStatus(MYSTIC_ROLLING_FLAME,100,1)"
 data "StatusPropertyFlags" "InitiateCombat;BringIntoCombat"
 data "StatusEffect" "76d8dddf-6ab9-4ee0-a130-601e981081fc"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Fire Form
 new entry "MYSTIC_FIRE_FORM"
@@ -2441,6 +2531,7 @@ data "Icon" "Spell_Conjuration_ConjureMinorElementals"
 data "StackId" "MYSTIC_FIRE_FORM"
 data "AuraRadius" "3"
 data "AuraStatuses" "TARGET:IF(not Self()):ApplyStatus(MYSTIC_FIRE_FORM_AURA)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "MYSTIC_FIRE_FORM_AURA"
 type "StatusData"
@@ -2452,6 +2543,7 @@ data "Icon" "Spell_Conjuration_ConjureMinorElementals"
 data "StackId" "MYSTIC_FIRE_FORM_AURA"
 data "TickType" "EndTurn"
 data "TickFunctors" "DealDamage(3d6,Fire,Magical)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Telekinetic Barrier
 new entry "MYSTIC_TELEKINETICBARRIER"
@@ -2465,44 +2557,19 @@ data "SoundStop" "Spell_End_Loop_Damage_WallOfFire_L4to5"
 data "StackId" "MYSTIC_TELEKINETICBARRIER"
 data "StackPriority" "1"
 data "AuraRadius" "3"
-// data "AuraStatuses" "IF(not Dead() and not (HasPassive('SculptSpells', context.Source) and Ally())):ApplyStatus(MYSTIC_WALLOFREPULSION_AURA,100,1)"
 data "AuraStatuses" "ApplyStatus(DIFFICULT_TERRAIN)"
-// data "TooltipSave" "Wisdom"
-// data "TooltipDamage" "DealDamage(5d8,Fire)"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;InitiateCombat;BringIntoCombat"
 data "StatusEffect" "9fa7b901-439a-4425-ae92-b027775cf5af"
-
-// new entry "MYSTIC_TELEKINETICBARRIER_AURA"
-// type "StatusData"
-// data "StatusType" "BOOST"
-// data "DisplayName" ""
-// data "Description" ""
-// // data "DescriptionParams" "Distance(3);DealDamage(5d8,Fire)"
-// data "Icon" "Spell_WallOfThorns"
-// data "StackId" "MYSTIC_WALLOFREPULSION"
-// data "StackPriority" "0"
-// // data "TickType" "EndTurn"
-// // data "TooltipDamage" "DealDamage(5d8,Fire)"
-// data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog"
-// data "OnApplyRoll" "WallOfFireCheck(Ability.Wisdom,SourceSpellDC(10,GetSummoner(context.Source)))"
-// data "OnApplySuccess" "IF(not HasStatus('MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED')):ApplyStatus(MYSTIC_REPULSED_EFFECT,100,1);IF(not HasStatus('MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED')):ApplyStatus(MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED,100,2)"
-// // data "OnApplyFail" "IF(not HasStatus('MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED')):DealDamage(5d8/2,Fire,Magical);IF(not HasStatus('MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED',context.Target)):ApplyStatus(MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED,100,1)"
-// // data "OnApplyFail" "ApplyStatus(MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED,100,2);ApplyStatus(MYSTIC_REPULSEDNT,100,1)"
-// data "OnApplyFail" "ApplyStatus(MYSTIC_WALLOFREPULSION_EFFECT_RECEIVED,100,2)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Inertial Armor
 new entry "MYSTIC_INERTIAL_ARMOR"
-// might make this mutually exclusive with mage armor
 type "StatusData"
 data "StatusType" "BOOST"
 data "DisplayName" "hce650e61g9431g4558gbb97gdbc2f4fa1c65"
 data "Description" "h2cbb948dgde72g449eg9bb0gf34d81b458b9"
 data "DescriptionParams" ""
 data "Icon" "Spell_Abjuration_MageArmor"
-// data "StackId" "MYSTIC_INERTIAL_ARMOR"
-// data "TickType" "StartTurn"
-// data "StatusPropertyFlags" "TickingWithSource"
-// data "Boosts" ""
 data "SoundStop" "Spell_Status_MageArmor_MO_Stop"
 data "StackId" "MAGE_ARMOR"
 data "Boosts" "ACOverrideFormula(14,true,Dexterity)"
@@ -2511,7 +2578,6 @@ data "RemoveEvents" "OnEquip;OnTurn"
 data "OnApplyFunctors" "AI_ONLY:IF(not HasStatus('MAGE_ARMOR')):ApplyStatus(AI_HELPER_MAGEARMOR,100,4)"
 data "StatusGroups" "SG_RemoveOnRespec"
 data "StatusEffect" "b605de22-7474-4f7b-9eeb-287ef6a94dce"
-
 
 // Grasp
 new entry "MYSTIC_GRASP"
@@ -2523,6 +2589,7 @@ data "DescriptionParams" ""
 data "Icon" "Action_Imp_Claws"
 data "StackId" "MYSTIC_GRASP"
 data "Boosts" "UnlockSpell(Target_Mystic_Crush)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "MYSTIC_GRASPED"
 type "StatusData"
@@ -2533,6 +2600,7 @@ data "DescriptionParams" ""
 data "Icon" "Action_Imp_Claws"
 data "StackId" "MYSTIC_GRASPED"
 data "Boosts" "ActionResourceConsumeMultiplier(Movement, 2,0);"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Ice Spike
 new entry "MYSTIC_ICE_SPIKE"
@@ -2560,6 +2628,7 @@ data "StackPriority" "20"
 data "Boosts" "TemporaryHP(20)"
 data "RemoveConditions" "not HasTemporaryHP()"
 data "RemoveEvents" "OnDamage"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Frozen Rain
 new entry "MYSTIC_FROZEN_RAIN"
@@ -2579,6 +2648,7 @@ data "RemoveEvents" "OnTurn"
 data "TooltipSave" "Strength"
 data "OnTickRoll" "SavingThrow(Ability.Strength, CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source)))"
 data "OnTickSuccess" "RemoveStatus(MYSTIC_FROZEN_RAIN)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Light
 new entry "MYSTIC_LIGHT"
@@ -2605,6 +2675,7 @@ data "RemoveEvents" "OnTurn"
 data "TooltipSave" "Dexterity"
 data "OnTickRoll" "SavingThrow(Ability.Dexterity, CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source)))"
 data "OnTickSuccess" "RemoveStatus(MYSTIC_RADIANT_BEAM)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Water Sphere
 new entry "MYSTIC_WATER_SPHERE"
@@ -2658,11 +2729,9 @@ data "TickType" "StartTurn"
 data "TooltipDamage" "DealDamage(6d6,Thunder)"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog"
 data "Boosts" "ActionResourceConsumeMultiplier(Movement, 2,0);MovementSpeedLimit(Walk)"
-
 data "OnApplyRoll" "WallOfFireCheck(Ability.Strength,SourceSpellDC(10,GetSummoner(context.Source)))"
 data "OnApplySuccess" "IF(not HasStatus('MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED')):DealDamage(6d6,Thunder,Magical);  IF(not HasStatus('MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED')):ApplyStatus(MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED,100,1);IF(not HasStatus('MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED')):Force(3)"
 data "OnApplyFail"    "IF(not HasStatus('MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED')):DealDamage(6d6/2,Thunder,Magical);IF(not HasStatus('MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED',context.Target)):ApplyStatus(MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED,100,1)"
-
 data "OnTickRoll" "WallOfFireCheck(Ability.Strength,SourceSpellDC(10,GetSummoner(context.Source)))"
 data "OnTickSuccess"  "IF(not HasStatus('MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED')):DealDamage(6d6,Thunder,Magical);  IF(not HasStatus('MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED')):ApplyStatus(MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED,100,1);IF(not HasStatus('MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED')):Force(3)"
 data "OnTickFail"     "IF(not HasStatus('MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED')):DealDamage(6d6/2,Thunder,Magical);IF(not HasStatus('MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED',context.Target)):ApplyStatus(MYSTIC_WALLOFTHUNDER_DAMAGE_RECEIVED,100,1)"
@@ -2693,12 +2762,12 @@ type "StatusData"
 data "StatusType" "BOOST"
 data "DisplayName" "h8f07e60bgc7ccg4e05gb730g0070236bd61f"
 data "Description" "h258664cage7a3g425fg96c4gd5b76a487c25"
-// data "DescriptionParams" ""
 data "Icon" "Spell_Abjuration_Stoneskin"
 data "StackId" "MYSTIC_ARMORED_FORM"
 // data "TickType" "StartTurn"
 // data "StatusPropertyFlags" "TickingWithSource"
 data "Boosts" "Resistance(Bludgeoning, Resistant);Resistance(Piercing, Resistant);Resistance(Slashing, Resistant)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Class Features
 
@@ -2724,6 +2793,7 @@ data "Icon" "Action_KnowledgeOfTheAges"
 data "StackId" "MYSTIC_STRENGTH_OF_MIND"
 data "Passives" "Passive_Mystic_StrengthOfMind_Strength"
 data "StatusPropertyFlags" "IgnoreResting"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "MYSTIC_STRENGTH_OF_MIND_DEX"
 type "StatusData"
@@ -2734,6 +2804,7 @@ data "Icon" "Action_KnowledgeOfTheAges"
 data "StackId" "MYSTIC_STRENGTH_OF_MIND"
 data "Passives" "Passive_Mystic_StrengthOfMind_Dexterity"
 data "StatusPropertyFlags" "IgnoreResting"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "MYSTIC_STRENGTH_OF_MIND_CON"
 type "StatusData"
@@ -2744,6 +2815,7 @@ data "Icon" "Action_KnowledgeOfTheAges"
 data "StackId" "MYSTIC_STRENGTH_OF_MIND"
 data "Passives" "Passive_Mystic_StrengthOfMind_Constitution"
 data "StatusPropertyFlags" "IgnoreResting"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "MYSTIC_STRENGTH_OF_MIND_INT"
 type "StatusData"
@@ -2754,6 +2826,7 @@ data "Icon" "Action_KnowledgeOfTheAges"
 data "StackId" "MYSTIC_STRENGTH_OF_MIND"
 data "Passives" "Passive_Mystic_StrengthOfMind_Intelligence"
 data "StatusPropertyFlags" "IgnoreResting"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "MYSTIC_STRENGTH_OF_MIND_WIS"
 type "StatusData"
@@ -2764,6 +2837,7 @@ data "Icon" "Action_KnowledgeOfTheAges"
 data "StackId" "MYSTIC_STRENGTH_OF_MIND"
 data "Passives" "Passive_Mystic_StrengthOfMind_Wisdom"
 data "StatusPropertyFlags" "IgnoreResting"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "MYSTIC_STRENGTH_OF_MIND_CHA"
 type "StatusData"
@@ -2774,6 +2848,7 @@ data "Icon" "Action_KnowledgeOfTheAges"
 data "StackId" "MYSTIC_STRENGTH_OF_MIND"
 data "Passives" "Passive_Mystic_StrengthOfMind_Charisma"
 data "StatusPropertyFlags" "IgnoreResting"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Consumptive Power
 new entry "MYSTIC_CONSUMPTIVE_POWER"
@@ -2785,6 +2860,7 @@ data "DescriptionParams" "14"
 data "Icon" "Spell_Evocation_Shatter"
 data "StackId" "MYSTIC_CONSUMPTIVE_POWER"
 data "Boosts" "IncreaseMaxHP(-14)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Subclass Features
 
@@ -2800,6 +2876,7 @@ data "Boosts" "Initiative(2)"
 data "StatusPropertyFlags" "IgnoreResting"
 data "AuraRadius" "9"
 data "AuraStatuses" "TARGET:IF(Character() and Ally() and not Self()):ApplyStatus(MYSTIC_AVATAR_OF_BATTLE_BUFF)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "MYSTIC_AVATAR_OF_BATTLE_BUFF"
 type "StatusData"
@@ -2810,6 +2887,7 @@ data "Icon" "Action_Paladin_InquisitorsMight"
 data "StackId" "MYSTIC_AVATAR_OF_BATTLE_BUFF"
 data "Boosts" "Initiative(2)"
 data "StatusPropertyFlags" "IgnoreResting"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Avatar of Healing
 new entry "MYSTIC_AVATAR_OF_HEALING"
@@ -2823,6 +2901,7 @@ data "Passives" "Passive_Mystic_AvatarOfHealing"
 data "StatusPropertyFlags" "IgnoreResting"
 data "AuraRadius" "9"
 data "AuraStatuses" "TARGET:IF(Character() and Ally() and not Self()):ApplyStatus(MYSTIC_AVATAR_OF_HEALING_BUFF)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "MYSTIC_AVATAR_OF_HEALING_BUFF"
 type "StatusData"
@@ -2833,6 +2912,7 @@ data "Icon" "Action_Paladin_HealingRadiance"
 data "StackId" "MYSTIC_AVATAR_OF_HEALING_BUFF"
 data "Passives" "Passive_Mystic_AvatarOfHealing"
 data "StatusPropertyFlags" "IgnoreResting"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Psionic Investigation
 new entry "MYSTIC_PSIONIC_INVESTIGATION"
@@ -2843,6 +2923,7 @@ data "Description" "hfd3b8cf9gcc4eg4acfgb1f7g7790973b80ae"
 data "Icon" "PassiveFeature_ArcaneWard"
 data "StackId" "MYSTIC_AVATAR_OF_HEALING_BUFF"
 data "Boosts" "Advantage(Skill, Investigation);Advantage(Skill, Insight);Advantage(Skill, History)"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Psionic Resilience
 new entry "MYSTIC_PSIONIC_RESILIENCE"
@@ -2857,6 +2938,7 @@ data "StackPriority" "IntelligenceModifier"
 data "Boosts" "TemporaryHP(IntelligenceModifier)"
 data "RemoveConditions" "not HasTemporaryHP()"
 data "RemoveEvents" "OnDamage"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Memory of One Thousand Steps
 new entry "MYSTIC_MEMORY_OF_ONE_THOUSAND_STEPS"
@@ -2869,6 +2951,7 @@ data "Icon" "Spell_Divination_ExpeditiousRetreat"
 data "StackId" "MYSTIC_MEMORY_OF_ONE_THOUSAND_STEPS"
 data "Boosts" "UnlockSpell(Target_Mystic_MemoryOfOneThousandSteps)"
 data "TickType" "EndTurn"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // Hone the Blade
 new entry "MYSTIC_HONE_THE_BLADE_1"
@@ -3009,16 +3092,3 @@ data "Boosts" "IgnoreResistance(Thunder,Resistant)"
 // *Avatar of Speed
 // Soul Parry (Soul Knife Parry - AC Buff)
 // *Elemental Mastery
-// - Bludgeoning
-// - Piercing
-// - Slashing
-// - Acid
-// - Cold
-// - Fire
-// - Force
-// - Lightning
-// - Necrotic
-// - Poison
-// - Psychic
-// - Radiant
-// - Thunder
