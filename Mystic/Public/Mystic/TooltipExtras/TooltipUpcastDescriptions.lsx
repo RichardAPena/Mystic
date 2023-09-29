@@ -9,7 +9,11 @@
                     <attribute id="Text" type="TranslatedString" handle="h27717c53g925ag4422g990dg46f6ca77105d" version="3"/>
                     <attribute id="UUID" type="guid" value="8e6a2e70-1cc6-4046-b0cc-bc5670bef4bd"/>
                 </node>
-                
+                <node id="TooltipUpcastDescriptions">
+                    <attribute id="Name" type="FixedString" value="More damage, Larger distance"/>
+                    <attribute id="Text" type="TranslatedString" handle="h40a2d4caga1f5g4f1ega800g09de58581389" version="3"/>
+                    <attribute id="UUID" type="guid" value="b89f8966-6a11-410a-855d-40ab989b20a7"/>
+                </node>                
             </children>
         </node>
     </region>

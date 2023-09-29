@@ -665,7 +665,7 @@
 	<content contentuid="h3a3f0db7g14a3g4655ga986g1635f41bc6fa" version="1">As a reaction, when you are about to be hit by an attack, you can increase your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by 4, possibly causing the attack to miss, as well as gaining the effects of Disengage.</content>
 	<content contentuid="h1783bf72g5aacg459dgb9a3gace3af6f3807" version="1">There and Back Again</content>
 	<content contentuid="h7c166e11gf8a2g40eagb30bg000b31c2e911" version="1">Teleport up to [1]. Until the end of your turn, your movement speed increases by [1] and you can cast Back Again.</content>
-	<content contentuid="hb987f909gc923g4733ga4b4g8b18b4513ec4" version="1">Movement speed increases by [1]. Able to cast Back Again.</content>
+	<content contentuid="hb987f909gc923g4733ga4b4g8b18b4513ec4" version="1">Movement speed increased by [1]. Able to cast Back Again.</content>
 	<content contentuid="h152b7208ga0dfg46adg90cbg5d2fbeba4c4e" version="1">Back Again</content>
 	<content contentuid="hadf23575gdfa5g44ddg92d0gd6460413f88e" version="1">Teleport up to [1].</content>
 	<content contentuid="h7506c6d4g1fc3g431aga858gd2d916d6f513" version="1">Transposition</content>
@@ -756,7 +756,13 @@
 	<content contentuid="hc63a4658g2949g40b9g814ag32af6287739f" version="1">Touch a creature, causing it to shed a bright light. &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against it will have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; and it won't be able to hide.</content>
 	<content contentuid="hae3300acgd414g47d9g9a97gb47f02ef7803" version="1">&lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against this creature have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. Can't hide.</content>
 	<content contentuid="h245fbcc4g9e03g4a53g96b0g301999f5064e" version="1">Shadow Beasts</content>
-	<content contentuid="h9693ee45gcbf1g48aagaacdg210b5a95ceb0" version="1">Summon a pair of shadow beasts.</content>
+	<content contentuid="h9693ee45gcbf1g48aagaacdg210b5a95ceb0" version="1">Summon a pair of shadow beasts to fight at your side. They are able to see &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; creatures.</content>
+	<content contentuid="hb0b2bb3cgdb39g446bgac4ag2d889ecfa5b4" version="1">Commanding a pair of shadow beasts.</content>
+	<content contentuid="h609efd4eg3c4cg4a2dg8ac8gbc6508cad339" version="1">Shadow Beast</content>
+	<content contentuid="hab949a81g6b62g4725gb9fegb489cd72b0ba" version="1">Shadow Bite</content>
+	<content contentuid="h304b3c55gfdfag4e7bgbc3agc4f8bc9b7b5f" version="1">Bite the target.</content>
+	<content contentuid="h301013ceg3b82g472bga9c3g0ca6d500c4b1" version="1">Shadow Sight</content>
+	<content contentuid="h40d33cc3gbac1g4b59ga0dfg4ca0c1180673" version="1">Able to see &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; creatures.</content>
 	<content contentuid="h715c4038gb88bg4c46gbec2g0d5c201ee518" version="1">Radiant Beam</content>
 	<content contentuid="hbf895ed3g83eeg40cfg9d54ga2bda01397a8" version="1">Project a beam of light, Blinding the target.</content>
 	<content contentuid="hf302a4a4g69cag42b0ga2fcgf5ba3647f346" version="1">Desiccate</content>
@@ -916,6 +922,7 @@
 	<content contentuid="h395f3de4g7337g4046g95b2gac5963ebbb35" version="1">Create Spell Slot: Level 5</content>	
 	<content contentuid="h8811fab1g5c9dg4c03ga4b1g8a4aead193fd" version="1">Spend [1] Psi Points to unlock a level [2] &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt;.</content>
 	<content contentuid="h27717c53g925ag4422g990dg46f6ca77105d" version="1">Increases distance by an additional [1] per level.</content>
+	<content contentuid="h40a2d4caga1f5g4f1ega800g09de58581389" version="1">Deals an additional [1] damage and increases distance by an additional [2] per level.</content>
 
 	<content contentuid="" version="1"> </content>
 	<content contentuid="" version="1"> </content>
