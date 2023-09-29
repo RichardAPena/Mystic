@@ -364,7 +364,6 @@
 	<content contentuid="h97579b00g4679g44f5gbfa6gd8a740be025c" version="1">Incite Courage</content>
 	<content contentuid="h89287d81gc263g462fgad79gb530dfb6fdc9" version="1">Bestow courage to up to six creatures, removing any &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charmed&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="FEARED"&gt;Fear&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="SLEEP"&gt;Sleep&lt;/LSTag&gt; conditions.</content>
 	<content contentuid="h57e5f748gb553g43adgac10gb5b6bfbd6fd5" version="1">Aura of Victory</content>
-	<content contentuid="h27717c53g925ag4422g990dg46f6ca77105d" version="1">Grants an additional [1] temporary hit points per level.</content>
 	<content contentuid="h039be837g8748g436fgaa7dg1bbff4f743d2" version="1">Project an aura that grants you and your allies [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; whenever a nearby enemy is reduced to 0 hit points.</content>
 	<content contentuid="h51ed9e73g868fg4439g9026geca810651929" version="1">Gains &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; whenever a nearby enemy creature is reduced to 0 hit points.</content>
 	<content contentuid="h98195dedg0cdeg45b5gaf3ag2998fcf5e4ed" version="1">Triumphant</content>
@@ -526,6 +525,8 @@
 	<content contentuid="h38f7b167g698eg479cgbf25g7ab2e0a735f8" version="1">Manifest sharp claws and swipe at the target.</content>
 	<content contentuid="hc4296d32g3725g41fegb775g60d9cbbdefbd" version="1">Bestial Transformation</content>
 	<content contentuid="hd209e5f1g4385g4512g8dcbgdf6e4cc1fc8a" version="1">Alter your physical form and gain beast-like qualities.</content>
+	<content contentuid="hf4c955eag45bdg48f2g994cg90c10f420c51" version="1">You can choose from the following bonuses: Ability to Fly, &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Perception &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;, ability to see &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; creatures and increasing your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by 2.</content>
+	
 	<content contentuid="h58b0a047g5647g4d3dg87fbgb042040d00ad" version="1">Bestial Transformation: Flight</content>
 	<content contentuid="h2364d86dgcd75g455agbf20ge9ab5f86fff5" version="1">Manifest wings, gaining the ability to Fly.</content>
 	<content contentuid="h41db3a00g23fcg498dg86f3g85cd5fa0fad1" version="1">Able to fly.</content>
@@ -533,8 +534,8 @@
 	<content contentuid="h1b15d8b3gef38g4855ga2c3g482891599848" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Perception &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="he737334egb816g4efegb239gfe51ad5c880e" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Perception &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="h9afc0b62gb35ag4240gb907gf733152ee79b" version="1">Bestial Transformation: Perfect Senses</content>
-	<content contentuid="ha0ae7d81g60c0g4bdag89cbg96ea37133fdd" version="1">Gain the ability to see Invisible creatures.</content>
-	<content contentuid="h0c926aebg6df8g4d22g8893ga32aed670bc4" version="1">Able to see Invisible creatures.</content>
+	<content contentuid="ha0ae7d81g60c0g4bdag89cbg96ea37133fdd" version="1">Gain the ability to see &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; creatures.</content>
+	<content contentuid="h0c926aebg6df8g4d22g8893ga32aed670bc4" version="1">Able to see &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; creatures.</content>
 	<content contentuid="h4c88af96g0d6fg4b41ga12fg186e26fa1ba5" version="1">Bestial Transformation: Tough Hide</content>
 	<content contentuid="h573c7d8bg75c8g4630ga467g32bece7da1f3" version="1">Your skin becomes as tough as leather, increasing your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by 2.</content>
 	<content contentuid="hbbaca92egc196g4f08g9957gce2955684149" version="1">&lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; increased by 2.</content>
@@ -614,7 +615,7 @@
 	<content contentuid="hdede492cgcb3cg41ffg9bedg890837af15d2" version="1">Restore Vigor</content>
 	<content contentuid="h40aaeb23g4840g4f7dg93bega45dafa156e2" version="1">Touch a creature and negate any &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charm&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="PETRIFIED"&gt;Petrification&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stun&lt;/LSTag&gt;, or curse afflicting it.</content>
 	<content contentuid="h46383e61g4143g47a9gac5bg5f2170515105" version="1">Ethereal Weapon</content>
-	<content contentuid="he3932f8cgb0afg46d2g8ceag5cccffe16148" version="1">Transform your weapons into pure psionic energy. Your next attack becomes a Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; instead of an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, dealing half damage on a sucessful save.</content>
+	<content contentuid="he3932f8cgb0afg46d2g8ceag5cccffe16148" version="1">Transform your weapons into pure psionic energy. Your next weapon attack becomes a Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; instead of an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, dealing half damage on a sucessful save.</content>
 	<content contentuid="h1bddf10bg85aeg4891gae66g13c4bfd86fb4" version="1">Weapon &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; become Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; instead, dealing half damage on save.</content>
 	<content contentuid="hc5a2a389g7dbdg4bf7ga663gd4b1b9a0269a" version="1">Lethal Strike</content>
 	<content contentuid="h51aa6b39ge4c4g4802g98e7g7495bd716562" version="1">Imbue your weapons with psychic energy. Your next weapon attack will deal an additional [1] damage.</content>
@@ -687,11 +688,11 @@
 	<content contentuid="hfccb78e6g43b5g4d34ga094g42573397b535" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Wisdom &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="he113895dgf352g4cbbgbe98g767e062c3c26" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Wisdom &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="h5d5be424g7e79g4895g9a14g1dea944a0f9a" version="1">Piercing Sight</content>
-	<content contentuid="h202ed5c3g8758g4a38g9e52g18c87f9d8e1d" version="1">Become able to see Invisible creatures, and possibly reveal them to others.</content>
-	<content contentuid="h1da8bc4bga85fg4909gb052g0c504c8dae1f" version="1">Able to see Invisible creatures.</content>
+	<content contentuid="h202ed5c3g8758g4a38g9e52g18c87f9d8e1d" version="1">Become able to see &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; creatures, and possibly reveal them to others.</content>
+	<content contentuid="h1da8bc4bga85fg4909gb052g0c504c8dae1f" version="1">Able to see &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; creatures.</content>
 	<content contentuid="h865be973gbb6eg4bfega6b5g65c8d6028af5" version="1">Truesight</content>
-	<content contentuid="hbefd9ceegfbddg450egbdf2g7d3cbcdd5650" version="1">Gain True Sight, gaining the ability to see past magical and non-magical darkness, see Invisible creatures and imposing &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on Stealth &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt; to non-allied creatures.</content>
-	<content contentuid="h254a3983g962dg411fg8ba5g2facc2f350f5" version="1"></content>
+	<content contentuid="hbefd9ceegfbddg450egbdf2g7d3cbcdd5650" version="1">Gain True Sight, gaining the ability to see past magical and non-magical darkness, see &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; creatures and imposing &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on Stealth &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt; to non-allied creatures.</content>
+	<content contentuid="h254a3983g962dg411fg8ba5g2facc2f350f5" version="1">Able to see past magical and non-magical darkness. Able to see &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; creatures. Nearby non-allied creatures have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on Stealth &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="hfb5d9e3agf60dg4d03ga851gbd7c3aafd72d" version="1">&lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on Stealth &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="h1ae376b6g097eg48ecg8f2agab9cfeea71a5" version="1">Wind Step</content>
 	<content contentuid="h9539428dg538ag4b07g925ag77cbb20cc1c5" version="1">Fly up to [1] in a gust of wind.</content>
@@ -914,6 +915,8 @@
 	<content contentuid="h489a4028g39b0g4b25g88b1g5fb669da9989" version="1">Create Spell Slot: Level 4</content>
 	<content contentuid="h395f3de4g7337g4046g95b2gac5963ebbb35" version="1">Create Spell Slot: Level 5</content>	
 	<content contentuid="h8811fab1g5c9dg4c03ga4b1g8a4aead193fd" version="1">Spend [1] Psi Points to unlock a level [2] &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt;.</content>
+	<content contentuid="h27717c53g925ag4422g990dg46f6ca77105d" version="1">Increases distance by an additional [1] per level.</content>
+
 	<content contentuid="" version="1"> </content>
 	<content contentuid="" version="1"> </content>
 	<content contentuid="" version="1"> </content>

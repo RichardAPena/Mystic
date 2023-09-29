@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="319"/>
+    <region id="TooltipUpcastDescriptions">
+        <node id="root">
+            <children>
+                <node id="TooltipUpcastDescriptions">
+                    <attribute id="Name" type="FixedString" value="Larger distance"/>
+                    <attribute id="Text" type="TranslatedString" handle="h27717c53g925ag4422g990dg46f6ca77105d" version="3"/>
+                    <attribute id="UUID" type="guid" value="8e6a2e70-1cc6-4046-b0cc-bc5670bef4bd"/>
+                </node>
+                
+            </children>
+        </node>
+    </region>
+</save>

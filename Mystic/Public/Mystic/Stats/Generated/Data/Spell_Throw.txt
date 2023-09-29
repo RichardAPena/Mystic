@@ -9,7 +9,7 @@ data "DisplayName" "h306c254cg48bcg46feg984agabe87c3bf315"
 data "Description" "he3754524g8719g427cgba62g073a2634a38d"
 data "DescriptionParams" ""
 
-data "TargetRadius" "9"
+data "TargetRadius" "18"
 data "AreaRadius" ""
 data "ThrowOrigin" "Target"
 data "TargetConditions" "not Character()"
