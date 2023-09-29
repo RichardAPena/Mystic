@@ -785,7 +785,7 @@
 	<content contentuid="hd4d177ffg93beg48a1gac30g6cf4dde24fa4" version="1">Lightning Leap</content>
 	<content contentuid="ha7e0bbf8g5d10g4a3bg93d4ged95c225fe28" version="1">Surge forward with a flash of lightning, shocking everything along your path.</content>
 	<content contentuid="h0fdf4a1eg519cg46bcg8735g75b7d7dcc113" version="1">Wall of Thunder</content>
-	<content contentuid="hf2400914g9a65g461cga04bgb38b576426fc" version="1">Create a wall of raging thunderclouds. Creatures moving through the clouds have their movement speed halved. The clouds damage and repel enemies that try to enter or remain inside.</content>
+	<content contentuid="hf2400914g9a65g461cga04bgb38b576426fc" version="1">Create a wall of raging thunderclouds. Creatures moving through the clouds have their movement speed halved. The clouds damage any creature that try to enter or remain inside.</content>
 	<content contentuid="hf7d682f4gd5e3g4375gb91eg48a5f9bd7c5d" version="1">Thunder Clap</content>
 	<content contentuid="h05a08ff8g34c6g4c6dga0e0gd05003430d4d" version="1">Thunderous energy erupts in a targeted area, &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stunning&lt;/LSTag&gt; creatures inside.</content>
 	<content contentuid="hfd6106d9g3b27g40cdg9600gb68249c8af8d" version="1">Animate Weapon</content>
