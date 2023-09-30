@@ -28,13 +28,13 @@
 					<children>
 						<node id="Tags">
 							<children>
-								<node id="Tag"> TODO: I dont think we need this?
+								<node id="Tag">
 									<attribute id="Object" type="guid" value="abadcad5-9229-4999-7a8c-55cdf27f5cc9"/> 
 								</node>
 							</children>
 						</node>
 						<node id="Bounds">
-							<children> TODO: uuhh???
+							<children>
 								<node id="Bound">
 									<attribute id="Type" type="uint8" value="1"/>
 									<attribute id="Shape" type="uint8" value="1"/>

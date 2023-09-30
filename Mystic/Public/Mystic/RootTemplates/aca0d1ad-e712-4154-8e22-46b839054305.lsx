@@ -8,7 +8,7 @@
 					<attribute id="MapKey" type="FixedString" value="aca0d1ad-e712-4154-8e22-46b839054305"/>
 					<attribute id="Name" type="LSString" value="WPN_Mystic_SoulKnife_SoulKnife_Left"/>
 					<attribute id="Stats" type="FixedString" value="WPN_Mystic_SoulKnife_SoulKnife_Left"/>
-					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Dagger_Orin_A_Netherstone_A"/> TODO: Icon
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Dagger_Orin_A_Netherstone_A"/>
 					<attribute id="VisualTemplate" type="FixedString" value="f67bf9d2-2bd7-4d3f-5723-6e41f8e0ee3f"/>
 					<attribute id="LevelName" type="FixedString" value=""/>
 					<attribute id="Type" type="FixedString" value="item"/>
@@ -28,13 +28,13 @@
 					<children>
 						<node id="Tags">
 							<children>
-								<node id="Tag"> TODO: I dont think we need this?
+								<node id="Tag">
 									<attribute id="Object" type="guid" value="abadcad5-9229-4999-7a8c-55cdf27f5cc9"/> 
 								</node>
 							</children>
 						</node>
 						<node id="Bounds">
-							<children> TODO: uuhh???
+							<children>
 								<node id="Bound">
 									<attribute id="Type" type="uint8" value="1"/>
 									<attribute id="Shape" type="uint8" value="1"/>
