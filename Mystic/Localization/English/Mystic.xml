@@ -548,8 +548,8 @@
 	<content contentuid="h1598778aga893g4fb9g8c9bg9f3b911368d9" version="1">Mighty Leap</content>
 	<content contentuid="h3e1bda4bg49cbg4f46g99fbg1b09c977a6c4" version="1">Propel yourself with psionic energy, jumping up to [1].</content>
 	<content contentuid="h20014ac4g9feeg4775ga235gf9e70dd67cad" version="1">Feat of Strength</content>
-	<content contentuid="hc368b59cge415g42edgbe39geeff76042387" version="1">Augment your own physical ability, gaining a +5 bonus to Strength &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt; until the end of your next turn.</content>
-	<content contentuid="h9a1b3edbg95a8g46f7g885bg002faf873cd4" version="1">+5 to Strength &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="hc368b59cge415g42edgbe39geeff76042387" version="1">Augment your own physical ability, gaining a +[1] bonus to Strength &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt; until the end of your next turn.</content>
+	<content contentuid="h9a1b3edbg95a8g46f7g885bg002faf873cd4" version="1">+[1] to Strength &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="he2dc5c7ag3db0g49ffg9fdfg1c5c723828ea" version="1">Rapid Step</content>
 	<content contentuid="h93834a62gf596g4d23gb77eg75b87e6da5ef" version="1">Quicken your steps, increase your movement speed by [1].</content>
 	<content contentuid="hb49b15c7g6a51g4d26gb8deg7f62cf87868b" version="1">Movement speed increased by [1].</content>
@@ -727,7 +727,7 @@
 	<content contentuid="h13b67091gc5b9g45a6g8daag1c23f5d24516" version="1">Move</content>
 	<content contentuid="h64b9f99cg200bg4085g96c7gd94c9160f410" version="1">Unleash concentrated burst of energy in a small area, pushing enemies [1] away from its epicenter.</content>
 	<content contentuid="hce650e61g9431g4558gbb97gdbc2f4fa1c65" version="1">Inertial Armour</content>
-	<content contentuid="h3e3a7ea6gc38ag4f3aga618g28da59a408ec" version="1">Encase yourself in a veil of pure kinetic energy, increasing your base &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; to 14.</content>
+	<content contentuid="h3e3a7ea6gc38ag4f3aga618g28da59a408ec" version="1">Encase yourself in a veil of pure kinetic energy, increasing your base &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; to 14 while not wearing armour.</content>
 	<content contentuid="h2cbb948dgde72g449eg9bb0gf34d81b458b9" version="1">Base &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; increased to 14.</content>
 	<content contentuid="hb7cb3735g1907g4d50g9462g3ce0acc8c7af" version="1">Telekinetic Barrier</content>
 	<content contentuid="h4239b128g398eg4700g86edgb1499e0d2496" version="1">Manifest a wall of pressurized force. Creatures within will be in &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;.</content>

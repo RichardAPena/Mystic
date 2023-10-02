@@ -419,6 +419,19 @@ data "StatsFunctors" "DealDamage(SWAP,1d6,Slashing,Magical)"
 
 // Mystic Class Features
 
+// Illithid Restoration Fix
+new entry "Passive_Mystic_IllithidFix"
+type "PassiveData"
+// data "DisplayName" "h2be70227ge413g44cfgb26cg4cd3eef53842"
+// data "Description" "hdb0b3651g53ddg471agb3c3ge4f5e8a3faad"
+// data "Icon" "Action_Monk_WaterWhip"
+data "Properties" "IsHidden;OncePerLongRest"
+data "StatsFunctorContext" "OnHealed"
+data "StatsFunctors" "RestoreResource(PsiPointsResource,71,0)"
+
+
+
+
 new entry "Passive_Mystic_Telepathy"
 type "PassiveData"
 data "DisplayName" "h87f098c4g6b51g49b1g99d6g6adcb79410a3"
