@@ -1,57 +1,57 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with ShinyHobo's BG3 Modder's Multitool-->
 <save>
-    <version major="4" minor="0" revision="4" build="600"/>
-    <region id="ActionResourceDefinitions">
-        <node id="root">
-            <children>
-                <node id="ActionResourceDefinition"> Psi Points
-                    <attribute id="Description" type="TranslatedString" handle="hfbba16d5gd122g46b3gbda7gc03e7cc09bed" version="1"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="heeb074ebga0e0g459dgb417g87158e793ab2" version="1"/>
-                    <attribute id="MaxLevel" type="uint32" value="0"/>
-                    <attribute id="Name" type="FixedString" value="PsiPointsResource"/>
-                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
-                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
-                    <attribute id="UUID" type="guid" value="9ea5d3a5-b1f5-4f80-a5d5-9f419f8eb456"/>
+  <version major="4" minor="0" revision="9" build="328" />
+  <region id="ActionResourceDefinitions">
+    <node id="root">
+      <children>
+        <node id="ActionResourceDefinition"> Psi Points
+                    <attribute id="Description" type="TranslatedString" handle="hfbba16d5gd122g46b3gbda7gc03e7cc09bed" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="heeb074ebga0e0g459dgb417g87158e793ab2" version="1" />
+                    <attribute id="MaxLevel" type="uint32" value="0" />
+                    <attribute id="Name" type="FixedString" value="PsiPointsResource" />
+                    <attribute id="ReplenishType" type="FixedString" value="Rest" />
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true" />
+                    <attribute id="UUID" type="guid" value="9ea5d3a5-b1f5-4f80-a5d5-9f419f8eb456" />
                 </node>
-                <node id="ActionResourceDefinition"> Psi Limit
-                    <attribute id="Description" type="TranslatedString" handle="h4279b7e2g21b4g4891gba54gd134afe1cd53" version="1"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="hd44f7002g8382g4663g89f3g88a18f0791bf" version="1"/>
-                    <attribute id="MaxLevel" type="uint32" value="7"/>
-                    <attribute id="Name" type="FixedString" value="PsiLimitResource"/>
-                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
-                    <attribute id="ShowOnActionResourcePanel" type="bool" value="false"/>
-                    <attribute id="UUID" type="guid" value="52f4769c-89d4-4e24-9129-76e9fb6ad49c"/>
+        <node id="ActionResourceDefinition"> Psi Limit
+                    <attribute id="Description" type="TranslatedString" handle="h4279b7e2g21b4g4891gba54gd134afe1cd53" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="hd44f7002g8382g4663g89f3g88a18f0791bf" version="1" />
+                    <attribute id="MaxLevel" type="uint32" value="7" />
+                    <attribute id="Name" type="FixedString" value="PsiLimitResource" />
+                    <attribute id="ReplenishType" type="FixedString" value="Turn" />
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="false" />
+                    <attribute id="UUID" type="guid" value="52f4769c-89d4-4e24-9129-76e9fb6ad49c" />
                 </node>
-                <node id="ActionResourceDefinition"> Psionic Strike
-                    <attribute id="DisplayName" type="TranslatedString" handle="hd4805a67g93a4g4a1ag9dfag49499a52f106" version="1"/>
-                    <attribute id="IsHidden" type="bool" value="true"/>
-                    <attribute id="Name" type="FixedString" value="Interrupt_PsionicStrike"/>
-                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
-                    <attribute id="UUID" type="guid" value="d5b34f89-a352-4ab8-959a-218aa725cba7"/>
+        <node id="ActionResourceDefinition"> Psionic Strike
+                    <attribute id="DisplayName" type="TranslatedString" handle="hd4805a67g93a4g4a1ag9dfag49499a52f106" version="1" />
+                    <attribute id="IsHidden" type="bool" value="true" />
+                    <attribute id="Name" type="FixedString" value="Interrupt_PsionicStrike" />
+                    <attribute id="ReplenishType" type="FixedString" value="Turn" />
+                    <attribute id="UUID" type="guid" value="d5b34f89-a352-4ab8-959a-218aa725cba7" />
                 </node>
-                <node id="ActionResourceDefinition"> Psionic Surge
-                    <attribute id="DisplayName" type="TranslatedString" handle="he2f4f7f4g276dg4d9bga0d9g8351051384b8" version="1"/>
-                    <attribute id="IsHidden" type="bool" value="true"/>
-                    <attribute id="Name" type="FixedString" value="Interrupt_PsionicSurge"/>
-                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
-                    <attribute id="UUID" type="guid" value="a6e27630-07fb-4c70-85d7-8d982bae855e"/>
-                </node>                
-                <node id="ActionResourceDefinition"> Surge of Health
-                    <attribute id="DisplayName" type="TranslatedString" handle="h56cb35d0g56f3g4098g8d58gbdab90b41a46" version="1"/>
-                    <attribute id="IsHidden" type="bool" value="true"/>
-                    <attribute id="Name" type="FixedString" value="Interrupt_SurgeOfHealth"/>
-                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
-                    <attribute id="UUID" type="guid" value="d956fe4b-341b-460a-af6a-2011cffa16cf"/>
+        <node id="ActionResourceDefinition"> Psionic Surge
+                    <attribute id="DisplayName" type="TranslatedString" handle="he2f4f7f4g276dg4d9bga0d9g8351051384b8" version="1" />
+                    <attribute id="IsHidden" type="bool" value="true" />
+                    <attribute id="Name" type="FixedString" value="Interrupt_PsionicSurge" />
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest" />
+                    <attribute id="UUID" type="guid" value="a6e27630-07fb-4c70-85d7-8d982bae855e" />
                 </node>
-                <node id="ActionResourceDefinition"> Memory of One Thousand Steps
-                    <attribute id="DisplayName" type="TranslatedString" handle="h6572d753g277fg4e06ga35bgb9df9f0d9c69" version="1"/>
-                    <attribute id="IsHidden" type="bool" value="true"/>
-                    <attribute id="Name" type="FixedString" value="Interrupt_MemoryOfOneThousandSteps"/>
-                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
-                    <attribute id="UUID" type="guid" value="4bac6a22-2d74-4503-aeef-95987c02cab3"/>
+        <node id="ActionResourceDefinition"> Surge of Health
+                    <attribute id="DisplayName" type="TranslatedString" handle="h56cb35d0g56f3g4098g8d58gbdab90b41a46" version="1" />
+                    <attribute id="IsHidden" type="bool" value="true" />
+                    <attribute id="Name" type="FixedString" value="Interrupt_SurgeOfHealth" />
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest" />
+                    <attribute id="UUID" type="guid" value="d956fe4b-341b-460a-af6a-2011cffa16cf" />
                 </node>
-                TODO: Implement Psionic Mastery Charges here? You can cast one spell without requiring concentration per charge
-            </children>
-        </node>
-    </region>
+        <node id="ActionResourceDefinition"> Memory of One Thousand Steps
+                    <attribute id="DisplayName" type="TranslatedString" handle="h6572d753g277fg4e06ga35bgb9df9f0d9c69" version="1" />
+                    <attribute id="IsHidden" type="bool" value="true" />
+                    <attribute id="Name" type="FixedString" value="Interrupt_MemoryOfOneThousandSteps" />
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest" />
+                    <attribute id="UUID" type="guid" value="4bac6a22-2d74-4503-aeef-95987c02cab3" />
+                </node>
+      </children>
+    </node>
+  </region>
 </save>
