@@ -725,16 +725,16 @@
 	<content contentuid="hc0841745gb78cg47f1g9ef2gb3fb6a330063" version="1">Push</content>
 	<content contentuid="h07dcb591g2b03g4b38g85b3gb0a4dd2abff1" version="1">Exert a wave of kinetic force, pushing a creature [1].</content>
 	<content contentuid="h13b67091gc5b9g45a6g8daag1c23f5d24516" version="1">Move</content>
-	<content contentuid="h64b9f99cg200bg4085g96c7gd94c9160f410" version="1">Unleash concentrated burst of energy in a small area, pushing enemies [1] away from its epicenter.</content>
+	<content contentuid="h64b9f99cg200bg4085g96c7gd94c9160f410" version="1">Telekinetically grab a creature, dealing damage to them and possibly to other creatures they land on.</content>
 	<content contentuid="hce650e61g9431g4558gbb97gdbc2f4fa1c65" version="1">Inertial Armour</content>
 	<content contentuid="h3e3a7ea6gc38ag4f3aga618g28da59a408ec" version="1">Encase yourself in a veil of pure kinetic energy, increasing your base &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; to 14 while not wearing armour.</content>
 	<content contentuid="h2cbb948dgde72g449eg9bb0gf34d81b458b9" version="1">Base &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; increased to 14.</content>
 	<content contentuid="hb7cb3735g1907g4d50g9462g3ce0acc8c7af" version="1">Telekinetic Barrier</content>
 	<content contentuid="h4239b128g398eg4700g86edgb1499e0d2496" version="1">Manifest a wall of pressurized force. Creatures within will be in &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;.</content>
 	<content contentuid="hc1180697g9634g4b84gb46ag2ef175e42c9c" version="1">Grasp</content>
-	<content contentuid="ha82db9a3g45c0g450cgba3fg5651fd1b6911" version="1">Grasp a creature in telekinetic energy, halving its movement speed. While concentrating on this, you can cast &lt;LSTag Tooltip="Target_Mystic_Crush"&gt;Crush&lt;/LSTag&gt;.</content>
+	<content contentuid="ha82db9a3g45c0g450cgba3fg5651fd1b6911" version="1">Grasp a creature in telekinetic energy, holding them in place. While concentrating on this, you can cast &lt;LSTag Tooltip="Target_Mystic_Crush"&gt;Crush&lt;/LSTag&gt;.</content>
 	<content contentuid="h562d0efag59ddg4a12gbdfdg526d998d4277" version="1">Grasped</content>
-	<content contentuid="ha67be8f6g0b8fg4f69g85e5gd6b9820aa018" version="1">Movement speed halved.</content>
+	<content contentuid="ha67be8f6g0b8fg4f69g85e5gd6b9820aa018" version="1">Unable to move.</content>
 	<content contentuid="hcbf42d0fgf5aeg498dg8606g4be4f97997e2" version="1">Able to cast &lt;LSTag Tooltip="Target_Mystic_Crush"&gt;Crush&lt;/LSTag&gt;.</content>
 	<content contentuid="h14fbc9a9g937bg404dg9828ga15d97bae7c0" version="1">Crush</content>
 	<content contentuid="ha5ec3f66gafc7g4df2gba74g2dcb08319156" version="1">Crush the creature in your grasp.</content>
