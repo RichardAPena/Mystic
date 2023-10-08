@@ -29,7 +29,7 @@
 	<content contentuid="ha1920399g6864g4f4cg9bcbg2b71ec367e77" version="1">Order of the Avatar</content>
 	<content contentuid="h0d8485a7g5b46g45f5g9cfag20736d2a49be" version="1">The Order of the Awakened seeks to transcend their physical form, unlocking the full potential of the mind.</content>
 	<content contentuid="he560d838gb274g426cg8aadg34f4908b7edc" version="1">Order of the Awakened</content>
-	<content contentuid="hfcff39f6gcdfdg4b6agaad8gff68861b95e8" version="1">Immortal msytics use psionic energy to augment the physical form, themselves into living weapons.</content>
+	<content contentuid="hfcff39f6gcdfdg4b6agaad8gff68861b95e8" version="1">Immortal mystics use psionic energy to augment the physical form, themselves into living weapons.</content>
 	<content contentuid="h1cfb8b63g5324g460dg8818g3fd1d7310f71" version="1">Order of the Immortal</content>
 	<content contentuid="h31c7a245g5aadg4884g9cedgd44036f8626c" version="1">Nomads are on a neverending quest to unravel the mysteries of the multiverse, adapting their psionics to ease their travels.</content>
 	<content contentuid="he892e87dg4953g4cdbga1b7geef3735cf01d" version="1">Order of the Nomad</content>
@@ -326,8 +326,8 @@
 	<content contentuid="hfc0eaaa0gc478g4769gb2d8g938c36bf5caf" version="1">Repulsed</content>
 	<content contentuid="hbf9c8b71gd994g4865g929cgd3b8d38708be" version="1">Movement speed reduced to 0.</content>
 	<content contentuid="h7e97d15dg98e7g4b8dg9849ga2ed3058e5af" version="1">Visions of Disgust</content>
-	<content contentuid="hf1319c93g4f26g4743g9389g59867ac1f6c3" version="1">Warp a creature's mind, causing it to regard other beings as horrid. While afflicted, it takes [1] damage at the end of its turns.</content>
-	<content contentuid="h7105a329gdb40g430dgb245g840f85f141ab" version="1">Takes [1] damage each turn.</content>
+	<content contentuid="hf1319c93g4f26g4743g9389g59867ac1f6c3" version="1">Warp a creature's mind, causing it to regard other beings as horrid. While afflicted, it takes [1] at the end of its turns.</content>
+	<content contentuid="h7105a329gdb40g430dgb245g840f85f141ab" version="1">Takes [1] each turn.</content>
 	<content contentuid="hda6638cfg47abg4e04gbe10ge74dd3a7277f" version="1">World of Horror</content>
 	<content contentuid="h8a90a05cg67aeg4fe3gaa05g617f55476434" version="1">Wreak pandemonium in up to six creatures, &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightening&lt;/LSTag&gt; them. While affected, creatures can only use their actions to make melee attacks.</content>
 	<content contentuid="h47949da3g6dd3g44b8gbd0eg0b9479fe439c" version="1">&lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;. Can only use actions to make melee attacks.</content>
@@ -416,7 +416,7 @@
 	<content contentuid="ha9db8e54g635ag4239gabbegd4758c9d41d8" version="1">Grant yourself and nearby allies superior sight, gaining a +10 bonus to Perception &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="h1c7aca7dgf5d7g4690g97dagba8fce2fa5fd" version="1">+10 to Perception &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="h6a32a2fdg7d8fg499cga80eg348f92289a86" version="1">Psychic Backlash </content>
-	<content contentuid="h34e0c50eg2f15g412ag8f79ge7d9fc0ff80a" version="1">As a reaction, impose &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on an attack against you. If it still hits you, deal [1] damage to the attacker.</content>
+	<content contentuid="h34e0c50eg2f15g412ag8f79ge7d9fc0ff80a" version="1">As a reaction, impose &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on an attack against you. If it still hits you, deal [1] to the attacker.</content>
 	<content contentuid="he3859f73g3be7g43ddga88bg142c54b26bd8" version="1">Psychic Parry</content>
 	<content contentuid="he3446c7fga2b2g4256g93efga0485b80e08e" version="1">As a reaction, when you make an Intelligence, Wisdom or Charisma &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;, you can gain a +1 bonus to that &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; per Psi Point spent.</content>
 	<content contentuid="hf41be51cg0881g4fd1gb7c1gfa5965c3e55d" version="1">Psychic Redoubt </content>
@@ -541,7 +541,7 @@
 	<content contentuid="hbbaca92egc196g4f08g9957gce2955684149" version="1">&lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; increased by 2.</content>
 	<content contentuid="h96909d39g467cg414ag9436g40c3d4346af2" version="1">Brute Strike</content>
 	<content contentuid="h5a8514d1gab95g41ffg9956g606887cbfeef" version="1">Muster up your strength, giving you [1] increased damage on your next melee attack this turn.</content>
-	<content contentuid="hc56a3e6cg024eg409fgbf75g5cab5b51f8a1" version="1">Next melee attack deals an additional [1] damage.</content>
+	<content contentuid="hc56a3e6cg024eg409fgbf75g5cab5b51f8a1" version="1">Next melee attack deals an additional [1].</content>
 	<content contentuid="h64861ffdge092g4be5gae41g02d96367cb93" version="1">Knock Back</content>
 	<content contentuid="hafa0ff17g5d7fg4454gb0c4g5eee7b446f19" version="1">Blast your target with immense strength, knocking them back [1].</content>
 	<content contentuid="h3ef06455gfb79g448egb84dgd970cb657bc4" version="1">Does not consume Reaction points or Psi Points.</content>
@@ -568,7 +568,7 @@
 	<content contentuid="hb6fb98b7g55a3g44ccga81ega04e4d07c5cb" version="1">Venom Strike</content>
 	<content contentuid="h1bb2686bg46afg44b3ga060g1b30422db67e" version="1">Discharge a spray of venom, &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisoning&lt;/LSTag&gt; the target creature.</content>
 	<content contentuid="hc7b88abbg0bf9g468aga89fgc539b6688cac" version="1">Acid Spray</content>
-	<content contentuid="h0d03313eg42eeg4e62g99a8gd78ebb954dfe" version="1">As a reaction, after you take damage you can cause acid to spray from your wounds, dealing [1] damage to creatures within [2].</content>
+	<content contentuid="h0d03313eg42eeg4e62g99a8gd78ebb954dfe" version="1">As a reaction, after you take damage you can cause acid to spray from your wounds, dealing [1] to creatures within [2].</content>
 	<content contentuid="ha9f14766g5a6bg47a5g842eg801c7110ebf7" version="1">Breath of the Black Dragon</content>
 	<content contentuid="hfbea5966g683fg4e51g819bg95f554aaeb22" version="1">Exhale a wave of acid in a line before you.</content>
 	<content contentuid="hd7356d09gec21g401eg938dg34c1b704297e" version="1">Breath of the Green Dragon</content>
@@ -585,10 +585,10 @@
 	<content contentuid="hd402b24bg75a0g4cebg8b84gf5aca6e0b8d3" version="1">&lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on Strength &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;, size reduced significantly and carrying capacity reduced. +10 to Stealth &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;. &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; increased by 5. Weapon damage negated.</content>	
 	<content contentuid="h47fb9db7gb5dag44c5gb1f5g9d3bc399f8c6" version="1">Ogre Form</content>
 	<content contentuid="hf76d9a28g6d3bg4896g9fe0g26e441cd2fe7" version="1">Grow in size, gaining [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;. Melee weapon attacks will deal an additional [2] damage and have [3] increased range.</content>
-	<content contentuid="h3e723b88g2225g473bgb035ga22f7f7b855a" version="1">Weapon attacks deal an additional [1] damage. Melee weapon attack range increased by [2].</content>
+	<content contentuid="h3e723b88g2225g473bgb035ga22f7f7b855a" version="1">Weapon attacks deal an additional [1]. Melee weapon attack range increased by [2].</content>
 	<content contentuid="h966f12fdg026bg4b43g8db7g0748c8b49c08" version="1">Giant Form</content>
 	<content contentuid="h73fdc59cgf510g4958g875eg907ec43b3143" version="1">Grow to a tremendous size gaining [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;. Melee weapon attacks will deal an additional [2] damage and have [3] increased range.</content>
-	<content contentuid="h83e9cfffg78a2g410dga4afgc166e30ee87b" version="1">Weapon attacks deal an additional [1] damage. Melee weapon attack range increased by [2].</content>
+	<content contentuid="h83e9cfffg78a2g410dga4afgc166e30ee87b" version="1">Weapon attacks deal an additional [1]. Melee weapon attack range increased by [2].</content>
 	<content contentuid="h3a5789efg2457g4ca8ga0f8gce3100d94894" version="1">Iron Hide</content>
 	<content contentuid="hc17c8044g089bg4c41g825dg242f478d8782" version="1">As a reaction, when you are hit by an attack you can harden your skin, increasing your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by 3 until the end of your next turn.</content>
 	<content contentuid="hb70f2573g1af0g4071g9300g12f1d71e9c65" version="1">&lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; increased by 3.</content>
@@ -615,17 +615,17 @@
 	<content contentuid="hdede492cgcb3cg41ffg9bedg890837af15d2" version="1">Restore Vigor</content>
 	<content contentuid="h40aaeb23g4840g4f7dg93bega45dafa156e2" version="1">Touch a creature and negate any &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charm&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="PETRIFIED"&gt;Petrification&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stun&lt;/LSTag&gt;, or curse afflicting it.</content>
 	<content contentuid="h46383e61g4143g47a9gac5bg5f2170515105" version="1">Ethereal Weapon</content>
-	<content contentuid="he3932f8cgb0afg46d2g8ceag5cccffe16148" version="1">Transform your weapons into pure psionic energy. Your weapon attacks become Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; instead of being&lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;, dealing half damage on a sucessful save.</content>
+	<content contentuid="he3932f8cgb0afg46d2g8ceag5cccffe16148" version="1">Transform your weapons into pure psionic energy. Your weapon attacks become Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; instead of being &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;, dealing half damage on a sucessful save.</content>
 	<content contentuid="h1bddf10bg85aeg4891gae66g13c4bfd86fb4" version="1">Weapon &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; become Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; instead, dealing half damage on save.</content>
 	<content contentuid="hc5a2a389g7dbdg4bf7ga663gd4b1b9a0269a" version="1">Lethal Strike</content>
-	<content contentuid="h51aa6b39ge4c4g4802g98e7g7495bd716562" version="1">Imbue your weapons with psychic energy. Your next weapon attack will deal an additional [1] damage.</content>
-	<content contentuid="h4f69363eg4bbfg4f59gaac3g4e3b5feb0075" version="1">Next weapon attack deals an additional [1] damage.</content>
+	<content contentuid="h51aa6b39ge4c4g4802g98e7g7495bd716562" version="1">Imbue your weapons with psychic energy. Your next weapon attack will deal an additional [1].</content>
+	<content contentuid="h4f69363eg4bbfg4f59gaac3g4e3b5feb0075" version="1">Next weapon attack deals an additional [1].</content>
 	<content contentuid="h096232f7g42c0g4c6fgada3g7e6141886ce6" version="1">Augmented Weapon</content>
 	<content contentuid="h4fc32c62g0d3eg42b4g849agba33dfded8ae" version="1">Infuse a weapon with psionic energy. The weapon becomes magical, receiving a +3 bonus to &lt;LSTag Tooltip="AttackRoll"&gt;Attack&lt;/LSTag&gt; and Damage Rolls.</content>
 	<content contentuid="h4bc4436dg4a57g4761gb5ceg1aad805afe26" version="1">+3 to Attack and Damage rolls.</content>
 	<content contentuid="h51cfcff8g9de8g486aga6b9g95276ac98dd7" version="1">Speed Dart</content>
-	<content contentuid="h189b99d6g02d8g4ec9gb154g76d71db32c45" version="1">Imbue your ranged weapon with psionic energy. The next attack you make with it deals an additional [1] damage.</content>
-	<content contentuid="hbeb579b0g85dcg4283gb867g60545a50eaa2" version="1">Next ranged weapon attack deals an additional [1] damage.</content>
+	<content contentuid="h189b99d6g02d8g4ec9gb154g76d71db32c45" version="1">Imbue your ranged weapon with psionic energy. The next attack you make with it deals an additional [1].</content>
+	<content contentuid="hbeb579b0g85dcg4283gb867g60545a50eaa2" version="1">Next ranged weapon attack deals an additional [1].</content>
 	<content contentuid="h170aeca8g0096g4689g9450g240c79bbc380" version="1">Seeking Missile</content>
 	<content contentuid="hfc6b13fdgc440g4072ga6d9g1eb08558a47b" version="1">As a reaction, when you miss with a ranged weapon attack, you can repeat the &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against the same target.</content>
 	<content contentuid="h574e8af9g5955g44e7g9784g45fa820d25a1" version="1">Faithful Archer</content>
@@ -699,9 +699,9 @@
 	<content contentuid="hc61f7658gd2bbg4a01gb931g4a9510f04ee8" version="1">Wind Stream</content>
 	<content contentuid="hbe829278g2c04g4758g91c5g13631d01f16e" version="1">Release a wind blast that knocks targets &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
 	<content contentuid="h5d42f170g2a58g4e88ga06aga5a39b850cb0" version="1">Cloak of Air</content>
-	<content contentuid="h70f1f9fbgdfe5g4b36gb8e6gd9fcdfab6a8f" version="1">Seize control of the air around, creating a protective veil. &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against you will have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;, and when a melee attack misses you, deal [1] damage to the attacker.</content>
+	<content contentuid="h70f1f9fbgdfe5g4b36gb8e6gd9fcdfab6a8f" version="1">Seize control of the air around, creating a protective veil. &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against you will have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;, and when a melee attack misses you, deal [1] to the attacker.</content>
 	<content contentuid="h48ed6606g7f54g4a3ag8487ga1011be52858" version="1">&lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against this creature have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;. Able to retaliate when an incoming melee attack misses.</content>
-	<content contentuid="h93c76e27ge89dg4ae4gbd44gdfddde815d75" version="1">Incoming attacks have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;. Dealing [1] damage to melee attackers when they miss.</content>
+	<content contentuid="h93c76e27ge89dg4ae4gbd44gdfddde815d75" version="1">Incoming attacks have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;. Dealing [1] to melee attackers when they miss.</content>
 	<content contentuid="h760a194eg204cg4506g8566g0bf5baac8959" version="1">Wind Form</content>
 	<content contentuid="h48a4619cg17a7g4904gad77g9cf83a8ad8ff" version="1">Manipulate the winds around you, gaining the ability to Fly.</content>
 	<content contentuid="h880ccd03gf1e1g419cgbc2bg88c24dad10e8" version="1">Able to to Fly.</content>
@@ -712,13 +712,13 @@
 	<content contentuid="h59022a24gd4b7g4d79gab10g497349ebb068" version="1">Combustion</content>
 	<content contentuid="he5878be1gd6d8g4acbg8d8egfb5acd722cae" version="1">Cause a creature to spontaneously combust into flames, setting them aflame.</content>
 	<content contentuid="h06524a69g69d0g46f1gb6e8g241fffad8042" version="1">Rolling Flame</content>
-	<content contentuid="h9016bc24g4082g4a64ga4c7gf061572ac8df" version="1">Summon a patch of flames, dealing [1] damage to creatures when placed and when they end their turn inside.</content>
-	<content contentuid="he21f9a01g02afg45e9g9c92g0421abbfd8dd" version="1">Taking [1] damage at the end of each turn.</content>
+	<content contentuid="h9016bc24g4082g4a64ga4c7gf061572ac8df" version="1">Summon a patch of flames, dealing [1] to creatures when placed and when they end their turn inside.</content>
+	<content contentuid="he21f9a01g02afg45e9g9c92g0421abbfd8dd" version="1">Taking [1] at the end of each turn.</content>
 	<content contentuid="hdb0b3651g53ddg471agb3c3ge4f5e8a3faad" version="1">Detonation</content>
 	<content contentuid="hfa921a8fg668dg44d7gb7cdgadf70c5e712f" version="1">Create a fiery explosion, causing creatures inside to be knocked &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
 	<content contentuid="hc1137f43g5b0bg4269g9c8dg17e6d261a14b" version="1">Fire Form</content>
-	<content contentuid="heed30d02g7e59g4252g9005ge374d3ebfc81" version="1">Wreathe yourself in flames, dealing [1] damage to creatures that end their turn within [2] of you.</content>
-	<content contentuid="hf9d44f36gdf24g4437ga1ffgce4a38f3e99e" version="1">Dealing [1] damage to creatures that end their turn within [2] of you.</content>
+	<content contentuid="heed30d02g7e59g4252g9005ge374d3ebfc81" version="1">Wreathe yourself in flames, dealing [1] to creatures that end their turn within [2] of you.</content>
+	<content contentuid="hf9d44f36gdf24g4437ga1ffgce4a38f3e99e" version="1">Dealing [1] to creatures that end their turn within [2] of you.</content>
 	<content contentuid="hf75fea9dg2950g45b5g9153gc03d0834def3" version="1">Taking [1] at the end of your turn.</content>
 	<content contentuid="h2be70227ge413g44cfgb26cg4cd3eef53842" version="1">Animate Fire </content>
 	<content contentuid="h1f08380fg7fd8g412fgac52g1dd4a922e58f" version="1">Summon a Fire Elemental.</content>
@@ -789,7 +789,7 @@
 	<content contentuid="hf7d682f4gd5e3g4375gb91eg48a5f9bd7c5d" version="1">Thunder Clap</content>
 	<content contentuid="h05a08ff8g34c6g4c6dga0e0gd05003430d4d" version="1">Thunderous energy erupts in a targeted area, &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stunning&lt;/LSTag&gt; creatures inside.</content>
 	<content contentuid="hfd6106d9g3b27g40cdg9600gb68249c8af8d" version="1">Animate Weapon</content>
-	<content contentuid="he473eb03g1569g4174gb71egb75d1e25a527" version="1">Seize control of a melee weapon you're holding, dealing its damage plus an additional [1] damage to a creature.</content>
+	<content contentuid="he473eb03g1569g4174gb71egb75d1e25a527" version="1">Seize control of a melee weapon you're holding, dealing its damage plus an additional [1] to a creature.</content>
 	<content contentuid="h83a09a72gd4cdg4b08ga961g3238a6650967" version="1">Warp Weapon</content>
 	<content contentuid="h748563bbgacbbg491agb42cgbdde01912d8c" version="1">Warp a creature's weapon, forcing them to drop it.</content>
 	<content contentuid="h39245a46gf4a7g40f4gb6ceg4949b840ef0e" version="1">Warp Armour</content>
@@ -824,7 +824,7 @@
 	<content contentuid="h438d0cd3g03e6g44f0gb801g7ed486500024" version="1">Proficient in Charisma &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
 	<content contentuid="h2ae84d46g9f37g45a5g988bg8b08fff62394" version="1">Psionic Strike</content>
 	<content contentuid="hd3ca609cg1645g4f9fgaed4g5b36b263fa89" version="1">Psionic Strike (Critical)</content>
-	<content contentuid="h547f1a60g809bg4ab3g917fgb4d015362b50" version="1">After hitting an enemy with a weapon attack, you can deal an additional [1] damage.</content>
+	<content contentuid="h547f1a60g809bg4ab3g917fgb4d015362b50" version="1">After hitting an enemy with a weapon attack, you can deal an additional [1].</content>
 	<content contentuid="hc50db36dg77fbg42eag8f4cg2ceeee4025b9" version="1">Consumptive Power</content>
 	<content contentuid="hd8ba7b71gce4bg456cg881dg74d7247ccc16" version="1">Tap into your own life force, regaining 7 Psi Points but reducing your maximum hit points by [1].</content>
 	<content contentuid="hff2ceb41gea66g4d25gb16fgc325168527b7" version="1">Maximum hit points reduced by [1].</content>
@@ -862,7 +862,7 @@
 	<content contentuid="h248529ceg6c81g47cbgae19g7d937b7904ca" version="1">Martial Training</content>
 	<content contentuid="hfdf8fba9gb1eeg4c9egb03dg14111a5a462b" version="1">You have Armour Proficiency with Medium Armour and &lt;LSTag Tooltip="WeaponProficiency"&gt;Weapon Proficiency&lt;/LSTag&gt; with Martial Weapons.</content>
 	<content contentuid="h44e3ede5g8eadg4f23g917dge892947fae40" version="1">Soul Knife</content>
-	<content contentuid="ha769c607gff4dg4b13g878ag7fa6d50058d8" version="1">Summons a pair of soul knives in your hands. They are Light, Finesse daggers that deal [1] damage.</content>
+	<content contentuid="ha769c607gff4dg4b13g878ag7fa6d50058d8" version="1">Summons a pair of soul knives in your hands. They are Light, Finesse daggers that deal [1]. Soul Knives scale with Intelligence instead of Dexterity or Strength.</content>
 	<content contentuid="h4201ca91gf3a8g4afeg8e5fg77fbd99e3adc" version="1">Soul Knife</content>
 	<content contentuid="hbeb77f94gc6cdg4131g92a8g52fcdf4c8895" version="1">A scintillating blade of pure psychic energy.</content>
 	<content contentuid="hd70f67e7ge6e5g46b0g8b38gc3ff2684f0c8" version="1">Soul Knife</content>
@@ -922,7 +922,7 @@
 	<content contentuid="h395f3de4g7337g4046g95b2gac5963ebbb35" version="1">Create Spell Slot: Level 5</content>	
 	<content contentuid="h8811fab1g5c9dg4c03ga4b1g8a4aead193fd" version="1">Spend [1] Psi Points to unlock a level [2] &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt;.</content>
 	<content contentuid="h27717c53g925ag4422g990dg46f6ca77105d" version="1">Increases distance by an additional [1] per level.</content>
-	<content contentuid="h40a2d4caga1f5g4f1ega800g09de58581389" version="1">Deals an additional [1] damage and increases distance by an additional [2] per level.</content>
+	<content contentuid="h40a2d4caga1f5g4f1ega800g09de58581389" version="1">Deals an additional [1] and increases distance by an additional [2] per level.</content>
 
 	<content contentuid="" version="1"> </content>
 	<content contentuid="" version="1"> </content>

@@ -2534,7 +2534,7 @@ new entry "Shout_Mystic_SoulKnife"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" "Action_Mag_EnsnaringStrands"
+data "Icon" "Icon_Action_Mystic_SoulKnife"
 data "DisplayName" "h44e3ede5g8eadg4f23g917dge892947fae40"
 data "Description" "ha769c607gff4dg4b13g878ag7fa6d50058d8"
 data "DescriptionParams" "DealDamage(1d8,Psychic)"

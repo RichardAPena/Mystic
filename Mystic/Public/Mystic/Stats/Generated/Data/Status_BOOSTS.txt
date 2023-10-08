@@ -155,7 +155,7 @@ data "Description" "h2992fa4fgf81bg45c1g81adge4e0e19a9c37"
 data "DescriptionParams" "max(1,IntelligenceModifier/2)"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
-data "Boosts" "Skill(Deception, max(1,IntelligenceModifier/2));Skill(Intimidation, max(1,IntelligenceModifier/2));Skill(Performance, max(1,IntelligenceModifier/2));Skill(Persuasion, max(1,IntelligenceModifier/2))"
+data "Boosts" "Skill(Deception,    max(1,(IntelligenceModifier/2)));Skill(Intimidation, max(1,(IntelligenceModifier/2)));Skill(Performance,  max(1,(IntelligenceModifier/2)));Skill(Persuasion,   max(1,(IntelligenceModifier/2)))"
 data "StatusGroups" "SG_RemoveOnRespec"
 
 // Psychic Focus: Mantle of Command
@@ -1580,6 +1580,7 @@ data "Icon" "Action_PrecisionAttack"
 data "StackId" "MYSTIC_VICTORY_BEFORE_BATTLE"
 data "Boosts" "Initiative(10)"
 data "RemoveConditions" "Combat()"
+data "RemoveEvents" "OnTurn"
 data "StatusGroups" "SG_RemoveOnRespec"
 
 // Ego Whip
