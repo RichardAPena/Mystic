@@ -4,7 +4,7 @@ type "SpellData"
 data "SpellType" "Throw"
 using "Throw_Throw"
 
-data "Icon" "Spell_Conjuration_MageHand"
+data "Icon" "Action_Mystic_MysticHand"
 data "DisplayName" "h306c254cg48bcg46feg984agabe87c3bf315"
 data "Description" "he3754524g8719g427cgba62g073a2634a38d"
 data "DescriptionParams" ""

@@ -4,7 +4,7 @@ type "SpellData"
 data "SpellType" "Zone"
 data "Level" "6"
 
-data "Icon" "PassiveFeature_CRE_BrainDamage_INT"
+data "Icon" "Action_Mystic_PsychicBlast"
 data "DisplayName" "hd3185e40g210ag4743g9052gdd43ffc47519"
 data "Description" "h59c2ac9eg573fg4abcga1d5ga07a3933b6fd"
 data "DescriptionParams" ""

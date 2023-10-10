@@ -6,7 +6,7 @@ type "SpellData"
 data "SpellType" "Projectile"
 data "Level" "1"
 
-data "Icon" "Spell_Divination_ReapplyHuntersMark"
+data "Icon" "Action_Mystic_PsionicBlast"
 data "DisplayName" "h36077f93g8f12g4fc9g83c8g07b5b8bb4f7b"
 data "Description" "h318a2475gefe6g453dg8a4cg1f28a946371e"
 data "DescriptionParams" ""

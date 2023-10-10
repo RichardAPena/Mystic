@@ -88,7 +88,7 @@
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="Selectors" type="LSString" value=""/>
                     <attribute id="TableUUID" type="guid" value="4b5d89ce-9dfb-46c2-a205-77bbf05a6492"/>
-                    <attribute id="UUID" type="guid" value=""/>
+                    <attribute id="UUID" type="guid" value="5689bf11-685d-41c8-ae14-3385e9434949"/>
                 </node>
 
                 <node id="Progression"> Mystic Level 3
