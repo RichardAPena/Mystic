@@ -1518,7 +1518,6 @@ data "Icon" "Action_Mystic_CenterOfAttention"
 // data "Boosts" ""
 
 // Invoke Awe
-// TODO
 new entry "MYSTIC_INVOKE_AWE"
 // type "StatusData"
 // data "StatusType" "BOOST"
@@ -2945,6 +2944,15 @@ data "Icon" "Action_Mystic_ConsumptivePower"
 data "StackId" "MYSTIC_CONSUMPTIVE_POWER"
 data "Boosts" "IncreaseMaxHP(-14)"
 data "StatusGroups" "SG_RemoveOnRespec"
+
+// Psionic Mastery
+new entry "MYSTIC_PSIONIC_MASTERY_COOLDOWN"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StackId" "MYSTIC_PSIONIC_MASTERY_COOLDOWN"
+data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "TickType" "EndTurn"
 
 // Subclass Features
 

@@ -97,7 +97,7 @@ data "CastEffect" "8c57a806-472f-4d78-8226-0bba510103bd"
 
 new entry "Throw_Mystic_Move_5"
 using "Throw_Mystic_Move"
-data "UseCosts" "ActionPoint:1;PsiPointsResource:1"
+data "UseCosts" "ActionPoint:1;PsiPointsResource:5;PsiLimitResource:1:5"
 data "SpellContainerID" "Throw_Mystic_Move"
 data "PowerLevel" "5"
 data "SpellFlags" "IsSpell;RangeIgnoreVerticalThreshold;IsHarmful;HasHighGroundRangeExtension;IgnoreVisionBlock;AddFallDamageOnLand;AbortOnSpellRollFail;AbortOnSecondarySpellRollFail;CombatLogSetSingleLineRoll;"

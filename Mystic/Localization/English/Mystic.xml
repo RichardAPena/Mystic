@@ -525,7 +525,7 @@
 	<content contentuid="h38f7b167g698eg479cgbf25g7ab2e0a735f8" version="1">Manifest sharp claws and swipe at the target.</content>
 	<content contentuid="hc4296d32g3725g41fegb775g60d9cbbdefbd" version="1">Bestial Transformation</content>
 	<content contentuid="hd209e5f1g4385g4512g8dcbgdf6e4cc1fc8a" version="1">Alter your physical form and gain beast-like qualities.</content>
-	<content contentuid="hf4c955eag45bdg48f2g994cg90c10f420c51" version="1">You can choose from the following bonuses: Ability to Fly, &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Perception &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;, ability to see &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; creatures and increasing your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by 2.</content>
+	<content contentuid="hf4c955eag45bdg48f2g994cg90c10f420c51" version="1">You can choose from the following bonuses: Ability to Fly, &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Perception &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;, ability to see &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; creatures and increasing your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by 2.&lt;br&gt;&lt;br&gt;The cost of these effects ranges from 2 Psi Points to 5 Psi Points, and you can choose any combination of augments.</content>
 	
 	<content contentuid="h58b0a047g5647g4d3dg87fbgb042040d00ad" version="1">Bestial Transformation: Flight</content>
 	<content contentuid="h2364d86dgcd75g455agbf20ge9ab5f86fff5" version="1">Manifest wings, gaining the ability to Fly.</content>
@@ -828,6 +828,10 @@
 	<content contentuid="hc50db36dg77fbg42eag8f4cg2ceeee4025b9" version="1">Consumptive Power</content>
 	<content contentuid="hd8ba7b71gce4bg456cg881dg74d7247ccc16" version="1">Tap into your own life force, regaining 7 Psi Points but reducing your maximum hit points by [1].</content>
 	<content contentuid="hff2ceb41gea66g4d25gb16fgc325168527b7" version="1">Maximum hit points reduced by [1].</content>
+	<content contentuid="h621076abg5c5eg4fb2gab0fg898021c10325" version="1">Psionic Mastery</content>
+	<content contentuid="ha7f7a470g6df1g4721g8873g3892e5a720f5" version="1">Allows you to cast a psionic discipline as a free action, and without spending any Psi Points. Expends a Psionic Mastery charge and can only be used once per turn.</content>
+	<content contentuid="h9bd36667gb0dag4d6fgb6c8g322be0b447a2" version="1">Psionic Mastery Charge(s)</content>
+	<content contentuid="h10ea8b5fg81e0g4971g840dg26c8f8d01860" version="1">Allows you to activate Psionic Mastery, removing all costs from psionic disciplines.</content>
 	<content contentuid="h73c12dd2gef0ag4f02g9b52g4cd9336023b0" version="1">Armour Training</content>
 	<content contentuid="h31b494b2g60f7g4109ga3f4gb7870b784e7c" version="1">You have &lt;LSTag Tooltip="ArmourProficiency"&gt;Armour Proficiency&lt;/LSTag&gt; with Medium Armour and Shields.</content>
 	<content contentuid="h2f333397g29fdg45eag8006g94c8ff848ea0" version="1">Avatar of Battle</content>

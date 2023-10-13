@@ -4319,21 +4319,10 @@ data "AreaRadius" "6"
 data "SpellRoll" "not SavingThrow(Ability.Strength, SourceSpellDC())"
 data "SpellSuccess" "DealDamage(1d6,Bludgeoning,Magical);Force(-6, TargetToEntity, Neutral, false, true)"
 data "TargetConditions" "not Self()"
-// data "AoEConditions" "Character() and not Self() and Enemy()"
-// data "ExtraDescription" "hb90e7fe5g9771g40d3gbffcg91bcbcb61856;1"
 data "TooltipAttackSave" "Strength"
 data "TooltipDamageList" "DealDamage(1d6,Bludgeoning)"
-// data "TooltipStatusApply" "ApplyStatus(TAD_BLACK_HOLE_SLOW,100,1)"
-// TODO: Give this a new animation (its bad)
-// data "CastSound" "Spell_Cast_Tadpole_BlackHole_L1to3"
-// data "TargetSound" "Spell_Impact_Tadpole_BlackHole_L1to3"
 data "SpellAnimation" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;af94aac1-d8eb-4ccb-9520-694ade11b61c,,;f5db4001-b136-4c48-9aa4-026c4a7dd3b7,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,,"
-// data "VerbalIntent" "Control"
 data "HitAnimationType" "MagicalNonDamage"
-// data "SpellAnimationIntentType" "Aggressive"
-//
-// data "TargetEffect" "66fe76c3-b68e-44b2-8f0a-9b6e00e4482c"
-// data "PositionEffect" "9723eb8f-4eed-434a-b802-6e7e732b2ff4"
 data "PrepareSound" "Spell_Prepare_Damage_Lightning_Gen_L1to3"
 data "PrepareLoopSound" "Spell_Prepare_Damage_Lightning_Gen_L1to3_Loop"
 data "CastSound" "Spell_Cast_Damage_Lightning_ShockingGrasp_L0"
@@ -4509,11 +4498,10 @@ data "PrepareEffect" "7121a488-7c9a-4ba1-a585-f79aaa77e97c"
 data "CastEffect" "71859b27-bdda-44c3-8c65-7f142a1a2f60"
 
 
-// TODO: FORCED MELEE ATTACK
+// FORCED MELEE ATTACK
 // Make each weapon/unarmed attack be in its own container
 // So that way they share a cooldown
 // Give out additional attacks if Extra Attack is on the enemy
-// TODO: either change to unlockspellvariant or use EAC
 new entry "Target_Mystic_MainHandAttack"
 using "Target_MainHandAttack"
 // data "SpellProperties" "GROUND:DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);GROUND:ExecuteWeaponFunctors(MainHand);CastOffhand[GROUND:DealDamage(OffhandMeleeWeapon, OffhandMeleeWeaponDamageType);GROUND:ExecuteWeaponFunctors(OffHand)];IF(not Player(context.Source)):ApplyStatus(SELF,AI_HELPER_EXTRAATTACK,100,1);"

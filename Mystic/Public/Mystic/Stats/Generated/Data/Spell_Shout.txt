@@ -641,7 +641,7 @@ data "ContainerSpells" "Shout_Mystic_BestialTransformation_Flight;Shout_Mystic_B
 data "TargetConditions" "Self()"
 data "ExtraDescription" "hf4c955eag45bdg48f2g994cg90c10f420c51"
 data "CastTextEvent" "Cast"
-data "UseCosts" "BonusActionPoint:1"
+data "UseCosts" "BonusActionPoint:1;PsiPointsResource:2"
 data "SpellAnimation" "6f42f5f3-7a5a-4441-a02e-71b0450ac4b7,,;,,;cd5e5d4a-38e1-4d4d-b346-3fbc1e4c3c90,,;141f48d9-9615-496a-8737-9240f0dba60d,,;42aaefdc-cf9b-4249-b159-285041851f69,,;,,;20e11c98-fff9-4417-88de-5bcc2368a1bd,,;,,;,,;"
 data "SpellFlags" "IsSpell;IsMelee;IsLinkedSpellContainer"
 data "HitAnimationType" "MagicalNonDamage"
@@ -2529,7 +2529,6 @@ data "CastEffect" "0198563f-c48b-45e0-afb5-46ef9576adff"
 data "TargetEffect" "b94fcfde-d824-4e7d-b9c5-833a50b66537"
 
 // Soul Knife
-// TODO: Equip both
 new entry "Shout_Mystic_SoulKnife"
 type "SpellData"
 data "SpellType" "Shout"
@@ -2540,13 +2539,7 @@ data "Description" "ha769c607gff4dg4b13g878ag7fa6d50058d8"
 data "DescriptionParams" "DealDamage(1d8,Psychic)"
 
 data "TargetConditions" "Self()"
-
-// new entry "Shout_ShadowBlade"
-// data "SpellProperties" "SummonInInventory(997badfb-ec7c-441a-9dd8-b4a2392d29c2,Permanent,1,true,true,true,,,'ArmGauntletsRight',ARMORER_GLOVE_WEAPON_EFFECT,UNSTOWABLE_CONJURED_WEAPON,GAUNTLETS_SUMMON_DISMISS_ON_INFILTRATOR);SummonInInventory(998badfb-ec7c-441a-9dd8-b4a2392d29c2,Permanent,1,true,true,true,,,'ArmGauntletsLeft',ARMORER_GLOVE_WEAPON_EFFECT,UNSTOWABLE_CONJURED_WEAPON,GAUNTLETS_SUMMON_DISMISS_ON_INFILTRATOR)"
-// SummonInInventory(997badfb-ec7c-441a-9dd8-b4a2392d29c2,Permanent,1,true,true,true,,,'ArmGauntletsRight',ARMORER_GLOVE_WEAPON_EFFECT,UNSTOWABLE_CONJURED_WEAPON,GAUNTLETS_SUMMON_DISMISS_ON_INFILTRATOR)
-// data "SpellProperties" "SummonInInventory(4911e6e2-f188-4419-856a-92f78391e2d9,Permanent,1,true,true,true,,,'SoulKnifeRight');SummonInInventory(aca0d1ad-e712-4154-8e22-46b839054305,Permanent,1,true,true,true,,,'SoulKnifeLeft',)"
 data "SpellProperties" "AI_IGNORE:SummonInInventory(4911e6e2-f188-4419-856a-92f78391e2d9,Permanent,1,true,true,true,,,'SoulKnifeRight',SHADOW_BLADE);ApplyStatus(SELF, MAG_SHADOW_BLADE_OWNER, 100, -1);AI_IGNORE:SummonInInventory(aca0d1ad-e712-4154-8e22-46b839054305,Permanent,1,true,true,true,,,'SoulKnifeLeft',SHADOW_BLADE);ApplyStatus(SELF, MAG_SHADOW_BLADE_OWNER, 100, -1)"
-// aca0d1ad-e712-4154-8e22-46b839054305
 
 data "PrepareSound" "Action_Prepare_Item_ShadowBlade"
 data "PrepareLoopSound" "Action_Loop_Item_ShadowBlade"

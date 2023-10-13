@@ -18,6 +18,7 @@
                     <attribute id="Description" type="TranslatedString" handle="h4279b7e2g21b4g4891gba54gd134afe1cd53" version="1" />
                     <attribute id="DisplayName" type="TranslatedString" handle="hd44f7002g8382g4663g89f3g88a18f0791bf" version="1" />
                     <attribute id="MaxLevel" type="uint32" value="7" />
+                    <attribute id="IsHidden" type="bool" value="true" />
                     <attribute id="Name" type="FixedString" value="PsiLimitResource" />
                     <attribute id="ReplenishType" type="FixedString" value="Turn" />
                     <attribute id="ShowOnActionResourcePanel" type="bool" value="false" />
@@ -51,6 +52,21 @@
                     <attribute id="ReplenishType" type="FixedString" value="ShortRest" />
                     <attribute id="UUID" type="guid" value="4bac6a22-2d74-4503-aeef-95987c02cab3" />
                 </node>
+        <node id="ActionResourceDefinition"> Psionic Mastery
+                    <attribute id="Description" type="TranslatedString" handle="h10ea8b5fg81e0g4971g840dg26c8f8d01860" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="h9bd36667gb0dag4d6fgb6c8g322be0b447a2" version="1" />
+                    <attribute id="Name" type="FixedString" value="PsionicMasteryResource" />
+                    <attribute id="ReplenishType" type="FixedString" value="Rest" />
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true" />
+                    <attribute id="UUID" type="guid" value="f3c1db34-9602-4782-90b4-5902af426fc5" />
+                </node>       
+        <node id="ActionResourceDefinition"> Psionic Mastery Cooldown
+                    <attribute id="DisplayName" type="TranslatedString" handle="h9bd36667gb0dag4d6fgb6c8g322be0b447a2" version="1" />
+                    <attribute id="IsHidden" type="bool" value="true" />
+                    <attribute id="Name" type="FixedString" value="PsionicMasteryCooldown" />
+                    <attribute id="ReplenishType" type="FixedString" value="Turn" />
+                    <attribute id="UUID" type="guid" value="bc223047-4ced-488f-9e27-9ddf6c34c39a" />
+                </node>                
       </children>
     </node>
   </region>

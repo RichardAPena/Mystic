@@ -6,9 +6,9 @@
     <node id="root">
       <children>
         <node id="ProgressionDescription">
-                    <attribute id="Description" type="TranslatedString" handle="h50a4b569gc8f8g4d05g85c2g5c039ffcb237" version="1" /> Description
-                    <attribute id="DisplayName" type="TranslatedString" handle="hb4bc9f84gaefbg4844g9597gd48f569a35db" version="1" /> Display Name
-                    <attribute id="ProgressionTableId" type="guid" value="4b5d89ce-9dfb-46c2-a205-77bbf05a6492" /> ID of the Progression Table
+                    <attribute id="Description" type="TranslatedString" handle="h50a4b569gc8f8g4d05g85c2g5c039ffcb237" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="hb4bc9f84gaefbg4844g9597gd48f569a35db" version="1" />
+                    <attribute id="ProgressionTableId" type="guid" value="4b5d89ce-9dfb-46c2-a205-77bbf05a6492" />
                     <attribute id="Type" type="FixedString" value="Mystic" />
                     <attribute id="UUID" type="guid" value="b1a10f11-bc0c-4d44-949e-0a7ea0464015" />
                 </node>
@@ -29,32 +29,32 @@
         <node id="ProgressionDescription">
                     <attribute id="Description" type="TranslatedString" handle="hfbba16d5gd122g46b3gbda7gc03e7cc09bed" version="4" />
                     <attribute id="DisplayName" type="TranslatedString" handle="heeb074ebga0e0g459dgb417g87158e793ab2" version="2" />
-                    <attribute id="ExactMatch" type="FixedString" value="ActionResource(PsiPointsResource,5,0)" />
+                    <attribute id="ExactMatch" type="FixedString" value="ActionResource(PsiPointsResource,4,0)" />
                     <attribute id="ProgressionId" type="guid" value="0482322d-723e-4705-a41a-99e27902311c" />
                     <attribute id="UUID" type="guid" value="30594a50-77c7-4f3c-aac5-317f2c893bf7" />
                 </node>
-        <node id="ProgressionDescription"> FIXME: not sure if this will work
+        <node id="ProgressionDescription">
                     <attribute id="Description" type="TranslatedString" handle="h967a52b9g432ag4290g8b17g216c46ac45d9" version="4" />
                     <attribute id="DisplayName" type="TranslatedString" handle="h967a52b9g432ag4290g8b17g216c46ac45d9" version="2" />
                     <attribute id="ExactMatch" type="FixedString" value="ActionResource(PsiLimitResource,255,3)" />
                     <attribute id="ProgressionId" type="guid" value="ebad23af-e802-40e0-ba1c-090997fe337d" />
                     <attribute id="UUID" type="guid" value="1183b6fe-0b69-4d32-ad30-7e3aff9ccab8" />
                 </node>
-        <node id="ProgressionDescription"> FIXME: not sure if this will work
+        <node id="ProgressionDescription">
                     <attribute id="Description" type="TranslatedString" handle="hdd48efa6g225cg4fe9ga0d1gdc46eae0d739" version="4" />
                     <attribute id="DisplayName" type="TranslatedString" handle="hdd48efa6g225cg4fe9ga0d1gdc46eae0d739" version="2" />
                     <attribute id="ExactMatch" type="FixedString" value="ActionResource(PsiLimitResource,255,5)" />
                     <attribute id="ProgressionId" type="guid" value="78848998-cd64-4257-8df4-6465bc126862" />
                     <attribute id="UUID" type="guid" value="16bcc214-2a3a-4470-b928-73c8c903694d" />
                 </node>
-        <node id="ProgressionDescription"> FIXME: not sure if this will work
+        <node id="ProgressionDescription">
                     <attribute id="Description" type="TranslatedString" handle="hb4c95b5bg4e36g46b6g8ea4g57b54e754033" version="4" />
                     <attribute id="DisplayName" type="TranslatedString" handle="hb4c95b5bg4e36g46b6g8ea4g57b54e754033" version="2" />
                     <attribute id="ExactMatch" type="FixedString" value="ActionResource(PsiLimitResource,255,6)" />
                     <attribute id="ProgressionId" type="guid" value="efd82e1d-b4a4-4781-a573-ceef12681ff9" />
                     <attribute id="UUID" type="guid" value="16705c06-7b98-45b6-8270-852c70d8d5ee" />
                 </node>
-        <node id="ProgressionDescription"> FIXME: not sure if this will work
+        <node id="ProgressionDescription">
                     <attribute id="Description" type="TranslatedString" handle="h1f60ff81gca80g4631gaafbg5452c5922f64" version="4" />
                     <attribute id="DisplayName" type="TranslatedString" handle="h1f60ff81gca80g4631gaafbg5452c5922f64" version="2" />
                     <attribute id="ExactMatch" type="FixedString" value="ActionResource(PsiLimitResource,255,7)" />
@@ -103,6 +103,13 @@
                     <attribute id="SelectorId" type="FixedString" value="ArcaneDabbler" />
                     <attribute id="UUID" type="guid" value="bfbecc78-e01c-4f8e-8aca-3eaf0f1085ec" />
                 </node>
+        <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h10ea8b5fg81e0g4971g840dg26c8f8d01860" version="4" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="h9bd36667gb0dag4d6fgb6c8g322be0b447a2" version="2" />
+                    <attribute id="ExactMatch" type="FixedString" value="ActionResource(PsionicMasteryResource,3,0)" />
+                    <attribute id="ProgressionId" type="guid" value="a7bd1581-ceb6-4fc9-b564-76c6f7f9b9c9" />
+                    <attribute id="UUID" type="guid" value="186026b6-4747-47f5-b174-7b49d5206a11" />
+                </node>                
       </children>
     </node>
   </region>
