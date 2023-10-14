@@ -18,7 +18,7 @@
                     <attribute id="Description" type="TranslatedString" handle="h4279b7e2g21b4g4891gba54gd134afe1cd53" version="1" />
                     <attribute id="DisplayName" type="TranslatedString" handle="hd44f7002g8382g4663g89f3g88a18f0791bf" version="1" />
                     <attribute id="MaxLevel" type="uint32" value="7" />
-                    <attribute id="IsHidden" type="bool" value="true" />
+                    <attribute id="IsHidden" type="bool" value="false" />
                     <attribute id="Name" type="FixedString" value="PsiLimitResource" />
                     <attribute id="ReplenishType" type="FixedString" value="Turn" />
                     <attribute id="ShowOnActionResourcePanel" type="bool" value="false" />

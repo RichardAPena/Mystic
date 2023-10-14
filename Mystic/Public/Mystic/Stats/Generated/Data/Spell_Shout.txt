@@ -109,7 +109,7 @@ new entry "Shout_Mystic_StrategicMind_Options"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" "Action_Monster_Banite_VoiceOfCommand"
+data "Icon" "Action_Mystic_StrategicMind"
 data "DisplayName" "h14317c93g0a49g4116g8970gf5060f631559"
 data "Description" "h6aac4741g43c5g4609g93b8g46154d854f92"
 data "DescriptionParams" ""
@@ -868,22 +868,6 @@ data "SpellContainerID" "Shout_Mystic_BruteStrike"
 data "PowerLevel" "7"
 data "SpellFlags" "IsMelee;IsSpell"
 data "ContainerSpells" ""
-
-// Knock Back (Prototype)
-// DEPRECATED
-// new entry "Shout_Mystic_KnockBack"
-// type "SpellData"
-// data "SpellType" "Shout"
-// data "Level" "2"
-
-// data "Icon" "Action_Mystic_KnockBack"
-// data "DisplayName" "h64861ffdge092g4be5gae41g02d96367cb93"
-// data "Description" "hafa0ff17g5d7fg4454gb0c4g5eee7b446f19"
-// data "DescriptionParams" "Distance(9)"
-
-// data "SpellFlags" "IsSpell"
-// data "UseCosts" "ReactionActionPoint:1;PsiPointsResource:2"
-// data "InterruptPrototype" "Interrupt_Mystic_KnockBack"
 
 // Feat of Strength
 new entry "Shout_Mystic_FeatOfStrength"

@@ -422,12 +422,8 @@ data "StatsFunctors" "DealDamage(SWAP,1d6,Slashing,Magical)"
 // Illithid Restoration Fix
 new entry "Passive_Mystic_IllithidFix"
 type "PassiveData"
-// data "DisplayName" "h2be70227ge413g44cfgb26cg4cd3eef53842"
-// data "Description" "hdb0b3651g53ddg471agb3c3ge4f5e8a3faad"
-// data "Icon" "Action_Monk_WaterWhip"
 data "Properties" "IsHidden;OncePerLongRest"
 data "StatsFunctorContext" "OnHealed;OnMove;OnActionResourcesChanged;OnTurn"
-// OnMove;OnActionResourcesChanged;OnTurn
 data "StatsFunctors" "RestoreResource(PsiPointsResource,71,0)"
 
 
@@ -500,12 +496,12 @@ new entry "Passive_Mystic_PsionicMastery"
 type "PassiveData"
 data "DisplayName" "h621076abg5c5eg4fb2gab0fg898021c10325"
 data "Description" "ha7f7a470g6df1g4721g8873g3892e5a720f5"
-data "Icon" "PassiveFeature_CRE_GithInfirmary_Awakened"
+data "Icon" "Passive_Mystic_PsionicMastery"
 
 data "EnabledConditions" "HasActionResource('PsionicMasteryResource', 1, 0, false, false, context.Source) and HasActionResource('PsionicMasteryCooldown', 1, 0, false, false, context.Source)"
 data "EnabledContext" "OnCastResolved;OnLongRest;OnActionResourcesChanged"
 data "Properties" "IsToggled;ToggledDefaultAddToHotbar;MetaMagic"
-data "Boosts" "UnlockSpellVariant(PsionicDisciplineCheck(),ModifyUseCosts(Replace,ActionPoint,0,0,ActionPoint),ModifyUseCosts(Replace,BonusActionPoint,0,0,BonusActionPoint),ModifyUseCosts(Replace,PsiPointsResource,0,0,PsiPointsResource),ModifyUseCosts(Add,PsionicMasteryResource,1,0),ModifyUseCosts(Add,PsionicMasteryCooldown,1,0),ModifyIconGlow())"
+data "Boosts" "UnlockSpellVariant(PsionicDisciplineCheck(),ModifyUseCosts(Replace,ActionPoint,0,0,ActionPoint),ModifyUseCosts(Replace,BonusActionPoint,0,0,BonusActionPoint),ModifyUseCosts(Replace,PsiPointsResource,0,0,PsiPointsResource),ModifyUseCosts(Replace,PsiLimitResource,0,0,PsiLimitResource),ModifyUseCosts(Add,PsionicMasteryResource,1,0),ModifyUseCosts(Add,PsionicMasteryCooldown,1,0),ModifyIconGlow())"
 data "ToggleOnEffect" "VFX_Spells_Cast_Sorcerer_Metamagic_Careful_HeadFX_01:Dummy_HeadFX"
 data "ToggleOffContext" "OnCastResolved"
 // data "StatsFunctorContext" "OnCast"
