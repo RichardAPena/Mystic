@@ -23,7 +23,7 @@
         <node id="root">
             <children>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Action_Mystic_AcidSprayAction_Mystic_AcidSpray"/> 1
+                    <attribute id="MapKey" type="FixedString" value="Action_Mystic_AcidSpray"/> 1
                     <attribute id="U1" type="float" value="0.0"/> Left
                     <attribute id="U2" type="float" value="0.03125"/> Right
                     <attribute id="V1" type="float" value="0.0"/> Top
@@ -1388,35 +1388,35 @@
                     <attribute id="V2" type="float" value="0.21875"/> Bottom
                 </node>		
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Passive_Mystic_PsionicSurge"/> 196 ROW 7 = 4
+                    <attribute id="MapKey" type="FixedString" value="Passive_Mystic_PsionicStrike"/> 196 ROW 7 = 4
                     <attribute id="U1" type="float" value="0.09375"/> Left
                     <attribute id="U2" type="float" value="0.125"/> Right
                     <attribute id="V1" type="float" value="0.1875"/> Top
                     <attribute id="V2" type="float" value="0.21875"/> Bottom
                 </node>	
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Passive_Mystic_SuperiorTeleportation"/> 197 ROW 7 = 5
+                    <attribute id="MapKey" type="FixedString" value="Passive_Mystic_PsionicSurge"/> 197 ROW 7 = 5
                     <attribute id="U1" type="float" value="0.125"/> Left
                     <attribute id="U2" type="float" value="0.15625"/> Right
                     <attribute id="V1" type="float" value="0.1875"/> Top
                     <attribute id="V2" type="float" value="0.21875"/> Bottom
                 </node>		
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Passive_Mystic_SurgeOfHealth"/> 198 ROW 7 = 6
+                    <attribute id="MapKey" type="FixedString" value="Passive_Mystic_SuperiorTeleportation"/> 198 ROW 7 = 6
                     <attribute id="U1" type="float" value="0.15625"/> Left
                     <attribute id="U2" type="float" value="0.1875"/> Right
                     <attribute id="V1" type="float" value="0.1875"/> Top
                     <attribute id="V2" type="float" value="0.21875"/> Bottom
                 </node>		
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Passive_Mystic_Telepathy"/> 199 ROW 7 = 7
+                    <attribute id="MapKey" type="FixedString" value="Passive_Mystic_SurgeOfHealth"/> 199 ROW 7 = 7
                     <attribute id="U1" type="float" value="0.1875"/> Left
                     <attribute id="U2" type="float" value="0.21875"/> Right
                     <attribute id="V1" type="float" value="0.1875"/> Top
                     <attribute id="V2" type="float" value="0.21875"/> Bottom
                 </node>	
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icon_"/> 200 ROW 7 = 8
+                    <attribute id="MapKey" type="FixedString" value="Passive_Mystic_Telepathy"/> 200 ROW 7 = 8
                     <attribute id="U1" type="float" value="0.21875"/> Left
                     <attribute id="U2" type="float" value="0.25"/> Right
                     <attribute id="V1" type="float" value="0.1875"/> Top

@@ -39,14 +39,13 @@ data "TargetEffect" "50bedaff-dd03-43bf-a7aa-4b9bef9eeb4e"
 data "SpellAnimationType" "Telekinesis"
 
 // Move
-// TODO:
 new entry "Throw_Mystic_Move"
 type "SpellData"
 data "SpellType" "Throw"
 using "Throw_Throw"
 data "Level" "5"
 
-data "Icon" "PassiveFeature_AgonizingBlast"
+data "Icon" "Action_Mystic_Move"
 data "DisplayName" "h13b67091gc5b9g45a6g8daag1c23f5d24516"
 data "Description" "h64b9f99cg200bg4085g96c7gd94c9160f410"
 data "DescriptionParams" ""

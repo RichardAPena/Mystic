@@ -5,7 +5,7 @@ data "SpellType" "Rush"
 using "Rush_Rush"
 data "Level" "5"
 
-data "Icon" "Action_LightningAura"
+data "Icon" "Action_Mystic_LightningLeap"
 data "DisplayName" "hd4d177ffg93beg48a1gac30g6cf4dde24fa4"
 data "Description" "ha7e0bbf8g5d10g4a3bg93d4ged95c225fe28"
 data "DescriptionParams" ""
