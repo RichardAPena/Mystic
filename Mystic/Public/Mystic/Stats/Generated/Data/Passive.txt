@@ -426,8 +426,6 @@ data "Properties" "IsHidden;OncePerLongRest"
 data "StatsFunctorContext" "OnHealed;OnMove;OnActionResourcesChanged;OnTurn"
 data "StatsFunctors" "RestoreResource(PsiPointsResource,71,0)"
 
-
-
 // Telepathy
 new entry "Passive_Mystic_Telepathy"
 type "PassiveData"
@@ -437,17 +435,13 @@ data "Icon" "Passive_Mystic_Telepathy"
 data "Boosts" "Tag(DETECTTHOUGHTS)"
 
 // Mystical Recovery
-// Shouldn't trigger on "real" spells now
-// Still need a check for if the spell has any spell school
 new entry "Passive_Mystic_MysticalRecovery"
 type "PassiveData"
 data "DisplayName" "h9056fee7g112dg4688g9c65g54a5e5ab47f6"
 data "Description" "h63f5ec13ga44bg4706ga3cfgbb3655936380"
 data "Icon" "Action_Mystic_MysticalRecovery"
 data "StatsFunctorContext" "OnCast;OnActionResourcesChanged"
-// data "Conditions" "IsSpell() and not IsCantrip()"
-data "Conditions" "IsSpell() and not IsCantrip() and not PsychicFocusCheck()"
-// data "Conditions" "IsSpell() and not IsCantrip() and not IsSpellSchool(SpellSchool.Abjuration) and not IsSpellSchool(SpellSchool.Conjuration) and not IsSpellSchool(SpellSchool.Divination) and not IsSpellSchool(SpellSchool.Enchantment) and not IsSpellSchool(SpellSchool.Evocation) and not IsSpellSchool(SpellSchool.Illusion) and not IsSpellSchool(SpellSchool.Necromancy) and not IsSpellSchool(SpellSchool.Transmutation)"
+data "Conditions" "IsSpell() and not IsCantrip() and not PsychicFocusCheck() and PsionicDisciplineCheck()"
 data "StatsFunctors" "ApplyStatus(SELF,MYSTIC_MYSTICAL_RECOVERY,100,1)"
 
 // Strength of Mind

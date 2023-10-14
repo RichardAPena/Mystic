@@ -551,7 +551,7 @@
 	<content contentuid="hc368b59cge415g42edgbe39geeff76042387" version="1">Augment your own physical ability, gaining a +[1] bonus to Strength &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt; until the end of your next turn.</content>
 	<content contentuid="h9a1b3edbg95a8g46f7g885bg002faf873cd4" version="1">+[1] to Strength &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="he2dc5c7ag3db0g49ffg9fdfg1c5c723828ea" version="1">Rapid Step</content>
-	<content contentuid="h93834a62gf596g4d23gb77eg75b87e6da5ef" version="1">Quicken your steps, increase your movement speed by [1].</content>
+	<content contentuid="h93834a62gf596g4d23gb77eg75b87e6da5ef" version="1">Quicken your steps, increasing your movement speed by [1].</content>
 	<content contentuid="hb49b15c7g6a51g4d26gb8deg7f62cf87868b" version="1">Movement speed increased by [1].</content>
 	<content contentuid="h82154629g17e8g4708gabe7g4920a2d720b2" version="1">Agile Defense</content>
 	<content contentuid="hd138bd18g1d2cg413dg9d51gc13771fdc2f0" version="1">Improve your reflexes, gaining &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; and imposing &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on incoming attacks.</content>
@@ -927,7 +927,8 @@
 	<content contentuid="h8811fab1g5c9dg4c03ga4b1g8a4aead193fd" version="1">Spend [1] Psi Points to unlock a level [2] &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt;.</content>
 	<content contentuid="h27717c53g925ag4422g990dg46f6ca77105d" version="1">Increases distance by an additional [1] per level.</content>
 	<content contentuid="h40a2d4caga1f5g4f1ega800g09de58581389" version="1">Deals an additional [1] and increases distance by an additional [2] per level.</content>
-
+	<content contentuid="hdbd6d5ceg3b18g49c4ga009g38f233edbe52" version="1">Only one Psychic Focus may be active at a time.</content>
+	
 	<content contentuid="" version="1"> </content>
 	<content contentuid="" version="1"> </content>
 	<content contentuid="" version="1"> </content>

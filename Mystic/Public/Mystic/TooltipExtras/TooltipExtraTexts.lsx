@@ -7,7 +7,12 @@
                 <node id="TooltipExtraTexts">
                     <attribute id="Text" type="TranslatedString" handle="h3ef06455gfb79g448egb84dgd970cb657bc4" version="2"/>
                     <attribute id="UUID" type="guid" value="ca9da2ff-3b94-4653-aa11-621aa7987200"/>
-                </node>      
+                </node>
+                <node id="TooltipExtraTexts">
+                    <attribute id="Text" type="TranslatedString" handle="hdbd6d5ceg3b18g49c4ga009g38f233edbe52" version="2"/>
+                    <attribute id="UUID" type="guid" value="f1178ed8-c5ce-4766-85a3-ab0681aa049b"/>
+                </node>
+                
             </children>
         </node>
     </region>
