@@ -587,7 +587,7 @@
 	<content contentuid="hf76d9a28g6d3bg4896g9fe0g26e441cd2fe7" version="1">Grow in size, gaining [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;. Melee weapon attacks will deal an additional [2] damage and have [3] increased range.</content>
 	<content contentuid="h3e723b88g2225g473bgb035ga22f7f7b855a" version="1">Weapon attacks deal an additional [1]. Melee weapon attack range increased by [2].</content>
 	<content contentuid="h966f12fdg026bg4b43g8db7g0748c8b49c08" version="1">Giant Form</content>
-	<content contentuid="h73fdc59cgf510g4958g875eg907ec43b3143" version="1">Grow to a tremendous size gaining [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;. Melee weapon attacks will deal an additional [2] damage and have [3] increased range.</content>
+	<content contentuid="h73fdc59cgf510g4958g875eg907ec43b3143" version="1">Grow to a tremendous size, gaining [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;. Melee weapon attacks will deal an additional [2] damage and have [3] increased range.</content>
 	<content contentuid="h83e9cfffg78a2g410dga4afgc166e30ee87b" version="1">Weapon attacks deal an additional [1]. Melee weapon attack range increased by [2].</content>
 	<content contentuid="h3a5789efg2457g4ca8ga0f8gce3100d94894" version="1">Iron Hide</content>
 	<content contentuid="hc17c8044g089bg4c41g825dg242f478d8782" version="1">As a reaction, when you are hit by an attack you can harden your skin, increasing your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by 3 until the end of your next turn.</content>

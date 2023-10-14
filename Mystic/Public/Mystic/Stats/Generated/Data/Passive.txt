@@ -174,7 +174,7 @@ type "PassiveData"
 data "DisplayName" "hdeb7a5b6gbfcbg414dg8ac3g31f2a4f5f5e7"
 data "Description" "h1f75f587g5c70g4c07gbf9cgbf3c7d4279d5"
 data "Icon" ""
-data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MasteryOfForce);UnlockSpell(Target_Mystic_Push);UnlockSpell(Throw_Mystic_Move);UnlockSpell(Shout_Mystic_InertialArmor);UnlockSpell(Wall_Mystic_TelekineticBarrier);UnlockSpell(Target_Mystic_Grasp)"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MasteryOfForce);UnlockSpell(Target_Mystic_Push);UnlockSpell(Shout_Mystic_InertialArmor);UnlockSpell(Wall_Mystic_TelekineticBarrier);UnlockSpell(Target_Mystic_Grasp);UnlockSpell(Throw_Mystic_Move)"
 
 // Mastery of Ice
 new entry "Discipline_MasteryOfIce"

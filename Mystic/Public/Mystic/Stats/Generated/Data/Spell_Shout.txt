@@ -2494,11 +2494,12 @@ data "CastEffect" "0198563f-c48b-45e0-afb5-46ef9576adff"
 data "TargetEffect" "b94fcfde-d824-4e7d-b9c5-833a50b66537"
 
 // Avatar of Speed
+// TODO
 new entry "Shout_Mystic_AvatarOfSpeed"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" "Spell_Abjuration_Stoneskin"
+data "Icon" ""
 data "DisplayName" "h2f333397g29fdg45eag8006g94c8ff848ea0"
 data "Description" "h8ec97092ga28cg4010g87d6g937a3c1498a9"
 data "DescriptionParams" ""
