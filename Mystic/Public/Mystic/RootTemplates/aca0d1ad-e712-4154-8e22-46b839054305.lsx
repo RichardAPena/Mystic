@@ -61,7 +61,6 @@
 								</node>
 							</children>
 						</node>
-                        I think the stuff below is fine
 						<node id="GameMaster">
 							<attribute id="GameMasterSpawnSubSection" type="TranslatedString" handle="h5c6f4fb6gdef9g4435gba84g79501dee8f2c" version="1"/>
 						</node>

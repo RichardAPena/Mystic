@@ -613,7 +613,7 @@ data "DisplayName" "he07c3361g4749g4ea6gb302g7728bec50281"
 data "Description" "h14f88da9g40e0g4b28g92e3g7a311387e805"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 data "StackId" "PSYCHIC_FOCUS"
-data "Boosts" "IF(IsCantrip()):DamageBonus(2)"
+data "Boosts" "IF(PsionicTalentCheck()):DamageBonus(2)"
 data "StatusGroups" "SG_RemoveOnRespec"
 
 // Psychic Focus: Psychic Disruption
@@ -629,15 +629,15 @@ data "StatusGroups" "SG_RemoveOnRespec"
 
 // Psychic Focus: Psychic Suppression (Psychic Inquisition)
 // DEPRECATED
-new entry "PSYCHIC_FOCUS_PSYCHIC_SUPPRESSION"
-type "StatusData"
-data "StatusType" "BOOST"
-data "DisplayName" "h5e97d2e0g91ffg4197gaf37g61ce815a6a01"
-data "Description" "h573ce019g24e2g4afbg98fdga7098e625410"
-data "Icon" "Spell_Transmutation_Thaumaturgy"
-data "StackId" "PSYCHIC_FOCUS"
-data "Boosts" ""
-data "StatusGroups" "SG_RemoveOnRespec"
+// new entry "PSYCHIC_FOCUS_PSYCHIC_SUPPRESSION"
+// type "StatusData"
+// data "StatusType" "BOOST"
+// data "DisplayName" "h5e97d2e0g91ffg4197gaf37g61ce815a6a01"
+// data "Description" "h573ce019g24e2g4afbg98fdga7098e625410"
+// data "Icon" "Spell_Transmutation_Thaumaturgy"
+// data "StackId" "PSYCHIC_FOCUS"
+// data "Boosts" ""
+// data "StatusGroups" "SG_RemoveOnRespec"
 
 // Psychic Focus: Telepathic Subjugation (Telepathic Contact) 
 new entry "PSYCHIC_FOCUS_TELEPATHIC_SUBJUGATION"
@@ -2765,6 +2765,7 @@ data "OnApplyFunctors" "IF(Tagged('WEIGHT_SMALL')):ApplyStatus(RESILIENT_SPHERE_
 data "StatusGroups" "SG_Blinded;SG_Condition"
 data "ApplyEffect" "39044361-a2df-4730-90ca-ce37ddcbc482"
 data "StatusEffect" "5c53ef4c-bd94-4567-94c1-8b1a8cefa7e3"
+data "StatusPropertyFlags" "Blind"
 
 // Wall of Thunder
 new entry "MYSTIC_WALLOFTHUNDER"
@@ -2994,6 +2995,31 @@ data "Passives" "Passive_Mystic_AvatarOfHealing"
 data "StatusPropertyFlags" "IgnoreResting"
 data "StatusGroups" "SG_RemoveOnRespec"
 
+// Avatar of Speed
+new entry "MYSTIC_AVATAR_OF_SPEED"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h1fcff20ag758dg4fedg963eg746ce052d946"
+data "Description" "h5f20fb17g5011g4499g844fg7b338a180fb8"
+data "Icon" "Action_Mystic_AvatarOfSpeed"
+data "StackId" "MYSTIC_AVATAR_OF_SPEED"
+data "Boosts" "UnlockSpell(Shout_Dash_BonusAction)"
+data "StatusPropertyFlags" "IgnoreResting"
+data "AuraRadius" "9"
+data "AuraStatuses" "TARGET:IF(Character() and Ally() and not Self()):ApplyStatus(MYSTIC_AVATAR_OF_SPEED_BUFF)"
+data "StatusGroups" "SG_RemoveOnRespec"
+
+new entry "MYSTIC_AVATAR_OF_SPEED_BUFF"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h1fcff20ag758dg4fedg963eg746ce052d946"
+data "Description" "h5f20fb17g5011g4499g844fg7b338a180fb8"
+data "Icon" "Action_Mystic_AvatarOfSpeed"
+data "StackId" "MYSTIC_AVATAR_OF_SPEED_BUFF"
+data "Boosts" "UnlockSpell(Shout_Dash_BonusAction)"
+data "StatusPropertyFlags" "IgnoreResting"
+data "StatusGroups" "SG_RemoveOnRespec"
+
 // Psionic Investigation
 new entry "MYSTIC_PSIONIC_INVESTIGATION"
 type "StatusData"
@@ -3003,6 +3029,17 @@ data "Description" "hfd3b8cf9gcc4eg4acfgb1f7g7790973b80ae"
 data "Icon" "Action_Mystic_PsionicInvestigation"
 data "StackId" "MYSTIC_AVATAR_OF_HEALING_BUFF"
 data "Boosts" "Advantage(Skill, Investigation);Advantage(Skill, Insight);Advantage(Skill, History)"
+data "StatusGroups" "SG_RemoveOnRespec"
+
+// Spectral Form
+new entry "MYSTIC_SPECTRAL_FORM"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h6ebfd72ag14dbg4691gb7c9gde4894902fa0"
+data "Description" "h5e55b13egbd16g4b4eg9b10gc1b5a8ee639a"
+data "Icon" "Action_Mystic_SpectralForm"
+data "StackId" "MYSTIC_SPECTRAL_FORM"
+data "Boosts" "Resistance(All,Immune);ActionResourceConsumeMultiplier(Movement,2,0);MovementSpeedLimit(Walk);ActionResourceBlock(ActionPoint);ActionResourceBlock(ReactionActionPoint);ActionResourceBlock(BonusActionPoint);"
 data "StatusGroups" "SG_RemoveOnRespec"
 
 // Psionic Resilience

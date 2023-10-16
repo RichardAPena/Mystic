@@ -498,12 +498,15 @@ data "Properties" "IsToggled;ToggledDefaultAddToHotbar;MetaMagic"
 data "Boosts" "UnlockSpellVariant(PsionicDisciplineCheck(),ModifyUseCosts(Replace,ActionPoint,0,0,ActionPoint),ModifyUseCosts(Replace,BonusActionPoint,0,0,BonusActionPoint),ModifyUseCosts(Replace,PsiPointsResource,0,0,PsiPointsResource),ModifyUseCosts(Replace,PsiLimitResource,0,0,PsiLimitResource),ModifyUseCosts(Add,PsionicMasteryResource,1,0),ModifyUseCosts(Add,PsionicMasteryCooldown,1,0),ModifyIconGlow())"
 data "ToggleOnEffect" "VFX_Spells_Cast_Sorcerer_Metamagic_Careful_HeadFX_01:Dummy_HeadFX"
 data "ToggleOffContext" "OnCastResolved"
-// data "StatsFunctorContext" "OnCast"
-// data "Conditions" ""
-// data "StatsFunctors" "ApplyStatus(SELF,MYSTIC_PSIONIC_MASTERY_COOLDOWN,100,1)"
-
 
 // Psionic Body
+new entry "Passive_Mystic_PsionicBody"
+type "PassiveData"
+data "Properties" "Highlighted"
+data "DisplayName" "hfa8cb8ccg1adeg477bgbabbg3a11837278ea"
+data "Description" "hdfc5537dg7835g4d64gab34g63dfb7e8336c"
+data "Icon" "Passive_Mystic_PsionicBody"
+data "Boosts" "Resistance(Bludgeoning, Resistant);Resistance(Piercing, Resistant);Resistance(Slashing, Resistant);Resistance(Poison, Immune);StatusImmunity(SG_Disease);StatusImmunity(SG_Poisoned);"
 
 // Armor Training (Avatar)
 new entry "Passive_Mystic_ArmorTraining"

@@ -4,7 +4,7 @@
     <region id="Progressions">
         <node id="root">
             <children>
-                <node id="Progression"> Mainclass Level 1
+                <node id="Progression"> Mystic Level 1
                     <attribute id="AllowImprovement" type="bool" value="false"/>
                     <attribute id="Boosts" type="LSString" value="ActionResource(PsiPointsResource,4,0);ProficiencyBonus(SavingThrow,Intelligence);Proficiency(SimpleWeapons);Proficiency(LightArmor)"/>
                     <attribute id="Level" type="uint8" value="1"/>
@@ -197,7 +197,7 @@
 
                 <node id="Progression"> Mystic Level 11
                     <attribute id="AllowImprovement" type="bool" value="false"/>
-                    <attribute id="Boosts" type="LSString" value="ActionResource(PsionicMasteryResource,3,0);ActionResource(PsionicMasteryCooldown,1,0)"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(PsionicMasteryResource,1,0);ActionResource(PsionicMasteryCooldown,1,0)"/>
                     <attribute id="Level" type="uint8" value="11"/>
                     <attribute id="Name" type="LSString" value="Mystic"/>
                     <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_PsionicMastery"/>

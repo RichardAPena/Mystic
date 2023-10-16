@@ -1,11 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!--Generated with ShinyHobo's BG3 Modder's Multitool-->
 <save>
   <version major="4" minor="0" revision="9" build="328" />
   <region id="ClassDescriptions">
     <node id="root">
       <children>
-        <node id="ClassDescription"> Main Class
+        <node id="ClassDescription">
                     <attribute id="BaseHp" type="int32" value="8" />
                     <attribute id="CanLearnSpells" type="bool" value="false" />
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" /> 
@@ -22,15 +21,15 @@
 					<attribute id="SpellList" type="guid" value="beb9389e-24f8-49b0-86a5-e8d08b6fdc2e" />
                     <attribute id="UUID" type="guid" value="b9b47ec2-35de-43d0-9593-7bee0bf9e808" />
 					<children>
-                        <node id="Tags"> Wizard
+                        <node id="Tags">
                             <attribute id="Object" type="guid" value="6fe3ae27-dc6c-4fc9-9245-710c790c396c" />
                         </node>
-                        <node id="Tags"> Sorcerer
+                        <node id="Tags">
                             <attribute id="Object" type="guid" value="18266c0b-efbc-4c80-8784-ada4a37218d7" />
                         </node>
                     </children>
                 </node>
-        <node id="ClassDescription"> Avatar
+        <node id="ClassDescription">
                     <attribute id="CanLearnSpells" type="bool" value="false" />
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
                     <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_MYSTIC_AVATAR" />
@@ -46,7 +45,7 @@
                     <attribute id="SpellCastingAbility" type="uint8" value="4" />
                     <attribute id="UUID" type="guid" value="ad862906-2d59-46bb-86db-271213086b1b" />
                 </node>
-        <node id="ClassDescription"> Awakened
+        <node id="ClassDescription">
                     <attribute id="CanLearnSpells" type="bool" value="false" />
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
                     <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_MYSTIC_AWAKENED" />
@@ -62,7 +61,7 @@
                     <attribute id="SpellCastingAbility" type="uint8" value="4" />
                     <attribute id="UUID" type="guid" value="2985a255-24e5-43ae-bb25-301eab9e494d" />
                 </node>
-        <node id="ClassDescription"> Immortal
+        <node id="ClassDescription">
                     <attribute id="CanLearnSpells" type="bool" value="false" />
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
                     <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_MYSTIC_IMMORTAL" />
@@ -78,7 +77,7 @@
                     <attribute id="SpellCastingAbility" type="uint8" value="4" />
                     <attribute id="UUID" type="guid" value="eed23a86-6f91-4c42-b144-16751f131b06" />
                 </node>
-        <node id="ClassDescription"> Nomad
+        <node id="ClassDescription">
                     <attribute id="CanLearnSpells" type="bool" value="false" />
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
                     <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_MYSTIC_NOMAD" />
@@ -94,7 +93,7 @@
                     <attribute id="SpellCastingAbility" type="uint8" value="4" />
                     <attribute id="UUID" type="guid" value="53429775-301b-4da5-bcd2-c83ef9f15e21" />
                 </node>
-        <node id="ClassDescription"> Soul Knife
+        <node id="ClassDescription">
                     <attribute id="CanLearnSpells" type="bool" value="false" />
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
                     <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_MYSTIC_SOUL_KNIFE" />
@@ -110,7 +109,7 @@
                     <attribute id="SpellCastingAbility" type="uint8" value="4" />
                     <attribute id="UUID" type="guid" value="7c3f6d5b-194e-4af9-bc16-435a2c546d19" />
                 </node>
-        <node id="ClassDescription"> Wu Jen
+        <node id="ClassDescription">
                     <attribute id="CanLearnSpells" type="bool" value="false" />
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
                     <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_MYSTIC_WU_JEN" />

@@ -1,19 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!--Generated with ShinyHobo's BG3 Modder's Multitool-->
 <save>
   <version major="4" minor="0" revision="9" build="328" />
   <region id="SkillLists">
     <node id="root">
       <children>
-        <node id="SkillList"> Mystic Skills
+        <node id="SkillList">
                     <attribute id="Skills" type="LSString" value="Arcana, History, Insight, Medicine, Nature, Perception, Religion" />
                     <attribute id="UUID" type="guid" value="a93e9e09-6bdd-475c-b4e4-3acf69d02111" />
                 </node>
-        <node id="SkillList"> Awakened Talent
+        <node id="SkillList">
                     <attribute id="Skills" type="LSString" value="Animal Handling, Deception, Insight, Intimidation, Investigation, Perception, Persuasion" /> 
                     <attribute id="UUID" type="guid" value="d7789c63-8915-4996-80c2-6e992129ec36" />
                 </node>
-        <node id="SkillList"> Hermit's Study
+        <node id="SkillList">
                     <attribute id="Skills" type="LSString" value="Animal Handling, Arcana, History, Insight, Medicine, Nature, Perception, Religion, Survival" />
                     <attribute id="UUID" type="guid" value="617e273e-cc5e-44ea-aa33-ae38865d224f" />
                 </node>
