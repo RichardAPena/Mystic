@@ -1,0 +1,8 @@
+{
+    "RequiredVersion": 1,
+    "ModTable": "Mystic",
+    "FeatureFlags": [
+        "Osiris",
+        "Lua"
+    ]
+}

@@ -214,7 +214,7 @@ type "PassiveData"
 data "DisplayName" "hf6ead5ccg2df1g4f7agb826g9ad1f2cf9ee0"
 data "Description" "h25d5884cg40fdg4f36ga49eg16c0743e37e5"
 data "Icon" ""
-data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MasteryOfWoodAndEarth);UnlockSpell(Projectile_Mystic_AnimateWeapon);UnlockSpell(Target_Mystic_WarpWeapon);UnlockSpell(Target_Mystic_WarpArmor);UnlockSpell(Wall_Mystic_WallOfWood);UnlockSpell(Shout_Mystic_ArmoredForm);UnlockSpell(Target_Mystic_AnimateEarth)"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MasteryOfWoodAndEarth);UnlockSpell(Projectile_Mystic_AnimateWeapon);UnlockSpell(Target_Mystic_WarpWeapon);UnlockSpell(Target_Mystic_WarpArmor);UnlockSpell(Wall_Mystic_WallOfWood);UnlockSpell(Shout_Mystic_ArmoredForm);UnlockSpell(Target_Mystic_AnimateEarth);IF(SpellId('Projectile_Mystic_AnimateWeapon') or SpellId('Projectile_Mystic_AnimateWeapon_1') or SpellId('Projectile_Mystic_AnimateWeapon_2') or SpellId('Projectile_Mystic_AnimateWeapon_3') or SpellId('Projectile_Mystic_AnimateWeapon_4') or SpellId('Projectile_Mystic_AnimateWeapon_5') or SpellId('Projectile_Mystic_AnimateWeapon_6') or SpellId('Projectile_Mystic_AnimateWeapon_7')):RollBonus(Attack, IntelligenceModifier)"
 
 // Nomadic Arrow
 new entry "Discipline_NomadicArrow"
@@ -417,18 +417,53 @@ data "StatsFunctorContext" "OnAttacked"
 data "Conditions" "IsMiss() and IsMeleeAttack()"
 data "StatsFunctors" "DealDamage(SWAP,1d6,Slashing,Magical)"
 
+// Animate Weapon
+// new entry "Passive_Mystic_AnimateWeapon"
+// type "PassiveData"
+// data "Properties" "IsHidden"
+// data "Boosts" "IF(SpellId('Projectile_Mystic_AnimateWeapon') or SpellId('Projectile_Mystic_AnimateWeapon_1') or SpellId('Projectile_Mystic_AnimateWeapon_2') or SpellId('Projectile_Mystic_AnimateWeapon_3') or SpellId('Projectile_Mystic_AnimateWeapon_4') or SpellId('Projectile_Mystic_AnimateWeapon_5') or SpellId('Projectile_Mystic_AnimateWeapon_6') or SpellId('Projectile_Mystic_AnimateWeapon_7')):RollBonus(Attack, IntelligenceModifier)"
+
 // Mystic Class Features
+
+new entry "Mystic_PsiLimit_3"
+type "PassiveData"
+data "DisplayName" "h2f85bf40gf768g4d16g810bgf4a08613f265"
+data "Description" "ha24159a1g3baag43c2gb86fg6041a420118f"
+data "DescriptionParams" "3"
+data "Icon" "PassiveFeature_Generic_Magical"
+
+new entry "Mystic_PsiLimit_5"
+type "PassiveData"
+data "DisplayName" "h2f85bf40gf768g4d16g810bgf4a08613f265"
+data "Description" "ha24159a1g3baag43c2gb86fg6041a420118f"
+data "DescriptionParams" "5"
+data "Icon" "PassiveFeature_Generic_Magical"
+
+new entry "Mystic_PsiLimit_6"
+type "PassiveData"
+data "DisplayName" "h2f85bf40gf768g4d16g810bgf4a08613f265"
+data "Description" "ha24159a1g3baag43c2gb86fg6041a420118f"
+data "DescriptionParams" "6"
+data "Icon" "PassiveFeature_Generic_Magical"
+
+new entry "Mystic_PsiLimit_7"
+type "PassiveData"
+data "DisplayName" "h2f85bf40gf768g4d16g810bgf4a08613f265"
+data "Description" "ha24159a1g3baag43c2gb86fg6041a420118f"
+data "DescriptionParams" "7"
+data "Icon" "PassiveFeature_Generic_Magical"
 
 // Illithid Restoration Fix
 new entry "Passive_Mystic_IllithidFix"
 type "PassiveData"
 data "Properties" "IsHidden;OncePerLongRest"
 data "StatsFunctorContext" "OnHealed;OnMove;OnActionResourcesChanged;OnTurn"
-data "StatsFunctors" "RestoreResource(PsiPointsResource,71,0)"
+data "StatsFunctors" "RestoreResource(PsiPointsResource,71,0);RestoreResource(PsionicMasteryResource,4,0)"
 
 // Telepathy
 new entry "Passive_Mystic_Telepathy"
 type "PassiveData"
+data "Properties" "Highlighted"
 data "DisplayName" "h87f098c4g6b51g49b1g99d6g6adcb79410a3"
 data "Description" "h5530db88ga236g44ccg84d6gb8ca474aa4ef"
 data "Icon" "Passive_Mystic_Telepathy"
@@ -437,6 +472,7 @@ data "Boosts" "Tag(DETECTTHOUGHTS)"
 // Mystical Recovery
 new entry "Passive_Mystic_MysticalRecovery"
 type "PassiveData"
+data "Properties" "Highlighted"
 data "DisplayName" "h9056fee7g112dg4688g9c65g54a5e5ab47f6"
 data "Description" "h63f5ec13ga44bg4706ga3cfgbb3655936380"
 data "Icon" "Action_Mystic_MysticalRecovery"
@@ -480,9 +516,18 @@ new entry "Passive_Mystic_PsionicStrike"
 type "PassiveData"
 data "DisplayName" "h2ae84d46g9f37g45a5g988bg8b08fff62394"
 data "Description" "h547f1a60g809bg4ab3g917fgb4d015362b50"
-data "Icon" "Action_DivineStrike_Melee"
+data "Icon" "Passive_Mystic_PsionicStrike"
 data "DescriptionParams" "DealDamage(1d8,Psychic)"
 data "Boosts" "UnlockInterrupt(Interrupt_Mystic_PsionicStrike);UnlockInterrupt(Interrupt_Mystic_PsionicStrike_Critical);ActionResource(Interrupt_PsionicStrike,1,0)"
+data "ToggleGroup" "DivineStrike"
+
+new entry "Passive_Mystic_PsionicStrike2"
+type "PassiveData"
+data "DisplayName" "h2ae84d46g9f37g45a5g988bg8b08fff62394"
+data "Description" "h547f1a60g809bg4ab3g917fgb4d015362b50"
+data "Icon" "Passive_Mystic_PsionicStrike"
+data "DescriptionParams" "DealDamage(2d8,Psychic)"
+data "Boosts" "UnlockInterrupt(Interrupt_Mystic_PsionicStrike2);UnlockInterrupt(Interrupt_Mystic_PsionicStrike2_Critical);ActionResource(Interrupt_PsionicStrike,1,0)"
 data "ToggleGroup" "DivineStrike"
 
 // Psionic Mastery
@@ -491,10 +536,9 @@ type "PassiveData"
 data "DisplayName" "h621076abg5c5eg4fb2gab0fg898021c10325"
 data "Description" "ha7f7a470g6df1g4721g8873g3892e5a720f5"
 data "Icon" "Passive_Mystic_PsionicMastery"
-
 data "EnabledConditions" "HasActionResource('PsionicMasteryResource', 1, 0, false, false, context.Source) and HasActionResource('PsionicMasteryCooldown', 1, 0, false, false, context.Source)"
 data "EnabledContext" "OnCastResolved;OnLongRest;OnActionResourcesChanged"
-data "Properties" "IsToggled;ToggledDefaultAddToHotbar;MetaMagic"
+data "Properties" "IsToggled;ToggledDefaultAddToHotbar;Temporary"
 data "Boosts" "UnlockSpellVariant(PsionicDisciplineCheck(),ModifyUseCosts(Replace,ActionPoint,0,0,ActionPoint),ModifyUseCosts(Replace,BonusActionPoint,0,0,BonusActionPoint),ModifyUseCosts(Replace,PsiPointsResource,0,0,PsiPointsResource),ModifyUseCosts(Replace,PsiLimitResource,0,0,PsiLimitResource),ModifyUseCosts(Add,PsionicMasteryResource,1,0),ModifyUseCosts(Add,PsionicMasteryCooldown,1,0),ModifyIconGlow())"
 data "ToggleOnEffect" "VFX_Spells_Cast_Sorcerer_Metamagic_Careful_HeadFX_01:Dummy_HeadFX"
 data "ToggleOffContext" "OnCastResolved"
@@ -565,7 +609,18 @@ data "Properties" "Highlighted"
 data "Boosts" "UnlockInterrupt(Interrupt_Mystic_SurgeOfHealth);ActionResource(Interrupt_SurgeOfHealth,1,0)"
 
 // Immortal Will (Immortal)
-// "When you reach 0 hit points, you can spend 5 psi points to restore X hit points. Healing increases with your Mystic level and Constitution modifier."
+new entry "Passive_Mystic_ImmortalWill"
+type "PassiveData"
+data "DisplayName" "h230b15bfg1f79g41c7gbd72g5af33a09ac5e"
+data "Description" "h3280dd8bg461bg474agbebaga1486290040e"
+data "DescriptionParams" "5;RegainHitPoints(ClassLevel(Mystic)+Cause.ConstitutionModifier)"
+data "Icon" "Passive_Mystic_ImmortalWill"
+data "EnabledConditions" "HasActionResource('PsiPointsResource', 5, 0, false, false, context.Source)"
+data "EnabledContext" "OnCastResolved;OnLongRest;OnActionResourcesChanged"
+data "Properties" "IsToggled;ToggledDefaultAddToHotbar;Highlighted"
+data "StatsFunctorContext" "OnTurn"
+data "Conditions" "HasHPLessThan(1) and Self()"
+data "StatsFunctors" "RegainHitPoints((ClassLevel(Mystic)+Cause.ConstitutionModifier));RestoreResource(SELF,PsiPointsResource,-5,0)"
 
 // Breadth of Knowledge
 new entry "Passive_Mystic_BreadthOfKnowledge"
@@ -596,10 +651,6 @@ data "Icon" "Passive_Mystic_SuperiorTeleportation"
 data "Properties" "Highlighted"
 data "Boosts" "UnlockSpellVariant(SuperiorTeleportationCheck(), ModifyTargetRadius(AdditiveBase, 3))"
 
-// Effortless Journey? (Nomad)
-// - This might just be an action
-// "Using your movement speed, teleport."
-
 // Martial Training (Soul Knife)
 new entry "Passive_Mystic_MartialTraining"
 type "PassiveData"
@@ -618,6 +669,15 @@ data "Properties" "Highlighted"
 data "StatsFunctorContext" "OnDamage"
 data "Conditions" "HasHPLessThan(1) and Enemy() and Character()"
 data "StatsFunctors" "RestoreResource(SELF,PsiPointsResource,2,0)"
+
+// Phantom Knife
+// DEPRECATED
+// new entry "Passive_Mystic_PhantomKnife"
+// type "PassiveData"
+// data "DisplayName" "h8d0bf788g31abg4363gbf7aga7d8808812c3"
+// data "Description" "h6ab7fdc0g0cd9g4243gb861g598147185b0d"
+// data "Properties" "Highlighted"
+// data "Boosts" "IF(SpellId('Target_Mystic_PhantomKnife')):RollBonus(Attack, (context.Target.ArmorClass)-10)"
 
 // Elemental Attunement (Wu Jen)
 new entry "Passive_Mystic_ElementalAttunement"
@@ -645,3 +705,10 @@ data "StatsFunctorContext" "OnActionResourcesChanged"
 // data "StatsFunctors" "RestoreResource(SELF,SpellSlot,-1,3)"
 
 // Elemental Mastery (Wu Jen)
+new entry "Passive_Mystic_ElementalMastery"
+type "PassiveData"
+data "DisplayName" "h4c335a3dg418fg4969g8805gdd998c49b6b3"
+data "Description" "hacfe3897gb287g43e9ga64bga732447e955f"
+data "Icon" "Passive_Mystic_ElementalMastery"
+data "Properties" "Highlighted"
+data "Boosts" "UnlockInterrupt(Interrupt_Mystic_ElementalMastery)"

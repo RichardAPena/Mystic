@@ -5,65 +5,70 @@
     <node id="root">
       <children>
         <node id="SpellList">
-                    <attribute id="Comment" type="LSString" value="Psionic Talents" />
-                    <attribute id="Spells" type="LSString" value="Shout_Mystic_Beacon;Shout_Mystic_BladeMeld;Shout_Mystic_LightStep;Target_Mystic_BlindSpot;Target_Mystic_Delusion;Target_Mystic_MindMeld;Target_Mystic_MindSlam;Target_Mystic_MindThrust;Target_Mystic_MysticCharm;Target_Mystic_PsychicHammer;Projectile_Mystic_EnergyBeam;Throw_Mystic_MysticHand" />
-                    <attribute id="UUID" type="guid" value="7b64aaca-d5e5-4555-9df3-a19bb13b5008" />
-                </node>
+          <attribute id="Comment" type="LSString" value="Psionic Talents" />
+          <attribute id="Spells" type="LSString" value="Shout_Mystic_Beacon;Shout_Mystic_BladeMeld;Shout_Mystic_LightStep;Target_Mystic_BlindSpot;Target_Mystic_Delusion;Target_Mystic_MindMeld;Target_Mystic_MindSlam;Target_Mystic_MindThrust;Target_Mystic_MysticCharm;Target_Mystic_PsychicHammer;Projectile_Mystic_EnergyBeam;Throw_Mystic_MysticHand" />
+          <attribute id="UUID" type="guid" value="7b64aaca-d5e5-4555-9df3-a19bb13b5008" />
+        </node>
         <node id="SpellList">
-                    <attribute id="Comment" type="LSString" value="Strength of Mind" />
-                    <attribute id="Spells" type="LSString" value="Shout_Mystic_StrengthOfMind" />
-                    <attribute id="UUID" type="guid" value="6dc0e475-1f9b-4965-8af4-39cacb022285" />
-                </node>
+          <attribute id="Comment" type="LSString" value="Strength of Mind" />
+          <attribute id="Spells" type="LSString" value="Shout_Mystic_StrengthOfMind" />
+          <attribute id="UUID" type="guid" value="6dc0e475-1f9b-4965-8af4-39cacb022285" />
+        </node>
         <node id="SpellList">
-                    <attribute id="Comment" type="LSString" value="Consumptive Power" />
-                    <attribute id="Spells" type="LSString" value="Shout_Mystic_ConsumptivePower" />
-                    <attribute id="UUID" type="guid" value="01efd68c-d6bc-4867-a558-0d264bbb07f8" />
-                </node>
+          <attribute id="Comment" type="LSString" value="Consumptive Power" />
+          <attribute id="Spells" type="LSString" value="Shout_Mystic_ConsumptivePower" />
+          <attribute id="UUID" type="guid" value="01efd68c-d6bc-4867-a558-0d264bbb07f8" />
+        </node>
         <node id="SpellList">
-                    <attribute id="Comment" type="LSString" value="Avatar Level 3 (Aura)" />
-                    <attribute id="Spells" type="LSString" value="Shout_Mystic_AvatarOfBattle" />
-                    <attribute id="UUID" type="guid" value="337a7c5d-ab33-460c-a54c-ceaa4d4e661d" />
-                </node>
+          <attribute id="Comment" type="LSString" value="Avatar of Battle (Avatar)" />
+          <attribute id="Spells" type="LSString" value="Shout_Mystic_AvatarOfBattle" />
+          <attribute id="UUID" type="guid" value="337a7c5d-ab33-460c-a54c-ceaa4d4e661d" />
+        </node>
         <node id="SpellList">
-                    <attribute id="Comment" type="LSString" value="Avatar Level 6 (Aura)" />
-                    <attribute id="Spells" type="LSString" value="Shout_Mystic_AvatarOfHealing" />
-                    <attribute id="UUID" type="guid" value="e15f5536-ab22-44d4-919b-e57c34c58f28" />
-                </node>
+          <attribute id="Comment" type="LSString" value="Avatar of Healing (Avatar)" />
+          <attribute id="Spells" type="LSString" value="Shout_Mystic_AvatarOfHealing" />
+          <attribute id="UUID" type="guid" value="e15f5536-ab22-44d4-919b-e57c34c58f28" />
+        </node>
         <node id="SpellList">
-                    <attribute id="Comment" type="LSString" value="Avatar Level 14 (Aura)" />
-                    <attribute id="Spells" type="LSString" value="" />
-                    <attribute id="UUID" type="guid" value="f63266c8-1536-4a14-b7fe-bf3734f696b3" />
-                </node>
+          <attribute id="Comment" type="LSString" value="Avatar of Speed (Avatar)" />
+          <attribute id="Spells" type="LSString" value="Shout_Mystic_AvatarOfSpeed" />
+          <attribute id="UUID" type="guid" value="f63266c8-1536-4a14-b7fe-bf3734f696b3" />
+        </node>
         <node id="SpellList">
-                    <attribute id="Comment" type="LSString" value="Psionic Investigation" />
-                    <attribute id="Spells" type="LSString" value="Shout_Mystic_PsionicInvestigation" />
-                    <attribute id="UUID" type="guid" value="d04fe056-b7c5-4df1-a1fa-2d273c502851" />
-                </node>
+          <attribute id="Comment" type="LSString" value="Psionic Investigation (Awakened)" />
+          <attribute id="Spells" type="LSString" value="Shout_Mystic_PsionicInvestigation" />
+          <attribute id="UUID" type="guid" value="d04fe056-b7c5-4df1-a1fa-2d273c502851" />
+        </node>
         <node id="SpellList">
-                    <attribute id="Comment" type="LSString" value="Breadth of Knowledge (Nomad)" />
-                    <attribute id="Spells" type="LSString" value="" />
-                    <attribute id="UUID" type="guid" value="dc3c4741-4447-4db9-9c2a-11d9eaa6e02a" />
-                </node>
+          <attribute id="Comment" type="LSString" value="Spectral Form (Awakened)" />
+          <attribute id="Spells" type="LSString" value="Shout_Mystic_SpectralForm" />
+          <attribute id="UUID" type="guid" value="ae818411-01c9-41e3-9f43-3a94537ead66" />
+        </node>
         <node id="SpellList">
-                    <attribute id="Comment" type="LSString" value="Soul Knife (Soul Knife)" />
-                    <attribute id="Spells" type="LSString" value="Shout_Mystic_SoulKnife" />
-                    <attribute id="UUID" type="guid" value="8ea7bbf2-ef4d-49f6-8b5f-a8354fd6507d" />
-                </node>
+          <attribute id="Comment" type="LSString" value="Effortless Journey (Nomad)" />
+          <attribute id="Spells" type="LSString" value="Target_Mystic_EffortlessJourney" />
+          <attribute id="UUID" type="guid" value="e628d50c-3f45-4f81-8b36-613d86ad0652" />
+        </node>
         <node id="SpellList">
-                    <attribute id="Comment" type="LSString" value="Hone the Blade (Soul Knife)" />
-                    <attribute id="Spells" type="LSString" value="Shout_Mystic_HoneTheBlade" />
-                    <attribute id="UUID" type="guid" value="b93655e3-7035-4d26-b763-f0f1625c5532" />
-                </node>
+          <attribute id="Comment" type="LSString" value="Soul Knife (Soul Knife)" />
+          <attribute id="Spells" type="LSString" value="Shout_Mystic_SoulKnife" />
+          <attribute id="UUID" type="guid" value="8ea7bbf2-ef4d-49f6-8b5f-a8354fd6507d" />
+        </node>
         <node id="SpellList">
-                    <attribute id="Comment" type="LSString" value="Phantom Knife (Soul Knife)" />
-                    <attribute id="Spells" type="LSString" value="" />
-                    <attribute id="UUID" type="guid" value="da99c3d1-27b9-4c5e-8d5b-d54f9173f7ae" />
-                </node>
+          <attribute id="Comment" type="LSString" value="Hone the Blade (Soul Knife)" />
+          <attribute id="Spells" type="LSString" value="Shout_Mystic_HoneTheBlade" />
+          <attribute id="UUID" type="guid" value="b93655e3-7035-4d26-b763-f0f1625c5532" />
+        </node>
         <node id="SpellList">
-                    <attribute id="Comment" type="LSString" value="Arcane Dabbler (Wu Jen)" />
-                    <attribute id="Spells" type="LSString" value="" />
-                    <attribute id="UUID" type="guid" value="69eb3bee-8303-44ba-917d-54c3943b1dc6" />
-                </node>
+          <attribute id="Comment" type="LSString" value="Phantom Knife (Soul Knife)" />
+          <attribute id="Spells" type="LSString" value="Target_Mystic_PhantomKnife" />
+          <attribute id="UUID" type="guid" value="da99c3d1-27b9-4c5e-8d5b-d54f9173f7ae" />
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Arcane Dabbler (Wu Jen)" />
+          <attribute id="Spells" type="LSString" value="" />
+          <attribute id="UUID" type="guid" value="69eb3bee-8303-44ba-917d-54c3943b1dc6" />
+        </node>
       </children>
     </node>
   </region>

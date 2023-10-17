@@ -513,3 +513,9 @@ function PsionicDisciplineCheck()
       | SpellId('Zone_Mystic_WaterWhip_6')
       | SpellId('Zone_Mystic_WaterWhip_7')
 end
+
+function GiantGrowthCheck()
+    return HasStringInSpellRoll('MeleeUnarmedAttack')
+      | HasStringInSpellRoll('MeleeWeaponAttack')
+      | HasStringInSpellRoll('MeleeSpellAttack')
+end

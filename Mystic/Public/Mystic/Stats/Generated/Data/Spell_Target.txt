@@ -4466,7 +4466,7 @@ data "Cooldown" "OncePerTurn"
 data "CastSound" "Spell_Cast_Utility_MistyStep_L1to3"
 data "TargetSound" "Spell_Impact_Utility_MistyStep_L1to3"
 data "CastTextEvent" "Cast"
-data "UseCosts" "Movement:Distance"
+data "UseCosts" "Movement:Distance*0.5"
 data "SpellAnimation" "dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;39daf365-ec06-49a8-81f3-9032640699d7,,;5c400e93-0266-499c-a2e1-75d53358460f,,;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;,,;,,"
 data "VerbalIntent" "Utility"
 data "SpellFlags" "HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold"
@@ -4478,6 +4478,9 @@ data "CastEffect" "71859b27-bdda-44c3-8c65-7f142a1a2f60"
 // Phantom Knife
 new entry "Target_Mystic_PhantomKnife"
 using "Target_MainHandAttack"
+data "Icon" "Action_Mystic_PhantomKnife"
+data "DisplayName" "h8d0bf788g31abg4363gbf7aga7d8808812c3"
+data "Description" "h6ab7fdc0g0cd9g4243gb861g598147185b0d"
 data "SpellProperties" "GROUND:DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);GROUND:ExecuteWeaponFunctors(MainHand);"
 // Something like this?
 // TODO

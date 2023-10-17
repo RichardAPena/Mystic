@@ -15,14 +15,22 @@
 	<content contentuid="h641eac2bge475g420cg8367g928983c21a80" version="1">Wu Jen Disciplines</content>
 	<content contentuid="h1aeab2c8gae62g4905g976dg7fb97479f6b0" version="1">Select two additional Psionic Disciplines that are specific to disciples of the Order of the Wu Jen.</content>
 	<content contentuid="hfbba16d5gd122g46b3gbda7gc03e7cc09bed" version="1">Psi Points are spent on Psionic Disciplines. The amount of points you can spend at once depends on your Mystic level.</content>
+	<content contentuid="hc3e9b635g59c4g4fe6gaba2g2bf6159f1394" version="1">You gain [3] Psi Point(s), which are restored on a &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Psi Points are spent on Psionic Disciplines. The amount of points you can spend at once depends on your Mystic level.</content>
 	<content contentuid="heeb074ebga0e0g459dgb417g87158e793ab2" version="1">Psi Point(s)</content>
+
 	<content contentuid="h4279b7e2g21b4g4891gba54gd134afe1cd53" version="1">Determines how many Psi Points you can spend at once. Increases with Mystic level.</content>
 	<content contentuid="hff30d4d9g035bg48d6gb340g07ef63328b5d" version="1">You can spend additional Psi Points to increase this spell's potency.</content>
 	<content contentuid="hd44f7002g8382g4663g89f3g88a18f0791bf" version="1">Psi Limit</content>
+
 	<content contentuid="h967a52b9g432ag4290g8b17g216c46ac45d9" version="1">Psi Limit raised to 3</content>
 	<content contentuid="hdd48efa6g225cg4fe9ga0d1gdc46eae0d739" version="1">Psi Limit raised to 5</content>
 	<content contentuid="hb4c95b5bg4e36g46b6g8ea4g57b54e754033" version="1">Psi Limit raised to 6</content>
 	<content contentuid="h1f60ff81gca80g4631gaafbg5452c5922f64" version="1">Psi Limit raised to 7</content>
+
+	<content contentuid="h2f85bf40gf768g4d16g810bgf4a08613f265" version="1">Psi Limit Increased</content>
+	<content contentuid="ha24159a1g3baag43c2gb86fg6041a420118f" version="1">The amount of Psi Points you can spend at once is increased to [1].</content>
+	
+
 	<content contentuid="h50a4b569gc8f8g4d05g85c2g5c039ffcb237" version="1">Using their inner, psychic strength, mystics can read minds, fade into invisibility, transform their bodies into living iron, and seize control of the physical world and bend it to their will.</content>
 	<content contentuid="hb4bc9f84gaefbg4844g9597gd48f569a35db" version="1">Mystic</content>
 	<content contentuid="h31fd1f11g371eg4779gad70gdd7b6130470a" version="1">The Order of the Avatar focuses on manipulating emotion, rallying allies and crippling foes.</content>
@@ -274,6 +282,8 @@
 	<content contentuid="h98643e69g2072g44eagae0ag594b75277bfd" version="1">Can see in the dark up to [1]</content>
 	<content contentuid="h7d11c5f8g2dc2g47c6ga64bgc7433df4bba2" version="1">Beacon</content>
 	<content contentuid="haa9ee987g1bd1g402dg92b9g8d99e1c7d9d3" version="1">Infuse yourself with light.</content>
+	<content contentuid="hdc4bb938g0210g48acgb9bbg06cdc40c9c34" version="1">Beacon: Dismiss</content>
+	<content contentuid="heaee50fdg350dg4600g907cgec24eec3e742" version="1">Remove the Beacon status effect.</content>
 	<content contentuid="h36e02f3agba47g4e95g8a0eg9148c31332ca" version="1">Infused with light.</content>
 	<content contentuid="h0cdc84a9gaafag4ecag9c13g96d60ca628f6" version="1">Blade Meld</content>
 	<content contentuid="h0cad1e6eg02c0g44aag941egbaf5b084f27a" version="1">Your weapon becomes one with your hand, preventing you from being &lt;LSTag Type="Status" Tooltip="DISARMED"&gt;Disarmed&lt;/LSTag&gt;.</content>
@@ -793,7 +803,7 @@
 	<content contentuid="h9056fee7g112dg4688g9c65g54a5e5ab47f6" version="1">Mystical Recovery</content>
 	<content contentuid="h63f5ec13ga44bg4706ga3cfgbb3655936380" version="1">After spending Psi Points, you can spend a bonus action to regain hit points equal 1 + half your Mystic level.</content>
 	<content contentuid="h58c34810g9a69g4c2fg8ccfg3b99b047b4dc" version="1">Able to cast Mystical Recovery, regaining [1].</content>
-	<content contentuid="h32ee756eg1530g47d2gbef1gd45be73fc52a" version="1">Regain [1] hit points.</content>
+	<content contentuid="h32ee756eg1530g47d2gbef1gd45be73fc52a" version="1">Regain [1].</content>
 	<content contentuid="h009eccfcg8069g4923gb7ffgcb7dd0bab171" version="1">Strength of Mind</content>
 	<content contentuid="h3e8253e1ge8f3g4516gb155gdb4f911f0ddf" version="1">Gain Profiency in a &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; of your choice.</content>
 	<content contentuid="h8e4e8f0agfe6cg4affgbff9gb939c80d459f" version="1">Gain Proficiency in Strength &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
@@ -818,6 +828,8 @@
 	<content contentuid="ha7f7a470g6df1g4721g8873g3892e5a720f5" version="1">Allows you to cast a psionic discipline as a free action, and without spending any Psi Points. Expends a Psionic Mastery charge and can only be used once per turn.</content>
 	<content contentuid="h9bd36667gb0dag4d6fgb6c8g322be0b447a2" version="1">Psionic Mastery Charge(s)</content>
 	<content contentuid="h10ea8b5fg81e0g4971g840dg26c8f8d01860" version="1">Allows you to activate Psionic Mastery, removing all costs from psionic disciplines.</content>
+	<content contentuid="h6133a5aagaea8g4e3eg8acdgecf6567b4e4a" version="1">Psionic Mastery Charge</content>
+	<content contentuid="h22269efeg7142g44cfgaf11gba35c2ee6c69" version="1">Psionic Mastery charges can be used to activate Psionic Mastery once per turn, allowing you to cast a psionic discipline for free.</content>
 	<content contentuid="hfa8cb8ccg1adeg477bgbabbg3a11837278ea" version="1">Psionic Body</content>
 	<content contentuid="hdfc5537dg7835g4d64gab34g63dfb7e8336c" version="1">Your mastery of psionic power causes your mind to transcend the body. Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Bludgeoning, Piercing and Slashing damage, as well as &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; to Poison damage. You become immune to being diseased or &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisoned&lt;/LSTag&gt;.</content>
 	<content contentuid="h73c12dd2gef0ag4f02g9b52g4cd9336023b0" version="1">Armour Training</content>
@@ -846,8 +858,8 @@
 	<content contentuid="h0fb6ae80ge747g4fffg9409gb7fa6353d523" version="1">Gain [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;.</content>
 	<content contentuid="h56cb35d0g56f3g4098g8d58gbdab90b41a46" version="1">Surge of Health</content>
 	<content contentuid="h29c97f6dg93efg4497g9f86gdcf3a6ecaa0e" version="1">As a reaction, halve incoming damage. Usable once per Short or Long Rest.</content>
-	<content contentuid="" version="1">Immortal Will</content>
-	<content contentuid="" version="1">While downed, you can spend Psi Points to regain [1] hit points.</content>
+	<content contentuid="h230b15bfg1f79g41c7gbd72g5af33a09ac5e" version="1">Immortal Will</content>
+	<content contentuid="h3280dd8bg461bg474agbebaga1486290040e" version="1">When your hit points are reduced to 0, automatically spend [1] Psi Points to regain [2]. Can be toggled on or off.</content>
 	<content contentuid="h91b43ea0g8a4cg406cg8809gb21958563387" version="1">Breadth of Knowledge</content>
 	<content contentuid="he1fa0398g08fcg459bgade7ge5b41ca5f15f" version="1">Your vast and varied experience grants you a +1 bonus to all Skills.</content>
 	<content contentuid="h6572d753g277fg4e06ga35bgb9df9f0d9c69" version="1">Memory of One Thousand Steps</content>
@@ -877,8 +889,8 @@
 	<content contentuid="h9fbe9405g92f5g45aaga300ge34880afa709" version="1">+[1] to &lt;LSTag Tooltip="AttackRoll"&gt;Attack&lt;/LSTag&gt; and Damage Rolls.</content>
 	<content contentuid="h5865a518g1703g4875gbae9g637cc7d3126b" version="1">Consumptive Knife</content>
 	<content contentuid="hac405107geb31g41a9gadafgc7c1e4414996" version="1">Restore 2 Psi Points after reducing an enemy to 0 hit points.</content>
-	<content contentuid="" version="1">Phantom Knife</content>
-	<content contentuid="" version="1">Perform a melee weapon attack against a creature, treating their &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; as 10.</content>
+	<content contentuid="h8d0bf788g31abg4363gbf7aga7d8808812c3" version="1">Phantom Knife</content>
+	<content contentuid="h6ab7fdc0g0cd9g4243gb861g598147185b0d" version="1">Perform a melee weapon attack against a creature, treating their &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; as 10.</content>
 	<content contentuid="h4f2b9252g0aebg4086gad50g7fc336859005" version="1">Elemental Attunement</content>
 	<content contentuid="he04500b3g2ca8g4705g8da0g41bd6ca90872" version="1">Once per turn as a free action, you can choose an element and ignore creatures' &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to that element until the end of your turn.</content>
 	<content contentuid="h98300e6fgf3cdg4009g91f3g2c0aef6d002d" version="1">Choose an element and ignore creatures' &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to it when dealing damage.</content>
@@ -922,34 +934,34 @@
 	<content contentuid="h489a4028g39b0g4b25g88b1g5fb669da9989" version="1">Create Spell Slot: Level 4</content>
 	<content contentuid="h395f3de4g7337g4046g95b2gac5963ebbb35" version="1">Create Spell Slot: Level 5</content>
 	<content contentuid="h8811fab1g5c9dg4c03ga4b1g8a4aead193fd" version="1">Spend [1] Psi Points to unlock a level [2] &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt;.</content>
-	<content contentuid="" version="1">Elemental Mastery</content>
-	<content contentuid="" version="1">As a reaction, you can become &lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to incoming damage until the end of your next turn if you are &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to it.</content>
-	<content contentuid="" version="1">Elemental Mastery: Bludgeoning</content>
-	<content contentuid="" version="1">Elemental Mastery: Piercing</content>
-	<content contentuid="" version="1">Elemental Mastery: Slashing</content>
-	<content contentuid="" version="1">Elemental Mastery: Acid</content>
-	<content contentuid="" version="1">Elemental Mastery: Cold</content>
-	<content contentuid="" version="1">Elemental Mastery: Fire</content>
-	<content contentuid="" version="1">Elemental Mastery: Force</content>
-	<content contentuid="" version="1">Elemental Mastery: Lightning</content>
-	<content contentuid="" version="1">Elemental Mastery: Necrotic</content>
-	<content contentuid="" version="1">Elemental Mastery: Poison</content>
-	<content contentuid="" version="1">Elemental Mastery: Psychic</content>
-	<content contentuid="" version="1">Elemental Mastery: Radiant</content>
-	<content contentuid="" version="1">Elemental Mastery: Thunder</content>
-	<content contentuid="" version="1">&lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to Bludgeoning damage.</content>
-	<content contentuid="" version="1">&lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to Piercing damage.</content>
-	<content contentuid="" version="1">&lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to Slashing damage.</content>
-	<content contentuid="" version="1">&lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to Acid damage.</content>
-	<content contentuid="" version="1">&lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to Cold damage.</content>
-	<content contentuid="" version="1">&lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to Fire damage.</content>
-	<content contentuid="" version="1">&lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to Force damage.</content>
-	<content contentuid="" version="1">&lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to Lightning damage.</content>
-	<content contentuid="" version="1">&lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to Necrotic damage.</content>
-	<content contentuid="" version="1">&lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to Poison damage.</content>
-	<content contentuid="" version="1">&lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to Psychic damage.</content>
-	<content contentuid="" version="1">&lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to Radiant damage.</content>
-	<content contentuid="" version="1">&lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to Thunder damage.</content>
+	<content contentuid="h4c335a3dg418fg4969g8805gdd998c49b6b3" version="1">Elemental Mastery</content>
+	<content contentuid="hacfe3897gb287g43e9ga64bga732447e955f" version="1">As a reaction, you can become &lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to incoming damage until the end of your next turn if you are &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to it.</content>
+	<content contentuid="hb9447f46g039cg476agb17cg9df7c65f9dfd" version="1">Elemental Mastery: Bludgeoning</content>
+	<content contentuid="ha2c7f480g8435g4052ga54age88ef1355e05" version="1">Elemental Mastery: Piercing</content>
+	<content contentuid="hcef36d65g8ca5g4bbdg88b0g2c02e30e83c5" version="1">Elemental Mastery: Slashing</content>
+	<content contentuid="he8e0cf20g4957g42e4ga879g71cc825c7f13" version="1">Elemental Mastery: Acid</content>
+	<content contentuid="hfb8c9bc9gd6eeg4d70g9305g729cf42d4f4f" version="1">Elemental Mastery: Cold</content>
+	<content contentuid="h66ca562eg3a3fg444bg878cg2400f14a85ca" version="1">Elemental Mastery: Fire</content>
+	<content contentuid="hd5b14acdg27f3g45e4g9624g024ff08eda62" version="1">Elemental Mastery: Force</content>
+	<content contentuid="h4910d529geb9ag46f8gb9f3g6357f710ee7b" version="1">Elemental Mastery: Lightning</content>
+	<content contentuid="h7d2afa36gbd44g4f0bg9f5bg80d50021b0de" version="1">Elemental Mastery: Necrotic</content>
+	<content contentuid="h604d4891g62b8g4359g8d21g43fff48e1504" version="1">Elemental Mastery: Poison</content>
+	<content contentuid="h4ae7700eg02ffg4375gac4cg3ebc4b00cc18" version="1">Elemental Mastery: Psychic</content>
+	<content contentuid="h2a7e5f84g9872g401cgaba7gb79e7aa3675c" version="1">Elemental Mastery: Radiant</content>
+	<content contentuid="h274ca05cg9c69g475fgb039gceb85eb073d6" version="1">Elemental Mastery: Thunder</content>
+	<content contentuid="ha4e1a87dg50d2g467fg83a0g4d84fb3234ff" version="1">&lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to Bludgeoning damage.</content>
+	<content contentuid="h43b7c7b5gab84g4734g992cgb07223bd3144" version="1">&lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to Piercing damage.</content>
+	<content contentuid="h3a0ee418ge49cg4c5agbb6fgb2ded5d91612" version="1">&lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to Slashing damage.</content>
+	<content contentuid="h11fc6e03g8c82g4808ga0cegd05b18410d83" version="1">&lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to Acid damage.</content>
+	<content contentuid="h340fc4deg1af7g425ega871g59f91bb190f1" version="1">&lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to Cold damage.</content>
+	<content contentuid="hc331d24cgfd24g402eg9fc6g4fb2712bb216" version="1">&lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to Fire damage.</content>
+	<content contentuid="hf81be7e7gd1cbg431ega0b0g6d59c5c11196" version="1">&lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to Force damage.</content>
+	<content contentuid="h99f60eb0g9af6g4904gb387g042515b6fc4e" version="1">&lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to Lightning damage.</content>
+	<content contentuid="h74059e6cga6d1g4dbbg9b45ge778827c877c" version="1">&lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to Necrotic damage.</content>
+	<content contentuid="hc77fcf5fge33cg4d14g9829g5a73ca798cc2" version="1">&lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to Poison damage.</content>
+	<content contentuid="h44c2d871g0444g48cdgb241gab373254719c" version="1">&lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to Psychic damage.</content>
+	<content contentuid="h3607fa9bg8285g49afg9eabgf62fff40a34d" version="1">&lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to Radiant damage.</content>
+	<content contentuid="heeaa6859gaf86g4a11g9306g399ae54f14f8" version="1">&lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to Thunder damage.</content>
 	<content contentuid="h27717c53g925ag4422g990dg46f6ca77105d" version="1">Increases distance by an additional [1] per level.</content>
 	<content contentuid="h40a2d4caga1f5g4f1ega800g09de58581389" version="1">Deals an additional [1] and increases distance by an additional [2] per level.</content>
 	<content contentuid="hdbd6d5ceg3b18g49c4ga009g38f233edbe52" version="1">Only one Psychic Focus may be active at a time.</content>	
