@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="a7d712cb-e693-4569-96de-40542fc2c8bc" />
+					<attribute id="Name" type="LSString" value="WPN_Mystic_Gandiva" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="a46173b7-afd6-48e0-9c76-817acd027574" />
+					<attribute id="VisualTemplate" type="FixedString" value="7a9b6832-f395-edd6-0ec9-9e83f95acf64" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h300a05a7g3d06g453cg9f25g3f1b8a4e0ad6" version="2" />
+					<attribute id="Stats" type="FixedString" value="WPN_Mystic_Gandiva" />
+					<attribute id="Description" type="TranslatedString" handle="h319f0443g3f22g4240gac96gf699a36c5464" version="1" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="MAG_MELEE_CASTER_BOON" />
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="MAG_SMALL_CREATURE_SLAYER_BLESS" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -519,3 +519,7 @@ function GiantGrowthCheck()
       | HasStringInSpellRoll('MeleeWeaponAttack')
       | HasStringInSpellRoll('MeleeSpellAttack')
 end
+
+function SpellPowerLevelEqualOrGreaterThan(value)
+    return ConditionResult(context.HitDescription.SpellPowerLevel >= value)
+end

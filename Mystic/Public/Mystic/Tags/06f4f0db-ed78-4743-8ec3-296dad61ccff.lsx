@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="58" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="Using their inner, psychic strength, mystics can read minds, fade into invisibility, transform their bodies into living iron, and seize control of the physical world and bend it to their will." />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="h50a4b569gc8f8g4d05g85c2g5c039ffcb237" version="1" />
+			<attribute id="DisplayName" type="TranslatedString" handle="hb4bc9f84gaefbg4844g9597gd48f569a35db" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="MYSTIC" />
+			<attribute id="UUID" type="guid" value="06f4f0db-ed78-4743-8ec3-296dad61ccff" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Code" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Dialog" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Class" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="CharacterSheet" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

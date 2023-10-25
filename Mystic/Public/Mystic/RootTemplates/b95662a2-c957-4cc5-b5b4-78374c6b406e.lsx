@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="319" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h936b705bgee4fg4a22g930dg1c050175ab03" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h9e907ed3g82d2g4de3g81e2gcc5292667b38" version="2" />
+					<attribute id="Icon" type="FixedString" value="Item_MAG_PHB_ofPower_Pearl_Amulet" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="b95662a2-c957-4cc5-b5b4-78374c6b406e" />
+					<attribute id="Name" type="LSString" value="ARM_Mystic_PsychicRestoration_Amulet" />
+					<attribute id="ParentTemplateId" type="FixedString" value="6b572a46-c70a-49fe-ac56-a68eb186ca9c" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="c7b51e12-3622-d78b-fe75-59ec21ec5c21" />
+					<attribute id="Stats" type="FixedString" value="ARM_Mystic_PsychicRestoration_Amulet" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="e2b62e03-a62b-b405-ef5b-e7a5eb1ae794" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="1" />
+									<attribute id="Max" type="fvec3" value="0.1684578 0.1015132 0.5180219" />
+									<attribute id="Min" type="fvec3" value="-0.1979916 -0.0006494299 -0.04256338" />
+									<attribute id="Radius" type="float" value="0.2165065" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="1" />
+									<attribute id="Max" type="fvec3" value="0.1684578 0.1015132 0.5180219" />
+									<attribute id="Min" type="fvec3" value="-0.1979916 -0.0006494299 -0.04256338" />
+									<attribute id="Radius" type="float" value="0.433013" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="1" />
+									<attribute id="Max" type="fvec3" value="0.1684578 0.1015132 0.5180219" />
+									<attribute id="Min" type="fvec3" value="-0.1979916 -0.0006494299 -0.04256338" />
+									<attribute id="Radius" type="float" value="0.433013" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

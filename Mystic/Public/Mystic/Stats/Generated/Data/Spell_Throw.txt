@@ -86,6 +86,7 @@ data "PrepareLoopSound" "Spell_Prepare_Damage_Force_Gen_L1to3_Loop"
 data "CastSound" "Spell_Cast_Damage_Force_EldritchBlast_L1to3"
 data "PrepareEffect" "cb1c210a-6674-4184-a61c-fcc172b3667e"
 data "CastEffect" "8c57a806-472f-4d78-8226-0bba510103bd"
+data "DamageType" "Force"
 
 new entry "Throw_Mystic_Move_5"
 using "Throw_Mystic_Move"

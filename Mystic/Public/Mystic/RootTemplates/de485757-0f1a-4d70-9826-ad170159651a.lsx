@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="de485757-0f1a-4d70-9826-ad170159651a" />
+					<attribute id="Name" type="LSString" value="WPN_Mystic_WanderersBow" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="a46173b7-afd6-48e0-9c76-817acd027574" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h08322327g6cb3g485cgac54g9d34807c60fc" version="2" />
+					<attribute id="Stats" type="FixedString" value="WPN_Mystic_WanderersBow" />
+                    <attribute id="Description" type="TranslatedString" handle="hbf3bbb74g458fg44f8gb964ge1607bb25d16" version="1" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="MAG_MELEE_CASTER_BOON" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

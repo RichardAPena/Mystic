@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="326" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="dde9b68c-3f9a-4a60-9a8a-aad856d40cd5" />
+					<attribute id="Name" type="LSString" value="WPN_Mystic_Longinus" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="bca0fca1-b81d-47a7-9be3-18e43a8fe626" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hfea39965gb21cg45fbg8f31g14d424f75d83" version="2" />
+					<attribute id="Icon" type="FixedString" value="Item_Quest_SCE_SeluniteSpear" /> TODO
+					<attribute id="Stats" type="FixedString" value="WPN_Mystic_Longinus" />
+					<attribute id="Description" type="TranslatedString" handle="h01cca2f9gfb2fg413cg8077g941349929699" version="1" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="MAG_MELEE_CASTER_BOON" />
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="MAG_SELUNE_SPEAR_MOONBEAM_MAGIC_ITEM" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="MAG_SELUNE_SPEAR_MOONFIRE_MAGIC_ITEM" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="319" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h87f17f14g089ag498aga052g1a388c329c06" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h001b7467g1466g46e3g89dega4d339540f89" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_MAG_Mobility_LowHP_Momentum_Ring" /> TODO
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="e91abd63-29c7-464b-a8d0-2e5482c27985" />
+					<attribute id="Name" type="LSString" value="ARM_Mystic_MentalExertion_Ring" />
+					<attribute id="ParentTemplateId" type="FixedString" value="8379218b-db3e-4ff4-a4ea-5061b183acf4" />
+					<attribute id="Stats" type="FixedString" value="ARM_Mystic_MentalExertion_Ring" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
+											<attribute id="Conditions" type="LSString" value="Tagged('REALLY_GALE', context.Source) and not Tagged('ORI_GALE_DONEWITHITEMS', context.Source)" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="StatsId" type="FixedString" value="ORI_GALE_AVATAR_CONSUMEITEM" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="7b96246c-54ba-43ea-b01d-4e0b20ad35f1" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>
