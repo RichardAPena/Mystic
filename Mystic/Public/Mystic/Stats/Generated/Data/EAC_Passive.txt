@@ -1,0 +1,15 @@
+new entry "ExtraAttack"
+type "PassiveData"
+using "ExtraAttack"
+data "Conditions" "((not context.HasContextFlag(StatsFunctorContext.OnStatusRemoved) and (ExtraAttackSpellCheck() or IsModdedExtraAttack()) and HasUseCosts('ActionPoint', true) and not Tagged('EXTRA_ATTACK_BLOCKED',context.Source) and TurnBased(context.Source)) or (context.HasContextFlag(StatsFunctorContext.OnStatusRemoved) and StatusId('INITIAL_ATTACK_TECHNICAL') and TurnBased())) and not IsModdedNonExtraAttack()"
+
+new entry "ExtraAttack_2"
+type "PassiveData"
+using "ExtraAttack_2"
+data "Conditions" "((not context.HasContextFlag(StatsFunctorContext.OnStatusRemoved) and (HasStringInSpellRoll('WeaponAttack') or HasStringInSpellRoll('UnarmedAttack') or SpellId('Target_CommandersStrike') or SpellId('Projectile_ArrowOfSmokepowder') or IsModdedExtraAttack()) and HasUseCosts('ActionPoint', true) and not Tagged('EXTRA_ATTACK_BLOCKED',context.Source) and TurnBased(context.Source)) or (context.HasContextFlag(StatsFunctorContext.OnStatusRemoved) and StatusId('INITIAL_ATTACK_TECHNICAL') and TurnBased())) and not IsModdedNonExtraAttack()"
+
+new entry "ThirstingBlade_Blade"
+type "PassiveData"
+using "ThirstingBlade_Blade"
+data "Conditions" "((not context.HasContextFlag(StatsFunctorContext.OnStatusRemoved) and (HasStringInSpellRoll('WeaponAttack') or HasStringInSpellRoll('UnarmedAttack') or SpellId('Target_CommandersStrike') or SpellId('Projectile_ArrowOfSmokepowder') or IsModdedExtraAttack()) and HasUseCosts('ActionPoint', true) and not Tagged('EXTRA_ATTACK_BLOCKED',context.Source) and TurnBased(context.Source)) or (context.HasContextFlag(StatsFunctorContext.OnStatusRemoved) and StatusId('INITIAL_ATTACK_TECHNICAL') and TurnBased())) and HasPactWeapon() and HasPassive('PactOfTheBlade',context.Source) and not IsModdedNonExtraAttack()"
+

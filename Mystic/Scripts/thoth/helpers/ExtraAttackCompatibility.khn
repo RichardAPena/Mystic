@@ -1,0 +1,15 @@
+-- Made by 3XC4L1B3R. Special thanks to Kiderion for the idea!
+local __util = require 'larian.util'
+
+-- These are used as conditions for the "ExtraAttack" PassiveData and "EXTRA_ATTACK" StatusData.
+-- Put this string somewhere in the SpellRoll field of spells which should trigger extra attack.
+-- i.e.: data "SpellRoll" " not SavingThrow(Ability.Dexterity, CalculateSpellDC(Ability.Constitution, context.Source)) and not HasStatus('ModdedExtraAttack')"
+function IsModdedExtraAttack()
+    return (HasStringInSpellRoll('ModdedExtraAttack'))
+end
+
+-- Put this string somewhere in the SpellRoll field of spells which should NOT trigger extra attack.
+function IsModdedNonExtraAttack()
+    return (HasStringInSpellRoll('ModdedNonExtraAttack'))
+end
+

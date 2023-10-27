@@ -1,0 +1,20 @@
+new entry "EXTRA_ATTACK"
+type "StatusData"
+data "StatusType" "BOOST"
+using "EXTRA_ATTACK"
+data "Boosts" "UnlockSpellVariant(ExtraAttackCheck() | IsModdedExtraAttack() & ~IsModdedNonExtraAttack(),ModifyUseCosts(Replace,ActionPoint,0,0,ActionPoint),ModifyIconGlow(),ModifyTooltipDescription())"
+data "RemoveConditions" "(ExtraAttackSpellCheck() or IsModdedExtraAttack()) and HasUseCosts('ActionPoint',false,context.Target) and not IsOffHandAttack() and not IsModdedNonExtraAttack()"
+
+new entry "EXTRA_ATTACK_2"
+type "StatusData"
+data "StatusType" "BOOST"
+using "EXTRA_ATTACK_2"
+data "Boosts" "UnlockSpellVariant(ExtraAttackCheck() | IsModdedExtraAttack() & ~IsModdedNonExtraAttack(),ModifyUseCosts(Replace,ActionPoint,0,0,ActionPoint),ModifyIconGlow(),ModifyTooltipDescription())"
+
+new entry "EXTRA_ATTACK_THIRSTING_BLADE"
+type "StatusData"
+data "StatusType" "BOOST"
+using "EXTRA_ATTACK_THIRSTING_BLADE"
+data "Boosts" "UnlockSpellVariant(ExtraAttackCheck() | IsModdedExtraAttack() & ~IsModdedNonExtraAttack(),ModifyUseCosts(Replace,ActionPoint,0,0,ActionPoint),ModifyIconGlow(),ModifyTooltipDescription())"
+data "RemoveConditions" "(HasStringInSpellRoll('WeaponAttack') or HasStringInSpellRoll('UnarmedAttack') or SpellId('Target_CommandersStrike') or IsModdedExtraAttack()) and HasUseCosts('ActionPoint') and not IsOffHandAttack() and not IsModdedNonExtraAttack()"
+
