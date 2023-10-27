@@ -393,7 +393,7 @@
 	<content contentuid="h3983f69bgce33g40cdg82e3geecd6d20292f" version="1">Incite Panic</content>
 	<content contentuid="h2b073784g2d6dg4533g8122g2b54aebb16e6" version="1">Sow chaos in up to eight creatures, &lt;LSTag Type="Status" Tooltip="TIMMASK_SPORES"&gt;Befuddling&lt;/LSTag&gt; them.</content>
 	<content contentuid="h3e342734g83e2g43cegb0fegfe74ae247945" version="1">Incite Fury</content>
-	<content contentuid="hb579b8d3g6067g4ea6gafacg291cb41e6984" version="1">Evoke fury in up to three allies, granting them +1d4 to melee weapon damage rolls.</content>
+	<content contentuid="hb579b8d3g6067g4ea6gafacg291cb41e6984" version="1">Evoke fury in up to three allies, granting them +1d4 to melee damage rolls.</content>
 	<content contentuid="hcf279208g813bg40e7ga351g067152c8878c" version="1">+1d4 to melee weapon damage rolls.</content>
 	<content contentuid="h1483efcbg0d78g40ffga8f8gfab8b74c29d1" version="1">Mindless Charge</content>
 	<content contentuid="h744cdc77g41afg4290g99e6g653fa1854560" version="1">Rouse up to 3 creatures, increasing their movement speed by [1] but giving them &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on Strength, Dexterity and Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
@@ -982,15 +982,15 @@
 	<content contentuid="hf4f4ff39gdc0ag4563gb017gbdd74cfd0d75" version="1">Armour of the Enlightened</content>
 	<content contentuid="ha4b11d14g97f8g4f1bg9355g5ce11ac7f94d" version="1">TODO: Awakened Chest Description </content>
 	<content contentuid="h65d326bagbe3fg477bg9be3gc6440207b3ca" version="1">Psionic Flux</content>
-	<content contentuid="h15d60f9cg6b2eg4a24gb344g514ce65b4b59" version="1">Gain an additional use of Psionic Surge. Enemies affected by Psionic Surge suffer Disadvantage on Saving Throws for [1] turns.</content>
+	<content contentuid="h15d60f9cg6b2eg4a24gb344g514ce65b4b59" version="1">Gain an additional use of Psionic Surge. While you have Psionic Surge charges, increase the range of psionic talents and disciplines by 50%.</content>
 	<content contentuid="h65a29b73gcac5g4623ga881g0918bc8069f4" version="1">Cloth of the Goliath</content>
 	<content contentuid="hc9b2e9ddg72f3g43dcgb6c8g3720da0a617c" version="1">TODO: Immortal Chest Description </content>
 	<content contentuid="hfc3b5a7cg05b8g4851ga9dbg94f897074f6c" version="1">Unbreakable Will</content>
 	<content contentuid="h7c9f01eag0f68g4ed0g99e9gd4d6a91ad3dd" version="1">Reduce incoming damage by [1]. This bonus is equal to your Intelligence modifier.</content>
 	<content contentuid="hc905187fg2c47g4781ga6d3gf8d0da15309b" version="1">Garb of the Planeswalker</content>
 	<content contentuid="hffe656d3g58a0g4dfbg89c8g0400fd973dc0" version="1">TODO: Nomad Chest Description </content>
-	<content contentuid="hb9c9644eg584fg477fgac68g1affcd816889" version="1">Planeswalking</content>
-	<content contentuid="h3ae55a99g8682g4297g8300g9b3a9e91ef7c" version="1">TODO: Nomad Chest Passive Description </content>
+	<content contentuid="hb9c9644eg584fg477fgac68g1affcd816889" version="1">Nomadic Impetus</content>
+	<content contentuid="h3ae55a99g8682g4297g8300g9b3a9e91ef7c" version="1">After teleporting with a psionic discipline, gain +1 to Attack Rolls. Stacks up to 3 times.</content>
 	<content contentuid="hd8520700g219dg42d9g9916gd501d3583c31" version="1">Thoughtstealer Armour</content>
 	<content contentuid="h8aef7b7agac1fg4529g914cgbc9c97392f4c" version="1">TODO: Soul Knife Chest Description </content>
 	<content contentuid="hc46714c0gac90g430aga235g4a68d7ada455" version="1">Thoughtsteal</content>
@@ -998,7 +998,7 @@
 	<content contentuid="hce150ef5ge585g47a2gb83ag6645cfbc66e9" version="1">Ascetic Robes</content>
 	<content contentuid="h28f5d82cgc72fg4e99gb6c2gb175d95417b7" version="1">A rare import from the import................ Kara-Tur. </content>
 	<content contentuid="he3b22816gc8fbg417dgb16bgc6ee0e68ee9b" version="1">Elemental Dominance</content>
-	<content contentuid="h4b6e3642gbe45g494aga620g04409b3317c5" version="1">Elemental Attunement now allows you to ignore damage immunity, and you make damage rolls of spells with the chosen element with Advantage.</content>
+	<content contentuid="h4b6e3642gbe45g494aga620g04409b3317c5" version="1">Elemental Attunement allows you to ignore damage immunity, and you make damage rolls of spells with the chosen element with Advantage.</content>
 	<content contentuid="hde970a11g5842g4d1agadb8g9883986b18c4" version="1">Gloves of the Mastermind</content>
 	<content contentuid="hbfaf9bddg542bg47ffgb556g806d57123fdf" version="1">TODO: Mastermind Gloves Description </content>
 	<content contentuid="h1124daceg3784g4e80gb6d3g23e917939daf" version="1">Mastermind</content>
@@ -1012,11 +1012,11 @@
 	<content contentuid="h9e907ed3g82d2g4de3g81e2gcc5292667b38" version="1">Amulet of Psychic Restoration</content>
 	<content contentuid="h936b705bgee4fg4a22g930dg1c050175ab03" version="1">TODO: Psychic Restoration Amulet Description </content>
 	<content contentuid="he2e505d8gecfag4438ga065g4dac165548a8" version="1">Psychic Restoration</content>
-	<content contentuid="h82a37b3ag4a82g4756gbf03g3653fa87cda3" version="1">TODO: Psychic Restoration Amulet Spell Description </content>
+	<content contentuid="h82a37b3ag4a82g4756gbf03g3653fa87cda3" version="1">Replenish up to [1] Psi Points.</content>
 	<content contentuid="h932d4ad3gda6eg4959g9095gf4ec63402c1a" version="1">Amulet of Psychic Renewal</content>
 	<content contentuid="h907ebb3bge8cag48aeg8e30g6cd0b4c337d8" version="1">TODO: Psychic Renewal Amulet Description </content>
 	<content contentuid="h3304469dg324fg4767g867eg63f1e34d1176" version="1">Psychic Renewal</content>
-	<content contentuid="h5953796cg7ce0g48c1gb2a1ge8e22e78656c" version="1">TODO: Psychic Renewal Amulet Spell Description </content>
+	<content contentuid="h5953796cg7ce0g48c1gb2a1ge8e22e78656c" version="1">Replenish up to [1] Psi Points.</content>
 	<content contentuid="h0e52e3cege607g498cga1b3gf77abb9dd4f1" version="1">Amulet of Mental Fortitude</content>
 	<content contentuid="h816eb8b0gd3c5g4f42g9e55g72faf0845266" version="1">TODO: Mental Fortitude Amulet Description </content>
 	<content contentuid="h2b74a800g7a84g43c4g89b6g006979445bcc" version="1">Mental Fortitude</content>
