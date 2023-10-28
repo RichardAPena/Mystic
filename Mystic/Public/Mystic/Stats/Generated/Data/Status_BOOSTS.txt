@@ -3381,7 +3381,7 @@ data "AuraStatuses" "TARGET:IF(Character() and Enemy()):ApplyStatus(MYSTIC_PSION
 data "TickType" "EndTurn"
 data "RemoveEvents" "OnActionResourcesChanged"
 data "RemoveConditions" "Self() and not IsConcentrating(context.Source)"
-data "OnRemoveFunctors" "RemoveStatus(SELF,MYSTIC_PSIONIC_INTERFERENCE);BreakConcentration()"
+data "OnRemoveFunctors" "RemoveStatus(SELF,MYSTIC_PSIONIC_INTERFERENCE)"
 data "TickFunctors" "IF(Self() and not IsConcentrating(context.Source)):RemoveStatus(SELF,MYSTIC_PSIONIC_INTERFERENCE)"
 
 new entry "MYSTIC_PSIONIC_INTERFERENCE_BUFF"
