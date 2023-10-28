@@ -17,13 +17,6 @@
 					<attribute id="Stats" type="FixedString" value="WPN_Mystic_EruditeSpear" />
 					<attribute id="Description" type="TranslatedString" handle="hb11cb393ge479g45b9g8c1bg0b421b75c0fb" version="4" />
 					<children>
-						<node id="StatusList">
-							<children>
-								<node id="Status">
-									<attribute id="Object" type="FixedString" value="MAG_MELEE_CASTER_BOON" />
-								</node>
-							</children>
-						</node>
 						<node id="Tags">
 							<children>
 								<node id="Tag">

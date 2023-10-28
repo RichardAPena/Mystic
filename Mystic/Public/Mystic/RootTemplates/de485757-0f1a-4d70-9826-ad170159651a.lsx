@@ -14,13 +14,6 @@
 					<attribute id="Stats" type="FixedString" value="WPN_Mystic_WanderersBow" />
                     <attribute id="Description" type="TranslatedString" handle="hbf3bbb74g458fg44f8gb964ge1607bb25d16" version="1" />
 					<children>
-						<node id="StatusList">
-							<children>
-								<node id="Status">
-									<attribute id="Object" type="FixedString" value="MAG_MELEE_CASTER_BOON" />
-								</node>
-							</children>
-						</node>
 					</children>
 				</node>
 			</children>

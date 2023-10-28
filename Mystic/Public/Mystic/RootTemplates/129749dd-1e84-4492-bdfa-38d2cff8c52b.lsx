@@ -16,13 +16,6 @@
 					<attribute id="Description" type="TranslatedString" handle="h29881062g273ag48a5g9643g3bc7f78a850f" version="1" />
 					<attribute id="CanFight" type="bool" value="True" />
 					<children>
-						<node id="StatusList">
-							<children>
-								<node id="Status">
-									<attribute id="Object" type="FixedString" value="MAG_MELEE_CASTER_BOON" />
-								</node>
-							</children>
-						</node>
 					</children>
 				</node>
 			</children>

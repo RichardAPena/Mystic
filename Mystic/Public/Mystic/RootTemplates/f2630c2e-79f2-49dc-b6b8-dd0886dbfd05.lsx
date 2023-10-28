@@ -15,13 +15,6 @@
 					<attribute id="Stats" type="FixedString" value="WPN_Mystic_Failnaught" />
 					<attribute id="Description" type="TranslatedString" handle="h8571e52cg024eg4f83gaa37g17fc3ce47d24" version="1" />
 					<children>
-						<node id="StatusList">
-							<children>
-								<node id="Status">
-									<attribute id="Object" type="FixedString" value="MAG_MELEE_CASTER_BOON" />
-								</node>
-							</children>
-						</node>
 						<node id="Tags">
 							<children>
 								<node id="Tag">
