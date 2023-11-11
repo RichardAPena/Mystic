@@ -409,7 +409,7 @@
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Immortal"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_ImmortalDurability"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_ImmortalDurability;Passive_Mystic_ImmortalDurability_HP"/>
                     <attribute id="Selectors" type="LSString" value="SelectPassives(fcd58fd0-5737-4dcb-b927-84d569a0a7d1,2,ImmortalDisciplines)"/>
                     <attribute id="TableUUID" type="guid" value="a23f7115-85ef-497f-9ab8-79dd64ae4f4f"/>
                     <attribute id="UUID" type="guid" value="04c13ce2-ea36-4fc8-af1e-475d4f8afb6c"/>

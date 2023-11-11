@@ -5,7 +5,7 @@ new entry "Discipline_AdaptiveBody"
 type "PassiveData"
 data "DisplayName" "h8eeaa9d1g3467g466eg8caegd75b3e89640d"
 data "Description" "hc27a5463g6488g45a5g88a3g63da94be5c8e"
-data "Icon" ""
+data "Icon" "Action_Mystic_AdaptiveShield"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_AdaptiveBody);UnlockSpell(Target_Mystic_EnvironmentalAdaptation);UnlockSpell(Shout_Mystic_AdaptiveShield);UnlockSpell(Target_Mystic_EnergyAdaptation);UnlockSpell(Target_Mystic_EnergyImmunity)"
 
 // Aura Sight
@@ -13,7 +13,7 @@ new entry "Discipline_AuraSight"
 type "PassiveData"
 data "DisplayName" "h4cbc8e88g80f4g4c4dgbfbagb301dc46224d"
 data "Description" "hec28e4c7ga159g497bgaccbg9e9210e0d617"
-data "Icon" ""
+data "Icon" "Action_Mystic_ViewAura"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_AuraSight);UnlockSpell(Target_Mystic_AssessFoe);UnlockSpell(Target_Mystic_ViewAura);UnlockSpell(Shout_Mystic_PerceiveTheUnseen)"
 
 // Bestial Form
@@ -21,7 +21,7 @@ new entry "Discipline_BestialForm"
 type "PassiveData"
 data "DisplayName" "hc26807d1g1c55g4d6dg8516g0e1f3d6f85db"
 data "Description" "h6d38fce6gf995g4339ga85cged7d4c1b6555"
-data "Icon" ""
+data "Icon" "Action_Mystic_BestialTransformation"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_BestialForm);UnlockSpell(Target_Mystic_BestialClaws);UnlockSpell(Shout_Mystic_BestialTransformation)"
 
 // Brute Force
@@ -29,7 +29,7 @@ new entry "Discipline_BruteForce"
 type "PassiveData"
 data "DisplayName" "h175e561fg1cb4g4e0ag879dg178034035120"
 data "Description" "hc5996804g22f2g465fga3bdg0a9396d181cf"
-data "Icon" ""
+data "Icon" "Action_Mystic_BruteStrike"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_BruteForce);UnlockSpell(Shout_Mystic_BruteStrike);UnlockSpell(Target_Mystic_KnockBack);UnlockSpell(Target_Mystic_MightyLeap);UnlockSpell(Shout_Mystic_FeatOfStrength)"
 
 // Celerity
@@ -37,7 +37,7 @@ new entry "Discipline_Celerity"
 type "PassiveData"
 data "DisplayName" "hd98bf9adgfd98g4ae0g852dgd2dc0b984487"
 data "Description" "hd49a7b77g3198g40b1gbc61g8d2c4b314e0b"
-data "Icon" ""
+data "Icon" "Action_Mystic_RapidStep"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_Celerity);UnlockSpell(Shout_Mystic_RapidStep);UnlockSpell(Shout_Mystic_AgileDefense);UnlockSpell(Shout_Mystic_BlurOfMotion);UnlockSpell(Shout_Mystic_SurgeOfSpeed);UnlockSpell(Shout_Mystic_SurgeOfAction)"
 
 // Corrosive Metabolism
@@ -45,7 +45,7 @@ new entry "Discipline_CorrosiveMetabolism"
 type "PassiveData"
 data "DisplayName" "hbcd31ed4gd387g4bc2gbb9cgca4ad54f5db1"
 data "Description" "h650d7f46g40ebg4fa4gb8b3ge5033d38fdc2"
-data "Icon" ""
+data "Icon" "Action_Mystic_CorrosiveTouch"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_CorrosiveMetabolism);UnlockSpell(Target_Mystic_CorrosiveTouch);UnlockSpell(Target_Mystic_VenomStrike);UnlockSpell(Shout_Mystic_AcidSpray);UnlockSpell(Zone_Mystic_BreathOfTheBlackDragon);UnlockSpell(Zone_Mystic_BreathOfTheGreenDragon)"
 
 // Crown of Despair
@@ -53,7 +53,7 @@ new entry "Discipline_CrownOfDespair"
 type "PassiveData"
 data "DisplayName" "h0fdf6c7ag5c84g45bbgadf2gf4ade03e98fb"
 data "Description" "h22b9138dgd2bfg427bgb4f2g5d477bcddc0a"
-data "Icon" ""
+data "Icon" "Action_Mystic_CrownedInSorrow"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_CrownOfDespair);UnlockSpell(Target_Mystic_CrownedInSorrow);UnlockSpell(Target_Mystic_CallToInaction);UnlockSpell(Target_Mystic_VisionsOfDespair);UnlockSpell(Target_Mystic_DolorousMind)"
 
 // Crown of Disgust
@@ -61,7 +61,7 @@ new entry "Discipline_CrownOfDisgust"
 type "PassiveData"
 data "DisplayName" "h14cf129eg2c80g47dfgb5e3g59e04421f5d3"
 data "Description" "h597bf79bg5a58g433fgad10gdb5af0fd5da5"
-data "Icon" ""
+data "Icon" "Action_Mystic_VisionsOfDisgust"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_CrownOfDisgust);UnlockSpell(Target_Mystic_EyeOfHorror);UnlockSpell(Wall_Mystic_WallOfRepulsion);UnlockSpell(Target_Mystic_VisionsOfDisgust);UnlockSpell(Target_Mystic_WorldOfHorror)"
 
 // Crown of Rage
@@ -69,7 +69,7 @@ new entry "Discipline_CrownOfRage"
 type "PassiveData"
 data "DisplayName" "h64557593g4bd9g4ba6g83c2g3cc305cdda16"
 data "Description" "h11ef83c8gf841g4811gb652g08685a0b2e75"
-data "Icon" ""
+data "Icon" "Action_Mystic_PrimalFury"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_CrownOfRage);UnlockSpell(Target_Mystic_PrimalFury);UnlockSpell(Target_Mystic_FightingWords);UnlockSpell(Target_Mystic_MindlessCourage);UnlockSpell(Target_Mystic_PunishingFury)"
 
 // Diminution
@@ -77,7 +77,7 @@ new entry "Discipline_Diminution"
 type "PassiveData"
 data "DisplayName" "h70b6b4d5g3e3eg4573gaa66ge651d2a43ab7"
 data "Description" "he633903cg2b4cg4612g8337g6e34fef03b13"
-data "Icon" ""
+data "Icon" "Action_Mystic_MiniatureForm"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_Diminution);UnlockSpell(Shout_Mystic_MiniatureForm);UnlockSpell(Target_Mystic_TopplingShift);UnlockSpell(Shout_Mystic_SuddenShift);UnlockSpell(Shout_Mystic_MicroscopicForm)"
 
 // Giant Growth
@@ -85,7 +85,7 @@ new entry "Discipline_GiantGrowth"
 type "PassiveData"
 data "DisplayName" "hdc3c9b5bgbdd7g4d9bg96bdgb9c7a279676c"
 data "Description" "h12e6abc6g5fc4g417dgadf5gfc082197d1d7"
-data "Icon" ""
+data "Icon" "Action_Mystic_GiantForm"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_GiantGrowth)UnlockSpell(Shout_Mystic_OgreForm);UnlockSpell(Shout_Mystic_GiantForm);"
 
 // Intellect Fortress
@@ -93,7 +93,7 @@ new entry "Discipline_IntellectFortress"
 type "PassiveData"
 data "DisplayName" "h29b968fcg568cg4217ga8aag9466fee959ec"
 data "Description" "h6d871580g41c7g45f1g8546gbd1f18740d94"
-data "Icon" ""
+data "Icon" "Action_Mystic_PsychicParry"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_IntellectFortress);UnlockSpell(Shout_Mystic_PsychicBacklash);UnlockSpell(Shout_Mystic_PsychicParry);UnlockInterrupt(Interrupt_Mystic_PsychicParry_2);UnlockInterrupt(Interrupt_Mystic_PsychicParry_3);UnlockInterrupt(Interrupt_Mystic_PsychicParry_4);UnlockInterrupt(Interrupt_Mystic_PsychicParry_5);UnlockInterrupt(Interrupt_Mystic_PsychicParry_6);UnlockInterrupt(Interrupt_Mystic_PsychicParry_7);UnlockSpell(Shout_Mystic_PsychicRedoubt)"
 
 // Iron Durability
@@ -101,7 +101,7 @@ new entry "Discipline_IronDurability"
 type "PassiveData"
 data "DisplayName" "h5f43b6fdg5126g490dga7e8ge24d3f2647ef"
 data "Description" "hb059cdc4g2763g49f3g91e4g6d77ece2ca00"
-data "Icon" ""
+data "Icon" "Action_Mystic_IronResistance"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_IronDurability);UnlockSpell(Shout_Mystic_IronHide);UnlockSpell(Shout_Mystic_SteelHide);UnlockSpell(Shout_Mystic_IronResistance)"
 
 // Mantle of Awe
@@ -109,7 +109,7 @@ new entry "Discipline_MantleOfAwe"
 type "PassiveData"
 data "DisplayName" "hbdf746bcgaa62g4756g897ag9ee3095146a7"
 data "Description" "h0570f860g5be2g4ffeg81ecgb0e737160633"
-data "Icon" ""
+data "Icon" "Action_Mystic_CenterOfAttention"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MantleOfAwe);UnlockSpell(Shout_Mystic_CharmingPresence);UnlockSpell(Target_Mystic_CenterOfAttention);UnlockSpell(Target_Mystic_InvokeAwe)"
 
 // Mantle of Command
@@ -117,7 +117,7 @@ new entry "Discipline_MantleOfCommand"
 type "PassiveData"
 data "DisplayName" "h5a4eaa0cgec50g402dg939egcb8f2772fd61"
 data "Description" "hc7afdd83g15d2g4e47gb09ag63498406c770"
-data "Icon" ""
+data "Icon" "Action_Mystic_CoordinatedMovement"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MantleOfCommand);UnlockSpell(Target_Mystic_CoordinatedMovement);UnlockSpell(Target_Mystic_CommandersSight);UnlockSpell(Target_Mystic_CommandToStrike);UnlockSpell(Shout_Mystic_StrategicMind);UnlockSpell(Target_Mystic_OverwhelmingAttack)"
 
 // Mantle of Courage
@@ -125,7 +125,7 @@ new entry "Discipline_MantleOfCourage"
 type "PassiveData"
 data "DisplayName" "h6803f362gbd32g47c5ga718g0bd1eee9ebee"
 data "Description" "he89e3e71g2237g44d1ga7e6g1a04341b19ca"
-data "Icon" ""
+data "Icon" "Action_Mystic_InciteCourage"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MantleOfCourage);UnlockSpell(Target_Mystic_InciteCourage);UnlockSpell(Shout_Mystic_AuraOfVictory);UnlockSpell(Target_Mystic_PillarOfConfidence)"
 
 // Mantle of Fear
@@ -133,7 +133,7 @@ new entry "Discipline_MantleOfFear"
 type "PassiveData"
 data "DisplayName" "h9abbed57g98ffg4fecg91f6gcedec8254e68"
 data "Description" "h97f12250gda82g4738g9d2dge3a079980e3b"
-data "Icon" ""
+data "Icon" "Action_Mystic_InciteFear"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MantleOfFear);UnlockSpell(Target_Mystic_InciteFear);UnlockSpell(Shout_Mystic_UnsettlingAura);UnlockSpell(Target_Mystic_IncitePanic)"
 
 // Mantle of Fury
@@ -141,7 +141,7 @@ new entry "Discipline_MantleOfFury"
 type "PassiveData"
 data "DisplayName" "h2f286cb4g3de3g479bgadf7gbca119418292"
 data "Description" "h6b80e05dgbed5g4334gb59dg716f11ee63ac"
-data "Icon" ""
+data "Icon" "Action_Mystic_InciteFury"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MantleOfFury);UnlockSpell(Target_Mystic_InciteFury);UnlockSpell(Target_Mystic_MindlessCharge);UnlockSpell(Shout_Mystic_AuraOfBloodletting);UnlockSpell(Target_Mystic_OverwhelmingFury)"
 
 // Mantle of Joy
@@ -149,7 +149,7 @@ new entry "Discipline_MantleOfJoy"
 type "PassiveData"
 data "DisplayName" "he5ab0096g5e0cg4602g8314g9f8d57eea953"
 data "Description" "h7190112fge121g4526g8229g603f5056242b"
-data "Icon" ""
+data "Icon" "Action_Mystic_AuraOfJubilation"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MantleOfJoy);UnlockSpell(Target_Mystic_SoothingPresence);UnlockSpell(Target_Mystic_ComfortingAura);UnlockSpell(Shout_Mystic_AuraOfJubilation);UnlockSpell(Target_Mystic_BeaconOfRecovery)"
 
 // Mastery of Air
@@ -157,7 +157,7 @@ new entry "Discipline_MasteryOfAir"
 type "PassiveData"
 data "DisplayName" "h8f2678edg7c0cg42b7gb0fcg6e67b2dfe75d"
 data "Description" "h875f2322g6a9dg470ag98e6g10643a10ff5c"
-data "Icon" ""
+data "Icon" "Action_Mystic_WindStep"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MasteryOfAir);UnlockSpell(Projectile_Mystic_WindStep);UnlockSpell(Zone_Mystic_WindStream);UnlockSpell(Shout_Mystic_CloakOfAir);UnlockSpell(Shout_Mystic_WindForm);UnlockSpell(Shout_Mystic_MistyForm);UnlockSpell(Target_Mystic_AnimateAir)"
 
 // Mastery of Fire
@@ -165,7 +165,7 @@ new entry "Discipline_MasteryOfFire"
 type "PassiveData"
 data "DisplayName" "hb246fc5fg1436g48b5g9d57ga6131560be24"
 data "Description" "he4efcefageec9g4d22g9859g8743b9a2b1a5"
-data "Icon" ""
+data "Icon" "Action_Mystic_FireForm"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MasteryOfFire);UnlockSpell(Target_Mystic_Combustion);UnlockSpell(Target_Mystic_RollingFlame);UnlockSpell(Target_Mystic_Detonation);UnlockSpell(Shout_Mystic_FireForm);UnlockSpell(Target_Mystic_AnimateFire)"
 
 // Mastery of Force
@@ -173,7 +173,7 @@ new entry "Discipline_MasteryOfForce"
 type "PassiveData"
 data "DisplayName" "hdeb7a5b6gbfcbg414dg8ac3g31f2a4f5f5e7"
 data "Description" "h1f75f587g5c70g4c07gbf9cgbf3c7d4279d5"
-data "Icon" ""
+data "Icon" "Action_Mystic_InertialArmor"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MasteryOfForce);UnlockSpell(Target_Mystic_Push);UnlockSpell(Shout_Mystic_InertialArmor);UnlockSpell(Wall_Mystic_TelekineticBarrier);UnlockSpell(Target_Mystic_Grasp);UnlockSpell(Throw_Mystic_Move)"
 
 // Mastery of Ice
@@ -181,7 +181,7 @@ new entry "Discipline_MasteryOfIce"
 type "PassiveData"
 data "DisplayName" "hc5926824g678fg4cd1g9c85g0c913310b6cc"
 data "Description" "hee98cddfg249eg4271g9000gafb75f51b182"
-data "Icon" ""
+data "Icon" "Action_Mystic_IceSpike"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MasteryOfIce);UnlockSpell(Projectile_Mystic_IceSpike);UnlockSpell(Target_Mystic_IceSheet);UnlockSpell(Shout_Mystic_FrozenSanctuary);UnlockSpell(Target_Mystic_FrozenRain);UnlockSpell(Wall_Mystic_IceBarrier)"
 
 // Mastery of Light and Darkness
@@ -189,7 +189,7 @@ new entry "Discipline_MasteryOfLightAndDarkness"
 type "PassiveData"
 data "DisplayName" "h8b739fd8g2060g4884gbb32g7cdc6b8ca286"
 data "Description" "hf5a8e0e3g8676g49ceg999egfc52523b36ae"
-data "Icon" ""
+data "Icon" "Action_Mystic_Darkness"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MasteryOfLightAndDarkness);UnlockSpell(Target_Mystic_Darkness);UnlockSpell(Target_Mystic_Light);UnlockSpell(Target_Mystic_ShadowBeasts);UnlockSpell(Projectile_Mystic_RadiantBeam)"
 
 // Mastery of Water
@@ -197,7 +197,7 @@ new entry "Discipline_MasteryOfWater"
 type "PassiveData"
 data "DisplayName" "h79f3b1d1gdd8ag4f3cgac34g1489d6e88bba"
 data "Description" "h4858cae4g0258g4d6fga6d7g9ee0c38bb0bb"
-data "Icon" ""
+data "Icon" "Action_Mystic_WateryGrasp"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MasteryOfWater);UnlockSpell(Target_Mystic_Dessicate);UnlockSpell(Target_Mystic_WateryGrasp);UnlockSpell(Zone_Mystic_WaterWhip);UnlockSpell(Target_Mystic_WaterSphere);UnlockSpell(Target_Mystic_AnimateWater)"
 
 // Mastery of Weather
@@ -205,7 +205,7 @@ new entry "Discipline_MasteryOfWeather"
 type "PassiveData"
 data "DisplayName" "h71b788d7g394eg420ag994dgd6147c32fb89"
 data "Description" "hfc5277cdgc907g4afbgb75bg5e8c56328ffe"
-data "Icon" ""
+data "Icon" "Action_Mystic_HungryLightning"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MasteryOfWeather);UnlockSpell(Projectile_Mystic_HungryLightning);UnlockSpell(Wall_Mystic_WallOfClouds);UnlockSpell(Target_Mystic_Whirlwind);UnlockSpell(Rush_Mystic_Lightning_Leap);UnlockSpell(Wall_Mystic_WallOfThunder);UnlockSpell(Target_Mystic_ThunderClap)"
 
 // Mastery of Wood and Earth
@@ -213,7 +213,7 @@ new entry "Discipline_MasteryOfWoodAndEarth"
 type "PassiveData"
 data "DisplayName" "hf6ead5ccg2df1g4f7agb826g9ad1f2cf9ee0"
 data "Description" "h25d5884cg40fdg4f36ga49eg16c0743e37e5"
-data "Icon" ""
+data "Icon" "Action_Mystic_WallOfWood"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MasteryOfWoodAndEarth);UnlockSpell(Projectile_Mystic_AnimateWeapon);UnlockSpell(Target_Mystic_WarpWeapon);UnlockSpell(Target_Mystic_WarpArmor);UnlockSpell(Wall_Mystic_WallOfWood);UnlockSpell(Shout_Mystic_ArmoredForm);UnlockSpell(Target_Mystic_AnimateEarth);IF(SpellId('Projectile_Mystic_AnimateWeapon') or SpellId('Projectile_Mystic_AnimateWeapon_1') or SpellId('Projectile_Mystic_AnimateWeapon_2') or SpellId('Projectile_Mystic_AnimateWeapon_3') or SpellId('Projectile_Mystic_AnimateWeapon_4') or SpellId('Projectile_Mystic_AnimateWeapon_5') or SpellId('Projectile_Mystic_AnimateWeapon_6') or SpellId('Projectile_Mystic_AnimateWeapon_7')):RollBonus(Attack, IntelligenceModifier)"
 
 // Nomadic Arrow
@@ -221,7 +221,7 @@ new entry "Discipline_NomadicArrow"
 type "PassiveData"
 data "DisplayName" "h21280cfag0363g451bgb8deg11da159fe1f6"
 data "Description" "hbfb2bff6g9bf4g4c8dgbc6bgf917c57ce95c"
-data "Icon" ""
+data "Icon" "Action_Mystic_SpeedDart"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_NomadicArrow);UnlockSpell(Shout_Mystic_SpeedDart);UnlockSpell(Shout_Mystic_SeekingMissile);UnlockSpell(Shout_Mystic_FaithfulArcher)"
 
 // Nomadic Chameleon
@@ -229,7 +229,7 @@ new entry "Discipline_NomadicChameleon"
 type "PassiveData"
 data "DisplayName" "h92e85198g6c72g4769gbbc1gf4d2ad715810"
 data "Description" "h63db00fbg3259g42cega02fg159cc4a2867a"
-data "Icon" ""
+data "Icon" "Action_Mystic_Chameleon"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_NomadicChameleon);UnlockSpell(Shout_Mystic_Chameleon);UnlockSpell(Shout_Mystic_StepFromSight);UnlockSpell(Shout_Mystic_EnduringInvisibility)"
 
 // Nomadic Mind
@@ -237,17 +237,15 @@ new entry "Discipline_NomadicMind"
 type "PassiveData"
 data "DisplayName" "h1ea947d4g29e6g4b81gabaeg5ba74ba636f4"
 data "Description" "habcf7807g5ec8g4f68g8857g0a0159e436a6"
-data "Icon" ""
+data "Icon" "Action_Mystic_ItemLore"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_NomadicMind);UnlockSpell(Shout_Mystic_Featherweight);UnlockSpell(Target_Mystic_Unearth);UnlockSpell(Shout_Mystic_ItemLore);UnlockSpell(Shout_Mystic_PsychicSpeech)"
 
 // Nomadic Step
-// Leaving out Nomadic Anchor
-// May figure it out one day but not now
 new entry "Discipline_NomadicStep"
 type "PassiveData"
 data "DisplayName" "he29f18f7ge21cg47deg8c4cgd87359fb99eb"
 data "Description" "h2b60f7b8g3618g468cg94e6g74605cfad833"
-data "Icon" ""
+data "Icon" "Action_Mystic_StepOfADozenPaces"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_NomadicStep);UnlockSpell(Target_Mystic_StepOfADozenPaces);UnlockSpell(Shout_Mystic_DefensiveStep);UnlockSpell(Target_Mystic_ThereAndBackAgain);UnlockSpell(Target_Mystic_Transposition);UnlockSpell(Target_Mystic_BalefulTransposition);UnlockSpell(Shout_Mystic_PhantomCaravan);UnlockSpell(Teleportation_Mystic_NomadicGate)"
 data "StatsFunctorContext" "OnCast"
 data "Conditions" "SpellId('Target_Mystic_ThereAndBackAgain')"
@@ -258,7 +256,7 @@ new entry "Discipline_Precognition"
 type "PassiveData"
 data "DisplayName" "h5f9658f2gac4eg4bddga87dgcd276d6d2d72"
 data "Description" "h5430f0e2ge650g45c7g8c1fgd880b557faaf"
-data "Icon" ""
+data "Icon" "Action_Mystic_PrecognitiveHunch"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_Precognition);UnlockSpell(Shout_Mystic_PrecognitiveHunch);UnlockSpell(Shout_Mystic_AllAroundSight);UnlockSpell(Shout_Mystic_DangerSense);UnlockSpell(Target_Mystic_VictoryBeforeBattle)"
 
 // Psionic Restoration
@@ -266,7 +264,7 @@ new entry "Discipline_PsionicRestoration"
 type "PassiveData"
 data "DisplayName" "hc4674308g1b84g41eagbab4g01629f7d567f"
 data "Description" "he6f834c1g191fg4109gbb5eg71de823cb9f2"
-data "Icon" ""
+data "Icon" "Action_Mystic_MendWounds"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_PsionicRestoration);UnlockSpell(Target_Mystic_MendWounds);UnlockSpell(Target_Mystic_RestoreHealth);UnlockSpell(Teleportation_Mystic_RestoreLife);UnlockSpell(Target_Mystic_RestoreVigor)"
 
 // Psionic Weapon
@@ -274,7 +272,7 @@ new entry "Discipline_PsionicWeapon"
 type "PassiveData"
 data "DisplayName" "h446ffd90gb225g4154ga776g7045aeea67d7"
 data "Description" "hdcfa79a0ga3d9g42ddg8b25gd8de8954b9e1"
-data "Icon" ""
+data "Icon" "Action_Mystic_EtherealWeapon"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_PsionicWeapon);UnlockSpell(Shout_Mystic_EtherealWeapon);UnlockSpell(Shout_Mystic_LethalStrike);UnlockSpell(Target_Mystic_AugmentedWeapon)"
 
 // Psychic Assault
@@ -282,7 +280,7 @@ new entry "Discipline_PsychicAssault"
 type "PassiveData"
 data "DisplayName" "h394d2a25ge095g4836g9e69g3ddb8edc4149"
 data "Description" "h794870cag4b2bg40eegb865g44c04b3f5fac"
-data "Icon" ""
+data "Icon" "Action_Mystic_PsychicCrush"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_PsychicAssault);UnlockSpell(Projectile_Mystic_PsionicBlast);UnlockSpell(Target_Mystic_EgoWhip);UnlockSpell(Target_Mystic_IdInsinuation);UnlockSpell(Zone_Mystic_PsychicBlast);UnlockSpell(Target_Mystic_PsychicCrush)"
 
 // Psychic Disruption
@@ -290,7 +288,7 @@ new entry "Discipline_PsychicDisruption"
 type "PassiveData"
 data "DisplayName" "h0aa174f1g2fa2g4e53gb422g0dbdf78e1ad8"
 data "Description" "h9d101d3bg7a6ag4d74gb632ga7a96d3a815f"
-data "Icon" ""
+data "Icon" "Action_Mystic_Daze"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_PsychicDisruption);UnlockSpell(Target_Mystic_DistractingHaze);UnlockSpell(Target_Mystic_Daze);UnlockSpell(Target_Mystic_MindStorm)"
 
 // Psychic Supression (Psychic Inquisition)
@@ -307,7 +305,7 @@ new entry "Discipline_TelepathicSubjugation"
 type "PassiveData"
 data "DisplayName" "h051f862eg7cdfg4ee6gbae4gd88b406fd1b2"
 data "Description" "hda770c0ag5375g4a72gbb86g32a49846cbb6"
-data "Icon" ""
+data "Icon" "Action_Mystic_BrokenWill"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_TelepathicSubjugation);UnlockSpell(Target_Mystic_BrokenWill);UnlockSpell(Target_Mystic_PsionicGrip);UnlockSpell(Target_Mystic_PsychicGrasp);UnlockSpell(Target_Mystic_PsychicDomination)"
 
 // Third Eye
@@ -315,7 +313,7 @@ new entry "Discipline_ThirdEye"
 type "PassiveData"
 data "DisplayName" "heb25c661gd0e1g43eag89e8gf9a2dbee7054"
 data "Description" "h55ef0306g5c7eg4833ga6f1gdd3c638797c1"
-data "Icon" ""
+data "Icon" "Action_Mystic_UnwaveringEye"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_ThirdEye);UnlockSpell(Shout_Mystic_Tremorsense);UnlockSpell(Shout_Mystic_UnwaveringEye);UnlockSpell(Shout_Mystic_PiercingSight);UnlockSpell(Shout_Mystic_Truesight)"
 
 // Psionic Restoration Effect
@@ -591,6 +589,10 @@ data "BoostContext" "OnEquip;OnCreate"
 data "BoostConditions" "not WearingArmor(context.Source)"
 data "Boosts" "ACOverrideFormula(10,true,Dexterity,Constitution)"
 
+new entry "Passive_Mystic_ImmortalDurability_HP"
+data "Properties" "IsHidden"
+data "Boosts" "IncreaseMaxHP(ClassLevel(Mystic))"
+
 // Psionic Resilience (Immortal)
 new entry "Passive_Mystic_PsionicResilience"
 type "PassiveData"
@@ -845,7 +847,7 @@ data "DescriptionParams" "1"
 data "Properties" "Highlighted"
 data "Properties" "OncePerAttack"
 data "StatsFunctorContext" "OnStatusApply"
-data "Conditions" "not StatusId('MAG_GISH_ARCANE_SYNERGY') and not StatusId('SNEAKING') and not StatusId('SNEAKING_CLEAR') and not StatusId('SNEAKING_LIGHTLY_OBSCURED') and not StatusId('SNEAKING_HEAVILY_OBSCURED') and not StatusId('DISENGAGE') and not StatusId('NON_LETHAL') and not StatusId('DASH') and not StatusId('MONK_SOUND_SWITCH') and not Self()"
+data "Conditions" "not StatusId('MAG_GISH_ARCANE_SYNERGY') and not StatusId('SNEAKING') and not StatusId('SNEAKING_CLEAR') and not StatusId('SNEAKING_LIGHTLY_OBSCURED') and not StatusId('SNEAKING_HEAVILY_OBSCURED') and not StatusId('DISENGAGE') and not StatusId('NON_LETHAL') and not StatusId('DASH') and not StatusId('MONK_SOUND_SWITCH') and not Self() and not Ally()"
 data "StatsFunctors" "RestoreResource(SELF,PsiPointsResource,1,0)"
 
 new entry "Passive_Mystic_RangedCaster"

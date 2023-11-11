@@ -258,8 +258,8 @@
 	<content contentuid="h8bb006fag44e8g45b2g9d8fg71efa52f75b4" version="1">Nomadic Step</content>
 	<content contentuid="hae23a909g3456g4fa2gac4ag07ca17d6c2dd" version="1">Movement speed increased by [1].</content>
 	<content contentuid="hdd6e2842g5f17g4afdga05bgd6c06af239e4" version="1">Psychic Focus: Precognition</content>
-	<content contentuid="h1aa1d8d3g4517g4b48gb0f3g6ce81030984b" version="1">Gain a +3 bonus to Initiative.</content>
-	<content contentuid="h0bec5880g57b5g4588g9aa6g66e689b94dfd" version="1">+3 to Initiave.</content>
+	<content contentuid="h1aa1d8d3g4517g4b48gb0f3g6ce81030984b" version="1">Gain a +[1] bonus to Initiative.</content>
+	<content contentuid="h0bec5880g57b5g4588g9aa6g66e689b94dfd" version="1">+[1] to Initiave.</content>
 	<content contentuid="hbcffa9bfg56dbg49b5g89fcg6abd61d5dcd6" version="1">Psychic Focus: Psionic Restoration</content>
 	<content contentuid="h5d0405edgfb54g4cb3ga726g1027a04acdf9" version="1">When casting a healing psionic discipline, the target regains an additional 2 &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;.</content>
 	<content contentuid="h614de249g73b3g41cdg9887gba59864e91e2" version="1">Psionic disciplines restore an additional 2 &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;.</content>
@@ -444,11 +444,11 @@
 	<content contentuid="hbced9298g8494g4307g9f98g3c8d470714d6" version="1">All-Around Sight</content>
 	<content contentuid="hdbb509b6g53fag42c4g84fdgf5a4eebc7955" version="1">As a reaction, impose &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on an incoming attack.</content>
 	<content contentuid="h6c37f967g4d77g4616gbf4eg8320a6c4e591" version="1">Danger Sense</content>
-	<content contentuid="he5861033g372bg4104gb813g6aa045a93cb6" version="1">Create a psychic model of reality and peer into its future, gaining a +10 bonus to Initiative and preventing you from being &lt;LSTag Type="Status" Tooltip="SURPRISED"&gt;Surprised&lt;/LSTag&gt;.</content>
-	<content contentuid="h8bd8eab5g5c86g4a84gbdc6gf93b111bcfa5" version="1">+10 to Initiative and can't be &lt;LSTag Type="Status" Tooltip="SURPRISED"&gt;Surprised&lt;/LSTag&gt;.</content>
+	<content contentuid="he5861033g372bg4104gb813g6aa045a93cb6" version="1">Create a psychic model of reality and peer into its future, gaining a +[1] bonus to Initiative and preventing you from being &lt;LSTag Type="Status" Tooltip="SURPRISED"&gt;Surprised&lt;/LSTag&gt;.</content>
+	<content contentuid="h8bd8eab5g5c86g4a84gbdc6gf93b111bcfa5" version="1">+[1] to Initiative and can't be &lt;LSTag Type="Status" Tooltip="SURPRISED"&gt;Surprised&lt;/LSTag&gt;.</content>
 	<content contentuid="h56f16108g0c69g4785g9704gb6e54f178606" version="1">Victory Before Battle</content>
-	<content contentuid="h418629f5g72d4g432bg9aefgcc759f073b00" version="1">Impart knowledge of the future to up to six creatures, giving them +10 to Initiative the next time they start combat.</content>
-	<content contentuid="hf805d57fgda44g46a0ga7cbgf2222b2101a6" version="1">+10 to Initiative.</content>
+	<content contentuid="h418629f5g72d4g432bg9aefgcc759f073b00" version="1">Impart knowledge of the future to up to six creatures, giving them +[1] to Initiative the next time they start combat.</content>
+	<content contentuid="hf805d57fgda44g46a0ga7cbgf2222b2101a6" version="1">+[1] to Initiative.</content>
 	<content contentuid="h36077f93g8f12g4fc9g83c8g07b5b8bb4f7b" version="1">Psionic Blast</content>
 	<content contentuid="h318a2475gefe6g453dg8a4cg1f28a946371e" version="1">Blast a creature with psionic energy.</content>
 	<content contentuid="hdf83a67dg64ebg423bg8f86gdcd23903b8b4" version="1">Ego Whip</content>
@@ -749,7 +749,7 @@
 	<content contentuid="h68d85accg564bg4affg8219g9c96403a5ff7" version="1">Darkness</content>
 	<content contentuid="h00fde1f1g15d3g4934gbffeg3426e8959ebe" version="1">Summon a cloud of darkness with a radius of [1].</content>
 	<content contentuid="hdfa9f427gc799g4770g85fcg63d116f2e382" version="1">Light</content>
-	<content contentuid="hc63a4658g2949g40b9g814ag32af6287739f" version="1">Touch a creature, causing it to shed a bright light. &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against it will have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; and it won't be able to hide.</content>
+	<content contentuid="hc63a4658g2949g40b9g814ag32af6287739f" version="1">Illuminate a creature, causing it to shed a bright light. &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against it will have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; and it won't be able to hide.</content>
 	<content contentuid="hae3300acgd414g47d9g9a97gb47f02ef7803" version="1">&lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against this creature have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. Can't hide.</content>
 	<content contentuid="h245fbcc4g9e03g4a53g96b0g301999f5064e" version="1">Shadow Beasts</content>
 	<content contentuid="h9693ee45gcbf1g48aagaacdg210b5a95ceb0" version="1">Summon a pair of shadow beasts to fight at your side. They are able to see &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; creatures.</content>
@@ -835,8 +835,8 @@
 	<content contentuid="h73c12dd2gef0ag4f02g9b52g4cd9336023b0" version="1">Armour Training</content>
 	<content contentuid="h31b494b2g60f7g4109ga3f4gb7870b784e7c" version="1">You have &lt;LSTag Tooltip="ArmourProficiency"&gt;Armour Proficiency&lt;/LSTag&gt; with Medium Armour and Shields.</content>
 	<content contentuid="h2f333397g29fdg45eag8006g94c8ff848ea0" version="1">Avatar of Battle</content>
-	<content contentuid="h8ec97092ga28cg4010g87d6g937a3c1498a9" version="1">Project an inspiring aura, giving nearby allies +2 to Initiative.</content>
-	<content contentuid="h8c23bb63g8001g4df9g817fgcdb0e2ad8e10" version="1">+2 to Initiative.</content>
+	<content contentuid="h8ec97092ga28cg4010g87d6g937a3c1498a9" version="1">Project an inspiring aura, giving nearby allies +[1] to Initiative.</content>
+	<content contentuid="h8c23bb63g8001g4df9g817fgcdb0e2ad8e10" version="1">+[1] to Initiative.</content>
 	<content contentuid="h576ef80fg247dg4540g94a6g66e0d4d9d1cb" version="1">Avatar of Healing</content>
 	<content contentuid="h5f8fefd6g38f9g415fg872bg1260816a1289" version="1">Project a soothing aura, causing nearby allies to regain 2 additional hit points from all sources of healing.</content>
 	<content contentuid="h5bb0eed8g2635g4626g92d8g068d55d30155" version="1">Receives 2 additional hit points from all healing sources.</content>
@@ -966,7 +966,7 @@
 	<content contentuid="h40a2d4caga1f5g4f1ega800g09de58581389" version="1">Deals an additional [1] and increases distance by an additional [2] per level.</content>
 	<content contentuid="hdbd6d5ceg3b18g49c4ga009g38f233edbe52" version="1">Only one Psychic Focus may be active at a time.</content>	
 	<content contentuid="" version="1"> </content>
-	<content contentuid="h7b210d71gcd2ag47efgbf73g2f2e21a6f8bf" version="1">Fount Endless Knowledge</content>
+	<content contentuid="h7b210d71gcd2ag47efgbf73g2f2e21a6f8bf" version="1">Fount of Endless Knowledge</content>
 	<content contentuid="h7e777fe6g165bg4808g8d8bg39d108253274" version="1">This circlet has the power to invigorate its user, granting them momentary insights and sharpening their focus when under pressure.</content>
 	<content contentuid="ha4e0de48gfef2g4542gad1egdd0f0029f6fe" version="1">Fleeting Power</content>
 	<content contentuid="h9c6aad58g3027g4905g83d1g9d6d3783fb00" version="1">At the start of each turn while in combat, gain [1] Psi Points. These points are lost if not spent.</content>

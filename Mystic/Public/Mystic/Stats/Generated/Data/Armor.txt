@@ -35,6 +35,7 @@ data "ArmorType" "HalfPlate"
 data "PassivesOnEquip" "MAG_ExoticMaterial_MediumArmor_Passive;Passive_Mystic_AvatarEffect"
 data "StatusOnEquip" "MYSTIC_IMPROVED_AURAS_TECHNICAL;MYSTIC_EXPANSIVE_INFLUENCE"
 data "MinLevel" ""
+data "Boosts" ""
 
 // AWAKENED CHEST
 new entry "ARM_Mystic_AwakenedChest_Body"
@@ -97,6 +98,7 @@ data "Weight" "12"
 data "ArmorType" "HalfPlate"
 data "MinLevel" ""
 data "PassivesOnEquip" "MAG_ExoticMaterial_MediumArmor_Passive;Passive_Mystic_SoulKnifeEffect"
+data "Boosts" ""
 
 // WU JEN CHEST
 new entry "ARM_Mystic_WuJenChest_Body"

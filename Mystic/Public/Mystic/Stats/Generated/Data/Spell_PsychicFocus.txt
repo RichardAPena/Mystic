@@ -1199,7 +1199,7 @@ data "TooltipPermanentWarnings" "f1178ed8-c5ce-4766-85a3-ab0681aa049b"
 
 data "DisplayName" "hdd6e2842g5f17g4afdga05bgd6c06af239e4"
 data "Description" "h1aa1d8d3g4517g4b48gb0f3g6ce81030984b"
-data "DescriptionParams" ""
+data "DescriptionParams" "1"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 
 data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_PRECOGNITION,100,-1)"
