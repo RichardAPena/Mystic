@@ -37,7 +37,7 @@
 	<content contentuid="ha1920399g6864g4f4cg9bcbg2b71ec367e77" version="1">Order of the Avatar</content>
 	<content contentuid="h0d8485a7g5b46g45f5g9cfag20736d2a49be" version="1">The Order of the Awakened seeks to transcend their physical form, unlocking the full potential of the mind.</content>
 	<content contentuid="he560d838gb274g426cg8aadg34f4908b7edc" version="1">Order of the Awakened</content>
-	<content contentuid="hfcff39f6gcdfdg4b6agaad8gff68861b95e8" version="1">Immortal mystics use psionic energy to augment the physical form, themselves into living weapons.</content>
+	<content contentuid="hfcff39f6gcdfdg4b6agaad8gff68861b95e8" version="1">Immortal mystics use psionic energy to augment the physical form, turning themselves into living weapons.</content>
 	<content contentuid="h1cfb8b63g5324g460dg8818g3fd1d7310f71" version="1">Order of the Immortal</content>
 	<content contentuid="h31c7a245g5aadg4884g9cedgd44036f8626c" version="1">Nomads are on a neverending quest to unravel the mysteries of the multiverse, adapting their psionics to ease their travels.</content>
 	<content contentuid="he892e87dg4953g4cdbga1b7geef3735cf01d" version="1">Order of the Nomad</content>
@@ -90,7 +90,7 @@
 	<content contentuid="hdeb7a5b6gbfcbg414dg8ac3g31f2a4f5f5e7" version="1">Mastery of Force</content>
 	<content contentuid="h1f75f587g5c70g4c07gbf9cgbf3c7d4279d5" version="1">As a student of psionic power, you perceive the potential energy that flows through all things. You reach out with your mind, transforming the potential into the actual. Objects and creatures move at your command.</content>
 	<content contentuid="hc5926824g678fg4cd1g9c85g0c913310b6cc" version="1">Mastery of Ice</content>
-	<content contentuid="hee98cddfg249eg4271g9000gafb75f51b182" version="1">You master the power of ice, shaping it to meet you demands.</content>
+	<content contentuid="hee98cddfg249eg4271g9000gafb75f51b182" version="1">You master the power of ice, shaping it to meet your demands.</content>
 	<content contentuid="h8b739fd8g2060g4884gbb32g7cdc6b8ca286" version="1">Mastery of Light and Darkness</content>
 	<content contentuid="hf5a8e0e3g8676g49ceg999egfc52523b36ae" version="1">You claim dominion over light and darkness with your mind.</content>
 	<content contentuid="h79f3b1d1gdd8ag4f3cgac34g1489d6e88bba" version="1">Mastery of Water</content>
@@ -852,7 +852,7 @@
 	<content contentuid="hafbe2881gf469g41bag9d69g1aa9f6e77a38" version="1">Take the form of a ghostly specter, becoming &lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to damage until your next turn. While in this form, your movement speed is halved and you cannot take any actions.</content>
 	<content contentuid="h5e55b13egbd16g4b4eg9b10gc1b5a8ee639a" version="1">&lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to damage. Movement speed halved and unable to take actions.</content>
 	<content contentuid="hfd02e5fbge611g4faag9663g00b78f794fd3" version="1">Immortal Durability</content>
-	<content contentuid="ha1b80016g75b0g4b86g980egd47c22370bee" version="1">While not wearing armour, you add your Constitution Modifier to your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;.</content>
+	<content contentuid="ha1b80016g75b0g4b86g980egd47c22370bee" version="1">While not wearing armour, you add your Constitution Modifier to your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;. Additionally, gain hit points equal to your Mystic level.</content>
 	<content contentuid="h00ecd105g8ef2g46d7gbad6ge24f139bf19c" version="1">Psionic Resilience</content>
 	<content contentuid="h7673327cg277dg4b16gb394g1b4b25bcc5d9" version="1">At the start of each of your turns, gain &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; equal to your Intelligence modifier.</content>
 	<content contentuid="h0fb6ae80ge747g4fffg9409gb7fa6353d523" version="1">Gain [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;.</content>
@@ -890,7 +890,7 @@
 	<content contentuid="h5865a518g1703g4875gbae9g637cc7d3126b" version="1">Consumptive Knife</content>
 	<content contentuid="hac405107geb31g41a9gadafgc7c1e4414996" version="1">Restore 2 Psi Points after reducing an enemy to 0 hit points.</content>
 	<content contentuid="h8d0bf788g31abg4363gbf7aga7d8808812c3" version="1">Phantom Knife</content>
-	<content contentuid="h6ab7fdc0g0cd9g4243gb861g598147185b0d" version="1">Perform a melee weapon attack against a creature, treating their &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; as 10.</content>
+	<content contentuid="h6ab7fdc0g0cd9g4243gb861g598147185b0d" version="1">Perform a melee weapon attack against a creature which cannot be avoided.</content>
 	<content contentuid="h4f2b9252g0aebg4086gad50g7fc336859005" version="1">Elemental Attunement</content>
 	<content contentuid="he04500b3g2ca8g4705g8da0g41bd6ca90872" version="1">Once per turn as a free action, you can choose an element and ignore creatures' &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to that element until the end of your turn.</content>
 	<content contentuid="h98300e6fgf3cdg4009g91f3g2c0aef6d002d" version="1">Choose an element and ignore creatures' &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to it when dealing damage.</content>

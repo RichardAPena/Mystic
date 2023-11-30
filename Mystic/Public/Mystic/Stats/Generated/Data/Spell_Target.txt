@@ -4479,10 +4479,8 @@ data "Icon" "Action_Mystic_PhantomKnife"
 data "DisplayName" "h8d0bf788g31abg4363gbf7aga7d8808812c3"
 data "Description" "h6ab7fdc0g0cd9g4243gb861g598147185b0d"
 data "SpellProperties" "GROUND:DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);GROUND:ExecuteWeaponFunctors(MainHand);"
-// Something like this?
-// TODO
-// data "SpellRoll" "(Attack(AttackType.MeleeWeaponAttack) + AC(context.Target)) and not HasStatus('ModdedExtraAttack')"
 data "SpellRoll" "(Attack(AttackType.MeleeWeaponAttack)) and not HasStatus('ModdedExtraAttack')"
+data "SpellFail" "DealDamage(max(1,MainMeleeWeapon), MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);CastOffhand[DealDamage(max(0,OffhandMeleeWeapon), OffhandMeleeWeaponDamageType);ExecuteWeaponFunctors(OffHand)]"
 // data "UseCosts" ""
 // data "Cooldown" "OncePerTurn"
 // data "SpellFlags" "IsAttack;IsMelee;IsHarmful;Temporary"

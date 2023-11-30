@@ -2009,7 +2009,7 @@ data "Description" "hc742cfd4ge5c8g4445g9785ga19283845ac3"
 data "DescriptionParams" ""
 
 data "TargetConditions" "Self()"
-data "SpellProperties" "ApplyStatus(MYSTIC_MISTY_FORM,100, -1)"
+data "SpellProperties" "ApplyStatus(GASEOUS_FORM,100, -1)"
 data "TooltipStatusApply" "ApplyStatus(MYSTIC_MISTY_FORM,100,-1)"
 data "CastTextEvent" "Cast"
 data "UseCosts" "BonusActionPoint:1;PsiPointsResource:6;PsiLimitResource:1:6"
