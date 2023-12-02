@@ -523,12 +523,3 @@ end
 function SpellPowerLevelEqualOrGreaterThan(value)
     return ConditionResult(context.HitDescription.SpellPowerLevel >= value)
 end
-
--- Made by 3XC4L1B3R. Special thanks to Kiderion for the idea!
-function IsModdedExtraAttack()
-    return (HasStringInSpellRoll('ModdedExtraAttack'))
-end
-
-function IsModdedNonExtraAttack()
-    return (HasStringInSpellRoll('ModdedNonExtraAttack'))
-end
