@@ -1,0 +1,11 @@
+new entry "PSYCHIC_FOCUS_PSIONIC_SKIRMISHING"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" "Spell_Transmutation_Thaumaturgy"
+data "StackId" "PSYCHIC_FOCUS"
+data "Boosts" ""
+// TODO: Add two-weapon fighting passive
+data "Passives" ""
+data "StatusGroups" "SG_RemoveOnRespec"

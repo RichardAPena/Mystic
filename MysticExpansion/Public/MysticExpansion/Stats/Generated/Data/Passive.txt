@@ -1,0 +1,11 @@
+// Psionic Disciplines
+
+// Psionic Skirmishing
+new entry "Discipline_PsionicSkirmishing"
+type "PassiveData"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" ""
+data "Boosts" ""
+// data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_AdaptiveBody);UnlockSpell(Target_Mystic_EnvironmentalAdaptation);UnlockSpell(Shout_Mystic_AdaptiveShield);UnlockSpell(Target_Mystic_EnergyAdaptation);UnlockSpell(Target_Mystic_EnergyImmunity)"
+
