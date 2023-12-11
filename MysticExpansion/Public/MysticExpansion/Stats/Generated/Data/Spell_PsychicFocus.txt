@@ -5,8 +5,8 @@ data "SpellType" "Shout"
 data "Level" "1"
 data "TooltipPermanentWarnings" "f1178ed8-c5ce-4766-85a3-ab0681aa049b"
 
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h084a3829g8d51g4399g9f16g08634f3c3270"
+data "Description" "heae38935gf23eg459fg8aacg83ef4866548a"
 data "DescriptionParams" ""
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 

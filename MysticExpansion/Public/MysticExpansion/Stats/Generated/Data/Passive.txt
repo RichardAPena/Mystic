@@ -3,9 +3,39 @@
 // Psionic Skirmishing
 new entry "Discipline_PsionicSkirmishing"
 type "PassiveData"
-data "DisplayName" ""
-data "Description" ""
-data "Icon" ""
-data "Boosts" ""
+data "DisplayName" "h93d8d4dag6047g4707g9faagb7770e4b5e77"
+data "Description" "hf2b98943g5419g4f2cgacdcg50d9ec8b06e3"
+data "Icon" "PassiveFeature_ExtraAttack"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_PsionicSkirmishing);UnlockSpell(Target_Mystic_SliceAndDice);UnlockSpell(Shout_Mystic_EnergyInfusion);UnlockSpell(Shout_Mystic_PsionicAlacrity);UnlockSpell(Shout_Mystic_BladeFlurry)"
 // data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_AdaptiveBody);UnlockSpell(Target_Mystic_EnvironmentalAdaptation);UnlockSpell(Shout_Mystic_AdaptiveShield);UnlockSpell(Target_Mystic_EnergyAdaptation);UnlockSpell(Target_Mystic_EnergyImmunity)"
 
+// Psychic Focus: Psionic Skirmishing
+// Slice and Dice
+// Energy Infusion
+// Psionic Alacrity
+// Blade Flurry
+
+// Crown of Apathy
+// Crown of Envy
+// Mantle of Pride
+// Mantle of Serenity
+
+// Awakened
+// ?
+// ?
+// ?
+// ?
+
+// Vampirism
+// Martial Training
+// Psionic Fists
+
+// Nomad
+// ?
+// ?
+// ?
+
+// Mastery of Gravity
+// Mastery of Life and Death
+// Mastery of Time
+// Mastery of Stars

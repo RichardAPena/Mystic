@@ -1,17 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <contentList>
-	<content contentuid="" version="1">Psionic Skirmishing</content>
-	<content contentuid="" version="1">TODO: Psionic Skirmishing Description</content>
-	<content contentuid="" version="1">Psychic Focus: Psionic Skirmishing</content>
-	<content contentuid="" version="1">Gain the effects of Fighting Style: Two-Weapon Fighting.</content>
-	<content contentuid="" version="1">Slice and Dice</content>
-	<content contentuid="" version="1">Perform two weapon attacks in quick succession. Can't be while wielding Heavy weapons.</content>
-	<content contentuid="" version="1">Energy Infusion</content>
-	<content contentuid="" version="1">Choose acid, fire, cold, lightning or thunder. Your weapon damage type is changed to that and you deal 1d4 additional of that damage per hit.</content>
-	<content contentuid="" version="1">Psionic Alacrity</content>
-	<content contentuid="" version="1">Gain the effects of Extra Attack.</content>
-	<content contentuid="" version="1">Blade Flurry</content>
-	<content contentuid="" version="1">TODO: Blade Flurry Description </content>
+	<content contentuid="h93d8d4dag6047g4707g9faagb7770e4b5e77" version="1">Psionic Skirmishing</content>
+	<content contentuid="hf2b98943g5419g4f2cgacdcg50d9ec8b06e3" version="1">You achieve unparalleled mastery with your weapons, seamlessly merging them into an extension of your being.</content>
+	<content contentuid="h084a3829g8d51g4399g9f16g08634f3c3270" version="1">Psychic Focus: Psionic Skirmishing</content>
+	<content contentuid="heae38935gf23eg459fg8aacg83ef4866548a" version="1">Gain the effects of Fighting Style: Two-Weapon Fighting.</content>
+	<content contentuid="he8196685g8cf6g44eegb587gb27e6c3e7b63" version="1">Slice and Dice</content>
+	<content contentuid="h6e3c822cg045eg4b1ag856fgd56b292fba06" version="1">Perform two weapon attacks in quick succession. Can only be used wielding a weapon in each hand.</content>
+	<content contentuid="h6e14d101g47fbg4a89ga41cg5de118d9af47" version="1">Energy Infusion</content>
+	<content contentuid="hc7775b9agbc08g4f72gad6dg46aec1ed64da" version="1">Infuse your melee weapons to deal an additional [1] damage with a chosen damage type.</content>
+	<content contentuid="hb2e211f0gc1f7g47bfg95adgb7302b7520e6" version="1">Infuse your melee weapons with [1].</content>	
+	<content contentuid="hec27d459ge317g4688g9342gc860aa839b39" version="1">Weapon attacks deal an additional [1].</content>	
+	<content contentuid="h90bde8c6ga24ag4f88gb7f3gdacb423dbea5" version="1">Psionic Alacrity</content>
+	<content contentuid="h8f378e3fg5c7ag4bbegb22dg5693c59522c5" version="1">Gain the effects of Extra Attack.</content>
+	<content contentuid="hdbbc1f98gb48fg4c4cga6b0g9282cbbb51a9" version="1">Blade Flurry</content>
+	<content contentuid="h5ceaad36g8e3bg4ec2ga60dg08abb8fea777" version="1">Strike all nearby creatures with your blades.</content>
 	<content contentuid="" version="1"> </content>
 	<content contentuid="" version="1"> </content>
 	<content contentuid="" version="1"> </content>
