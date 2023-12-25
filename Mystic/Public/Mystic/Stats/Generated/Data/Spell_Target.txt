@@ -3371,7 +3371,7 @@ data "Description" "h9016bc24g4082g4a64ga4c7gf061572ac8df"
 data "DescriptionParams" "DealDamage(5,Fire)"
 
 data "SpellProperties" "AI_IGNORE:GROUND:Summon(0ba4af65-19d0-4a31-9a42-2c365462841b, 10,,,,MYSTIC_ROLLING_FLAME_AURA);AI_ONLY:DealDamage(5,Fire);DealDamage(5,Fire);GROUND:SurfaceChange(Ignite);GROUND:SurfaceChange(Melt)"
-data "TargetRadius" "1.5"
+data "TargetRadius" "7.5"
 data "AreaRadius" "6"
 data "AoEConditions" "not Self()"
 data "TargetConditions" "not Self()"

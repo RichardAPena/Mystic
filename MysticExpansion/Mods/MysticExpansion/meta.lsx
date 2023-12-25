@@ -20,7 +20,7 @@
                     <attribute id="StartupLevelName" type="FixedString" value=""/>
                     <attribute id="Tags" type="LSString" value=""/>
                     <attribute id="Type" type="FixedString" value="Add-on"/>
-                    <attribute id="UUID" type="FixedString" value="814f4bf4-4f61-4860-bd8e-a10e763cce5a"/>
+                    <attribute id="UUID" type="FixedString" value="97327511-3751-4bcc-b9a5-07454cceb1c8"/>
                     <attribute id="Version64" type="int64" value="36028797018963968"/>
                     <children>
                         <node id="PublishVersion">

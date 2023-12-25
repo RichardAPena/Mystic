@@ -1,0 +1,389 @@
+{
+  "FileVersion": 1,
+  "Progressions": [
+    {
+      "UUID": "0482322d-723e-4705-a41a-99e27902311c",
+      "Strings": [
+        {
+          "Action": "Remove",
+          "Type": "Boosts",
+          "modGuid": "b2ac3aa8-ce29-4d53-be47-7121845f3c1c",
+          "Comment": "Double Psi Points (Level 1)",
+          "Strings": ["ActionResource(PsiPointsResource,4,0)"]
+        }
+      ]
+    },
+    {
+      "UUID": "0482322d-723e-4705-a41a-99e27902311c",
+      "Strings": [
+        {
+          "Action": "Insert",
+          "Type": "Boosts",
+          "modGuid": "b2ac3aa8-ce29-4d53-be47-7121845f3c1c",
+          "Comment": "Double Psi Points (Level 1)",
+          "Strings": ["ActionResource(PsiPointsResource,8,0)"]
+        }
+      ]
+    },
+    {
+      "UUID": "5e682fd9-6864-45e0-bf8b-f45555555555",
+      "Strings": [
+        {
+          "Action": "Remove",
+          "Type": "Boosts",
+          "modGuid": "b2ac3aa8-ce29-4d53-be47-7121845f3c1c",
+          "Comment": "Double Psi Points (Level 1 Multiclass)",
+          "Strings": ["ActionResource(PsiPointsResource,4,0)"]
+        }
+      ]
+    },
+    {
+      "UUID": "5e682fd9-6864-45e0-bf8b-f45555555555",
+      "Strings": [
+        {
+          "Action": "Insert",
+          "Type": "Boosts",
+          "modGuid": "b2ac3aa8-ce29-4d53-be47-7121845f3c1c",
+          "Comment": "Double Psi Points (Level 1 Multiclass)",
+          "Strings": ["ActionResource(PsiPointsResource,8,0)"]
+        }
+      ]
+    },
+    {
+      "UUID": "5689bf11-685d-41c8-ae14-3385e9434949",
+      "Strings": [
+        {
+          "Action": "Remove",
+          "Type": "Boosts",
+          "modGuid": "b2ac3aa8-ce29-4d53-be47-7121845f3c1c",
+          "Comment": "Double Psi Points (Level 2)",
+          "Strings": ["ActionResource(PsiPointsResource,2,0)"]
+        }
+      ]
+    },
+    {
+      "UUID": "5689bf11-685d-41c8-ae14-3385e9434949",
+      "Strings": [
+        {
+          "Action": "Insert",
+          "Type": "Boosts",
+          "modGuid": "b2ac3aa8-ce29-4d53-be47-7121845f3c1c",
+          "Comment": "Double Psi Points (Level 2)",
+          "Strings": ["ActionResource(PsiPointsResource,4,0)"]
+        }
+      ]
+    },
+    {
+      "UUID": "ebad23af-e802-40e0-ba1c-090997fe337d",
+      "Strings": [
+        {
+          "Action": "Remove",
+          "Type": "Boosts",
+          "modGuid": "b2ac3aa8-ce29-4d53-be47-7121845f3c1c",
+          "Comment": "Double Psi Points (Level 3)",
+          "Strings": ["ActionResource(PsiPointsResource,8,0)"]
+        }
+      ]
+    },
+    {
+      "UUID": "ebad23af-e802-40e0-ba1c-090997fe337d",
+      "Strings": [
+        {
+          "Action": "Insert",
+          "Type": "Boosts",
+          "modGuid": "b2ac3aa8-ce29-4d53-be47-7121845f3c1c",
+          "Comment": "Double Psi Points (Level 3)",
+          "Strings": ["ActionResource(PsiPointsResource,16,0)"]
+        }
+      ]
+    },
+    {
+      "UUID": "130fd966-08f6-4696-b7c1-d9cea533a00f",
+      "Strings": [
+        {
+          "Action": "Remove",
+          "Type": "Boosts",
+          "modGuid": "b2ac3aa8-ce29-4d53-be47-7121845f3c1c",
+          "Comment": "Double Psi Points (Level 4)",
+          "Strings": ["ActionResource(PsiPointsResource,3,0)"]
+        }
+      ]
+    },
+    {
+      "UUID": "130fd966-08f6-4696-b7c1-d9cea533a00f",
+      "Strings": [
+        {
+          "Action": "Insert",
+          "Type": "Boosts",
+          "modGuid": "b2ac3aa8-ce29-4d53-be47-7121845f3c1c",
+          "Comment": "Double Psi Points (Level 4)",
+          "Strings": ["ActionResource(PsiPointsResource,6,0)"]
+        }
+      ]
+    },
+    {
+      "UUID": "78848998-cd64-4257-8df4-6465bc126862",
+      "Strings": [
+        {
+          "Action": "Remove",
+          "Type": "Boosts",
+          "modGuid": "b2ac3aa8-ce29-4d53-be47-7121845f3c1c",
+          "Comment": "Double Psi Points (Level 5)",
+          "Strings": ["ActionResource(PsiPointsResource,10,0)"]
+        }
+      ]
+    },
+    {
+      "UUID": "78848998-cd64-4257-8df4-6465bc126862",
+      "Strings": [
+        {
+          "Action": "Insert",
+          "Type": "Boosts",
+          "modGuid": "b2ac3aa8-ce29-4d53-be47-7121845f3c1c",
+          "Comment": "Double Psi Points (Level 5)",
+          "Strings": ["ActionResource(PsiPointsResource,20,0)"]
+        }
+      ]
+    },
+    {
+      "UUID": "0a6f3048-830d-4136-9915-dee5257501ce",
+      "Strings": [
+        {
+          "Action": "Remove",
+          "Type": "Boosts",
+          "modGuid": "b2ac3aa8-ce29-4d53-be47-7121845f3c1c",
+          "Comment": "Double Psi Points (Level 6)",
+          "Strings": ["ActionResource(PsiPointsResource,5,0)"]
+        }
+      ]
+    },
+    {
+      "UUID": "0a6f3048-830d-4136-9915-dee5257501ce",
+      "Strings": [
+        {
+          "Action": "Insert",
+          "Type": "Boosts",
+          "modGuid": "b2ac3aa8-ce29-4d53-be47-7121845f3c1c",
+          "Comment": "Double Psi Points (Level 6)",
+          "Strings": ["ActionResource(PsiPointsResource,10,0)"]
+        }
+      ]
+    },
+    {
+      "UUID": "efd82e1d-b4a4-4781-a573-ceef12681ff9",
+      "Strings": [
+        {
+          "Action": "Remove",
+          "Type": "Boosts",
+          "modGuid": "b2ac3aa8-ce29-4d53-be47-7121845f3c1c",
+          "Comment": "Double Psi Points (Level 7)",
+          "Strings": ["ActionResource(PsiPointsResource,6,0)"]
+        }
+      ]
+    },
+    {
+      "UUID": "efd82e1d-b4a4-4781-a573-ceef12681ff9",
+      "Strings": [
+        {
+          "Action": "Insert",
+          "Type": "Boosts",
+          "modGuid": "b2ac3aa8-ce29-4d53-be47-7121845f3c1c",
+          "Comment": "Double Psi Points (Level 7)",
+          "Strings": ["ActionResource(PsiPointsResource,12,0)"]
+        }
+      ]
+    },
+    {
+      "UUID": "9941d1ac-3789-4797-b423-66c93feaac7f",
+      "Strings": [
+        {
+          "Action": "Remove",
+          "Type": "Boosts",
+          "modGuid": "b2ac3aa8-ce29-4d53-be47-7121845f3c1c",
+          "Comment": "Double Psi Points (Level 8)",
+          "Strings": ["ActionResource(PsiPointsResource,6,0)"]
+        }
+      ]
+    },
+    {
+      "UUID": "9941d1ac-3789-4797-b423-66c93feaac7f",
+      "Strings": [
+        {
+          "Action": "Insert",
+          "Type": "Boosts",
+          "modGuid": "b2ac3aa8-ce29-4d53-be47-7121845f3c1c",
+          "Comment": "Double Psi Points (Level 8)",
+          "Strings": ["ActionResource(PsiPointsResource,12,0)"]
+        }
+      ]
+    },
+    {
+      "UUID": "f8bbd9b3-6df7-47cb-b461-07cec3355cff",
+      "Strings": [
+        {
+          "Action": "Remove",
+          "Type": "Boosts",
+          "modGuid": "b2ac3aa8-ce29-4d53-be47-7121845f3c1c",
+          "Comment": "Double Psi Points (Level 9)",
+          "Strings": ["ActionResource(PsiPointsResource,13,0)"]
+        }
+      ]
+    },
+    {
+      "UUID": "f8bbd9b3-6df7-47cb-b461-07cec3355cff",
+      "Strings": [
+        {
+          "Action": "Insert",
+          "Type": "Boosts",
+          "modGuid": "b2ac3aa8-ce29-4d53-be47-7121845f3c1c",
+          "Comment": "Double Psi Points (Level 9)",
+          "Strings": ["ActionResource(PsiPointsResource,26,0)"]
+        }
+      ]
+    },
+    {
+      "UUID": "c6d25fa6-3582-48e6-9d6a-06c58f61d877",
+      "Strings": [
+        {
+          "Action": "Remove",
+          "Type": "Boosts",
+          "modGuid": "b2ac3aa8-ce29-4d53-be47-7121845f3c1c",
+          "Comment": "Double Psi Points (Level 10)",
+          "Strings": ["ActionResource(PsiPointsResource,7,0)"]
+        }
+      ]
+    },
+    {
+      "UUID": "c6d25fa6-3582-48e6-9d6a-06c58f61d877",
+      "Strings": [
+        {
+          "Action": "Insert",
+          "Type": "Boosts",
+          "modGuid": "b2ac3aa8-ce29-4d53-be47-7121845f3c1c",
+          "Comment": "Double Psi Points (Level 10)",
+          "Strings": ["ActionResource(PsiPointsResource,14,0)"]
+        }
+      ]
+    },
+    {
+      "UUID": "c64ee274-4328-4463-9ed7-3aff33d1c5ed",
+      "Strings": [
+        {
+          "Action": "Remove",
+          "Type": "Boosts",
+          "modGuid": "b2ac3aa8-ce29-4d53-be47-7121845f3c1c",
+          "Comment": "Double Psi Points (Level 18)",
+          "Strings": ["ActionResource(PsiPointsResource,7,0)"]
+        }
+      ]
+    },
+    {
+      "UUID": "c64ee274-4328-4463-9ed7-3aff33d1c5ed",
+      "Strings": [
+        {
+          "Action": "Insert",
+          "Type": "Boosts",
+          "modGuid": "b2ac3aa8-ce29-4d53-be47-7121845f3c1c",
+          "Comment": "Double Psi Points (Level 18)",
+          "Strings": ["ActionResource(PsiPointsResource,14,0)"]
+        }
+      ]
+    },
+    {
+      "UUID": "a7bd1581-ceb6-4fc9-b564-76c6f7f9b9c9",
+      "Strings": [
+        {
+          "Action": "Remove",
+          "Type": "Boosts",
+          "modGuid": "b2ac3aa8-ce29-4d53-be47-7121845f3c1c",
+          "Comment": "Double Psionic Mastery (Level 11)",
+          "Strings": ["ActionResource(PsionicMasteryResource,1,0)"]
+        }
+      ]
+    },
+    {
+      "UUID": "a7bd1581-ceb6-4fc9-b564-76c6f7f9b9c9",
+      "Strings": [
+        {
+          "Action": "Insert",
+          "Type": "Boosts",
+          "modGuid": "b2ac3aa8-ce29-4d53-be47-7121845f3c1c",
+          "Comment": "Double Psionic Mastery (Level 11)",
+          "Strings": ["ActionResource(PsionicMasteryResource,2,0)"]
+        }
+      ]
+    },
+    {
+      "UUID": "883e0251-d839-4f50-bcf6-3071ff2a0fcb",
+      "Strings": [
+        {
+          "Action": "Remove",
+          "Type": "Boosts",
+          "modGuid": "b2ac3aa8-ce29-4d53-be47-7121845f3c1c",
+          "Comment": "Double Psionic Mastery (Level 13)",
+          "Strings": ["ActionResource(PsionicMasteryResource,1,0)"]
+        }
+      ]
+    },
+    {
+      "UUID": "883e0251-d839-4f50-bcf6-3071ff2a0fcb",
+      "Strings": [
+        {
+          "Action": "Insert",
+          "Type": "Boosts",
+          "modGuid": "b2ac3aa8-ce29-4d53-be47-7121845f3c1c",
+          "Comment": "Double Psionic Mastery (Level 13)",
+          "Strings": ["ActionResource(PsionicMasteryResource,2,0)"]
+        }
+      ]
+    },
+    {
+      "UUID": "227df0e8-d893-49d7-9082-4a5c2779b77d",
+      "Strings": [
+        {
+          "Action": "Remove",
+          "Type": "Boosts",
+          "modGuid": "b2ac3aa8-ce29-4d53-be47-7121845f3c1c",
+          "Comment": "Double Psionic Mastery (Level 15)",
+          "Strings": ["ActionResource(PsionicMasteryResource,1,0)"]
+        }
+      ]
+    },
+    {
+      "UUID": "227df0e8-d893-49d7-9082-4a5c2779b77d",
+      "Strings": [
+        {
+          "Action": "Insert",
+          "Type": "Boosts",
+          "modGuid": "b2ac3aa8-ce29-4d53-be47-7121845f3c1c",
+          "Comment": "Double Psionic Mastery (Level 15)",
+          "Strings": ["ActionResource(PsionicMasteryResource,2,0)"]
+        }
+      ]
+    },
+    {
+      "UUID": "c117735e-d751-4f6f-8446-bdb262fc7bdf",
+      "Strings": [
+        {
+          "Action": "Remove",
+          "Type": "Boosts",
+          "modGuid": "b2ac3aa8-ce29-4d53-be47-7121845f3c1c",
+          "Comment": "Double Psionic Mastery (Level 17)",
+          "Strings": ["ActionResource(PsionicMasteryResource,1,0)"]
+        }
+      ]
+    },
+    {
+      "UUID": "c117735e-d751-4f6f-8446-bdb262fc7bdf",
+      "Strings": [
+        {
+          "Action": "Insert",
+          "Type": "Boosts",
+          "modGuid": "b2ac3aa8-ce29-4d53-be47-7121845f3c1c",
+          "Comment": "Double Psionic Mastery (Level 17)",
+          "Strings": ["ActionResource(PsionicMasteryResource,2,0)"]
+        }
+      ]
+    }    
+  ]
+}

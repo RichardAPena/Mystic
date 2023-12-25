@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="6" build="5"/>
+    <region id="Progressions">
+        <node id="root">
+            <children>
+                <node id="Progression"> Mystic Level 1
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(PsiPointsResource,4,0);ProficiencyBonus(SavingThrow,Intelligence);Proficiency(SimpleWeapons);Proficiency(LightArmor)"/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="Mystic"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_StrengthOfMind_Wisdom;Passive_Mystic_IllithidFix"/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectPassives(48317e03-fe2a-4767-8f4d-1bdc2a40ac65,1,PsionicDisciplines);SelectSkills(a93e9e09-6bdd-475c-b4e4-3acf69d02111,2);SelectSpells(7b64aaca-d5e5-4555-9df3-a19bb13b5008,2,0,PsionicTalents,,,AlwaysPrepared);"/>
+					<attribute id="TableUUID" type="guid" value="4b5d89ce-9dfb-46c2-a205-77bbf05a6492"/>
+                    <attribute id="UUID" type="guid" value="0482322d-723e-4705-a41a-99e27902311c"/>
+					<children>
+                        <node id="SubClasses">
+                            <children>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="ad862906-2d59-46bb-86db-271213086b1b"/> Avatar
+                                </node>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="2985a255-24e5-43ae-bb25-301eab9e494d"/> Awakened
+                                </node>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="eed23a86-6f91-4c42-b144-16751f131b06"/> Immortal
+                                </node>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="53429775-301b-4da5-bcd2-c83ef9f15e21"/> Nomad
+                                </node>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="7c3f6d5b-194e-4af9-bc16-435a2c546d19"/> Soul Knife
+                                </node>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="800d31fc-32d1-40c0-b871-cd8242105a20"/> Wu Jen
+                                </node>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="2ea1b93a-89a6-4c66-b2c4-657d441be775"/> Ascetic
+                                </node>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="56b0ad9d-d24a-41d4-bade-5b1e2b82f6e6"/> Blade
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+				<node id="Progression"> Mystic Multiclass
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(PsiPointsResource,4,0)"/>
+                    <attribute id="IsMulticlass" type="bool" value="true"/>
+					<attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="Mystic"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_IllithidFix"/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(48317e03-fe2a-4767-8f4d-1bdc2a40ac65,1,PsionicDisciplines);SelectSpells(7b64aaca-d5e5-4555-9df3-a19bb13b5008,2,0,PsionicTalents,,,AlwaysPrepared);"/>
+					<attribute id="TableUUID" type="guid" value="4b5d89ce-9dfb-46c2-a205-77bbf05a6492"/>
+                    <attribute id="UUID" type="guid" value="5e682fd9-6864-45e0-bf8b-f45555555555"/>
+					<children>
+                        <node id="SubClasses">
+                            <children>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="ad862906-2d59-46bb-86db-271213086b1b"/> Avatar
+                                </node>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="2985a255-24e5-43ae-bb25-301eab9e494d"/> Awakened
+                                </node>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="eed23a86-6f91-4c42-b144-16751f131b06"/> Immortal
+                                </node>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="53429775-301b-4da5-bcd2-c83ef9f15e21"/> Nomad
+                                </node>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="7c3f6d5b-194e-4af9-bc16-435a2c546d19"/> Soul Knife
+                                </node>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="800d31fc-32d1-40c0-b871-cd8242105a20"/> Wu Jen
+                                </node>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="2ea1b93a-89a6-4c66-b2c4-657d441be775"/> Ascetic
+                                </node>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="56b0ad9d-d24a-41d4-bade-5b1e2b82f6e6"/> Blade
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+        
+                <node id="Progression"> Ascetic Level 1
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="OrderAscetic"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_PsionicFists"/>
+                    <attribute id="TableUUID" type="guid" value="1c7b47a8-d031-4c79-bc6b-4d003b0eb2bd"/>
+                    <attribute id="UUID" type="guid" value="9c8cc5b0-f939-4060-b885-b2dbde594454"/>
+                </node>
+                <node id="Progression"> Ascetic Level 3
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="OrderAscetic"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_PsionicResonance"/>
+                    <attribute id="TableUUID" type="guid" value="1c7b47a8-d031-4c79-bc6b-4d003b0eb2bd"/>
+                    <attribute id="UUID" type="guid" value="066d058f-465b-494b-9a33-22381018ba9f"/>
+                </node>
+                <node id="Progression"> Ascetic Level 6
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="OrderAscetic"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_FlawlessTechnique"/>
+                    <attribute id="TableUUID" type="guid" value="1c7b47a8-d031-4c79-bc6b-4d003b0eb2bd"/>
+                    <attribute id="UUID" type="guid" value="e6843015-44bb-4e62-94bd-0335d6ad4bdd"/>
+                </node>
+                <node id="Progression"> Ascetic Level 14
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="14"/>
+                    <attribute id="Name" type="LSString" value="OrderAscetic"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_UnyieldingMind"/>
+                    <attribute id="TableUUID" type="guid" value="1c7b47a8-d031-4c79-bc6b-4d003b0eb2bd"/>
+                    <attribute id="UUID" type="guid" value="ee4bad49-f2fd-4e67-9dc1-4931cd838b22"/>
+                </node>
+
+                <node id="Progression"> Blade Level 1
+                    <attribute id="Boosts" type="LSString" value="Proficiency(MartialWeapons);Proficiency(MediumArmor);Proficiency(HeavyArmor)"/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="OrderBlade"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_MysticArsenal;Passive_Mystic_MartialTraining2"/>
+                    <attribute id="TableUUID" type="guid" value="78100c3d-9c07-496e-a3b8-8aba8dee86ad"/>
+                    <attribute id="UUID" type="guid" value="bccb873b-dfe1-402e-b33f-02199f5a3e00"/>
+                </node>
+                <node id="Progression"> Blade Level 3 
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="OrderBlade"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_WarAdept"/>
+                    <attribute id="TableUUID" type="guid" value="78100c3d-9c07-496e-a3b8-8aba8dee86ad"/>
+                    <attribute id="UUID" type="guid" value="8f6715f8-8ad0-4d82-a7bb-29a56a12351e"/>
+                </node>
+                <node id="Progression"> Blade Level 6
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="OrderBlade"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value="ExtraAttack"/>
+                    <attribute id="TableUUID" type="guid" value="78100c3d-9c07-496e-a3b8-8aba8dee86ad"/>
+                    <attribute id="UUID" type="guid" value="e17e21c2-eb71-4cfb-a33b-9db4ff44e4ab"/>
+                </node>
+                <node id="Progression"> Blade Level 14
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="14"/>
+                    <attribute id="Name" type="LSString" value="OrderBlade"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_PsionicTrance"/>
+                    <attribute id="TableUUID" type="guid" value="78100c3d-9c07-496e-a3b8-8aba8dee86ad"/>
+                    <attribute id="UUID" type="guid" value="39e62574-46bf-4e34-9b26-1eb4983dae83"/>
+                </node>
+
+            </children>
+        </node>
+    </region>
+</save>

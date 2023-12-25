@@ -7,13 +7,9 @@ data "DisplayName" "h93d8d4dag6047g4707g9faagb7770e4b5e77"
 data "Description" "hf2b98943g5419g4f2cgacdcg50d9ec8b06e3"
 data "Icon" "PassiveFeature_ExtraAttack"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_PsionicSkirmishing);UnlockSpell(Target_Mystic_SliceAndDice);UnlockSpell(Shout_Mystic_EnergyInfusion);UnlockSpell(Shout_Mystic_PsionicAlacrity);UnlockSpell(Shout_Mystic_BladeFlurry)"
-// data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_AdaptiveBody);UnlockSpell(Target_Mystic_EnvironmentalAdaptation);UnlockSpell(Shout_Mystic_AdaptiveShield);UnlockSpell(Target_Mystic_EnergyAdaptation);UnlockSpell(Target_Mystic_EnergyImmunity)"
 
-// Psychic Focus: Psionic Skirmishing
-// Slice and Dice
-// Energy Infusion
-// Psionic Alacrity
-// Blade Flurry
+
+// Shout_Mystic_PsychicFocus_PsionicSkirmishing
 
 // Crown of Apathy
 // Crown of Envy
@@ -39,3 +35,95 @@ data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_PsionicSkirmishing);UnlockS
 // Mastery of Life and Death
 // Mastery of Time
 // Mastery of Stars
+
+// Order of the Ascetic
+
+new entry "Passive_Mystic_PsionicFists"
+type "PassiveData"
+data "DisplayName" "hb0dca46fg08cag4d0agb287ge12f5bec8d3b"
+data "Description" "h1278abafg4e4cg4c51ga659gcd85d789b8cd"
+data "DescriptionParams" "DealDamage(LevelMapValue(PsionicStrike), Psychic)"
+data "Icon" "Action_Monk_FreeUnarmedStrike"
+data "Properties" "Highlighted"
+data "Boosts" "IF(IsUnarmedAttack()):RollBonus(Attack,IntelligenceModifier-StrengthModifier);IF(IsUnarmedAttack()):DamageBonus(IntelligenceModifier-StrengthModifier);AttackSpellOverride(Target_Mystic_PsionicStrike, Target_UnarmedAttack);IF(IsUnarmedAttack()):MonkWeaponDamageDiceOverride(LevelMapValue(PsionicFists));UnlockSpell(Target_Mystic_PsionicStrike_Bonus)"
+
+// Psionic Resonance
+new entry "Passive_Mystic_PsionicResonance"
+type "PassiveData"
+data "DisplayName" "h7ad75dd5g18c1g437fgba42ge2be57114058"
+data "Description" "h1c4f40cdg5b99g4f11g8b14g2ef7ad19b68d"
+data "Icon" "Action_Monk_WholenessOfBody"
+data "Properties" "Highlighted"
+data "StatsFunctorContext" "OnCast"
+data "Conditions" "PsionicDisciplineCheck()"
+data "StatsFunctors" "IF(SpellPowerLevelEqualTo(1)):ApplyStatus(SELF,MYSTIC_PSIONIC_RESONANCE,100,1);IF(SpellPowerLevelEqualTo(2)):ApplyStatus(SELF,MYSTIC_PSIONIC_RESONANCE,100,2);IF(SpellPowerLevelEqualTo(3)):ApplyStatus(SELF,MYSTIC_PSIONIC_RESONANCE,100,3);IF(SpellPowerLevelEqualTo(4)):ApplyStatus(SELF,MYSTIC_PSIONIC_RESONANCE,100,4);IF(SpellPowerLevelEqualTo(5)):ApplyStatus(SELF,MYSTIC_PSIONIC_RESONANCE,100,5);IF(SpellPowerLevelEqualTo(6)):ApplyStatus(SELF,MYSTIC_PSIONIC_RESONANCE,100,6);IF(SpellPowerLevelEqualTo(7)):ApplyStatus(SELF,MYSTIC_PSIONIC_RESONANCE,100,7)"
+
+new entry "Passive_Mystic_PsionicResonance_Technical"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnStatusApplied"
+data "StatsFunctors" "IF(HasMaximumPsionicResonanceCharge(context.Target)):SetStatusDuration(MYSTIC_PSIONIC_RESONANCE, 7, ForceSet)"
+
+// Flawless Technique
+new entry "Passive_Mystic_FlawlessTechnique"
+type "PassiveData"
+data "DisplayName" "ha097ae4dg8103g4a65gbc89g86139e5a641d"
+data "Description" "h12aaeb85g6598g4b95gae04g79fd729f2ec0"
+data "Icon" "Action_Monk_StunningStrike"
+data "Properties" "Highlighted;OncePerTurn"
+data "StatsFunctorContext" "OnCast"
+data "Conditions" "PsionicDisciplineCheck()"
+data "StatsFunctors" "ApplyStatus(SELF,MYSTIC_FLAWLESS_TECHNIQUE,100,1)"
+
+// Unyielding Mind
+new entry "Passive_Mystic_UnyieldingMind"
+type "PassiveData"
+data "DisplayName" "h384150c4g64eag43c8g8749gd61fece1d288"
+data "Description" "ha2f8254cgccfdg4021gba86gcf6381ae9837"
+data "DescriptionParams" "7"
+data "Icon" "PassiveFeature_Resilient"
+data "Properties" "Highlighted;OncePerCombat"
+data "StatsFunctorContext" "OnTurn"
+data "Conditions" "Combat()"
+data "StatsFunctors" "RestoreResource(PsiPointsResource,7,0);"
+
+// Order of the Blade
+
+// Mystic Arsenal
+new entry "Passive_Mystic_MysticArsenal"
+type "PassiveData"
+data "DisplayName" "ha566a8ccgd8a9g4605ga5cfg2aad1c10dec9"
+data "Description" "hc25e7e73gf237g4092ga212g2f98d2f2caf7"
+data "Icon" "Action_PactOfTheBlade_Greatsword"
+data "Properties" "Highlighted"
+data "Boosts" ""
+
+// Martial Training
+new entry "Passive_Mystic_MartialTraining2"
+type "PassiveData"
+data "DisplayName" "h281f3304ge417g4149gae2cga120ea5f64d5"
+data "Description" "he2478245g7e29g4b9bga1c2gfab43839df34"
+data "Icon" "PassiveFeature_MartialAdept"
+data "Properties" "Highlighted"
+data "Boosts" ""
+
+// War Adept
+new entry "Passive_Mystic_WarAdept"
+type "PassiveData"
+data "DisplayName" "h0455c234g0bf4g49bbgaaecge6617c6114bf"
+data "Description" "ha43c8a1eg002fg4ddcg8446gdfffa33dc10e"
+data "Icon" "PassiveFeature_PolearmMaster_BonusAttack"
+data "Properties" "Highlighted"
+data "Boosts" ""
+
+// Extra Attack
+
+// Psionic Trance
+new entry "Passive_Mystic_PsionicTrance"
+type "PassiveData"
+data "DisplayName" "h7ada79e3g226ag4c2bg9521g3ac7cf6cf50b"
+data "Description" "hf3bb52b7g8b82g494cga6b4g997052e91d25"
+data "DescriptionParams" ""
+data "Icon" "Spell_Illusion_HypnoticPattern"
+data "Properties" "Highlighted"
+data "Boosts" "UnlockSpell();"

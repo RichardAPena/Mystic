@@ -1,0 +1,101 @@
+{
+  "FileVersion": 1,
+  "Progressions": [
+    {
+      "UUID": "0482322d-723e-4705-a41a-99e27902311c",
+      "Strings": [
+        {
+          "Action": "Remove",
+          "Type": "Boosts",
+          "modGuid": "b2ac3aa8-ce29-4d53-be47-7121845f3c1c",
+          "Comment": "Infinite Psi Points (Level 1)",
+          "Strings": ["ActionResource(PsiPointsResource,4,0)"]
+        }
+      ]
+    },
+    {
+      "UUID": "0482322d-723e-4705-a41a-99e27902311c",
+      "Strings": [
+        {
+          "Action": "Insert",
+          "Type": "Boosts",
+          "modGuid": "b2ac3aa8-ce29-4d53-be47-7121845f3c1c",
+          "Comment": "Infinite Psi Points (Level 1)",
+          "Strings": ["ActionResource(PsiPointsResource,999,0)"]
+        }
+      ]
+    },
+    {
+      "UUID": "5e682fd9-6864-45e0-bf8b-f45555555555",
+      "Strings": [
+        {
+          "Action": "Remove",
+          "Type": "Boosts",
+          "modGuid": "b2ac3aa8-ce29-4d53-be47-7121845f3c1c",
+          "Comment": "Infinite Psi Points (Level 1 Multiclass)",
+          "Strings": ["ActionResource(PsiPointsResource,4,0)"]
+        }
+      ]
+    },
+    {
+      "UUID": "5e682fd9-6864-45e0-bf8b-f45555555555",
+      "Strings": [
+        {
+          "Action": "Insert",
+          "Type": "Boosts",
+          "modGuid": "b2ac3aa8-ce29-4d53-be47-7121845f3c1c",
+          "Comment": "Infinite Psi Points (Level 1 Multiclass)",
+          "Strings": ["ActionResource(PsiPointsResource,999,0)"]
+        }
+      ]
+    },
+    {
+      "UUID": "0482322d-723e-4705-a41a-99e27902311c",
+      "Strings": [
+        {
+          "Action": "Insert",
+          "Type": "Boosts",
+          "modGuid": "b2ac3aa8-ce29-4d53-be47-7121845f3c1c",
+          "Comment": "Unlock Psi Limit",
+          "Strings": ["ActionResource(PsiLimitResource,255,3);ActionResource(PsiLimitResource,255,4);ActionResource(PsiLimitResource,255,5);ActionResource(PsiLimitResource,255,6);ActionResource(PsiLimitResource,255,7)"]
+        }
+      ]
+    },
+    {
+      "UUID": "5e682fd9-6864-45e0-bf8b-f45555555555",
+      "Strings": [
+        {
+          "Action": "Insert",
+          "Type": "Boosts",
+          "modGuid": "b2ac3aa8-ce29-4d53-be47-7121845f3c1c",
+          "Comment": "Unlock Psi Limit (Multiclass)",
+          "Strings": ["ActionResource(PsiLimitResource,255,3);ActionResource(PsiLimitResource,255,4);ActionResource(PsiLimitResource,255,5);ActionResource(PsiLimitResource,255,6);ActionResource(PsiLimitResource,255,7)"]
+        }
+      ]
+    },
+    {
+      "UUID": "a7bd1581-ceb6-4fc9-b564-76c6f7f9b9c9",
+      "Strings": [
+        {
+          "Action": "Remove",
+          "Type": "Boosts",
+          "modGuid": "b2ac3aa8-ce29-4d53-be47-7121845f3c1c",
+          "Comment": "Infinite Psionic Mastery (Level 11)",
+          "Strings": ["ActionResource(PsionicMasteryResource,1,0)"]
+        }
+      ]
+    },
+    {
+      "UUID": "a7bd1581-ceb6-4fc9-b564-76c6f7f9b9c9",
+      "Strings": [
+        {
+          "Action": "Insert",
+          "Type": "Boosts",
+          "modGuid": "b2ac3aa8-ce29-4d53-be47-7121845f3c1c",
+          "Comment": "Infinite Psionic Mastery (Level 11)",
+          "Strings": ["ActionResource(PsionicMasteryResource,999,0)"]
+        }
+      ]
+    }
+  ]
+}

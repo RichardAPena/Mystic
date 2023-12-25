@@ -80,6 +80,7 @@ function PsychicFocusCheck()
       | SpellId('Shout_Mystic_PsychicFocus_PsychicSuppression')
       | SpellId('Shout_Mystic_PsychicFocus_TelepathicSubjugation')
       | SpellId('Shout_Mystic_PsychicFocus_ThirdEye')
+      | SpellId('Shout_Mystic_PsychicFocus_PsionicSkirmishing')
 end
 
 function SuperiorTeleportationCheck()
@@ -512,6 +513,10 @@ function PsionicDisciplineCheck()
       | SpellId('Zone_Mystic_WaterWhip_5')
       | SpellId('Zone_Mystic_WaterWhip_6')
       | SpellId('Zone_Mystic_WaterWhip_7')
+      | SpellId('Target_Mystic_SliceAndDice')
+      | SpellId('Shout_Mystic_EnergyInfusion')
+      | SpellId('Shout_Mystic_PsionicAlacrity')
+      | SpellId('Shout_Mystic_BladeFlurry')
 end
 
 function GiantGrowthCheck()
@@ -522,4 +527,23 @@ end
 
 function SpellPowerLevelEqualOrGreaterThan(value)
     return ConditionResult(context.HitDescription.SpellPowerLevel >= value)
+end
+
+
+function HasMaximumPsionicResonanceCharge(entity)
+    local entity = entity or context.Target
+    return ConditionResult(GetStatusDuration('MYSTIC_PSIONIC_RESONANCE', entity) > 7)
+end
+
+function MinimumValue(value1, value2)
+    local result = 0
+    if value1 < value2 then
+      result = value1
+      return value1
+    else
+      result = value2
+      return value2
+    end
+
+    return result
 end

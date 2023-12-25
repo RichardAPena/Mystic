@@ -661,7 +661,7 @@ data "AmountOfTargets" "1"
 // data "SpellRoll" "Attack(AttackType.RangedSpellAttack)"
 // TODO: Add Int modifier to melee attack roll?
 // data "SpellRoll" "Attack(AttackType.MeleeWeaponAttack)+IntelligenceModifier"
-data "SpellRoll" "Attack(AttackType.MeleeWeaponAttack)+1"
+data "SpellRoll" "Attack(AttackType.MeleeWeaponAttack)"
 data "SpellSuccess" "DealDamage(max(1,MainMeleeWeapon), MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(1d10,Force,Magical)"
 data "TargetConditions" "not Self() and not Dead()"
 data "ProjectileCount" "1"
