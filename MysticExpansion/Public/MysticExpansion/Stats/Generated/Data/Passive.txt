@@ -52,6 +52,7 @@ new entry "Passive_Mystic_PsionicResonance"
 type "PassiveData"
 data "DisplayName" "h7ad75dd5g18c1g437fgba42ge2be57114058"
 data "Description" "h1c4f40cdg5b99g4f11g8b14g2ef7ad19b68d"
+data "DescriptionParams" "1"
 data "Icon" "Action_Monk_WholenessOfBody"
 data "Properties" "Highlighted"
 data "StatsFunctorContext" "OnCast"
@@ -96,16 +97,15 @@ data "DisplayName" "ha566a8ccgd8a9g4605ga5cfg2aad1c10dec9"
 data "Description" "hc25e7e73gf237g4092ga212g2f98d2f2caf7"
 data "Icon" "Action_PactOfTheBlade_Greatsword"
 data "Properties" "Highlighted"
-data "Boosts" ""
+data "Boosts" "UnlockSpell(Shout_Mystic_MysticArsenal)"
 
 // Martial Training
 new entry "Passive_Mystic_MartialTraining2"
 type "PassiveData"
 data "DisplayName" "h281f3304ge417g4149gae2cga120ea5f64d5"
 data "Description" "he2478245g7e29g4b9bga1c2gfab43839df34"
-data "Icon" "PassiveFeature_MartialAdept"
+data "Icon" "PassiveFeature_Elf_WeaponTraining"
 data "Properties" "Highlighted"
-data "Boosts" ""
 
 // War Adept
 new entry "Passive_Mystic_WarAdept"
@@ -114,9 +114,15 @@ data "DisplayName" "h0455c234g0bf4g49bbgaaecge6617c6114bf"
 data "Description" "ha43c8a1eg002fg4ddcg8446gdfffa33dc10e"
 data "Icon" "PassiveFeature_PolearmMaster_BonusAttack"
 data "Properties" "Highlighted"
-data "Boosts" ""
+data "StatsFunctorContext" "OnEquip;OnLongRest;OnCast;OnStatusApplied;OnStatusApply;OnStatusRemove;OnStatusRemoved;OnCastResolved;OnTurn"
+// data "StatsFunctors" "ApplyEquipmentStatus(MeleeMainHand, MYSTIC_WAR_ADEPT, 100, -1)"
+data "StatsFunctors" "IF(FightingStyle_GreatWeapon(context.Source) and HasStatus('MYSTIC_MYSTIC_ARSENAL_GREAT_WEAPON_FIGHTING', context.Source)):ApplyEquipmentStatus(MeleeMainHand, MYSTIC_WAR_ADEPT, 100, -1);IF(FightingStyle_Dueling(context.Source) and HasStatus('MYSTIC_MYSTIC_ARSENAL_DUELING', context.Source)):ApplyEquipmentStatus(MeleeMainHand, MYSTIC_WAR_ADEPT, 100, -1);IF(HasStatus('MYSTIC_MYSTIC_ARSENAL_ARCHERY', context.Source)):ApplyEquipmentStatus(RangedMainHand, MYSTIC_WAR_ADEPT, 100, -1);IF(HasStatus('MYSTIC_MYSTIC_ARSENAL_ARCHERY', context.Source)):ApplyEquipmentStatus(RangedOffHand, MYSTIC_WAR_ADEPT, 100, -1);IF(HasWeaponProperty(WeaponProperties.Thrown,  GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand)) and HasStatus('MYSTIC_MYSTIC_ARSENAL_THROWN_WEAPON_FIGHTING', context.Source)):ApplyEquipmentStatus(MeleeMainHand, MYSTIC_WAR_ADEPT, 100, -1);"
 
-// Extra Attack
+// IF(FightingStyle_GreatWeapon(context.Source) and HasStatus('MYSTIC_MYSTIC_ARSENAL_GREAT_WEAPON_FIGHTING')):ApplyEquipmentStatus(MeleeMainHand, MYSTIC_WAR_ADEPT, 100, -1);
+// IF(FightingStyle_Dueling(context.Source) and HasStatus('MYSTIC_MYSTIC_ARSENAL_DUELING')):ApplyEquipmentStatus(MeleeMainHand, MYSTIC_WAR_ADEPT, 100, -1);
+// IF(HasStatus('MYSTIC_MYSTIC_ARSENAL_ARCHERY')):ApplyEquipmentStatus(RangedMainHand, MYSTIC_WAR_ADEPT, 100, -1);
+// IF(HasStatus('MYSTIC_MYSTIC_ARSENAL_ARCHERY')):ApplyEquipmentStatus(RangedOffHand, MYSTIC_WAR_ADEPT, 100, -1);
+// IF(HasWeaponProperty(WeaponProperties.Thrown, GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand)) and HasStatus('MYSTIC_MYSTIC_ARSENAL_THROWN_WEAPON_FIGHTING')):ApplyEquipmentStatus(MeleeMainHand, MYSTIC_WAR_ADEPT, 100, -1);
 
 // Psionic Trance
 new entry "Passive_Mystic_PsionicTrance"
@@ -126,4 +132,4 @@ data "Description" "hf3bb52b7g8b82g494cga6b4g997052e91d25"
 data "DescriptionParams" ""
 data "Icon" "Spell_Illusion_HypnoticPattern"
 data "Properties" "Highlighted"
-data "Boosts" "UnlockSpell();"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsionicTrance);"

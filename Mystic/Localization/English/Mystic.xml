@@ -162,7 +162,7 @@
 	<content contentuid="h447de615g3ea8g459fg8f86g6e68427420fa" version="1">Increase your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by 1.</content>
 	<content contentuid="h4caf2c5dg58e8g4e6agbf53gddabfbd0f126" version="1">&lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; increased by 1.</content>
 	<content contentuid="h726cffd3g5059g451egb576g4c780d6f25d8" version="1">Psychic Focus: Mantle of Awe</content>
-	<content contentuid="hc5c3d2eage8c2g4ad9gb40bg49fa398d1db0" version="1">Gain half of your Intelligence modifier as a bonus to Charisma &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="hc5c3d2eage8c2g4ad9gb40bg49fa398d1db0" version="1">Gain half of your Intelligence &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; as a bonus to Charisma &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="h2992fa4fgf81bg45c1g81adge4e0e19a9c37" version="1">+[1] to Charisma &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="h30935e9bg9decg4089g9f85g3789939b3e6d" version="1">Psychic Focus: Mantle of Command</content>
 	<content contentuid="heb843595gc7acg4e46g9d53gd8a7b1232531" version="1">Gain the ability to cast &lt;LSTag Tooltip="Target_Mystic_CommandersImperative"&gt;Commander's Imperative&lt;/LSTag&gt; for free, once per turn.</content>
@@ -789,7 +789,7 @@
 	<content contentuid="h83a09a72gd4cdg4b08ga961g3238a6650967" version="1">Warp Weapon</content>
 	<content contentuid="h748563bbgacbbg491agb42cgbdde01912d8c" version="1">Warp a creature's weapon, forcing them to drop it.</content>
 	<content contentuid="h39245a46gf4a7g40f4gb6ceg4949b840ef0e" version="1">Warp Armour</content>
-	<content contentuid="h562c9301g068eg4efdga903gd0a507fc4ea0" version="1">Warp a creature's armour. Their &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; becomes 10 + their Dexterity modifier until the start of your next turn.</content>
+	<content contentuid="h562c9301g068eg4efdga903gd0a507fc4ea0" version="1">Warp a creature's armour. Their &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; becomes 10 + their Dexterity &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; until the start of your next turn.</content>
 	<content contentuid="h44a60c02g007bg40d3gbed1g47f29b4c22e3" version="1">Armour rendered unusable.</content>
 	<content contentuid="h6fcdffeegbad6g4e69gbfb6g755185e04884" version="1">Wall of Wood</content>
 	<content contentuid="h198949eeg4602g4235ga8d8g61ec1bea9738" version="1">Raise a wall of non-magical, solid wood.</content>
@@ -852,9 +852,9 @@
 	<content contentuid="hafbe2881gf469g41bag9d69g1aa9f6e77a38" version="1">Take the form of a ghostly specter, becoming &lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to damage until your next turn. While in this form, your movement speed is halved and you cannot take any actions.</content>
 	<content contentuid="h5e55b13egbd16g4b4eg9b10gc1b5a8ee639a" version="1">&lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to damage. Movement speed halved and unable to take actions.</content>
 	<content contentuid="hfd02e5fbge611g4faag9663g00b78f794fd3" version="1">Immortal Durability</content>
-	<content contentuid="ha1b80016g75b0g4b86g980egd47c22370bee" version="1">While not wearing armour, you add your Constitution Modifier to your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;. Additionally, gain hit points equal to your Mystic level.</content>
+	<content contentuid="ha1b80016g75b0g4b86g980egd47c22370bee" version="1">While not wearing armour, you add your Constitution &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; to your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;. Additionally, gain hit points equal to your Mystic level.</content>
 	<content contentuid="h00ecd105g8ef2g46d7gbad6ge24f139bf19c" version="1">Psionic Resilience</content>
-	<content contentuid="h7673327cg277dg4b16gb394g1b4b25bcc5d9" version="1">At the start of each of your turns, gain &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; equal to your Intelligence modifier.</content>
+	<content contentuid="h7673327cg277dg4b16gb394g1b4b25bcc5d9" version="1">At the start of each of your turns, gain &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; equal to your Intelligence &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt;.</content>
 	<content contentuid="h0fb6ae80ge747g4fffg9409gb7fa6353d523" version="1">Gain [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;.</content>
 	<content contentuid="h56cb35d0g56f3g4098g8d58gbdab90b41a46" version="1">Surge of Health</content>
 	<content contentuid="h29c97f6dg93efg4497g9f86gdcf3a6ecaa0e" version="1">As a reaction, halve incoming damage. Usable once per Short or Long Rest.</content>
@@ -988,7 +988,7 @@
 	<content contentuid="h65a29b73gcac5g4623ga881g0918bc8069f4" version="1">Cloth of the Goliath</content>
 	<content contentuid="hc9b2e9ddg72f3g43dcgb6c8g3720da0a617c" version="1">A surprisingly malleable piece of cloth. It can harden when under force and absorb blows for its wearer.</content>
 	<content contentuid="hfc3b5a7cg05b8g4851ga9dbg94f897074f6c" version="1">Unbreakable Will</content>
-	<content contentuid="h7c9f01eag0f68g4ed0g99e9gd4d6a91ad3dd" version="1">Reduce incoming damage by [1]. The amount of damage reduction is equal to half your Intelligence modifier.</content>
+	<content contentuid="h7c9f01eag0f68g4ed0g99e9gd4d6a91ad3dd" version="1">Reduce incoming damage by [1]. The amount of damage reduction is equal to half your Intelligence &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt;.</content>
 	<content contentuid="hc905187fg2c47g4781ga6d3gf8d0da15309b" version="1">Garb of the Planeswalker</content>
 	<content contentuid="hffe656d3g58a0g4dfbg89c8g0400fd973dc0" version="1">This armour has been worn by many a wandering nomad. It has gathered incredible power from the astral planes and beyond.</content>
 	<content contentuid="hb9c9644eg584fg477fgac68g1affcd816889" version="1">Nomadic Impetus</content>
@@ -1028,7 +1028,7 @@
 	<content contentuid="h35f38316g5cd9g45b9g9a1eg3098d5e2bc29" version="1">Ring of Potent Psionics</content>
 	<content contentuid="h805b4713gcdbdg4555g8c73gb8c5d9ee5377" version="1">A ring that augments the wearer's innate psionic ability.</content>
 	<content contentuid="heef8ed75g75e0g4c95g8bcbg3352364d6903" version="1">Potent Psionics</content>
-	<content contentuid="h2803b4a9g0997g4afbg89b2g694b7d85f220" version="1">Add your Spellcasting Modifier to the damage of psionic talents.</content>
+	<content contentuid="h2803b4a9g0997g4afbg89b2g694b7d85f220" version="1">Add your &lt;LSTag Tooltip="SpellcastingAbilityModifier"&gt;Spellcasting Modifier&lt;/LSTag&gt; to the damage of psionic talents.</content>
 	<content contentuid="h660ffb77gd563g47a5gb899g485f2195c06f" version="1">Mark of the Sadist</content>
 	<content contentuid="h9806ad78gcaf8g4929g89a5g687b2365a7f7" version="1">A faint aura of malice radiates from this ring. It stimulates the mind of the wearer when inflicting pain on others.</content>
 	<content contentuid="hd2466c8fg4317g46e1g91cegaef2a36ac7dd" version="1">Sadism</content>

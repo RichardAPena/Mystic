@@ -17,47 +17,49 @@
 	<content contentuid="h06358907ge651g4757g828ag531350fea6a5" version="1">Order of the Ascetic</content>
 	<content contentuid="h45dc6d26g4e09g49bdgaf6fgd43ee1cd1ea3" version="1">Through disciplined training of mind, body, and spirit, ascetic mystics can perform both devastating psionics and crushing blows.</content>
 	<content contentuid="hb0dca46fg08cag4d0agb287ge12f5bec8d3b" version="1">Psionic Fists</content>
-	<content contentuid="h1278abafg4e4cg4c51ga659gcd85d789b8cd" version="1">Your unarmed attacks deal [1], and you use your Intelligence modifier for unarmed attack and damage rolls. Additionally, you can make an unarmed attack as a bonus action.</content>
+	<content contentuid="h1278abafg4e4cg4c51ga659gcd85d789b8cd" version="1">Your unarmed attacks deal [1], and you use your Intelligence &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; for unarmed attack and damage rolls. Additionally, you can make an unarmed attack as a bonus action.</content>
 	<content contentuid="h7ad75dd5g18c1g437fgba42ge2be57114058" version="1">Psionic Resonance</content>
-	<content contentuid="h1c4f40cdg5b99g4f11g8b14g2ef7ad19b68d" version="1">After spending Psi Points, gain stacks of Psionic Resonance, increasing the damage of your next successful unarmed attack by [1].</content>
-	<content contentuid="hadc15c98gaffbg4f41g9d1egb1dfa274a755" version="1">Next unarmed attack will deal [1].</content>
+	<content contentuid="h1c4f40cdg5b99g4f11g8b14g2ef7ad19b68d" version="1">After spending Psi Points, gain stacks of Psionic Resonance, increasing the damage of your next successful unarmed attack by [1] per stack.</content>
+	<content contentuid="hadc15c98gaffbg4f41g9d1egb1dfa274a755" version="1">Next unarmed attack will deal an additional [1].</content>
 	<content contentuid="ha097ae4dg8103g4a65gbc89g86139e5a641d" version="1">Flawless Technique</content>
 	<content contentuid="h12aaeb85g6598g4b95gae04g79fd729f2ec0" version="1">After casting a psionic discipline, you can make an unarmed strike for free. Once per turn.</content>
 	<content contentuid="h4762c91cg882ag46c5g8633gd721346c9a8b" version="1">Able to make an unarmed strike for free.</content>
 	<content contentuid="h384150c4g64eag43c8g8749gd61fece1d288" version="1">Unyielding Mind</content>
 	<content contentuid="ha2f8254cgccfdg4021gba86gcf6381ae9837" version="1">At the start of each combat, regain [1] Psi Points.</content>
 	<content contentuid="hef38dccdga3c7g45feg97c3gabb1b89248fb" version="1">Order of the Blade</content>
-	<content contentuid="hb3b6dabag4bb1g48aaga83dg1b104cf60da8" version="1">Also known as Blades, mystics of this order forsake mental training and instead focus on weapons, employing their psionics to enhance their attacks.</content>
+	<content contentuid="hb3b6dabag4bb1g48aaga83dg1b104cf60da8" version="1">Also known as Blades, mystics of this order forsake mental training and instead focus on weapons, using their psionics to enhance their attacks.</content>
 	<content contentuid="ha566a8ccgd8a9g4605ga5cfg2aad1c10dec9" version="1">Mystic Arsenal</content>
 	<content contentuid="hc25e7e73gf237g4092ga212g2f98d2f2caf7" version="1">Learn a Fighting Style of your choice.</content>
 	<content contentuid="h281f3304ge417g4149gae2cga120ea5f64d5" version="1">Martial Training</content>
-	<content contentuid="he2478245g7e29g4b9bga1c2gfab43839df34" version="1">Gain Weapon Proficiency with Martial Weapons and Armour Proficiency with Medium and Heavy Armour.</content>
+	<content contentuid="he2478245g7e29g4b9bga1c2gfab43839df34" version="1">Gain &lt;LSTag Tooltip="WeaponProficiency"&gt;Weapon Proficiency&lt;/LSTag&gt; with Martial Weapons and &lt;LSTag Tooltip="ArmourProficiency"&gt;Armour Proficiency&lt;/LSTag&gt; with Medium and Heavy Armour.</content>
 	<content contentuid="h963bd4bdg830dg4f72gaf8fg64f4f1692dcb" version="1">Mystic Arsenal: Great Weapon Fighting</content>
-	<content contentuid="h410f04ebg859fg4ae0gb649g781c0695802d" version="1">TODO: Mystic Arsenal: Great Weapon Fighting Description</content>
-	<content contentuid="h8b5f3f09g8a94g450ag9e1cg2b8317fe053b" version="1">TODO: Mystic Arsenal: Great Weapon Fighting Status Description</content>
+	<content contentuid="h410f04ebg859fg4ae0gb649g781c0695802d" version="1">Learn &lt;LSTag Type="Passive" Tooltip="FightingStyle_GreatWeaponFighting"&gt;Great Weapon Fighting&lt;/LSTag&gt;.</content>
+	<content contentuid="h8b5f3f09g8a94g450ag9e1cg2b8317fe053b" version="1">Learned &lt;LSTag Type="Passive" Tooltip="FightingStyle_GreatWeaponFighting"&gt;Great Weapon Fighting&lt;/LSTag&gt;.</content>
 	<content contentuid="h8d074fa7g1645g43e6ga710gfe6de9b84d68" version="1">Mystic Arsenal: Dueling</content>
-	<content contentuid="hbbd9c04bg9689g4780g82ccg35ec449869d9" version="1">TODO: Mystic Arsenal: Dueling Description</content>
-	<content contentuid="hbea77557g5cc6g4cb8g919ag5c8f0f61bee9" version="1">TODO: Mystic Arsenal: Dueling Status Description</content>
+	<content contentuid="hbbd9c04bg9689g4780g82ccg35ec449869d9" version="1">Learn &lt;LSTag Type="Passive" Tooltip="FightingStyle_Dueling"&gt;Dueling&lt;/LSTag&gt;.</content>
+	<content contentuid="hbea77557g5cc6g4cb8g919ag5c8f0f61bee9" version="1">Learned &lt;LSTag Type="Passive" Tooltip="FightingStyle_Dueling"&gt;Dueling&lt;/LSTag&gt;.</content>
 	<content contentuid="ha7fc7b19g0bf1g4d0cgb57bg9ce0b1c410ee" version="1">Mystic Arsenal: Archery</content>
-	<content contentuid="h9f3671f0gb934g4990ga2bfge0b6277656eb" version="1">TODO: Mystic Arsenal: Archery Description</content>
-	<content contentuid="heb8040e6g889eg412cgb1a6g60d1bc6f509a" version="1">TODO: Mystic Arsenal: Archery Status Description</content>
+	<content contentuid="h9f3671f0gb934g4990ga2bfge0b6277656eb" version="1">Learn &lt;LSTag Type="Passive" Tooltip="FightingStyle_Archery"&gt;Archery&lt;/LSTag&gt;.</content>
+	<content contentuid="heb8040e6g889eg412cgb1a6g60d1bc6f509a" version="1">Learned &lt;LSTag Type="Passive" Tooltip="FightingStyle_Archery"&gt;Archery&lt;/LSTag&gt;.</content>
 	<content contentuid="hf416d98dg570bg4ee6gb5bbg9fc1e53312de" version="1">Mystic Arsenal: Thrown Weapon Fighting</content>
-	<content contentuid="hb8691793g49c0g4c1fg9c2bg9aeb5ec74d74" version="1">TODO: Mystic Arsenal: Thrown Weapon Fighting Description</content>
-	<content contentuid="h6836c38ag97e2g4860ga8acg2156faf1806e" version="1">TODO: Mystic Arsenal: Thrown Weapon Fighting Status Description</content>
+	<content contentuid="hb8691793g49c0g4c1fg9c2bg9aeb5ec74d74" version="1">Learn &lt;LSTag Type="Passive" Tooltip="FightingStyle_ThrownWeaponFighting"&gt;Thrown Weapon Fighting&lt;/LSTag&gt;.</content>
+	<content contentuid="h6836c38ag97e2g4860ga8acg2156faf1806e" version="1">Learned &lt;LSTag Type="Passive" Tooltip="FightingStyle_ThrownWeaponFighting"&gt;Thrown Weapon Fighting&lt;/LSTag&gt;.</content>
 	<content contentuid="h0455c234g0bf4g49bbgaaecge6617c6114bf" version="1">War Adept</content>
-	<content contentuid="ha43c8a1eg002fg4ddcg8446gdfffa33dc10e" version="1">TODO: War Adept Description</content>
+	<content contentuid="ha43c8a1eg002fg4ddcg8446gdfffa33dc10e" version="1">When wielding a weapon that matches your chosen Fighting Style from Mystic Arsenal, you use your Intelligence &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; for attack and damage rolls. Additionally, gain an additional ability based on the Fighting Style chosen from Mystic Arsenal.&lt;br&gt;&lt;br&gt;- Two Weapon Fighting: &lt;LSTag Type="Spell" Tooltip="Target_Mystic_PsychicSmite"&gt;Psychic Smite&lt;/LSTag&gt;&lt;br&gt;- Dueling: &lt;LSTag Type="Spell" Tooltip="Zone_Mystic_PsychicFlourish"&gt;Psychic Flourish&lt;/LSTag&gt;&lt;br&gt;- Archery: &lt;LSTag Type="Spell" Tooltip="Projectile_Mystic_PsychicBarrage"&gt;Psychic Barrage&lt;/LSTag&gt;&lt;br&gt;- Thrown Weapon Fighting: &lt;LSTag Type="Spell" Tooltip="Target_Mystic_PsychicShockwave"&gt;Psychic Shockwave&lt;/LSTag&gt;</content>
+	<content contentuid="hbd003dc7g010eg4e2bg961cgf555ee71eb3f" version="1">This weapon uses the wielder's Intelligence &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; for &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
 	<content contentuid="hd45504cdgb974g4498g8192ga19c8bd7697d" version="1">Psychic Smite</content>
-	<content contentuid="h59057af2g42e8g4ab5g9e57g386bbc2914fa" version="1">TODO: Psychic Smite Description</content>
+	<content contentuid="h59057af2g42e8g4ab5g9e57g386bbc2914fa" version="1">Deliver a crushing slam infused with psi.</content>
 	<content contentuid="h2ae11de5gcdd0g4383gbc9dg53bf9b5b3484" version="1">Does not spend Psi Points.</content>
-	<content contentuid="" version="1">Psychic Flourish</content>
-	<content contentuid="" version="1">TODO: Psychic Flourish Description</content>
-	<content contentuid="" version="1">Psychic Barrage</content>
-	<content contentuid="" version="1">TODO: Psychic Barrage Description</content>
-	<content contentuid="" version="1">Psychic Shockwave</content>
-	<content contentuid="" version="1">TODO: Psychic Shockwave Description</content>
+	<content contentuid="h131f4b6ag36e8g4f17g9370g60bfa1e970c4" version="1">Psychic Flourish</content>
+	<content contentuid="h21903406g5455g4f47gad90gbfef42b56b2d" version="1">Strike foes in an arc and gain [1] increased movement speed and increasing your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by [2] until your next turn.</content>
+	<content contentuid="h5f2f821bgd38fg4230g93e9g1a9806d6e971" version="1">Movement speed increased by [1]. &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; increased by [2].</content>
+	<content contentuid="h38c2f5c1gb9bfg407dg98d7ga2c823e47e63" version="1">Psychic Barrage</content>
+	<content contentuid="h9e22312eg1638g49cbgb3ceg84d1f36752f9" version="1">Shoot up to [1] times. Each shot deals half damage.</content>
+	<content contentuid="h5bf297c5g597bg4f10g9eddg8822e2738627" version="1">Psychic Shockwave</content>
+	<content contentuid="h76dfd634g6865g4143g945eg7301fb020fdd" version="1">Unleash a psychic shockwave in a targeted area.</content>
 	<content contentuid="h7ada79e3g226ag4c2bg9521g3ac7cf6cf50b" version="1">Psionic Trance</content>
-	<content contentuid="hf3bb52b7g8b82g494cga6b4g997052e91d25" version="1">Enter a state of heightened psionic focus. You gain the benefits of Improved Extra Attack, [1] increased movement speed and a bonus to weapon attack and damage rolls equal to your Intelligence modifier.</content>
-	<content contentuid="hdcd01fc4g89abg4bc5g94a4g1dcf95248741" version="1">Able to attack three times. [1] increased movement speed. +[1] to weapon attack and damage rolls.</content>
+	<content contentuid="hf3bb52b7g8b82g494cga6b4g997052e91d25" version="1">Enter a state of heightened psionic focus. You gain the benefits of Improved Extra Attack, [1] increased movement speed and a bonus to weapon attack and damage rolls equal to your Intelligence &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt;.</content>
+	<content contentuid="hdcd01fc4g89abg4bc5g94a4g1dcf95248741" version="1">Able to attack three times. [1] increased movement speed. +[2] to weapon attack and damage rolls.</content>
 	<content contentuid="" version="1"> </content>
 	<content contentuid="" version="1"> </content>
 	<content contentuid="" version="1"> </content>
