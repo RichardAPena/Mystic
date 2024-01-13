@@ -136,8 +136,8 @@
 	<content contentuid="he6b411efg1e0fg4998g80f3ga0228ad040d9" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Athletics &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="hafcd2a8eg444cg4c00gbbf3ga580261bcbe7" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Athletics &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="h4e436234gb796g4e55g8a16ga00514a30db1" version="1">Psychic Focus: Celerity</content>
-	<content contentuid="ha7e7eec0g43c0g4a14gb002g2d0b699d5a87" version="1">Increase your movement speed by [1].</content>
-	<content contentuid="h9562d071g198cg4a56gb474g987aff4fb156" version="1">Movement speed increased by [1].</content>
+	<content contentuid="ha7e7eec0g43c0g4a14gb002g2d0b699d5a87" version="1">Increase your &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; by [1].</content>
+	<content contentuid="h9562d071g198cg4a56gb474g987aff4fb156" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; increased by [1].</content>
 	<content contentuid="hae4c18a2g5a37g4a1dg9b81g949582877bc2" version="1">Psychic Focus: Corrosive Metabolism</content>
 	<content contentuid="h2cabd8d4gd7e2g489fg9a82g048990cb823a" version="1">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Poison and Acid damage.</content>
 	<content contentuid="h8eb7016ag1bd1g4ad0g8c9fg390c56acf5b1" version="1">&lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Poison and Acid damage.</content>
@@ -168,8 +168,8 @@
 	<content contentuid="heb843595gc7acg4e46g9d53gd8a7b1232531" version="1">Gain the ability to cast &lt;LSTag Tooltip="Target_Mystic_CommandersImperative"&gt;Commander's Imperative&lt;/LSTag&gt; for free, once per turn.</content>
 	<content contentuid="h37c8bd6agbc0ag4d3egaf61g8296f4b02afe" version="1">Able to cast &lt;LSTag Tooltip="Target_Mystic_CommandersImperative"&gt;Commander's Imperative&lt;/LSTag&gt;.</content>
 	<content contentuid="he5fc1d3age6c4g4017gb0a2gd2d2f0f6fa4e" version="1">Commander's Imperative</content>
-	<content contentuid="ha78de940ge09dg428eg89c6g161d9f40b1a3" version="1">Mobilize an ally, increasing their movement speed by [1].</content>
-	<content contentuid="hc1502b65g0e96g459cga39dg185ad7bed030" version="1">Movement speed increased by [1].</content>
+	<content contentuid="ha78de940ge09dg428eg89c6g161d9f40b1a3" version="1">Mobilize an ally, increasing their &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; by [1].</content>
+	<content contentuid="hc1502b65g0e96g459cga39dg185ad7bed030" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; increased by [1].</content>
 	<content contentuid="h8dc5ccf0g5600g4f85g9535g64e9439487ee" version="1">Psychic Focus: Mantle of Courage</content>
 	<content contentuid="had37e37egaba4g4b2fg80f2g09c29641d813" version="1">Mantle of Courage</content>
 	<content contentuid="hb830ea19gbc75g4ad6ga052g28fdd5001b4c" version="1">Allies within [1] will have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; against becoming &lt;LSTag Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;.</content>
@@ -178,9 +178,9 @@
 	<content contentuid="h9869cd04g7d92g4ddfg8154g0d1a448a273e" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Intimidation &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="h6e572917gc8e2g4615g9155g202b2bbe5edf" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Intimidation &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="hc21e69eag6aa9g4ee1ga46cg469669c0be8f" version="1">Psychic Focus: Mantle of Fury</content>
-	<content contentuid="h9959e0ddg4cc5g4ecdg9c81ge81518589673" version="1">You and allies that start their turn within [1] of you gain [2] movement speed for 1 turn.</content>
+	<content contentuid="h9959e0ddg4cc5g4ecdg9c81ge81518589673" version="1">You and allies that start their turn within [1] of you gain [2] &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; for 1 turn.</content>
 	<content contentuid="hdec54f61ga1ceg422fga572ga82b4937da97" version="1">Mantle of Fury</content>
-	<content contentuid="h39a4cbe8gcca5g4b98g83d0g3c19761536e1" version="1">Movement speed increased by [1].</content>
+	<content contentuid="h39a4cbe8gcca5g4b98g83d0g3c19761536e1" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; increased by [1].</content>
 	<content contentuid="h05e31d94g7d3eg48dbg98d4gbe901caa9432" version="1">Psychic Focus: Mantle of Joy</content>
 	<content contentuid="h6c0cdbd6ge6cfg4d77gaf79gd9a53d3685c1" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Persuasion &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="ha54972cfg3b1eg49a7ga1ddg7fc587806d15" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Persuasion &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
@@ -253,10 +253,10 @@
 	<content contentuid="h09b8fe6cgfcadg4974gade6g97ea9ead94b0" version="1">Gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in Persuasion.</content>
 	<content contentuid="h93fc80d0g8ce6g4fd3g9c64g79c531ca403c" version="1">&lt;LSTag Tooltip="Proficiency"&gt;Proficient&lt;/LSTag&gt; in Persuasion.</content>
 	<content contentuid="h725fca70g880fg4d25g8e09g18a16659c4aa" version="1">Psychic Focus: Nomadic Step</content>
-	<content contentuid="hc115861fg145cg452bg8bd3g2d25b1484684" version="1">Once per turn, increase your movement speed by [1] after teleporting.</content>
-	<content contentuid="hf2da775dge311g4bbfg868dg18d69963f3b1" version="1">After teleporting, increase movement speed by [1].</content>
+	<content contentuid="hc115861fg145cg452bg8bd3g2d25b1484684" version="1">Once per turn, increase your &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; by [1] after teleporting.</content>
+	<content contentuid="hf2da775dge311g4bbfg868dg18d69963f3b1" version="1">After teleporting, increase &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; by [1].</content>
 	<content contentuid="h8bb006fag44e8g45b2g9d8fg71efa52f75b4" version="1">Nomadic Step</content>
-	<content contentuid="hae23a909g3456g4fa2gac4ag07ca17d6c2dd" version="1">Movement speed increased by [1].</content>
+	<content contentuid="hae23a909g3456g4fa2gac4ag07ca17d6c2dd" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; increased by [1].</content>
 	<content contentuid="hdd6e2842g5f17g4afdga05bgd6c06af239e4" version="1">Psychic Focus: Precognition</content>
 	<content contentuid="h1aa1d8d3g4517g4b48gb0f3g6ce81030984b" version="1">Gain a +[1] bonus to Initiative.</content>
 	<content contentuid="h0bec5880g57b5g4588g9aa6g66e689b94dfd" version="1">+[1] to Initiave.</content>
@@ -296,8 +296,8 @@
 	<content contentuid="h03963472g0f58g4428ga1e0gd7c4a7133c56" version="1">Energy Beam</content>
 	<content contentuid="h3ff3c148g722cg44edga1cbgec3a9f65a43f" version="1">Blast a creature with a chromatic beam of energy.</content>
 	<content contentuid="h29b79265g1a6cg44b5g9eefg01609d146fa2" version="1">Light Step</content>
-	<content contentuid="hfa7ee91eg9616g4227gbccfg77a694d0c7d9" version="1">Alter your weight and density, increasing your movement speed by [1] and becoming immune to &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
-	<content contentuid="h7d02b3fdge32eg4391g8fefgfb07f0598425" version="1">Movement speed increased by [1]. Immune to &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
+	<content contentuid="hfa7ee91eg9616g4227gbccfg77a694d0c7d9" version="1">Alter your weight and density, increasing your &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; by [1] and becoming immune to &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
+	<content contentuid="h7d02b3fdge32eg4391g8fefgfb07f0598425" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; increased by [1]. Immune to &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
 	<content contentuid="h115ff01cg11ceg4134ga89cgf2206ad26123" version="1">Mind Meld</content>
 	<content contentuid="h04a93477g9186g4cc3g8961gcc7b002ea492" version="1">Fuse your mind with another creature's, reducing your stats by 1 and increasing theirs by the same amount.</content>
 	<content contentuid="h211147b3ge4e6g420fg9e53g4e36d045fef1" version="1">All stats increased by 1.</content>
@@ -322,19 +322,19 @@
 	<content contentuid="h6876fb03g45dfg4ff3g8330g8fc658fda76d" version="1">Called to Inaction</content>
 	<content contentuid="h37deb4c0g409bg4fd2ga6f5gf1216b0a21dd" version="1">&lt;LSTag Type="Status" Tooltip="INCAPACITATED"&gt;Incapacitated&lt;/LSTag&gt; until damaged.</content>
 	<content contentuid="hc0b08843g8f8eg49a1g9342g7d7b776fbc61" version="1">Visions of Despair</content>
-	<content contentuid="h666cee9fg7058g40c6g9bd5ge4cebbb6d433" version="1">Flood a creature with sorrowful visions, reducing their movement speed to 0.</content>
-	<content contentuid="hfe6c6eeagb18bg4b1dgb4b0g992e51fc5fe6" version="1">Movement speed reduced to 0.</content>
+	<content contentuid="h666cee9fg7058g40c6g9bd5ge4cebbb6d433" version="1">Flood a creature with sorrowful visions, reducing their &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; to 0.</content>
+	<content contentuid="hfe6c6eeagb18bg4b1dgb4b0g992e51fc5fe6" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; reduced to 0.</content>
 	<content contentuid="h83324aa2g689ag4e26gae75ga176151e8866" version="1">Dolorous Mind</content>
-	<content contentuid="h19bf8e5eg6f44g4bc2gb5fegd2a1f608b599" version="1">Overwhelm a creature with anguish, &lt;LSTag Type="Status" Tooltip="INCAPACITATED"&gt;Incapacitating&lt;/LSTag&gt; it and reducing its movement speed to 0.</content>
-	<content contentuid="hf7b4f71dg39aeg4582gbe7bgda7d0c9566ac" version="1">&lt;LSTag Type="Status" Tooltip="INCAPACITATED"&gt;Incapacitated&lt;/LSTag&gt;, movement speed reduced to 0.</content>
+	<content contentuid="h19bf8e5eg6f44g4bc2gb5fegd2a1f608b599" version="1">Overwhelm a creature with anguish, &lt;LSTag Type="Status" Tooltip="INCAPACITATED"&gt;Incapacitating&lt;/LSTag&gt; it and reducing its &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; to 0.</content>
+	<content contentuid="hf7b4f71dg39aeg4582gbe7bgda7d0c9566ac" version="1">&lt;LSTag Type="Status" Tooltip="INCAPACITATED"&gt;Incapacitated&lt;/LSTag&gt;, &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; reduced to 0.</content>
 	<content contentuid="hd49244fdg189fg49abgafb7g82b523a3ee79" version="1">Eye of Horror</content>
-	<content contentuid="h60a97b1bg8f91g4f28g80bfgcc527aaa1047" version="1">Project an image of horror at a creature, reducing their movement speed by half.</content>
-	<content contentuid="h77791667gb881g4996g93b4gf60eab7bfb1f" version="1">Movement speed reduced by [1].</content>
+	<content contentuid="h60a97b1bg8f91g4f28g80bfgcc527aaa1047" version="1">Project an image of horror at a creature, reducing their &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; by half.</content>
+	<content contentuid="h77791667gb881g4996g93b4gf60eab7bfb1f" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; reduced by [1].</content>
 	<content contentuid="h52bc941fg3400g43c0g88b1g17e2fc2eec65" version="1">Wall of Repulsion</content>
-	<content contentuid="h0cc6b196gaa72g417ag8d93gafdb4fc13ea0" version="1">Create a wall of energy that may repulse creatures that touch it, reducing their movement speed to 0.</content>
-	<content contentuid="h06f51e75gf735g4d07g9257ga36cc845e932" version="1">Touching the Wall of Repulsion may reduce movement speed to 0.</content>
+	<content contentuid="h0cc6b196gaa72g417ag8d93gafdb4fc13ea0" version="1">Create a wall of energy that may repulse creatures that touch it, reducing their &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; to 0.</content>
+	<content contentuid="h06f51e75gf735g4d07g9257ga36cc845e932" version="1">Touching the Wall of Repulsion may reduce &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; to 0.</content>
 	<content contentuid="hfc0eaaa0gc478g4769gb2d8g938c36bf5caf" version="1">Repulsed</content>
-	<content contentuid="hbf9c8b71gd994g4865g929cgd3b8d38708be" version="1">Movement speed reduced to 0.</content>
+	<content contentuid="hbf9c8b71gd994g4865g929cgd3b8d38708be" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; reduced to 0.</content>
 	<content contentuid="h7e97d15dg98e7g4b8dg9849ga2ed3058e5af" version="1">Visions of Disgust</content>
 	<content contentuid="hf1319c93g4f26g4743g9389g59867ac1f6c3" version="1">Warp a creature's mind, causing it to regard other beings as horrid. While afflicted, it takes [1] at the end of its turns.</content>
 	<content contentuid="h7105a329gdb40g430dgb245g840f85f141ab" version="1">Takes [1] each turn.</content>
@@ -355,8 +355,8 @@
 	<content contentuid="h8b1abde3gc807g48e0g9725g96e373175249" version="1">Boiling with rage. Whenever this creature attacks, other creatures can use their reaction to make a melee attack against them.</content>
 	<content contentuid="h02f249deg73f6g4362g8633g71803017fe51" version="1">Able to retaliate against the entity affected by Punishing Fury.</content>
 	<content contentuid="h6abf59c0g7ddag4ec7g97ddge6d16248b484" version="1">Coordinated Movement</content>
-	<content contentuid="h1ba91861g777eg4c67ga616g722a9e291280" version="1">Signal up to five allies to move as a unit, increasing their movement speed by [1].</content>
-	<content contentuid="hfb595d88g0d0eg46feg9b51g356788a0e87d" version="1">Movement speed increased by [1].</content>
+	<content contentuid="h1ba91861g777eg4c67ga616g722a9e291280" version="1">Signal up to five allies to move as a unit, increasing their &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; by [1].</content>
+	<content contentuid="hfb595d88g0d0eg46feg9b51g356788a0e87d" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; increased by [1].</content>
 	<content contentuid="ha478b526ge94eg4689g8876gb131dd371a18" version="1">Commander's Sight</content>
 	<content contentuid="h9f0b9cc3g2c38g4c1bgaba1gd3a27449389f" version="1">Reveal a creature's weaknesses, giving &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against it.</content>
 	<content contentuid="h5baa6f58g9233g4cc0gb303gafe1a572845e" version="1">&lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; against this creature.</content>
@@ -387,17 +387,17 @@
 	<content contentuid="hc614b36dgf1e2g4d1bgbd39g2043b1fe4ae1" version="1">Invoke fear in a creature, &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightening&lt;/LSTag&gt; them.</content>
 	<content contentuid="" version="1">&lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;. Can repeat the &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; if the caster is out of sight.</content>
 	<content contentuid="hf54dcf2bg014fg43abg9484g52be7f13e362" version="1">Unsettling Aura</content>
-	<content contentuid="h93d0582cg5788g43e8g92f5gdc957b0b1cd6" version="1">Cloak yourself in unsettling psychic energy, halving the movement speed of nearby enemies.&lt;br&gt;&lt;br&gt;Creatures that are immune to being &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt; are unaffected.</content>
-	<content contentuid="h306d89c1g1e5bg4f80gb77fgf8849f6d8d85" version="1">Movement speed is halved.</content>
-	<content contentuid="h0c4f3364gf502g437cg9089g23ddf94ce35a" version="1">Emitting an aura that halves the movement speed of nearby enemies.</content>
+	<content contentuid="h93d0582cg5788g43e8g92f5gdc957b0b1cd6" version="1">Cloak yourself in unsettling psychic energy, halving the &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; of nearby enemies.&lt;br&gt;&lt;br&gt;Creatures that are immune to being &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt; are unaffected.</content>
+	<content contentuid="h306d89c1g1e5bg4f80gb77fgf8849f6d8d85" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; is halved.</content>
+	<content contentuid="h0c4f3364gf502g437cg9089g23ddf94ce35a" version="1">Emitting an aura that halves the &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; of nearby enemies.</content>
 	<content contentuid="h3983f69bgce33g40cdg82e3geecd6d20292f" version="1">Incite Panic</content>
 	<content contentuid="h2b073784g2d6dg4533g8122g2b54aebb16e6" version="1">Sow chaos in up to eight creatures, &lt;LSTag Type="Status" Tooltip="TIMMASK_SPORES"&gt;Befuddling&lt;/LSTag&gt; them.</content>
 	<content contentuid="h3e342734g83e2g43cegb0fegfe74ae247945" version="1">Incite Fury</content>
 	<content contentuid="hb579b8d3g6067g4ea6gafacg291cb41e6984" version="1">Evoke fury in up to three allies, granting them +1d4 to melee damage rolls.</content>
 	<content contentuid="hcf279208g813bg40e7ga351g067152c8878c" version="1">+1d4 to melee weapon damage rolls.</content>
 	<content contentuid="h1483efcbg0d78g40ffga8f8gfab8b74c29d1" version="1">Mindless Charge</content>
-	<content contentuid="h744cdc77g41afg4290g99e6g653fa1854560" version="1">Rouse up to 3 creatures, increasing their movement speed by [1] but giving them &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on Strength, Dexterity and Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
-	<content contentuid="h02127774ga9d0g4ab0g8f61gce7308ee55c1" version="1">Movement speed increased by [1]. &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on Strength, Dexterity and Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
+	<content contentuid="h744cdc77g41afg4290g99e6g653fa1854560" version="1">Rouse up to 3 creatures, increasing their &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; by [1] but giving them &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on Strength, Dexterity and Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
+	<content contentuid="h02127774ga9d0g4ab0g8f61gce7308ee55c1" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; increased by [1]. &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on Strength, Dexterity and Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
 	<content contentuid="h4a8242b3gffc3g43c8g8a25g0b03e9d956df" version="1">Aura of Bloodletting</content>
 	<content contentuid="ha64cd2aag4558g4e51gbb58ge0026b35a209" version="1">Unleash an aura of rage, giving all nearby creatures &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on melee &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
 	<content contentuid="h0f373053gfb1dg4eb1ga6f6gb10dab129871" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on melee &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
@@ -425,11 +425,11 @@
 	<content contentuid="h301d7faaga53bg4510g8a5fg36b67d971e87" version="1">Perceive the Unseen</content>
 	<content contentuid="ha9db8e54g635ag4239gabbegd4758c9d41d8" version="1">Grant yourself and nearby allies superior sight, gaining a +10 bonus to Perception &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="h1c7aca7dgf5d7g4690g97dagba8fce2fa5fd" version="1">+10 to Perception &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
-	<content contentuid="h6a32a2fdg7d8fg499cga80eg348f92289a86" version="1">Psychic Backlash </content>
+	<content contentuid="h6a32a2fdg7d8fg499cga80eg348f92289a86" version="1">Psychic Backlash</content>
 	<content contentuid="h34e0c50eg2f15g412ag8f79ge7d9fc0ff80a" version="1">As a reaction, impose &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on an attack against you. If it still hits you, deal [1] to the attacker.</content>
 	<content contentuid="he3859f73g3be7g43ddga88bg142c54b26bd8" version="1">Psychic Parry</content>
 	<content contentuid="he3446c7fga2b2g4256g93efga0485b80e08e" version="1">As a reaction, when you make an Intelligence, Wisdom or Charisma &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;, you can gain a +1 bonus to that &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; per Psi Point spent.</content>
-	<content contentuid="hf41be51cg0881g4fd1gb7c1gfa5965c3e55d" version="1">Psychic Redoubt </content>
+	<content contentuid="hf41be51cg0881g4fd1gb7c1gfa5965c3e55d" version="1">Psychic Redoubt</content>
 	<content contentuid="h7501f53dg30a8g425fg9565g8c714d323986" version="1">Manifest a field of protective psionic energy, giving nearby allies &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Psychic damage and &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Intelligence, Wisdom and Charisma &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
 	<content contentuid="h315be883g6a8ag43bfga828gda303f16c97a" version="1">&lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to psychic damage. &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Intelligence, Wisdom and Charisma &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
 	<content contentuid="hbb59d6f5gf5f9g48cbg80f0g76ca8ce6e1a8" version="1">Charming Presence</content>
@@ -551,8 +551,8 @@
 	<content contentuid="hc368b59cge415g42edgbe39geeff76042387" version="1">Augment your own physical ability, gaining a +[1] bonus to Strength &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt; until the end of your next turn.</content>
 	<content contentuid="h9a1b3edbg95a8g46f7g885bg002faf873cd4" version="1">+[1] to Strength &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="he2dc5c7ag3db0g49ffg9fdfg1c5c723828ea" version="1">Rapid Step</content>
-	<content contentuid="h93834a62gf596g4d23gb77eg75b87e6da5ef" version="1">Quicken your steps, increasing your movement speed by [1].</content>
-	<content contentuid="hb49b15c7g6a51g4d26gb8deg7f62cf87868b" version="1">Movement speed increased by [1].</content>
+	<content contentuid="h93834a62gf596g4d23gb77eg75b87e6da5ef" version="1">Quicken your steps, increasing your &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; by [1].</content>
+	<content contentuid="hb49b15c7g6a51g4d26gb8deg7f62cf87868b" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; increased by [1].</content>
 	<content contentuid="h82154629g17e8g4708gabe7g4920a2d720b2" version="1">Agile Defense</content>
 	<content contentuid="hd138bd18g1d2cg413dg9d51gc13771fdc2f0" version="1">Improve your reflexes, gaining &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; and imposing &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on incoming attacks.</content>
 	<content contentuid="h24c3c76fge786g4e1egac8ag0fd1610db3db" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;. Attacks against this creature have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
@@ -660,8 +660,8 @@
 	<content contentuid="h5bebca69g2c85g4ba9gb640g656b4ec66241" version="1">Defensive Step</content>
 	<content contentuid="h3a3f0db7g14a3g4655ga986g1635f41bc6fa" version="1">As a reaction, when you are about to be hit by an attack, you can increase your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by 4, possibly causing the attack to miss, as well as gaining the effects of Disengage.</content>
 	<content contentuid="h1783bf72g5aacg459dgb9a3gace3af6f3807" version="1">There and Back Again</content>
-	<content contentuid="h7c166e11gf8a2g40eagb30bg000b31c2e911" version="1">Teleport up to [1]. Until the end of your turn, your movement speed increases by [1] and you can cast Back Again.</content>
-	<content contentuid="hb987f909gc923g4733ga4b4g8b18b4513ec4" version="1">Movement speed increased by [1]. Able to cast Back Again.</content>
+	<content contentuid="h7c166e11gf8a2g40eagb30bg000b31c2e911" version="1">Teleport up to [1]. Until the end of your turn, your &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; increases by [1] and you can cast Back Again.</content>
+	<content contentuid="hb987f909gc923g4733ga4b4g8b18b4513ec4" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; increased by [1]. Able to cast Back Again.</content>
 	<content contentuid="h152b7208ga0dfg46adg90cbg5d2fbeba4c4e" version="1">Back Again</content>
 	<content contentuid="hadf23575gdfa5g44ddg92d0gd6460413f88e" version="1">Teleport up to [1].</content>
 	<content contentuid="h7506c6d4g1fc3g431aga858gd2d916d6f513" version="1">Transposition</content>
@@ -716,7 +716,7 @@
 	<content contentuid="heed30d02g7e59g4252g9005ge374d3ebfc81" version="1">Wreathe yourself in flames, dealing [1] to creatures that end their turn within [2] of you.</content>
 	<content contentuid="hf9d44f36gdf24g4437ga1ffgce4a38f3e99e" version="1">Dealing [1] to creatures that end their turn within [2] of you.</content>
 	<content contentuid="hf75fea9dg2950g45b5g9153gc03d0834def3" version="1">Taking [1] at the end of your turn.</content>
-	<content contentuid="h2be70227ge413g44cfgb26cg4cd3eef53842" version="1">Animate Fire </content>
+	<content contentuid="h2be70227ge413g44cfgb26cg4cd3eef53842" version="1">Animate Fire</content>
 	<content contentuid="h1f08380fg7fd8g412fgac52g1dd4a922e58f" version="1">Summon a Fire Elemental.</content>
 	<content contentuid="hc0841745gb78cg47f1g9ef2gb3fb6a330063" version="1">Push</content>
 	<content contentuid="h07dcb591g2b03g4b38g85b3gb0a4dd2abff1" version="1">Exert a wave of kinetic force, pushing a creature [1].</content>
@@ -735,16 +735,16 @@
 	<content contentuid="h14fbc9a9g937bg404dg9828ga15d97bae7c0" version="1">Crush</content>
 	<content contentuid="ha5ec3f66gafc7g4df2gba74g2dcb08319156" version="1">Crush the creature in your grasp.</content>
 	<content contentuid="hca8006b4gc36fg4945gb217gaed13e17b2ed" version="1">Ice Spike</content>
-	<content contentuid="hd9305583gb3b5g4943g8cf1g6dc5598e61a7" version="1">Hurl a sharp chunk of ice, reducing the target's movement speed by [1].</content>
-	<content contentuid="h9068ef18g784cg4e0agb49bgf11637d26257" version="1">Movement speed reduced by [1].</content>
+	<content contentuid="hd9305583gb3b5g4943g8cf1g6dc5598e61a7" version="1">Hurl a sharp chunk of ice, reducing the target's &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; by [1].</content>
+	<content contentuid="h9068ef18g784cg4e0agb49bgf11637d26257" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; reduced by [1].</content>
 	<content contentuid="h23d4e455g6a54g4588g83e6g30c15afb84e4" version="1">Ice Sheet</content>
 	<content contentuid="he2419769g603eg4997g8f00g8c8b81f48c95" version="1">Condense and freeze the air in an area, creating an ice surface.</content>
 	<content contentuid="h6d3dd2b8g7058g432ega9cag634db46c2cb6" version="1">Frozen Sanctuary</content>
 	<content contentuid="hedad1cc0gefc8g4f3ag84f8g62a28800b33b" version="1">Sheathe yourself in icy resilience, gaining [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;.</content>
 	<content contentuid="h3fac742ag0b3dg4dcag8f31g72cd0c2de35f" version="1">Gain [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;.</content>
 	<content contentuid="h5f95805age5e7g44c9g99f6g74be6cf53e5a" version="1">Frozen Rain</content>
-	<content contentuid="hf2df9e10g8ae2g466bg9256gbe78684c3235" version="1">Create an area filled with deathly cold and saturated moisture, reducing the movement speed of creatures within to 0. Each turn, creatures affected make a Strength &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; to attempt to free themselves.</content>
-	<content contentuid="h59281052gd2c2g4a8cgaa8bgcfc39a66321c" version="1">Movement speed reduced to 0.</content>
+	<content contentuid="hf2df9e10g8ae2g466bg9256gbe78684c3235" version="1">Create an area filled with deathly cold and saturated moisture, reducing the &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; of creatures within to 0. Each turn, creatures affected make a Strength &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; to attempt to free themselves.</content>
+	<content contentuid="h59281052gd2c2g4a8cgaa8bgcfc39a66321c" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; reduced to 0.</content>
 	<content contentuid="hffbc0d49gca10g4226g8cd5ga1651badf1a7" version="1">Ice Barrier</content>
 	<content contentuid="h68d85accg564bg4affg8219g9c96403a5ff7" version="1">Darkness</content>
 	<content contentuid="h00fde1f1g15d3g4934gbffeg3426e8959ebe" version="1">Summon a cloud of darkness with a radius of [1].</content>
@@ -768,8 +768,8 @@
 	<content contentuid="h87afed8cg7b25g420cgb445g0c565dd68e33" version="1">Water Whip</content>
 	<content contentuid="h00b39772gdc47g4097g94c0g58a4cd1e5eb8" version="1">Unleash a jet of water in a line, battering creatures caught in the blast.</content>
 	<content contentuid="h492bb7acged62g464bg9971g4320777edc4b" version="1">Water Sphere</content>
-	<content contentuid="hecc4ab94g70d3g4aa3g8121g24e692f7a0a1" version="1">Create a sphere of water around a creature, trapping it. While trapped, its movement speed is halved, it suffers &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and its sight range is reduced to [1], however, &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against it also suffer &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;. The creature can repeat the &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; at the end of each of its turns.</content>
-	<content contentuid="hc5304740g7e91g471eg9d78gbb3a9b09e913" version="1">Encased in a sphere of water. Movement speed halved. &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;. Sight range is reduced to [1]. Incoming Attacks have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
+	<content contentuid="hecc4ab94g70d3g4aa3g8121g24e692f7a0a1" version="1">Create a sphere of water around a creature, trapping it. While trapped, its &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; is halved, it suffers &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and its sight range is reduced to [1], however, &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against it also suffer &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;. The creature can repeat the &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; at the end of each of its turns.</content>
+	<content contentuid="hc5304740g7e91g471eg9d78gbb3a9b09e913" version="1">Encased in a sphere of water. &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; halved. &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;. Sight range is reduced to [1]. Incoming Attacks have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
 	<content contentuid="h24d90535g0e69g4c4ag869eg10e0a7d0f6db" version="1">Animate Water</content>
 	<content contentuid="h38bdbceeg97deg4545ga334ge1bf23a92117" version="1">Summon a Water Elemental.</content>
 	<content contentuid="h40892606g8591g42ebg878egf992f30447d8" version="1">Hungry Lightning</content>
@@ -781,7 +781,7 @@
 	<content contentuid="hd4d177ffg93beg48a1gac30g6cf4dde24fa4" version="1">Lightning Leap</content>
 	<content contentuid="ha7e0bbf8g5d10g4a3bg93d4ged95c225fe28" version="1">Surge forward with a flash of lightning, shocking everything along your path.</content>
 	<content contentuid="h0fdf4a1eg519cg46bcg8735g75b7d7dcc113" version="1">Wall of Thunder</content>
-	<content contentuid="hf2400914g9a65g461cga04bgb38b576426fc" version="1">Create a wall of raging thunderclouds. Creatures moving through the clouds have their movement speed halved. The clouds damage any creature that try to enter or remain inside.</content>
+	<content contentuid="hf2400914g9a65g461cga04bgb38b576426fc" version="1">Create a wall of raging thunderclouds. Creatures moving through the clouds have their &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; halved. The clouds damage any creature that try to enter or remain inside.</content>
 	<content contentuid="hf7d682f4gd5e3g4375gb91eg48a5f9bd7c5d" version="1">Thunder Clap</content>
 	<content contentuid="h05a08ff8g34c6g4c6dga0e0gd05003430d4d" version="1">Thunderous energy erupts in a targeted area, &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stunning&lt;/LSTag&gt; creatures inside.</content>
 	<content contentuid="hfd6106d9g3b27g40cdg9600gb68249c8af8d" version="1">Animate Weapon</content>
@@ -807,11 +807,11 @@
 	<content contentuid="h009eccfcg8069g4923gb7ffgcb7dd0bab171" version="1">Strength of Mind</content>
 	<content contentuid="h3e8253e1ge8f3g4516gb155gdb4f911f0ddf" version="1">Gain Profiency in a &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; of your choice.</content>
 	<content contentuid="h8e4e8f0agfe6cg4affgbff9gb939c80d459f" version="1">Gain Proficiency in Strength &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
-	<content contentuid="h48e51a0fg593ag4e01ga0fbgb267d01b0b6d" version="1">Gain Proficiency in Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;. </content>
-	<content contentuid="hd04ccb20g3513g44bbgb169ga6db63a5e553" version="1">Gain Proficiency in Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;. </content>
-	<content contentuid="h483a7661gbd4ag464ag8fd9gf8086d77d7ee" version="1">Gain Proficiency in Intelligence &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;. </content>
-	<content contentuid="h09df4cbdgac58g43e1g9e18g41c3c11059d9" version="1">Gain Proficiency in Wisdom &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;. </content>
-	<content contentuid="hdd45c4f7gaf04g40e3g8875ge3ffd5020633" version="1">Gain Proficiency in Charisma &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;. </content>
+	<content contentuid="h48e51a0fg593ag4e01ga0fbgb267d01b0b6d" version="1">Gain Proficiency in Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
+	<content contentuid="hd04ccb20g3513g44bbgb169ga6db63a5e553" version="1">Gain Proficiency in Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
+	<content contentuid="h483a7661gbd4ag464ag8fd9gf8086d77d7ee" version="1">Gain Proficiency in Intelligence &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
+	<content contentuid="h09df4cbdgac58g43e1g9e18g41c3c11059d9" version="1">Gain Proficiency in Wisdom &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
+	<content contentuid="hdd45c4f7gaf04g40e3g8875ge3ffd5020633" version="1">Gain Proficiency in Charisma &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
 	<content contentuid="h5b0aff1bg6519g473bg99b0ga16788823aa3" version="1">Proficient in Strength &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
 	<content contentuid="h6d935d6bg13e8g435egb670g4a1c8255cfe6" version="1">Proficient in Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
 	<content contentuid="h3c881e01gb65bg4238gab1cg4d81462bfb58" version="1">Proficient in Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
@@ -849,8 +849,8 @@
 	<content contentuid="he2f4f7f4g276dg4d9bga0d9g8351051384b8" version="1">Psionic Surge</content>
 	<content contentuid="hc8df6a32g2235g427cga697g74f6fa505179" version="1">As a reaction, impose &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on a creature's &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;. Usable once per Short or Long Rest.</content>
 	<content contentuid="h6ebfd72ag14dbg4691gb7c9gde4894902fa0" version="1">Spectral Form</content>
-	<content contentuid="hafbe2881gf469g41bag9d69g1aa9f6e77a38" version="1">Take the form of a ghostly specter, becoming &lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to damage until your next turn. While in this form, your movement speed is halved and you cannot take any actions.</content>
-	<content contentuid="h5e55b13egbd16g4b4eg9b10gc1b5a8ee639a" version="1">&lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to damage. Movement speed halved and unable to take actions.</content>
+	<content contentuid="hafbe2881gf469g41bag9d69g1aa9f6e77a38" version="1">Take the form of a ghostly specter, becoming &lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to damage until your next turn. While in this form, your &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; is halved and you cannot take any actions.</content>
+	<content contentuid="h5e55b13egbd16g4b4eg9b10gc1b5a8ee639a" version="1">&lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to damage. &lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; halved and unable to take actions.</content>
 	<content contentuid="hfd02e5fbge611g4faag9663g00b78f794fd3" version="1">Immortal Durability</content>
 	<content contentuid="ha1b80016g75b0g4b86g980egd47c22370bee" version="1">While not wearing armour, you add your Constitution &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; to your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;. Additionally, gain hit points equal to your Mystic level.</content>
 	<content contentuid="h00ecd105g8ef2g46d7gbad6ge24f139bf19c" version="1">Psionic Resilience</content>
@@ -869,7 +869,7 @@
 	<content contentuid="h34693707ge485g441fg8551g9d1ae7dc820a" version="1">Superior Teleportation</content>
 	<content contentuid="hd424fda3gf256g4519g8d76g15dced640ac1" version="1">Increase the teleportation range of psionic disciplines by [1].</content>
 	<content contentuid="h2b7cdc5dg411fg415eg94d4g3ea50543a872" version="1">Effortless Journey</content>
-	<content contentuid="h32505c48g5a2cg4030g90b8ge42a60192ca4" version="1">Teleport up to [1], using your movement speed.</content>
+	<content contentuid="h32505c48g5a2cg4030g90b8ge42a60192ca4" version="1">Teleport up to [1], using your &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt;.</content>
 	<content contentuid="h248529ceg6c81g47cbgae19g7d937b7904ca" version="1">Martial Training</content>
 	<content contentuid="hfdf8fba9gb1eeg4c9egb03dg14111a5a462b" version="1">You have Armour Proficiency with Medium Armour and &lt;LSTag Tooltip="WeaponProficiency"&gt;Weapon Proficiency&lt;/LSTag&gt; with Martial Weapons.</content>
 	<content contentuid="h44e3ede5g8eadg4f23g917dge892947fae40" version="1">Soul Knife</content>

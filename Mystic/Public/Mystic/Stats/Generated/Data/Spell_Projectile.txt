@@ -795,7 +795,7 @@ data "CastEffect" "69d6d668-a6a4-4873-908e-4f10e37376fa"
 
 new entry "Target_Mystic_EtherealWeapon_Ranged"
 using "Projectile_MainHandAttack"
-data "SpellFlags" "IsAttack;IsMelee;IsHarmful;Temporary"
+data "SpellFlags" "IsHarmful;Temporary"
 data "SpellRoll" "not SavingThrow(Ability.Dexterity, SourceSpellDC()) and not HasStatus('ModdedExtraAttack')"
 data "SpellFail" "DealDamage((max(1,MainRangedWeapon)/2, MainRangedWeaponDamageType));ExecuteWeaponFunctors(MainHand);"
 data "TooltipAttackSave" "Dexterity"

@@ -4,7 +4,7 @@ type "SpellData"
 data "SpellType" "Shout"
 data "Level" "3"
 
-data "Icon" "Spell_Transmutation_ElementalWeapon"
+data "Icon" "Action_Mystic_EnergyInfusion"
 data "DisplayName" "h6e14d101g47fbg4a89ga41cg5de118d9af47"
 data "Description" "hc7775b9agbc08g4f72gad6dg46aec1ed64da"
 data "DescriptionParams" "1d6"
@@ -104,7 +104,7 @@ type "SpellData"
 data "SpellType" "Shout"
 data "Level" "5"
 
-data "Icon" "PassiveFeature_ExtraAttack"
+data "Icon" "Action_Mystic_PsionicAlacrity"
 data "DisplayName" "h90bde8c6ga24ag4f88gb7f3gdacb423dbea5"
 data "Description" "h8f378e3fg5c7ag4bbegb22dg5693c59522c5"
 
@@ -131,7 +131,7 @@ type "SpellData"
 data "SpellType" "Shout"
 data "Level" "5"
 
-data "Icon" "Action_HordeBreaker_Melee"
+data "Icon" "Action_Mystic_BladeFlurry"
 data "DisplayName" "hdbbc1f98gb48fg4c4cga6b0g9282cbbb51a9"
 data "Description" "h5ceaad36g8e3bg4ec2ga60dg08abb8fea777"
 
@@ -162,7 +162,7 @@ new entry "Shout_Mystic_MysticArsenal"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" "Action_PactOfTheBlade_Greatsword"
+data "Icon" "Action_Mystic_MysticArsenal"
 data "DisplayName" "ha566a8ccgd8a9g4605ga5cfg2aad1c10dec9"
 data "Description" "hc25e7e73gf237g4092ga212g2f98d2f2caf7"
 
@@ -189,9 +189,13 @@ data "DisplayName" "h963bd4bdg830dg4f72gaf8fg64f4f1692dcb"
 data "Description" "h410f04ebg859fg4ae0gb649g781c0695802d"
 
 data "SpellContainerID" "Shout_Mystic_MysticArsenal"
-data "SpellProperties" "RemoveStatus(GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand, context.Target), MYSTIC_WAR_ADEPT);RemoveStatus(GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand, context.Target), MYSTIC_WAR_ADEPT);RemoveStatus(GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand, context.Target), MYSTIC_WAR_ADEPT);RemoveStatus(GetItemInEquipmentSlot(EquipmentSlot.RangedOffHand, context.Target), MYSTIC_WAR_ADEPT);ApplyStatus(MYSTIC_MYSTIC_ARSENAL_GREAT_WEAPON_FIGHTING,100,-1);IF(HasPassive('Passive_Mystic_WarAdept', context.Source) and FightingStyle_GreatWeapon(context.Source) and HasStatus('MYSTIC_MYSTIC_ARSENAL_GREAT_WEAPON_FIGHTING', context.Source)):ApplyEquipmentStatus(MeleeMainHand, MYSTIC_WAR_ADEPT, 100, -1);"
+// data "SpellProperties" "RemoveStatus(GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand, context.Target), MYSTIC_WAR_ADEPT);RemoveStatus(GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand, context.Target), MYSTIC_WAR_ADEPT);RemoveStatus(GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand, context.Target), MYSTIC_WAR_ADEPT);RemoveStatus(GetItemInEquipmentSlot(EquipmentSlot.RangedOffHand, context.Target), MYSTIC_WAR_ADEPT);ApplyStatus(MYSTIC_MYSTIC_ARSENAL_GREAT_WEAPON_FIGHTING,100,-1);IF(HasPassive('Passive_Mystic_WarAdept', context.Source) and FightingStyle_GreatWeapon(context.Source)):ApplyEquipmentStatus(MeleeMainHand, MYSTIC_WAR_ADEPT, 100, 10);"
+data "SpellProperties" "RemoveStatus(GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand, context.Target), MYSTIC_WAR_ADEPT);RemoveStatus(GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand, context.Target), MYSTIC_WAR_ADEPT);RemoveStatus(GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand, context.Target), MYSTIC_WAR_ADEPT);RemoveStatus(GetItemInEquipmentSlot(EquipmentSlot.RangedOffHand, context.Target), MYSTIC_WAR_ADEPT);ApplyStatus(MYSTIC_MYSTIC_ARSENAL_GREAT_WEAPON_FIGHTING,100,-1);IF(HasPassive('Passive_Mystic_WarAdept', context.Source) and MysticArsenal_GreatWeapon(context.Source)):ApplyEquipmentStatus(MeleeMainHand, MYSTIC_WAR_ADEPT, 100, 10);"
+// data "SpellProperties" "RemoveStatus(GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand, context.Target), MYSTIC_WAR_ADEPT);RemoveStatus(GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand, context.Target), MYSTIC_WAR_ADEPT);RemoveStatus(GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand, context.Target), MYSTIC_WAR_ADEPT);RemoveStatus(GetItemInEquipmentSlot(EquipmentSlot.RangedOffHand, context.Target), MYSTIC_WAR_ADEPT);ApplyStatus(MYSTIC_MYSTIC_ARSENAL_GREAT_WEAPON_FIGHTING,100,-1);IF(HasPassive('Passive_Mystic_WarAdept', context.Source) and (HasWeaponProperty(WeaponProperties.TwoHanded, GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand)) or (HasWeaponProperty(WeaponProperties.Versatile, GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand)) and not HasWeaponProperty(WeaponProperties.Melee, GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand)) and not HasShieldEquipped(context.Source)))):ApplyEquipmentStatus(MeleeMainHand, MYSTIC_WAR_ADEPT, 100, 10);"
 data "TooltipStatusApply" "ApplyStatus(MYSTIC_MYSTIC_ARSENAL_GREAT_WEAPON_FIGHTING,100,-1)"
 data "SpellFlags" "IsMelee;Stealth;Invisible"
+
+// IF(HasWeaponProperty(WeaponProperties.TwoHanded, GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand)) or (HasWeaponProperty(WeaponProperties.Versatile, GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand)) and not HasWeaponProperty(WeaponProperties.Melee, GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand)) and not HasShieldEquipped(context.Source))):
 
 new entry "Shout_Mystic_MysticArsenal_Dueling"
 type "SpellData"
@@ -202,9 +206,13 @@ data "DisplayName" "h8d074fa7g1645g43e6ga710gfe6de9b84d68"
 data "Description" "hbbd9c04bg9689g4780g82ccg35ec449869d9"
 
 data "SpellContainerID" "Shout_Mystic_MysticArsenal"
-data "SpellProperties" "RemoveStatus(GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand, context.Target), MYSTIC_WAR_ADEPT);RemoveStatus(GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand, context.Target), MYSTIC_WAR_ADEPT);RemoveStatus(GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand, context.Target), MYSTIC_WAR_ADEPT);RemoveStatus(GetItemInEquipmentSlot(EquipmentSlot.RangedOffHand, context.Target), MYSTIC_WAR_ADEPT);ApplyStatus(MYSTIC_MYSTIC_ARSENAL_DUELING,100,-1);IF(HasPassive('Passive_Mystic_WarAdept', context.Source) and FightingStyle_Dueling(context.Source) and HasStatus('MYSTIC_MYSTIC_ARSENAL_DUELING', context.Source)):ApplyEquipmentStatus(MeleeMainHand, MYSTIC_WAR_ADEPT, 100, -1);"
+// data "SpellProperties" "RemoveStatus(GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand, context.Target), MYSTIC_WAR_ADEPT);RemoveStatus(GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand, context.Target), MYSTIC_WAR_ADEPT);RemoveStatus(GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand, context.Target), MYSTIC_WAR_ADEPT);RemoveStatus(GetItemInEquipmentSlot(EquipmentSlot.RangedOffHand, context.Target), MYSTIC_WAR_ADEPT);ApplyStatus(MYSTIC_MYSTIC_ARSENAL_DUELING,100,-1);IF(HasPassive('Passive_Mystic_WarAdept', context.Source) and FightingStyle_Dueling(context.Source)):ApplyEquipmentStatus(MeleeMainHand, MYSTIC_WAR_ADEPT, 100, 10);"
+data "SpellProperties" "RemoveStatus(GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand, context.Target), MYSTIC_WAR_ADEPT);RemoveStatus(GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand, context.Target), MYSTIC_WAR_ADEPT);RemoveStatus(GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand, context.Target), MYSTIC_WAR_ADEPT);RemoveStatus(GetItemInEquipmentSlot(EquipmentSlot.RangedOffHand, context.Target), MYSTIC_WAR_ADEPT);ApplyStatus(MYSTIC_MYSTIC_ARSENAL_DUELING,100,-1);IF(HasPassive('Passive_Mystic_WarAdept', context.Source) and MysticArsenal_Dueling(context.Source)):ApplyEquipmentStatus(MeleeMainHand, MYSTIC_WAR_ADEPT, 100, 10);"
+// data "SpellProperties" "RemoveStatus(GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand, context.Target), MYSTIC_WAR_ADEPT);RemoveStatus(GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand, context.Target), MYSTIC_WAR_ADEPT);RemoveStatus(GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand, context.Target), MYSTIC_WAR_ADEPT);RemoveStatus(GetItemInEquipmentSlot(EquipmentSlot.RangedOffHand, context.Target), MYSTIC_WAR_ADEPT);ApplyStatus(MYSTIC_MYSTIC_ARSENAL_DUELING,100,-1);IF(HasPassive('Passive_Mystic_WarAdept', context.Source) and ((not HasWeaponProperty(WeaponProperties.Versatile,  GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand))) and (not HasWeaponProperty(WeaponProperties.Melee, GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand)) and not HasShieldEquipped(context.Source)))):ApplyEquipmentStatus(MeleeMainHand, MYSTIC_WAR_ADEPT, 100, 10);"
 data "TooltipStatusApply" "ApplyStatus(MYSTIC_MYSTIC_ARSENAL_DUELING,100,-1)"
 data "SpellFlags" "IsMelee;Stealth;Invisible"
+
+// IF((not HasWeaponProperty(WeaponProperties.Versatile,  GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand))) and (not HasWeaponProperty(WeaponProperties.Melee, GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand)) and not HasShieldEquipped(context.Source))):
 
 new entry "Shout_Mystic_MysticArsenal_Archery"
 type "SpellData"
@@ -215,7 +223,7 @@ data "DisplayName" "ha7fc7b19g0bf1g4d0cgb57bg9ce0b1c410ee"
 data "Description" "h9f3671f0gb934g4990ga2bfge0b6277656eb"
 
 data "SpellContainerID" "Shout_Mystic_MysticArsenal"
-data "SpellProperties" "RemoveStatus(GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand, context.Target), MYSTIC_WAR_ADEPT);RemoveStatus(GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand, context.Target), MYSTIC_WAR_ADEPT);RemoveStatus(GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand, context.Target), MYSTIC_WAR_ADEPT);RemoveStatus(GetItemInEquipmentSlot(EquipmentSlot.RangedOffHand, context.Target), MYSTIC_WAR_ADEPT);ApplyStatus(MYSTIC_MYSTIC_ARSENAL_ARCHERY,100,-1);IF(HasPassive('Passive_Mystic_WarAdept', context.Source) and HasStatus('MYSTIC_MYSTIC_ARSENAL_ARCHERY', context.Source)):ApplyEquipmentStatus(RangedMainHand, MYSTIC_WAR_ADEPT, 100, -1);IF(HasPassive('Passive_Mystic_WarAdept', context.Source) and HasStatus('MYSTIC_MYSTIC_ARSENAL_ARCHERY', context.Source)):ApplyEquipmentStatus(RangedOffHand, MYSTIC_WAR_ADEPT, 100, -1);"
+data "SpellProperties" "RemoveStatus(GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand, context.Target), MYSTIC_WAR_ADEPT);RemoveStatus(GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand, context.Target), MYSTIC_WAR_ADEPT);RemoveStatus(GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand, context.Target), MYSTIC_WAR_ADEPT);RemoveStatus(GetItemInEquipmentSlot(EquipmentSlot.RangedOffHand, context.Target), MYSTIC_WAR_ADEPT);ApplyStatus(MYSTIC_MYSTIC_ARSENAL_ARCHERY,100,-1);IF(HasPassive('Passive_Mystic_WarAdept', context.Source)):ApplyEquipmentStatus(RangedMainHand, MYSTIC_WAR_ADEPT, 100, 10);IF(HasPassive('Passive_Mystic_WarAdept', context.Source)):ApplyEquipmentStatus(RangedOffHand, MYSTIC_WAR_ADEPT, 100, 10);"
 data "TooltipStatusApply" "ApplyStatus(MYSTIC_MYSTIC_ARSENAL_ARCHERY,100,-1)"
 data "SpellFlags" "IsMelee;Stealth;Invisible"
 
@@ -228,7 +236,7 @@ data "DisplayName" "hf416d98dg570bg4ee6gb5bbg9fc1e53312de"
 data "Description" "hb8691793g49c0g4c1fg9c2bg9aeb5ec74d74"
 
 data "SpellContainerID" "Shout_Mystic_MysticArsenal"
-data "SpellProperties" "RemoveStatus(GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand, context.Target), MYSTIC_WAR_ADEPT);RemoveStatus(GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand, context.Target), MYSTIC_WAR_ADEPT);RemoveStatus(GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand, context.Target), MYSTIC_WAR_ADEPT);RemoveStatus(GetItemInEquipmentSlot(EquipmentSlot.RangedOffHand, context.Target), MYSTIC_WAR_ADEPT);ApplyStatus(MYSTIC_MYSTIC_ARSENAL_THROWN_WEAPON_FIGHTING,100,-1);IF(HasPassive('Passive_Mystic_WarAdept', context.Source) and HasWeaponProperty(WeaponProperties.Thrown,  GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand)) and HasStatus('MYSTIC_MYSTIC_ARSENAL_THROWN_WEAPON_FIGHTING', context.Source)):ApplyEquipmentStatus(MeleeMainHand, MYSTIC_WAR_ADEPT, 100, -1);"
+data "SpellProperties" "RemoveStatus(GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand, context.Target), MYSTIC_WAR_ADEPT);RemoveStatus(GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand, context.Target), MYSTIC_WAR_ADEPT);RemoveStatus(GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand, context.Target), MYSTIC_WAR_ADEPT);RemoveStatus(GetItemInEquipmentSlot(EquipmentSlot.RangedOffHand, context.Target), MYSTIC_WAR_ADEPT);ApplyStatus(MYSTIC_MYSTIC_ARSENAL_THROWN_WEAPON_FIGHTING,100,-1);IF(HasPassive('Passive_Mystic_WarAdept', context.Source) and HasWeaponProperty(WeaponProperties.Thrown,  GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand))):ApplyEquipmentStatus(MeleeMainHand, MYSTIC_WAR_ADEPT, 100, 10);"
 data "TooltipStatusApply" "ApplyStatus(MYSTIC_MYSTIC_ARSENAL_THROWN_WEAPON_FIGHTING,100,-1)"
 data "SpellFlags" "IsMelee;Stealth;Invisible"
 
@@ -237,9 +245,10 @@ new entry "Shout_Mystic_PsionicTrance"
 type "SpellData"
 data "SpellType" "Shout"
 
-data "Icon" "Spell_Illusion_HypnoticPattern"
+data "Icon" "Action_Mystic_PsionicTrance"
 data "DisplayName" "h7ada79e3g226ag4c2bg9521g3ac7cf6cf50b"
 data "Description" "hf3bb52b7g8b82g494cga6b4g997052e91d25"
+data "DescriptionParams" "Distance(4.5)"
 
 data "Cooldown" "OncePerRest"
 data "TargetConditions" "Self()"
@@ -258,3 +267,41 @@ data "PrepareEffect" "9e7ec23c-4b13-4a88-b3d6-1df1782e4359"
 data "CastEffect" "fb2cd1f1-3fb7-4efc-87cc-61f08868f567"
 data "TargetEffect" "45f03e64-4e97-42a3-8597-af369687c896"
 data "PositionEffect" "ad77e27f-f91d-4bf0-9756-b576ddc92fad"
+
+// End Chronoward
+new entry "Shout_Mystic_Chronoward_Cancel"
+type "SpellData"
+data "SpellType" "Shout"
+
+data "Icon" "Action_Mystic_Chronoward"
+data "DisplayName" "h81cbff76gd085g4c00g8601g3a5b302ee226"
+data "Description" "h8724ab3cg6aadg49afgb8c7g2edeff3eedd5"
+
+data "TargetConditions" "Self()"
+data "SpellProperties" "RemoveStatus(MYSTIC_CHRONOWARD)"
+// data "TooltipStatusApply" "ApplyStatus(MYSTIC_BEACON,100,10)"
+data "CastSound" "Spell_Cast_Utility_Light_L0"
+data "TargetSound" "Spell_Impact_Utility_Light_L0"
+data "CastTextEvent" "Cast"
+data "UseCosts" ""
+data "SpellAnimation" "9fd22d7d-5d7a-470b-a939-810046915bed,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;2d19a206-bf18-4f4d-ba95-f83c5fc38fd7,,;,,;57db495b-2467-467b-a599-d7df2fa4d659,,;,,;,,;"
+data "SpellFlags" "IsMelee;ImmediateCast;Temporary;Stealth;Invisible"
+data "HitAnimationType" "MagicalNonDamage"
+data "PrepareEffect" "7121a488-7c9a-4ba1-a585-f79aaa77e97c"
+data "CastEffect" "0198563f-c48b-45e0-afb5-46ef9576adff"
+data "TargetEffect" "b94fcfde-d824-4e7d-b9c5-833a50b66537"
+
+// Future Sight (Prototype)
+new entry "Shout_Mystic_FutureSight"
+type "SpellData"
+data "SpellType" "Shout"
+data "Level" "3"
+
+data "Icon" "Action_Mystic_FutureSight"
+data "DisplayName" "h0c46b1c9g1b6dg4ae7g8427gcf631089f9fd"
+data "Description" "h2ff12833g08d7g4bd3gae68g859c421a253a"
+data "DescriptionParams" ""
+
+data "SpellFlags" "IsSpell"
+data "UseCosts" "ReactionActionPoint:1;PsiPointsResource:3;PsiLimitResource:1:3"
+data "InterruptPrototype" "Interrupt_Mystic_FutureSight"

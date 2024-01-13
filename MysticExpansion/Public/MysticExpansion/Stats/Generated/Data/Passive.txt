@@ -8,44 +8,126 @@ data "Description" "hf2b98943g5419g4f2cgacdcg50d9ec8b06e3"
 data "Icon" "PassiveFeature_ExtraAttack"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_PsionicSkirmishing);UnlockSpell(Target_Mystic_SliceAndDice);UnlockSpell(Shout_Mystic_EnergyInfusion);UnlockSpell(Shout_Mystic_PsionicAlacrity);UnlockSpell(Shout_Mystic_BladeFlurry)"
 
-
-// Shout_Mystic_PsychicFocus_PsionicSkirmishing
-
-// Crown of Apathy
-// Crown of Envy
-// Mantle of Pride
-// Mantle of Serenity
-
-// Awakened
-// ?
-// ?
-// ?
-// ?
-
-// Vampirism
-// Martial Training
-// Psionic Fists
-
-// Nomad
-// ?
-// ?
-// ?
-
 // Mastery of Gravity
-// Mastery of Life and Death
+new entry "Discipline_MasteryOfGravity"
+type "PassiveData"
+data "DisplayName" "h98f328d9g328fg4e27gb5a9ga7f6e9c5efda"
+data "Description" "h1745f017g5fbbg4712g90bdgd5337df8c0c2"
+data "Icon" "Action_Mag_GoadingBlast"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MasteryOfGravity);UnlockSpell(Target_Mystic_GravitationalSlam);UnlockSpell(Target_Mystic_DensityShift);UnlockSpell(Target_Mystic_CrushingForce);UnlockSpell(Target_Mystic_Singularity);UnlockSpell(Target_Mystic_SpatialCompression)"
+
 // Mastery of Time
-// Mastery of Stars
+new entry "Discipline_MasteryOfTime"
+type "PassiveData"
+data "DisplayName" "he4e54057ge428g40d4g8100g625c8bb831a8"
+data "Description" "hdc8181a1g917eg4f04gb526gecdbea14b8be"
+data "Icon" "Spell_MagicJar"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MasteryOfTime);UnlockSpell(Target_Mystic_BorrowedTime);UnlockSpell(Target_Mystic_TwistOfFate);UnlockSpell(Shout_Mystic_FutureSight);UnlockSpell(Target_Mystic_TimeStop);UnlockSpell(Target_Mystic_Chronoward);UnlockSpell(Target_Mystic_AccelerationZone)"
+
+UnlockSpell(Shout_Mystic_PsychicFocus_MasteryOfGravity);UnlockSpell(Target_Mystic_GravitationalSlam);UnlockSpell(Target_Mystic_DensityShift);UnlockSpell(Target_Mystic_CrushingForce);UnlockSpell(Target_Mystic_Singularity);UnlockSpell(Target_Mystic_SpatialCompression)
+UnlockSpell(Shout_Mystic_PsychicFocus_MasteryOfTime);UnlockSpell(Target_Mystic_BorrowedTime);UnlockSpell(Target_Mystic_TwistOfFate);UnlockSpell(Shout_Mystic_FutureSight);UnlockSpell(Target_Mystic_TimeStop);UnlockSpell(Target_Mystic_Chronoward);UnlockSpell(Target_Mystic_AccelerationZone)
+
+// Nomadic Hunting
+new entry "Discipline_NomadicHunting"
+type "PassiveData"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "Boosts" ""
+
+// Chronoward
+new entry "Passive_Mystic_Chronoward"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnDamaged;OnDamagedPrevented"
+data "StatsFunctors" "ApplyStatus(MYSTIC_CHRONOWARD_STORED_DAMAGE,100,TotalDamageDone)"
+
+// == Avatar ==
+// Crown of Apathy (idk it sounded cool)
+// - Psychic Focus (resistance to psychic)
+// - Aura of Indifference (EVERYONE has disadvantage on mental saving throws)
+// - ability to turn off an enemy like ego whip?
+
+// Crown of Envy (based on taking stuff while gaining - lifesteal aura)
+// - Psychic Focus (advantage on investigation)
+// - Aura of Spite (allies heal for a portion of damage dealt)
+
+// Mantle of Pride (buffs, temporary hp, damage, uncanny dodge aura?)
+// - Psychic Focus (advantage on performance)
+
+// Mantle of Serenity (sleep, buffing and healing)
+// - Lull (sleep)
+// - Abate (calm emotions)
+// - Aura of Tranquilty (healing to all allies each turn)
+
+// == Awakened ==
+// Mantle of Insanity (confusion and other shit)
+// Mantle of Desire (idk it sounded cool, may or may not end up actually doing it)
+// Reality Shaping (polymorph, debuffs, etc)
+
+// UNNAMED (illusion magic and invis)
+// - invoke duplicity
+// - invisibility field
+
+// == Immortal ==
+// Vampirism (lifestealing, reverse warding bond/pain split)
+// Sanguine Harvest (wip name but blood magic would be neat)
+
+// Titanic Presence
+// Psychic Focus (?, maybe adv against certain cc)
+// - Provoke (1d8 psychic, taunt)
+// - Titan's Rage (rage, resistances up, cant concentrate, ms down)
+// - Menacing Presence (aoe taunt)
+// - Intervene (redirect dmg to u, interrupt)
+// - SUperior rage?
+
+// Soul Reaper
+// Psychic Focus (resistance to necrotic)
+// Soul Harvest (1-7 psi) - 1d8, 1d12 on 50% hp
+// Soul Grip (x psi) - death grip
+// Souleater (x psi) - execute, refunds cost and heals on kill
+// Life Drain (x psi) - mark an enemy for death, as long as theyre close they gain debuffs from you
+// Spectral Scythe - teleport to an area and do a spin around it dealing necrotic dmg
+
+// == Nomad ==
+// Nomadic Kinship (animal companion, pet buffs, animal friendship?, dominate beast?)
+// Nomadic Guile (disguise self, chaotic stuff idk)
+
+// Nomadic Hunting (piercing dmg, hunters mark, traps and accuracy buffs)
+// - Javelin Toss (xd10 piercing dmg)
+// - Nomad's Mark (hunter's mark/hex with psychic dmg)
+// - Nomadic Trap (glyph of warding but psychic dmg, also restrains)
+// - Ensnare
+
+// == Wu Jen ==
+// Mastery of Life and Death (healing negation and health manipulation, death ward)
+// Mastery of Stars (funny opportunity to make an ability called "Star Rail")
+// Psychic Focus (resistance to radiant)
+// ?
+// ?
+// ?
+// Star Rail (honkai - no movement speed cost traversing the wall, but cant attack while in it)
+// Starstorm (PK STARSTORM - concentration difficult terrain aoe radiant dmg)
+// Mastery of Nature (plants and shit)
+// Mastery of Steel (rell from lol)
+// We can probably have way more masteries
 
 // Order of the Ascetic
 
+// Psionic Fists
 new entry "Passive_Mystic_PsionicFists"
 type "PassiveData"
 data "DisplayName" "hb0dca46fg08cag4d0agb287ge12f5bec8d3b"
 data "Description" "h1278abafg4e4cg4c51ga659gcd85d789b8cd"
-data "DescriptionParams" "DealDamage(LevelMapValue(PsionicStrike), Psychic)"
-data "Icon" "Action_Monk_FreeUnarmedStrike"
+data "DescriptionParams" "DealDamage(LevelMapValue(PsionicFists), Psychic)"
+data "Icon" "Passive_Mystic_PsionicFists"
 data "Properties" "Highlighted"
-data "Boosts" "IF(IsUnarmedAttack()):RollBonus(Attack,IntelligenceModifier-StrengthModifier);IF(IsUnarmedAttack()):DamageBonus(IntelligenceModifier-StrengthModifier);AttackSpellOverride(Target_Mystic_PsionicStrike, Target_UnarmedAttack);IF(IsUnarmedAttack()):MonkWeaponDamageDiceOverride(LevelMapValue(PsionicFists));UnlockSpell(Target_Mystic_PsionicStrike_Bonus)"
+data "Boosts" ""
+
+new entry "Passive_Mystic_PsionicFists_Bonus"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "Boosts" "AttackSpellOverride(Target_Mystic_PsionicStrike, Target_UnarmedAttack);UnlockSpell(Target_Mystic_PsionicStrike_Bonus);IF(IsUnarmedAttack()):RollBonus(Attack,IntelligenceModifier-StrengthModifier);IF(IsUnarmedAttack()):DamageBonus(IntelligenceModifier-StrengthModifier);IF(IsUnarmedAttack()):MonkWeaponDamageDiceOverride(LevelMapValue(PsionicFists))"
 
 // Psionic Resonance
 new entry "Passive_Mystic_PsionicResonance"
@@ -53,7 +135,7 @@ type "PassiveData"
 data "DisplayName" "h7ad75dd5g18c1g437fgba42ge2be57114058"
 data "Description" "h1c4f40cdg5b99g4f11g8b14g2ef7ad19b68d"
 data "DescriptionParams" "1"
-data "Icon" "Action_Monk_WholenessOfBody"
+data "Icon" "Passive_Mystic_PsionicResonance"
 data "Properties" "Highlighted"
 data "StatsFunctorContext" "OnCast"
 data "Conditions" "PsionicDisciplineCheck()"
@@ -70,7 +152,7 @@ new entry "Passive_Mystic_FlawlessTechnique"
 type "PassiveData"
 data "DisplayName" "ha097ae4dg8103g4a65gbc89g86139e5a641d"
 data "Description" "h12aaeb85g6598g4b95gae04g79fd729f2ec0"
-data "Icon" "Action_Monk_StunningStrike"
+data "Icon" "Passive_Mystic_FlawlessTechnique"
 data "Properties" "Highlighted;OncePerTurn"
 data "StatsFunctorContext" "OnCast"
 data "Conditions" "PsionicDisciplineCheck()"
@@ -82,7 +164,7 @@ type "PassiveData"
 data "DisplayName" "h384150c4g64eag43c8g8749gd61fece1d288"
 data "Description" "ha2f8254cgccfdg4021gba86gcf6381ae9837"
 data "DescriptionParams" "7"
-data "Icon" "PassiveFeature_Resilient"
+data "Icon" "Passive_Mystic_UnyieldingMind"
 data "Properties" "Highlighted;OncePerCombat"
 data "StatsFunctorContext" "OnTurn"
 data "Conditions" "Combat()"
@@ -95,7 +177,7 @@ new entry "Passive_Mystic_MysticArsenal"
 type "PassiveData"
 data "DisplayName" "ha566a8ccgd8a9g4605ga5cfg2aad1c10dec9"
 data "Description" "hc25e7e73gf237g4092ga212g2f98d2f2caf7"
-data "Icon" "Action_PactOfTheBlade_Greatsword"
+data "Icon" "Action_Mystic_MysticArsenal"
 data "Properties" "Highlighted"
 data "Boosts" "UnlockSpell(Shout_Mystic_MysticArsenal)"
 
@@ -112,17 +194,19 @@ new entry "Passive_Mystic_WarAdept"
 type "PassiveData"
 data "DisplayName" "h0455c234g0bf4g49bbgaaecge6617c6114bf"
 data "Description" "ha43c8a1eg002fg4ddcg8446gdfffa33dc10e"
-data "Icon" "PassiveFeature_PolearmMaster_BonusAttack"
+data "Icon" "Passive_Mystic_WarAdept"
 data "Properties" "Highlighted"
-data "StatsFunctorContext" "OnEquip;OnLongRest;OnCast;OnStatusApplied;OnStatusApply;OnStatusRemove;OnStatusRemoved;OnCastResolved;OnTurn"
-// data "StatsFunctors" "ApplyEquipmentStatus(MeleeMainHand, MYSTIC_WAR_ADEPT, 100, -1)"
-data "StatsFunctors" "IF(FightingStyle_GreatWeapon(context.Source) and HasStatus('MYSTIC_MYSTIC_ARSENAL_GREAT_WEAPON_FIGHTING', context.Source)):ApplyEquipmentStatus(MeleeMainHand, MYSTIC_WAR_ADEPT, 100, -1);IF(FightingStyle_Dueling(context.Source) and HasStatus('MYSTIC_MYSTIC_ARSENAL_DUELING', context.Source)):ApplyEquipmentStatus(MeleeMainHand, MYSTIC_WAR_ADEPT, 100, -1);IF(HasStatus('MYSTIC_MYSTIC_ARSENAL_ARCHERY', context.Source)):ApplyEquipmentStatus(RangedMainHand, MYSTIC_WAR_ADEPT, 100, -1);IF(HasStatus('MYSTIC_MYSTIC_ARSENAL_ARCHERY', context.Source)):ApplyEquipmentStatus(RangedOffHand, MYSTIC_WAR_ADEPT, 100, -1);IF(HasWeaponProperty(WeaponProperties.Thrown,  GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand)) and HasStatus('MYSTIC_MYSTIC_ARSENAL_THROWN_WEAPON_FIGHTING', context.Source)):ApplyEquipmentStatus(MeleeMainHand, MYSTIC_WAR_ADEPT, 100, -1);"
+// data "StatsFunctorContext" "OnEquip;OnRound;OnMove;Ground;OnCreate;OnActionResourcesChanged;OnLongRest;OnShortRest;OnCast;OnStatusApplied;OnStatusApply;OnStatusRemove;OnStatusRemoved;OnCastResolved;OnTurn"
+// data "StatsFunctors" "IF(FightingStyle_GreatWeapon(context.Source) and HasStatus('MYSTIC_MYSTIC_ARSENAL_GREAT_WEAPON_FIGHTING', context.Source)):ApplyEquipmentStatus(MeleeMainHand, MYSTIC_WAR_ADEPT, 100, 10);IF(FightingStyle_Dueling(context.Source) and HasStatus('MYSTIC_MYSTIC_ARSENAL_DUELING', context.Source)):ApplyEquipmentStatus(MeleeMainHand, MYSTIC_WAR_ADEPT, 100, 10);IF(HasStatus('MYSTIC_MYSTIC_ARSENAL_ARCHERY', context.Source)):ApplyEquipmentStatus(RangedMainHand, MYSTIC_WAR_ADEPT, 100, 10);IF(HasStatus('MYSTIC_MYSTIC_ARSENAL_ARCHERY', context.Source)):ApplyEquipmentStatus(RangedOffHand, MYSTIC_WAR_ADEPT, 100, 10);IF(HasWeaponProperty(WeaponProperties.Thrown,  GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand)) and HasStatus('MYSTIC_MYSTIC_ARSENAL_THROWN_WEAPON_FIGHTING', context.Source)):ApplyEquipmentStatus(MeleeMainHand, MYSTIC_WAR_ADEPT, 100, 10);"
+data "StatsFunctorContext" "OnEquip;OnCreate;OnLongRest;OnShortRest;OnTurn"
+data "StatsFunctors" "ApplyStatus(SELF,MYSTIC_WAR_ADEPT_TECHNICAL,100,-1)"
 
-// IF(FightingStyle_GreatWeapon(context.Source) and HasStatus('MYSTIC_MYSTIC_ARSENAL_GREAT_WEAPON_FIGHTING')):ApplyEquipmentStatus(MeleeMainHand, MYSTIC_WAR_ADEPT, 100, -1);
-// IF(FightingStyle_Dueling(context.Source) and HasStatus('MYSTIC_MYSTIC_ARSENAL_DUELING')):ApplyEquipmentStatus(MeleeMainHand, MYSTIC_WAR_ADEPT, 100, -1);
-// IF(HasStatus('MYSTIC_MYSTIC_ARSENAL_ARCHERY')):ApplyEquipmentStatus(RangedMainHand, MYSTIC_WAR_ADEPT, 100, -1);
-// IF(HasStatus('MYSTIC_MYSTIC_ARSENAL_ARCHERY')):ApplyEquipmentStatus(RangedOffHand, MYSTIC_WAR_ADEPT, 100, -1);
-// IF(HasWeaponProperty(WeaponProperties.Thrown, GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand)) and HasStatus('MYSTIC_MYSTIC_ARSENAL_THROWN_WEAPON_FIGHTING')):ApplyEquipmentStatus(MeleeMainHand, MYSTIC_WAR_ADEPT, 100, -1);
+// data "StatsFunctors" "ApplyEquipmentStatus(MeleeMainHand, MYSTIC_WAR_ADEPT, 100, 10)"
+// IF(FightingStyle_GreatWeapon(context.Source) and HasStatus('MYSTIC_MYSTIC_ARSENAL_GREAT_WEAPON_FIGHTING')):ApplyEquipmentStatus(MeleeMainHand, MYSTIC_WAR_ADEPT, 100, 10);
+// IF(FightingStyle_Dueling(context.Source) and HasStatus('MYSTIC_MYSTIC_ARSENAL_DUELING')):ApplyEquipmentStatus(MeleeMainHand, MYSTIC_WAR_ADEPT, 100, 10);
+// IF(HasStatus('MYSTIC_MYSTIC_ARSENAL_ARCHERY')):ApplyEquipmentStatus(RangedMainHand, MYSTIC_WAR_ADEPT, 100, 10);
+// IF(HasStatus('MYSTIC_MYSTIC_ARSENAL_ARCHERY')):ApplyEquipmentStatus(RangedOffHand, MYSTIC_WAR_ADEPT, 100, 10);
+// IF(HasWeaponProperty(WeaponProperties.Thrown, GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand)) and HasStatus('MYSTIC_MYSTIC_ARSENAL_THROWN_WEAPON_FIGHTING')):ApplyEquipmentStatus(MeleeMainHand, MYSTIC_WAR_ADEPT, 100, 10);
 
 // Psionic Trance
 new entry "Passive_Mystic_PsionicTrance"
@@ -130,6 +214,6 @@ type "PassiveData"
 data "DisplayName" "h7ada79e3g226ag4c2bg9521g3ac7cf6cf50b"
 data "Description" "hf3bb52b7g8b82g494cga6b4g997052e91d25"
 data "DescriptionParams" ""
-data "Icon" "Spell_Illusion_HypnoticPattern"
+data "Icon" "Action_Mystic_PsionicTrance"
 data "Properties" "Highlighted"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsionicTrance);"

@@ -31,7 +31,7 @@
 	<content contentuid="ha566a8ccgd8a9g4605ga5cfg2aad1c10dec9" version="1">Mystic Arsenal</content>
 	<content contentuid="hc25e7e73gf237g4092ga212g2f98d2f2caf7" version="1">Learn a Fighting Style of your choice.</content>
 	<content contentuid="h281f3304ge417g4149gae2cga120ea5f64d5" version="1">Martial Training</content>
-	<content contentuid="he2478245g7e29g4b9bga1c2gfab43839df34" version="1">Gain &lt;LSTag Tooltip="WeaponProficiency"&gt;Weapon Proficiency&lt;/LSTag&gt; with Martial Weapons and &lt;LSTag Tooltip="ArmourProficiency"&gt;Armour Proficiency&lt;/LSTag&gt; with Medium and Heavy Armour.</content>
+	<content contentuid="he2478245g7e29g4b9bga1c2gfab43839df34" version="1">Gain &lt;LSTag Tooltip="WeaponProficiency"&gt;Weapon Proficiency&lt;/LSTag&gt; with Martial Weapons and &lt;LSTag Tooltip="ArmourProficiency"&gt;Armour Proficiency&lt;/LSTag&gt; with Medium Armour, Heavy Armour and Shields.</content>
 	<content contentuid="h963bd4bdg830dg4f72gaf8fg64f4f1692dcb" version="1">Mystic Arsenal: Great Weapon Fighting</content>
 	<content contentuid="h410f04ebg859fg4ae0gb649g781c0695802d" version="1">Learn &lt;LSTag Type="Passive" Tooltip="FightingStyle_GreatWeaponFighting"&gt;Great Weapon Fighting&lt;/LSTag&gt;.</content>
 	<content contentuid="h8b5f3f09g8a94g450ag9e1cg2b8317fe053b" version="1">Learned &lt;LSTag Type="Passive" Tooltip="FightingStyle_GreatWeaponFighting"&gt;Great Weapon Fighting&lt;/LSTag&gt;.</content>
@@ -45,61 +45,72 @@
 	<content contentuid="hb8691793g49c0g4c1fg9c2bg9aeb5ec74d74" version="1">Learn &lt;LSTag Type="Passive" Tooltip="FightingStyle_ThrownWeaponFighting"&gt;Thrown Weapon Fighting&lt;/LSTag&gt;.</content>
 	<content contentuid="h6836c38ag97e2g4860ga8acg2156faf1806e" version="1">Learned &lt;LSTag Type="Passive" Tooltip="FightingStyle_ThrownWeaponFighting"&gt;Thrown Weapon Fighting&lt;/LSTag&gt;.</content>
 	<content contentuid="h0455c234g0bf4g49bbgaaecge6617c6114bf" version="1">War Adept</content>
-	<content contentuid="ha43c8a1eg002fg4ddcg8446gdfffa33dc10e" version="1">When wielding a weapon that matches your chosen Fighting Style from Mystic Arsenal, you use your Intelligence &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; for attack and damage rolls. Additionally, gain an additional ability based on the Fighting Style chosen from Mystic Arsenal.&lt;br&gt;&lt;br&gt;- Two Weapon Fighting: &lt;LSTag Type="Spell" Tooltip="Target_Mystic_PsychicSmite"&gt;Psychic Smite&lt;/LSTag&gt;&lt;br&gt;- Dueling: &lt;LSTag Type="Spell" Tooltip="Zone_Mystic_PsychicFlourish"&gt;Psychic Flourish&lt;/LSTag&gt;&lt;br&gt;- Archery: &lt;LSTag Type="Spell" Tooltip="Projectile_Mystic_PsychicBarrage"&gt;Psychic Barrage&lt;/LSTag&gt;&lt;br&gt;- Thrown Weapon Fighting: &lt;LSTag Type="Spell" Tooltip="Target_Mystic_PsychicShockwave"&gt;Psychic Shockwave&lt;/LSTag&gt;</content>
+	<content contentuid="ha43c8a1eg002fg4ddcg8446gdfffa33dc10e" version="1">When wielding a weapon that matches your chosen Fighting Style from Mystic Arsenal, you use your Intelligence &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; for attack and damage rolls. Additionally, gain an additional ability based on the Fighting Style chosen from Mystic Arsenal.&lt;br&gt;&lt;br&gt;- Great Weapon Fighting: &lt;LSTag Type="Spell" Tooltip="Target_Mystic_PsychicSmite"&gt;Psychic Smite&lt;/LSTag&gt;&lt;br&gt;- Dueling: &lt;LSTag Type="Spell" Tooltip="Zone_Mystic_PsychicFlourish"&gt;Psychic Flourish&lt;/LSTag&gt;&lt;br&gt;- Archery: &lt;LSTag Type="Spell" Tooltip="Projectile_Mystic_PsychicBarrage"&gt;Psychic Barrage&lt;/LSTag&gt;&lt;br&gt;- Thrown Weapon Fighting: &lt;LSTag Type="Spell" Tooltip="Target_Mystic_PsychicShockwave"&gt;Psychic Shockwave&lt;/LSTag&gt;</content>
 	<content contentuid="hbd003dc7g010eg4e2bg961cgf555ee71eb3f" version="1">This weapon uses the wielder's Intelligence &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; for &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
 	<content contentuid="hd45504cdgb974g4498g8192ga19c8bd7697d" version="1">Psychic Smite</content>
 	<content contentuid="h59057af2g42e8g4ab5g9e57g386bbc2914fa" version="1">Deliver a crushing slam infused with psi.</content>
 	<content contentuid="h2ae11de5gcdd0g4383gbc9dg53bf9b5b3484" version="1">Does not spend Psi Points.</content>
 	<content contentuid="h131f4b6ag36e8g4f17g9370g60bfa1e970c4" version="1">Psychic Flourish</content>
-	<content contentuid="h21903406g5455g4f47gad90gbfef42b56b2d" version="1">Strike foes in an arc and gain [1] increased movement speed and increasing your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by [2] until your next turn.</content>
-	<content contentuid="h5f2f821bgd38fg4230g93e9g1a9806d6e971" version="1">Movement speed increased by [1]. &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; increased by [2].</content>
+	<content contentuid="h21903406g5455g4f47gad90gbfef42b56b2d" version="1">Strike foes in an arc and gain [1] increased &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; and increasing your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by [2] until your next turn.</content>
+	<content contentuid="h5f2f821bgd38fg4230g93e9g1a9806d6e971" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; increased by [1]. &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; increased by [2].</content>
 	<content contentuid="h38c2f5c1gb9bfg407dg98d7ga2c823e47e63" version="1">Psychic Barrage</content>
 	<content contentuid="h9e22312eg1638g49cbgb3ceg84d1f36752f9" version="1">Shoot up to [1] times. Each shot deals half damage.</content>
 	<content contentuid="h5bf297c5g597bg4f10g9eddg8822e2738627" version="1">Psychic Shockwave</content>
 	<content contentuid="h76dfd634g6865g4143g945eg7301fb020fdd" version="1">Unleash a psychic shockwave in a targeted area.</content>
 	<content contentuid="h7ada79e3g226ag4c2bg9521g3ac7cf6cf50b" version="1">Psionic Trance</content>
-	<content contentuid="hf3bb52b7g8b82g494cga6b4g997052e91d25" version="1">Enter a state of heightened psionic focus. You gain the benefits of Improved Extra Attack, [1] increased movement speed and a bonus to weapon attack and damage rolls equal to your Intelligence &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt;.</content>
+	<content contentuid="hf3bb52b7g8b82g494cga6b4g997052e91d25" version="1">Enter a state of heightened psionic focus. You gain the benefits of &lt;LSTag Type="Passive" Tooltip="ExtraAttack_2"&gt;Improved Extra Attack&lt;/LSTag&gt;, [1] increased &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; and a bonus to weapon attack and damage rolls equal to your Intelligence &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt;.</content>
 	<content contentuid="hdcd01fc4g89abg4bc5g94a4g1dcf95248741" version="1">Able to attack three times. [1] increased movement speed. +[2] to weapon attack and damage rolls.</content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
+	<content contentuid="h98f328d9g328fg4e27gb5a9ga7f6e9c5efda" version="1">Mastery of Gravity</content>
+	<content contentuid="h1745f017g5fbbg4712g90bdgd5337df8c0c2" version="1">You learn to manipulate the fundamental forces that hold things together, granting you a semblance of control over gravity.</content>
+	<content contentuid="h23a9f378gb8b9g4210gb911gf4633225dad0" version="1">Psychic Focus: Mastery of Gravity</content>
+	<content contentuid="h09da3b6bgaa63g48e3g8655g853d9987c85c" version="1">Increase your jumping distance by [1].</content>
+	<content contentuid="h2e99f55cgdbfeg4c61ga9a1g1ac36df82253" version="1">Jumping distance increased by [1].</content>
+	<content contentuid="h07bd4fdfg08b5g45f0g8943g26336fc573cd" version="1">Gravitational Slam</content>
+	<content contentuid="hbcb65738ge657g49ceg911age412c814f090" version="1">Channel gravitational energy onto a creature, possibly knocking it &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
+	<content contentuid="hcb53480dgaaa7g4e71gad49g810e100b17c9" version="1">Density Shift</content>
+	<content contentuid="h2ce8df35ge5d8g4e96g9f70g93b25f8c93f3" version="1">Alter a creature's gravity, modifying their &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt;, jumping distance and fall damage taken.</content>
+	<content contentuid="h343ba2d3g60f1g4b3fga072g025a292780d7" version="1">Reduce a creature's gravity, increasing their &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; by [1], jumping distance by [2] and negating fall damage.</content>
+	<content contentuid="h66684eceg4434g4f51g9e42g89028a2beee7" version="1">Increase a creature's gravity, reducing their &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; by [1], jumping distance by [2] and increasing fall damage by [3] times.</content>
+	<content contentuid="he51d7ca7g64eeg49dagab3bg30613c0d55ce" version="1">Experiencing reduced gravity. &lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; increased by [1], jumping distance increased by [2] and fall damage negated.</content>
+	<content contentuid="h01782277g24fbg4e0agb09ag7bed44d48811" version="1">Experiencing increased gravity. &lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; reduced by [1], jumping distance reduced by [2] and fall damage is increased by [3] times.</content>
+	<content contentuid="hc5263c80g5b10g493dgbad2g730a8aae3fd3" version="1">Crushing Force</content>
+	<content contentuid="h2592c73fg05f0g48a3g8af9gdc340b624e38" version="1">Exert a powerful gravitational force in a targeted area. Creatures within have their &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; halved.</content>
+	<content contentuid="ha5d546b7gd237g4a67g9bf5g469c77dcac81" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; halved.</content>
+	<content contentuid="h28907e4ag8055g4a56g8ff1g1f00cc512508" version="1">Singularity</content>
+	<content contentuid="hb61d9c64gacb0g4f6dgbd48g71c2abffda28" version="1">Warp space around a friendly creature, turning them into a gravitational beacon. Enemies within [1] take [2] per turn, are pulled inwards and their &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; is halved.</content>
+	<content contentuid="h064b5354g4ee2g4238gb7f6g165292429d46" version="1">Turned into a miniature black hole.&lt;br&gt;&lt;br&gt;Enemies within [1] take [2] per turn, are pulled inwards and their &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; is halved.&lt;br&gt;&lt;br&gt;On a successful save, targets still take half damage.</content>
+	<content contentuid="hbb0d964dgfef0g466aga17cg2459282c493e" version="1">Suffering from an immense gravitational pull.&lt;br&gt;&lt;br&gt;Takes [1] per turn, is pulled towards the source and &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; is halved.&lt;br&gt;&lt;br&gt;Still takes half damage on successful Saving Throw.&lt;br&gt;&lt;br&gt;Removed upon leaving the area.</content>
+	<content contentuid="h0ecfee94g3b38g4cafg86cfgfbf38dc46dc5" version="1">Spatial Compression</content>
+	<content contentuid="h0990e4d3g4f6bg4a4dg8f37g3a274377a4bd" version="1">Compress and distort space around an area, &lt;LSTag Type="Status" Tooltip="SLOW"&gt;Slowing&lt;/LSTag&gt; creatures within.</content>
+	<content contentuid="he4e54057ge428g40d4g8100g625c8bb831a8" version="1">Mastery of Time</content>
+	<content contentuid="hdc8181a1g917eg4f04gb526gecdbea14b8be" version="1">You reach out with your mind and grasp the threads of time themselves, allowing you to bend reality and fate to your whims.</content>
+	<content contentuid="h4d96a2a6gbefbg4078g96e9g964cac1b2db5" version="1">Psychic Focus: Mastery of Time</content>
+	<content contentuid="h5df6c0bdg7883g4b16gb2d5g46d176d69e6f" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Perception &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="h88d70814gd2c2g4267gaa01g229e258677b1" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Perception &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;. </content>
+	<content contentuid="h5e133af7ge787g4687ga4fegc8f7d1d3a24f" version="1">Borrowed Time</content>
+	<content contentuid="hfb3337bcg1c24g4a34g947bg99a9ab3ca801" version="1">Target yourself or an ally to become &lt;LSTag Type="Status" Tooltip="HASTE"&gt;Hastened&lt;/LSTag&gt;: gain an action, become faster and gain +2 to &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;. You become &lt;LSTag Type="Status" Tooltip="HASTE_LETHARGY"&gt;Lethargic&lt;/LSTag&gt; for one turn afterwards.</content>
+	<content contentuid="h82bcb1afg189ag4fe4ga411g65bbb765adef" version="1">Creature has a +2 bonus to &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;, &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;, its &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; is doubled, and it can take one additional action per turn.</content>
+	<content contentuid="hb61ef18dg89d4g4f42gbda3g205ca6b27a75" version="1">When this condition ends, the affected creature becomes &lt;LSTag Type="Status" Tooltip="HASTE_LETHARGY"&gt;Lethargic&lt;/LSTag&gt;.</content>
+	<content contentuid="h28832e18g0fd0g4326g9099gcc081561cb13" version="1">Twist of Fate</content>
+	<content contentuid="h7961569egf5d1g4950g9903gc7dfbccce98f" version="1">Nudge fate in a creature's favour, giving them &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; and imposing &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on incoming attacks. &lt;br&gt;&lt;br&gt;When a spell or effect would deal half damage on a successful Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;, it deals no damage if the target succeeds, and only half damage they fail. &lt;br&gt;&lt;br&gt;Once affected, a creature will become immune to this effect for 1 turn.</content>
+	<content contentuid="h55c1327cg45c6g42b9g92f2g45f94c06a89b" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;. Incoming attacks have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;. &lt;br&gt;&lt;br&gt;When a spell or effect would deal half damage on a successful Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;, it deals no damage on success, and only half damage on fail.</content>
+	<content contentuid="he616b289gae7ag4c92g823cgb83b1a2df78c" version="1">Twist of Fate Blocked</content>
+	<content contentuid="hbf2c0f12g028ag4541gbcc0gff47ba546244" version="1">Affected entity can't receive &lt;LSTag Type="Status" Tooltip="MYSTIC_TWIST_OF_FATE"&gt;Twist of Fate&lt;/LSTag&gt;.</content>
+	<content contentuid="h0c46b1c9g1b6dg4ae7g8427gcf631089f9fd" version="1">Future Sight</content>
+	<content contentuid="h2ff12833g08d7g4bd3gae68g859c421a253a" version="1">When an enemy attacks a nearby ally, impose &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on the &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
+	<content contentuid="h218a8b39gd590g4818g9776g50d5f1e012df" version="1">Time Stop</content>
+	<content contentuid="h02af4ef1g06c3g45acgbcaeg179f0f043b57" version="1">&lt;LSTag Type="Status" Tooltip="BANISHED"&gt;Banish&lt;/LSTag&gt; a creature from the timeline.</content>
+	<content contentuid="he55063e8g2e17g45c9gb52bg9fa9d1910a90" version="1">Banished from the timeline. &lt;br&gt;&lt;br&gt;Can't be targeted. Can't move or take actions, bonus actions, or reactions.</content>
+	<content contentuid="h64d1d61bg12e2g48a6g8393ge9a475abfc2f" version="1">Chronoward</content>
+	<content contentuid="h961cd978g0790g42bcg9e32g812df1ef3fed" version="1">Ward a creature from harm, storing damage taken. When this spell ends, they will regain &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt; equal to the damage stored. &lt;br&gt;&lt;br&gt;This spell will automatically end if the creature reaches [1]. Affected creatures can choose to prematurely end this spell on their turn.</content>
+	<content contentuid="h8f8000dag9800g4e1ag8d16g6d83404f0d95" version="1">Storing damage taken. When this effect ends or when reduced to [1], regain hit points equal to the damage stored.</content>
+	<content contentuid="h67b901dcge198g4612g9bbbg590152782d8c" version="1">Chronoward Stored Damage</content>
+	<content contentuid="h8a5c961fgaa75g4266g869cg06b900f84a5b" version="1">When Chronoward ends, regain [1].</content>
+	<content contentuid="h81cbff76gd085g4c00g8601g3a5b302ee226" version="1">End Chronoward</content>
+	<content contentuid="h8724ab3cg6aadg49afgb8c7g2edeff3eedd5" version="1">End the Chronoward condition on yourself.</content>
+	<content contentuid="h2902dbccg9f5eg493egbd5fgf5a875e53817" version="1">Acceleration Zone</content>
+	<content contentuid="h9d0cca5cg5e68g4c77g8c2fg3d2a1379eb1e" version="1">Create a zone in which time moves faster: creatures within are &lt;LSTag Type="Status" Tooltip="MYSTIC_BORROWED_TIME_HASTE"&gt;Hastened&lt;/LSTag&gt;.</content>
+	<content contentuid="hbd932da9g687eg40aeg92b6g2fb23e2ed5b5" version="1">Materialized a zone in which creatures are &lt;LSTag Type="Status" Tooltip="MYSTIC_BORROWED_TIME_HASTE"&gt;Hastened&lt;/LSTag&gt; while inside.</content>
 	<content contentuid="" version="1"> </content>
 	<content contentuid="" version="1"> </content>
 	<content contentuid="" version="1"> </content>

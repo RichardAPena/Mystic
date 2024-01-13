@@ -29,3 +29,67 @@ data "SpellStyleGroup" "Class"
 data "SpellFlags" "IsSpell"
 data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
 data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
+
+// Mastery of Gravity
+new entry "Shout_Mystic_PsychicFocus_MasteryOfGravity"
+type "SpellData"
+data "SpellType" "Shout"
+data "Level" "1"
+data "TooltipPermanentWarnings" "f1178ed8-c5ce-4766-85a3-ab0681aa049b"
+
+data "DisplayName" "h23a9f378gb8b9g4210gb911gf4633225dad0"
+data "Description" "h09da3b6bgaa63g48e3g8655g853d9987c85c"
+data "DescriptionParams" "50%"
+data "Icon" "Spell_Transmutation_Thaumaturgy"
+
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_MASTERY_OF_GRAVITY,100,-1)"
+data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_MASTERY_OF_GRAVITY,100,-1)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
+
+data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
+
+// Mastery of Time
+new entry "Shout_Mystic_PsychicFocus_MasteryOfTime"
+type "SpellData"
+data "SpellType" "Shout"
+data "Level" "1"
+data "TooltipPermanentWarnings" "f1178ed8-c5ce-4766-85a3-ab0681aa049b"
+
+data "DisplayName" "h4d96a2a6gbefbg4078g96e9g964cac1b2db5"
+data "Description" "h5df6c0bdg7883g4b16gb2d5g46d176d69e6f"
+data "DescriptionParams" "50%"
+data "Icon" "Spell_Transmutation_Thaumaturgy"
+
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_MASTERY_OF_TIME,100,-1)"
+data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_MASTERY_OF_TIME,100,-1)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
+
+data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"

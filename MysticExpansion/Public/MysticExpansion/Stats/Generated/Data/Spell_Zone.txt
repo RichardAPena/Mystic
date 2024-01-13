@@ -5,7 +5,7 @@ data "SpellType" "Zone"
 using "Zone_Cleave"
 data "Level" "3"
 
-data "Icon" "Action_SlashingFlourish_Melee"
+data "Icon" "Action_Mystic_PsychicFlourish"
 data "DisplayName" "h131f4b6ag36e8g4f17g9370g60bfa1e970c4"
 data "Description" "h21903406g5455g4f47gad90gbfef42b56b2d"
 data "DescriptionParams" "Distance(3);2"

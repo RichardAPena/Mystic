@@ -94,7 +94,7 @@
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="OrderAscetic"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_PsionicFists"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_PsionicFists;Passive_Mystic_PsionicFists_Bonus"/>
                     <attribute id="TableUUID" type="guid" value="1c7b47a8-d031-4c79-bc6b-4d003b0eb2bd"/>
                     <attribute id="UUID" type="guid" value="9c8cc5b0-f939-4060-b885-b2dbde594454"/>
                 </node>
@@ -127,7 +127,7 @@
                 </node>
 
                 <node id="Progression"> Blade Level 1
-                    <attribute id="Boosts" type="LSString" value="Proficiency(MartialWeapons);Proficiency(MediumArmor);Proficiency(HeavyArmor)"/>
+                    <attribute id="Boosts" type="LSString" value="Proficiency(MartialWeapons);Proficiency(MediumArmor);Proficiency(HeavyArmor);Proficiency(Shields)"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="OrderBlade"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>

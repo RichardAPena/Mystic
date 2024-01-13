@@ -81,6 +81,8 @@ function PsychicFocusCheck()
       | SpellId('Shout_Mystic_PsychicFocus_TelepathicSubjugation')
       | SpellId('Shout_Mystic_PsychicFocus_ThirdEye')
       | SpellId('Shout_Mystic_PsychicFocus_PsionicSkirmishing')
+      | SpellId('Shout_Mystic_PsychicFocus_MasteryOfGravity')
+      | SpellId('Shout_Mystic_PsychicFocus_MasteryOfTime')
 end
 
 function SuperiorTeleportationCheck()
@@ -517,6 +519,26 @@ function PsionicDisciplineCheck()
       | SpellId('Shout_Mystic_EnergyInfusion')
       | SpellId('Shout_Mystic_PsionicAlacrity')
       | SpellId('Shout_Mystic_BladeFlurry')
+      | SpellId('Target_Mystic_GravitationalSlam')
+      | SpellId('Target_Mystic_GravitationalSlam_1')
+      | SpellId('Target_Mystic_GravitationalSlam_2')
+      | SpellId('Target_Mystic_GravitationalSlam_3')
+      | SpellId('Target_Mystic_GravitationalSlam_4')
+      | SpellId('Target_Mystic_GravitationalSlam_5')
+      | SpellId('Target_Mystic_GravitationalSlam_6')
+      | SpellId('Target_Mystic_GravitationalSlam_7')
+      | SpellId('Target_Mystic_DensityShift')
+      | SpellId('Target_Mystic_DensityShift_Buff')
+      | SpellId('Target_Mystic_DensityShift_Debuff')
+      | SpellId('Target_Mystic_CrushingForce')
+      | SpellId('Target_Mystic_Singularity')
+      | SpellId('Target_Mystic_SpatialCompression')
+      | SpellId('Target_Mystic_BorrowedTime')
+      | SpellId('Target_Mystic_TwistOfFate')
+      | SpellId('Shout_Mystic_FutureSight')
+      | SpellId('Target_Mystic_TimeStop')
+      | SpellId('Target_Mystic_Chronoward')
+      | SpellId('Target_Mystic_AccelerationZone')
 end
 
 function GiantGrowthCheck()
@@ -529,21 +551,29 @@ function SpellPowerLevelEqualOrGreaterThan(value)
     return ConditionResult(context.HitDescription.SpellPowerLevel >= value)
 end
 
-
 function HasMaximumPsionicResonanceCharge(entity)
     local entity = entity or context.Target
     return ConditionResult(GetStatusDuration('MYSTIC_PSIONIC_RESONANCE', entity) > 7)
 end
 
-function MinimumValue(value1, value2)
-    local result = 0
-    if value1 < value2 then
-      result = value1
-      return value1
-    else
-      result = value2
-      return value2
-    end
+function MysticArsenal_GreatWeapon(entity)
+    entity = entity or context.Target
+    local meleeMainHand = GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand, entity)
+    local meleeOffHand = GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand, entity)
 
-    return result
+    local hasTwohandedWeapon = HasWeaponProperty(WeaponProperties.Twohanded, meleeMainHand) & HasWeaponProperty(WeaponProperties.Melee, meleeMainHand)
+    local hasVersatileWeapon = HasWeaponProperty(WeaponProperties.Versatile, meleeMainHand) & ~HasWeaponProperty(WeaponProperties.Melee, meleeOffHand) & ~HasWeaponProperty(WeaponProperties.Ammunition, meleeOffHand) & ~HasShieldEquipped(entity)
+
+    return hasTwohandedWeapon | hasVersatileWeapon
+end
+
+function MysticArsenal_Dueling(entity)
+    entity = entity or context.Target
+    local meleeMainHand = GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand, entity)
+    local meleeOffHand = GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand, entity)
+
+    local hasNonVersatileWeapon = HasWeaponProperty(WeaponProperties.Melee, meleeMainHand) & ~HasWeaponProperty(WeaponProperties.Versatile, meleeMainHand) & ~HasWeaponProperty(WeaponProperties.Twohanded, meleeMainHand) & ~HasWeaponProperty(WeaponProperties.Melee, meleeOffHand) & ~HasWeaponProperty(WeaponProperties.Ammunition, meleeOffHand)
+    local hasVersatileWeapon = HasWeaponProperty(WeaponProperties.Melee, meleeMainHand) & HasWeaponProperty(WeaponProperties.Versatile, meleeMainHand) & HasShieldEquipped(entity)
+    
+    return hasNonVersatileWeapon | hasVersatileWeapon
 end
