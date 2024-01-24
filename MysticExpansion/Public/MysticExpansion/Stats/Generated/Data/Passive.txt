@@ -5,7 +5,7 @@ new entry "Discipline_PsionicSkirmishing"
 type "PassiveData"
 data "DisplayName" "h93d8d4dag6047g4707g9faagb7770e4b5e77"
 data "Description" "hf2b98943g5419g4f2cgacdcg50d9ec8b06e3"
-data "Icon" "PassiveFeature_ExtraAttack"
+data "Icon" "Action_Mystic_PsionicAlacrity"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_PsionicSkirmishing);UnlockSpell(Target_Mystic_SliceAndDice);UnlockSpell(Shout_Mystic_EnergyInfusion);UnlockSpell(Shout_Mystic_PsionicAlacrity);UnlockSpell(Shout_Mystic_BladeFlurry)"
 
 // Mastery of Gravity
@@ -13,7 +13,7 @@ new entry "Discipline_MasteryOfGravity"
 type "PassiveData"
 data "DisplayName" "h98f328d9g328fg4e27gb5a9ga7f6e9c5efda"
 data "Description" "h1745f017g5fbbg4712g90bdgd5337df8c0c2"
-data "Icon" "Action_Mag_GoadingBlast"
+data "Icon" "Action_Mystic_Singularity"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MasteryOfGravity);UnlockSpell(Target_Mystic_GravitationalSlam);UnlockSpell(Target_Mystic_DensityShift);UnlockSpell(Target_Mystic_CrushingForce);UnlockSpell(Target_Mystic_Singularity);UnlockSpell(Target_Mystic_SpatialCompression)"
 
 // Mastery of Time
@@ -21,19 +21,188 @@ new entry "Discipline_MasteryOfTime"
 type "PassiveData"
 data "DisplayName" "he4e54057ge428g40d4g8100g625c8bb831a8"
 data "Description" "hdc8181a1g917eg4f04gb526gecdbea14b8be"
-data "Icon" "Spell_MagicJar"
+data "Icon" "Action_Mystic_BorrowedTime"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MasteryOfTime);UnlockSpell(Target_Mystic_BorrowedTime);UnlockSpell(Target_Mystic_TwistOfFate);UnlockSpell(Shout_Mystic_FutureSight);UnlockSpell(Target_Mystic_TimeStop);UnlockSpell(Target_Mystic_Chronoward);UnlockSpell(Target_Mystic_AccelerationZone)"
 
-UnlockSpell(Shout_Mystic_PsychicFocus_MasteryOfGravity);UnlockSpell(Target_Mystic_GravitationalSlam);UnlockSpell(Target_Mystic_DensityShift);UnlockSpell(Target_Mystic_CrushingForce);UnlockSpell(Target_Mystic_Singularity);UnlockSpell(Target_Mystic_SpatialCompression)
-UnlockSpell(Shout_Mystic_PsychicFocus_MasteryOfTime);UnlockSpell(Target_Mystic_BorrowedTime);UnlockSpell(Target_Mystic_TwistOfFate);UnlockSpell(Shout_Mystic_FutureSight);UnlockSpell(Target_Mystic_TimeStop);UnlockSpell(Target_Mystic_Chronoward);UnlockSpell(Target_Mystic_AccelerationZone)
-
 // Nomadic Hunting
+// You draw on your psionic power to enhance your senses, making you better at tracking prey?
 new entry "Discipline_NomadicHunting"
 type "PassiveData"
 data "DisplayName" ""
 data "Description" ""
 data "Icon" "Action_Mystic_CrownedInSorrow"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_NomadicHunting);UnlockSpell(Projectile_Mystic_JavelinToss);UnlockSpell(Target_Mystic_NomadsMark);UnlockSpell(Target_Mystic_NomadicSnare);UnlockSpell(Shout_Mystic_HuntingParty);"
+// UnlockSpell(Shout_Mystic_PsychicFocus_NomadicHunting);
+// UnlockSpell(Projectile_Mystic_JavelinToss);
+// UnlockSpell(Target_Mystic_NomadsMark);
+// UnlockSpell(Target_Mystic_NomadicSnare);
+// UnlockSpell(Shout_Mystic_HuntingParty);
+// - Psychic Focus (advantage on survival checks)
+// - Javelin Toss (1-7 psi) - 1d10 piercing dmg per psi point
+// - Nomad's Mark (2 psi) - hunter's mark with psychic dmg
+// - Nomadic Snare (5 psi) - glyph of warding but psychic dmg, also restrains
+// - Hunting Party (6 psi) - pack tactics buff to everyone until long rest
+
+// Mantle of Serenity
+// You tap into the calming energy within you, tranquilizing both friend and foe alike
+new entry "Discipline_MantleOfSerenity"
+type "PassiveData"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MantleOfSerenity);UnlockSpell(Target_Mystic_Lull);UnlockSpell(Target_Mystic_Abate);UnlockSpell(Shout_Mystic_AuraOfTranquility);UnlockSpell(Target_Mystic_Hibernate);UnlockSpell(Shout_Mystic_LucidDreaming);UnlockSpell(Target_Mystic_MassRepose);"
+// UnlockSpell(Shout_Mystic_PsychicFocus_MantleOfSerenity);
+// UnlockSpell(Target_Mystic_Lull);
+// UnlockSpell(Target_Mystic_Abate);
+// UnlockSpell(Shout_Mystic_AuraOfTranquility);
+// UnlockSpell(Target_Mystic_Hibernate);
+// UnlockSpell(Shout_Mystic_LucidDreaming);
+// UnlockSpell(Target_Mystic_MassRepose);
+// - Psychic Focus (immunity to sleep and advantage against paralysis)
+// - Lull (1-7 psi) - sleep targets, higher hp per psi point [15?]
+// - Abate (2 psi) - calm emotions, remove rage, no concentration
+// - Aura of Tranquility (3-7 psi) - xdy healing to all allies each turn
+// - Hibernate (5 psi) - catnap (short rest single target)
+// - Rise and Shine (6 psi) - bonus action; paralyze sleeping enemies, wake and heal sleeping allies
+// - Mass Repose (7 psi) - INT save, allies fail automatically. sleep everyone in a massive radius
+
+// Psychic Distortion
+// You cloak yourself in a veil of psionic energy, altering other creatures' perception of you
+new entry "Discipline_PsychicDistortion"
+type "PassiveData"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" "Action_Mystic_CrownedInSorrow"
 data "Boosts" ""
+UnlockSpell(Shout_Mystic_PsychicFocus_);
+UnlockSpell();
+UnlockSpell();
+UnlockSpell();
+UnlockSpell();
+UnlockSpell();
+UnlockSpell();
+// - Psychic Focus (advantage on perception checks)
+// - Obscuring Veil (2 psi) - you become lightly/heavily obscured no matter where you are
+// - Psychic Double (3 psi) - invoke duplicity (YOU CAN SWAP PLACES WITH IT, NO LOS REQUIRED BUT YOU WILL BE SWAPPED BACK. THE COPY IS IMMUNE TO EVERYTHING)
+// - Mirage (5 psi) (after moving 3m u gain an after image, which makes it so u get a 50% chance of attacks missing u)
+// - Illusory Horde (6 psi) - aoe mirror image, 9m [dont name it mirror army, kibbles already has a spell named like that]
+// - Ethereal Shroud (7 psi) - zone where everyone gets invisibility (GREATER???? spell is expensive so maybe)
+
+// Sanguine Harvest
+// DESCRIPTION
+new entry "Discipline_SanguineHarvest"
+type "PassiveData"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "Boosts" ""
+// Psychic Focus (resistance to necrotic damage)
+// Transfusion (1-7 psi) 1d8 necrotic, restore half hp to dmg dealt
+// Sanguine Plague (x psi) - x save, dot that heals u
+// Blood Spikes? - deal dmg arooound a blood surface
+// idk look at kbms for mroe spells, its really just self damage and life stealing with nothing else interesting
+// ~~Sanguine Aegis (6 psi) - gain resistance to necrotic dmg, advantage on physical saving throws
+
+// Titanic Presence
+// You augment your presence in the battlefield, growing into an unstoppable goliath
+new entry "Discipline_TitanicPresence"
+type "PassiveData"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "Boosts" ""
+// - Psychic Focus (immunity to prone and restrain)
+// - Provoke (1d8 psychic, taunt)
+// - Titan's Rage (rage, resistances up, disadvantage on concentration saving throws, ms down)
+// - Menacing Presence (aoe taunt)
+// - Intervene (redirect dmg to u, interrupt)
+// - Titanic Leap (jump to a target location as a bonus action. deal damage and knock prone. more dmg if raging)
+
+// Soul Reaper (executing, resetting, tunnel vision)
+// You reach out with your mind into the soul of other creatures, allowing you to take them?
+new entry "Discipline_SoulReaper"
+type "PassiveData"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "Boosts" ""
+// - Psychic Focus (killing blows restore HP equal to mystical recovery)
+// - Soul Harvest (1-7 psi) - 1d8, 1d12 necrotic dmg on 50% hp CHA SAVE
+// - Soul Grip (3 psi) - death grip, bonus action
+// - Souleater (5 psi) - execute, refunds psi AND action cost on kill CHA SAVE
+// - Life Drain (6 psi) - mark an enemy for death, as long as theyre close they gain debuffs from you. if they die you can recast this for free
+
+// Crown of Apathy
+// You suppress all emotion in a creature, impeding their desire to fight.
+new entry "Discipline_CrownOfApathy"
+type "PassiveData"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "Boosts" ""
+// - Psychic Focus (resistance to psychic)
+// - Wave of Apathy (1-7 psi) - same as vicious mockery, more targets per psi point
+// - Lassitude (3 psi) - BASICALLY TASHAS MIND WHIP = deal psychic dmg. for 1 round, target cant do more than 1 atk per turn and can only use an action or bonus action (slow-lite)
+// - Incite Apathy (5 psi) - halve an enemys damage dealt while concentration holds
+// - Aura of Indifference (7 psi) - at the start of their turn or when they enter, enemies are possibly disarmed and silenced for 1 turn)
+
+// Nomadic Grace
+// DESCRIPTION
+new entry "Discipline_NomadicGrace"
+type "PassiveData"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "Boosts" ""
+// - Psychic Focus (advantage on acrobatics checks)
+// - Wind Cutter (2 psi) - spell attack roll, unleash 2 ranged slashes, 1d6+weapon dmg each?
+// - [Instant Counter] (3 psi) - teleports behind u, nothing personnel kid (reaction)
+// - Blessing of Fair Winds (5 psi) - enchant a pair of weapons with +9m range (melee or ranged). once per turn these weapons will unleash a psychic chain that deals psychic dmg to the target, jumping to up to 2 other targets
+// - [Reberverating Dash] (6 psi) - do a melee attack against a guy. on a hit you gain ms and can do it again, up to 3 times total [when ur done remove all hidden buffs, so u can do with extra atack]
+
+// Mastery of Stars
+// DESCRIPTION
+new entry "Discipline_MasteryOfStars"
+type "PassiveData"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "Boosts" ""
+// Psychic Focus (resistance to radiant)
+// Astral Mote (1-7 psi) - radiant dmg, UNKNOWN EXTRA EFFECT
+// Moonlight (3 psi) - reveals all invisible creatures in a huge radius, prevents them from going invisible
+// Sunburst (5 psi) - fire dmg, aoe, blind. if a creature has sunlight (hyper)sensitivity they have disadvantage on the saving throw and take additional damage.
+// Star Rail (6 psi) - honkai, no movement speed cost traversing the wall, but cant attack while in it - might need to add ai indicators to gtfo of this zone
+// Starstorm (7 psi) - PK STARSTORM, concentration difficult terrain aoe radiant dmg. enemies hit cant go invis
+
+// Mastery of Nature
+// DESCRIPTION
+new entry "Discipline_MasteryOfNature"
+type "PassiveData"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "Boosts" ""
+// - Psychic Focus (advantage on nature checks)
+// - Toxic Spines (1-7 psi) - 1d6 piercing, 1d4 poison; half on save
+// - Thorny Briars (3? psi) - attack roll, spike growth but on a target
+// - Regrowth (5-7? psi) - restore hp every turn, stops for a turn if you take fire or acid dmg
+// - Brambleskin (6? psi) - your skin grows brambles, increasing AC by 2 and dealing piercing damage to attackers
+// - xddTree (7 psi) - summon the great wise tree
+
+// Mnatle of Pride
+// You augment feelings of confidence and pride in other creatures, lifting their spirits or causing them to stumble in their arrogance.
+new entry "Discipline_MantleOfPride"
+type "PassiveData"
+data "DisplayName" ""
+data "Description" ""
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "Boosts" ""
+// - Psychic Focus (advantage on performance)
+// - Exaltation (1-7 psi) - 6 temp hp per psi to one target
+// - Hubris (3 psi) - curse an enemy with their own hubris. the first time they move, attack and take a reaction each turn, they take psychic dmg. saving throw at the end of each of their turns.
+// - Aura of Contempt (5 psi) - 1d4 psychic damage to all attack rolls, not just weapons (crusaders mantle)
+// - Prideful Mantle (7 psi) - grant one charge of unstoppable to all allies within 9m (DAMAGE REDUCTION PART ONLY)
 
 // Chronoward
 new entry "Passive_Mystic_Chronoward"
@@ -43,74 +212,91 @@ data "StatsFunctorContext" "OnDamaged;OnDamagedPrevented"
 data "StatsFunctors" "ApplyStatus(MYSTIC_CHRONOWARD_STORED_DAMAGE,100,TotalDamageDone)"
 
 // == Avatar ==
-// Crown of Apathy (idk it sounded cool)
-// - Psychic Focus (resistance to psychic)
-// - Aura of Indifference (EVERYONE has disadvantage on mental saving throws)
-// - ability to turn off an enemy like ego whip?
 
 // Crown of Envy (based on taking stuff while gaining - lifesteal aura)
 // - Psychic Focus (advantage on investigation)
 // - Aura of Spite (allies heal for a portion of damage dealt)
 
-// Mantle of Pride (buffs, temporary hp, damage, uncanny dodge aura?)
-// - Psychic Focus (advantage on performance)
+// Crown of Greed
+// - Unburden/Hoard (doubled carry capacity until long rest)
 
-// Mantle of Serenity (sleep, buffing and healing)
-// - Lull (sleep)
-// - Abate (calm emotions)
-// - Aura of Tranquilty (healing to all allies each turn)
 
 // == Awakened ==
 // Mantle of Insanity (confusion and other shit)
-// Mantle of Desire (idk it sounded cool, may or may not end up actually doing it)
-// Reality Shaping (polymorph, debuffs, etc)
+// DESCRIPTION
+// - Psychic Focus (?)
+// - TASHAS HIDEOUS LAUGHTER (2 psi)
+// - CROWN OF MADNESS (3 psi)
+// - HYPNOTIC PATTERN (5 psi)
+// - PHANTASMAL KILLER (6 psi)
 
-// UNNAMED (illusion magic and invis)
-// - invoke duplicity
-// - invisibility field
+// Reality Shaping (polymorph, debuffs, etc - might scrap tbh)
 
-// == Immortal ==
-// Vampirism (lifestealing, reverse warding bond/pain split)
-// Sanguine Harvest (wip name but blood magic would be neat)
+// Mental Disruption (? - stat reducing, might scrap tbh)
+// DESCRIPTION
+// - Psychic Focus (?)
+// - Brain Rot (? psi) - dmg, weak to psychic
+// - AC reducer (? psi) - dmg, reduce AC permanently, increase crit threshold?
+// - Atrophy (? psi)- dmg, reduce phys stats permanently
+// - Stupefy (? psi) - dmg, reduce mental stats permanently
 
-// Titanic Presence
-// Psychic Focus (?, maybe adv against certain cc)
-// - Provoke (1d8 psychic, taunt)
-// - Titan's Rage (rage, resistances up, cant concentrate, ms down)
-// - Menacing Presence (aoe taunt)
-// - Intervene (redirect dmg to u, interrupt)
-// - SUperior rage?
-
-// Soul Reaper
-// Psychic Focus (resistance to necrotic)
-// Soul Harvest (1-7 psi) - 1d8, 1d12 on 50% hp
-// Soul Grip (x psi) - death grip
-// Souleater (x psi) - execute, refunds cost and heals on kill
-// Life Drain (x psi) - mark an enemy for death, as long as theyre close they gain debuffs from you
-// Spectral Scythe - teleport to an area and do a spin around it dealing necrotic dmg
+// Unknown Awakened Spec (im putting psychic brand here)
+// Perfect Form? Awakened Form? Bodymorphism?
+// You're not actually modifying your body, but summoning additional parts to aid you
+// DESCRIPTION
+// - Psychic Focus (?)
+// - ? (? psi)
+// - ? (? psi)
+// - Psychic Brand (6 psi) - brand a creature with a psychic mark. choose one stat to set to 19. only one mark per target at a time (long rest buff)
+// - Spectral Arms (7 psi) - allow a creature to bonus action attack. advantage on strength checks and carry weight increased(?). optionally, allow the creature to add their int mod to their AC instead of their dex
 
 // == Nomad ==
 // Nomadic Kinship (animal companion, pet buffs, animal friendship?, dominate beast?)
-// Nomadic Guile (disguise self, chaotic stuff idk)
+// - Psychic Focus (advantage on animal handling checks)
 
-// Nomadic Hunting (piercing dmg, hunters mark, traps and accuracy buffs)
-// - Javelin Toss (xd10 piercing dmg)
-// - Nomad's Mark (hunter's mark/hex with psychic dmg)
-// - Nomadic Trap (glyph of warding but psychic dmg, also restrains)
-// - Ensnare
+// Nomadic Guile (disguise self, chaotic stuff idk, might scrap)
+// - Psychic Focus (advantage on sleight of hand checks)
+// - Disguise Self 1 psi
+// - Other bonuses to 
+
+
 
 // == Wu Jen ==
-// Mastery of Life and Death (healing negation and health manipulation, death ward)
-// Mastery of Stars (funny opportunity to make an ability called "Star Rail")
-// Psychic Focus (resistance to radiant)
-// ?
-// ?
-// ?
-// Star Rail (honkai - no movement speed cost traversing the wall, but cant attack while in it)
-// Starstorm (PK STARSTORM - concentration difficult terrain aoe radiant dmg)
-// Mastery of Nature (plants and shit)
-// Mastery of Steel (rell from lol)
+// Mastery of Life and Death (healing negation and health manipulation, reverse warding bond/pain split)
+// Psychic Focus (advantage on death saving throws)
+// bone chill (1-7 psi)
+// Life Link (transfer damage dealt to u to the guy)
+
+// Mastery of Steel (rell from lol - highly likely to get scrapped)
+// - Adamantine Shielding (immunity to crits)
 // We can probably have way more masteries
+
+// == Likely abilities ==
+// Mental Strain Aura (when spells are cast near u, deal psychic dmg to the caster. also if theyre concentrating)
+// Spectral Limbs (gain bonus arms, allowing you to make weaponskills that cost action as a bonus action)
+// Psychic Link (choose x number of creatures. when you buff/debuff them with a discipline, the others also get that buff/debuff)
+
+// == Unsure ==
+// Bestow Fortune (give a creature x uses of the lucky feat)
+// Dissonant Burst (whenever ur hit, deal dmg in a circle around u, save deals half)
+// Mental Bulwark (replace dex with int in AC calculation - specific check for immortal durability and/or unarmored combat if needed)
+// Psychic Veil (+5 AC until attacking, kinda like sanctuary)
+
+// == Unlikely abilities ==
+// Psionic Innovation (5-7 psi) - restore a 2nd-4th level spell slot
+// Psychic Drain - burn spell slots, sorcery points, psi points, etc
+// Transient Bulwark (-10 to first attack roll against you)
+// Legendary Resistance (+10 to first saving throw)
+// Psionic Reservoir (give an ally a buff, they can consume it with a bonus action to heal, optional burst of damage in an area?)
+
+// TODO:
+// - Give unarmored combat (INT to AC) to ascetic
+// - Allow smite to be cast after the attack is made
+// - Make thrown weapon fighting have thrown attacks scale with int
+// - Make it so that psionic resonance heals you on hit
+// - Make singularity scale with your DC instead of the targets (or just a flat dc like 12 or 15-17 prob more cuz gear and other sources JUST COPY 5e spells)
+// - Use [Cast2] for slice and dice
+// - New VFX, blade flurry in particular
 
 // Order of the Ascetic
 
@@ -190,6 +376,10 @@ data "Icon" "PassiveFeature_Elf_WeaponTraining"
 data "Properties" "Highlighted"
 
 // War Adept
+// TODO: So it mostly works as intended
+// However it doesnt fucking tick all the time
+// So sometimes I bonk someone while invisible, and I dont get my buff
+// I get it the turn after which is _ok_ but man
 new entry "Passive_Mystic_WarAdept"
 type "PassiveData"
 data "DisplayName" "h0455c234g0bf4g49bbgaaecge6617c6114bf"
@@ -217,3 +407,21 @@ data "DescriptionParams" ""
 data "Icon" "Action_Mystic_PsionicTrance"
 data "Properties" "Highlighted"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsionicTrance);"
+
+// Order of the [Metapsionics?]
+// maybe give em extra psi points?
+// 1  - [Bonus Discipline] Choose an extra discipline (any)
+// 1  - [Metapsionics] Gain access to metapsionics (metamagic), choose 1
+// 3  - [Metapsionics] Choose 2 extra metapsionics
+// 6  -
+// 14 - 
+
+// Order of the [Wild Magic?]
+// => Magic Awareness, Unstable Backlash, Bolstering Magic, Tides of Chaos, Bend Luck, Controlled Chaos
+// => wild magic aura? wild magic curse? wild infusion? (regain 3 psi and force a wild magic surge)
+// 1  - [Bonus Discipline] Choose an extra discipline (any)
+// 1  - [Wild Psionics] Gain access to Psionic Surges (Wild Magic surges)
+// 3  - Adjust intensity of psionic surges - Uncommon, Normal, Frequent, Always
+// 3  - 
+// 6  - 
+// 14 -

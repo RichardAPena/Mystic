@@ -9,7 +9,7 @@
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Name" type="LSString" value="Icons_MysticExpansion" />
 					<attribute id="SRGB" type="bool" value="True" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mystic/Assets/Textures/Icons/Icons_MysticExpansion.DDS" />
+					<attribute id="SourceFile" type="LSString" value="Public/MysticExpansion/Assets/Textures/Icons/Icons_MysticExpansion.DDS" />
 					<attribute id="Streaming" type="bool" value="True" />
 					<attribute id="Template" type="FixedString" value="Icons_Items" />
 					<attribute id="Type" type="int32" value="0" />

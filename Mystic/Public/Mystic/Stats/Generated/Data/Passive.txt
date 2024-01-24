@@ -592,6 +592,7 @@ data "BoostConditions" "not WearingArmor(context.Source)"
 data "Boosts" "ACOverrideFormula(10,true,Dexterity,Constitution)"
 
 new entry "Passive_Mystic_ImmortalDurability_HP"
+type "PassiveData"
 data "Properties" "IsHidden"
 data "Boosts" "IncreaseMaxHP(ClassLevel(Mystic))"
 

@@ -10,7 +10,7 @@
                 </node>
                 <node id="TextureAtlasPath">
                     <attribute id="Path" type="LSString" value="Assets/Textures/Icons/Icons_MysticExpansion.DDS"/>
-                    <attribute id="UUID" type="FixedString" value="bf1d8960-9583-4beb-9661-2fec5460722f"/> 
+                    <attribute id="UUID" type="FixedString" value="3ac07e72-cfdc-4540-91b6-382dd1c868d6"/> 
                 </node>
                 <node id="TextureAtlasTextureSize">
                     <attribute id="Height" type="int64" value="2048"/>
