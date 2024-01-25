@@ -228,3 +228,63 @@ data "SpellContainerID" "Projectile_Mystic_PsychicShockwave"
 data "PowerLevel" "7"
 data "SpellFlags" "HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful"
 data "ContainerSpells" ""
+
+// Javelin Toss
+new entry "Projectile_Mystic_JavelinToss"
+type "SpellData"
+data "SpellType" "Projectile"
+data "Level" "1"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+
+// Titanic Leap
+new entry "Projectile_Mystic_TitanicLeap"
+type "SpellData"
+data "SpellType" "Projectile"
+data "Level" "5"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+
+// Gale Slash
+new entry "Projectile_Mystic_GaleSlash"
+type "SpellData"
+data "SpellType" "Projectile"
+data "Level" "2"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+
+// Astral Mote
+new entry "Projectile_Mystic_AstralMote"
+type "SpellData"
+data "SpellType" "Projectile"
+data "Level" "1"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+
+// Toxic Spines
+new entry "Projectile_Mystic_ToxicSpines"
+type "SpellData"
+data "SpellType" "Projectile"
+data "Level" "1"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+
+// Thorny Briars
+new entry "Projectile_Mystic_ThornyBriars"
+type "SpellData"
+data "SpellType" "Projectile"
+data "Level" "3"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""

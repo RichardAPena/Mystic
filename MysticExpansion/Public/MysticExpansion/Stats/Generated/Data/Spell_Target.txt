@@ -553,3 +553,278 @@ data "SpellAnimation" "9fd22d7d-5d7a-470b-a939-810046915bed,,;,,;2f893fad-98eb-4
 data "SpellFlags" "IsSpell;IsConcentration"
 data "PrepareEffect" "33302a46-4a12-41dd-8845-6b7314d50022"
 data "CastEffect" "bcd66fb0-b0bc-41d0-abba-ad443d63dd72"
+
+// Nomad's Mark
+new entry "Target_Mystic_NomadsMark"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "2"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Nomadic Snare
+new entry "Target_Mystic_NomadicSnare"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "5"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Lull
+new entry "Target_Mystic_Lull"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "1"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Abate
+new entry "Target_Mystic_Abate"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "2"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Hibernate
+new entry "Target_Mystic_Hibernate"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "5"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Mass Repose
+new entry "Target_Mystic_MassRepose"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "7"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Psychic Double
+new entry "Target_Mystic_PsychicDouble"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "3"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Ethereal Shroud
+new entry "Target_Mystic_EtherealShroud"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "7"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Transfusion
+new entry "Target_Mystic_Transfusion"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "1"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Provoke
+new entry "Target_Mystic_Provoke"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "1"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Soul Harvest
+new entry "Target_Mystic_SoulHarvest"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "1"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Soul Grip
+new entry "Target_Mystic_SoulGrip"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "3"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Souleater
+new entry "Target_Mystic_Souleater"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "5"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Doom
+new entry "Target_Mystic_Doom"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "6"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Wave of Apathy
+new entry "Target_Mystic_WaveOfApathy"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "1"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Torpor
+new entry "Target_Mystic_Torpor"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "3"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Incite Apathy
+new entry "Target_Mystic_InciteApathy"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "5"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Blessing of Fair Winds
+new entry "Target_Mystic_BlessingOfFairWinds"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "5"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Steel Tempest
+new entry "Target_Mystic_SteelTempest"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "6"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Sunburst
+new entry "Target_Mystic_Sunburst"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "5"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Starstorm
+new entry "Target_Mystic_Starstorm"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "7"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Regrowth
+new entry "Target_Mystic_Regrowth"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "5"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Brambleskin
+new entry "Target_Mystic_Brambleskin"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "6"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Exaltation
+new entry "Target_Mystic_Exaltation"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "1"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Hubris
+new entry "Target_Mystic_Hubris"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "3"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""

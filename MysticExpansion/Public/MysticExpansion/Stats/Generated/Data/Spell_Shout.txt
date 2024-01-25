@@ -305,3 +305,201 @@ data "DescriptionParams" ""
 data "SpellFlags" "IsSpell"
 data "UseCosts" "ReactionActionPoint:1;PsiPointsResource:3;PsiLimitResource:1:3"
 data "InterruptPrototype" "Interrupt_Mystic_FutureSight"
+
+// Hunting Party
+new entry "Shout_Mystic_HuntingParty"
+type "SpellData"
+data "SpellType" "Shout"
+data "Level" "6"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Aura of Tranquility
+new entry "Shout_Mystic_AuraOfTranquility"
+type "SpellData"
+data "SpellType" "Shout"
+data "Level" "3"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Lucid Dreaming
+new entry "Shout_Mystic_LucidDreaming"
+type "SpellData"
+data "SpellType" "Shout"
+data "Level" "6"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Obscuring Veil
+new entry "Shout_Mystic_ObscuringVeil"
+type "SpellData"
+data "SpellType" "Shout"
+data "Level" "2"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Mirage
+new entry "Shout_Mystic_Mirage"
+type "SpellData"
+data "SpellType" "Shout"
+data "Level" "5"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Illusory Horde
+new entry "Shout_Mystic_IllusoryHorde"
+type "SpellData"
+data "SpellType" "Shout"
+data "Level" "6"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Scarlet Eruption
+new entry "Shout_Mystic_ScarletEruption"
+type "SpellData"
+data "SpellType" "Shout"
+data "Level" "3"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Blood Frenzy
+new entry "Shout_Mystic_BloodFrenzy"
+type "SpellData"
+data "SpellType" "Shout"
+data "Level" "5"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Sanguine Infusion
+new entry "Shout_Mystic_SanguineInfusion"
+type "SpellData"
+data "SpellType" "Shout"
+data "Level" "6"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Titan's Rage
+new entry "Shout_Mystic_TitansRage"
+type "SpellData"
+data "SpellType" "Shout"
+data "Level" "3"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Intervene (Prototype)
+new entry "Shout_Mystic_Intervene"
+type "SpellData"
+data "SpellType" "Shout"
+data "Level" "3"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Menacing Presence
+new entry "Shout_Mystic_MenacingPresence"
+type "SpellData"
+data "SpellType" "Shout"
+data "Level" "5"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Aura of Indifference
+new entry "Shout_Mystic_AuraOfIndifference"
+type "SpellData"
+data "SpellType" "Shout"
+data "Level" "7"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Quick Draw (Prototype)
+new entry "Shout_Mystic_QuickDraw"
+type "SpellData"
+data "SpellType" "Shout"
+data "Level" "3"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Moonlight
+new entry "Shout_Mystic_Moonlight"
+type "SpellData"
+data "SpellType" "Shout"
+data "Level" "3"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Mass Entanglement
+new entry "Shout_Mystic_MassEntanglement"
+type "SpellData"
+data "SpellType" "Shout"
+data "Level" "7"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Aura of Contempt
+new entry "Shout_Mystic_AuraOfContempt"
+type "SpellData"
+data "SpellType" "Shout"
+data "Level" "5"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Prideful Mantle
+new entry "Shout_Mystic_PridefulMantle"
+type "SpellData"
+data "SpellType" "Shout"
+data "Level" "7"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""

@@ -28,16 +28,16 @@ data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MasteryOfTime);UnlockSpell(
 // You draw on your psionic power to enhance your senses, making you better at tracking prey?
 new entry "Discipline_NomadicHunting"
 type "PassiveData"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h36904f5dge6e2g484ag83b4gfba16332ed25"
+data "Description" "h0e7507b7g68c4g41a7gaf34g1a54a949287f"
 data "Icon" "Action_Mystic_CrownedInSorrow"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_NomadicHunting);UnlockSpell(Projectile_Mystic_JavelinToss);UnlockSpell(Target_Mystic_NomadsMark);UnlockSpell(Target_Mystic_NomadicSnare);UnlockSpell(Shout_Mystic_HuntingParty);"
-// UnlockSpell(Shout_Mystic_PsychicFocus_NomadicHunting);
+
 // UnlockSpell(Projectile_Mystic_JavelinToss);
 // UnlockSpell(Target_Mystic_NomadsMark);
 // UnlockSpell(Target_Mystic_NomadicSnare);
 // UnlockSpell(Shout_Mystic_HuntingParty);
-// - Psychic Focus (advantage on survival checks)
+
 // - Javelin Toss (1-7 psi) - 1d10 piercing dmg per psi point
 // - Nomad's Mark (2 psi) - hunter's mark with psychic dmg
 // - Nomadic Snare (5 psi) - glyph of warding but psychic dmg, also restrains
@@ -47,102 +47,121 @@ data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_NomadicHunting);UnlockSpell
 // You tap into the calming energy within you, tranquilizing both friend and foe alike
 new entry "Discipline_MantleOfSerenity"
 type "PassiveData"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h660cf269gc118g47c7g9ec3g2edb7b3490ff"
+data "Description" "h0e323662g0dbag4732g9fd7g8e91d11d9dbe"
 data "Icon" "Action_Mystic_CrownedInSorrow"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MantleOfSerenity);UnlockSpell(Target_Mystic_Lull);UnlockSpell(Target_Mystic_Abate);UnlockSpell(Shout_Mystic_AuraOfTranquility);UnlockSpell(Target_Mystic_Hibernate);UnlockSpell(Shout_Mystic_LucidDreaming);UnlockSpell(Target_Mystic_MassRepose);"
-// UnlockSpell(Shout_Mystic_PsychicFocus_MantleOfSerenity);
+
 // UnlockSpell(Target_Mystic_Lull);
 // UnlockSpell(Target_Mystic_Abate);
 // UnlockSpell(Shout_Mystic_AuraOfTranquility);
 // UnlockSpell(Target_Mystic_Hibernate);
 // UnlockSpell(Shout_Mystic_LucidDreaming);
 // UnlockSpell(Target_Mystic_MassRepose);
-// - Psychic Focus (immunity to sleep and advantage against paralysis)
-// - Lull (1-7 psi) - sleep targets, higher hp per psi point [15?]
+
+// - Lull (1-7 psi) - sleep targets, higher hp per psi point [15? 12 is better]
 // - Abate (2 psi) - calm emotions, remove rage, no concentration
 // - Aura of Tranquility (3-7 psi) - xdy healing to all allies each turn
 // - Hibernate (5 psi) - catnap (short rest single target)
-// - Rise and Shine (6 psi) - bonus action; paralyze sleeping enemies, wake and heal sleeping allies
+// - Lucid Dreaming (6 psi) - bonus action; paralyze sleeping enemies, wake and heal sleeping allies
 // - Mass Repose (7 psi) - INT save, allies fail automatically. sleep everyone in a massive radius
 
 // Psychic Distortion
 // You cloak yourself in a veil of psionic energy, altering other creatures' perception of you
 new entry "Discipline_PsychicDistortion"
 type "PassiveData"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hff8b0098g25ffg47d8g892dg4d2bc4cb2106"
+data "Description" "h89e7f56dg83d7g472bgb6aeg9e89cb8d2e19"
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "Boosts" ""
-UnlockSpell(Shout_Mystic_PsychicFocus_);
-UnlockSpell();
-UnlockSpell();
-UnlockSpell();
-UnlockSpell();
-UnlockSpell();
-UnlockSpell();
-// - Psychic Focus (advantage on perception checks)
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_PsychicDistortion);UnlockSpell(Shout_Mystic_ObscuringVeil);UnlockSpell(Target_Mystic_PsychicDouble);UnlockSpell(Shout_Mystic_Mirage);UnlockSpell(Shout_Mystic_IllusoryHorde);UnlockSpell(Target_Mystic_EtherealShroud);"
+
+// UnlockSpell(Shout_Mystic_ObscuringVeil);
+// UnlockSpell(Target_Mystic_PsychicDouble);
+// UnlockSpell(Shout_Mystic_Mirage);
+// UnlockSpell(Shout_Mystic_IllusoryHorde);
+// UnlockSpell(Target_Mystic_EtherealShroud);
+
 // - Obscuring Veil (2 psi) - you become lightly/heavily obscured no matter where you are
 // - Psychic Double (3 psi) - invoke duplicity (YOU CAN SWAP PLACES WITH IT, NO LOS REQUIRED BUT YOU WILL BE SWAPPED BACK. THE COPY IS IMMUNE TO EVERYTHING)
 // - Mirage (5 psi) (after moving 3m u gain an after image, which makes it so u get a 50% chance of attacks missing u)
 // - Illusory Horde (6 psi) - aoe mirror image, 9m [dont name it mirror army, kibbles already has a spell named like that]
 // - Ethereal Shroud (7 psi) - zone where everyone gets invisibility (GREATER???? spell is expensive so maybe)
 
-// Sanguine Harvest
-// DESCRIPTION
-new entry "Discipline_SanguineHarvest"
+// Crimson Harvest
+// You reach out to the blood of creatures?
+new entry "Discipline_CrimsonHarvest"
 type "PassiveData"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h281052beg0da2g4aa7gb8e6g886f1a2202ee"
+data "Description" "hd60be5a7g7c63g419cgb7f9g8c22582607c0"
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "Boosts" ""
-// Psychic Focus (resistance to necrotic damage)
-// Transfusion (1-7 psi) 1d8 necrotic, restore half hp to dmg dealt
-// Sanguine Plague (x psi) - x save, dot that heals u
-// Blood Spikes? - deal dmg arooound a blood surface
-// idk look at kbms for mroe spells, its really just self damage and life stealing with nothing else interesting
-// ~~Sanguine Aegis (6 psi) - gain resistance to necrotic dmg, advantage on physical saving throws
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_CrimsonHarvest);UnlockSpell(Target_Mystic_Transfusion);UnlockSpell(Shout_Mystic_ScarletEruption);UnlockSpell(Shout_Mystic_BloodFrenzy);UnlockSpell(Shout_Mystic_SanguineInfusion);"
+
+// UnlockSpell(Target_Mystic_Transfusion);
+// UnlockSpell(Shout_Mystic_ScarletEruption);
+// UnlockSpell(Shout_Mystic_BloodFrenzy);
+// UnlockSpell(Shout_Mystic_SanguineInfusion);
+
+// - Transfusion (1-7 psi) 1d8 necrotic, restore half hp to dmg dealt
+// - Scarlet Eruption (3-7 psi) - 1d8 necrotic aoe, restore half hp to dmg dealt
+// - Blood Frenzy (5 psi) - take 1d8 necrotic dmg. immediately and at the start of each turn, gain 2*intmod temp hp. also +3m of movement speed for the duratoin. 
+// - Sanguine Infusion (6 psi) - resistance to necrotic dmg and advantage on physical saving throws
 
 // Titanic Presence
 // You augment your presence in the battlefield, growing into an unstoppable goliath
 new entry "Discipline_TitanicPresence"
 type "PassiveData"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h0af8819eg1f9eg4729g9fb6g0927f8359fe1"
+data "Description" "h57c3d34egba11g4b36ga3d4gc19b157860ec"
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "Boosts" ""
-// - Psychic Focus (immunity to prone and restrain)
-// - Provoke (1d8 psychic, taunt)
-// - Titan's Rage (rage, resistances up, disadvantage on concentration saving throws, ms down)
-// - Menacing Presence (aoe taunt)
-// - Intervene (redirect dmg to u, interrupt)
-// - Titanic Leap (jump to a target location as a bonus action. deal damage and knock prone. more dmg if raging)
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_TitanicPresence);UnlockSpell(Target_Mystic_Provoke);UnlockSpell(Shout_Mystic_TitansRage);UnlockSpell(Shout_Mystic_Intervene);UnlockSpell(Shout_Mystic_MenacingPresence);UnlockSpell(Projectile_Mystic_TitanicLeap);"
+
+// UnlockSpell(Target_Mystic_Provoke);
+// UnlockSpell(Shout_Mystic_TitansRage);
+// UnlockSpell(Shout_Mystic_Intervene);
+// UnlockSpell(Shout_Mystic_MenacingPresence);
+// UnlockSpell(Projectile_Mystic_TitanicLeap);
+
+// - Provoke [1psi] (1d8 psychic, taunt)
+// - Titan's Rage [3psi] (rage, resistances up, disadvantage on concentration saving throws, ms down)
+// - Intervene [3psi] (redirect dmg to u, interrupt)
+// - Menacing Presence [5psi] (aoe taunt)
+// - Titanic Leap [5-7 psi] (jump to a target location as a bonus action. deal damage and knock prone. more dmg if raging)
 
 // Soul Reaper (executing, resetting, tunnel vision)
 // You reach out with your mind into the soul of other creatures, allowing you to take them?
 new entry "Discipline_SoulReaper"
 type "PassiveData"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h527d7f26g8dc6g4852g8391g5e545e75c2f0"
+data "Description" "hc6241d62g01dcg47e5g9c75gf5a067fcaa0a"
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "Boosts" ""
-// - Psychic Focus (killing blows restore HP equal to mystical recovery)
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_SoulReaper);UnlockSpell(Target_Mystic_SoulHarvest);UnlockSpell(Target_Mystic_SoulGrip);UnlockSpell(Target_Mystic_Souleater);UnlockSpell(Target_Mystic_Doom);"
+
+// UnlockSpell(Target_Mystic_SoulHarvest);
+// UnlockSpell(Target_Mystic_SoulGrip);
+// UnlockSpell(Target_Mystic_Souleater);
+// UnlockSpell(Target_Mystic_Doom);
+
 // - Soul Harvest (1-7 psi) - 1d8, 1d12 necrotic dmg on 50% hp CHA SAVE
 // - Soul Grip (3 psi) - death grip, bonus action
 // - Souleater (5 psi) - execute, refunds psi AND action cost on kill CHA SAVE
-// - Life Drain (6 psi) - mark an enemy for death, as long as theyre close they gain debuffs from you. if they die you can recast this for free
+// - Doom (6 psi) - mark an enemy for death, as long as theyre close they gain debuffs from you. if they die you can recast this for free
 
 // Crown of Apathy
 // You suppress all emotion in a creature, impeding their desire to fight.
 new entry "Discipline_CrownOfApathy"
 type "PassiveData"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h4f83831eg1c7bg44e0g8cfdg8a01097ef699"
+data "Description" "h9a6cebf2g5932g437ag9ff6g4298ec8093fd"
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "Boosts" ""
-// - Psychic Focus (resistance to psychic)
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_CrownOfApathy);UnlockSpell(Target_Mystic_WaveOfApathy);UnlockSpell(Target_Mystic_Torpor);UnlockSpell(Target_Mystic_InciteApathy);UnlockSpell(Shout_Mystic_AuraOfIndifference);"
+
+// UnlockSpell(Target_Mystic_WaveOfApathy);
+// UnlockSpell(Target_Mystic_Torpor);
+// UnlockSpell(Target_Mystic_InciteApathy);
+// UnlockSpell(Shout_Mystic_AuraOfIndifference);
+
 // - Wave of Apathy (1-7 psi) - same as vicious mockery, more targets per psi point
-// - Lassitude (3 psi) - BASICALLY TASHAS MIND WHIP = deal psychic dmg. for 1 round, target cant do more than 1 atk per turn and can only use an action or bonus action (slow-lite)
+// - Torpor (3 psi) - BASICALLY TASHAS MIND WHIP = deal psychic dmg. for 1 round, target cant do more than 1 atk per turn and can only use an action or bonus action (slow-lite)
 // - Incite Apathy (5 psi) - halve an enemys damage dealt while concentration holds
 // - Aura of Indifference (7 psi) - at the start of their turn or when they enter, enemies are possibly disarmed and silenced for 1 turn)
 
@@ -150,55 +169,77 @@ data "Boosts" ""
 // DESCRIPTION
 new entry "Discipline_NomadicGrace"
 type "PassiveData"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h34368b6cgcb6cg4965g8411g07a0b5bb2dae"
+data "Description" "h83ae95edg6a73g4c34g81e5gee9615b1ba91"
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "Boosts" ""
-// - Psychic Focus (advantage on acrobatics checks)
-// - Wind Cutter (2 psi) - spell attack roll, unleash 2 ranged slashes, 1d6+weapon dmg each?
-// - [Instant Counter] (3 psi) - teleports behind u, nothing personnel kid (reaction)
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_NomadicGrace);UnlockSpell(Projectile_Mystic_GaleSlash);UnlockSpell(Shout_Mystic_QuickDraw);UnlockSpell(Target_Mystic_BlessingOfFairWinds);UnlockSpell(Target_Mystic_SteelTempest);"
+
+// UnlockSpell(Projectile_Mystic_GaleSlash);
+// UnlockSpell(Shout_Mystic_QuickDraw);
+// UnlockSpell(Target_Mystic_BlessingOfFairWinds);
+// UnlockSpell(Target_Mystic_SteelTempest);
+
+// - Gale Slash (2 psi) - spell attack roll, unleash 2 ranged slashes, 1d6+weapon dmg each?
+// - Quick Draw (3 psi) - teleports behind u, nothing personnel kid (reaction)
 // - Blessing of Fair Winds (5 psi) - enchant a pair of weapons with +9m range (melee or ranged). once per turn these weapons will unleash a psychic chain that deals psychic dmg to the target, jumping to up to 2 other targets
-// - [Reberverating Dash] (6 psi) - do a melee attack against a guy. on a hit you gain ms and can do it again, up to 3 times total [when ur done remove all hidden buffs, so u can do with extra atack]
+// - Steel Tempest (6 psi) - do a melee attack against a guy. on a hit you gain ms and can do it again, up to 3 times total [when ur done remove all hidden buffs, so u can do with extra atack]
 
 // Mastery of Stars
 // DESCRIPTION
 new entry "Discipline_MasteryOfStars"
 type "PassiveData"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h82c532f5g19f8g4adag880dgf693ebe925a7"
+data "Description" "hadaff898ge06bg41a0ga205g9e95307b3b96"
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "Boosts" ""
-// Psychic Focus (resistance to radiant)
-// Astral Mote (1-7 psi) - radiant dmg, UNKNOWN EXTRA EFFECT
-// Moonlight (3 psi) - reveals all invisible creatures in a huge radius, prevents them from going invisible
-// Sunburst (5 psi) - fire dmg, aoe, blind. if a creature has sunlight (hyper)sensitivity they have disadvantage on the saving throw and take additional damage.
-// Star Rail (6 psi) - honkai, no movement speed cost traversing the wall, but cant attack while in it - might need to add ai indicators to gtfo of this zone
-// Starstorm (7 psi) - PK STARSTORM, concentration difficult terrain aoe radiant dmg. enemies hit cant go invis
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MasteryOfStars);UnlockSpell(Projectile_Mystic_AstralMote);UnlockSpell(Shout_Mystic_Moonlight);UnlockSpell(Target_Mystic_Sunburst);UnlockSpell(Wall_Mystic_StarRail);UnlockSpell(Target_Mystic_Starstorm);"
+
+// UnlockSpell(Projectile_Mystic_AstralMote);
+// UnlockSpell(Shout_Mystic_Moonlight);
+// UnlockSpell(Target_Mystic_Sunburst);
+// UnlockSpell(Wall_Mystic_StarRail);
+// UnlockSpell(Target_Mystic_Starstorm);
+
+// - Astral Mote (1-7 psi) - radiant dmg, guiding bolt
+// - Moonlight (3 psi) - reveals all invisible creatures in a huge radius, prevents them from going invisible
+// - Sunburst (5 psi) - fire dmg, aoe, blind. if a creature has sunlight (hyper)sensitivity they have disadvantage on the saving throw and take additional damage.
+// - Star Rail (6 psi) - honkai, no movement speed cost traversing the wall, but cant attack while in it - might need to add ai indicators to gtfo of this zone
+// - Starstorm (7 psi) - PK STARSTORM, concentration difficult terrain aoe radiant dmg. enemies hit cant go invis
 
 // Mastery of Nature
 // DESCRIPTION
 new entry "Discipline_MasteryOfNature"
 type "PassiveData"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h4aaceeaag3e26g423dg8971gb890b1e46242"
+data "Description" "h9eee953ege87eg4b49gaefag408aa04dcca4"
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "Boosts" ""
-// - Psychic Focus (advantage on nature checks)
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MasteryOfNature);UnlockSpell(Projectile_Mystic_ToxicSpines);UnlockSpell(Projectile_Mystic_ThornyBriars);UnlockSpell(Target_Mystic_Regrowth);UnlockSpell(Target_Mystic_Brambleskin);UnlockSpell(Shout_Mystic_MassEntanglement);"
+
+// UnlockSpell(Projectile_Mystic_ToxicSpines);
+// UnlockSpell(Projectile_Mystic_ThornyBriars);
+// UnlockSpell(Target_Mystic_Regrowth);
+// UnlockSpell(Target_Mystic_Brambleskin);
+// UnlockSpell(Shout_Mystic_MassEntanglement);
+
 // - Toxic Spines (1-7 psi) - 1d6 piercing, 1d4 poison; half on save
 // - Thorny Briars (3? psi) - attack roll, spike growth but on a target
 // - Regrowth (5-7? psi) - restore hp every turn, stops for a turn if you take fire or acid dmg
 // - Brambleskin (6? psi) - your skin grows brambles, increasing AC by 2 and dealing piercing damage to attackers
 // - xddTree (7 psi) - summon the great wise tree
 
-// Mnatle of Pride
+// Mantle of Pride
 // You augment feelings of confidence and pride in other creatures, lifting their spirits or causing them to stumble in their arrogance.
 new entry "Discipline_MantleOfPride"
 type "PassiveData"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h64bca6e5ga582g4f4cg957cg0dc2ab813ea1"
+data "Description" "had933094g6dbbg4d22gb45dge3dca2d6f516"
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "Boosts" ""
-// - Psychic Focus (advantage on performance)
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MantleOfPride);UnlockSpell(Target_Mystic_Exaltation);UnlockSpell(Target_Mystic_Hubris);UnlockSpell(Shout_Mystic_AuraOfContempt);UnlockSpell(Shout_Mystic_PridefulMantle);"
+
+// UnlockSpell(Target_Mystic_Exaltation);
+// UnlockSpell(Target_Mystic_Hubris);
+// UnlockSpell(Shout_Mystic_AuraOfContempt);
+// UnlockSpell(Shout_Mystic_PridefulMantle);
+
 // - Exaltation (1-7 psi) - 6 temp hp per psi to one target
 // - Hubris (3 psi) - curse an enemy with their own hubris. the first time they move, attack and take a reaction each turn, they take psychic dmg. saving throw at the end of each of their turns.
 // - Aura of Contempt (5 psi) - 1d4 psychic damage to all attack rolls, not just weapons (crusaders mantle)
@@ -211,6 +252,14 @@ data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnDamaged;OnDamagedPrevented"
 data "StatsFunctors" "ApplyStatus(MYSTIC_CHRONOWARD_STORED_DAMAGE,100,TotalDamageDone)"
 
+// Soul Reaper Effect
+new entry "Discipline_SoulReaper_Effect"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "HasHPLessThan(1) and Enemy() and Character()"
+data "StatsFunctors" "RegainHitPoints(max(1,ClassLevel(Mystic)+IntelligenceModifier))"
+
 // == Avatar ==
 
 // Crown of Envy (based on taking stuff while gaining - lifesteal aura)
@@ -219,7 +268,6 @@ data "StatsFunctors" "ApplyStatus(MYSTIC_CHRONOWARD_STORED_DAMAGE,100,TotalDamag
 
 // Crown of Greed
 // - Unburden/Hoard (doubled carry capacity until long rest)
-
 
 // == Awakened ==
 // Mantle of Insanity (confusion and other shit)

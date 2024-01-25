@@ -39,7 +39,6 @@ data "TooltipPermanentWarnings" "f1178ed8-c5ce-4766-85a3-ab0681aa049b"
 
 data "DisplayName" "h23a9f378gb8b9g4210gb911gf4633225dad0"
 data "Description" "h09da3b6bgaa63g48e3g8655g853d9987c85c"
-data "DescriptionParams" "50%"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 
 data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_MASTERY_OF_GRAVITY,100,-1)"
@@ -71,12 +70,353 @@ data "TooltipPermanentWarnings" "f1178ed8-c5ce-4766-85a3-ab0681aa049b"
 
 data "DisplayName" "h4d96a2a6gbefbg4078g96e9g964cac1b2db5"
 data "Description" "h5df6c0bdg7883g4b16gb2d5g46d176d69e6f"
-data "DescriptionParams" "50%"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 
 data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_MASTERY_OF_TIME,100,-1)"
 data "TargetConditions" "Self()"
 data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_MASTERY_OF_TIME,100,-1)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
+
+data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
+
+// Nomadic Hunting
+new entry "Shout_Mystic_PsychicFocus_NomadicHunting"
+type "SpellData"
+data "SpellType" "Shout"
+data "Level" "1"
+data "TooltipPermanentWarnings" "f1178ed8-c5ce-4766-85a3-ab0681aa049b"
+
+data "DisplayName" "h8cd02092g137fg44ccg8e1egac914880d409"
+data "Description" "h243cdc35g9c85g42bcg984dg51495cfcd52d"
+data "Icon" "Spell_Transmutation_Thaumaturgy"
+
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_NOMADIC_HUNTING,100,-1)"
+data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_NOMADIC_HUNTING,100,-1)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
+
+data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
+
+// Mantle of Serenity
+new entry "Shout_Mystic_PsychicFocus_MantleOfSerenity"
+type "SpellData"
+data "SpellType" "Shout"
+data "Level" "1"
+data "TooltipPermanentWarnings" "f1178ed8-c5ce-4766-85a3-ab0681aa049b"
+
+data "DisplayName" "h4c9731efg6472g47adg9320ge8a022c76861"
+data "Description" "hf21f00b5g593ag4240g82d6g3d11283de7bb"
+data "Icon" "Spell_Transmutation_Thaumaturgy"
+
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_MANTLE_OF_SERENITY,100,-1)"
+data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_MANTLE_OF_SERENITY,100,-1)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
+
+data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
+
+// Psychic Distortion
+new entry "Shout_Mystic_PsychicFocus_PsychicDistortion"
+type "SpellData"
+data "SpellType" "Shout"
+data "Level" "1"
+data "TooltipPermanentWarnings" "f1178ed8-c5ce-4766-85a3-ab0681aa049b"
+
+data "DisplayName" "h92bb0710ge5dcg452aga7e7g1ecc237e1304"
+data "Description" "h3fde1150gcab6g4260g8cf0g17fda15a2f49"
+data "Icon" "Spell_Transmutation_Thaumaturgy"
+
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_PSYCHIC_DISTORTION,100,-1)"
+data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_PSYCHIC_DISTORTION,100,-1)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
+
+data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
+
+// Crimson Harvest
+new entry "Shout_Mystic_PsychicFocus_CrimsonHarvest"
+type "SpellData"
+data "SpellType" "Shout"
+data "Level" "1"
+data "TooltipPermanentWarnings" "f1178ed8-c5ce-4766-85a3-ab0681aa049b"
+
+data "DisplayName" "hc1e0e6d2g1c7eg4e15gaeb4g645a726c06e3"
+data "Description" "hc6d47f53g9eacg4789g8b50g954bdc4c6a4c"
+data "Icon" "Spell_Transmutation_Thaumaturgy"
+
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_CRIMSON_HARVEST,100,-1)"
+data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_CRIMSON_HARVEST,100,-1)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
+
+data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
+
+// Titanic Presence
+new entry "Shout_Mystic_PsychicFocus_TitanicPresence"
+type "SpellData"
+data "SpellType" "Shout"
+data "Level" "1"
+data "TooltipPermanentWarnings" "f1178ed8-c5ce-4766-85a3-ab0681aa049b"
+
+data "DisplayName" "h905d4b8agfaa1g4065g9225ge6c43d8a109d"
+data "Description" "h17660f5bga71ag4c74ga3bcg7a0685b86157"
+data "Icon" "Spell_Transmutation_Thaumaturgy"
+
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_TITANIC_PRESENCE,100,-1)"
+data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_TITANIC_PRESENCE,100,-1)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
+
+data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
+
+// Soul Reaper
+new entry "Shout_Mystic_PsychicFocus_SoulReaper"
+type "SpellData"
+data "SpellType" "Shout"
+data "Level" "1"
+data "TooltipPermanentWarnings" "f1178ed8-c5ce-4766-85a3-ab0681aa049b"
+
+data "DisplayName" "h8eaa2a69g3e37g4a8dgb955g621fde5ae088"
+data "Description" "h4c9f9c76g439fg4d28g9757g40efb8943457"
+data "DescriptionParams" "RegainHitPoints(max(1,ClassLevel(Mystic)+IntelligenceModifier))"
+data "Icon" "Spell_Transmutation_Thaumaturgy"
+
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_SOUL_REAPER,100,-1)"
+data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_SOUL_REAPER,100,-1)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
+
+data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
+
+// Crown of Apathy
+new entry "Shout_Mystic_PsychicFocus_CrownOfApathy"
+type "SpellData"
+data "SpellType" "Shout"
+data "Level" "1"
+data "TooltipPermanentWarnings" "f1178ed8-c5ce-4766-85a3-ab0681aa049b"
+
+data "DisplayName" "h83b9fa27gb8cfg4b03ga46ag63a1a89e700a"
+data "Description" "h3de96f4bg290eg464cg8877g6462128cb209"
+data "Icon" "Spell_Transmutation_Thaumaturgy"
+
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_CROWN_OF_APATHY,100,-1)"
+data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_CROWN_OF_APATHY,100,-1)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
+
+data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
+
+// Nomadic Grace
+new entry "Shout_Mystic_PsychicFocus_NomadicGrace"
+type "SpellData"
+data "SpellType" "Shout"
+data "Level" "1"
+data "TooltipPermanentWarnings" "f1178ed8-c5ce-4766-85a3-ab0681aa049b"
+
+data "DisplayName" "h4c8aed3bgbd80g4767gb44cg38c16924ffe9"
+data "Description" "h5bd13d2bg5116g487bg8c91gf66fe8eb3bed"
+data "Icon" "Spell_Transmutation_Thaumaturgy"
+
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_NOMADIC_GRACE,100,-1)"
+data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_NOMADIC_GRACE,100,-1)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
+
+data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
+
+// Mastery of Stars
+new entry "Shout_Mystic_PsychicFocus_MasteryOfStars"
+type "SpellData"
+data "SpellType" "Shout"
+data "Level" "1"
+data "TooltipPermanentWarnings" "f1178ed8-c5ce-4766-85a3-ab0681aa049b"
+
+data "DisplayName" "hcef7129agd017g4472ga2a9g5de6ed49feb0"
+data "Description" "he4b68c13g1c17g473dgb1b9gf11982c7f92d"
+data "Icon" "Spell_Transmutation_Thaumaturgy"
+
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_MASTERY_OF_STARS,100,-1)"
+data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_MASTERY_OF_STARS,100,-1)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
+
+data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
+
+// Mastery of Nature
+new entry "Shout_Mystic_PsychicFocus_MasteryOfNature"
+type "SpellData"
+data "SpellType" "Shout"
+data "Level" "1"
+data "TooltipPermanentWarnings" "f1178ed8-c5ce-4766-85a3-ab0681aa049b"
+
+data "DisplayName" "h8b7016cegce8cg4c03g88d2g1d89a22ea671"
+data "Description" "h5e606964g1230g4414g8812g71af161b9a67"
+data "Icon" "Spell_Transmutation_Thaumaturgy"
+
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_MASTERY_OF_NATURE,100,-1)"
+data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_MASTERY_OF_NATURE,100,-1)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
+
+data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
+
+// Mantle of Pride
+new entry "Shout_Mystic_PsychicFocus_MantleOfPride"
+type "SpellData"
+data "SpellType" "Shout"
+data "Level" "1"
+data "TooltipPermanentWarnings" "f1178ed8-c5ce-4766-85a3-ab0681aa049b"
+
+data "DisplayName" "he148a53cg63f2g48bag9b91ga96abf0e5cfd"
+data "Description" "h052bb446g3043g48d8ga727g230dc6e17ec2"
+data "Icon" "Spell_Transmutation_Thaumaturgy"
+
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_MANTLE_OF_PRIDE,100,-1)"
+data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_MANTLE_OF_PRIDE,100,-1)"
 
 data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
 data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"

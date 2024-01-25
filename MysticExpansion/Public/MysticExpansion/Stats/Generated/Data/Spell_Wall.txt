@@ -1,0 +1,9 @@
+// Star Rail
+new entry "Wall_Mystic_StarRail"
+type "SpellData"
+data "SpellType" "Wall"
+data "Level" "6"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
