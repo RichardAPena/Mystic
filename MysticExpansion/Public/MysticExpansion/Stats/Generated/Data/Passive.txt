@@ -245,6 +245,46 @@ data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MantleOfPride);UnlockSpell(
 // - Aura of Contempt (5 psi) - 1d4 psychic damage to all attack rolls, not just weapons (crusaders mantle)
 // - Prideful Mantle (7 psi) - grant one charge of unstoppable to all allies within 9m (DAMAGE REDUCTION PART ONLY)
 
+// Transcendent Form
+// You're not actually modifying your body, but summoning additional parts to aid you
+new entry "Discipline_TranscendentForm"
+type "PassiveData"
+data "DisplayName" "h2d4a68dcga907g459fg9b70g8cf2a1d105de"
+data "Description" "hf70e2b82g5bcbg4ba9g8e30ga2085dcdd67e"
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_TranscendentForm);UnlockSpell();UnlockSpell();UnlockSpell();"
+// - Psychic Focus (?)
+// - ? (? psi)
+// - ? (? psi)
+// - Psychic Brand (6 psi) - brand a creature with a psychic mark. choose one stat to set to 19. only one mark per target at a time (long rest buff)
+// - Spectral Arms (7 psi) - allow a creature to bonus action attack. advantage on strength checks and carry weight increased(?). optionally, allow the creature to add their int mod to their AC instead of their dex
+
+// Mantle of Insanity
+new entry "Discipline_MantleOfInsanity"
+type "PassiveData"
+data "DisplayName" "h173730c5gfbd7g4dd7g9b08gd1b2fa2e786f"
+data "Description" "h91454975g98d4g4f95gb9a9gd9475a5af3ec"
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MantleOfInsanity);UnlockSpell();UnlockSpell();UnlockSpell();"
+// - Psychic Focus (?)
+// - TASHAS HIDEOUS LAUGHTER (2 psi)
+// - CROWN OF MADNESS (3 psi)
+// - HYPNOTIC PATTERN (5 psi)
+// - PHANTASMAL KILLER (6 psi)
+
+// Nomadic Guile
+new entry "Discipline_NomadicGuile"
+type "PassiveData"
+data "DisplayName" "h354ec41fg4559g435ag90fcgb93670fa151b"
+data "Description" "h76ab8912g40c9g42a4gb2e9ga28ebb53f8d9"
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_NomadicGuile);UnlockSpell();UnlockSpell();UnlockSpell();"
+// - Psychic Focus (advantage on sleight of hand checks)
+// - Disguise Self 1 psi
+// - 2 psi: +10 bonus to sleight of hand
+// 3 psi
+// 5 psi
+
 // Chronoward
 new entry "Passive_Mystic_Chronoward"
 type "PassiveData"
@@ -260,6 +300,14 @@ data "StatsFunctorContext" "OnDamage"
 data "Conditions" "HasHPLessThan(1) and Enemy() and Character()"
 data "StatsFunctors" "RegainHitPoints(max(1,ClassLevel(Mystic)+IntelligenceModifier))"
 
+// Thorny Briars
+new entry "Passive_Mystic_ThornyBriars"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnMovedDistance"
+data "StatsFunctors" "DealDamage(2d4,Piercing)"
+
+
 // == Avatar ==
 
 // Crown of Envy (based on taking stuff while gaining - lifesteal aura)
@@ -272,11 +320,7 @@ data "StatsFunctors" "RegainHitPoints(max(1,ClassLevel(Mystic)+IntelligenceModif
 // == Awakened ==
 // Mantle of Insanity (confusion and other shit)
 // DESCRIPTION
-// - Psychic Focus (?)
-// - TASHAS HIDEOUS LAUGHTER (2 psi)
-// - CROWN OF MADNESS (3 psi)
-// - HYPNOTIC PATTERN (5 psi)
-// - PHANTASMAL KILLER (6 psi)
+
 
 // Reality Shaping (polymorph, debuffs, etc - might scrap tbh)
 
@@ -288,24 +332,13 @@ data "StatsFunctors" "RegainHitPoints(max(1,ClassLevel(Mystic)+IntelligenceModif
 // - Atrophy (? psi)- dmg, reduce phys stats permanently
 // - Stupefy (? psi) - dmg, reduce mental stats permanently
 
-// Unknown Awakened Spec (im putting psychic brand here)
-// Perfect Form? Awakened Form? Bodymorphism?
-// You're not actually modifying your body, but summoning additional parts to aid you
-// DESCRIPTION
-// - Psychic Focus (?)
-// - ? (? psi)
-// - ? (? psi)
-// - Psychic Brand (6 psi) - brand a creature with a psychic mark. choose one stat to set to 19. only one mark per target at a time (long rest buff)
-// - Spectral Arms (7 psi) - allow a creature to bonus action attack. advantage on strength checks and carry weight increased(?). optionally, allow the creature to add their int mod to their AC instead of their dex
+
 
 // == Nomad ==
 // Nomadic Kinship (animal companion, pet buffs, animal friendship?, dominate beast?)
 // - Psychic Focus (advantage on animal handling checks)
 
-// Nomadic Guile (disguise self, chaotic stuff idk, might scrap)
-// - Psychic Focus (advantage on sleight of hand checks)
-// - Disguise Self 1 psi
-// - Other bonuses to 
+
 
 
 
@@ -321,7 +354,6 @@ data "StatsFunctors" "RegainHitPoints(max(1,ClassLevel(Mystic)+IntelligenceModif
 
 // == Likely abilities ==
 // Mental Strain Aura (when spells are cast near u, deal psychic dmg to the caster. also if theyre concentrating)
-// Spectral Limbs (gain bonus arms, allowing you to make weaponskills that cost action as a bonus action)
 // Psychic Link (choose x number of creatures. when you buff/debuff them with a discipline, the others also get that buff/debuff)
 
 // == Unsure ==

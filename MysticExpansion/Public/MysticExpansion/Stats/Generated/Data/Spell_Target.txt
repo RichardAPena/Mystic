@@ -561,8 +561,8 @@ data "SpellType" "Target"
 data "Level" "2"
 
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h6201f219g6fd2g4326ga66fga8370aa4ed6e"
+data "Description" "h279dac6dg4616g4357gba8cg5b2e8acfff20"
 data "DescriptionParams" ""
 
 // Nomadic Snare
@@ -572,8 +572,8 @@ data "SpellType" "Target"
 data "Level" "5"
 
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h86b304a7gaf6ag4ea7g8b1cg63f0f0590d55"
+data "Description" "h5de656fbgf137g43abg8c42gc0d4edbd5117"
 data "DescriptionParams" ""
 
 // Lull
@@ -583,8 +583,8 @@ data "SpellType" "Target"
 data "Level" "1"
 
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h58608aaagbf63g4b96gb3b2ge04557253049"
+data "Description" "hbe3a4adagde65g4b50g80dfg3c523639e254"
 data "DescriptionParams" ""
 
 // Abate
@@ -594,8 +594,8 @@ data "SpellType" "Target"
 data "Level" "2"
 
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h3562876ag109dg43c0gab38gc13082c58bdf"
+data "Description" "h1c2f9accg8943g4607ga2f8ga6126c9dec17"
 data "DescriptionParams" ""
 
 // Hibernate
@@ -605,8 +605,8 @@ data "SpellType" "Target"
 data "Level" "5"
 
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h5ced2dbfg5400g48a1g84c7g160b8fb1ae06"
+data "Description" "h01c31e64g4df9g40c9gb4b3g169e99a3f0d1"
 data "DescriptionParams" ""
 
 // Mass Repose
@@ -616,8 +616,8 @@ data "SpellType" "Target"
 data "Level" "7"
 
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h2328aa8agcd90g42fcgb5ecg3245648d3cb2"
+data "Description" "hf0e863ffg95d7g4dd6g88f4gd0d174b71bf8"
 data "DescriptionParams" ""
 
 // Psychic Double
@@ -627,8 +627,8 @@ data "SpellType" "Target"
 data "Level" "3"
 
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hdb9272dcg078dg4db6gba67g2d6eb5f05f42"
+data "Description" "h3929bd04g60abg485cg91c0gf6711c3748da"
 data "DescriptionParams" ""
 
 // Ethereal Shroud
@@ -638,8 +638,8 @@ data "SpellType" "Target"
 data "Level" "7"
 
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h54459aeag9e4eg4e59g999cg01b2e8e8d255"
+data "Description" "ha4bd7eb9gdfb8g4315g9ffdg6218d2e873da"
 data "DescriptionParams" ""
 
 // Transfusion
@@ -649,8 +649,8 @@ data "SpellType" "Target"
 data "Level" "1"
 
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "he6fb5ea6g0f67g4b3bg8c2bga89813542747"
+data "Description" "h47ed6a39gf8a3g4a3bgb4adg4aeb06cc8e98"
 data "DescriptionParams" ""
 
 // Provoke
@@ -660,8 +660,8 @@ data "SpellType" "Target"
 data "Level" "1"
 
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h0e384a11g01d0g43bdg973fgf1a827d9bb15"
+data "Description" "h78a52c11ge93fg494fg90a1gde2097e5a145"
 data "DescriptionParams" ""
 
 // Soul Harvest
@@ -671,8 +671,8 @@ data "SpellType" "Target"
 data "Level" "1"
 
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hfa9b20feg3879g461eg9bc7gb53668ac4220"
+data "Description" "haeecab68g8796g498cg9d4fg8c834e0a7370"
 data "DescriptionParams" ""
 
 // Soul Grip
@@ -682,8 +682,8 @@ data "SpellType" "Target"
 data "Level" "3"
 
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h17705b51g3538g45afgb800g2c6732f4f01a"
+data "Description" "h3621851fg67f3g4745g9f64gb9d4a44e3e85"
 data "DescriptionParams" ""
 
 // Souleater
@@ -693,8 +693,8 @@ data "SpellType" "Target"
 data "Level" "5"
 
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hbd372084g55c8g42a7g8426g0ab4065a58f0"
+data "Description" "hccd09168gb515g4a6cg92cbgef6be875ed23"
 data "DescriptionParams" ""
 
 // Doom
@@ -704,8 +704,8 @@ data "SpellType" "Target"
 data "Level" "6"
 
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "he267b376g3205g44b3g9addgf9cbd3d31900"
+data "Description" "h5ad845a8g85c9g41c3gaf07g6719a9efdec0"
 data "DescriptionParams" ""
 
 // Wave of Apathy

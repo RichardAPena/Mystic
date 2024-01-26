@@ -1,5 +1,5 @@
 {
     "RequiredVersion": 2,
-    "ModTable": "ThrowingFix",
+    "ModTable": "MysticExpansion",
     "FeatureFlags": ["Lua"]
 }

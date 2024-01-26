@@ -236,8 +236,8 @@ data "SpellType" "Projectile"
 data "Level" "1"
 
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hb507ea31ge42cg4841g94c3g3b115d849997"
+data "Description" "ha4cdf395g868cg441cg8943g5c28462618b2"
 
 // Titanic Leap
 new entry "Projectile_Mystic_TitanicLeap"
@@ -246,8 +246,8 @@ data "SpellType" "Projectile"
 data "Level" "5"
 
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hcc060b24gc27eg469fgaa62g47c67db56f33"
+data "Description" "h179cc431g2cf3g43f3ga4d8g1f179f14ff7d"
 
 // Gale Slash
 new entry "Projectile_Mystic_GaleSlash"
@@ -256,8 +256,8 @@ data "SpellType" "Projectile"
 data "Level" "2"
 
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hd7987c5fg71e0g48aeg9ea6g0c1dbd47d01b"
+data "Description" "hc075ed9dg07a2g46edg97c3g30b61678a702"
 
 // Astral Mote
 new entry "Projectile_Mystic_AstralMote"
@@ -266,8 +266,8 @@ data "SpellType" "Projectile"
 data "Level" "1"
 
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h61d95dbcg1373g43f8g91bdga78c4221a140"
+data "Description" "h4bebbe51g4c66g41e1ga6f4ge4518d4c1c4c"
 
 // Toxic Spines
 new entry "Projectile_Mystic_ToxicSpines"
@@ -276,8 +276,8 @@ data "SpellType" "Projectile"
 data "Level" "1"
 
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "he5c02c44g56bbg4c27g80c4g0d3c426882d2"
+data "Description" "h2573bdb0g9ffbg4db9g871bg556d59d86776"
 
 // Thorny Briars
 new entry "Projectile_Mystic_ThornyBriars"
@@ -286,5 +286,5 @@ data "SpellType" "Projectile"
 data "Level" "3"
 
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hcdafe5dcg4ac0g4a48g936cg60a4fb2d6c62"
+data "Description" "h0bac5de6gb9c7g44fegb7cege99e6f5e6b40"
