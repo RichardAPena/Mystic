@@ -3,12 +3,16 @@
 -- => WAR ADEPT
 -- => HAVE A THROWN WEAPON
 -- Also not sure, but will GetHostCharacter always work?? Especially in multiplayer
+
+
+--[[
+
 local function OnThrow(...)
     local args = {...}
     local thrown = args[1]
   
     -- if Ext.Entity.Get(thrown).Weapon.WeaponProperties & 4 then
-    if Ext.Entity.Get(thrown).Weapon.WeaponProperties then
+    if Ext.Entity.Get(thrown).Weapon.WeaponProperties & 4 then
       
         local str = Osi.GetAbility(GetHostCharacter(), "Strength")
         local int = Osi.GetAbility(GetHostCharacter(), "Intelligence")
@@ -36,3 +40,5 @@ local function OnThrow(...)
   Ext.Osiris.RegisterListener("OnThrown", 7, "before", function(vbl)
       Osi.RemoveStatus(Osi.GetHostCharacter(), "INTELLIGENCE_THROW_BUFF")
   end)
+  
+--]]

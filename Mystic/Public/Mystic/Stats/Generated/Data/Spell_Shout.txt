@@ -475,7 +475,7 @@ data "InterruptPrototype" "Interrupt_Mystic_PsychicParry"
 new entry "Shout_Mystic_PsychicRedoubt"
 type "SpellData"
 data "SpellType" "Shout"
-data "Level" "5"
+data "Level" "6"
 
 data "Icon" "Action_Mystic_PsychicRedoubt"
 data "DisplayName" "hf41be51cg0881g4fd1gb7c1gfa5965c3e55d"

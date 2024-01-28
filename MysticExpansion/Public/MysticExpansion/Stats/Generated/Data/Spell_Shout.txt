@@ -313,9 +313,26 @@ data "SpellType" "Shout"
 data "Level" "6"
 
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "DisplayName" ""
-data "Description" ""
-data "DescriptionParams" ""
+data "DisplayName" "h02c7f042gc35cg4c3egb4c9gcbcc33301381"
+data "Description" "h3d902583ge7a6g439fg9f1agafc187143ec3"
+data "DescriptionParams" "Distance(3)"
+
+data "AreaRadius" "9"
+data "TargetConditions" "Ally() and Character()"
+data "SpellProperties" "ApplyStatus(MYSTIC_HUNTING_PARTY,100, -1)"
+data "TooltipStatusApply" "ApplyStatus(MYSTIC_HUNTING_PARTY,100, -1)"
+data "CastTextEvent" "Cast"
+data "UseCosts" "ActionPoint:1;PsiPointsResource:6;PsiLimitResource:1:6"
+data "SpellAnimation" "9fd22d7d-5d7a-470b-a939-810046915bed,,;,,;dada6495-752c-4f30-a503-f05b8c811e2b,,;8ce53f9b-b559-49cd-9607-1991545060d7,,;2d19a206-bf18-4f4d-ba95-f83c5fc38fd7,,;,,;57db495b-2467-467b-a599-d7df2fa4d659,,;,,;,,;"
+data "SpellFlags" "IsSpell;IsMelee;Stealth;Invisible"
+data "HitAnimationType" "MagicalNonDamage"
+data "PrepareSound" "Spell_Prepare_Buff_Gen_L1to3_01"
+data "PrepareLoopSound" "Spell_Prepare_Buff_Gen_L1to3_01_Loop"
+data "CastSound" "Spell_Cast_Debuff_ColorSpray_L1to3"
+data "PrepareEffect" "752219e2-351d-46ea-9448-3a714b3d3acc"
+data "CastEffect" "bd2fc245-5645-452f-a2cd-d158b751bbe4"
+data "TargetEffect" "b94fcfde-d824-4e7d-b9c5-833a50b66537"
+data "PositionEffect" "2832c7dd-14bd-4c51-9d2a-599c2c19005f"
 
 // Aura of Tranquility
 new entry "Shout_Mystic_AuraOfTranquility"
@@ -324,8 +341,8 @@ data "SpellType" "Shout"
 data "Level" "3"
 
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hd91422f6ga89fg4ff7g809dge27c0c0ccc76"
+data "Description" "h764409f9ge516g4f31g83f0g292f970d6576"
 data "DescriptionParams" ""
 
 // Lucid Dreaming
@@ -335,8 +352,8 @@ data "SpellType" "Shout"
 data "Level" "6"
 
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "heb7a16c3g8a7cg4c50g8e3ag50dc537054e8"
+data "Description" "h26bc85e2g3000g4f46ga995g3228cee95445"
 data "DescriptionParams" ""
 
 // Obscuring Veil
@@ -346,8 +363,8 @@ data "SpellType" "Shout"
 data "Level" "2"
 
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hf02df9ceg80e0g4491gbe18gc97501543cc3"
+data "Description" "h1658822cg647cg440cgbaacg418c6c9ddb7a"
 data "DescriptionParams" ""
 
 // Mirage
@@ -357,8 +374,8 @@ data "SpellType" "Shout"
 data "Level" "5"
 
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h89744c9agc457g412cgacbagfa074de43363"
+data "Description" "h34d73e80gf4bdg486bg816ag4b9134a329eb"
 data "DescriptionParams" ""
 
 // Illusory Horde
@@ -368,8 +385,8 @@ data "SpellType" "Shout"
 data "Level" "6"
 
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h0878f2begaec3g4d3egaa7dgfd8adc390c85"
+data "Description" "h7c072ce4gf4efg45acg989dg03a7878a8509"
 data "DescriptionParams" ""
 
 // Scarlet Eruption
@@ -379,8 +396,8 @@ data "SpellType" "Shout"
 data "Level" "3"
 
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hcaa28682gc8efg4af8ga30bg4387d31cc4b4"
+data "Description" "hd0efb37fg0941g49e5g9ecfg0665f58466ee"
 data "DescriptionParams" ""
 
 // Blood Frenzy
@@ -390,8 +407,8 @@ data "SpellType" "Shout"
 data "Level" "5"
 
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hdb83f305g4261g41d9g8c57g45e5ac3046ee"
+data "Description" "h6dc222fegecf0g4e18gb4c8ge6be0991d7e9"
 data "DescriptionParams" ""
 
 // Sanguine Infusion
@@ -401,8 +418,8 @@ data "SpellType" "Shout"
 data "Level" "6"
 
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h17b31e10g0f2fg493egb57cg4a1095dbc085"
+data "Description" "hc25953d3gd4fcg429ag8d33gb3233da38792"
 data "DescriptionParams" ""
 
 // Titan's Rage
@@ -412,8 +429,8 @@ data "SpellType" "Shout"
 data "Level" "3"
 
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "had59b23dgbd8dg4919gbecfgfd3a35a3baa3"
+data "Description" "hd85d9703gc973g4113g8ee5g60e14f2a0509"
 data "DescriptionParams" ""
 
 // Intervene (Prototype)
@@ -423,8 +440,8 @@ data "SpellType" "Shout"
 data "Level" "3"
 
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hce280bdcg1960g4884ga7efg99f2f62debf1"
+data "Description" "hf53d457fgf521g4aa4g9c03g2b04829adfae"
 data "DescriptionParams" ""
 
 // Menacing Presence
@@ -434,8 +451,8 @@ data "SpellType" "Shout"
 data "Level" "5"
 
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hd2789a86gd822g423bg8e09g388c0c80104f"
+data "Description" "hb586564fg7834g46c2gb3edg354cfd00998b"
 data "DescriptionParams" ""
 
 // Aura of Indifference
@@ -445,8 +462,8 @@ data "SpellType" "Shout"
 data "Level" "7"
 
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h6908b9f7g45a6g49c0g9caag9dfcf7d8c7c8"
+data "Description" "h35da4d2eg6df2g4c72gbeb1g5974ff14e3d0"
 data "DescriptionParams" ""
 
 // Quick Draw (Prototype)
@@ -456,8 +473,8 @@ data "SpellType" "Shout"
 data "Level" "3"
 
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h5b706566g4036g48e2gaef6g5eef4cb42473"
+data "Description" "h700c2ae9gef14g44c1gaa81gc35a6a81d24b"
 data "DescriptionParams" ""
 
 // Moonlight
@@ -467,8 +484,8 @@ data "SpellType" "Shout"
 data "Level" "3"
 
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h470a3b08gf76bg4283g94a1g031f94138a4c"
+data "Description" "h6bdea1c4g72b0g425dgae7dg1d822d2ce2f1"
 data "DescriptionParams" ""
 
 // Mass Entanglement
@@ -478,8 +495,8 @@ data "SpellType" "Shout"
 data "Level" "7"
 
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h73bb47cdge387g4634g92d8ga3f5db6667af"
+data "Description" "h42cff4ebgfb96g497bgaf0dgd6b06583f23e"
 data "DescriptionParams" ""
 
 // Aura of Contempt
@@ -489,8 +506,8 @@ data "SpellType" "Shout"
 data "Level" "5"
 
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h36c92e71ga180g4eaagb9e8g32b483d6a403"
+data "Description" "h6f6fee3cgc07ag4a12g83begf739638b23d0"
 data "DescriptionParams" ""
 
 // Prideful Mantle
@@ -500,6 +517,6 @@ data "SpellType" "Shout"
 data "Level" "7"
 
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h538ee18eg68c1g4592g937egeed795314613"
+data "Description" "heedb3505gb419g4ca8g8e00g9dd4268bd629"
 data "DescriptionParams" ""

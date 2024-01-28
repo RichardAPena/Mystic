@@ -79,7 +79,7 @@
 	<content contentuid="h28907e4ag8055g4a56g8ff1g1f00cc512508" version="1">Singularity</content>
 	<content contentuid="hb61d9c64gacb0g4f6dgbd48g71c2abffda28" version="1">Warp space around a friendly creature, turning them into a gravitational beacon. Enemies within [1] take [2] per turn, are pulled inwards and their &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; is halved.</content>
 	<content contentuid="h064b5354g4ee2g4238gb7f6g165292429d46" version="1">Turned into a miniature black hole.&lt;br&gt;&lt;br&gt;Enemies within [1] take [2] per turn, are pulled inwards and their &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; is halved.&lt;br&gt;&lt;br&gt;On a successful save, targets still take half damage.</content>
-	<content contentuid="hbb0d964dgfef0g466aga17cg2459282c493e" version="1">Suffering from an immense gravitational pull.&lt;br&gt;&lt;br&gt;Takes [1] per turn, is pulled towards the source and &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; is halved.&lt;br&gt;&lt;br&gt;Still takes half damage on successful Saving Throw.&lt;br&gt;&lt;br&gt;Removed upon leaving the area.</content>
+	<content contentuid="hbb0d964dgfef0g466aga17cg2459282c493e" version="1">Suffering from an immense gravitational pull.&lt;br&gt;&lt;br&gt;Takes [1] per turn, is pulled towards the source and &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; is halved.&lt;br&gt;&lt;br&gt;Still takes half damage on successful &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Removed upon leaving the area.</content>
 	<content contentuid="h0ecfee94g3b38g4cafg86cfgfbf38dc46dc5" version="1">Spatial Compression</content>
 	<content contentuid="h0990e4d3g4f6bg4a4dg8f37g3a274377a4bd" version="1">Compress and distort space around an area, &lt;LSTag Type="Status" Tooltip="SLOW"&gt;Slowing&lt;/LSTag&gt; creatures within.</content>
 	<content contentuid="he4e54057ge428g40d4g8100g625c8bb831a8" version="1">Mastery of Time</content>
@@ -112,102 +112,110 @@
 	<content contentuid="h9d0cca5cg5e68g4c77g8c2fg3d2a1379eb1e" version="1">Create a zone in which time moves faster: creatures within are &lt;LSTag Type="Status" Tooltip="MYSTIC_BORROWED_TIME_HASTE"&gt;Hastened&lt;/LSTag&gt;.</content>
 	<content contentuid="hbd932da9g687eg40aeg92b6g2fb23e2ed5b5" version="1">Materialized a zone in which creatures are &lt;LSTag Type="Status" Tooltip="MYSTIC_BORROWED_TIME_HASTE"&gt;Hastened&lt;/LSTag&gt; while inside.</content>
 	<content contentuid="h36904f5dge6e2g484ag83b4gfba16332ed25" version="1">Nomadic Hunting</content>
-	<content contentuid="h0e7507b7g68c4g41a7gaf34g1a54a949287f" version="1">TODO: Nomadic Hunting Description</content>
+	<content contentuid="h0e7507b7g68c4g41a7gaf34g1a54a949287f" version="1">You cast your mind into the wilderness, enhancing your ability to track and strike down your prey.</content>
 	<content contentuid="h8cd02092g137fg44ccg8e1egac914880d409" version="1">Psychic Focus: Nomadic Hunting</content>
-	<content contentuid="h243cdc35g9c85g42bcg984dg51495cfcd52d" version="1">TODO: Psychic Focus: Nomadic Hunting Description</content>
-	<content contentuid="ha8fd4452g8185g4e09g934fg5da01c4d6316" version="1">TODO: PSychic Focus: Nomadic Hunting Status Description</content>
+	<content contentuid="h243cdc35g9c85g42bcg984dg51495cfcd52d" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Survival &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="ha8fd4452g8185g4e09g934fg5da01c4d6316" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Survival &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="hb507ea31ge42cg4841g94c3g3b115d849997" version="1">Javelin Toss</content>
-	<content contentuid="ha4cdf395g868cg441cg8943g5c28462618b2" version="1">TODO: Javelin Toss Description</content>
+	<content contentuid="ha4cdf395g868cg441cg8943g5c28462618b2" version="1">Create and hurl a javelin.</content>
 	<content contentuid="h6201f219g6fd2g4326ga66fga8370aa4ed6e" version="1">Nomad's Mark</content>
-	<content contentuid="h279dac6dg4616g4357gba8cg5b2e8acfff20" version="1">TODO: Nomad's Mark Description</content>
-	<content contentuid="ha17eabcagf14eg48begb3ffg584200bb74ff" version="1">TODO: Nomad's Mark Status Description</content>
+	<content contentuid="h279dac6dg4616g4357gba8cg5b2e8acfff20" version="1">Mark a creature as your quarry to deal an additional [1] whenever you damage it.</content>
+	<content contentuid="ha17eabcagf14eg48begb3ffg584200bb74ff" version="1">Affected entity suffers an additional [1] if the spellcaster damages it.</content>
+	<content contentuid="h286f15a2g4ab3g4f65g945cgf2edc726c770" version="1">When this creature damages its quarry, it deals an additional [1].</content>
+	<content contentuid="h4a6f6db8gc749g41edg9921gbf0ed4f3f082" version="1">If the target dies before the spell ends, you can mark a new creature without expending Psi Points.</content>
+	<content contentuid="h249381d9g97b0g4923ga71dg17c01aecf286" version="1">When you attack your quarry, you deal an additional [1].</content>
+	<content contentuid="h81538e49gb018g4835g9973g425a764ce6e3" version="1">Reapply Nomad's Mark</content>
+	<content contentuid="h4cb70898g0458g4612gb062gc50e94710b84" version="1">Shift your &lt;LSTag Type="Status" Tooltip="MYSTIC_NOMADS_MARK"&gt;Nomad's Mark&lt;/LSTag&gt; to a new creature without using Psi Points.</content>
+	<content contentuid="h15c1ed97gd034g4efcga3c8g1302d215bc85" version="1">Can use a bonus action to reapply Nomad's Mark to another target.</content>
 	<content contentuid="h86b304a7gaf6ag4ea7g8b1cg63f0f0590d55" version="1">Nomadic Snare</content>
 	<content contentuid="h5de656fbgf137g43abg8c42gc0d4edbd5117" version="1">TODO: Nomadic Snare Description</content>
-	<content contentuid="" version="1">Hunting Party</content>
-	<content contentuid="" version="1">TODO: Hunting Party Description</content>
-	<content contentuid="" version="1">TODO: Hunting Party Status Description</content>
+	<content contentuid="h02c7f042gc35cg4c3egb4c9gcbcc33301381" version="1">Hunting Party</content>
+	<content contentuid="h3d902583ge7a6g439fg9f1agafc187143ec3" version="1">Heighten your and nearby allies' senses: gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against a target if one of your allies is within [1] of the target and isn't Incapacitated.</content>
+	<content contentuid="hb33fa5c6g821fg4545gbf54ga3251667d74b" version="1">Affected entity has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against a target if one of its allies is within [1] of the target and isn't Incapacitated.</content>
 	<content contentuid="h660cf269gc118g47c7g9ec3g2edb7b3490ff" version="1">Mantle of Serenity</content>
-	<content contentuid="h0e323662g0dbag4732g9fd7g8e91d11d9dbe" version="1">TODO: Mantle of Serenity Description</content>
+	<content contentuid="h0e323662g0dbag4732g9fd7g8e91d11d9dbe" version="1">You focus your mind on peace and serenity, bringing relaxation and rest to nearby creatures.</content>
 	<content contentuid="h4c9731efg6472g47adg9320ge8a022c76861" version="1">Psychic Focus: Mantle of Serenity</content>
-	<content contentuid="hf21f00b5g593ag4240g82d6g3d11283de7bb" version="1">TODO: Psychic Focus: Mantle of Serenity Description</content>
-	<content contentuid="h80e66b56g4ef1g4606g99ddg9a9a83860970" version="1">TODO: Psychic Focus: Mantle of Serenity Status Description</content>
+	<content contentuid="hf21f00b5g593ag4240g82d6g3d11283de7bb" version="1">Gain immunity to &lt;LSTag Type="Status" Tooltip="SLEEP"&gt;Sleep&lt;/LSTag&gt; and &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; against being &lt;LSTag Type="Status" Tooltip="PARALYZED"&gt;Paralysed&lt;/LSTag&gt;.</content>
+	<content contentuid="h80e66b56g4ef1g4606g99ddg9a9a83860970" version="1">Immune to &lt;LSTag Type="Status" Tooltip="SLEEP"&gt;Sleep&lt;/LSTag&gt;. &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; against being &lt;LSTag Type="Status" Tooltip="PARALYZED"&gt;Paralysed&lt;/LSTag&gt;.</content>
 	<content contentuid="h58608aaagbf63g4b96gb3b2ge04557253049" version="1">Lull</content>
-	<content contentuid="hbe3a4adagde65g4b50g80dfg3c523639e254" version="1">TODO: Lull Description</content>
+	<content contentuid="hbe3a4adagde65g4b50g80dfg3c523639e254" version="1">Induce &lt;LSTag Type="Status" Tooltip="SLEEP"&gt;sleep&lt;/LSTag&gt; onto creatures. Select targets up to a combined [1].</content>
 	<content contentuid="h3562876ag109dg43c0gab38gc13082c58bdf" version="1">Abate</content>
-	<content contentuid="h1c2f9accg8943g4607ga2f8ga6126c9dec17" version="1">TODO: Abate Description</content>
-	<content contentuid="h8b914e10gd51dg4b99ga0b3g7fe5b689e0f2" version="1">TODO: Abate Status Description</content>
-	<content contentuid="" version="1">Aura of Tranquility</content>
-	<content contentuid="" version="1">TODO: Aura of Tranquility Description</content>
-	<content contentuid="" version="1">TODO: Aura of Tranquility Status Description 1</content>
-	<content contentuid="" version="1">TODO: Aura of Tranquility Status Description 2</content>
+	<content contentuid="h1c2f9accg8943g4607ga2f8ga6126c9dec17" version="1">Appease a creature, removing and preventing any &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charmed&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;, or enraged effects.</content>
+	<content contentuid="h8b914e10gd51dg4b99ga0b3g7fe5b689e0f2" version="1">Can't be &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charmed&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;, and can't &lt;LSTag Type="Spell" Tooltip="Shout_Rage"&gt;Rage&lt;/LSTag&gt;.</content>
+	<content contentuid="hd91422f6ga89fg4ff7g809dge27c0c0ccc76" version="1">Aura of Tranquility</content>
+	<content contentuid="h764409f9ge516g4f31g83f0g292f970d6576" version="1">Exert an aura of peace. Nearby allies regain [1] each turn</content>
+	<content contentuid="hddf1e669g6ffcg4c43g8771gce1eee492df0" version="1">At the end of each of their turns, allies regain [1].</content>
+	<content contentuid="h76d5fd11gb6c9g4326gb1eag9f1096d767d7" version="1">At the end of your turn, regain [1].</content>
 	<content contentuid="h5ced2dbfg5400g48a1g84c7g160b8fb1ae06" version="1">Hibernate</content>
-	<content contentuid="h01c31e64g4df9g40c9gb4b3g169e99a3f0d1" version="1">TODO: Hibernate Description</content>
-	<content contentuid="" version="1">Lucid Dreaming</content>
-	<content contentuid="" version="1">TODO: Lucid Dreaming Description</content>
+	<content contentuid="h01c31e64g4df9g40c9gb4b3g169e99a3f0d1" version="1">Place an allied creature in restful sleep, granting them the benefits of a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
+	<content contentuid="heb7a16c3g8a7cg4c50g8e3ag50dc537054e8" version="1">Lucid Dreaming</content>
+	<content contentuid="h26bc85e2g3000g4f46ga995g3228cee95445" version="1">Wake all nearby creatures from sleep. Allies receive &lt;LSTag Type="Status" Tooltip="MYSTIC_LUCID_DREAMING"&gt;Lucid Dreaming&lt;/LSTag&gt; and enemies receive &lt;LSTag Type="Status" Tooltip="MYSTIC_SLEEP_PARALYSIS"&gt;Sleep Paralysis&lt;/LSTag&gt;.</content>
+	<content contentuid="hef26992cg48d2g4df9g8288gc3a8e0253542" version="1">+[1] to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;. Movement speed increased by [2].</content>
+	<content contentuid="h085f594ag2565g4cdfg9ebbg2fc46c2fe17c" version="1">Sleep Paralysis</content>
 	<content contentuid="h2328aa8agcd90g42fcgb5ecg3245648d3cb2" version="1">Mass Repose</content>
-	<content contentuid="hf0e863ffg95d7g4dd6g88f4gd0d174b71bf8" version="1">TODO: Mass Repose Description</content>
+	<content contentuid="hf0e863ffg95d7g4dd6g88f4gd0d174b71bf8" version="1">Release tranquilizing energy in an area, putting creatures to &lt;LSTag Type="Status" Tooltip="SLEEP"&gt;Sleep&lt;/LSTag&gt;.</content>
 	<content contentuid="hff8b0098g25ffg47d8g892dg4d2bc4cb2106" version="1">Psychic Distortion</content>
-	<content contentuid="h89e7f56dg83d7g472bgb6aeg9e89cb8d2e19" version="1">TODO: Psychic Distortion Description</content>
+	<content contentuid="h89e7f56dg83d7g472bgb6aeg9e89cb8d2e19" version="1">You wield psionic energy to alter and distort reality, creating optical illusions that distract foes.</content>
 	<content contentuid="h92bb0710ge5dcg452aga7e7g1ecc237e1304" version="1">Psychic Focus: Psychic Distortion</content>
-	<content contentuid="h3fde1150gcab6g4260g8cf0g17fda15a2f49" version="1">TODO: Psychic Focus: Psychic Distortion Description</content>
-	<content contentuid="heffa461fg2d5dg4746g90fbged596c9d89b4" version="1">TODO: Psychic Focus: Psychic Distortion Status Description</content>
-	<content contentuid="" version="1">Obscuring Veil</content>
-	<content contentuid="" version="1">TODO: Obscuring Veil Description</content>
-	<content contentuid="" version="1">TODO: Obscuring Veil Status Description</content>
+	<content contentuid="h3fde1150gcab6g4260g8cf0g17fda15a2f49" version="1">Gain immunity against being &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;</content>
+	<content contentuid="heffa461fg2d5dg4746g90fbged596c9d89b4" version="1">Immune to &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blindness&lt;/LSTag&gt;</content>
+	<content contentuid="hf02df9ceg80e0g4491gbe18gc97501543cc3" version="1">Obscuring Veil</content>
+	<content contentuid="h1658822cg647cg440cgbaacg418c6c9ddb7a" version="1">TODO: Obscuring Veil Description</content>
+	<content contentuid="h854f9565g8f1fg4f5cgb218gdf8b112cb614" version="1">TODO: Obscuring Veil Status Description</content>
 	<content contentuid="hdb9272dcg078dg4db6gba67g2d6eb5f05f42" version="1">Psychic Double</content>
 	<content contentuid="h3929bd04g60abg485cg91c0gf6711c3748da" version="1">TODO: Psychic Double Description</content>
-	<content contentuid="" version="1">TODO: Psychic Double Status Description</content>
+	<content contentuid="h8205e6fagca3fg4967gaab6gd016929ccd3b" version="1">TODO: Psychic Double Status Description</content>
 	<content contentuid="h89744c9agc457g412cgacbagfa074de43363" version="1">Mirage</content>
-	<content contentuid="" version="1">TODO: Mirage Description</content>
+	<content contentuid="h34d73e80gf4bdg486bg816ag4b9134a329eb" version="1">TODO: Mirage Description</content>
 	<content contentuid="he91c9922gc498g4cc4ga6e3gf1828c727250" version="1">TODO: Mirage Status Description 1</content>
 	<content contentuid="hebe30a59g915bg4a0bgafe6gd6e63df77e44" version="1">TODO: Mirage Status Description 2</content>
-	<content contentuid="" version="1">Illusory Horde</content>
-	<content contentuid="" version="1">TODO: Illusory Horde Description</content>
+	<content contentuid="h0878f2begaec3g4d3egaa7dgfd8adc390c85" version="1">Illusory Horde</content>
+	<content contentuid="h7c072ce4gf4efg45acg989dg03a7878a8509" version="1">TODO: Illusory Horde Description</content>
 	<content contentuid="h54459aeag9e4eg4e59g999cg01b2e8e8d255" version="1">Ethereal Shroud</content>
 	<content contentuid="ha4bd7eb9gdfb8g4315g9ffdg6218d2e873da" version="1">TODO: Ethereal Shroud Description</content>
 	<content contentuid="he2e61aa1g468dg47c5ga0a3g2bc169712cd9" version="1">TODO: Ethereal Shroud Status Description</content>
 	<content contentuid="h281052beg0da2g4aa7gb8e6g886f1a2202ee" version="1">Crimson Harvest</content>
-	<content contentuid="hd60be5a7g7c63g419cgb7f9g8c22582607c0" version="1">TODO: Crimson Harvest Description</content>
+	<content contentuid="hd60be5a7g7c63g419cgb7f9g8c22582607c0" version="1">You learn to psionically manipulate blood, siphoning the life force from foes and strengthening yourself and allies.</content>
 	<content contentuid="hc1e0e6d2g1c7eg4e15gaeb4g645a726c06e3" version="1">Psychic Focus: Crimson Harvest</content>
-	<content contentuid="hc6d47f53g9eacg4789g8b50g954bdc4c6a4c" version="1">TODO: Psychic Focus: Crimson Harvest Description</content>
-	<content contentuid="hb848c681g0d9ag4c61gb3e4g9fd71685ae41" version="1">TODO: Psychic Focus: Crimson Harvest Status Description</content>
+	<content contentuid="hc6d47f53g9eacg4789g8b50g954bdc4c6a4c" version="1">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Necrotic damage.</content>
+	<content contentuid="hb848c681g0d9ag4c61gb3e4g9fd71685ae41" version="1">&lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Necrotic damage.</content>
 	<content contentuid="he6fb5ea6g0f67g4b3bg8c2bga89813542747" version="1">Transfusion</content>
 	<content contentuid="h47ed6a39gf8a3g4a3bgb4adg4aeb06cc8e98" version="1">TODO: Transfusion Description</content>
-	<content contentuid="" version="1">Scarlet Eruption</content>
-	<content contentuid="" version="1">TODO: Scarlet Eruption Description</content>
-	<content contentuid="" version="1">Blood Frenzy</content>
-	<content contentuid="" version="1">TODO: Blood Frenzy Description</content>
-	<content contentuid="" version="1">TODO: Blood Frenzy Status Description 1</content>
-	<content contentuid="" version="1">TODO: Blood Frenzy Status Description 2</content>
-	<content contentuid="" version="1">Sanguine Infusion</content>
-	<content contentuid="" version="1">TODO: Sanguine Infusion Description</content>
-	<content contentuid="" version="1">TODO: Sanguine Infusion Status Description</content>
+	<content contentuid="hcaa28682gc8efg4af8ga30bg4387d31cc4b4" version="1">Scarlet Eruption</content>
+	<content contentuid="hd0efb37fg0941g49e5g9ecfg0665f58466ee" version="1">TODO: Scarlet Eruption Description</content>
+	<content contentuid="hdb83f305g4261g41d9g8c57g45e5ac3046ee" version="1">Blood Frenzy</content>
+	<content contentuid="h6dc222fegecf0g4e18gb4c8ge6be0991d7e9" version="1">TODO: Blood Frenzy Description</content>
+	<content contentuid="heda9661bgd618g4d8ag95d3g1d6ebd9b775b" version="1">TODO: Blood Frenzy Status Description 1</content>
+	<content contentuid="hcbb19d99g0129g46cfg9402g349073d78966" version="1">TODO: Blood Frenzy Status Description 2</content>
+	<content contentuid="h17b31e10g0f2fg493egb57cg4a1095dbc085" version="1">Sanguine Infusion</content>
+	<content contentuid="hc25953d3gd4fcg429ag8d33gb3233da38792" version="1">TODO: Sanguine Infusion Description</content>
+	<content contentuid="hc720d58eg039dg4956ga38bgc355f4355a7e" version="1">TODO: Sanguine Infusion Status Description</content>
 	<content contentuid="h0af8819eg1f9eg4729g9fb6g0927f8359fe1" version="1">Titanic Presence</content>
-	<content contentuid="h57c3d34egba11g4b36ga3d4gc19b157860ec" version="1">TODO: Titanic Presence</content>
+	<content contentuid="h57c3d34egba11g4b36ga3d4gc19b157860ec" version="1">You channel psychic energy around yourself and outwards, bursting into a titanic rage and controlling the battlefield.</content>
 	<content contentuid="h905d4b8agfaa1g4065g9225ge6c43d8a109d" version="1">Psychic Focus: Titanic Presence</content>
-	<content contentuid="h17660f5bga71ag4c74ga3bcg7a0685b86157" version="1">TODO: Psychic Focus: Titanic Presence Description</content>
-	<content contentuid="h0c603cd5ge406g4bb2g8865g78466e9f752c" version="1">TODO: Psychic Focus: Titanic Presence Status Description</content>
+	<content contentuid="h17660f5bga71ag4c74ga3bcg7a0685b86157" version="1">Gain immunity against being &lt;LSTag Type="Status" Tooltip="RESTRAINED"&gt;Restrained&lt;/LSTag&gt; or falling &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
+	<content contentuid="h0c603cd5ge406g4bb2g8865g78466e9f752c" version="1">Immune to being &lt;LSTag Type="Status" Tooltip="RESTRAINED"&gt;Restrained&lt;/LSTag&gt; or falling &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
 	<content contentuid="h0e384a11g01d0g43bdg973fgf1a827d9bb15" version="1">Provoke</content>
 	<content contentuid="h78a52c11ge93fg494fg90a1gde2097e5a145" version="1">TODO: Provoke Description</content>
-	<content contentuid="" version="1">TODO: Provoke Status Description</content>
-	<content contentuid="" version="1">Titan's Rage</content>
-	<content contentuid="" version="1">TODO: Titan's Rage Description</content>
-	<content contentuid="" version="1">TODO: TItan's Rage Status Description</content>
+	<content contentuid="hd03c0800gc469g4041gaf1fgd73173eb8f6a" version="1">TODO: Provoke Status Description</content>
+	<content contentuid="had59b23dgbd8dg4919gbecfgfd3a35a3baa3" version="1">Titan's Rage</content>
+	<content contentuid="hd85d9703gc973g4113g8ee5g60e14f2a0509" version="1">TODO: Titan's Rage Description</content>
+	<content contentuid="hd9226679gb30cg4f96ga514g1c89e5711ff4" version="1">TODO: Titan's Rage Status Description</content>
 	<content contentuid="" version="1">End Titan's Rage</content>
 	<content contentuid="" version="1">TODO: End Titan's Rage Description</content>
-	<content contentuid="" version="1">Menacing Presence</content>
-	<content contentuid="" version="1">TODO: Menacing Presence Description</content>
-	<content contentuid="" version="1">TODO: Menacing Presence Status Description</content>
-	<content contentuid="" version="1">Intervene</content>
-	<content contentuid="" version="1">TODO: Intervene Description</content>
-	<content contentuid="" version="1">TODO: Intervene Status Description</content>
+	<content contentuid="hce280bdcg1960g4884ga7efg99f2f62debf1" version="1">Intervene</content>
+	<content contentuid="hf53d457fgf521g4aa4g9c03g2b04829adfae" version="1">TODO: Intervene Description</content>
+	<content contentuid="h7c41199egcc98g436egb07eg1f416881332f" version="1">TODO: Intervene Status Description</content>
+	<content contentuid="hd2789a86gd822g423bg8e09g388c0c80104f" version="1">Menacing Presence</content>
+	<content contentuid="hb586564fg7834g46c2gb3edg354cfd00998b" version="1">TODO: Menacing Presence Description</content>
+	<content contentuid="h9c40bde3g4d76g4bedgadeagbb1ae7937f20" version="1">TODO: Menacing Presence Status Description</content>
 	<content contentuid="hcc060b24gc27eg469fgaa62g47c67db56f33" version="1">Titanic Leap</content>
 	<content contentuid="h179cc431g2cf3g43f3ga4d8g1f179f14ff7d" version="1">TODO: Titanic Leap Description</content>
 	<content contentuid="h527d7f26g8dc6g4852g8391g5e545e75c2f0" version="1">Soul Reaper</content>
-	<content contentuid="hc6241d62g01dcg47e5g9c75gf5a067fcaa0a" version="1">TODO: Soul Reaper Description</content>
+	<content contentuid="hc6241d62g01dcg47e5g9c75gf5a067fcaa0a" version="1">You psioncally reach out to the souls of other creatures, allowing you to rip it from their bodies, delivering a swift end.</content>
 	<content contentuid="h8eaa2a69g3e37g4a8dgb955g621fde5ae088" version="1">Psychic Focus: Soul Reaper</content>
-	<content contentuid="h4c9f9c76g439fg4d28g9757g40efb8943457" version="1">TODO: Psychic Focus: Soul Reaper Description</content>
-	<content contentuid="h4f1ecd28g7132g4395g9b91g22bcf2aba3a3" version="1">TODO: Psychic Focus: Soul Reaper Status Description</content>
+	<content contentuid="h4c9f9c76g439fg4d28g9757g40efb8943457" version="1">Reducing a creature to [1] heals you for [2].</content>
+	<content contentuid="h4f1ecd28g7132g4395g9b91g22bcf2aba3a3" version="1">When you reduce a creature to [1], you regain [2].</content>
 	<content contentuid="hfa9b20feg3879g461eg9bc7gb53668ac4220" version="1">Soul Harvest</content>
 	<content contentuid="haeecab68g8796g498cg9d4fg8c834e0a7370" version="1">TODO: Soul Harvest Description</content>
 	<content contentuid="h17705b51g3538g45afgb800g2c6732f4f01a" version="1">Soul Grip</content>
@@ -218,117 +226,160 @@
 	<content contentuid="h5ad845a8g85c9g41c3gaf07g6719a9efdec0" version="1">TODO: Doom Description</content>
 	<content contentuid="h47f33188gb5b3g41c8g941eg06bd8e201b9b" version="1">TODO: Doom Status Description</content>
 	<content contentuid="h4f83831eg1c7bg44e0g8cfdg8a01097ef699" version="1">Crown of Apathy</content>
-	<content contentuid="h9a6cebf2g5932g437ag9ff6g4298ec8093fd" version="1">TODO: Crown of Apathy Description</content>
+	<content contentuid="h9a6cebf2g5932g437ag9ff6g4298ec8093fd" version="1">You have learned to suppress all emotions on creatures, filling them with a sense of apathy and disinterest.</content>
 	<content contentuid="h83b9fa27gb8cfg4b03ga46ag63a1a89e700a" version="1">Psychic Focus: Crown of Apathy</content>
-	<content contentuid="h3de96f4bg290eg464cg8877g6462128cb209" version="1">TODO: Psychic Focus: Crown of Apathy Description</content>
-	<content contentuid="h4d9c8beag4b76g46b2gb626gfc6a02148e52" version="1">TODO: Psychic Focus: Crown of Apathy Status Description</content>
-	<content contentuid="" version="1">Wave of Apathy</content>
-	<content contentuid="" version="1">TODO: Wave of Apathy Description</content>
-	<content contentuid="" version="1">TODO: Wave of Apathy Status Description</content>
-	<content contentuid="" version="1">Torpor</content>
-	<content contentuid="" version="1">TODO: Torpor Description</content>
-	<content contentuid="" version="1">TODO: Torpor Status Description</content>
-	<content contentuid="" version="1">Incite Apathy</content>
-	<content contentuid="" version="1">TODO: Incite Apathy Description</content>
-	<content contentuid="" version="1">TODO: Incite Apathy Status Description</content>
-	<content contentuid="" version="1">Aura of Indifference</content>
-	<content contentuid="" version="1">TODO: Aura of Indifference Description</content>
+	<content contentuid="h3de96f4bg290eg464cg8877g6462128cb209" version="1">Gain immunity against being &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charmed&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;.</content>
+	<content contentuid="h4d9c8beag4b76g46b2gb626gfc6a02148e52" version="1">Immune against being &lt;LSTag Type="Status" Tooltip="Charmed"&gt;Charmed&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;.</content>
+	<content contentuid="hb00d4a4eg935bg4c68gbdecge3b8ef376d02" version="1">Wave of Apathy</content>
+	<content contentuid="hb7faab82g6db8g4fc3g8d99g2f03a7b47bbb" version="1">Unleash a wave of apathy on up to [1] creatures. Targets suffer &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on their next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
+	<content contentuid="h77888fd5g7d83g48c3ga4ecgca67238a817e" version="1">&lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on the next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
+	<content contentuid="hd603eaf4g8b4bg417egbcf0ga37a91dbb112" version="1">Torpor</content>
+	<content contentuid="h2ee6db85g13ceg4f7dgb9f2g321a2bc21058" version="1">TODO: Torpor Description</content>
+	<content contentuid="h95e0bdfega465g4779gb9e4g896640f27cfb" version="1">TODO: Torpor Status Description</content>
+	<content contentuid="he8f1d4ebga3e7g480egbaa4g532376a66a9d" version="1">Incite Apathy</content>
+	<content contentuid="h244cd09egf496g492fga80cg881fa1e5765b" version="1">TODO: Incite Apathy Description</content>
+	<content contentuid="hec96d76cg5970g47b7gad24g6b2a1a863a3e" version="1">TODO: Incite Apathy Status Description</content>
+	<content contentuid="h6908b9f7g45a6g49c0g9caag9dfcf7d8c7c8" version="1">Aura of Indifference</content>
+	<content contentuid="h35da4d2eg6df2g4c72gbeb1g5974ff14e3d0" version="1">TODO: Aura of Indifference Description</content>
 	<content contentuid="h34368b6cgcb6cg4965g8411g07a0b5bb2dae" version="1">Nomadic Grace</content>
-	<content contentuid="h83ae95edg6a73g4c34g81e5gee9615b1ba91" version="1">TODO: Nomadic Grace Description</content>
+	<content contentuid="h83ae95edg6a73g4c34g81e5gee9615b1ba91" version="1">You imbue your weapons with the essence of the winds, delivering elegant yet deadly techniques upon your foes.</content>
 	<content contentuid="h4c8aed3bgbd80g4767gb44cg38c16924ffe9" version="1">Psychic Focus: Nomadic Grace</content>
-	<content contentuid="h5bd13d2bg5116g487bg8c91gf66fe8eb3bed" version="1">TODO: Psychic Focus: Nomadic Grace Description</content>
-	<content contentuid="hc6456829g645fg4527g9627g609fd55b5192" version="1">TODO: Psychic Focus: Nomadic Grace Status Description</content>
+	<content contentuid="h5bd13d2bg5116g487bg8c91gf66fe8eb3bed" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Acrobatics &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="hc6456829g645fg4527g9627g609fd55b5192" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Acrobatics &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="hd7987c5fg71e0g48aeg9ea6g0c1dbd47d01b" version="1">Gale Slash</content>
 	<content contentuid="hc075ed9dg07a2g46edg97c3g30b61678a702" version="1">TODO: Gale Slash Description</content>
-	<content contentuid="" version="1">Quick Draw</content>
-	<content contentuid="" version="1">TODO: Quick Draw Description</content>
-	<content contentuid="" version="1">Blessing of Fair Winds</content>
-	<content contentuid="" version="1">TODO: Blessing of Fair Winds Description</content>
-	<content contentuid="" version="1">Blessing of Fair Winds (Melee)</content>
+	<content contentuid="h5b706566g4036g48e2gaef6g5eef4cb42473" version="1">Quick Draw</content>
+	<content contentuid="h700c2ae9gef14g44c1gaa81gc35a6a81d24b" version="1">TODO: Quick Draw Description</content>
+	<content contentuid="h5433f3b4g02d2g43ddg8eb1g0e7f4031f9b3" version="1">Blessing of Fair Winds</content>
+	<content contentuid="h3a741ec0gf46fg4496g8826g04f3eb3d2d18" version="1">TODO: Blessing of Fair Winds Description</content>
+	<content contentuid="hd0720396g8c23g47a7gadd2gd96194f8ee25" version="1">Blessing of Fair Winds (Melee)</content>
 	<content contentuid="" version="1">TODO: Blessing of Fair Winds (Melee) Description</content>
-	<content contentuid="" version="1">TODO: Blessing of Fair Winds (Melee) Status Description</content>
-	<content contentuid="" version="1">Blessing of Fair Winds (Ranged)</content>
+	<content contentuid="h3e135152g808cg4421gbe5fg880d8de94a14" version="1">TODO: Blessing of Fair Winds (Melee) Status Description</content>
+	<content contentuid="h970bb610g0199g4137gab08g151bb0cbabac" version="1">Blessing of Fair Winds (Ranged)</content>
 	<content contentuid="" version="1">TODO: Blessing of Fair Winds (Ranged) Description</content>
-	<content contentuid="" version="1">TODO: Blessing of Fair Winds (Ranged) Status Description</content>
-	<content contentuid="" version="1">Steel Tempest</content>
-	<content contentuid="" version="1">TODO: Steel Tempest Description</content>
-	<content contentuid="" version="1">Steel Tempest: Second Strike</content>
+	<content contentuid="ha8c24a8eg32cbg4bb2g994eg5ca703d837d6" version="1">TODO: Blessing of Fair Winds (Ranged) Status Description</content>
+	<content contentuid="h04e4a8dagd88ag4d79g958cg5b8412d12b9a" version="1">Steel Tempest</content>
+	<content contentuid="hc768bc99gc11bg4b66gacc9g4d765b6cd4c9" version="1">TODO: Steel Tempest Description</content>
+	<content contentuid="h8e6163b5g8385g4cccg916ag830a91df937f" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; increased by [1]. Moving doesn't trigger &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt;.</content>
+	<content contentuid="h0adf6b8ag75cag4d19gb220g273783381db0" version="1">Steel Tempest Target</content>
+	<content contentuid="h11551546gfb92g4246gae44g0d192806b166" version="1">Recently struck by Steel Tempest. Cannot be targeted by Steel Tempest again until the current sequence is concluded.</content>
+	<content contentuid="h9bcc6330gb4b4g444ag87fbg43e4211190ea" version="1">Steel Tempest: Second Strike</content>
 	<content contentuid="" version="1">TODO: Steel Tempest: Second Strike Description</content>
-	<content contentuid="" version="1">TODO: Steel Tempest: Second Strike Status Description </content>
-	<content contentuid="" version="1">Steel Tempest: Final Strike</content>
+	<content contentuid="haa28ec6eg24cag466bg8d13g590581c54758" version="1">TODO: Steel Tempest: Second Strike Status Description </content>
+	<content contentuid="he4115947g6155g4a31g8363g610ee6c5cb40" version="1">Steel Tempest: Final Strike</content>
 	<content contentuid="" version="1">TODO: Steel Tempest: Final Strike Description</content>
-	<content contentuid="" version="1">TODO: Steel Tempest: Final Strike Status Description</content>
+	<content contentuid="h84917679g6a3ag45d7g8d9cg01ae6e45d3ba" version="1">TODO: Steel Tempest: Final Strike Status Description</content>
+	<content contentuid="" version="1">End Steel Tempest</content>
+	<content contentuid="" version="1">TODO: End Steel Tempest Description</content>	
 	<content contentuid="h82c532f5g19f8g4adag880dgf693ebe925a7" version="1">Mastery of Stars</content>
-	<content contentuid="hadaff898ge06bg41a0ga205g9e95307b3b96" version="1">TODO: Mastery of Stars Description</content>
+	<content contentuid="hadaff898ge06bg41a0ga205g9e95307b3b96" version="1">Your mind reaches out into the stars, granting you control over astral bodies.</content>
 	<content contentuid="hcef7129agd017g4472ga2a9g5de6ed49feb0" version="1">Psychic Focus: Mastery of Stars</content>
-	<content contentuid="he4b68c13g1c17g473dgb1b9gf11982c7f92d" version="1">TODO: Psychic Focus: Mastery of Stars Description</content>
-	<content contentuid="h05ed535bg8af7g4f78ga4c7g562c1ef70877" version="1">TODO: Psychic Focus: Mastery of Stars Status Description</content>
+	<content contentuid="he4b68c13g1c17g473dgb1b9gf11982c7f92d" version="1">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Radiant damage.</content>
+	<content contentuid="h05ed535bg8af7g4f78ga4c7g562c1ef70877" version="1">&lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Radiant damage.</content>
 	<content contentuid="h61d95dbcg1373g43f8g91bdga78c4221a140" version="1">Astral Mote</content>
-	<content contentuid="h4bebbe51g4c66g41e1ga6f4ge4518d4c1c4c" version="1">TODO: Astral Mote Description</content>
-	<content contentuid="h5e0646b1gdea2g45fegbf54g890fe9b7026b" version="1">TODO: Astral Mote Status Description</content>
-	<content contentuid="" version="1">Moonlight</content>
-	<content contentuid="" version="1">TODO: Moonlight Description</content>
-	<content contentuid="" version="1">TODO: Moonlight Status Description</content>
-	<content contentuid="" version="1">Sunburst</content>
-	<content contentuid="" version="1">TODO: Sunburst Description</content>
+	<content contentuid="h4bebbe51g4c66g41e1ga6f4ge4518d4c1c4c" version="1">Hurl a mote of starlight. The next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; on this target has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
+	<content contentuid="h5e0646b1gdea2g45fegbf54g890fe9b7026b" version="1">The next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; made against this creature has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
+	<content contentuid="h470a3b08gf76bg4283g94a1g031f94138a4c" version="1">Moonlight</content>
+	<content contentuid="h6bdea1c4g72b0g425dgae7dg1d822d2ce2f1" version="1">Shine the light of the moon around you. Enemies will turn visible and will not be able to go Invisible.</content>
+	<content contentuid="hf475546ag2b46g4d30g83a6g654231ddc8cd" version="1">Shedding dim light. Cannot be Invisible.</content>
+	<content contentuid="h04310a2ageac0g43e7g8b0ag2c5319b18d71" version="1">Sunburst</content>
+	<content contentuid="heb6042bdgce74g4d6agb1fag89967b89c89f" version="1">Create a massive solar explosion, &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinding&lt;/LSTag&gt; creatures caught in the blast. Creatures that are sensitive to sunlight take an additional [1] and have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on this &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.</content>
 	<content contentuid="h9721cd31gaa36g4f23gb14fg4fd6b9be7f5c" version="1">Star Rail</content>
-	<content contentuid="h7c99532ag9e86g41b3g86d1gabdde263f7fa" version="1">TODO: Star Rail Description</content>
-	<content contentuid="h7fd6db0fg08a4g4d5cgbfe9gd0b6c85c25ff" version="1">TODO: Star Rail Status Description</content>
-	<content contentuid="" version="1">Starstorm</content>
-	<content contentuid="" version="1">TODO: Starstorm Description</content>
-	<content contentuid="" version="1">TODO: Starstorm Status Description</content>
+	<content contentuid="h7c99532ag9e86g41b3g86d1gabdde263f7fa" version="1">Materialize a path of stardust. Creatures traversing along the path can move without using their &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt;, but cannot act.</content>
+	<content contentuid="h7fd6db0fg08a4g4d5cgbfe9gd0b6c85c25ff" version="1">Can move without using &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt;, but unable to act.</content>
+	<content contentuid="h5e86fdbbg2e3dg4447g8decg29e86e0b44ba" version="1">Starstorm</content>
+	<content contentuid="h7a3a102fg9de3g460dg88e5g57d87a14841b" version="1">A violent storm of stars batter everyone in range, make the area &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;, while revealing any invisible creatures inside.</content>
+	<content contentuid="h8e4814cbg37e3g47dcgb90egcc39c60b0dd1" version="1">Cannot be Invisible.</content>
 	<content contentuid="h4aaceeaag3e26g423dg8971gb890b1e46242" version="1">Mastery of Nature</content>
-	<content contentuid="h9eee953ege87eg4b49gaefag408aa04dcca4" version="1">TODO: Mastery of Nature</content>
+	<content contentuid="h9eee953ege87eg4b49gaefag408aa04dcca4" version="1">You attune yourself with the environment, allowing you to invoke the power of nature to your aid.</content>
 	<content contentuid="h8b7016cegce8cg4c03g88d2g1d89a22ea671" version="1">Psychic Focus: Mastery of Nature</content>
-	<content contentuid="h5e606964g1230g4414g8812g71af161b9a67" version="1">TODO: Psychic Focus: Mastery of Nature Description</content>
-	<content contentuid="ha3311afcg7663g4457g98aagba588ba5948a" version="1">TODO: Psychic Focus: Mastery of Nature Status Description</content>
+	<content contentuid="h5e606964g1230g4414g8812g71af161b9a67" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Nature &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="ha3311afcg7663g4457g98aagba588ba5948a" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Nature &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="he5c02c44g56bbg4c27g80c4g0d3c426882d2" version="1">Toxic Spines</content>
 	<content contentuid="h2573bdb0g9ffbg4db9g871bg556d59d86776" version="1">TODO: Toxic Spines Description</content>
 	<content contentuid="hcdafe5dcg4ac0g4a48g936cg60a4fb2d6c62" version="1">Thorny Briars</content>
 	<content contentuid="h0bac5de6gb9c7g44fegb7cege99e6f5e6b40" version="1">TODO: Thorny Briars Description</content>
 	<content contentuid="h5e1019c3g76adg4c3bga507gdcb1bed1b68c" version="1">TODO: Thorny Briars Status Description</content>
-	<content contentuid="" version="1">Regrowth</content>
-	<content contentuid="" version="1">TODO: Regrowth Description</content>
-	<content contentuid="" version="1">TODO: Regrowth Status Description</content>
-	<content contentuid="" version="1">Brambleskin</content>
-	<content contentuid="" version="1">TODO: Brambleskin Description</content>
-	<content contentuid="" version="1">TODO: Brambleskin Status Description</content>
-	<content contentuid="" version="1">Mass Entanglement</content>
-	<content contentuid="" version="1">TODO: Mass Entanglement Description</content>
+	<content contentuid="h85644687g4d39g4e83ga5e9gbbcf4a0c25fe" version="1">Regrowth</content>
+	<content contentuid="h5dd9e8cdg609bg46d3g8d00g1b6ef0f38f31" version="1">TODO: Regrowth Description</content>
+	<content contentuid="h02602b94g72c8g42d5g972eg4e11739c27cc" version="1">TODO: Regrowth Status Description</content>
+	<content contentuid="hdecfdffdg08fdg43b4gb32dgb0535ccd7ad2" version="1">Brambleskin</content>
+	<content contentuid="h1f1ab2f7gdab8g463aga1e8g1f6a1136f210" version="1">TODO: Brambleskin Description</content>
+	<content contentuid="h21b6d0d1g3d1dg4410g98ceg51eeea122268" version="1">TODO: Brambleskin Status Description</content>
+	<content contentuid="h73bb47cdge387g4634g92d8ga3f5db6667af" version="1">Mass Entanglement</content>
+	<content contentuid="h42cff4ebgfb96g497bgaf0dgd6b06583f23e" version="1">TODO: Mass Entanglement Description</content>
 	<content contentuid="h64bca6e5ga582g4f4cg957cg0dc2ab813ea1" version="1">Mantle of Pride</content>
-	<content contentuid="had933094g6dbbg4d22gb45dge3dca2d6f516" version="1">TODO: Mantle of Pride</content>
+	<content contentuid="had933094g6dbbg4d22gb45dge3dca2d6f516" version="1">You tap into your own pride and confidence, lifting your allies' spirits and making your foes stumble carelessly.</content>
 	<content contentuid="he148a53cg63f2g48bag9b91ga96abf0e5cfd" version="1">Psychic Focus: Mantle of Pride</content>
-	<content contentuid="h052bb446g3043g48d8ga727g230dc6e17ec2" version="1">TODO: Psychic Focus: Mantle of Pride Description</content>
-	<content contentuid="h286ba7cfg2e72g4b4egbd51gf7d26b47d4e1" version="1">TODO: Psychic Focus: Mantle of Pride Status Description</content>
-	<content contentuid="" version="1">Exaltation</content>
-	<content contentuid="" version="1">TODO: Exaltation Description</content>
-	<content contentuid="" version="1">TODO: Exaltation Status Description</content>
-	<content contentuid="" version="1">Hubris</content>
-	<content contentuid="" version="1">TODO: Hubris Description</content>
-	<content contentuid="" version="1">TODO: Hubris Status Description</content>
-	<content contentuid="" version="1">Aura of Contempt</content>
-	<content contentuid="" version="1">TODO: Aura of Contempt Description</content>
-	<content contentuid="" version="1">TODO: Aura of Contempt Status Description</content>
-	<content contentuid="" version="1">Prideful Mantle</content>
-	<content contentuid="" version="1">TODO: Prideful Mantle Description</content>
-	<content contentuid="" version="1">TODO: Prideful Mantle Status Description</content>
+	<content contentuid="h052bb446g3043g48d8ga727g230dc6e17ec2" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Performance &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="h286ba7cfg2e72g4b4egbd51gf7d26b47d4e1" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Performance &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="hb9ff7f6fg28e4g40efg9dc6g4002f2d085ba" version="1">Exaltation</content>
+	<content contentuid="h861b12b1g9bf6g46caga328gec7922904db1" version="1">TODO: Exaltation Description</content>
+	<content contentuid="h6537df8eg3df9g497fg8832g76b81e4514d4" version="1">TODO: Exaltation Status Description</content>
+	<content contentuid="h47e84414ga52dg47d7ga893gfd0277c29084" version="1">Hubris</content>
+	<content contentuid="h8070992cg0c25g4a25g9b01ga0cd816e6592" version="1">TODO: Hubris Description</content>
+	<content contentuid="h3cdd3475ge191g4e3egb7aegd2b2aad138ae" version="1">TODO: Hubris Status Description</content>
+	<content contentuid="h36c92e71ga180g4eaagb9e8g32b483d6a403" version="1">Aura of Contempt</content>
+	<content contentuid="h6f6fee3cgc07ag4a12g83begf739638b23d0" version="1">TODO: Aura of Contempt Description</content>
+	<content contentuid="hf044c915g4757g4a50g88a7g21e4478f5b41" version="1">TODO: Aura of Contempt Status Description</content>
+	<content contentuid="h538ee18eg68c1g4592g937egeed795314613" version="1">Prideful Mantle</content>
+	<content contentuid="heedb3505gb419g4ca8g8e00g9dd4268bd629" version="1">TODO: Prideful Mantle Description</content>
+	<content contentuid="h518cc018g592dg4fe9gb5d9g2303fd9859ee" version="1">TODO: Prideful Mantle Status Description</content>
 	<content contentuid="h2d4a68dcga907g459fg9b70g8cf2a1d105de" version="1">Transcendent Form</content>
-	<content contentuid="hf70e2b82g5bcbg4ba9g8e30ga2085dcdd67e" version="1">TODO: Transcendent Form Description</content>
+	<content contentuid="hf70e2b82g5bcbg4ba9g8e30ga2085dcdd67e" version="1">You wield your psionic power to summon spectral appendages, enhancing your and allies' effectiveness in various ways.</content>
 	<content contentuid="hdaae2192g82e3g4d39g84b3ga7f7f1ab297c" version="1">Psychic Focus: Transcendent Form</content>
-	<content contentuid="h7469e6a5gd260g4708gb3b3g24604af18cfb" version="1">TODO: Psychic Focus: Transcendent Form Description</content>
-	<content contentuid="h8b77df23ga2b3g4ab8g88b3g16158921f050" version="1">TODO: Psychic Focus: Transcendent Form Status Description</content>
-	<content contentuid="" version="1"> </content>
+	<content contentuid="h7469e6a5gd260g4708gb3b3g24604af18cfb" version="1">Reduce the number you need to &lt;LSTag Tooltip="AttackRoll"&gt;roll&lt;/LSTag&gt; a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; while attacking by 1.</content>
+	<content contentuid="h8b77df23ga2b3g4ab8g88b3g16158921f050" version="1">The number you need to &lt;LSTag Tooltip="AttackRoll"&gt;roll&lt;/LSTag&gt; a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; while attacking is reduced by 1.</content>
+	<content contentuid="" version="1">Transcendence</content>
+	<content contentuid="" version="1">TODO: Transcendence Description</content>
+	<content contentuid="" version="1">TODO: Transcendence Status Description</content>
+	<content contentuid="" version="1">End Transcendence</content>
+	<content contentuid="" version="1">TODO: End Transcendence Description</content>
+	<content contentuid="" version="1">Psychic Brand</content>
+	<content contentuid="" version="1">TODO: Psychic Brand Description</content>
+	<content contentuid="" version="1">Psychic Brand (Strength)</content>
+	<content contentuid="" version="1">TODO: Psychic Brand (Strength) Description</content>
+	<content contentuid="" version="1">TODO: Psychic Brand (Strength) Status Description</content>
+	<content contentuid="" version="1">Psychic Brand (Dexterity)</content>
+	<content contentuid="" version="1">TODO: Psychic Brand (Dexterity) Description</content>
+	<content contentuid="" version="1">TODO: Psychic Brand (Dexterity) Status Description</content>
+	<content contentuid="" version="1">Psychic Brand (Constitution)</content>
+	<content contentuid="" version="1">TODO: Psychic Brand (Constitution) Description</content>
+	<content contentuid="" version="1">TODO: Psychic Brand (Constitution) Status Description</content>
+	<content contentuid="" version="1">Psychic Brand (Intelligence)</content>
+	<content contentuid="" version="1">TODO: Psychic Brand (Intelligence) Description</content>
+	<content contentuid="" version="1">TODO: Psychic Brand (Intelligence) Status Description</content>
+	<content contentuid="" version="1">Psychic Brand (Wisdom)</content>
+	<content contentuid="" version="1">TODO: Psychic Brand (Wisdom) Description</content>
+	<content contentuid="" version="1">TODO: Psychic Brand (Wisdom) Status Description</content>
+	<content contentuid="" version="1">Psychic Brand (Charisma)</content>
+	<content contentuid="" version="1">TODO: Psychic Brand (Charisma) Description</content>
+	<content contentuid="" version="1">TODO: Psychic Brand (Charisma) Status Description</content>
+	<content contentuid="" version="1">Spectral Arms</content>
+	<content contentuid="" version="1">TODO: Spectral Arms Description</content>
+	<content contentuid="" version="1">TODO: Spectral Arms Status Description</content>
 	<content contentuid="h173730c5gfbd7g4dd7g9b08gd1b2fa2e786f" version="1">Mantle of Insanity</content>
-	<content contentuid="h91454975g98d4g4f95gb9a9gd9475a5af3ec" version="1">TODO: Mantle of Insanity Description</content>
+	<content contentuid="h91454975g98d4g4f95gb9a9gd9475a5af3ec" version="1">You learn to use psionic energy to break the minds of others, causing them to descend into madness.</content>
 	<content contentuid="h112b322fg18c8g488eg82d2g61c09a35c937" version="1">Psychic Focus: Mantle of Insanity</content>
-	<content contentuid="h81f79e5dg8e42g4de0g850dgfed3dfffd7d5" version="1">TODO: Psychic Focus: Mantle of Insanity</content>
-	<content contentuid="h8652a4f3gdd02g4552g874cg671f24cea975" version="1">TODO: Psychic Focus: Mantle of Insanity Description</content>	
-	<content contentuid="" version="1"> </content>
+	<content contentuid="h81f79e5dg8e42g4de0g850dgfed3dfffd7d5" version="1">Gain immunity against being &lt;LSTag Type="Status" Tooltip="CONFUSION"&gt;Confused&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="DOMINATE_PERSON"&gt;Dominated&lt;/LSTag&gt;.</content>
+	<content contentuid="h8652a4f3gdd02g4552g874cg671f24cea975" version="1">Immune to being &lt;LSTag Type="Status" Tooltip="CONFUSION"&gt;Confused&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="DOMINATE_PERSON"&gt;Dominated&lt;/LSTag&gt;.</content>	
+	<content contentuid="" version="1">Delirium</content>
+	<content contentuid="" version="1">TODO: Delirium Description</content>
+	<content contentuid="" version="1">TODO: Delirium Status Description</content>
+	<content contentuid="" version="1">Hysteria</content>
+	<content contentuid="" version="1">TODO: Hysteria Description</content>
+	<content contentuid="" version="1">TODO: Hysteria Status Description</content>
+	<content contentuid="" version="1">Paranoia</content>
+	<content contentuid="" version="1">TODO: Paranoia Description</content>
+	<content contentuid="" version="1">TODO: Paranoia Status Description</content>
+	<content contentuid="" version="1">Unending Torment</content>
+	<content contentuid="" version="1">TODO: Unending Torment Description</content>
+	<content contentuid="" version="1">TODO: Unending Torment Status Description</content>
 	<content contentuid="h354ec41fg4559g435ag90fcgb93670fa151b" version="1">Nomadic Guile</content>
-	<content contentuid="h76ab8912g40c9g42a4gb2e9ga28ebb53f8d9" version="1">TODO: Nomadic Guile Description</content>
+	<content contentuid="h76ab8912g40c9g42a4gb2e9ga28ebb53f8d9" version="1">You concentrate your mind on trickery and cunning, allowing you to deceive and swindle others with ease.</content>
 	<content contentuid="hcde1959agf63ag436dg9489gf1da9eab1689" version="1">Psychic Focus: Nomadic Guile</content>
-	<content contentuid="hed6e6708ge82cg4507gbdb1g0e13d36f46b6" version="1">TODO: Psychic Focus: Nomadic Guile Description</content>
-	<content contentuid="h83857e26g587cg4d12gb961g167fbf1828c1" version="1">TODO: Psychic Focus: Nomadic Guile Status Description</content>
+	<content contentuid="hed6e6708ge82cg4507gbdb1g0e13d36f46b6" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Sleight of Hand &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="h83857e26g587cg4d12gb961g167fbf1828c1" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Sleight of Hand &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="" version="1"> </content>
 
 </contentList>

@@ -358,11 +358,11 @@ data "PrepareLoopSound" "Spell_Prepare_Debuff_Gen_L1to3_01_Loop"
 data "CastSound" "Spell_Cast_Damage_Psychic_DissonantWhispers_L1to3"
 data "TargetSound" "Spell_Impact_Damage_Psychic_DissonantWhispers_L1to3"
 // original
-// data "PrepareEffect" "556fd141-698d-4c08-9322-ad155821260a"
+data "PrepareEffect" "556fd141-698d-4c08-9322-ad155821260a"
 // failure
 // data "PrepareEffect" "ea268116-f208-4d9a-909d-e0ca6e6ae484"
 // shiveros
-data "PrepareEffect" "77241e8c-ae8d-4402-92d8-a871ce64d86f"
+// data "PrepareEffect" "77241e8c-ae8d-4402-92d8-a871ce64d86f"
 data "CastEffect" "0340b957-f9eb-45bc-9c6f-d4def37f5249"
 data "TargetEffect" "a0aee53a-d702-4901-9bb3-7cf08e214346"
 data "DamageType" "Psychic"

@@ -256,7 +256,7 @@ data "TooltipPermanentWarnings" "f1178ed8-c5ce-4766-85a3-ab0681aa049b"
 
 data "DisplayName" "h8eaa2a69g3e37g4a8dgb955g621fde5ae088"
 data "Description" "h4c9f9c76g439fg4d28g9757g40efb8943457"
-data "DescriptionParams" "RegainHitPoints(max(1,ClassLevel(Mystic)+IntelligenceModifier))"
+data "DescriptionParams" "RegainHitPoints(0);RegainHitPoints(max(1,ClassLevel(Mystic)+IntelligenceModifier))"
 data "Icon" "Spell_Transmutation_Thaumaturgy"
 
 data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_SOUL_REAPER,100,-1)"
