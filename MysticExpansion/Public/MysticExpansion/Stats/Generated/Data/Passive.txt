@@ -94,15 +94,15 @@ type "PassiveData"
 data "DisplayName" "h281052beg0da2g4aa7gb8e6g886f1a2202ee"
 data "Description" "hd60be5a7g7c63g419cgb7f9g8c22582607c0"
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_CrimsonHarvest);UnlockSpell(Target_Mystic_Transfusion);UnlockSpell(Shout_Mystic_ScarletEruption);UnlockSpell(Shout_Mystic_BloodFrenzy);UnlockSpell(Shout_Mystic_SanguineInfusion);"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_CrimsonHarvest);UnlockSpell(Target_Mystic_Transfusion);UnlockSpell(Shout_Mystic_CrimsonEruption);UnlockSpell(Shout_Mystic_BloodFrenzy);UnlockSpell(Shout_Mystic_SanguineInfusion);"
 
 // UnlockSpell(Target_Mystic_Transfusion);
-// UnlockSpell(Shout_Mystic_ScarletEruption);
+// UnlockSpell(Shout_Mystic_CrimsonEruption);
 // UnlockSpell(Shout_Mystic_BloodFrenzy);
 // UnlockSpell(Shout_Mystic_SanguineInfusion);
 
 // - Transfusion (1-7 psi) 1d8 necrotic, restore half hp to dmg dealt
-// - Scarlet Eruption (3-7 psi) - 1d8 necrotic aoe, restore half hp to dmg dealt
+// - Crimson Eruption (3-7 psi) - 1d8 necrotic aoe, restore half hp to dmg dealt
 // - Blood Frenzy (5 psi) - take 1d8 necrotic dmg. immediately and at the start of each turn, gain 2*intmod temp hp. also +3m of movement speed for the duratoin. 
 // - Sanguine Infusion (6 psi) - resistance to necrotic dmg and advantage on physical saving throws
 
@@ -153,15 +153,15 @@ type "PassiveData"
 data "DisplayName" "h4f83831eg1c7bg44e0g8cfdg8a01097ef699"
 data "Description" "h9a6cebf2g5932g437ag9ff6g4298ec8093fd"
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_CrownOfApathy);UnlockSpell(Target_Mystic_WaveOfApathy);UnlockSpell(Target_Mystic_Torpor);UnlockSpell(Target_Mystic_InciteApathy);UnlockSpell(Shout_Mystic_AuraOfIndifference);"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_CrownOfApathy);UnlockSpell(Target_Mystic_WaveOfApathy);UnlockSpell(Target_Mystic_Lassitude);UnlockSpell(Target_Mystic_InciteApathy);UnlockSpell(Shout_Mystic_AuraOfIndifference);"
 
 // UnlockSpell(Target_Mystic_WaveOfApathy);
-// UnlockSpell(Target_Mystic_Torpor);
+// UnlockSpell(Target_Mystic_Lassitude);
 // UnlockSpell(Target_Mystic_InciteApathy);
 // UnlockSpell(Shout_Mystic_AuraOfIndifference);
 
 // - Wave of Apathy (1-7 psi) - same as vicious mockery, more targets per psi point
-// - Torpor (3 psi) - BASICALLY TASHAS MIND WHIP = deal psychic dmg. for 1 round, target cant do more than 1 atk per turn and can only use an action or bonus action (slow-lite)
+// - Lassitude (3 psi) - BASICALLY TASHAS MIND WHIP = deal psychic dmg. for 1 round, target cant do more than 1 atk per turn and can only use an action or bonus action (slow-lite)
 // - Incite Apathy (5 psi) - halve an enemys damage dealt while concentration holds
 // - Aura of Indifference (7 psi) - at the start of their turn or when they enter, enemies are possibly disarmed and silenced for 1 turn)
 
@@ -183,6 +183,18 @@ data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_NomadicGrace);UnlockSpell(P
 // - Quick Draw (3 psi) - teleports behind u, nothing personnel kid (reaction)
 // - Blessing of Fair Winds (5 psi) - enchant a pair of weapons with +9m range (melee or ranged). once per turn these weapons will unleash a psychic chain that deals psychic dmg to the target, jumping to up to 2 other targets
 // - Steel Tempest (6 psi) - do a melee attack against a guy. on a hit you gain ms and can do it again, up to 3 times total [when ur done remove all hidden buffs, so u can do with extra atack]
+
+
+// new entry "FireGreataxe MainHand"
+// type "SpellData"
+// data "SpellType" "Target"
+// data "SpellProperties" "GROUND:DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);GROUND:ExecuteWeaponFunctors(MainHand)"
+// data "TargetCeiling" "0"
+// data "TargetFloor" ".25"
+// data "TargetRadius" "MeleeMainWeaponRange"
+// data "SpellRoll" "Attack(AttackType.MeleeWeaponAttack)"
+// data "SpellSuccess" "DealDamage(max(1,MainMeleeWeapon), MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);SpawnExtraProjectiles(FireGreataxe_Ricochet)"
+// ^ this allegedly bounces to targets
 
 // Mastery of Stars
 // DESCRIPTION
@@ -252,10 +264,13 @@ type "PassiveData"
 data "DisplayName" "h2d4a68dcga907g459fg9b70g8cf2a1d105de"
 data "Description" "hf70e2b82g5bcbg4ba9g8e30ga2085dcdd67e"
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_TranscendentForm);UnlockSpell();UnlockSpell();UnlockSpell();"
-// - Psychic Focus (?)
-// - ? (? psi)
-// - ? (? psi)
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_TranscendentForm);UnlockSpell(Shout_Mystic_Transcendence);UnlockSpell(Target_Mystic_PsychicBrand);UnlockSpell(Target_Mystic_SpectralArms);"
+
+// UnlockSpell(Shout_Mystic_Transcendence);
+// UnlockSpell(Target_Mystic_PsychicBrand);
+// UnlockSpell(Target_Mystic_SpectralArms);
+
+// - Transcendence (2 psi)
 // - Psychic Brand (6 psi) - brand a creature with a psychic mark. choose one stat to set to 19. only one mark per target at a time (long rest buff)
 // - Spectral Arms (7 psi) - allow a creature to bonus action attack. advantage on strength checks and carry weight increased(?). optionally, allow the creature to add their int mod to their AC instead of their dex
 
@@ -265,8 +280,13 @@ type "PassiveData"
 data "DisplayName" "h173730c5gfbd7g4dd7g9b08gd1b2fa2e786f"
 data "Description" "h91454975g98d4g4f95gb9a9gd9475a5af3ec"
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MantleOfInsanity);UnlockSpell();UnlockSpell();UnlockSpell();"
-// - Psychic Focus (immu)
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MantleOfInsanity);UnlockSpell(Target_Mystic_Delirium);UnlockSpell(Target_Mystic_Hysteria);UnlockSpell(Target_Mystic_Paranoia);UnlockSpell(Target_Mystic_UnendingTorment);"
+
+// UnlockSpell(Target_Mystic_Delirium);
+// UnlockSpell(Target_Mystic_Hysteria);
+// UnlockSpell(Target_Mystic_Paranoia);
+// UnlockSpell(Target_Mystic_UnendingTorment);
+
 // - TASHAS HIDEOUS LAUGHTER (2 psi)
 // - CROWN OF MADNESS (3 psi)
 // - HYPNOTIC PATTERN (5 psi)
@@ -278,12 +298,17 @@ type "PassiveData"
 data "DisplayName" "h354ec41fg4559g435ag90fcgb93670fa151b"
 data "Description" "h76ab8912g40c9g42a4gb2e9ga28ebb53f8d9"
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_NomadicGuile);UnlockSpell();UnlockSpell();UnlockSpell();"
-// - Psychic Focus (advantage on sleight of hand checks)
-// - Disguise Self 1 psi
-// - 2 psi: +10 bonus to sleight of hand
-// 3 psi
-// 5 psi
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_NomadicGuile);UnlockSpell(Shout_Mystic_ANewFace);UnlockSpell(Shout_Mystic_NimbleFingers);UnlockSpell(Shout_Mystic_TurnTheTables);UnlockSpell(Target_Mystic_BestowLuck);"
+
+// UnlockSpell(Shout_Mystic_ANewFace);
+// UnlockSpell(Shout_Mystic_NimbleFingers);
+// UnlockSpell(Shout_Mystic_TurnTheTables);
+// UnlockSpell(Target_Mystic_BestowLuck);
+
+// - A New Face (2 psi) - you learn the Disguise Self spell until long rest
+// - Nimble Fingers (2 psi) - +10 bonus to sleight of hand until conocentration holds
+// - Turn the Tables (3 psi) - reaction, reroll a saving throw or attack roll. the next attack roll or saving throw against the attacker is more likely
+// - Bestow Luck (5 psi) - grant an ally the benefits of the lucky feat (3 charges) -- DOES NOT STACK so u just get the passive
 
 // Chronoward
 new entry "Passive_Mystic_Chronoward"
@@ -329,9 +354,6 @@ data "StatsFunctors" "DealDamage(2d4,Piercing)"
 // - Psychic Focus (advantage on investigation)
 // - Aura of Spite (allies heal for a portion of damage dealt)
 
-// Crown of Greed
-// - Unburden/Hoard (doubled carry capacity until long rest)
-
 // == Awakened ==
 // Reality Shaping (polymorph, debuffs, etc - might scrap tbh)
 // Mental Disruption (? - stat reducing, might scrap tbh)
@@ -346,22 +368,11 @@ data "StatsFunctors" "DealDamage(2d4,Piercing)"
 // Nomadic Kinship (animal companion, pet buffs, animal friendship?, dominate beast?)
 // - Psychic Focus (advantage on animal handling checks)
 
-// == Wu Jen ==
-// Mastery of Life and Death (healing negation and health manipulation, reverse warding bond/pain split)
-// Psychic Focus (advantage on death saving throws)
-// bone chill (1-7 psi)
-// Life Link (transfer damage dealt to u to the guy)
-
-// Mastery of Steel (rell from lol - highly likely to get scrapped)
-// - Adamantine Shielding (immunity to crits)
-// We can probably have way more masteries
-
 // == Likely abilities ==
 // Mental Strain Aura (when spells are cast near u, deal psychic dmg to the caster. also if theyre concentrating)
 // Psychic Link (choose x number of creatures. when you buff/debuff them with a discipline, the others also get that buff/debuff)
 
 // == Unsure ==
-// Bestow Fortune (give a creature x uses of the lucky feat)
 // Dissonant Burst (whenever ur hit, deal dmg in a circle around u, save deals half)
 // Mental Bulwark (replace dex with int in AC calculation - specific check for immortal durability and/or unarmored combat if needed)
 // Psychic Veil (+5 AC until attacking, kinda like sanctuary)

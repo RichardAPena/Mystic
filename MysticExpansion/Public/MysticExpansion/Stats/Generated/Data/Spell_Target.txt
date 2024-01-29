@@ -899,8 +899,8 @@ data "Description" "hb7faab82g6db8g4fc3g8d99g2f03a7b47bbb"
 data "DescriptionParams" ""
 
 
-// Torpor
-new entry "Target_Mystic_Torpor"
+// Lassitude
+new entry "Target_Mystic_Lassitude"
 type "SpellData"
 data "SpellType" "Target"
 data "Level" "3"

@@ -181,8 +181,8 @@
 	<content contentuid="hb848c681g0d9ag4c61gb3e4g9fd71685ae41" version="1">&lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Necrotic damage.</content>
 	<content contentuid="he6fb5ea6g0f67g4b3bg8c2bga89813542747" version="1">Transfusion</content>
 	<content contentuid="h47ed6a39gf8a3g4a3bgb4adg4aeb06cc8e98" version="1">TODO: Transfusion Description</content>
-	<content contentuid="hcaa28682gc8efg4af8ga30bg4387d31cc4b4" version="1">Scarlet Eruption</content>
-	<content contentuid="hd0efb37fg0941g49e5g9ecfg0665f58466ee" version="1">TODO: Scarlet Eruption Description</content>
+	<content contentuid="hcaa28682gc8efg4af8ga30bg4387d31cc4b4" version="1">Crimson Eruption</content>
+	<content contentuid="hd0efb37fg0941g49e5g9ecfg0665f58466ee" version="1">TODO: Crimson Eruption Description</content>
 	<content contentuid="hdb83f305g4261g41d9g8c57g45e5ac3046ee" version="1">Blood Frenzy</content>
 	<content contentuid="h6dc222fegecf0g4e18gb4c8ge6be0991d7e9" version="1">TODO: Blood Frenzy Description</content>
 	<content contentuid="heda9661bgd618g4d8ag95d3g1d6ebd9b775b" version="1">TODO: Blood Frenzy Status Description 1</content>
@@ -233,9 +233,9 @@
 	<content contentuid="hb00d4a4eg935bg4c68gbdecge3b8ef376d02" version="1">Wave of Apathy</content>
 	<content contentuid="hb7faab82g6db8g4fc3g8d99g2f03a7b47bbb" version="1">Unleash a wave of apathy on up to [1] creatures. Targets suffer &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on their next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
 	<content contentuid="h77888fd5g7d83g48c3ga4ecgca67238a817e" version="1">&lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on the next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
-	<content contentuid="hd603eaf4g8b4bg417egbcf0ga37a91dbb112" version="1">Torpor</content>
-	<content contentuid="h2ee6db85g13ceg4f7dgb9f2g321a2bc21058" version="1">TODO: Torpor Description</content>
-	<content contentuid="h95e0bdfega465g4779gb9e4g896640f27cfb" version="1">TODO: Torpor Status Description</content>
+	<content contentuid="hd603eaf4g8b4bg417egbcf0ga37a91dbb112" version="1">Lassitude</content>
+	<content contentuid="h2ee6db85g13ceg4f7dgb9f2g321a2bc21058" version="1">TODO: Lassitude Description</content>
+	<content contentuid="h95e0bdfega465g4779gb9e4g896640f27cfb" version="1">TODO: Lassitude Status Description</content>
 	<content contentuid="he8f1d4ebga3e7g480egbaa4g532376a66a9d" version="1">Incite Apathy</content>
 	<content contentuid="h244cd09egf496g492fga80cg881fa1e5765b" version="1">TODO: Incite Apathy Description</content>
 	<content contentuid="hec96d76cg5970g47b7gad24g6b2a1a863a3e" version="1">TODO: Incite Apathy Status Description</content>
@@ -380,6 +380,19 @@
 	<content contentuid="hcde1959agf63ag436dg9489gf1da9eab1689" version="1">Psychic Focus: Nomadic Guile</content>
 	<content contentuid="hed6e6708ge82cg4507gbdb1g0e13d36f46b6" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Sleight of Hand &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="h83857e26g587cg4d12gb961g167fbf1828c1" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Sleight of Hand &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="" version="1">A New Face </content>
+	<content contentuid="" version="1">TODO: A New Face Description</content>
+	<content contentuid="" version="1">TODO: A New Face Status Description</content>
+	<content contentuid="" version="1">Nimble Fingers</content>
+	<content contentuid="" version="1">TODO: Nimble Fingers Description</content>
+	<content contentuid="" version="1">TODO: Nimble Fingers Status Description</content>
+	<content contentuid="" version="1">Turn the Tables</content>
+	<content contentuid="" version="1">TODO: Turn the Tables Description</content>
+	<content contentuid="" version="1">TODO: Turn the Tables Status Description</content>
+	<content contentuid="" version="1">Bestow Luck</content>
+	<content contentuid="" version="1">TODO: Bestow Luck Description</content>
+	<content contentuid="" version="1">TODO: Bestow Luck Status Description</content>
+	<content contentuid="" version="1">Order of the METAPSIONICS</content>
 	<content contentuid="" version="1"> </content>
-
+	<content contentuid="" version="1">Order of the WILD PSIONICS</content>
 </contentList>

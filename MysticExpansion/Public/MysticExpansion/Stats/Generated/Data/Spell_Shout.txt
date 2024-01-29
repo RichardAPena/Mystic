@@ -389,8 +389,8 @@ data "DisplayName" "h0878f2begaec3g4d3egaa7dgfd8adc390c85"
 data "Description" "h7c072ce4gf4efg45acg989dg03a7878a8509"
 data "DescriptionParams" ""
 
-// Scarlet Eruption
-new entry "Shout_Mystic_ScarletEruption"
+// Crimson Eruption
+new entry "Shout_Mystic_CrimsonEruption"
 type "SpellData"
 data "SpellType" "Shout"
 data "Level" "3"
