@@ -188,6 +188,39 @@ data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "Advantage(Skill,SleightOfHand)"
 data "StatusGroups" "SG_RemoveOnRespec"
 
+// Psychic Focus: Crown of Envy
+new entry "PSYPSYCHIC_FOCUS_CROWN_OF_ENVY"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "hd78fe06bgb2f3g4578g9479g96c0003eefb4"
+data "Description" "h32971660g76a1g4690g825fg734dcba3eec5"
+data "Icon" "Spell_Transmutation_Thaumaturgy"
+data "StackId" "PSYCHIC_FOCUS"
+data "Boosts" "Advantage(Skill,Investigation)"
+data "StatusGroups" "SG_RemoveOnRespec"
+
+// Psychic Focus: Nomadic Kinship
+new entry "PSYPSYCHIC_FOCUS_NOMADIC_KINSHIP"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h4615c15cgcb98g486bg953fge6a8de890e08"
+data "Description" "h5af411b2ga0edg4daag8e66g94c3885e60f0"
+data "Icon" "Spell_Transmutation_Thaumaturgy"
+data "StackId" "PSYCHIC_FOCUS"
+data "Boosts" "Advantage(Skill,AnimalHandling)"
+data "StatusGroups" "SG_RemoveOnRespec"
+
+// Psychic Focus: Infinite Abyss
+new entry "PSYPSYCHIC_FOCUS_INFINITE_ABYSS"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "he006381dg1019g4d38g9ad1g5a57c9b6f025"
+data "Description" "hd079c31dg6cc8g43b5g876egc28e6778f949"
+data "Icon" "Spell_Transmutation_Thaumaturgy"
+data "StackId" "PSYCHIC_FOCUS"
+data "Boosts" "Advantage(Skill,Insight)"
+data "StatusGroups" "SG_RemoveOnRespec"
+
 // Energy Infusion
 new entry "MYSTIC_ENERGY_INFUSION_ACID"
 type "StatusData"

@@ -392,7 +392,47 @@
 	<content contentuid="" version="1">Bestow Luck</content>
 	<content contentuid="" version="1">TODO: Bestow Luck Description</content>
 	<content contentuid="" version="1">TODO: Bestow Luck Status Description</content>
-	<content contentuid="" version="1">Order of the METAPSIONICS</content>
+	<content contentuid="hf3618c94g2366g4760gaaabgadeb7078871c" version="1">Crown of Envy</content>
+	<content contentuid="he86e758agf86ag4c29g9729g3a03dd6c22e5" version="1">You tap into feelings of envy and desire, filling others with a crippling longing or fervent ambition.</content>
+	<content contentuid="hd78fe06bgb2f3g4578g9479g96c0003eefb4" version="1">Psychic Focus: Crown of Envy</content>
+	<content contentuid="hd368a56ag0442g4613gb618g971eb4de14b3" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Investigation &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="h32971660g76a1g4690g825fg734dcba3eec5" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Investigation &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="hfdfde903g01bcg49e5g8e59gf09c7124a33b" version="1">Nomadic Kinship</content>
+	<content contentuid="haef6fd27gdcbbg4546gb5a5g0d274aacda4b" version="1">You extend your focus towards animals and wildlife, forming a deep psychic bond with them.</content>
+	<content contentuid="h4615c15cgcb98g486bg953fge6a8de890e08" version="1">Psychic Focus: Nomadic Kinship</content>
+	<content contentuid="h4da19600ge10fg460cgb4dcgabc3d9812e28" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Animal Handling &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="h5af411b2ga0edg4daag8e66g94c3885e60f0" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Animal Handling &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="h2b15ee7dgb393g402egaad3g5e9cd64f2455" version="1">Infinite Abyss</content>
+	<content contentuid="h6dd9e89agaca7g449cg8ad2gda246737871b" version="1">Your mind reached a place it perhaps shouldn't have, allowing you to harness the insidious powers of unknowable eldritch horrors.</content>
+	<content contentuid="he006381dg1019g4d38g9ad1g5a57c9b6f025" version="1">Psychic Focus: Infinite Abyss</content>
+	<content contentuid="h48663b02g682fg4645g8dffg6f7e9b19a16a" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Insight &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="hd079c31dg6cc8g43b5g876egc28e6778f949" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Insight &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1">Order of the Unbound</content>
+	<content contentuid="" version="1">The least understood order, mystics of this order embrace the unpredictability of their own mind, letting loose wild psionic surges with even the most fleeting thought.</content>
+	<content contentuid="" version="1">Wild Psionics</content>
+	<content contentuid="" version="1">Your intrusive thoughts can manifest into wild Psionic Surges. After spending Psi Points on a psionic discipline, there is a chance to trigger a Psionic Surge.</content>
+	<content contentuid="" version="1">Psionic Battery</content>
+	<content contentuid="" version="1">After triggering a Psionic Surge, regain 1 Psi Point.</content>
+	<content contentuid="" version="1">Chaos Control</content>
+	<content contentuid="" version="1">Adjust the likelihood of triggering a Psionic Surge.</content>
+	<content contentuid="" version="1">Chaotic State: Inert</content>
+	<content contentuid="" version="1">Psionic Surges will not trigger.</content>
+	<content contentuid="" version="1">Chaotic State: Stable</content>
+	<content contentuid="" version="1">Psionic Surges will rarely trigger.</content>
+	<content contentuid="" version="1">Chaotic State: Active</content>
+	<content contentuid="" version="1">Psionic Surges will trigger at a normal rate.</content>
+	<content contentuid="" version="1">Chaotic State: Volatile</content>
+	<content contentuid="" version="1">Psionic Surges will trigger often.</content>
+	<content contentuid="" version="1">Chaotic State: Dangerous</content>
+	<content contentuid="" version="1">Psionic Surges will ALWAYS trigger.</content>
+	<content contentuid="" version="1">Chaos Aspect</content>
+	<content contentuid="" version="1">Allies within [1] will be able to trigger a wild Psionic Surge when taking an action once per turn. Can be toggled on or off.</content>
+	<content contentuid="" version="1">Improved Psionic Battery</content>
+	<content contentuid="" version="1">After triggering a Psionic Surge, regain 2 Psi Points.</content>
+	<content contentuid="" version="1">Surge Mastery</content>
+	<content contentuid="" version="1">After triggering a a Psionic Surge, there is a chance to regain a Psionic Mastery charge.</content>
 	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1">Order of the WILD PSIONICS</content>
 </contentList>

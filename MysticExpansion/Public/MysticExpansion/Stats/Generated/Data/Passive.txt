@@ -257,8 +257,9 @@ data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MantleOfPride);UnlockSpell(
 // - Aura of Contempt (5 psi) - 1d4 psychic damage to all attack rolls, not just weapons (crusaders mantle)
 // - Prideful Mantle (7 psi) - grant one charge of unstoppable to all allies within 9m (DAMAGE REDUCTION PART ONLY)
 
+// TODO: Abilities below here don't exist
+
 // Transcendent Form
-// You're not actually modifying your body, but "summoning" additional parts to aid you
 new entry "Discipline_TranscendentForm"
 type "PassiveData"
 data "DisplayName" "h2d4a68dcga907g459fg9b70g8cf2a1d105de"
@@ -310,6 +311,66 @@ data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_NomadicGuile);UnlockSpell(S
 // - Turn the Tables (3 psi) - reaction, reroll a saving throw or attack roll. the next attack roll or saving throw against the attacker is more likely
 // - Bestow Luck (5 psi) - grant an ally the benefits of the lucky feat (3 charges) -- DOES NOT STACK so u just get the passive
 
+// Crown of Envy
+new entry "Discipline_CrownOfEnvy"
+type "PassiveData"
+data "DisplayName" "hf3618c94g2366g4760gaaabgadeb7078871c"
+data "Description" "he86e758agf86ag4c29g9729g3a03dd6c22e5"
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_CrownOfEnvy);UnlockSpell(Target_Mystic_SeethingIre);UnlockSpell(Target_Mystic_Vendetta);UnlockSpell();UnlockSpell(Shout_Mystic_AuraOfSpite);"
+
+// UnlockSpell(Shout_Mystic_PsychicFocus_CrownOfEnvy);
+// UnlockSpell(Target_Mystic_SeethingIre);
+// UnlockSpell(Target_Mystic_Vendetta);
+// UnlockSpell();
+// UnlockSpell(Shout_Mystic_AuraOfSpite);
+
+// Seetihing Ire (1-7 psi) - 1d4 melee dmg per psi point
+// Vendetta (3 psi) - target takes additional dmg? vuln to psychic dmg, reduce ac by 2 while concentrating
+// TODO (5 psi) - 
+// Aura of Spite (7 psi) - project a malignant aura that fills your allies with hate. allies will regain hit points equal to half of the damage they deal
+
+
+// Nomadic Kinship
+new entry "Discipline_NomadicKinship"
+type "PassiveData"
+data "DisplayName" "hfdfde903g01bcg49e5g8e59gf09c7124a33b"
+data "Description" "haef6fd27gdcbbg4546gb5a5g0d274aacda4b"
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_NomadicKinship);UnlockSpell(Shout_Mystic_BestialSpeech);UnlockSpell(Target_Mystic_FriendOfTheForest);UnlockSpell(Target_Mystic_BestialCompanion);UnlockSpell(Target_Mystic_CommandBeast);UnlockSpell(Target_Mystic_BestialMight);"
+
+// UnlockSpell(Shout_Mystic_PsychicFocus_NomadicGuile);
+// UnlockSpell(Shout_Mystic_BestialSpeech);
+// UnlockSpell(Target_Mystic_FriendOfTheForest);
+// UnlockSpell(Target_Mystic_BestialCompanion);
+// UnlockSpell(Target_Mystic_CommandBeast);
+// UnlockSpell(Target_Mystic_BestialMight);
+
+// Bestial Speech (1 psi) - Speak with animals
+// Friend of the Forest (2 psi) - Animal Friendship
+// Bestial Companion (5 psi) - summon an eagle fren
+// Command Beast (6 psi) - Dominate beast
+// Bestial Might (7 psi) - Buff for fren
+
+// Infinite Abyss
+new entry "Discipline_InfiniteAbyss"
+type "PassiveData"
+data "DisplayName" "h2b15ee7dgb393g402egaad3g5e9cd64f2455"
+data "Description" "h6dd9e89agaca7g449cg8ad2gda246737871b"
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_InfiniteAbyss);UnlockSpell(Target_Mystic_GlimpseOfTheVoid);UnlockSpell(Target_Mystic_SymbioticLink);UnlockSpell(Shout_Mystic_PsionicDisturbance);UnlockSpell(Shout_Mystic_EldritchEvolution);"
+
+// UnlockSpell(Shout_Mystic_PsychicFocus_InfiniteAbyss);
+// UnlockSpell(Target_Mystic_GlimpseOfTheVoid);
+// UnlockSpell(Target_Mystic_SymbioticLink);
+// UnlockSpell(Shout_Mystic_PsionicDisturbance);
+// UnlockSpell(Shout_Mystic_EldritchEvolution);
+
+// Glimpse of the Void - 1~7 psi = 1d6 psychic, frighten
+// Symbiotic Link - link yourself to an ally. when you get a buff they also get the buff. when either of you heal, the other also heals
+// Psionic Disturbance - when an enemy casts a spell or ends its turn concentrating, it takes psychic dmg
+// Eldritch Evolution - 7 psi points bonus action. for the duration, your spells COST NO PSI POINTS, but at the end YOU WILL DIE (lose all temp hp and be set to 1 hp). for the duration you are considered an aberration.
+
 // Chronoward
 new entry "Passive_Mystic_Chronoward"
 type "PassiveData"
@@ -327,7 +388,6 @@ data "Icon" "PassiveFeature_HuntersMark"
 data "PriorityOrder" "2"
 data "Properties" "Highlighted"
 data "Boosts" "IF(HasStatus('MYSTIC_NOMADS_MARK',context.Target,context.Source) and HasDamageEffectFlag(DamageFlags.Hit)):DealDamage(1d6,Psychic,Magical)"
-// This is just VFX vvv
 data "StatsFunctorContext" "OnAttack"
 data "Conditions" "HasStatus('MYSTIC_NOMADS_MARK',context.Target,context.Source) and HasDamageEffectFlag(DamageFlags.Hit) and TotalAttackDamageDoneGreaterThan(0)"
 data "StatsFunctors" "ApplyStatus(PASSIVE_HUNTERS_MARK,100,0)"
@@ -346,43 +406,6 @@ type "PassiveData"
 data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnMovedDistance"
 data "StatsFunctors" "DealDamage(2d4,Piercing)"
-
-
-// == Avatar ==
-
-// Crown of Envy (based on taking stuff while gaining - lifesteal aura)
-// - Psychic Focus (advantage on investigation)
-// - Aura of Spite (allies heal for a portion of damage dealt)
-
-// == Awakened ==
-// Reality Shaping (polymorph, debuffs, etc - might scrap tbh)
-// Mental Disruption (? - stat reducing, might scrap tbh)
-// DESCRIPTION
-// - Psychic Focus (?)
-// - Brain Rot (? psi) - dmg, weak to psychic
-// - AC reducer (? psi) - dmg, reduce AC permanently, increase crit threshold?
-// - Atrophy (? psi)- dmg, reduce phys stats permanently
-// - Stupefy (? psi) - dmg, reduce mental stats permanently
-
-// == Nomad ==
-// Nomadic Kinship (animal companion, pet buffs, animal friendship?, dominate beast?)
-// - Psychic Focus (advantage on animal handling checks)
-
-// == Likely abilities ==
-// Mental Strain Aura (when spells are cast near u, deal psychic dmg to the caster. also if theyre concentrating)
-// Psychic Link (choose x number of creatures. when you buff/debuff them with a discipline, the others also get that buff/debuff)
-
-// == Unsure ==
-// Dissonant Burst (whenever ur hit, deal dmg in a circle around u, save deals half)
-// Mental Bulwark (replace dex with int in AC calculation - specific check for immortal durability and/or unarmored combat if needed)
-// Psychic Veil (+5 AC until attacking, kinda like sanctuary)
-
-// == Unlikely abilities ==
-// Psionic Innovation (5-7 psi) - restore a 2nd-4th level spell slot
-// Psychic Drain - burn spell slots, sorcery points, psi points, etc
-// Transient Bulwark (-10 to first attack roll against you)
-// Legendary Resistance (+10 to first saving throw)
-// Psionic Reservoir (give an ally a buff, they can consume it with a bonus action to heal, optional burst of damage in an area?)
 
 // TODO:
 // - Give unarmored combat (INT to AC) to ascetic
@@ -503,6 +526,49 @@ data "Icon" "Action_Mystic_PsionicTrance"
 data "Properties" "Highlighted"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsionicTrance);"
 
+// Order of the Unbound
+
+// Wild Psionics
+new entry "Passive_Mystic_WildPsionics"
+type "PassiveData"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "Properties" "Highlighted"
+data "Boosts" ""
+
+// Psionic Battery
+new entry "Passive_Mystic_PsionicBattery"
+type "PassiveData"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "Properties" "Highlighted"
+data "Boosts" ""
+
+// Chaos Control
+new entry "Passive_Mystic_ChaosControl"
+type "PassiveData"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "Properties" "Highlighted"
+data "Boosts" ""
+
+// Chaos Aspect
+new entry "Passive_Mystic_ChaosAspect"
+type "PassiveData"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "Properties" "Highlighted"
+data "Boosts" ""
+
+
 // Order of the [Metapsionics?]
 // maybe give em extra psi points?
 // 1  - [Bonus Discipline] Choose an extra discipline (any)
@@ -510,6 +576,8 @@ data "Boosts" "UnlockSpell(Shout_Mystic_PsionicTrance);"
 // 3  - [Metapsionics] Choose 2 extra metapsionics
 // 6  -
 // 14 - 
+
+
 
 // Order of the [Wild Magic?]
 // => Magic Awareness, Unstable Backlash, Bolstering Magic, Tides of Chaos, Bend Luck, Controlled Chaos

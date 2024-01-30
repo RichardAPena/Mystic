@@ -526,3 +526,96 @@ data "SpellStyleGroup" "Class"
 data "SpellFlags" "IsSpell"
 data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
 data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
+
+// Crown of Envy
+new entry "Shout_Mystic_PsychicFocus_CrownOfEnvy"
+type "SpellData"
+data "SpellType" "Shout"
+data "Level" "1"
+data "TooltipPermanentWarnings" "f1178ed8-c5ce-4766-85a3-ab0681aa049b"
+
+data "DisplayName" "hd78fe06bgb2f3g4578g9479g96c0003eefb4"
+data "Description" "hd368a56ag0442g4613gb618g971eb4de14b3"
+data "Icon" "Spell_Transmutation_Thaumaturgy"
+
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_CROWN_OF_ENVY,100,-1)"
+data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_CROWN_OF_ENVY,100,-1)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
+
+data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
+
+// Nomadic Kinship
+new entry "Shout_Mystic_PsychicFocus_NomadicKinship"
+type "SpellData"
+data "SpellType" "Shout"
+data "Level" "1"
+data "TooltipPermanentWarnings" "f1178ed8-c5ce-4766-85a3-ab0681aa049b"
+
+data "DisplayName" "h4615c15cgcb98g486bg953fge6a8de890e08"
+data "Description" "h4da19600ge10fg460cgb4dcgabc3d9812e28"
+data "Icon" "Spell_Transmutation_Thaumaturgy"
+
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_NOMADIC_KINSHIP,100,-1)"
+data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_NOMADIC_KINSHIP,100,-1)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
+
+data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
+
+// Infinite Abyss
+new entry "Shout_Mystic_PsychicFocus_InfiniteAbyss"
+type "SpellData"
+data "SpellType" "Shout"
+data "Level" "1"
+data "TooltipPermanentWarnings" "f1178ed8-c5ce-4766-85a3-ab0681aa049b"
+
+data "DisplayName" "he006381dg1019g4d38g9ad1g5a57c9b6f025"
+data "Description" "h48663b02g682fg4645g8dffg6f7e9b19a16a"
+data "Icon" "Spell_Transmutation_Thaumaturgy"
+
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_INFINITE_ABYSS,100,-1)"
+data "TargetConditions" "Self()"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_INFINITE_ABYSS,100,-1)"
+
+data "PrepareSound" "Spell_Prepare_ClericGen_L1to3_01"
+data "PrepareLoopSound" "Spell_Loop_ClericGen_L1to3"
+data "CastSound" "Spell_Cast_Buff_Thaumaturgy_L0"
+data "TargetSound" "Spell_Impact_Buff_Thaumaturgy_L0"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
+
+data "UseCosts" "BonusActionPoint:1"
+
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsSpell"
+data "PrepareEffect" "b205bf60-d55b-4eb6-a4cf-091b8ccbaf9a"
+data "CastEffect" "b2af7595-7aca-4d9d-92a6-68065515810b"
