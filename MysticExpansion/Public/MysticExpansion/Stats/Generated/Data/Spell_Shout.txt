@@ -520,3 +520,91 @@ data "Icon" "Action_Mystic_CrownedInSorrow"
 data "DisplayName" "h538ee18eg68c1g4592g937egeed795314613"
 data "Description" "heedb3505gb419g4ca8g8e00g9dd4268bd629"
 data "DescriptionParams" ""
+
+// Transcendence
+new entry "Shout_Mystic_Transcendence"
+type "SpellData"
+data "SpellType" "Shout"
+data "Level" "2"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// A New Face
+new entry "Shout_Mystic_ANewFace"
+type "SpellData"
+data "SpellType" "Shout"
+data "Level" ""
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Nimble Fingers
+new entry "Shout_Mystic_NimbleFingers"
+type "SpellData"
+data "SpellType" "Shout"
+data "Level" ""
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Turn the Tables (Prototype)
+new entry "Shout_Mystic_TurnTheTables"
+type "SpellData"
+data "SpellType" "Shout"
+data "Level" ""
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Aura of Spite
+new entry "Shout_Mystic_AuraOfSpite"
+type "SpellData"
+data "SpellType" "Shout"
+data "Level" ""
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Bestial Speech
+new entry "Shout_Mystic_BestialSpeech"
+type "SpellData"
+data "SpellType" "Shout"
+data "Level" ""
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Psionic Disturbance
+new entry "Shout_Mystic_PsionicDisturbance"
+type "SpellData"
+data "SpellType" "Shout"
+data "Level" ""
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""
+
+// Eldritch Evolution
+new entry "Shout_Mystic_EldritchEvolution"
+type "SpellData"
+data "SpellType" "Shout"
+data "Level" ""
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" ""
+data "Description" ""
+data "DescriptionParams" ""

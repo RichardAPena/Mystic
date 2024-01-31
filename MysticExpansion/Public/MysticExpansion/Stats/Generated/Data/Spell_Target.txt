@@ -921,8 +921,8 @@ data "DisplayName" "he8f1d4ebga3e7g480egbaa4g532376a66a9d"
 data "Description" "h244cd09egf496g492fga80cg881fa1e5765b"
 data "DescriptionParams" ""
 
-// Blessing of Fair Winds
-new entry "Target_Mystic_BlessingOfFairWinds"
+// Blessing of the Winds
+new entry "Target_Mystic_BlessingOfTheWinds"
 type "SpellData"
 data "SpellType" "Target"
 data "Level" "5"
@@ -1007,4 +1007,170 @@ data "Level" "3"
 data "Icon" "Action_Mystic_CrownedInSorrow"
 data "DisplayName" "h47e84414ga52dg47d7ga893gfd0277c29084"
 data "Description" "h8070992cg0c25g4a25g9b01ga0cd816e6592"
+data "DescriptionParams" ""
+
+
+// Psychic Brand
+new entry "Target_Mystic_PsychicBrand"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "6"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" "hb6c9ce12g6352g4b88gaa34ga02cabf3db02"
+data "Description" "hbf88ed9fg9e87g4a0aga9b1g80f3c7f660c1"
+data "DescriptionParams" ""
+
+// Spectral Arms
+new entry "Target_Mystic_SpectralArms"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "7"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" "h6f9b8007g7bdbg4a8ag88bbge0bd1b750048"
+data "Description" "h5c939869g40d5g4864g9c62g3f3a037c0c86"
+data "DescriptionParams" ""
+
+// Delirium
+new entry "Target_Mystic_Delirium"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "2"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" "h0b0553bbgf4d7g4307g95fagf3608fdaf124"
+data "Description" "h1fc9f47ag5dcfg4f0eg8255g0b41fde6ab82"
+data "DescriptionParams" ""
+
+// Hysteria
+new entry "Target_Mystic_Hysteria"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "3"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" "h1275e117g3a2ag49d4gbdc9g03bd703a5884"
+data "Description" "h392a218cga3b4g44e2g9b25gd3535845e6c2"
+data "DescriptionParams" ""
+
+// Paranoia
+new entry "Target_Mystic_Paranoia"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "5"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" "h5c5b0e35g5bf1g41a3g87e0g29f0c7bb8e64"
+data "Description" "h9723d8f5g2fbeg463bgb898g71904a2336af"
+data "DescriptionParams" ""
+
+// Unending Torment
+new entry "Target_Mystic_UnendingTorment"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "6"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" "h2ba2c3b3g137bg4f43gbd8cgcfb7fc480b84"
+data "Description" "h43088a14g2b3dg4096g8605ge586e6f454fc"
+data "DescriptionParams" ""
+
+// Bestow Luck
+new entry "Target_Mystic_BestowLuck"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "5"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" "hc25f2345gd46ag4200gbc55g70ce18b3663a"
+data "Description" "hca765d74g100ag4b85g9a3dgeadcbd4f737f"
+data "DescriptionParams" ""
+
+// Seething Ire
+new entry "Target_Mystic_SeethingIre"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "1"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" "h3b1b51e8g0850g4350g8786g044ca627e996"
+data "Description" "h872baebfg1a33g4f6agb1f4g0ca5e0d011ab"
+data "DescriptionParams" ""
+
+// Vendetta
+new entry "Target_Mystic_Vendetta"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "3"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" "haeb17eccg8e1ag4511gbdaegf7d93a569fad"
+data "Description" "hc54fd600g2492g4f98g90a2g69798adb62a0"
+data "DescriptionParams" ""
+
+// Redoubled Effort
+new entry "Target_Mystic_RedoubledEffort"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "5"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" "h82309ee9ge854g40ffg93c8ga8f8abf3942c"
+data "Description" "hbe4241e1gded1g4e6cg9725g7f65a1403b0a"
+data "DescriptionParams" ""
+
+// Friend of the Forest
+new entry "Target_Mystic_FriendOfTheForest"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "2"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" "h27783ea2g1101g441bg8495g6d9562010a78"
+data "Description" "h314da7ebgb8b8g43d7gb670g555f7b07bb33"
+data "DescriptionParams" ""
+
+// Bestial Companion
+new entry "Target_Mystic_BestialCompanion"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "5"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" "h22a8d3efg2193g4ac2gb215gb981b5f76342"
+data "Description" "hc0e7ee49g95d0g42cbgae0fgb53375b65c68"
+data "DescriptionParams" ""
+
+// Bestial Might
+new entry "Target_Mystic_BestialMight"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "7"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" "h9752a1f5g24dfg422cg8d90g397d7e454ff3"
+data "Description" "h49e74efegb2c0g41bbg9417ga8da79da5ad8"
+data "DescriptionParams" ""
+
+// Glimpse of the Void
+new entry "Target_Mystic_GlimpseOfTheVoid"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "1"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" "h140e6679gf766g446cgb8b1gaf25cc4666a0"
+data "Description" "hafcd069dgc609g43e6gbbeegf85436ae52bd"
+data "DescriptionParams" ""
+
+// Symbiotic Link
+new entry "Target_Mystic_SymbioticLink"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "3"
+
+data "Icon" "Action_Mystic_CrownedInSorrow"
+data "DisplayName" "h8e29a274g6ce3g4efbg910bg80d76f95e0cc"
+data "Description" "h19768d30g101cg4da9ga469g205fd7960a6a"
 data "DescriptionParams" ""

@@ -172,16 +172,16 @@ type "PassiveData"
 data "DisplayName" "h34368b6cgcb6cg4965g8411g07a0b5bb2dae"
 data "Description" "h83ae95edg6a73g4c34g81e5gee9615b1ba91"
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_NomadicGrace);UnlockSpell(Projectile_Mystic_GaleSlash);UnlockSpell(Shout_Mystic_QuickDraw);UnlockSpell(Target_Mystic_BlessingOfFairWinds);UnlockSpell(Target_Mystic_SteelTempest);"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_NomadicGrace);UnlockSpell(Projectile_Mystic_GaleSlash);UnlockSpell(Shout_Mystic_QuickDraw);UnlockSpell(Target_Mystic_BlessingOfTheWinds);UnlockSpell(Target_Mystic_SteelTempest);"
 
 // UnlockSpell(Projectile_Mystic_GaleSlash);
 // UnlockSpell(Shout_Mystic_QuickDraw);
-// UnlockSpell(Target_Mystic_BlessingOfFairWinds);
+// UnlockSpell(Target_Mystic_BlessingOfTheWinds);
 // UnlockSpell(Target_Mystic_SteelTempest);
 
 // - Gale Slash (2 psi) - spell attack roll, unleash 2 ranged slashes, 1d6+weapon dmg each?
 // - Quick Draw (3 psi) - teleports behind u, nothing personnel kid (reaction)
-// - Blessing of Fair Winds (5 psi) - enchant a pair of weapons with +9m range (melee or ranged). once per turn these weapons will unleash a psychic chain that deals psychic dmg to the target, jumping to up to 2 other targets
+// - Blessing of the Winds (5 psi) - enchant a pair of weapons with +9m range (melee or ranged). once per turn these weapons will unleash a psychic chain that deals psychic dmg to the target, jumping to up to 2 other targets
 // - Steel Tempest (6 psi) - do a melee attack against a guy. on a hit you gain ms and can do it again, up to 3 times total [when ur done remove all hidden buffs, so u can do with extra atack]
 
 
@@ -317,19 +317,18 @@ type "PassiveData"
 data "DisplayName" "hf3618c94g2366g4760gaaabgadeb7078871c"
 data "Description" "he86e758agf86ag4c29g9729g3a03dd6c22e5"
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_CrownOfEnvy);UnlockSpell(Target_Mystic_SeethingIre);UnlockSpell(Target_Mystic_Vendetta);UnlockSpell();UnlockSpell(Shout_Mystic_AuraOfSpite);"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_CrownOfEnvy);UnlockSpell(Target_Mystic_SeethingIre);UnlockSpell(Target_Mystic_Vendetta);UnlockSpell(Target_Mystic_RedoubledEffort);UnlockSpell(Shout_Mystic_AuraOfSpite);"
 
 // UnlockSpell(Shout_Mystic_PsychicFocus_CrownOfEnvy);
 // UnlockSpell(Target_Mystic_SeethingIre);
 // UnlockSpell(Target_Mystic_Vendetta);
-// UnlockSpell();
+// UnlockSpell(Target_Mystic_RedoubledEffort);
 // UnlockSpell(Shout_Mystic_AuraOfSpite);
 
-// Seetihing Ire (1-7 psi) - 1d4 melee dmg per psi point
+// Seething Ire (1-7 psi) - 1d4 melee dmg per psi point
 // Vendetta (3 psi) - target takes additional dmg? vuln to psychic dmg, reduce ac by 2 while concentrating
-// TODO (5 psi) - 
+// Redoubled Effort (5 psi) - bonus action, target cant roll lower than a 10
 // Aura of Spite (7 psi) - project a malignant aura that fills your allies with hate. allies will regain hit points equal to half of the damage they deal
-
 
 // Nomadic Kinship
 new entry "Discipline_NomadicKinship"
@@ -337,19 +336,16 @@ type "PassiveData"
 data "DisplayName" "hfdfde903g01bcg49e5g8e59gf09c7124a33b"
 data "Description" "haef6fd27gdcbbg4546gb5a5g0d274aacda4b"
 data "Icon" "Action_Mystic_CrownedInSorrow"
-data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_NomadicKinship);UnlockSpell(Shout_Mystic_BestialSpeech);UnlockSpell(Target_Mystic_FriendOfTheForest);UnlockSpell(Target_Mystic_BestialCompanion);UnlockSpell(Target_Mystic_CommandBeast);UnlockSpell(Target_Mystic_BestialMight);"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_NomadicKinship);UnlockSpell(Shout_Mystic_BestialSpeech);UnlockSpell(Target_Mystic_FriendOfTheForest);UnlockSpell(Target_Mystic_BestialCompanion);UnlockSpell(Target_Mystic_BestialMight);"
 
-// UnlockSpell(Shout_Mystic_PsychicFocus_NomadicGuile);
 // UnlockSpell(Shout_Mystic_BestialSpeech);
 // UnlockSpell(Target_Mystic_FriendOfTheForest);
 // UnlockSpell(Target_Mystic_BestialCompanion);
-// UnlockSpell(Target_Mystic_CommandBeast);
 // UnlockSpell(Target_Mystic_BestialMight);
 
 // Bestial Speech (1 psi) - Speak with animals
 // Friend of the Forest (2 psi) - Animal Friendship
 // Bestial Companion (5 psi) - summon an eagle fren
-// Command Beast (6 psi) - Dominate beast
 // Bestial Might (7 psi) - Buff for fren
 
 // Infinite Abyss
@@ -360,7 +356,6 @@ data "Description" "h6dd9e89agaca7g449cg8ad2gda246737871b"
 data "Icon" "Action_Mystic_CrownedInSorrow"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_InfiniteAbyss);UnlockSpell(Target_Mystic_GlimpseOfTheVoid);UnlockSpell(Target_Mystic_SymbioticLink);UnlockSpell(Shout_Mystic_PsionicDisturbance);UnlockSpell(Shout_Mystic_EldritchEvolution);"
 
-// UnlockSpell(Shout_Mystic_PsychicFocus_InfiniteAbyss);
 // UnlockSpell(Target_Mystic_GlimpseOfTheVoid);
 // UnlockSpell(Target_Mystic_SymbioticLink);
 // UnlockSpell(Shout_Mystic_PsionicDisturbance);
