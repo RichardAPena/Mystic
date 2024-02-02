@@ -42,6 +42,9 @@
                                 <node id="SubClass">
                                     <attribute id="Object" type="guid" value="56b0ad9d-d24a-41d4-bade-5b1e2b82f6e6"/> Blade
                                 </node>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="576d5f3d-cf61-44ea-845b-7543440754e5"/> Unbound
+                                </node>
                             </children>
                         </node>
                     </children>
@@ -84,6 +87,9 @@
                                 </node>
                                 <node id="SubClass">
                                     <attribute id="Object" type="guid" value="56b0ad9d-d24a-41d4-bade-5b1e2b82f6e6"/> Blade
+                                </node>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="576d5f3d-cf61-44ea-845b-7543440754e5"/> Unbound
                                 </node>
                             </children>
                         </node>
@@ -161,6 +167,43 @@
                     <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_PsionicTrance"/>
                     <attribute id="TableUUID" type="guid" value="78100c3d-9c07-496e-a3b8-8aba8dee86ad"/>
                     <attribute id="UUID" type="guid" value="39e62574-46bf-4e34-9b26-1eb4983dae83"/>
+                </node>
+
+                <node id="Progression"> Unbound Level 1
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="OrderUnbound"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_WildPsionics"/>
+                    <attribute id="TableUUID" type="guid" value="f8509fda-caef-4ea0-b635-e6c2034d8ca0"/>
+                    <attribute id="UUID" type="guid" value="8cdbe256-ee62-445d-aee6-fe58772def8c"/>
+                </node>
+                <node id="Progression"> Unbound Level 3 
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="OrderUnbound"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_PsionicBattery;Passive_Mystic_ChaosControl"/>
+                    <attribute id="TableUUID" type="guid" value="f8509fda-caef-4ea0-b635-e6c2034d8ca0"/>
+                    <attribute id="UUID" type="guid" value="7ed024ae-bf8d-443b-a160-165e2aeff52a"/>
+                </node>
+                <node id="Progression"> Unbound Level 6
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="OrderUnbound"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_ChaosAspect"/>
+                    <attribute id="TableUUID" type="guid" value="f8509fda-caef-4ea0-b635-e6c2034d8ca0"/>
+                    <attribute id="UUID" type="guid" value="62d91ce9-b9c1-4af2-847e-a2ace10ed9d8"/>
+                </node>
+                <node id="Progression"> Unbound Level 14
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="14"/>
+                    <attribute id="Name" type="LSString" value="OrderUnbound"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_PsionicBattery_2;Passive_Mystic_SurgeMastery"/>
+                    <attribute id="TableUUID" type="guid" value="f8509fda-caef-4ea0-b635-e6c2034d8ca0"/>
+                    <attribute id="UUID" type="guid" value="70a12887-9070-4331-a0ad-0ed284e15996"/>
                 </node>
 
             </children>

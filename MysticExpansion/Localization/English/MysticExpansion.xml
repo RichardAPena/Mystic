@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <contentList>
 	<content contentuid="h93d8d4dag6047g4707g9faagb7770e4b5e77" version="1">Psionic Skirmishing</content>
-	<content contentuid="hf2b98943g5419g4f2cgacdcg50d9ec8b06e3" version="1">You achieve unparalleled mastery with your weapons, seamlessly merging them into an extension of your being.</content>
+	<content contentuid="hf2b98943g5419g4f2cgacdcg50d9ec8b06e3" version="1">You achieve unparalleled mastery with your weapons, merging them into an extension of your being.</content>
 	<content contentuid="h084a3829g8d51g4399g9f16g08634f3c3270" version="1">Psychic Focus: Psionic Skirmishing</content>
 	<content contentuid="heae38935gf23eg459fg8aacg83ef4866548a" version="1">Gain the effects of Fighting Style: Two-Weapon Fighting.</content>
 	<content contentuid="he8196685g8cf6g44eegb587gb27e6c3e7b63" version="1">Slice and Dice</content>
@@ -297,6 +297,7 @@
 	<content contentuid="ha3311afcg7663g4457g98aagba588ba5948a" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Nature &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="he5c02c44g56bbg4c27g80c4g0d3c426882d2" version="1">Toxic Spines</content>
 	<content contentuid="h2573bdb0g9ffbg4db9g871bg556d59d86776" version="1">TODO: Toxic Spines Description</content>
+	<content contentuid="hc857fd7egabe3g4f85gbacagad3e2c6f6b32" version="1">TODO: Toxic Spines Status Description</content>
 	<content contentuid="hcdafe5dcg4ac0g4a48g936cg60a4fb2d6c62" version="1">Thorny Briars</content>
 	<content contentuid="h0bac5de6gb9c7g44fegb7cege99e6f5e6b40" version="1">TODO: Thorny Briars Description</content>
 	<content contentuid="h5e1019c3g76adg4c3bga507gdcb1bed1b68c" version="1">TODO: Thorny Briars Status Description</content>
@@ -330,9 +331,9 @@
 	<content contentuid="hdaae2192g82e3g4d39g84b3ga7f7f1ab297c" version="1">Psychic Focus: Transcendent Form</content>
 	<content contentuid="h7469e6a5gd260g4708gb3b3g24604af18cfb" version="1">Reduce the number you need to &lt;LSTag Tooltip="AttackRoll"&gt;roll&lt;/LSTag&gt; a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; while attacking by 1.</content>
 	<content contentuid="h8b77df23ga2b3g4ab8g88b3g16158921f050" version="1">The number you need to &lt;LSTag Tooltip="AttackRoll"&gt;roll&lt;/LSTag&gt; a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; while attacking is reduced by 1.</content>
-	<content contentuid="" version="1">Transcendence</content>
-	<content contentuid="" version="1">TODO: Transcendence Description</content>
-	<content contentuid="" version="1">TODO: Transcendence Status Description</content>
+	<content contentuid="h60b325a1g5ad5g4585ga45eg69192644a0ca" version="1">Transcendence</content>
+	<content contentuid="h82d13dc9gfef7g4534gbbe1g1e7f43f23134" version="1">TODO: Transcendence Description</content>
+	<content contentuid="hf0871e5agc63eg4d14gbcb9g657b6d03a2f5" version="1">TODO: Transcendence Status Description</content>
 	<content contentuid="" version="1">End Transcendence</content>
 	<content contentuid="" version="1">TODO: End Transcendence Description</content>
 	<content contentuid="hb6c9ce12g6352g4b88gaa34ga02cabf3db02" version="1">Psychic Brand</content>
@@ -364,14 +365,14 @@
 	<content contentuid="h81f79e5dg8e42g4de0g850dgfed3dfffd7d5" version="1">Gain immunity against being &lt;LSTag Type="Status" Tooltip="CONFUSION"&gt;Confused&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="DOMINATE_PERSON"&gt;Dominated&lt;/LSTag&gt;.</content>
 	<content contentuid="h8652a4f3gdd02g4552g874cg671f24cea975" version="1">Immune to being &lt;LSTag Type="Status" Tooltip="CONFUSION"&gt;Confused&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="DOMINATE_PERSON"&gt;Dominated&lt;/LSTag&gt;.</content>	
 	<content contentuid="h0b0553bbgf4d7g4307g95fagf3608fdaf124" version="1">Delirium</content>
-	<content contentuid="h1fc9f47ag5dcfg4f0eg8255g0b41fde6ab82" version="1">TODO: Delirium Description</content>
-	<content contentuid="h590ff281gc254g4da4gbfb2g326c27d2249f" version="1">TODO: Delirium Status Description</content>
+	<content contentuid="h1fc9f47ag5dcfg4f0eg8255g0b41fde6ab82" version="1">Leave a creature &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; and disoriented, without the ability to get up.</content>
+	<content contentuid="h590ff281gc254g4da4gbfb2g326c27d2249f" version="1">Affected entity can't move or take actions, bonus actions, or reactions, and has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on Strength and Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;. Attacks made within [1] of it have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; against it.&lt;br&gt;&lt;br&gt;At the end of its turn or when it takes damage, the entity can try to shake off the effect.</content>
 	<content contentuid="h1275e117g3a2ag49d4gbdc9g03bd703a5884" version="1">Hysteria</content>
-	<content contentuid="h392a218cga3b4g44e2g9b25gd3535845e6c2" version="1">TODO: Hysteria Description</content>
-	<content contentuid="h270a3d4fgcd03g4d1dgae98g111377664e40" version="1">TODO: Hysteria Status Description</content>
+	<content contentuid="h392a218cga3b4g44e2g9b25gd3535845e6c2" version="1">Inflict a maddening hysteria in a humanoid enemy, making them attack the creature closest to them (other than you), even if it's allied.</content>
+	<content contentuid="h270a3d4fgcd03g4d1dgae98g111377664e40" version="1">Afflicted with a maddening hysteria. Will attack the nearest creature, other than the spellcaster.</content>
 	<content contentuid="h5c5b0e35g5bf1g41a3g87e0g29f0c7bb8e64" version="1">Paranoia</content>
 	<content contentuid="h9723d8f5g2fbeg463bgb898g71904a2336af" version="1">TODO: Paranoia Description</content>
-	<content contentuid="h010b3235gcdd4g4200g92abgb0fa593e4ed0" version="1">TODO: Paranoia Status Description</content>
+	<content contentuid="h010b3235gcdd4g4200g92abgb0fa593e4ed0" version="1">Can't move or take actions, bonus actions, or reactions. &lt;br&gt;&lt;br&gt;Removed by taking damage or when &lt;LSTag Type="Spell" Tooltip="Target_Help"&gt;Helped&lt;/LSTag&gt;.</content>
 	<content contentuid="h2ba2c3b3g137bg4f43gbd8cgcfb7fc480b84" version="1">Unending Torment</content>
 	<content contentuid="h43088a14g2b3dg4096g8605ge586e6f454fc" version="1">TODO: Unending Torment Description</content>
 	<content contentuid="he94bd508ge2a0g4ccegb95dgcfbd4537a48d" version="1">TODO: Unending Torment Status Description</content>
@@ -380,15 +381,15 @@
 	<content contentuid="hcde1959agf63ag436dg9489gf1da9eab1689" version="1">Psychic Focus: Nomadic Guile</content>
 	<content contentuid="hed6e6708ge82cg4507gbdb1g0e13d36f46b6" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Sleight of Hand &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="h83857e26g587cg4d12gb961g167fbf1828c1" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Sleight of Hand &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
-	<content contentuid="" version="1">A New Face </content>
-	<content contentuid="" version="1">TODO: A New Face Description</content>
-	<content contentuid="" version="1">TODO: A New Face Status Description</content>
-	<content contentuid="" version="1">Nimble Fingers</content>
-	<content contentuid="" version="1">TODO: Nimble Fingers Description</content>
-	<content contentuid="" version="1">TODO: Nimble Fingers Status Description</content>
-	<content contentuid="" version="1">Turn the Tables</content>
-	<content contentuid="" version="1">TODO: Turn the Tables Description</content>
-	<content contentuid="" version="1">TODO: Turn the Tables Status Description</content>
+	<content contentuid="h45fbd087g5daag4b51ga3b5gac8ed2a1948f" version="1">A New Face </content>
+	<content contentuid="h5b6dcb41gdcd0g49a8g8e84g378ac8ddb022" version="1">TODO: A New Face Description</content>
+	<content contentuid="hddae040eg5857g4ca8gb9b0g8d4e1acdb530" version="1">TODO: A New Face Status Description</content>
+	<content contentuid="h6f31a83cg9e00g417bg98cag1cd2ff3c3b09" version="1">Nimble Fingers</content>
+	<content contentuid="h39835206g62b1g44f2gb9aaga6e15fca4ff8" version="1">TODO: Nimble Fingers Description</content>
+	<content contentuid="h85b459f6gddf3g4958gb81fgc7d5ed828782" version="1">TODO: Nimble Fingers Status Description</content>
+	<content contentuid="h70b41b25gf872g479cg85e9g6c171d0dd074" version="1">Turn the Tables</content>
+	<content contentuid="hab05913bg7cbfg4424ga371g28ea555d0363" version="1">TODO: Turn the Tables Description</content>
+	<content contentuid="he7a67c29gf561g4f18ga56cg073ca2cd06f4" version="1">TODO: Turn the Tables Status Description</content>
 	<content contentuid="hc25f2345gd46ag4200gbc55g70ce18b3663a" version="1">Bestow Luck</content>
 	<content contentuid="hca765d74g100ag4b85g9a3dgeadcbd4f737f" version="1">TODO: Bestow Luck Description</content>
 	<content contentuid="h910bc346g0c9fg451cgb8e8g55a76f84138f" version="1">TODO: Bestow Luck Status Description</content>
@@ -406,17 +407,17 @@
 	<content contentuid="h82309ee9ge854g40ffg93c8ga8f8abf3942c" version="1">Redoubled Effort</content>
 	<content contentuid="hbe4241e1gded1g4e6cg9725g7f65a1403b0a" version="1">TOOD: Redoubled Effort Description</content>
 	<content contentuid="h1bf23384g9d26g4670gbbc6gf7bb1be0013a" version="1">TODO: Redoubled Effort Status Description</content>
-	<content contentuid="" version="1">Aura of Spite</content>
-	<content contentuid="" version="1">TODO: Aura of Spite Description</content>
-	<content contentuid="" version="1">TODO: Aura of Spite Status Description</content>
+	<content contentuid="h99e04fe5ga8e8g4cd6g85d6g8a46eecaa66a" version="1">Aura of Spite</content>
+	<content contentuid="h38daac01g8f39g4f65g920ag55aa0bcd85ff" version="1">TODO: Aura of Spite Description</content>
+	<content contentuid="h521bd92cg391cg477fg8d0dg4aa0324b76f6" version="1">TODO: Aura of Spite Status Description</content>
 	<content contentuid="hfdfde903g01bcg49e5g8e59gf09c7124a33b" version="1">Nomadic Kinship</content>
 	<content contentuid="haef6fd27gdcbbg4546gb5a5g0d274aacda4b" version="1">You extend your focus towards animals and wildlife, forming a deep psychic bond with them.</content>
 	<content contentuid="h4615c15cgcb98g486bg953fge6a8de890e08" version="1">Psychic Focus: Nomadic Kinship</content>
 	<content contentuid="h4da19600ge10fg460cgb4dcgabc3d9812e28" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Animal Handling &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="h5af411b2ga0edg4daag8e66g94c3885e60f0" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Animal Handling &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
-	<content contentuid="" version="1">Bestial Speech</content>
-	<content contentuid="" version="1">TODO: Bestial Speech Description</content>
-	<content contentuid="" version="1">TODO: Bestial Speech Status Description</content>
+	<content contentuid="hf64f1cd5g542cg4fa1g90a8g48336f793f00" version="1">Bestial Speech</content>
+	<content contentuid="h7855414eg993cg43a9gb696gc5bd8affa795" version="1">TODO: Bestial Speech Description</content>
+	<content contentuid="h71d50d9eg73e3g4a90g9a9cge6adf90c37c7" version="1">TODO: Bestial Speech Status Description</content>
 	<content contentuid="h27783ea2g1101g441bg8495g6d9562010a78" version="1">Friend of the Forest</content>
 	<content contentuid="h314da7ebgb8b8g43d7gb670g555f7b07bb33" version="1">TODO: Friend of the Forest Description</content>
 	<content contentuid="hb5bb4114g8698g49a5ga7cfg833906f763f9" version="1">TODO: Friend of the Forest Status Description</content>
@@ -435,20 +436,20 @@
 	<content contentuid="h8e29a274g6ce3g4efbg910bg80d76f95e0cc" version="1">Symbiotic Link</content>
 	<content contentuid="h19768d30g101cg4da9ga469g205fd7960a6a" version="1">TODO: Symbiotic Link Description</content>
 	<content contentuid="h57eaac7agaac5g4469g8106g53fbdfc916d4" version="1">TODO: Symbiotic Link Status Description</content>
-	<content contentuid="" version="1">Psionic Disturbance</content>
-	<content contentuid="" version="1">TODO: Psionic Disturbance Description</content>
-	<content contentuid="" version="1">TODO: Psionic Disturbance Status Description</content>
-	<content contentuid="" version="1">Eldritch Evolution</content>
-	<content contentuid="" version="1">TODO: Eldritch Evolution Description</content>
-	<content contentuid="" version="1">TODO: Eldritch Evolution Status Description</content>
-	<content contentuid="" version="1">Order of the Unbound</content>
-	<content contentuid="" version="1">The least understood order, mystics of this order embrace the unpredictability of their own mind, letting loose wild psionic surges with even the most fleeting thought.</content>
-	<content contentuid="" version="1">Wild Psionics</content>
-	<content contentuid="" version="1">Your intrusive thoughts can manifest into wild Psionic Surges. After spending Psi Points on a psionic discipline, there is a chance to trigger a Psionic Surge.</content>
-	<content contentuid="" version="1">Psionic Battery</content>
-	<content contentuid="" version="1">After triggering a Psionic Surge, regain 1 Psi Point.</content>
-	<content contentuid="" version="1">Chaos Control</content>
-	<content contentuid="" version="1">Adjust the likelihood of triggering a Psionic Surge.</content>
+	<content contentuid="hdc9474dcga71fg492fgbf38g1cd65b4bf78a" version="1">Psionic Disturbance</content>
+	<content contentuid="ha8a795acg2733g42f8ga433g18a846959647" version="1">TODO: Psionic Disturbance Description</content>
+	<content contentuid="h637577ffga8aeg4d11gbbbbgaf98ee7eabb6" version="1">TODO: Psionic Disturbance Status Description</content>
+	<content contentuid="ha70e6827gb65ag40e1g919bgc1e620f6a81c" version="1">Eldritch Evolution</content>
+	<content contentuid="h953238d0g6c9fg45ccgac03g4c129e1513d6" version="1">TODO: Eldritch Evolution Description</content>
+	<content contentuid="hda592217g6a3dg43b5g9aabg34cd88b137bd" version="1">TODO: Eldritch Evolution Status Description</content>
+	<content contentuid="hfc59c2cfg3fe6g4f8bga371g20676f22e0ea" version="1">Order of the Unbound (DO NOT USE)</content>
+	<content contentuid="h801602afg84acg4eccg8af6gbd71ddab7784" version="1">The least understood order, mystics of this order embrace the unpredictability of their own mind, letting loose wild psionic surges with even the most fleeting thought.</content>
+	<content contentuid="h7207fc46gfd06g4518g901agfdf73249419a" version="1">Wild Psionics</content>
+	<content contentuid="hd2f7b573ge538g41afgb0b0gf27bb5856991" version="1">Your intrusive thoughts can manifest into wild Psionic Surges. After spending Psi Points on a psionic discipline, there is a chance to trigger a Psionic Surge.</content>
+	<content contentuid="h7aaf31c5gbf9dg45f0g8a13g22729da327cc" version="1">Psionic Battery</content>
+	<content contentuid="hb4fb5683gccd0g464cgb909g5f3c54fb13d3" version="1">After triggering a Psionic Surge, regain 1 Psi Point.</content>
+	<content contentuid="hbb442710ge26dg42e8g82ceg8e321c4abaa3" version="1">Chaos Control</content>
+	<content contentuid="hc72cd748g1090g4f72g922bgcdc3deedc271" version="1">Adjust the likelihood of triggering a Psionic Surge.</content>
 	<content contentuid="" version="1">Chaotic State: Inert</content>
 	<content contentuid="" version="1">Psionic Surges will not trigger.</content>
 	<content contentuid="" version="1">Chaotic State: Stable</content>
@@ -459,11 +460,12 @@
 	<content contentuid="" version="1">Psionic Surges will trigger often.</content>
 	<content contentuid="" version="1">Chaotic State: Dangerous</content>
 	<content contentuid="" version="1">Psionic Surges will ALWAYS trigger.</content>
-	<content contentuid="" version="1">Chaos Aspect</content>
-	<content contentuid="" version="1">Allies within [1] will be able to trigger a wild Psionic Surge when taking an action once per turn. Can be toggled on or off.</content>
-	<content contentuid="" version="1">Improved Psionic Battery</content>
-	<content contentuid="" version="1">After triggering a Psionic Surge, regain 2 Psi Points.</content>
-	<content contentuid="" version="1">Surge Mastery</content>
-	<content contentuid="" version="1">After triggering a a Psionic Surge, there is a chance to regain a Psionic Mastery charge.</content>
+	<content contentuid="h642fc5efgfebcg4b78g8540g61cccc39aaf5" version="1">Chaos Aspect</content>
+	<content contentuid="hb4e3f90cg7940g46cfgb20cg663f8b16e180" version="1">Allies within [1] will be able to trigger a wild Psionic Surge when taking an action once per turn. Can be toggled on or off.</content>
+	<content contentuid="" version="1">TODO: Chaos Aspect Status Description</content>
+	<content contentuid="hbcb743bfgadb6g4e11gb374g2d6ed0c6ab12" version="1">Improved Psionic Battery</content>
+	<content contentuid="h81560408gc550g4a4dg8d62g6ea71e7d2283" version="1">After triggering a Psionic Surge, regain 2 Psi Points.</content>
+	<content contentuid="h16f00cc9g955fg4e2egb630g1b4c16e78990" version="1">Surge Mastery</content>
+	<content contentuid="h39661ee6g298eg4b51g8bf9gbc81d7988839" version="1">After triggering a a Psionic Surge, there is a chance to regain a Psionic Mastery charge.</content>
 	<content contentuid="" version="1"> </content>
 </contentList>

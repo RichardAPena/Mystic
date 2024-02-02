@@ -4,6 +4,6 @@ type "SpellData"
 data "SpellType" "Wall"
 data "Level" "6"
 
-data "Icon" "Action_Mystic_CrownedInSorrow"
+data "Icon" "Action_Mystic_StarRail"
 data "DisplayName" "h9721cd31gaa36g4f23gb14fg4fd6b9be7f5c"
 data "Description" "h7c99532ag9e86g41b3g86d1gabdde263f7fa"

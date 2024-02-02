@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="319"/>
+    <region id="Outcomes">
+        <node id="root">
+            <children>
+
+                Will have like 50 of these
+                <node id="Outcome">
+                    <attribute id="GroupName" type="FixedString" value="WildPsionics"/>
+                    <attribute id="Spell" type="FixedString" value=""/>
+                    <attribute id="UUID" type="guid" value=""/>
+                </node>
+
+            </children>
+        </node>
+    </region>
+</save>

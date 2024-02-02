@@ -36,6 +36,22 @@
                     <attribute id="SpellCastingAbility" type="uint8" value="4" />
                     <attribute id="UUID" type="guid" value="56b0ad9d-d24a-41d4-bade-5b1e2b82f6e6" />
                 </node>        
+                <node id="ClassDescription">
+                    <attribute id="CanLearnSpells" type="bool" value="false" />
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
+                    <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_MYSTIC_WU_JEN" />
+                    <attribute id="Description" type="TranslatedString" handle="h801602afg84acg4eccg8af6gbd71ddab7784" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="hfc59c2cfg3fe6g4f8bga371g20676f22e0ea" version="1" />
+                    <attribute id="LearningStrategy" type="uint8" value="1" />
+                    <attribute id="MustPrepareSpells" type="bool" value="false" />
+                    <attribute id="Name" type="FixedString" value="OrderUnbound" />
+                    <attribute id="ParentGuid" type="guid" value="b9b47ec2-35de-43d0-9593-7bee0bf9e808" />
+                    <attribute id="PrimaryAbility" type="uint8" value="4" />
+                    <attribute id="ProgressionTableUUID" type="guid" value="f8509fda-caef-4ea0-b635-e6c2034d8ca0" />
+                    <attribute id="SoundClassType" type="FixedString" value="Wizard" />
+                    <attribute id="SpellCastingAbility" type="uint8" value="4" />
+                    <attribute id="UUID" type="guid" value="576d5f3d-cf61-44ea-845b-7543440754e5" />
+                </node> 
       </children>
     </node>
   </region>

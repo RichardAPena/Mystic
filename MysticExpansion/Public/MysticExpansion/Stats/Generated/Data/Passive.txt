@@ -30,7 +30,7 @@ new entry "Discipline_NomadicHunting"
 type "PassiveData"
 data "DisplayName" "h36904f5dge6e2g484ag83b4gfba16332ed25"
 data "Description" "h0e7507b7g68c4g41a7gaf34g1a54a949287f"
-data "Icon" "Action_Mystic_CrownedInSorrow"
+data "Icon" "Action_Mystic_JavelinToss"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_NomadicHunting);UnlockSpell(Projectile_Mystic_JavelinToss);UnlockSpell(Target_Mystic_NomadsMark);UnlockSpell(Target_Mystic_NomadicSnare);UnlockSpell(Shout_Mystic_HuntingParty);"
 
 // UnlockSpell(Projectile_Mystic_JavelinToss);
@@ -49,7 +49,7 @@ new entry "Discipline_MantleOfSerenity"
 type "PassiveData"
 data "DisplayName" "h660cf269gc118g47c7g9ec3g2edb7b3490ff"
 data "Description" "h0e323662g0dbag4732g9fd7g8e91d11d9dbe"
-data "Icon" "Action_Mystic_CrownedInSorrow"
+data "Icon" "Action_Mystic_MassRepose"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MantleOfSerenity);UnlockSpell(Target_Mystic_Lull);UnlockSpell(Target_Mystic_Abate);UnlockSpell(Shout_Mystic_AuraOfTranquility);UnlockSpell(Target_Mystic_Hibernate);UnlockSpell(Shout_Mystic_LucidDreaming);UnlockSpell(Target_Mystic_MassRepose);"
 
 // UnlockSpell(Target_Mystic_Lull);
@@ -72,7 +72,7 @@ new entry "Discipline_PsychicDistortion"
 type "PassiveData"
 data "DisplayName" "hff8b0098g25ffg47d8g892dg4d2bc4cb2106"
 data "Description" "h89e7f56dg83d7g472bgb6aeg9e89cb8d2e19"
-data "Icon" "Action_Mystic_CrownedInSorrow"
+data "Icon" "Action_Mystic_PsychicDouble"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_PsychicDistortion);UnlockSpell(Shout_Mystic_ObscuringVeil);UnlockSpell(Target_Mystic_PsychicDouble);UnlockSpell(Shout_Mystic_Mirage);UnlockSpell(Shout_Mystic_IllusoryHorde);UnlockSpell(Target_Mystic_EtherealShroud);"
 
 // UnlockSpell(Shout_Mystic_ObscuringVeil);
@@ -93,7 +93,7 @@ new entry "Discipline_CrimsonHarvest"
 type "PassiveData"
 data "DisplayName" "h281052beg0da2g4aa7gb8e6g886f1a2202ee"
 data "Description" "hd60be5a7g7c63g419cgb7f9g8c22582607c0"
-data "Icon" "Action_Mystic_CrownedInSorrow"
+data "Icon" "Action_Mystic_Transfusion"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_CrimsonHarvest);UnlockSpell(Target_Mystic_Transfusion);UnlockSpell(Shout_Mystic_CrimsonEruption);UnlockSpell(Shout_Mystic_BloodFrenzy);UnlockSpell(Shout_Mystic_SanguineInfusion);"
 
 // UnlockSpell(Target_Mystic_Transfusion);
@@ -112,7 +112,7 @@ new entry "Discipline_TitanicPresence"
 type "PassiveData"
 data "DisplayName" "h0af8819eg1f9eg4729g9fb6g0927f8359fe1"
 data "Description" "h57c3d34egba11g4b36ga3d4gc19b157860ec"
-data "Icon" "Action_Mystic_CrownedInSorrow"
+data "Icon" "Action_Mystic_TitansRage"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_TitanicPresence);UnlockSpell(Target_Mystic_Provoke);UnlockSpell(Shout_Mystic_TitansRage);UnlockSpell(Shout_Mystic_Intervene);UnlockSpell(Shout_Mystic_MenacingPresence);UnlockSpell(Projectile_Mystic_TitanicLeap);"
 
 // UnlockSpell(Target_Mystic_Provoke);
@@ -133,7 +133,7 @@ new entry "Discipline_SoulReaper"
 type "PassiveData"
 data "DisplayName" "h527d7f26g8dc6g4852g8391g5e545e75c2f0"
 data "Description" "hc6241d62g01dcg47e5g9c75gf5a067fcaa0a"
-data "Icon" "Action_Mystic_CrownedInSorrow"
+data "Icon" "Action_Mystic_SoulHarvest"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_SoulReaper);UnlockSpell(Target_Mystic_SoulHarvest);UnlockSpell(Target_Mystic_SoulGrip);UnlockSpell(Target_Mystic_Souleater);UnlockSpell(Target_Mystic_Doom);"
 
 // UnlockSpell(Target_Mystic_SoulHarvest);
@@ -152,7 +152,7 @@ new entry "Discipline_CrownOfApathy"
 type "PassiveData"
 data "DisplayName" "h4f83831eg1c7bg44e0g8cfdg8a01097ef699"
 data "Description" "h9a6cebf2g5932g437ag9ff6g4298ec8093fd"
-data "Icon" "Action_Mystic_CrownedInSorrow"
+data "Icon" "Action_Mystic_AuraOfIndifference"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_CrownOfApathy);UnlockSpell(Target_Mystic_WaveOfApathy);UnlockSpell(Target_Mystic_Lassitude);UnlockSpell(Target_Mystic_InciteApathy);UnlockSpell(Shout_Mystic_AuraOfIndifference);"
 
 // UnlockSpell(Target_Mystic_WaveOfApathy);
@@ -171,7 +171,7 @@ new entry "Discipline_NomadicGrace"
 type "PassiveData"
 data "DisplayName" "h34368b6cgcb6cg4965g8411g07a0b5bb2dae"
 data "Description" "h83ae95edg6a73g4c34g81e5gee9615b1ba91"
-data "Icon" "Action_Mystic_CrownedInSorrow"
+data "Icon" "Action_Mystic_QuickDraw"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_NomadicGrace);UnlockSpell(Projectile_Mystic_GaleSlash);UnlockSpell(Shout_Mystic_QuickDraw);UnlockSpell(Target_Mystic_BlessingOfTheWinds);UnlockSpell(Target_Mystic_SteelTempest);"
 
 // UnlockSpell(Projectile_Mystic_GaleSlash);
@@ -202,7 +202,7 @@ new entry "Discipline_MasteryOfStars"
 type "PassiveData"
 data "DisplayName" "h82c532f5g19f8g4adag880dgf693ebe925a7"
 data "Description" "hadaff898ge06bg41a0ga205g9e95307b3b96"
-data "Icon" "Action_Mystic_CrownedInSorrow"
+data "Icon" "Action_Mystic_Starstorm"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MasteryOfStars);UnlockSpell(Projectile_Mystic_AstralMote);UnlockSpell(Shout_Mystic_Moonlight);UnlockSpell(Target_Mystic_Sunburst);UnlockSpell(Wall_Mystic_StarRail);UnlockSpell(Target_Mystic_Starstorm);"
 
 // UnlockSpell(Projectile_Mystic_AstralMote);
@@ -223,7 +223,7 @@ new entry "Discipline_MasteryOfNature"
 type "PassiveData"
 data "DisplayName" "h4aaceeaag3e26g423dg8971gb890b1e46242"
 data "Description" "h9eee953ege87eg4b49gaefag408aa04dcca4"
-data "Icon" "Action_Mystic_CrownedInSorrow"
+data "Icon" "Action_Mystic_Regrowth"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MasteryOfNature);UnlockSpell(Projectile_Mystic_ToxicSpines);UnlockSpell(Projectile_Mystic_ThornyBriars);UnlockSpell(Target_Mystic_Regrowth);UnlockSpell(Target_Mystic_Brambleskin);UnlockSpell(Shout_Mystic_MassEntanglement);"
 
 // UnlockSpell(Projectile_Mystic_ToxicSpines);
@@ -244,7 +244,7 @@ new entry "Discipline_MantleOfPride"
 type "PassiveData"
 data "DisplayName" "h64bca6e5ga582g4f4cg957cg0dc2ab813ea1"
 data "Description" "had933094g6dbbg4d22gb45dge3dca2d6f516"
-data "Icon" "Action_Mystic_CrownedInSorrow"
+data "Icon" "Action_Mystic_PridefulMantle"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MantleOfPride);UnlockSpell(Target_Mystic_Exaltation);UnlockSpell(Target_Mystic_Hubris);UnlockSpell(Shout_Mystic_AuraOfContempt);UnlockSpell(Shout_Mystic_PridefulMantle);"
 
 // UnlockSpell(Target_Mystic_Exaltation);
@@ -264,7 +264,7 @@ new entry "Discipline_TranscendentForm"
 type "PassiveData"
 data "DisplayName" "h2d4a68dcga907g459fg9b70g8cf2a1d105de"
 data "Description" "hf70e2b82g5bcbg4ba9g8e30ga2085dcdd67e"
-data "Icon" "Action_Mystic_CrownedInSorrow"
+data "Icon" "Action_Mystic_Transcendence"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_TranscendentForm);UnlockSpell(Shout_Mystic_Transcendence);UnlockSpell(Target_Mystic_PsychicBrand);UnlockSpell(Target_Mystic_SpectralArms);"
 
 // UnlockSpell(Shout_Mystic_Transcendence);
@@ -280,7 +280,7 @@ new entry "Discipline_MantleOfInsanity"
 type "PassiveData"
 data "DisplayName" "h173730c5gfbd7g4dd7g9b08gd1b2fa2e786f"
 data "Description" "h91454975g98d4g4f95gb9a9gd9475a5af3ec"
-data "Icon" "Action_Mystic_CrownedInSorrow"
+data "Icon" "Action_Mystic_Hysteria"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MantleOfInsanity);UnlockSpell(Target_Mystic_Delirium);UnlockSpell(Target_Mystic_Hysteria);UnlockSpell(Target_Mystic_Paranoia);UnlockSpell(Target_Mystic_UnendingTorment);"
 
 // UnlockSpell(Target_Mystic_Delirium);
@@ -298,7 +298,7 @@ new entry "Discipline_NomadicGuile"
 type "PassiveData"
 data "DisplayName" "h354ec41fg4559g435ag90fcgb93670fa151b"
 data "Description" "h76ab8912g40c9g42a4gb2e9ga28ebb53f8d9"
-data "Icon" "Action_Mystic_CrownedInSorrow"
+data "Icon" "Action_Mystic_TurnTheTables"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_NomadicGuile);UnlockSpell(Shout_Mystic_ANewFace);UnlockSpell(Shout_Mystic_NimbleFingers);UnlockSpell(Shout_Mystic_TurnTheTables);UnlockSpell(Target_Mystic_BestowLuck);"
 
 // UnlockSpell(Shout_Mystic_ANewFace);
@@ -316,7 +316,7 @@ new entry "Discipline_CrownOfEnvy"
 type "PassiveData"
 data "DisplayName" "hf3618c94g2366g4760gaaabgadeb7078871c"
 data "Description" "he86e758agf86ag4c29g9729g3a03dd6c22e5"
-data "Icon" "Action_Mystic_CrownedInSorrow"
+data "Icon" "Action_Mystic_SeethingIre"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_CrownOfEnvy);UnlockSpell(Target_Mystic_SeethingIre);UnlockSpell(Target_Mystic_Vendetta);UnlockSpell(Target_Mystic_RedoubledEffort);UnlockSpell(Shout_Mystic_AuraOfSpite);"
 
 // UnlockSpell(Shout_Mystic_PsychicFocus_CrownOfEnvy);
@@ -335,7 +335,7 @@ new entry "Discipline_NomadicKinship"
 type "PassiveData"
 data "DisplayName" "hfdfde903g01bcg49e5g8e59gf09c7124a33b"
 data "Description" "haef6fd27gdcbbg4546gb5a5g0d274aacda4b"
-data "Icon" "Action_Mystic_CrownedInSorrow"
+data "Icon" "Action_Mystic_BestialCompanion"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_NomadicKinship);UnlockSpell(Shout_Mystic_BestialSpeech);UnlockSpell(Target_Mystic_FriendOfTheForest);UnlockSpell(Target_Mystic_BestialCompanion);UnlockSpell(Target_Mystic_BestialMight);"
 
 // UnlockSpell(Shout_Mystic_BestialSpeech);
@@ -353,7 +353,7 @@ new entry "Discipline_InfiniteAbyss"
 type "PassiveData"
 data "DisplayName" "h2b15ee7dgb393g402egaad3g5e9cd64f2455"
 data "Description" "h6dd9e89agaca7g449cg8ad2gda246737871b"
-data "Icon" "Action_Mystic_CrownedInSorrow"
+data "Icon" "Action_Mystic_EldritchEvolution"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_InfiniteAbyss);UnlockSpell(Target_Mystic_GlimpseOfTheVoid);UnlockSpell(Target_Mystic_SymbioticLink);UnlockSpell(Shout_Mystic_PsionicDisturbance);UnlockSpell(Shout_Mystic_EldritchEvolution);"
 
 // UnlockSpell(Target_Mystic_GlimpseOfTheVoid);
@@ -526,60 +526,88 @@ data "Boosts" "UnlockSpell(Shout_Mystic_PsionicTrance);"
 // Wild Psionics
 new entry "Passive_Mystic_WildPsionics"
 type "PassiveData"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h7207fc46gfd06g4518g901agfdf73249419a"
+data "Description" "hd2f7b573ge538g41afgb0b0gf27bb5856991"
 data "DescriptionParams" ""
-data "Icon" "Action_Mystic_CrownedInSorrow"
+data "Icon" "Passive_Mystic_WildPsionics"
 data "Properties" "Highlighted"
 data "Boosts" ""
+data "StatsFunctorContext" "OnCast"
+data "Conditions" "not IsCantrip() and HasSpellFlag(SpellFlags.Spell) and PsionicDisciplineCheck()"
+// data "StatsFunctors" "IF(not (HasStatus('WILD_MAGIC_GUARANTEED',context.Source) or Tagged('SORCERER_WILD_MAGIC_SUPRESSED', context.Source))):TriggerRandomCast(20,,WildMagic,WildMagicTurn)"
+
+
+// new entry "WildMagic"
+// data "StatsFunctors" "IF(Tagged('SORCERER_WILD_MAGIC_GUARANTEED', context.Source)):TriggerRandomCast(1,,WildMagic);IF(HasStatus('TIDES_OF_CHAOS',context.Source) and not Tagged('SORCERER_WILD_MAGIC_GUARANTEED', context.Source)):TriggerRandomCast(11,,WildMagic,WildMagicTurn);IF(not HasStatus('TIDES_OF_CHAOS',context.Source) and not (HasStatus('WILD_MAGIC_GUARANTEED',context.Source) or Tagged('SORCERER_WILD_MAGIC_SUPRESSED', context.Source))):TriggerRandomCast(20,,WildMagic,WildMagicTurn);IF(HasStatus('TIDES_OF_CHAOS',context.Source)):RemoveStatus(SELF,TIDES_OF_CHAOS)"
+
+// 1  =   5% || 100%  <- Dangerous
+// 2  =  10% || 95%
+// 3  =  15% || 90%
+// 4  =  20% || 85%
+// 5  =  25% || 80%
+// 6  =  30% || 75%
+// 7  =  35% || 70%   <- Volatile
+// 8  =  40% || 65%
+// 9  =  45% || 60%
+// 10 =  50% || 55%
+// 11 =  55% || 50%
+// 12 =  60% || 45%
+// 13 =  65% || 40%   <- Active
+// 14 =  70% || 35%
+// 15 =  75% || 30%
+// 16 =  80% || 25%
+// 17 =  85% || 20%
+// 18 =  90% || 15%
+// 19 =  95% || 10%   <- Stable
+// 20 = 100% || 5%
+// OFF                <- Inert
 
 // Psionic Battery
 new entry "Passive_Mystic_PsionicBattery"
 type "PassiveData"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h7aaf31c5gbf9dg45f0g8a13g22729da327cc"
+data "Description" "hb4fb5683gccd0g464cgb909g5f3c54fb13d3"
 data "DescriptionParams" ""
-data "Icon" "Action_Mystic_CrownedInSorrow"
+data "Icon" "Passive_Mystic_PsionicBattery"
 data "Properties" "Highlighted"
 data "Boosts" ""
 
 // Chaos Control
 new entry "Passive_Mystic_ChaosControl"
 type "PassiveData"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "hbb442710ge26dg42e8g82ceg8e321c4abaa3"
+data "Description" "hc72cd748g1090g4f72g922bgcdc3deedc271"
 data "DescriptionParams" ""
-data "Icon" "Action_Mystic_CrownedInSorrow"
+data "Icon" "Action_Mystic_ChaosControl"
 data "Properties" "Highlighted"
 data "Boosts" ""
 
 // Chaos Aspect
 new entry "Passive_Mystic_ChaosAspect"
 type "PassiveData"
-data "DisplayName" ""
-data "Description" ""
+data "DisplayName" "h642fc5efgfebcg4b78g8540g61cccc39aaf5"
+data "Description" "hb4e3f90cg7940g46cfgb20cg663f8b16e180"
 data "DescriptionParams" ""
-data "Icon" "Action_Mystic_CrownedInSorrow"
+data "Icon" "Passive_Mystic_ChaosAspect"
 data "Properties" "Highlighted"
 data "Boosts" ""
 
+// Improved Psionic Battery
+new entry "Passive_Mystic_PsionicBattery_2"
+type "PassiveData"
+data "DisplayName" "hbcb743bfgadb6g4e11gb374g2d6ed0c6ab12"
+data "Description" "h81560408gc550g4a4dg8d62g6ea71e7d2283"
+data "DescriptionParams" ""
+data "Icon" "Passive_Mystic_PsionicBattery"
+data "Properties" "Highlighted"
+data "Boosts" ""
 
-// Order of the [Metapsionics?]
-// maybe give em extra psi points?
-// 1  - [Bonus Discipline] Choose an extra discipline (any)
-// 1  - [Metapsionics] Gain access to metapsionics (metamagic), choose 1
-// 3  - [Metapsionics] Choose 2 extra metapsionics
-// 6  -
-// 14 - 
-
-
-
-// Order of the [Wild Magic?]
-// => Magic Awareness, Unstable Backlash, Bolstering Magic, Tides of Chaos, Bend Luck, Controlled Chaos
-// => wild magic aura? wild magic curse? wild infusion? (regain 3 psi and force a wild magic surge)
-// 1  - [Bonus Discipline] Choose an extra discipline (any)
-// 1  - [Wild Psionics] Gain access to Psionic Surges (Wild Magic surges)
-// 3  - Adjust intensity of psionic surges - Uncommon, Normal, Frequent, Always
-// 3  - 
-// 6  - 
-// 14 -
+// Surge Mastery
+new entry "Passive_Mystic_SurgeMastery"
+type "PassiveData"
+data "DisplayName" "h16f00cc9g955fg4e2egb630g1b4c16e78990"
+data "Description" "h39661ee6g298eg4b51g8bf9gbc81d7988839"
+data "DescriptionParams" ""
+data "Icon" "Passive_Mystic_SurgeMastery"
+data "Properties" "Highlighted"
+data "Boosts" ""
