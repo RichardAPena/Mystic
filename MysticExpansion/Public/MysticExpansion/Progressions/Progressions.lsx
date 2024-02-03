@@ -100,8 +100,9 @@
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="OrderAscetic"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_PsionicFists;Passive_Mystic_PsionicFists_Bonus"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_PsionicFists;Passive_Mystic_PsionicFists_Bonus;Passive_Mystic_UnarmoredDefense;Passive_Mystic_PsychicBlows;Passive_Mystic_KineticBlows"/>
                     <attribute id="TableUUID" type="guid" value="1c7b47a8-d031-4c79-bc6b-4d003b0eb2bd"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(48317e03-fe2a-4767-8f4d-1bdc2a40ac65,1,PsionicDisciplines)"/>
                     <attribute id="UUID" type="guid" value="9c8cc5b0-f939-4060-b885-b2dbde594454"/>
                 </node>
                 <node id="Progression"> Ascetic Level 3
@@ -175,6 +176,7 @@
                     <attribute id="Name" type="LSString" value="OrderUnbound"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_WildPsionics"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(48317e03-fe2a-4767-8f4d-1bdc2a40ac65,1,PsionicDisciplines)"/>                    
                     <attribute id="TableUUID" type="guid" value="f8509fda-caef-4ea0-b635-e6c2034d8ca0"/>
                     <attribute id="UUID" type="guid" value="8cdbe256-ee62-445d-aee6-fe58772def8c"/>
                 </node>

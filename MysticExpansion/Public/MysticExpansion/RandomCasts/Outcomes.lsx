@@ -9,7 +9,7 @@
                 <node id="Outcome">
                     <attribute id="GroupName" type="FixedString" value="WildPsionics"/>
                     <attribute id="Spell" type="FixedString" value=""/>
-                    <attribute id="UUID" type="guid" value=""/>
+                    <attribute id="UUID" type="guid" value="f3b57198-220f-463f-a5e5-c4bceb247ec2"/>
                 </node>
 
             </children>
