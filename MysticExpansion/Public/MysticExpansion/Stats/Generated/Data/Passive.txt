@@ -238,7 +238,7 @@ new entry "Passive_Mystic_ThornyBriars"
 type "PassiveData"
 data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnMovedDistance"
-data "StatsFunctors" "DealDamage(2d4,Slashing)"
+data "StatsFunctors" "DealDamage(SELF,2d4,Slashing,Magical)"
 
 // Regrowth
 new entry "Passive_Mystic_Regrowth"
@@ -286,8 +286,9 @@ new entry "Passive_Mystic_AuraOfSpite"
 type "PassiveData"
 data "DisplayName" "h99e04fe5ga8e8g4cd6g85d6g8a46eecaa66a"
 data "Properties" "IsHidden"
-data "StatsFunctorContext" "OnCast"
-data "StatsFunctors" "DealDamage(SELF,2d6,Psychic,Magical)"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "TotalDamageDoneGreaterThan(0)"
+data "StatsFunctors" "RegainHitPoints(SELF,TotalDamageDone/2)"
 
 // TODO:
 // - Allow smite to be cast after the attack is made

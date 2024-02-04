@@ -149,7 +149,7 @@
 	<content contentuid="h1c2f9accg8943g4607ga2f8ga6126c9dec17" version="1">Appease a creature, removing and preventing any &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charmed&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;, or enraged effects.</content>
 	<content contentuid="h8b914e10gd51dg4b99ga0b3g7fe5b689e0f2" version="1">Can't be &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charmed&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;, and can't &lt;LSTag Type="Spell" Tooltip="Shout_Rage"&gt;Rage&lt;/LSTag&gt;.</content>
 	<content contentuid="hd91422f6ga89fg4ff7g809dge27c0c0ccc76" version="1">Aura of Tranquility</content>
-	<content contentuid="h764409f9ge516g4f31g83f0g292f970d6576" version="1">Exert an aura of peace. Nearby allies regain [1] each turn</content>
+	<content contentuid="h764409f9ge516g4f31g83f0g292f970d6576" version="1">Exert an aura of peace, causing nearby allies to regain [1] at the end of each turn.</content>
 	<content contentuid="hddf1e669g6ffcg4c43g8771gce1eee492df0" version="1">At the end of each of their turns, allies regain [1].</content>
 	<content contentuid="h76d5fd11gb6c9g4326gb1eag9f1096d767d7" version="1">At the end of your turn, regain [1].</content>
 	<content contentuid="h5ced2dbfg5400g48a1g84c7g160b8fb1ae06" version="1">Hibernate</content>
@@ -180,7 +180,7 @@
 	<content contentuid="h54459aeag9e4eg4e59g999cg01b2e8e8d255" version="1">Ethereal Shroud</content>
 	<content contentuid="ha4bd7eb9gdfb8g4315g9ffdg6218d2e873da" version="1">Create a shroud that distorts perception. Creatures within gain the effects of &lt;LSTag Type="Spell" Tooltip="Target_Invisibility_Greater"&gt;Greater Invisibility&lt;/LSTag&gt;.</content>
 	<content contentuid="he2e61aa1g468dg47c5ga0a3g2bc169712cd9" version="1">Entity has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;. Attack Rolls against it have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;. &lt;br&gt;&lt;br&gt;When interacting with items, casting spells or attacking, the entity needs to succeed a Stealth &lt;LSTag Tooltip="AbilityCheck"&gt;Check&lt;/LSTag&gt; to maintain Invisibility. The check becomes harder with each successful attempt.</content>
-	<content contentuid="h281052beg0da2g4aa7gb8e6g886f1a2202ee" version="1">(NYI) Crimson Harvest</content>
+	<content contentuid="h281052beg0da2g4aa7gb8e6g886f1a2202ee" version="1">Crimson Harvest</content>
 	<content contentuid="hd60be5a7g7c63g419cgb7f9g8c22582607c0" version="1">You learn to psionically manipulate blood, siphoning the life force from foes and strengthening yourself and allies.</content>
 	<content contentuid="hc1e0e6d2g1c7eg4e15gaeb4g645a726c06e3" version="1">Psychic Focus: Crimson Harvest</content>
 	<content contentuid="hc6d47f53g9eacg4789g8b50g954bdc4c6a4c" version="1">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Necrotic damage.</content>
@@ -191,7 +191,7 @@
 	<content contentuid="hd0efb37fg0941g49e5g9ecfg0665f58466ee" version="1">Unleash an explosion of blood, healing you for half of the damage dealt.</content>
 	<content contentuid="hdb83f305g4261g41d9g8c57g45e5ac3046ee" version="1">Blood Frenzy</content>
 	<content contentuid="h6dc222fegecf0g4e18gb4c8ge6be0991d7e9" version="1">Sacrifice your own blood for power, taking [1]. Your &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; increases by [2] and you gain [3] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; at the start of each turn.</content>
-	<content contentuid="heda9661bgd618g4d8ag95d3g1d6ebd9b775b" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; increased by [1]. At the start of each of your turns, gain [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;.</content>
+	<content contentuid="heda9661bgd618g4d8ag95d3g1d6ebd9b775b" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; increased by [1]. At the start of each of your turns, gain [2] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;.</content>
 	<content contentuid="hcbb19d99g0129g46cfg9402g349073d78966" version="1">Gained [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;.</content>
 	<content contentuid="h17b31e10g0f2fg493egb57cg4a1095dbc085" version="1">Sanguine Infusion</content>
 	<content contentuid="hc25953d3gd4fcg429ag8d33gb3233da38792" version="1">Empower the blood of nearby allies, giving them &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Necrotic damage and &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Strength, Dexterity and Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
@@ -205,7 +205,7 @@
 	<content contentuid="h78a52c11ge93fg494fg90a1gde2097e5a145" version="1">Infuriate a creature, forcing it to attack you on its next turn.</content>
 	<content contentuid="hd03c0800gc469g4041gaf1fgd73173eb8f6a" version="1">Cannot attack creatures other than the spellcaster.</content>
 	<content contentuid="had59b23dgbd8dg4919gbecfgfd3a35a3baa3" version="1">Titan's Rage</content>
-	<content contentuid="hd85d9703gc973g4113g8ee5g60e14f2a0509" version="1">Burst into a titanic rage. While raging, your melee attacks deal an additional [1]. &lt;br&gt;&lt;br&gt;You gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to physical damage, and &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Strength &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;. You use your Intelligence instead of Strength for Strength &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;You gain &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; to maintain &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; and your &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; is reduced by [2].</content>
+	<content contentuid="hd85d9703gc973g4113g8ee5g60e14f2a0509" version="1">Burst into a titanic rage. While raging, your melee attacks deal an additional [1]. &lt;br&gt;&lt;br&gt;You gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to physical damage, and &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Strength &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;. You use your Intelligence instead of Strength for Strength &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;You suffer &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; to maintain &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; and your &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; is reduced by [2].</content>
 	<content contentuid="hd9226679gb30cg4f96ga514g1c89e5711ff4" version="1">Deals an additional [1] damage with melee and improvised weapons, and while throwing objects.&lt;br&gt;&lt;br&gt;Has &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to physical damage, and &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Strength &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;. Uses Intelligence instead of Strength for Strength &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;. &lt;br&gt;&lt;br&gt;Has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; to maintain &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt;. &lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; decreased by [2].</content>
 	<content contentuid="h08ac4772g138dg411eg85edgd55aa1a4d7b5" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Rage ends early if the mystic hasn't attacked an enemy or taken damage since their last turn.</content>
 	<content contentuid="" version="1">End Titan's Rage</content>
@@ -228,7 +228,7 @@
 	<content contentuid="h17705b51g3538g45afgb800g2c6732f4f01a" version="1">Soul Grip</content>
 	<content contentuid="h3621851fg67f3g4745g9f64gb9d4a44e3e85" version="1">Pull a willing or unwilling creature towards you.</content>
 	<content contentuid="hbd372084g55c8g42a7g8426g0ab4065a58f0" version="1">Souleater</content>
-	<content contentuid="hccd09168gb515g4a6cg92cbgef6be875ed23" version="1">Sever a creature's soul from its body. If this reduces a target to 0 hit points, you regain an action and 5 Psi Points.</content>
+	<content contentuid="hccd09168gb515g4a6cg92cbgef6be875ed23" version="1">Sever a creature's soul from its body. If this reduces a target to [1], you regain an action and 5 Psi Points.</content>
 	<content contentuid="he267b376g3205g44b3g9addgf9cbd3d31900" version="1">Doom</content>
 	<content contentuid="h5ad845a8g85c9g41c3gaf07g6719a9efdec0" version="1">Doom a creature to certain death. While you remain within [1] of it, it cannot regain hit points, its &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; is halved it will lose any &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; it has.</content>
 	<content contentuid="h47f33188gb5b3g41c8g941eg06bd8e201b9b" version="1">Affected creature cannot regain hit points, its &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; is halved and no longer has any &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt;.</content>
@@ -238,7 +238,7 @@
 	<content contentuid="h3de96f4bg290eg464cg8877g6462128cb209" version="1">Gain immunity against being &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charmed&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;.</content>
 	<content contentuid="h4d9c8beag4b76g46b2gb626gfc6a02148e52" version="1">Immune against being &lt;LSTag Type="Status" Tooltip="Charmed"&gt;Charmed&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;.</content>
 	<content contentuid="hb00d4a4eg935bg4c68gbdecge3b8ef376d02" version="1">Wave of Apathy</content>
-	<content contentuid="hb7faab82g6db8g4fc3g8d99g2f03a7b47bbb" version="1">Unleash a wave of apathy on up to [1] creatures. Targets suffer &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on their next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
+	<content contentuid="hb7faab82g6db8g4fc3g8d99g2f03a7b47bbb" version="1">Unleash a wave of apathy on up to [1] creature(s). Targets suffer &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on their next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
 	<content contentuid="h77888fd5g7d83g48c3ga4ecgca67238a817e" version="1">&lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on the next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
 	<content contentuid="hd603eaf4g8b4bg417egbcf0ga37a91dbb112" version="1">Lassitude</content>
 	<content contentuid="h2ee6db85g13ceg4f7dgb9f2g321a2bc21058" version="1">Assault a creature with a flood of lethargy, preventing it from taking reactions. Additionally, it may only either move, take an action or bonus action.</content>
@@ -256,11 +256,11 @@
 	<content contentuid="h5bd13d2bg5116g487bg8c91gf66fe8eb3bed" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Acrobatics &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="hc6456829g645fg4527g9627g609fd55b5192" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Acrobatics &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="hd7987c5fg71e0g48aeg9ea6g0c1dbd47d01b" version="1">Gale Slash</content>
-	<content contentuid="hc075ed9dg07a2g46edg97c3g30b61678a702" version="1">TODO: Gale Slash Description</content>
+	<content contentuid="hc075ed9dg07a2g46edg97c3g30b61678a702" version="1">Release two razor sharps gales of wind.</content>
 	<content contentuid="h5b706566g4036g48e2gaef6g5eef4cb42473" version="1">Quick Draw</content>
-	<content contentuid="h700c2ae9gef14g44c1gaa81gc35a6a81d24b" version="1">TODO: Quick Draw Description</content>
+	<content contentuid="h700c2ae9gef14g44c1gaa81gc35a6a81d24b" version="1">After being targeted by an attack, you can teleport to the attacker and make a melee weapon attack.</content>
 	<content contentuid="h5433f3b4g02d2g43ddg8eb1g0e7f4031f9b3" version="1">Blessing of the Winds</content>
-	<content contentuid="h3a741ec0gf46fg4496g8826g04f3eb3d2d18" version="1">TODO: Blessing of the Winds Description</content>
+	<content contentuid="h3a741ec0gf46fg4496g8826g04f3eb3d2d18" version="1">Bless a weapon with the essence of the winds, increasing its range by [1]. Additionally, the first time a creature attacks with a blessed weapon on their turn, they unleash a chaining effect, dealing [2] to up to [3] targets.</content>
 	<content contentuid="hd0720396g8c23g47a7gadd2gd96194f8ee25" version="1">Blessing of the Winds (Melee)</content>
 	<content contentuid="" version="1">TODO: Blessing of the Winds (Melee) Description</content>
 	<content contentuid="h3e135152g808cg4421gbe5fg880d8de94a14" version="1">TODO: Blessing of the Winds (Melee) Status Description</content>
@@ -299,20 +299,21 @@
 	<content contentuid="h5e86fdbbg2e3dg4447g8decg29e86e0b44ba" version="1">Starstorm</content>
 	<content contentuid="h7a3a102fg9de3g460dg88e5g57d87a14841b" version="1">A violent storm of stars batter everyone in range, make the area &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;, while revealing any invisible creatures inside.</content>
 	<content contentuid="h8e4814cbg37e3g47dcgb90egcc39c60b0dd1" version="1">Cannot be Invisible.</content>
-	<content contentuid="h4aaceeaag3e26g423dg8971gb890b1e46242" version="1">(NYI) Mastery of Nature</content>
+	<content contentuid="h4aaceeaag3e26g423dg8971gb890b1e46242" version="1">Mastery of Nature</content>
 	<content contentuid="h9eee953ege87eg4b49gaefag408aa04dcca4" version="1">You attune yourself with the environment, allowing you to invoke the power of nature to your aid.</content>
 	<content contentuid="h8b7016cegce8cg4c03g88d2g1d89a22ea671" version="1">Psychic Focus: Mastery of Nature</content>
 	<content contentuid="h5e606964g1230g4414g8812g71af161b9a67" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Nature &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="ha3311afcg7663g4457g98aagba588ba5948a" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Nature &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="he5c02c44g56bbg4c27g80c4g0d3c426882d2" version="1">Toxic Spines</content>
 	<content contentuid="h2573bdb0g9ffbg4db9g871bg556d59d86776" version="1">Launch toxic spines that poison the target, dealing [1] at the end of their turn.</content>
+	<content contentuid="h8feef7abg9fd9g49e9g9e6dg6b262b22277e" version="1">Deals an additional [1] and [2] per level.</content>
 	<content contentuid="hc857fd7egabe3g4f85gbacagad3e2c6f6b32" version="1">Affected entity will take [1] at the end of their turn.</content>
 	<content contentuid="hcdafe5dcg4ac0g4a48g936cg60a4fb2d6c62" version="1">Thorny Briars</content>
 	<content contentuid="h0bac5de6gb9c7g44fegb7cege99e6f5e6b40" version="1">Throw a bundle of briars that stick to a creauture. Whenever it moves [1], it takes [2].</content>
 	<content contentuid="h5e1019c3g76adg4c3bga507gdcb1bed1b68c" version="1">Whenever the affected creature moves [1], it will take [2].</content>
 	<content contentuid="h85644687g4d39g4e83ga5e9gbbcf4a0c25fe" version="1">Regrowth</content>
-	<content contentuid="h5dd9e8cdg609bg46d3g8d00g1b6ef0f38f31" version="1">Infuse a creature with restorative energy, causing them to regain [1] at the start of each turn.</content>
-	<content contentuid="h02602b94g72c8g42d5g972eg4e11739c27cc" version="1">Affected entity regains [1] at the start of each turn.</content>
+	<content contentuid="h5dd9e8cdg609bg46d3g8d00g1b6ef0f38f31" version="1">Infuse a creature with restorative energy, causing them to regain [1] at the start of each turn.&lt;br&gt;&lt;br&gt;If the creature takes Fire or Acid damage, the effect will be nullified for a turn. If the creature is &lt;LSTag Tooltip="Downed"&gt;Downed&lt;/LSTag&gt;, the effect will be removed.</content>
+	<content contentuid="h02602b94g72c8g42d5g972eg4e11739c27cc" version="1">Affected entity regains [1] at the start of each turn.&lt;br&gt;&lt;br&gt;Taking Fire or Acid damage nullifies this effect for one turn. Effect is removed if the creature is &lt;LSTag Tooltip="Downed"&gt;Downed&lt;/LSTag&gt;.</content>
 	<content contentuid="h5b3965f1gbae6g448fg8d1fg2dce14098a9b" version="1">Regrowth Blocked</content>
 	<content contentuid="hc167a69bgcf0fg463bg832fg28ec36616414" version="1">Recently taken Fire or Acid damage.</content>	
 	<content contentuid="hdecfdffdg08fdg43b4gb32dgb0535ccd7ad2" version="1">Brambleskin</content>

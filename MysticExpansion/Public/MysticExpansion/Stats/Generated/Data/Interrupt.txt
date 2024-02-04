@@ -13,3 +13,24 @@ data "Cost" "ReactionActionPoint:1;PsiPointsResource:3;PsiLimitResource:1:3"
 data "InterruptDefaultValue" "Ask;Enabled"
 data "EnableCondition" "not HasStatus('SG_Polymorph') or Tagged('MINDFLAYER')"
 data "EnableContext" "OnStatusApplied"
+
+// Intervene
+new entry "Interrupt_Mystic_Intervene"
+type "InterruptData"
+data "DisplayName" "hce280bdcg1960g4884ga7efg99f2f62debf1"
+data "Description" "hf53d457fgf521g4aa4g9c03g2b04829adfae"
+data "Icon" "Action_Mystic_Intervene"
+
+// Quick Draw
+new entry "Interrupt_Mystic_QuickDraw"
+type "InterruptData"
+data "DisplayName" "h5b706566g4036g48e2gaef6g5eef4cb42473"
+data "Description" "h700c2ae9gef14g44c1gaa81gc35a6a81d24b"
+data "Icon" "Action_Mystic_QuickDraw"
+
+// Turn the Tables
+new entry "Interrupt_Mystic_FutureSight"
+type "InterruptData"
+data "DisplayName" "h70b41b25gf872g479cg85e9g6c171d0dd074"
+data "Description" "hab05913bg7cbfg4424ga371g28ea555d0363"
+data "Icon" "Action_Mystic_TurnTheTables"
