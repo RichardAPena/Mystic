@@ -799,7 +799,7 @@ data "SpellRoll" "SpellAutoResolveOnAlly(Ability.Charisma, SourceSpellDC(),true)
 data "SpellSuccess" "ApplyStatus(MYSTIC_ABATE,100,10);IF(not HasPassive('MindlessRage')):RemoveStatus(SG_Rage)"
 data "TargetConditions" "Character() and not Self()"
 data "TooltipAttackSave" "Charisma"
-data "TooltipStatusApply" "ApplyStatus(MYSTIC_ABATE,10)"
+data "TooltipStatusApply" "ApplyStatus(MYSTIC_ABATE,100,10)"
 data "CastTextEvent" "Cast"
 data "CycleConditions" "Enemy() and not Dead()"
 data "UseCosts" "ActionPoint:1;PsiPointsResource:2"
@@ -827,14 +827,13 @@ data "SpellProperties" "ShortRest();ApplyStatus(MYSTIC_HIBERNATE_BLOCK,100,-1)"
 data "TargetRadius" "9"
 data "AreaRadius" "9"
 data "TargetConditions" "not HasStatus('SG_Unconscious') and not Dead() and not Item() and Ally() and not Tagged('UNDEAD') and not HasStatus('MYSTIC_HIBERNATE_BLOCK')"
-data "Icon" "Spell_Enchantment_Catnap"
 
 data "TooltipPermanentWarnings" "d6bfba46-4ec2-44ec-b945-8f7aef9916bd"
 data "CastTextEvent" "Cast"
 data "CastSound" "Spell_Cast_Control_Sleep_L1to3"
 data "TargetSound" "Spell_Impact_Control_Sleep_L1to3"
 data "CycleConditions" "Enemy() and not Dead()"
-data "UseCosts" "ActionPoint:1;PsiPointsResource:5;PsiPointsResource:1:5"
+data "UseCosts" "ActionPoint:1;PsiPointsResource:5;PsiLimitResource:1:5"
 data "SpellAnimation" "554a18f7-952e-494a-b301-7702a85d4bc9,,;,,;af94aac1-d8eb-4ccb-9520-694ade11b61c,,;f5db4001-b136-4c48-9aa4-026c4a7dd3b7,,;22dfbbf4-f417-4c84-b39e-2039315961e6,,;,,;5bfbe9f9-4fc3-4f26-b112-43d404db6a89,,;,,;,,"
 data "Requirements" "!Combat"
 data "SpellFlags" "IsSpell"
@@ -907,7 +906,7 @@ data "Level" "1"
 data "Icon" "Action_Mystic_SoulHarvest"
 data "DisplayName" "hfa9b20feg3879g461eg9bc7gb53668ac4220"
 data "Description" "haeecab68g8796g498cg9d4fg8c834e0a7370"
-data "DescriptionParams" ""
+data "DescriptionParams" "DealDamage(1d12,Necrotic)"
 
 // Soul Grip
 new entry "Target_Mystic_SoulGrip"
@@ -1007,7 +1006,12 @@ data "Level" "5"
 data "Icon" "Action_Mystic_Sunburst"
 data "DisplayName" "h04310a2ageac0g43e7g8b0ag2c5319b18d71"
 data "Description" "heb6042bdgce74g4d6agb1fag89967b89c89f"
-data "DescriptionParams" ""
+data "DescriptionParams" "DealDamage(2d6,Fire)"
+
+// SunlightSensitivity
+// SunlightHypersensitivity
+// SunlightWeakness
+// SunSickness_Myconid
 
 // Starstorm
 new entry "Target_Mystic_Starstorm"
@@ -1030,6 +1034,7 @@ data "Icon" "Action_Mystic_Regrowth"
 data "DisplayName" "h85644687g4d39g4e83ga5e9gbbcf4a0c25fe"
 data "Description" "h5dd9e8cdg609bg46d3g8d00g1b6ef0f38f31"
 data "DescriptionParams" "RegainHitPoints(5d6)"
+// IF THE CREATURE DIES THE EFFECT IS REMOVED warnings
 
 // Brambleskin
 new entry "Target_Mystic_Brambleskin"
@@ -1040,7 +1045,7 @@ data "Level" "6"
 data "Icon" "Action_Mystic_Brambleskin"
 data "DisplayName" "hdecfdffdg08fdg43b4gb32dgb0535ccd7ad2"
 data "Description" "h1f1ab2f7gdab8g463aga1e8g1f6a1136f210"
-data "DescriptionParams" ""
+data "DescriptionParams" "2;DealDamage(6d4,Piercing)"
 
 // Exaltation
 new entry "Target_Mystic_Exaltation"
@@ -1051,7 +1056,7 @@ data "Level" "1"
 data "Icon" "Action_Mystic_Exaltation"
 data "DisplayName" "hb9ff7f6fg28e4g40efg9dc6g4002f2d085ba"
 data "Description" "h861b12b1g9bf6g46caga328gec7922904db1"
-data "DescriptionParams" ""
+data "DescriptionParams" "6"
 
 // Hubris
 new entry "Target_Mystic_Hubris"
@@ -1306,7 +1311,7 @@ data "Level" "1"
 data "Icon" "Action_Mystic_SeethingIre"
 data "DisplayName" "h3b1b51e8g0850g4350g8786g044ca627e996"
 data "Description" "h872baebfg1a33g4f6agb1f4g0ca5e0d011ab"
-data "DescriptionParams" ""
+data "DescriptionParams" "DealDamage(1d4,MainMeleeWeaponDamageType)"
 
 // Vendetta
 new entry "Target_Mystic_Vendetta"
@@ -1317,7 +1322,7 @@ data "Level" "3"
 data "Icon" "Action_Mystic_Vendetta"
 data "DisplayName" "haeb17eccg8e1ag4511gbdaegf7d93a569fad"
 data "Description" "hc54fd600g2492g4f98g90a2g69798adb62a0"
-data "DescriptionParams" ""
+data "DescriptionParams" "2"
 
 // Redoubled Effort
 new entry "Target_Mystic_RedoubledEffort"

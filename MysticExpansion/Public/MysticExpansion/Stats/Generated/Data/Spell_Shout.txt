@@ -376,7 +376,7 @@ data "Level" "5"
 data "Icon" "Action_Mystic_Mirage"
 data "DisplayName" "h89744c9agc457g412cgacbagfa074de43363"
 data "Description" "h34d73e80gf4bdg486bg816ag4b9134a329eb"
-data "DescriptionParams" ""
+data "DescriptionParams" "Distance(3)"
 
 // Illusory Horde
 new entry "Shout_Mystic_IllusoryHorde"
@@ -409,7 +409,7 @@ data "Level" "5"
 data "Icon" "Action_Mystic_BloodFrenzy"
 data "DisplayName" "hdb83f305g4261g41d9g8c57g45e5ac3046ee"
 data "Description" "h6dc222fegecf0g4e18gb4c8ge6be0991d7e9"
-data "DescriptionParams" ""
+data "DescriptionParams" "DealDamage(1d8,Necrotic);Distance(3);10"
 
 // Sanguine Infusion
 new entry "Shout_Mystic_SanguineInfusion"
@@ -431,7 +431,7 @@ data "Level" "3"
 data "Icon" "Action_Mystic_TitansRage"
 data "DisplayName" "had59b23dgbd8dg4919gbecfgfd3a35a3baa3"
 data "Description" "hd85d9703gc973g4113g8ee5g60e14f2a0509"
-data "DescriptionParams" ""
+data "DescriptionParams" "2;Distance(3)"
 
 // Intervene (Prototype)
 new entry "Shout_Mystic_Intervene"
@@ -552,7 +552,7 @@ data "Level" "2"
 data "Icon" "Action_Mystic_NimbleFingers"
 data "DisplayName" "h6f31a83cg9e00g417bg98cag1cd2ff3c3b09"
 data "Description" "h39835206g62b1g44f2gb9aaga6e15fca4ff8"
-data "DescriptionParams" ""
+data "DescriptionParams" "10"
 
 // Turn the Tables (Prototype)
 new entry "Shout_Mystic_TurnTheTables"
