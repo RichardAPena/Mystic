@@ -249,15 +249,18 @@ data "SpellSuccess" "DealDamage(1d10,Piercing,Magical)"
 data "TargetConditions" "not Self() and not Dead()"
 data "ProjectileCount" "1"
 // Projectile_UND_SharFort_Turret trajectory (???)
-data "Trajectories" "d030acb7-e3c5-4816-8e68-bd7089b65f32"
+// data "Trajectories" "d030acb7-e3c5-4816-8e68-bd7089b65f32"
+// data "Trajectories" "da0fa1ad-d4ec-4d67-8f87-86bde3c8bab8,b5a32873-b4b1-411e-88dd-c7c34b60072d,6d957275-1dcf-45c7-98e1-c1832d573d77"
+// data "Trajectories" "0c3a60a1-891b-4b00-8b26-cfa39b786560"
+data "Trajectories" "57810ea8-b33f-4074-9e34-2d568cb195de"
 data "TooltipDamageList" "DealDamage(1d10,Piercing)"
 data "TooltipAttackSave" "RangedSpellAttack"
 data "TooltipUpcastDescription" "81d5554a-e990-4737-9072-78104cd4bbda"
 data "TooltipUpcastDescriptionParams" "DealDamage(1d10,Piercing)"
 
-data "PrepareSound" "Spell_Prepare_Damage_Thunder_Gen_L1to3"
-data "PrepareLoopSound" "Spell_Loop_Damage_Thunder_Gen_L1to3"
-data "CastSound" "Spell_Cast_Damage_Thunder_Shatter_L1to3"
+// data "PrepareSound" "Spell_Prepare_Damage_Thunder_Gen_L1to3"
+// data "PrepareLoopSound" "Spell_Loop_Damage_Thunder_Gen_L1to3"
+// data "CastSound" "Spell_Cast_Damage_Thunder_Shatter_L1to3"
 
 // data "PrepareSound" "Spell_Prepare_Damage_Lightning_Gen_L1to3"
 // data "PrepareLoopSound" "Spell_Prepare_Damage_Lightning_Gen_L1to3_Loop"
@@ -271,11 +274,20 @@ data "VerbalIntent" "Damage"
 data "SpellFlags" "IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful;IsLinkedSpellContainer"
 data "HitAnimationType" "MagicalDamage_External"
 
-data "PrepareEffect" "2af907e1-127c-4c83-a117-af18f211c59d"
-data "CastEffect" "ee3c85ae-0078-4223-9345-c2594535d1f2"
+// data "PrepareEffect" "2af907e1-127c-4c83-a117-af18f211c59d"
+// data "CastEffect" "ee3c85ae-0078-4223-9345-c2594535d1f2"
 
 // data "PrepareEffect" "77241e8c-ae8d-4402-92d8-a871ce64d86f"
 // data "CastEffect" "6f4ad0bd-c5ce-4350-9865-c0ef858fd444"
+
+
+
+data "PrepareEffect" "de6dddd8-8a32-4db1-a521-70706648a83b"
+data "CastEffect" "2e44371c-a637-4cab-a120-3088b3d83369"
+data "TargetEffect" "7537e8f0-1897-4a66-83fe-7f58e9dbd12e"
+data "CastSound" "Spell_Cast_Debuff_HuntersMark_L1to3"
+data "TargetSound" "Spell_Impact_Debuff_HuntersMark_L1to3"
+
 data "DamageType" "Piercing"
 data "ExtraDescription" "hff30d4d9g035bg48d6gb  340g07ef63328b5d"
 
@@ -416,7 +428,7 @@ data "SpellFlags" "IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThresh
 data "HitAnimationType" "MagicalDamage_Physical"
 data "PrepareEffect" "e8109f4b-2439-4424-9bc8-743270220f47"
 data "CastEffect" "4cac8c55-9e69-41f6-a489-d8a64b7c5e46"
-data "TargetEffect" "037dc8e8-15e0-439f-ae4d-ad6a93e85cfd"
+// data "TargetEffect" "037dc8e8-15e0-439f-ae4d-ad6a93e85cfd"
 data "DamageType" "Piercing"
 data "ExtraDescription" "hff30d4d9g035bg48d6gb340g07ef63328b5d"
 
@@ -535,5 +547,5 @@ data "SpellFlags" "IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThresh
 data "HitAnimationType" "MagicalDamage_Physical"
 data "PrepareEffect" "e8109f4b-2439-4424-9bc8-743270220f47"
 data "CastEffect" "4cac8c55-9e69-41f6-a489-d8a64b7c5e46"
-data "TargetEffect" "037dc8e8-15e0-439f-ae4d-ad6a93e85cfd"
+// data "TargetEffect" "037dc8e8-15e0-439f-ae4d-ad6a93e85cfd"
 data "DamageType" "Slashing"

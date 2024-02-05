@@ -176,9 +176,10 @@ data "DescriptionParams" "DealDamage(1d6,Psychic)"
 data "Icon" "PassiveFeature_HuntersMark"
 data "PriorityOrder" "2"
 data "Properties" "Highlighted"
-data "Boosts" "IF(HasStatus('MYSTIC_NOMADS_MARK',context.Target,context.Source) and HasDamageEffectFlag(DamageFlags.Hit)):DealDamage(1d6,Psychic,Magical)"
-data "StatsFunctorContext" "OnAttack"
-data "Conditions" "HasStatus('MYSTIC_NOMADS_MARK',context.Target,context.Source) and HasDamageEffectFlag(DamageFlags.Hit) and TotalAttackDamageDoneGreaterThan(0)"
+// data "Boosts" "IF(HasStatus('MYSTIC_NOMADS_MARK',context.Target,context.Source) and HasDamageEffectFlag(DamageFlags.Hit)):DealDamage(1d6,Psychic,Magical)"
+data "Boosts" "IF(HasStatus('MYSTIC_NOMADS_MARK',context.Target,context.Source)):DamageBonus(1d6,Psychic,Magical)"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "HasStatus('MYSTIC_NOMADS_MARK',context.Target,context.Source) and TotalDamageDoneGreaterThan(0)"
 data "StatsFunctors" "ApplyStatus(PASSIVE_HUNTERS_MARK,100,0)"
 
 // Mirage
@@ -277,18 +278,21 @@ data "StatsFunctors" "DealDamage(SELF,2d6,Psychic,Magical)"
 new entry "Passive_Mystic_SpectralArms"
 type "PassiveData"
 data "DisplayName" "h6f9b8007g7bdbg4a8ag88bbge0bd1b750048"
-data "Properties" "IsHidden"
-data "StatsFunctorContext" "OnCast"
-data "StatsFunctors" "DealDamage(SELF,2d6,Psychic,Magical)"
+data "Description" "h03baec1eg6a75g4ae0g8ad6g9427418e96ce"
+data "Icon" "Action_Mystic_SpectralArms"
+data "EnabledContext" "OnCastResolved;OnLongRest;OnActionResourcesChanged"
+data "EnabledConditions" "HasActionResource('BonusActionPoint', 1, 0, false, false, context.Source)"
+data "Properties" "IsToggled;ToggledDefaultAddToHotbar;Temporary"
+data "Boosts" "UnlockSpellVariant(SpectralArmsCheck(),ModifyUseCosts(Replace,BonusActionPoint,1,0,ActionPoint),ModifyIconGlow(),ModifyTooltipDescription())"
 
 // Aura of Spite
 new entry "Passive_Mystic_AuraOfSpite"
 type "PassiveData"
 data "DisplayName" "h99e04fe5ga8e8g4cd6g85d6g8a46eecaa66a"
 data "Properties" "IsHidden"
-data "StatsFunctorContext" "OnDamage"
-data "Conditions" "TotalDamageDoneGreaterThan(0)"
-data "StatsFunctors" "RegainHitPoints(SELF,TotalDamageDone/2)"
+data "StatsFunctorContext" "OnDamage;OnDamagePrevented"
+// data "Conditions" "TotalDamageDoneGreaterThan(0)"
+data "StatsFunctors" "RegainHitPoints(SELF,DamageDone/2)"
 
 // TODO:
 // - Allow smite to be cast after the attack is made
@@ -446,10 +450,13 @@ data "Boosts" ""
 data "StatsFunctorContext" "OnCast"
 data "Conditions" "not IsCantrip() and HasSpellFlag(SpellFlags.Spell) and PsionicDisciplineCheck()"
 // data "StatsFunctors" "IF(not (HasStatus('WILD_MAGIC_GUARANTEED',context.Source) or Tagged('SORCERER_WILD_MAGIC_SUPRESSED', context.Source))):TriggerRandomCast(20,,WildMagic,WildMagicTurn)"
+data "StatsFunctors" "IF(HasStatus('MYSTIC_CHAOTIC_STATE_STABLE',context.Source)):TriggerRandomCast(19,,WildPsionics,WildPsionicsTurn);IF(HasStatus('MYSTIC_CHAOTIC_STATE_ACTIVE',context.Source)):TriggerRandomCast(13,,WildPsionics,WildPsionicsTurn);IF(HasStatus('MYSTIC_CHAOTIC_STATE_VOLATILE',context.Source)):TriggerRandomCast(7,,WildPsionics,WildPsionicsTurn);IF(HasStatus('MYSTIC_CHAOTIC_STATE_DANGEROUS',context.Source)):TriggerRandomCast(1,,WildPsionics,WildPsionicsTurn)"
 
+// IF(HasStatus('MYSTIC_CHAOTIC_STATE_STABLE',context.Source)):TriggerRandomCast(19,,WildPsionics,WildPsionicsTurn);
+// IF(HasStatus('MYSTIC_CHAOTIC_STATE_ACTIVE',context.Source)):TriggerRandomCast(13,,WildPsionics,WildPsionicsTurn);
+// IF(HasStatus('MYSTIC_CHAOTIC_STATE_VOLATILE',context.Source)):TriggerRandomCast(7,,WildPsionics,WildPsionicsTurn);
+// IF(HasStatus('MYSTIC_CHAOTIC_STATE_DANGEROUS',context.Source)):TriggerRandomCast(1,,WildPsionics,WildPsionicsTurn);
 
-// new entry "WildMagic"
-// data "StatsFunctors" "IF(Tagged('SORCERER_WILD_MAGIC_GUARANTEED', context.Source)):TriggerRandomCast(1,,WildMagic);IF(HasStatus('TIDES_OF_CHAOS',context.Source) and not Tagged('SORCERER_WILD_MAGIC_GUARANTEED', context.Source)):TriggerRandomCast(11,,WildMagic,WildMagicTurn);IF(not HasStatus('TIDES_OF_CHAOS',context.Source) and not (HasStatus('WILD_MAGIC_GUARANTEED',context.Source) or Tagged('SORCERER_WILD_MAGIC_SUPRESSED', context.Source))):TriggerRandomCast(20,,WildMagic,WildMagicTurn);IF(HasStatus('TIDES_OF_CHAOS',context.Source)):RemoveStatus(SELF,TIDES_OF_CHAOS)"
 
 // 1  =   5% || 100%  <- Dangerous
 // 2  =  10% || 95%
@@ -473,52 +480,131 @@ data "Conditions" "not IsCantrip() and HasSpellFlag(SpellFlags.Spell) and Psioni
 // 20 = 100% || 5%
 // OFF                <- Inert
 
+new entry "Passive_Mystic_WildPsionics_TurnPsionics"
+type "PassiveData"
+data "DisplayName" "h48b57fd2gd81fg46c2ga3ceg57a3199b6099"
+data "Icon" "statIcons_WildMagic_TurnMagic"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnTurn"
+data "StatsFunctors" "TriggerRandomCast(1,,WildPsionics)"
+
+
+new entry "Passive_Mystic_ChaoticState_Stable"
+type "PassiveData"
+data "DisplayName" "hcea144ecgcd45g419cgb7fdg710d706420e4"
+data "Icon" "Action_Mystic_ChaoticState_Stable"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnCreate;OnLongRest"
+data "StatsFunctors" "ApplyStatus(SELF,MYSTIC_CHAOTIC_STATE_STABLE,100,-1)"
+// data "StatsFunctors" "ApplyStatus(SELF,MYSTIC_CHAOTIC_STATE_ACTIVE,100,-1)"
+
 // Psionic Battery
 new entry "Passive_Mystic_PsionicBattery"
 type "PassiveData"
 data "DisplayName" "h7aaf31c5gbf9dg45f0g8a13g22729da327cc"
 data "Description" "hb4fb5683gccd0g464cgb909g5f3c54fb13d3"
-data "DescriptionParams" ""
+data "DescriptionParams" "1"
 data "Icon" "Passive_Mystic_PsionicBattery"
 data "Properties" "Highlighted"
-data "Boosts" ""
+data "StatsFunctorContext" "OnCast"
+data "Conditions" "WildPsionicSurgeCheck()"
+data "StatsFunctors" "RestoreResource(SELF,PsiPointsResource,1,0)"
 
 // Chaos Control
 new entry "Passive_Mystic_ChaosControl"
 type "PassiveData"
 data "DisplayName" "hbb442710ge26dg42e8g82ceg8e321c4abaa3"
 data "Description" "hc72cd748g1090g4f72g922bgcdc3deedc271"
-data "DescriptionParams" ""
 data "Icon" "Action_Mystic_ChaosControl"
 data "Properties" "Highlighted"
-data "Boosts" ""
+data "Boosts" "UnlockSpell(Shout_Mystic_ChaosControl)"
 
 // Chaos Aspect
 new entry "Passive_Mystic_ChaosAspect"
 type "PassiveData"
 data "DisplayName" "h642fc5efgfebcg4b78g8540g61cccc39aaf5"
 data "Description" "hb4e3f90cg7940g46cfgb20cg663f8b16e180"
-data "DescriptionParams" ""
+data "DescriptionParams" "Distance(9)"
 data "Icon" "Passive_Mystic_ChaosAspect"
-data "Properties" "Highlighted"
-data "Boosts" ""
+data "Properties" "IsToggled;Highlighted;ToggledDefaultAddToHotbar;Temporary"
+data "ToggleOnFunctors" "IF(HasStatus('MYSTIC_CHAOTIC_STATE_INERT',context.Source)):ApplyStatus(SELF,MYSTIC_CHAOS_ASPECT_INERT_AURA,100,-1);IF(HasStatus('MYSTIC_CHAOTIC_STATE_STABLE',context.Source)):ApplyStatus(SELF,MYSTIC_CHAOS_ASPECT_STABLE_AURA,100,-1);IF(HasStatus('MYSTIC_CHAOTIC_STATE_ACTIVE',context.Source)):ApplyStatus(SELF,MYSTIC_CHAOS_ASPECT_ACTIVE_AURA,100,-1);IF(HasStatus('MYSTIC_CHAOTIC_STATE_VOLATILE',context.Source)):ApplyStatus(SELF,MYSTIC_CHAOS_ASPECT_VOLATILE_AURA,100,-1);IF(HasStatus('MYSTIC_CHAOTIC_STATE_DANGEROUS',context.Source)):ApplyStatus(SELF,MYSTIC_CHAOS_ASPECT_DANGEROUS_AURA,100,-1)"
+data "ToggleOffFunctors" "RemoveStatus(SELF,MYSTIC_CHAOS_ASPECT_INERT_AURA);RemoveStatus(SELF,MYSTIC_CHAOS_ASPECT_STABLE_AURA);RemoveStatus(SELF,MYSTIC_CHAOS_ASPECT_ACTIVE_AURA);RemoveStatus(SELF,MYSTIC_CHAOS_ASPECT_VOLATILE_AURA);RemoveStatus(SELF,MYSTIC_CHAOS_ASPECT_DANGEROUS_AURA)"
+
+// IF(HasStatus('MYSTIC_CHAOTIC_STATE_INERT',context.Source)):ApplyStatus(SELF,MYSTIC_CHAOS_ASPECT_INERT_AURA,100,-1);
+// IF(HasStatus('MYSTIC_CHAOTIC_STATE_STABLE',context.Source)):ApplyStatus(SELF,MYSTIC_CHAOS_ASPECT_STABLE_AURA,100,-1);
+// IF(HasStatus('MYSTIC_CHAOTIC_STATE_ACTIVE',context.Source)):ApplyStatus(SELF,MYSTIC_CHAOS_ASPECT_ACTIVE_AURA,100,-1);
+// IF(HasStatus('MYSTIC_CHAOTIC_STATE_VOLATILE',context.Source)):ApplyStatus(SELF,MYSTIC_CHAOS_ASPECT_VOLATILE_AURA,100,-1);
+// IF(HasStatus('MYSTIC_CHAOTIC_STATE_DANGEROUS',context.Source)):ApplyStatus(SELF,MYSTIC_CHAOS_ASPECT_DANGEROUS_AURA,100,-1)
+
+// RemoveStatus(SELF,MYSTIC_CHAOS_ASPECT_INERT_AURA);
+// RemoveStatus(SELF,MYSTIC_CHAOS_ASPECT_STABLE_AURA);
+// RemoveStatus(SELF,MYSTIC_CHAOS_ASPECT_ACTIVE_AURA);
+// RemoveStatus(SELF,MYSTIC_CHAOS_ASPECT_VOLATILE_AURA);
+// RemoveStatus(SELF,MYSTIC_CHAOS_ASPECT_DANGEROUS_AURA)
+
+new entry "Passive_Mystic_ChaosAspect_Inert"
+type "PassiveData"
+data "DisplayName" "h642fc5efgfebcg4b78g8540g61cccc39aaf5"
+data "Icon" "Passive_Mystic_ChaosAspect"
+// data "Properties" "IsHidden;OncePerTurn"
+// data "StatsFunctorContext" "OnCast"
+
+new entry "Passive_Mystic_ChaosAspect_Stable"
+type "PassiveData"
+data "DisplayName" "h642fc5efgfebcg4b78g8540g61cccc39aaf5"
+data "Icon" "Passive_Mystic_ChaosAspect"
+data "Properties" "IsHidden;OncePerTurn"
+data "StatsFunctorContext" "OnCast"
+data "Conditions" "HasUseCosts('ActionPoint') or HasUseCosts('BonusActionPoint')"
+data "StatsFunctors" "TriggerRandomCast(19,,WildPsionics,WildPsionicsTurn)" 
+
+new entry "Passive_Mystic_ChaosAspect_Active"
+type "PassiveData"
+data "DisplayName" "h642fc5efgfebcg4b78g8540g61cccc39aaf5"
+data "Icon" "Passive_Mystic_ChaosAspect"
+data "Properties" "IsHidden;OncePerTurn"
+data "StatsFunctorContext" "OnCast"
+data "Conditions" "HasUseCosts('ActionPoint') or HasUseCosts('BonusActionPoint')"
+data "StatsFunctors" "TriggerRandomCast(13,,WildPsionics,WildPsionicsTurn)" 
+
+new entry "Passive_Mystic_ChaosAspect_Volatile"
+type "PassiveData"
+data "DisplayName" "h642fc5efgfebcg4b78g8540g61cccc39aaf5"
+data "Icon" "Passive_Mystic_ChaosAspect"
+data "Properties" "IsHidden;OncePerTurn"
+data "StatsFunctorContext" "OnCast"
+data "Conditions" "HasUseCosts('ActionPoint') or HasUseCosts('BonusActionPoint')"
+data "StatsFunctors" "TriggerRandomCast(7,,WildPsionics,WildPsionicsTurn)" 
+
+new entry "Passive_Mystic_ChaosAspect_Dangerous"
+type "PassiveData"
+data "DisplayName" "h642fc5efgfebcg4b78g8540g61cccc39aaf5"
+data "Icon" "Passive_Mystic_ChaosAspect"
+data "Properties" "IsHidden;OncePerTurn"
+data "StatsFunctorContext" "OnCast"
+data "Conditions" "HasUseCosts('ActionPoint') or HasUseCosts('BonusActionPoint')"
+data "StatsFunctors" "TriggerRandomCast(1,,WildPsionics,WildPsionicsTurn)" 
 
 // Improved Psionic Battery
 new entry "Passive_Mystic_PsionicBattery_2"
 type "PassiveData"
 data "DisplayName" "hbcb743bfgadb6g4e11gb374g2d6ed0c6ab12"
 data "Description" "h81560408gc550g4a4dg8d62g6ea71e7d2283"
-data "DescriptionParams" ""
+data "DescriptionParams" "2"
 data "Icon" "Passive_Mystic_PsionicBattery"
 data "Properties" "Highlighted"
-data "Boosts" ""
+data "StatsFunctorContext" "OnCast"
+data "Conditions" "WildPsionicSurgeCheck()"
+data "StatsFunctors" "RestoreResource(SELF,PsiPointsResource,1,0)"
 
 // Surge Mastery
 new entry "Passive_Mystic_SurgeMastery"
 type "PassiveData"
 data "DisplayName" "h16f00cc9g955fg4e2egb630g1b4c16e78990"
 data "Description" "h39661ee6g298eg4b51g8bf9gbc81d7988839"
-data "DescriptionParams" ""
 data "Icon" "Passive_Mystic_SurgeMastery"
 data "Properties" "Highlighted"
-data "Boosts" ""
+data "StatsFunctorContext" "OnCast"
+data "Conditions" "WildPsionicSurgeCheck()"
+// DC 17 check
+data "StatsFunctors" "IF(SuccessRate(20)):RestoreResource(SELF,PsionicMasteryResource,1,0)"

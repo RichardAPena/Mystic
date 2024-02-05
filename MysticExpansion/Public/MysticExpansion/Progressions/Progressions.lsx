@@ -175,7 +175,7 @@
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="OrderUnbound"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_WildPsionics"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_WildPsionics;Passive_Mystic_ChaoticState_Stable"/>
                     <attribute id="Selectors" type="LSString" value="SelectPassives(48317e03-fe2a-4767-8f4d-1bdc2a40ac65,1,PsionicDisciplines)"/>                    
                     <attribute id="TableUUID" type="guid" value="f8509fda-caef-4ea0-b635-e6c2034d8ca0"/>
                     <attribute id="UUID" type="guid" value="8cdbe256-ee62-445d-aee6-fe58772def8c"/>
@@ -186,6 +186,7 @@
                     <attribute id="Name" type="LSString" value="OrderUnbound"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_PsionicBattery;Passive_Mystic_ChaosControl"/>
+                    <attribute id="PassivesRemoved" type="LSString" value="Passive_Mystic_ChaoticState_Stable"/>
                     <attribute id="TableUUID" type="guid" value="f8509fda-caef-4ea0-b635-e6c2034d8ca0"/>
                     <attribute id="UUID" type="guid" value="7ed024ae-bf8d-443b-a160-165e2aeff52a"/>
                 </node>
