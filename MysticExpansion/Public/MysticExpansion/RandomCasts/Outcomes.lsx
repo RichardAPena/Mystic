@@ -9,12 +9,101 @@
                     <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_TurnPsionics"/>
                     <attribute id="UUID" type="guid" value="26c31cd2-59cb-417d-99fb-b3f1d8718981"/>
                 </node>
-                <node id="Outcome"> 1 TODO
+                <node id="Outcome"> Commander
                     <attribute id="GroupName" type="FixedString" value="WildPsionics"/>
-                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_LightStep"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_Commander"/>
                     <attribute id="UUID" type="guid" value="21f7634f-495c-473d-8e61-35f1b92b2af9"/>
                 </node>
-
+                <node id="Outcome"> Aneurysm
+                    <attribute id="GroupName" type="FixedString" value="WildPsionics"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_Aneurysm"/>
+                    <attribute id="UUID" type="guid" value="c7f6f748-ac86-4302-84ee-0ebcf76d6b08"/>
+                </node>
+                <node id="Outcome"> Eureka!
+                    <attribute id="GroupName" type="FixedString" value="WildPsionics"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_Eureka"/>
+                    <attribute id="UUID" type="guid" value="4fac3c47-c9ab-4a88-af46-174a79e9988d"/>
+                </node>
+                <node id="Outcome"> Surge of Action
+                    <attribute id="GroupName" type="FixedString" value="WildPsionics"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_SurgeOfAction"/>
+                    <attribute id="UUID" type="guid" value="5be04bee-e419-456e-80b8-7942cdd63d6c"/>
+                </node>
+                <node id="Outcome"> Supersonic
+                    <attribute id="GroupName" type="FixedString" value="WildPsionics"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_Supersonic"/>
+                    <attribute id="UUID" type="guid" value="70f6f184-6650-482c-8805-245eb3ac7015"/>
+                </node>
+                <node id="Outcome"> Gigantic
+                    <attribute id="GroupName" type="FixedString" value="WildPsionics"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_Gigantic"/>
+                    <attribute id="UUID" type="guid" value="40cd8558-489e-400e-93c5-d41f3a8b3ef8"/>
+                </node>
+                <node id="Outcome"> Pint-Sized
+                    <attribute id="GroupName" type="FixedString" value="WildPsionics"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_PintSized"/>
+                    <attribute id="UUID" type="guid" value="5a9e8df2-2bb4-4b19-a590-6a26620d9fbb"/>
+                </node>
+                <node id="Outcome"> Steel Hide
+                    <attribute id="GroupName" type="FixedString" value="WildPsionics"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_SteelHide"/>
+                    <attribute id="UUID" type="guid" value="1d30d7e1-1660-4402-839e-24efac9d1694"/>
+                </node>
+                <node id="Outcome"> Polyglot
+                    <attribute id="GroupName" type="FixedString" value="WildPsionics"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_Polyglot"/>
+                    <attribute id="UUID" type="guid" value="8329108c-a2a2-4795-b7c8-fd77a85c080e"/>
+                </node>
+                <node id="Outcome"> Water Sphere
+                    <attribute id="GroupName" type="FixedString" value="WildPsionics"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_WaterSphere"/>
+                    <attribute id="UUID" type="guid" value="6cce5554-5337-4f39-ba92-8318a0bcb008"/>
+                </node>
+                <node id="Outcome"> Step from Sight
+                    <attribute id="GroupName" type="FixedString" value="WildPsionics"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_StepFromSight"/>
+                    <attribute id="UUID" type="guid" value="7f246980-21e3-48bb-be8d-dbdb1809c045"/>
+                </node>
+                <node id="Outcome"> Feat of Strength
+                    <attribute id="GroupName" type="FixedString" value="WildPsionics"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_FeatOfStrength"/>
+                    <attribute id="UUID" type="guid" value="b25caaf6-b3ac-48ec-b25d-fb29cf021a44"/>
+                </node>
+                <node id="Outcome"> Flame Legion
+                    <attribute id="GroupName" type="FixedString" value="WildPsionics"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_FlameLegion"/>
+                    <attribute id="UUID" type="guid" value="79e15be8-0a86-47e1-a203-c5122ac684c1"/>
+                </node>
+                <node id="Outcome"> Riot!
+                    <attribute id="GroupName" type="FixedString" value="WildPsionics"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_Riot"/>
+                    <attribute id="UUID" type="guid" value="002e42af-ea89-43a2-9d01-088ede1d2f53"/>
+                </node>
+                <node id="Outcome"> Panic!
+                    <attribute id="GroupName" type="FixedString" value="WildPsionics"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_Panic"/>
+                    <attribute id="UUID" type="guid" value="44ccbfa7-3d16-4849-962e-d09e4ac982bd"/>
+                </node>
+                <node id="Outcome"> Precognition
+                    <attribute id="GroupName" type="FixedString" value="WildPsionics"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_Precognition"/>
+                    <attribute id="UUID" type="guid" value="cd9d88f1-79af-45ae-9b3b-e3a0a66d5581"/>
+                </node>
+                <node id="Outcome"> Wild Mutation
+                    <attribute id="GroupName" type="FixedString" value="WildPsionics"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_WildMutation"/>
+                    <attribute id="UUID" type="guid" value="c359f87a-1b06-4d6c-af47-b4b23c2854e2"/>
+                </node>
+                <node id="Outcome"> Beacon
+                    <attribute id="GroupName" type="FixedString" value="WildPsionics"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_Beacon"/>
+                    <attribute id="UUID" type="guid" value="cb11832c-89b8-4bc8-8897-3f130a93f420"/>
+                </node>
+                <node id="Outcome"> Darkness
+                    <attribute id="GroupName" type="FixedString" value="WildPsionics"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_Darkness"/>
+                    <attribute id="UUID" type="guid" value="71e03161-fcfa-4ffa-ac0a-4cdf48caba38"/>
+                </node>
             </children>
         </node>
     </region>

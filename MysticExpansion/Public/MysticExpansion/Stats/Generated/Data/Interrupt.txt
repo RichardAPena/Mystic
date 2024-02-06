@@ -29,7 +29,7 @@ data "Description" "h700c2ae9gef14g44c1gaa81gc35a6a81d24b"
 data "Icon" "Action_Mystic_QuickDraw"
 
 // Turn the Tables
-new entry "Interrupt_Mystic_FutureSight"
+new entry "Interrupt_Mystic_TurnTheTables"
 type "InterruptData"
 data "DisplayName" "h70b41b25gf872g479cg85e9g6c171d0dd074"
 data "Description" "hab05913bg7cbfg4424ga371g28ea555d0363"

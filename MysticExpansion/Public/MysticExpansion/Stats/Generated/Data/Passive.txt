@@ -511,6 +511,12 @@ data "Conditions" "WildPsionicSurgeCheck()"
 data "StatsFunctors" "RestoreResource(SELF,PsiPointsResource,1,0)"
 
 // Chaos Control
+// TODO: activating chaos control should untoggle chaos aspect
+// might have to make an additional passive that turns itself on? no yes?
+// same toggle group as chaos aspect
+// or just have chaos control update chaos aspect
+// could work
+// yea sure, woould be more smooth too
 new entry "Passive_Mystic_ChaosControl"
 type "PassiveData"
 data "DisplayName" "hbb442710ge26dg42e8g82ceg8e321c4abaa3"

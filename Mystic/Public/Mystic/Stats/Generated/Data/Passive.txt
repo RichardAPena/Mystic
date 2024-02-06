@@ -594,6 +594,7 @@ data "Boosts" "ACOverrideFormula(10,true,Dexterity,Constitution)"
 new entry "Passive_Mystic_ImmortalDurability_HP"
 type "PassiveData"
 data "Properties" "IsHidden"
+data "DisplayName" "hfd02e5fbge611g4faag9663g00b78f794fd3"
 data "Boosts" "IncreaseMaxHP(ClassLevel(Mystic))"
 
 // Psionic Resilience (Immortal)

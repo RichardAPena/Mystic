@@ -117,13 +117,13 @@
 	<content contentuid="h2902dbccg9f5eg493egbd5fgf5a875e53817" version="1">Acceleration Zone</content>
 	<content contentuid="h9d0cca5cg5e68g4c77g8c2fg3d2a1379eb1e" version="1">Create a zone in which time moves faster: creatures within are &lt;LSTag Type="Status" Tooltip="MYSTIC_BORROWED_TIME_HASTE"&gt;Hastened&lt;/LSTag&gt;.</content>
 	<content contentuid="hbd932da9g687eg40aeg92b6g2fb23e2ed5b5" version="1">Materialized a zone in which creatures are &lt;LSTag Type="Status" Tooltip="MYSTIC_BORROWED_TIME_HASTE"&gt;Hastened&lt;/LSTag&gt; while inside.</content>
-	<content contentuid="h36904f5dge6e2g484ag83b4gfba16332ed25" version="1">(NYI) Nomadic Hunting</content>
+	<content contentuid="h36904f5dge6e2g484ag83b4gfba16332ed25" version="1">Nomadic Hunting</content>
 	<content contentuid="h0e7507b7g68c4g41a7gaf34g1a54a949287f" version="1">You cast your mind out into the wilderness, enhancing your ability to track and strike down your prey.</content>
 	<content contentuid="h8cd02092g137fg44ccg8e1egac914880d409" version="1">Psychic Focus: Nomadic Hunting</content>
 	<content contentuid="h243cdc35g9c85g42bcg984dg51495cfcd52d" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Survival &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="ha8fd4452g8185g4e09g934fg5da01c4d6316" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Survival &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="hb507ea31ge42cg4841g94c3g3b115d849997" version="1">Javelin Toss</content>
-	<content contentuid="ha4cdf395g868cg441cg8943g5c28462618b2" version="1">Create and hurl a javelin.</content>
+	<content contentuid="ha4cdf395g868cg441cg8943g5c28462618b2" version="1">Hurl a sharp javelin.</content>
 	<content contentuid="h6201f219g6fd2g4326ga66fga8370aa4ed6e" version="1">Nomad's Mark</content>
 	<content contentuid="h279dac6dg4616g4357gba8cg5b2e8acfff20" version="1">Mark a creature as your quarry to deal an additional [1] whenever you damage it.</content>
 	<content contentuid="ha17eabcagf14eg48begb3ffg584200bb74ff" version="1">Affected entity suffers an additional [1] if the spellcaster damages it.</content>
@@ -232,7 +232,7 @@
 	<content contentuid="he267b376g3205g44b3g9addgf9cbd3d31900" version="1">Doom</content>
 	<content contentuid="h5ad845a8g85c9g41c3gaf07g6719a9efdec0" version="1">Doom a creature to certain death. While you remain within [1] of it, it cannot regain hit points, its &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; is halved it will lose any &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; it has.</content>
 	<content contentuid="h47f33188gb5b3g41c8g941eg06bd8e201b9b" version="1">Affected creature cannot regain hit points, its &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; is halved and no longer has any &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt;.</content>
-	<content contentuid="h4f83831eg1c7bg44e0g8cfdg8a01097ef699" version="1">(NYI) Crown of Apathy</content>
+	<content contentuid="h4f83831eg1c7bg44e0g8cfdg8a01097ef699" version="1">Crown of Apathy</content>
 	<content contentuid="h9a6cebf2g5932g437ag9ff6g4298ec8093fd" version="1">You have learned to suppress all emotions on creatures, filling them with a sense of apathy and disinterest.</content>
 	<content contentuid="h83b9fa27gb8cfg4b03ga46ag63a1a89e700a" version="1">Psychic Focus: Crown of Apathy</content>
 	<content contentuid="h3de96f4bg290eg464cg8877g6462128cb209" version="1">Gain immunity against being &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charmed&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;.</content>
@@ -242,14 +242,16 @@
 	<content contentuid="h77888fd5g7d83g48c3ga4ecgca67238a817e" version="1">&lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on the next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
 	<content contentuid="hd603eaf4g8b4bg417egbcf0ga37a91dbb112" version="1">Lassitude</content>
 	<content contentuid="h2ee6db85g13ceg4f7dgb9f2g321a2bc21058" version="1">Assault a creature with a flood of lethargy, preventing it from taking reactions. Additionally, it may only either move, take an action or bonus action.</content>
-	<content contentuid="h95e0bdfega465g4779gb9e4g896640f27cfb" version="1">TODO: Lassitude Status Description</content>
+	<content contentuid="h95e0bdfega465g4779gb9e4g896640f27cfb" version="1">Affected entity cannot take reactions. Additionally, it may only either move, take an action or bonus action during its turns.</content>
 	<content contentuid="he8f1d4ebga3e7g480egbaa4g532376a66a9d" version="1">Incite Apathy</content>
 	<content contentuid="h244cd09egf496g492fga80cg881fa1e5765b" version="1">Demoralize a creature, making it deal half damage with weapon attacks.</content>
 	<content contentuid="hec96d76cg5970g47b7gad24g6b2a1a863a3e" version="1">Affected creature deals half damage with weapon attacks.</content>
 	<content contentuid="h6908b9f7g45a6g49c0g9caag9dfcf7d8c7c8" version="1">Aura of Indifference</content>
 	<content contentuid="h35da4d2eg6df2g4c72gbeb1g5974ff14e3d0" version="1">Radiate an aura of indifference that compels enemies to do nothing. Enemies within the aura may drop their weapons, lose concentration and skip their turn entirely.</content>
-	<content contentuid="" version="1">Emitting an aura of indifference. Nearby enemies may drop their weapons, lose concentration and skip their turn entirely.</content>
-	<content contentuid="" version="1">Simply does not care anymore.</content>
+	<content contentuid="h25ee32f3gfd06g41a8g932eg5e197f04af3a" version="1">Emitting an aura of indifference. Nearby enemies may drop their weapons, lose concentration and skip their turn entirely.</content>
+	<content contentuid="hc2e5acf7gb5f5g49f0g8404gb09223b2828e" version="1">Near a mystic's aura of indifference. Affected entity may drop its weapons, lose concentration and skip its turn entirely.</content>	
+	<content contentuid="h3674f133gc956g4b5fg8de3ga343c58011e1" version="1">Indifferent</content>
+	<content contentuid="hde3257c6g0eb1g434ag8d76ga874746caac3" version="1">Simply does not care anymore.</content>
 	<content contentuid="h34368b6cgcb6cg4965g8411g07a0b5bb2dae" version="1">(NYI) Nomadic Grace</content>
 	<content contentuid="h83ae95edg6a73g4c34g81e5gee9615b1ba91" version="1">You imbue your weapons with the essence of the winds, delivering elegant yet deadly techniques upon your foes.</content>
 	<content contentuid="h4c8aed3bgbd80g4767gb44cg38c16924ffe9" version="1">Psychic Focus: Nomadic Grace</content>
@@ -456,7 +458,7 @@
 	<content contentuid="ha70e6827gb65ag40e1g919bgc1e620f6a81c" version="1">Eldritch Evolution</content>
 	<content contentuid="h953238d0g6c9fg45ccgac03g4c129e1513d6" version="1">Fully embrace the nature of entities from beyond. You are considered an Aberration and your psionic disciplines cost no Psi Points. When this effect ends, you will be reduced to 1 hit point.</content>
 	<content contentuid="hda592217g6a3dg43b5g9aabg34cd88b137bd" version="1">Affected entity has no Psi Point costs and is considered an Aberration.</content>
-	<content contentuid="hfc59c2cfg3fe6g4f8bga371g20676f22e0ea" version="1">(NYI) Order of the Unbound</content>
+	<content contentuid="hfc59c2cfg3fe6g4f8bga371g20676f22e0ea" version="1">Order of the Unbound</content>
 	<content contentuid="h801602afg84acg4eccg8af6gbd71ddab7784" version="1">The least understood order, unbound mystics embrace the unpredictability of their own mind, letting loose wild psionic surges with even the most fleeting of thoughts.</content>
 	<content contentuid="h7207fc46gfd06g4518g901agfdf73249419a" version="1">Wild Psionics</content>
 	<content contentuid="hd2f7b573ge538g41afgb0b0gf27bb5856991" version="1">Your uncontrolled thoughts can manifest into wild psionic surges. After casting a psionic discipline, there is a chance to trigger a Wild Psionic Surge.</content>
@@ -490,33 +492,43 @@
 	<content contentuid="h8997af5fga4efg4a05g962ag9f56b8136e81" version="1">Your psionic disciplines can unleash unpredictable surges of untamed psionics.</content>
 	<content contentuid="h48b57fd2gd81fg46c2ga3ceg57a3199b6099" version="1">Wild Psionics: Turn Psionics</content>
 	<content contentuid="hc8719e90gd67dg4113gb161ge157df3152da" version="1">At the start of each turn, triggers a random psionic effect.</content>
-	<content contentuid="" version="1">Commander</content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1">Aneurysm</content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1">Eureka!</content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1">Surge of Action</content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1">Supersonic</content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1">Gigantic</content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1">Pint-Sized</content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-		
+	<content contentuid="ha30da547g6d52g4e37gb528g29eb5de998d4" version="1">Wild Psionics: Commander</content>
+	<content contentuid="h76f47e25gb56eg47bag8674g2c4fa901c7eb" version="1">Each ally within [1] gains &lt;LSTag Type="Status" Tooltip="MYSTIC_COORDINATED_MOVEMENT"&gt;Coordinated Movement&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="MYSTIC_COMMAND_TO_STRIKE"&gt;Command to Strike&lt;/LSTag&gt;. Each enemy within [1] gains &lt;LSTag Type="Status" Tooltip="MYSTIC_COMMANDERS_SIGHT"&gt;Commander's Sight&lt;/LSTag&gt;.</content>
+	<content contentuid="h0005dac4gbfbdg4568g9623g1ee0d05e1acc" version="1">Wild Psionics: Aneurysm</content>
+	<content contentuid="h1c0ebec4g06a3g4ce3gb3fdg164728a9505c" version="1">Each creature within [1] starts bleeding and takes [2] per turn. Bleeding creatures have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
+	<content contentuid="h90f53f8dg7cd5g4bd8g9794ge40a91cd598e" version="1">Wild Psionics: Eureka!</content>
+	<content contentuid="h5ac6299bga1f6g4713gb807ga5b9a6ae3f35" version="1">Psionic disciplines cost no Psi Points.</content>
+	<content contentuid="h90f0ef86gf9aag4764g92e2g5b2fb7e64570" version="1">Wild Psionics: Surge of Action</content>
+	<content contentuid="h6eeee3f5g5bc4g4ff3gba21g6943fca629e3" version="1">You gain an additional action this turn.</content>
+	<content contentuid="hf4f54ab6g19eag473ag86a1g358ee961469d" version="1">Wild Psionics: Supersonic</content>
+	<content contentuid="h09f4688ag48a1g4075g8b22g2d8050791a71" version="1">You gain &lt;LSTag Type="Status" Tooltip="MYSTIC_BLUR_OF_MOTION"&gt;Blur of Motion&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="MYSTIC_RAPID_STEP_3"&gt;Rapid Step&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="MYSTIC_AGILE_DEFENSE"&gt;Agile Defense&lt;/LSTag&gt;.</content>
+	<content contentuid="h729c018fge9f6g4b0bg9564gb5b6ffcc52a4" version="1">Wild Psionics: Gigantic</content>
+	<content contentuid="h601a822cg53c4g4783g99c6g0f3aa3724ea9" version="1">Each creature within [1] gains &lt;LSTag Type="Status" Tooltip="MYSTIC_OGRE_FORM"&gt;Ogre Form&lt;/LSTag&gt;.</content>
+	<content contentuid="h2d8da5cbgb190g4dbcgb51ag688864f798c9" version="1">Wild Psionics: Pint-Sized</content>
+	<content contentuid="h40261490g8e2cg4b7ag995cg6db2329fba27" version="1">Each creature within [1] gains &lt;LSTag Type="Status" Tooltip="MYSTIC_MINIATURE_FORM"&gt;Miniature Form&lt;/LSTag&gt;.</content>
+	<content contentuid="h3674e5a8g83e0g4b8ag9652g62187f1a7e1c" version="1">Wild Psionics: Steel Hide</content>
+	<content contentuid="h5a14cf83gc250g42c9gaa8dg7c22787229c8" version="1">You gain &lt;LSTag Type="Status" Tooltip="MYSTIC_STEEL_HIDE"&gt;Steel Hide&lt;/LSTag&gt;.</content>
+	<content contentuid="h295d9c15g9926g4df2g9baegd54515e736f2" version="1">Wild Psionics: Polyglot</content>
+	<content contentuid="h486451d8gd6b3g400egad88gcf67984270f6" version="1">You gain &lt;LSTag Type="Status" Tooltip="MYSTIC_PSYCHIC_SPEECH"&gt;Psychic Speech&lt;/LSTag&gt; until your next long rest.</content>
+	<content contentuid="h56eba3b0g9fd9g4648g8559gacc863ad28c5" version="1">Wild Psionics: Water Sphere</content>
+	<content contentuid="h98808ef8g7eb9g47a3g9878gda252511fb45" version="1">You become trapped in a water sphere. Your &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; is halved, &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; and your sight range is reduced to [1]. &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against you have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
+	<content contentuid="h9450e208gbc11g4f0fg8658g8e2f57dd0b68" version="1">Wild Psionics: Step from Sight</content>
+	<content contentuid="h9c367f4ag71aag48e1g87b7ge7fab832d917" version="1">You become invisible.</content>
+	<content contentuid="h54bf763eg1efdg4342g9f5agf03fb9b58bdb" version="1">Wild Psionics: Feat of Strength</content>
+	<content contentuid="h0e0da90eg044dg4a94g8a9ag6df5dc9a417e" version="1">You gain &lt;LSTag Type="Status" Tooltip="MYSTIC_FEAT_OF_STRENGTH"&gt;Feat of Strength&lt;/LSTag&gt; until your next long rest.</content>
+	<content contentuid="h9e3b176cg8da1g45deg9b37g4f9b8ceb194a" version="1">Wild Psionics: Flame Legion</content>
+	<content contentuid="ha1893d08g02dag401cg8574gf92ee01863af" version="1">Each creature within [1] gains &lt;LSTag Type="Status" Tooltip="MYSTIC_FIRE_FORM"&gt;Fire Form&lt;/LSTag&gt;.</content>
+	<content contentuid="h58792017g77f3g41d4gb86agc93ad504a662" version="1">Wild Psionics: Riot!</content>
+	<content contentuid="hf021db90ga959g4f96g964fgeda6346c8bdb" version="1">Each creature within [1] gains &lt;LSTag Type="Status" Tooltip="MYSTIC_PUNISHING_FURY"&gt;Punishing Fury&lt;/LSTag&gt;.</content>
+	<content contentuid="h3c507972g5694g496bg965fg60d2f227094f" version="1">Wild Psionics: Panic!</content>
+	<content contentuid="h8a23aaafgcdbdg4ccegb6c5g8830412f555d" version="1">Each creature within [1] becomes &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;.</content>
+	<content contentuid="hd1d4b891g51a4g413bg901cg41e6ecdf6fc0" version="1">Wild Psionics: Precognition</content>
+	<content contentuid="h46fd3276g8af5g4316g910cga55e1e02d016" version="1">You gain &lt;LSTag Type="Status" Tooltip="MYSTIC_PRECOGNITIVE_HUNCH"&gt;Precognitive Hunch&lt;/LSTag&gt;.</content>
+	<content contentuid="hbcc741f9ge703g4d2ag8fcdg18cae9eb937a" version="1">Wild Psionics: Wild Mutation</content>
+	<content contentuid="h0203286fga280g42cfg9f1cgd0f38b8026d7" version="1">Each creature within [1] randomly gains &lt;LSTag Type="Status" Tooltip="MYSTIC_BESTIAL_TRANSFORMATION_TOUGH_HIDE"&gt;Tough Hide&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="MYSTIC_BESTIAL_TRANSFORMATION_FLIGHT"&gt;Flight&lt;/LSTag&gt;.</content>
+	<content contentuid="h2bde5ba0g270fg4a94g9d1cge42f1aefbad3" version="1">Wild Psionics: Beacon</content>
+	<content contentuid="hbc7d2345ge261g4ba6g9e75gc9f2acfef2a1" version="1">You shine a bright light.</content>
+	<content contentuid="h0e0bf025g7c24g4020g91f9g407afb3722f4" version="1">Wild Psionics: Darkness</content>
+	<content contentuid="h5469b6d5g942cg4e8cgac3bg0b53964db22f" version="1">Create a cloud of darkness around yourself.</content>
+	<content contentuid="" version="1"> </content>	
 </contentList>
