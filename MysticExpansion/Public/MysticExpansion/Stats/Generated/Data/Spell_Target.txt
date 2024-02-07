@@ -858,7 +858,6 @@ data "PrepareEffect" "2fa6b127-6f8a-4150-8be6-6f62b7a85911"
 data "CastEffect" "40f543cf-7aac-4da5-bc97-b11bb693d297"
 data "TargetEffect" "91ef374a-8917-4b10-a4dc-89ba36ec60b4"
 
-
 // Mass Repose
 new entry "Target_Mystic_MassRepose"
 type "SpellData"
@@ -869,6 +868,43 @@ data "Icon" "Action_Mystic_MassRepose"
 data "DisplayName" "h2328aa8agcd90g42fcgb5ecg3245648d3cb2"
 data "Description" "hf0e863ffg95d7g4dd6g88f4gd0d174b71bf8"
 data "DescriptionParams" ""
+
+data "TargetRadius" "18"
+data "AreaRadius" "9"
+data "SpellRoll" "not SavingThrow(Ability.Charisma, SourceSpellDC())"
+data "SpellSuccess" "ApplyStatus(SLEEP,100,3)"
+// data "TargetConditions" "not HasStatus('SG_Unconscious') and not Dead() and Character() and not Tagged('UNDEAD') and not IsImmuneToStatus('SLEEP')"
+data "AoEConditions" "Character() and not Self()"
+data "TooltipStatusApply" "ApplyStatus(SLEEP,100,3)"
+data "TooltipAttackSave" "Charisma"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
+data "CycleConditions" "Enemy() and not Dead()"
+data "UseCosts" "ActionPoint:1;PsiPointsResource:7;PsiLimitResource:1:7"
+data "SpellAnimation" "9fd22d7d-5d7a-470b-a939-810046915bed,,;,,;2f893fad-98eb-47cf-a524-dd4efd42bc2a,,;ca3147a8-2cf6-45a8-ac9a-1ce0fc11305f,,;2d19a206-bf18-4f4d-ba95-f83c5fc38fd7,,;,,;57db495b-2467-467b-a599-d7df2fa4d659,,;,,;,,;"
+data "SpellFlags" "IsSpell;HasHighGroundRangeExtension"
+data "HitAnimationType" "MagicalDamage_Psychic"
+data "PrepareSound" "Spell_Prepare_Control_Gen_L1to3_01"
+data "PrepareLoopSound" "Spell_Prepare_Control_Gen_L1to3_01_Loop"
+data "CastSound" "Spell_Cast_Control_Sleep_L1to3"
+data "TargetSound" "Spell_Impact_Control_Sleep_L1to3"
+data "PrepareEffect" "2fa6b127-6f8a-4150-8be6-6f62b7a85911"
+// data "CastEffect" "40f543cf-7aac-4da5-bc97-b11bb693d297"
+// data "TargetEffect" "91ef374a-8917-4b10-a4dc-89ba36ec60b4"
+// data "PositionEffect" "69cd378b-2fa5-466b-bbf4-2c2ccb165717"
+// data "PrepareSound" "Spell_Prepare_Debuff_EyeBitePanicked_L6to8"
+// data "CastSound" "Spell_Cast_Debuff_EyebitePanicked_L6to8"
+// data "TargetSound" "Spell_Impact_Debuff_EyebitePanicked_L6to8"
+// data "PrepareEffect" "660caaf6-6675-47c7-bfed-6f1a62d4ae93"
+// data "CastEffect" "8c94e851-f437-485b-90d6-ec2478faa425"
+// data "TargetEffect" "680466bb-7c3a-408e-8835-69ffcb984635"
+// data "PositionEffect" "eed7578c-35c5-4531-9315-a83239028487"
+// data "DamageType" "Psychic"
+// data "PrepareEffect" "2fa6b127-6f8a-4150-8be6-6f62b7a85911"
+// data "CastEffect" "b4221f40-bcc3-4703-acc5-1afaee284839"
+// data "PositionEffect" "eed7578c-35c5-4531-9315-a83239028487"
+data "CastEffect" "36718a29-73d8-457c-af7a-229c821bc1a2"
+data "PositionEffect" "6294e84c-e600-4dce-ba57-2b1916318c8e"
 
 // Psychic Double
 new entry "Target_Mystic_PsychicDouble"
@@ -1038,6 +1074,33 @@ data "Icon" "Action_Mystic_SoulGrip"
 data "DisplayName" "h17705b51g3538g45afgb800g2c6732f4f01a"
 data "Description" "h3621851fg67f3g4745g9f64gb9d4a44e3e85"
 data "DescriptionParams" ""
+
+data "TargetRadius" "18"
+data "SpellRoll" "SpellAutoResolveOnAlly(Ability.Charisma, SourceSpellDC(),true)"
+data "SpellSuccess" "TARGET:IF(not Grounded() and TargetSizeEqualOrSmaller(Size.Large)):Force(-18, OriginToEntity, Neutral, false, true)"
+data "TargetConditions" "not Self() and Character() and not Dead()"
+data "TooltipAttackSave" "Charisma"
+
+// new entry "Target_DeathGrip"
+
+// data "TooltipAttackSave" "MeleeSpellAttack"
+// data "TooltipPermanentWarnings" "c211ed6a-1f57-4488-be1c-6bd44be5a1c6"
+// data "PrepareSound" "Spell_Prepare_Debuff_Gen_L1to3_01"
+// data "CastSound" "Spell_Cast_Damage_ThornWhip_L0"
+// data "TargetSound" "Spell_Impact_Damage_ThornWhip_L0"
+// data "VocalComponentSound" "Vocal_Component_DamagePiercingWhip"
+// data "CastTextEvent" "Cast"
+// data "UseCosts" "BonusActionPoint:1"
+// data "SpellAnimation" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;70a28457-dba7-46f7-b03c-ceb3b9e12bad,,;68868848-6341-448a-97e3-94aa43ad5faf,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,,"
+// data "VerbalIntent" "Damage"
+// data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;AddFallDamageOnLand"
+// data "MaximumTargets" "1"
+// data "PrepareEffect" "556fd141-698d-4c08-9322-ad155821260a"
+// data "CastEffect" "0340b957-f9eb-45bc-9c6f-d4def37f5249"
+// data "TargetEffect" "7bc94f99-636c-40e9-a438-79394823a3be"
+// data "BeamEffect" "90005aeb-4d43-48a7-51a7-31228958b36f"
+// data "DamageType" "Force"
+
 
 // Souleater
 new entry "Target_Mystic_Souleater"
@@ -1294,10 +1357,59 @@ data "DisplayName" "h04310a2ageac0g43e7g8b0ag2c5319b18d71"
 data "Description" "heb6042bdgce74g4d6agb1fag89967b89c89f"
 data "DescriptionParams" "DealDamage(2d6,Fire)"
 
-// SunlightSensitivity
-// SunlightHypersensitivity
-// SunlightWeakness
-// SunSickness_Myconid
+data "TargetRadius" "18"
+data "AreaRadius" "5"
+data "SpellProperties" "GROUND:SurfaceChange(Ignite);GROUND:SurfaceChange(Melt)"
+data "SpellRoll" "not SavingThrow(Ability.Dexterity, SourceSpellDC(),,IsSensitiveToSunlight())"
+data "SpellSuccess" "DealDamage(6d6,Fire,Magical);ApplyStatus(BLINDED,100,1);IF(IsSensitiveToSunlight()):DealDamage(2d6,Fire,Magical)"
+data "SpellFail" "DealDamage((6d6)/2,Fire,Magical);IF(IsSensitiveToSunlight()):DealDamage((2d6)/2,Fire,Magical)"
+data "TooltipDamageList" "DealDamage(6d6,Fire);DealDamage(2d6,Fire,,,,ad727a13-c6f0-4b5b-aefd-aac79c6ed46e)"
+data "TooltipStatusApply" "ApplyStatus(BLINDED,100,1)"
+data "TooltipAttackSave" "Dexterity"
+data "TooltipOnSave" "f762efbb-f8f1-493e-b248-2de1567b4bd2"
+data "UseCosts" "ActionPoint:1;PsiPointsResource:5;PsiLimitResource:1:5"
+data "SpellAnimation" "dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;7abe77ed-9c77-4eac-872c-5b8caed070b6,,;cb171bda-f065-4520-b470-e447f678ba1f,,;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;,,;,,"
+data "HitAnimationType" "MagicalDamage_External"
+data "PrepareSound" "Spell_Prepare_Damage_Fire_Gen_L1to3"
+data "PrepareLoopSound" "Spell_Prepare_Damage_Fire_Gen_L1to3_Loop"
+data "CastSound" "Spell_Cast_Damage_Fireball_L5"
+data "TargetSound" "Spell_Impact_Damage_Fire_BurningHands_L1to3"
+data "PrepareEffect" "c88e9cfa-df92-477a-ae75-cbfb932350b4"
+data "CastEffect" "69aaec35-fb5f-489e-a4cc-47310f4377e9"
+data "HitEffect" "41de42e1-56d0-4336-8b44-99fc38281525"
+data "TargetEffect" "a4786ee9-eb7c-4d0d-aaa9-9a637d9eaeaf"
+// data "PositionEffect" "60ddc177-96c4-4cfc-a992-846df4aa4cce"
+
+
+
+
+
+
+
+data "SpellFlags" "IsSpell;IsHarmful;HasHighGroundRangeExtension"
+data "DamageType" "Fire"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
+data "PositionEffect" "39eecde2-d067-49a1-8b38-c286f7c0c0bd"
+
+
+
+
+
+// data "PositionEffect" "326e77b8-3951-4507-b42a-838533b274e2"
+
+// data "PositionEffect" "d230c275-b0bf-462d-a4a1-a77d2312ad28"
+
+
+
+
+// data "PositionEffect" "288946a3-34f7-46b5-8cbc-0fa48554c205"
+
+// new entry "Projectile_Fireball"
+// data "Trajectories" "f5855e43-2e8f-4971-b8c2-7faa36e3381b"
+
+// data "SpellAnimation" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;38cdb41c-2eec-4e03-bb31-83cff0346c35,,;85414f5f-b448-4dda-9370-1b6c4b38b561,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,,"
+// data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful;CanAreaDamageEvade"
 
 // Starstorm
 new entry "Target_Mystic_Starstorm"
@@ -1308,6 +1420,61 @@ data "Level" "7"
 data "Icon" "Action_Mystic_Starstorm"
 data "DisplayName" "h5e86fdbbg2e3dg4447g8decg29e86e0b44ba"
 data "Description" "h7a3a102fg9de3g460dg88e5g57d87a14841b"
+
+data "SpellProperties" "AI_IGNORE:GROUND:Summon(0ba4af65-19d0-4a31-9a42-2c365462841b, 10,,,,MYSTIC_STARSTORM_AURA)"
+data "TargetRadius" "18"
+data "AreaRadius" "6"
+data "AoEConditions" "not Self()"
+data "TargetConditions" "not Self()"
+data "TooltipStatusApply" "ApplyStatus(MYSTIC_STARSTORM_AURA,100,10)"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
+data "TooltipDamageList" "DealDamage(4d10,Radiant)"
+data "TooltipAttackSave" "Dexterity"
+data "UseCosts" "ActionPoint:1;PsiPointsResource:7;PsiLimitResource:1:7"
+data "SpellAnimation" "dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;7abe77ed-9c77-4eac-872c-5b8caed070b6,,;cb171bda-f065-4520-b470-e447f678ba1f,,;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;,,;,,"
+data "SpellFlags" "IsSpell;HasHighGroundRangeExtension;IsConcentration;IsHarmful;CannotTargetItems"
+data "PrepareSound" "Spell_Prepare_Damage_Fire_Gen_L1to3"
+data "PrepareLoopSound" "Spell_Prepare_Damage_Fire_Gen_L1to3_Loop"
+data "CastSound" "Spell_Cast_Damage_Fireball_L5"
+data "TargetSound" "Spell_Impact_Control_SleetStorm_L1to3"
+data "PrepareEffect" "c88e9cfa-df92-477a-ae75-cbfb932350b4"
+data "TargetEffect" "a4786ee9-eb7c-4d0d-aaa9-9a637d9eaeaf"
+data "CastEffect" "36718a29-73d8-457c-af7a-229c821bc1a2"
+data "PositionEffect" "6294e84c-e600-4dce-ba57-2b1916318c8e"
+data "DamageType" "Radiant"
+
+// new entry "Target_InsectPlague"
+// data "SpellProperties" "GROUND:Summon(2388e4a2-f3e0-4474-b18c-0d4b43af5a65,10,Projectile_AiHelper_Silence,,,INSECT_PLAGUE_AURA);ApplyStatus(INSECT_PLAGUE_TECHNICAL,100,1)"
+// data "SpellRoll" "not SavingThrow(Ability.Constitution, SourceSpellDC())"
+// data "SpellSuccess" "DealDamage(4d10,Piercing,Magical)"
+// data "SpellFail" "DealDamage((4d10)/2,Piercing,Magical)"
+// data "TargetConditions" "not Dead()"
+// data "TooltipDamageList" "DealDamage(4d10,Piercing)"
+// data "TooltipAttackSave" "Constitution"
+// data "TooltipStatusApply" "ApplyStatus(INSECT_PLAGUE_AURA,100,10)"
+// data "TooltipOnSave" "f762efbb-f8f1-493e-b248-2de1567b4bd2"
+// data "TooltipUpcastDescription" "66388a6f-44dd-4c9f-a9e7-910c50e70755"
+// data "TooltipUpcastDescriptionParams" "DealDamage(1d10,Piercing)"
+// data "PrepareSound" "Spell_Prepare_Summon_InsectPlague_L4to5"
+// data "PrepareLoopSound" "Spell_Loop_Summon_InsectPlague_L4to5"
+// data "CastSound" "Spell_Cast_Summon_InsectPlague_L4to5"
+// data "TargetSound" "Spell_Impact_Summon_InsectPlague_L4to5"
+// data "CastTextEvent" "Cast"
+// data "CycleConditions" "Enemy() and not Dead()"
+// data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:5"
+// data "SpellAnimation" "6f42f5f3-7a5a-4441-a02e-71b0450ac4b7,,;,,;c0513845-6e0e-42e8-9a8c-baa5e2b6ead6,,;fbf20742-9dbf-475b-9ff5-42e4b08064ad,,;42aaefdc-cf9b-4249-b159-285041851f69,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,,"
+// data "VerbalIntent" "Damage"
+// data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsSpell;IsHarmful;IsConcentration;CannotTargetItems"
+// data "MemoryCost" "1"
+// data "PrepareEffect" "239d0263-eb26-4d7e-9683-4d7be6b6a1cf"
+// data "CastEffect" "111a8b8c-b395-46d0-b2f0-a10ac6f9731f"
+// data "PositionEffect" "a344b210-8c67-4cf9-8baf-360e6e692587"
+// data "DamageType" "Poison"
+
+// new entry "Target_SleetStorm"
+// data "SpellProperties" "GROUND:Summon(802b8b51-1bcf-469d-8663-2f1dc9698982, 10,,,SleetStorm,SLEET_STORM);RemoveStatus(BURNING)"
+
 
 // Regrowth
 new entry "Target_Mystic_Regrowth"
@@ -1418,6 +1585,7 @@ data "TargetSound" "Spell_Impact_Control_Entangle_L1to3"
 data "PrepareEffect" "67770f05-890a-4b11-8a80-d60079041ab7"
 data "CastEffect" "17fb1fe6-7dd9-4ce9-a7a3-d46453d26398"
 data "TargetEffect" "48d608a9-af9e-40e3-a978-e460c8dd3a95"
+
 
 new entry "Target_Mystic_PsychicBrand_Strength"
 type "SpellData"
@@ -1695,7 +1863,23 @@ data "Level" "5"
 data "Icon" "Action_Mystic_BestowLuck"
 data "DisplayName" "hc25f2345gd46ag4200gbc55g70ce18b3663a"
 data "Description" "hca765d74g100ag4b85g9a3dgeadcbd4f737f"
-data "DescriptionParams" ""
+
+data "SpellProperties" "ApplyStatus(MYSTIC_BESTOW_LUCK,100,-1)"
+data "TooltipStatusApply" "ApplyStatus(MYSTIC_BESTOW_LUCK,100,-1)"
+data "SpellFlags" "IsSpell;IsMelee"
+data "TargetRadius" "1.5"
+data "TargetConditions" "Character()"
+data "CastTextEvent" "Cast"
+data "UseCosts" "ActionPoint:1;PsiPointsResource:5;PsiLimitResource:1:5"
+data "SpellAnimation" "9fd22d7d-5d7a-470b-a939-810046915bed,,;,,;8252328a-66dd-4dc0-bbe0-00eea3204922,,;982d842b-5d44-4ef6-ab33-14d5ae514a50,,;2d19a206-bf18-4f4d-ba95-f83c5fc38fd7,,;,,;57db495b-2467-467b-a599-d7df2fa4d659,,;2f5d8e0b-35f3-416f-99e9-1cc9d942204e,,;f2ec369f-4a3b-451e-b954-2ab0a53d51d6,,;"
+data "HitAnimationType" "MagicalNonDamage"
+data "PrepareSound" "Spell_Prepare_Damage_Radiant_Gen_L1to3"
+data "PrepareLoopSound" "Spell_Prepare_Damage_Radiant_Gen_L1to3_Loop"
+data "CastSound" "Spell_Cast_Damage_Physical_EnsnaringStrike_L1to3"
+data "TargetSound" "Spell_Impact_Control_Entangle_L1to3"
+data "PrepareEffect" "67770f05-890a-4b11-8a80-d60079041ab7"
+data "CastEffect" "17fb1fe6-7dd9-4ce9-a7a3-d46453d26398"
+data "TargetEffect" "48d608a9-af9e-40e3-a978-e460c8dd3a95"
 
 // Seething Ire
 new entry "Target_Mystic_SeethingIre"

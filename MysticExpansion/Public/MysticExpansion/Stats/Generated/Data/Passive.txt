@@ -218,8 +218,8 @@ new entry "Discipline_SoulReaper_Effect"
 type "PassiveData"
 data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnDamage"
-data "Conditions" "HasHPLessThan(1) and Enemy() and Character()"
-data "StatsFunctors" "RegainHitPoints(max(1,ClassLevel(Mystic)+IntelligenceModifier))"
+data "Conditions" "HasHPLessThan(1) and Character()"
+data "StatsFunctors" "RegainHitPoints(SELF,max(1,ClassLevel(Mystic)+IntelligenceModifier))"
 
 // Lassitude
 new entry "Passive_Mystic_Lassitude"

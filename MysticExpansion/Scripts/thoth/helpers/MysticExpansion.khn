@@ -801,3 +801,10 @@ function SuccessRate(threshold)
     local random_num = math.random(1,100)
     return ConditionResult(random_num <= threshold)
 end
+
+function IsSensitiveToSunlight(source, target)
+    source = source or context.Source
+    target = target or context.Target
+
+    return HasPassive('SunlightSensitivity',target) | HasPassive('SunlightHypersensitivity',target) | HasPassive('SunlightWeakness',target) | HasPassive('SunSickness_Myconid',target)
+end

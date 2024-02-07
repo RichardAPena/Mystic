@@ -138,7 +138,7 @@
 	<content contentuid="h02c7f042gc35cg4c3egb4c9gcbcc33301381" version="1">Hunting Party</content>
 	<content contentuid="h3d902583ge7a6g439fg9f1agafc187143ec3" version="1">Heighten your and nearby allies' senses: gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against a target if one of your allies is within [1] of the target and isn't Incapacitated.</content>
 	<content contentuid="hb33fa5c6g821fg4545gbf54ga3251667d74b" version="1">Affected entity has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against a target if one of its allies is within [1] of the target and isn't Incapacitated.</content>
-	<content contentuid="h660cf269gc118g47c7g9ec3g2edb7b3490ff" version="1">(NYI) Mantle of Serenity</content>
+	<content contentuid="h660cf269gc118g47c7g9ec3g2edb7b3490ff" version="1">Mantle of Serenity</content>
 	<content contentuid="h0e323662g0dbag4732g9fd7g8e91d11d9dbe" version="1">You focus your mind on peace and serenity, bringing relaxation and rest to yourself and others.</content>
 	<content contentuid="h4c9731efg6472g47adg9320ge8a022c76861" version="1">Psychic Focus: Mantle of Serenity</content>
 	<content contentuid="hf21f00b5g593ag4240g82d6g3d11283de7bb" version="1">Gain immunity to &lt;LSTag Type="Status" Tooltip="SLEEP"&gt;Sleep&lt;/LSTag&gt; and &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; against being &lt;LSTag Type="Status" Tooltip="PARALYZED"&gt;Paralysed&lt;/LSTag&gt;.</content>
@@ -150,8 +150,8 @@
 	<content contentuid="h8b914e10gd51dg4b99ga0b3g7fe5b689e0f2" version="1">Can't be &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charmed&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;, and can't &lt;LSTag Type="Spell" Tooltip="Shout_Rage"&gt;Rage&lt;/LSTag&gt;.</content>
 	<content contentuid="hd91422f6ga89fg4ff7g809dge27c0c0ccc76" version="1">Aura of Tranquility</content>
 	<content contentuid="h764409f9ge516g4f31g83f0g292f970d6576" version="1">Exert an aura of peace, causing nearby allies to regain [1] at the end of each turn.</content>
-	<content contentuid="hddf1e669g6ffcg4c43g8771gce1eee492df0" version="1">At the end of each of their turns, allies regain [1].</content>
-	<content contentuid="h76d5fd11gb6c9g4326gb1eag9f1096d767d7" version="1">At the end of your turn, regain [1].</content>
+	<content contentuid="hddf1e669g6ffcg4c43g8771gce1eee492df0" version="1">Emitting an aura of peace. At the end of each of their turns, allies regain [1].</content>
+	<content contentuid="h76d5fd11gb6c9g4326gb1eag9f1096d767d7" version="1">Near a mystic's aura of peace. At the end of your turn, regain [1].</content>
 	<content contentuid="h5ced2dbfg5400g48a1g84c7g160b8fb1ae06" version="1">Hibernate</content>
 	<content contentuid="h01c31e64g4df9g40c9gb4b3g169e99a3f0d1" version="1">Place an allied creature in restful sleep, granting them the benefits of a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
 	<content contentuid="heb7a16c3g8a7cg4c50g8e3ag50dc537054e8" version="1">Lucid Dreaming</content>
@@ -282,7 +282,7 @@
 	<content contentuid="h84917679g6a3ag45d7g8d9cg01ae6e45d3ba" version="1">TODO: Steel Tempest: Final Strike Status Description</content>
 	<content contentuid="" version="1">End Steel Tempest</content>
 	<content contentuid="" version="1">TODO: End Steel Tempest Description</content>	
-	<content contentuid="h82c532f5g19f8g4adag880dgf693ebe925a7" version="1">(NYI) Mastery of Stars</content>
+	<content contentuid="h82c532f5g19f8g4adag880dgf693ebe925a7" version="1">Mastery of Stars</content>
 	<content contentuid="hadaff898ge06bg41a0ga205g9e95307b3b96" version="1">Your mind reaches out into the stars, granting you control over astral bodies.</content>
 	<content contentuid="hcef7129agd017g4472ga2a9g5de6ed49feb0" version="1">Psychic Focus: Mastery of Stars</content>
 	<content contentuid="he4b68c13g1c17g473dgb1b9gf11982c7f92d" version="1">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Radiant damage.</content>
@@ -392,7 +392,7 @@
 	<content contentuid="h2ba2c3b3g137bg4f43gbd8cgcfb7fc480b84" version="1">Unending Torment</content>
 	<content contentuid="h43088a14g2b3dg4096g8605ge586e6f454fc" version="1">Torment a creature with maddening whispers. It takes [1] per turn, cannot move, has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
 	<content contentuid="he94bd508ge2a0g4ccegb95dgcfbd4537a48d" version="1">Affected entity is tormented by maddening whispers.&lt;br&gt;&lt;br&gt;It takes [1] per turn, can't move, and has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
-	<content contentuid="h354ec41fg4559g435ag90fcgb93670fa151b" version="1">(NYI) Nomadic Guile</content>
+	<content contentuid="h354ec41fg4559g435ag90fcgb93670fa151b" version="1">Nomadic Guile</content>
 	<content contentuid="h76ab8912g40c9g42a4gb2e9ga28ebb53f8d9" version="1">You concentrate your mind on trickery and cunning, allowing you to deceive and swindle others with ease.</content>
 	<content contentuid="hcde1959agf63ag436dg9489gf1da9eab1689" version="1">Psychic Focus: Nomadic Guile</content>
 	<content contentuid="hed6e6708ge82cg4507gbdb1g0e13d36f46b6" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Sleight of Hand &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
@@ -404,8 +404,8 @@
 	<content contentuid="h39835206g62b1g44f2gb9aaga6e15fca4ff8" version="1">Your fingers move with unnatural agility, giving you a +[1] bonus to Sleight of Hand &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="h85b459f6gddf3g4958gb81fgc7d5ed828782" version="1">Affected entity has a +[1] bonus to Sleight of Hand &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="h70b41b25gf872g479cg85e9g6c171d0dd074" version="1">Turn the Tables</content>
-	<content contentuid="hab05913bg7cbfg4424ga371g28ea555d0363" version="1">When you are about to be hit by an &lt;LSTag Tooltip="AttackRoll"&gt;attack&lt;/LSTag&gt; or fail a &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;, you can reroll the die. Your attacker will then have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on their next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; or &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.</content>
-	<content contentuid="he7a67c29gf561g4f18ga56cg073ca2cd06f4" version="1">Affected entity has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on their next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; or &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.</content>
+	<content contentuid="hab05913bg7cbfg4424ga371g28ea555d0363" version="1">When you are about to be hit by an &lt;LSTag Tooltip="AttackRoll"&gt;attack&lt;/LSTag&gt; or fail a &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;, you can reroll the die. Your attacker will then have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; and attackers will have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
+	<content contentuid="he7a67c29gf561g4f18ga56cg073ca2cd06f4" version="1">Affected entity has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;. Attackers have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against it.</content>
 	<content contentuid="hc25f2345gd46ag4200gbc55g70ce18b3663a" version="1">Bestow Luck</content>
 	<content contentuid="hca765d74g100ag4b85g9a3dgeadcbd4f737f" version="1">Bless a creature with incredible luck, granting them the benefits of the &lt;LSTag Type="Passive" Tooltip="Lucky_Unlock"&gt;Lucky&lt;/LSTag&gt; feat.</content>
 	<content contentuid="h910bc346g0c9fg451cgb8e8g55a76f84138f" version="1">Affected entity has the benefits of the &lt;LSTag Type="Passive" Tooltip="Lucky_Unlock"&gt;Lucky&lt;/LSTag&gt; feat.</content>
