@@ -794,7 +794,37 @@ function WildPsionicSurgeCheck()
       | SpellId('Shout_Mystic_WildPsionics_Precognition')
       | SpellId('Shout_Mystic_WildPsionics_WildMutation')
       | SpellId('Shout_Mystic_WildPsionics_Beacon')
-      | SpellId('Shout_Mystic_WildPsionics_Darkness')      
+      | SpellId('Shout_Mystic_WildPsionics_Darkness')
+      | SpellId('Shout_Mystic_WildPsionics_IntellectDevourer')
+      | SpellId('Shout_Mystic_WildPsionics_Overgrowth')
+      | SpellId('Shout_Mystic_WildPsionics_PlanarAnomaly')
+      | SpellId('Shout_Mystic_WildPsionics_MoodSwings')
+      | SpellId('Shout_Mystic_WildPsionics_EnvelopingWinds')
+      | SpellId('Shout_Mystic_WildPsionics_Victorious')
+      | SpellId('Shout_Mystic_WildPsionics_Detonation')
+      | SpellId('Shout_Mystic_WildPsionics_ReturnToEarth')
+      | SpellId('Shout_Mystic_WildPsionics_Safeguard')
+      | SpellId('Shout_Mystic_WildPsionics_Narcolepsy')
+      | SpellId('Shout_Mystic_WildPsionics_MassHysteria')
+      | SpellId('Shout_Mystic_WildPsionics_ShortTemper')
+      | SpellId('Shout_Mystic_WildPsionics_BestialSpeech')
+      | SpellId('Shout_Mystic_WildPsionics_IceSheet')
+      | SpellId('Shout_Mystic_WildPsionics_HeightenedPsionics')
+      | SpellId('Shout_Mystic_WildPsionics_DevastatingPsionics')
+      | SpellId('Shout_Mystic_WildPsionics_Depression')
+      | SpellId('Shout_Mystic_WildPsionics_WhiskedAway')
+      | SpellId('Shout_Mystic_WildPsionics_Perceptive')
+      | SpellId('Shout_Mystic_WildPsionics_BrainRot')
+      | SpellId('Shout_Mystic_WildPsionics_SuddenDoom')
+      | SpellId('Shout_Mystic_WildPsionics_Truant')
+      | SpellId('Shout_Mystic_WildPsionics_Repulsive')
+      | SpellId('Shout_Mystic_WildPsionics_CloudyWeather')
+      | SpellId('Shout_Mystic_WildPsionics_EnvironmentalAdaptation')
+      | SpellId('Shout_Mystic_WildPsionics_Overconfident')
+      | SpellId('Shout_Mystic_WildPsionics_PsionicRenewal')
+      | SpellId('Shout_Mystic_WildPsionics_Elation')
+      | SpellId('Shout_Mystic_WildPsionics_Amnesia')
+      | SpellId('Shout_Mystic_WildPsionics_Grounded')
 end
 
 function SuccessRate(threshold)
@@ -807,4 +837,37 @@ function IsSensitiveToSunlight(source, target)
     target = target or context.Target
 
     return HasPassive('SunlightSensitivity',target) | HasPassive('SunlightHypersensitivity',target) | HasPassive('SunlightWeakness',target) | HasPassive('SunSickness_Myconid',target)
+end
+
+function HeightenedPsionicsCheck()
+    return (HasStringInSpellRoll('SavingThrow') | HasStringInFunctorConditions('SavingThrow') | HasStringInSpellRoll('SpellAutoResolveOnAlly') | HasStringInSpellRoll('HeatMetalInitialCheck') | HasStringInSpellRoll('HeatMetalReapplyCheck')) & (HasSpellFlag(SpellFlags.Spell) & (PsionicDisciplineCheck() | PsionicTalentCheck()))
+end
+
+function DevastatingPsionicsCheck()
+    return HasFunctor(StatsFunctorType.DealDamage) & HasSpellFlag(SpellFlags.Spell) & (PsionicDisciplineCheck() | PsionicTalentCheck())
+end
+
+function CharacterLevelLessThan(value, entity)
+    entity = entity or context.Source
+    return ConditionResult(entity.Level < value, {ConditionError("IsNotCharacterLevelLessThan")})
+end
+
+function TitansRageSpellCheck()
+    return SpellId('Shout_Mystic_MenacingPresence')
+         | SpellId('Projectile_Mystic_TitanicLeap')
+         | SpellId('Projectile_Mystic_TitanicLeap_5')
+         | SpellId('Projectile_Mystic_TitanicLeap_6')
+         | SpellId('Projectile_Mystic_TitanicLeap_7')
+end
+
+function PsychicDouble_NotControllingClone(entity)
+	entity = entity or context.Target
+	local result = ~HasStatus('MYSTIC_PSYCHIC_DOUBLE_ATTACKSWAP_MYSTIC', entity)
+	return result
+end
+
+function PsychicDouble_NotControlledClone(entity)
+	entity = entity or context.Target
+	local result = ~HasStatus('MYSTIC_PSYCHIC_DOUBLE_ATTACKSWAP_CLONE', entity)
+	return result
 end

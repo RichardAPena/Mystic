@@ -11,7 +11,7 @@
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="ParentTemplateId" type="FixedString" value="ab7f13b8-3b3f-49be-8708-4d52b9690e45" />
 					<attribute id="DisplayName" type="TranslatedString" handle="h65a29b73gcac5g4623ga881g0918bc8069f4" version="1" />
-					<attribute id="Icon" type="FixedString" value="Generated_MAG_Drunken_Cloth_Magic" /> TODO
+					<attribute id="Icon" type="FixedString" value="Generated_MAG_Drunken_Cloth_Magic" />
 					<attribute id="Stats" type="FixedString" value="ARM_Mystic_ImmortalChest_Body" />
 					<attribute id="Description" type="TranslatedString" handle="hc9b2e9ddg72f3g43dcgb6c8g3720da0a617c" version="1" />
 					<children>

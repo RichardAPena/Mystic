@@ -7,7 +7,7 @@
 				<node id="GameObjects">
 					<attribute id="Description" type="TranslatedString" handle="h87f17f14g089ag498aga052g1a388c329c06" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="h001b7467g1466g46e3g89dega4d339540f89" version="1" />
-					<attribute id="Icon" type="FixedString" value="Item_MAG_Mobility_LowHP_Momentum_Ring" /> TODO
+					<attribute id="Icon" type="FixedString" value="Item_MAG_Mobility_LowHP_Momentum_Ring" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="e91abd63-29c7-464b-a8d0-2e5482c27985" />
 					<attribute id="Name" type="LSString" value="ARM_Mystic_MentalExertion_Ring" />

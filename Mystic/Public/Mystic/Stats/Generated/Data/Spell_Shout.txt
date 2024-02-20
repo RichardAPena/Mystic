@@ -2436,8 +2436,6 @@ data "CastEffect" "514ecdc7-87b3-43f8-bd8a-69fb3b46f8da"
 data "RequirementConditions" "not Unarmed();"
 data "Sheathing" "Melee"
 
-// ^ TODO: MAke it so you can only target your soul knives
-
 new entry "Shout_Mystic_HoneTheBlade_1"
 using "Shout_Mystic_HoneTheBlade"
 data "SpellContainerID" "Shout_Mystic_HoneTheBlade"

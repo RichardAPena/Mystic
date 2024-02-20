@@ -1,0 +1,2 @@
+new equipment "MysticPsychicDoubleEquipment"
+add initialweaponset "Melee"

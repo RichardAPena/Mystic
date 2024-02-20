@@ -104,6 +104,156 @@
                     <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_Darkness"/>
                     <attribute id="UUID" type="guid" value="71e03161-fcfa-4ffa-ac0a-4cdf48caba38"/>
                 </node>
+                <node id="Outcome"> Summon Intellect Devourer
+                    <attribute id="GroupName" type="FixedString" value="WildPsionics"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_IntellectDevourer"/>
+                    <attribute id="UUID" type="guid" value="e83f8b04-2539-4959-b712-e5014d4e8dd5"/>
+                </node>
+                <node id="Outcome"> Overgrowth
+                    <attribute id="GroupName" type="FixedString" value="WildPsionics"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_Overgrowth"/>
+                    <attribute id="UUID" type="guid" value="55d47369-8ef9-4f0a-a663-ab6e0b56d023"/>
+                </node>
+                <node id="Outcome"> Planar Anomaly
+                    <attribute id="GroupName" type="FixedString" value="WildPsionics"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_PlanarAnomaly"/>
+                    <attribute id="UUID" type="guid" value="431027d0-ab91-4177-ac86-6bd952e5539b"/>
+                </node>
+                <node id="Outcome"> Mood Swings
+                    <attribute id="GroupName" type="FixedString" value="WildPsionics"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_MoodSwings"/>
+                    <attribute id="UUID" type="guid" value="a73c914b-61ff-4c9c-80bb-b55aeb334dad"/>
+                </node>
+                <node id="Outcome"> Enveloping Winds
+                    <attribute id="GroupName" type="FixedString" value="WildPsionics"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_EnvelopingWinds"/>
+                    <attribute id="UUID" type="guid" value="2a7913ec-b180-496f-a0ae-7a77dfb12a72"/>
+                </node>
+                <node id="Outcome"> Victorious
+                    <attribute id="GroupName" type="FixedString" value="WildPsionics"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_Victorious"/>
+                    <attribute id="UUID" type="guid" value="528070a2-bfbf-4b27-8b6c-b886e8598af6"/>
+                </node>
+                <node id="Outcome"> DETONATION!
+                    <attribute id="GroupName" type="FixedString" value="WildPsionics"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_Detonation"/>
+                    <attribute id="UUID" type="guid" value="78e71237-e694-41f7-96d7-fe97547096c5"/>
+                </node>
+                <node id="Outcome"> Return to Earth
+                    <attribute id="GroupName" type="FixedString" value="WildPsionics"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_ReturnToEarth"/>
+                    <attribute id="UUID" type="guid" value="ff3e91e7-94b9-4d4b-a4fd-e772ae3f28a9"/>
+                </node>
+                <node id="Outcome"> Safeguard
+                    <attribute id="GroupName" type="FixedString" value="WildPsionics"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_Safeguard"/>
+                    <attribute id="UUID" type="guid" value="32ed64e8-0df1-4980-bda9-cee76861b12e"/>
+                </node>
+                <node id="Outcome"> Narcolepsy
+                    <attribute id="GroupName" type="FixedString" value="WildPsionics"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_Narcolepsy"/>
+                    <attribute id="UUID" type="guid" value="d7c49144-425b-49b6-8e5c-827c636a23de"/>
+                </node>
+                <node id="Outcome"> Mass Hysteria
+                    <attribute id="GroupName" type="FixedString" value="WildPsionics"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_MassHysteria"/>
+                    <attribute id="UUID" type="guid" value="b43a9873-5ff6-4587-9aa2-e8a9d838690e"/>
+                </node>
+                <node id="Outcome"> Short Temper
+                    <attribute id="GroupName" type="FixedString" value="WildPsionics"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_ShortTemper"/>
+                    <attribute id="UUID" type="guid" value="e6ae0c35-d2d4-45f3-a23d-e1c6eb5c68ed"/>
+                </node>
+                <node id="Outcome"> Bestial Speech
+                    <attribute id="GroupName" type="FixedString" value="WildPsionics"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_BestialSpeech"/>
+                    <attribute id="UUID" type="guid" value="601c649e-4be5-402f-bdc6-5a0c6192f73a"/>
+                </node>
+                <node id="Outcome"> Ice Sheet
+                    <attribute id="GroupName" type="FixedString" value="WildPsionics"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_IceSheet"/>
+                    <attribute id="UUID" type="guid" value="956cd2f8-0873-4065-9676-e34566c147f2"/>
+                </node>
+                <node id="Outcome"> Heightened Psionics
+                    <attribute id="GroupName" type="FixedString" value="WildPsionics"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_HeightenedPsionics"/>
+                    <attribute id="UUID" type="guid" value="8625c725-ab94-4d6a-b2ab-38d0aead7311"/>
+                </node>
+                <node id="Outcome"> Devastating Psionics
+                    <attribute id="GroupName" type="FixedString" value="WildPsionics"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_DevastatingPsionics"/>
+                    <attribute id="UUID" type="guid" value="faca4138-4f52-49b0-a4a2-482b20f8bbb5"/>
+                </node>
+                <node id="Outcome"> Depression
+                    <attribute id="GroupName" type="FixedString" value="WildPsionics"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_Depression"/>
+                    <attribute id="UUID" type="guid" value="f79d0767-6ef1-4cf3-a95d-cc23e9148c61"/>
+                </node>
+                <node id="Outcome"> Whisked Away
+                    <attribute id="GroupName" type="FixedString" value="WildPsionics"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_WhiskedAway"/>
+                    <attribute id="UUID" type="guid" value="e2ac67bd-9c8f-43d9-af8d-4700a1e67c4d"/>
+                </node>
+                <node id="Outcome"> Perceptive
+                    <attribute id="GroupName" type="FixedString" value="WildPsionics"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_Perceptive"/>
+                    <attribute id="UUID" type="guid" value="c64d9225-39b1-4616-ac4d-1565481b2f3a"/>
+                </node>
+                <node id="Outcome"> Brain Rot
+                    <attribute id="GroupName" type="FixedString" value="WildPsionics"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_BrainRot"/>
+                    <attribute id="UUID" type="guid" value="054b6045-55be-468a-9c1b-322cad3c9aeb"/>
+                </node>
+                <node id="Outcome"> Sudden Doom
+                    <attribute id="GroupName" type="FixedString" value="WildPsionics"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_SuddenDoom"/>
+                    <attribute id="UUID" type="guid" value="d64e5643-1ac9-4c06-a4ca-84bed76e40fb"/>
+                </node>
+                <node id="Outcome"> Truant
+                    <attribute id="GroupName" type="FixedString" value="WildPsionics"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_Truant"/>
+                    <attribute id="UUID" type="guid" value="7fb6b851-dce3-4a17-bbbe-31f42073ee46"/>
+                </node>
+                <node id="Outcome"> Repulsive
+                    <attribute id="GroupName" type="FixedString" value="WildPsionics"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_Repulsive"/>
+                    <attribute id="UUID" type="guid" value="37a64436-83b7-4e06-9b72-556c8a10fe37"/>
+                </node>
+                <node id="Outcome"> Cloudy Weather
+                    <attribute id="GroupName" type="FixedString" value="WildPsionics"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_CloudyWeather"/>
+                    <attribute id="UUID" type="guid" value="c1b6a3a4-c18d-45f6-a07e-74d6c06732f1"/>
+                </node>
+                <node id="Outcome"> Environmental Adaptation
+                    <attribute id="GroupName" type="FixedString" value="WildPsionics"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_EnvironmentalAdaptation"/>
+                    <attribute id="UUID" type="guid" value="ebc739b5-eab3-453d-aa7b-5d8dba0efbe3"/>
+                </node>
+                <node id="Outcome"> Overconfident
+                    <attribute id="GroupName" type="FixedString" value="WildPsionics"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_Overconfident"/>
+                    <attribute id="UUID" type="guid" value="4372990d-c1c2-42c7-8948-7246138ba84c"/>
+                </node>
+                <node id="Outcome"> Psionic Renewal
+                    <attribute id="GroupName" type="FixedString" value="WildPsionics"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_PsionicRenewal"/>
+                    <attribute id="UUID" type="guid" value="e81dbb16-3d19-4f53-9200-70c1ebd41921"/>
+                </node>
+                <node id="Outcome"> Elation
+                    <attribute id="GroupName" type="FixedString" value="WildPsionics"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_Elation"/>
+                    <attribute id="UUID" type="guid" value="df315128-fbb4-4858-9dff-f3c804ffb985"/>
+                </node>
+                <node id="Outcome"> Amnesia
+                    <attribute id="GroupName" type="FixedString" value="WildPsionics"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_Amnesia"/>
+                    <attribute id="UUID" type="guid" value="d07aec9e-7130-4389-ab49-02bfe07169b5"/>
+                </node>
+                <node id="Outcome"> Grounded
+                    <attribute id="GroupName" type="FixedString" value="WildPsionics"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_Grounded"/>
+                    <attribute id="UUID" type="guid" value="db3505ed-1417-49c1-aab9-c774e284daa8"/>
+                </node>
             </children>
         </node>
     </region>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="40271bf1-3de9-4119-9fc5-dffa4904f494" />
+					<attribute id="Name" type="LSString" value="Mystic_PsychicDouble_Character" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hdb9272dcg078dg4db6gba67g2d6eb5f05f42" version="1" />
+					<attribute id="Icon" type="FixedString" value="Portrait_Unknown" />
+					<attribute id="PortraitVisualResourceID" type="FixedString" value="" />
+
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="" />
+
+					<attribute id="Equipment" type="FixedString" value="MysticPsychicDoubleEquipment" />
+					<attribute id="SpellSet" type="FixedString" value="MysticPsychicDoubleActions" />
+					<attribute id="Stats" type="FixedString" value="Mystic_PsychicDouble" />
+					<attribute id="CanFight" type="bool" value="True" />
+					<attribute id="BloodSurfaceType" type="FixedString" value="SurfaceNone" />
+					<attribute id="BloodType" type="FixedString" value="" />
+					<attribute id="Faction" type="guid" value="a1542c81-6895-929e-4522-10ce218bb360" />
+					<attribute id="ForceLifetimeDeath" type="bool" value="True" />
+					<attribute id="IsEquipmentLootable" type="bool" value="False" />
+					<attribute id="IsInspector" type="bool" value="True" />
+					<attribute id="IsPlayer" type="bool" value="False" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="ParentTemplateId" type="FixedString" value="e87dd6f0-22f4-4cd5-914f-adddd2595941" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<children>
+						<node id="LocomotionParams" />
+						<node id="OnDeathActions" />
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="02cdc15e-1dc3-5eb4-f73c-9458b4f90b9f" />
+								</node>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="e0d1ff71-04a8-4340-ae64-9684d846eb83" />
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="0c506445-fba0-404c-a169-41af0912e618" /> OCS_ObjectCharacter
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="0c51e3ee-d735-4566-a1f6-3c5de4c0b5a1" /> OCS_MagicalObject
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="0c525858-b100-4e2b-9556-44b50d664a4d" /> OCS_NonFlammable
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="b47643e0-583c-4808-b108-f6d3b605b0a9" /> ACT2_SHADOW_CURSE_IMMUNE
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="ff16e8ab-e8e6-4acb-a105-aae53a9d510e" /> SUMMONWITHOUTMOUTH
+								</node>
+							</children>
+						</node>
+						<node id="StatusList" />
+						<node id="TradeTreasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="Treasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

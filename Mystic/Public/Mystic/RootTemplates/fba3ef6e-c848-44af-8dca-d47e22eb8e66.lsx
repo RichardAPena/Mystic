@@ -11,7 +11,7 @@
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="ParentTemplateId" type="FixedString" value="83603f36-d158-4a0e-b9c9-358413ba3a92" />
 					<attribute id="DisplayName" type="TranslatedString" handle="hf4f4ff39gdc0ag4563gb017gbdd74cfd0d75" version="2" />
-					<attribute id="Icon" type="FixedString" value="Generated_MAG_Bhaalist_Armor_Magic" /> TODO
+					<attribute id="Icon" type="FixedString" value="Generated_MAG_Bhaalist_Armor_Magic" />
 					<attribute id="Stats" type="FixedString" value="ARM_Mystic_AwakenedChest_Body" />
 					<attribute id="Description" type="TranslatedString" handle="ha4b11d14g97f8g4f1bg9355g5ce11ac7f94d" version="1" />
 					<children>

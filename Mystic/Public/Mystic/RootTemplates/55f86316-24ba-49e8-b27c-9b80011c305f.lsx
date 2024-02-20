@@ -12,7 +12,7 @@
 					<attribute id="ParentTemplateId" type="FixedString" value="a1978b4d-3d93-49ec-9a8b-d19171ed35d5" />
 					<attribute id="VisualTemplate" type="FixedString" value="c9c85781-84dc-db06-def6-a12fa9aef70b" />
 					<attribute id="DisplayName" type="TranslatedString" handle="hca6c9f5agabdcg46cfg92aag6f0a279b73f2" version="2" />
-					<attribute id="Icon" type="FixedString" value="Generated_MAG_Shadow_FogOfCloudDisengage_Cloak_Magic" /> TODO
+					<attribute id="Icon" type="FixedString" value="Generated_MAG_Shadow_FogOfCloudDisengage_Cloak_Magic" />
 					<attribute id="Stats" type="FixedString" value="ARM_Mystic_PsionicInterference_Cloak" />
 					<attribute id="Description" type="TranslatedString" handle="h78e446cfg7fb5g472agbbe3g1a10dcdc091f" version="2" />
 					<attribute id="TechnicalDescription" type="TranslatedString" handle="" version="0" />

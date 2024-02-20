@@ -12,7 +12,7 @@
 					<attribute id="ParentTemplateId" type="FixedString" value="83603f36-d158-4a0e-b9c9-358413ba3a92" />
 					<attribute id="PhysicsTemplate" type="FixedString" value="60559836-7278-46b6-e2e2-40fb4f00ed6c" />
 					<attribute id="DisplayName" type="TranslatedString" handle="hc905187fg2c47g4781ga6d3gf8d0da15309b" version="1" />
-					<attribute id="Icon" type="FixedString" value="Generated_MAG_EndGame_StuddedLeather_Armor_Magic" /> TODO
+					<attribute id="Icon" type="FixedString" value="Generated_MAG_EndGame_StuddedLeather_Armor_Magic" />
 					<attribute id="Stats" type="FixedString" value="ARM_Mystic_NomadChest_Body" />
 					<attribute id="Description" type="TranslatedString" handle="hffe656d3g58a0g4dfbg89c8g0400fd973dc0" version="1" />
 					<children>

@@ -1,0 +1,10 @@
+new spellset "MysticEagleSummonActions"
+add spell "Target_Talons_GiantEagle"
+add spell "Zone_StrongWind_GiantEagle"
+add spell "Target_Multiattack_GiantEagle"
+add spell "Projectile_Jump_GiantEagle"
+add spell "Shout_Dash_NPC"
+add spell "Shout_Disengage"
+
+new spellset "MysticPsychicDoubleActions"
+add spell "Shout_Mystic_PsychicDouble_Dismiss_Self"

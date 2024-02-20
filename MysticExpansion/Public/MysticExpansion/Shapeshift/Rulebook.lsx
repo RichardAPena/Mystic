@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+	<version major="4" minor="0" revision="10" build="400"/>
+	<region id="Rulebook">
+		<node id="root">
+			<children>
+
+				<node id="Rule">
+					<attribute id="ApplySpellsFromTemplate" type="bool" value="false"/>
+					<attribute id="ApplyVisual" type="bool" value="true"/>
+					<attribute id="ChangeBodyType" type="bool" value="true"/>
+					<attribute id="ChangeIcon" type="bool" value="true"/>
+					<attribute id="ChangeRace" type="bool" value="false"/>
+					<attribute id="DisableEquipmentSlots" type="bool" value="true"/>
+					<attribute id="IgnoreCustomLooks" type="bool" value="false"/>
+					<attribute id="MuteEquipmentSound" type="bool" value="true"/>
+					<attribute id="RemovePrevSpells" type="bool" value="false"/>
+					<attribute id="RetainDisplayName" type="bool" value="true"/>
+					<attribute id="RuleName" type="LSString" value="Mystic_ShapeshiftClone_ChangeIcon"/>
+					<attribute id="UUID" type="guid" value="dc1b0875-1d2b-4a1f-913a-bb648b7e8891"/>
+					<attribute id="UseShapeshiftIdentity" type="bool" value="false"/>
+					<attribute id="WildShapeHotBar" type="bool" value="true"/>
+					<children>
+						<node id="ActionsCapabilities">
+							<children>
+								<node id="ActionCapabilities">
+									<attribute id="Name" type="LSString" value="CastSpell"/>
+								</node>
+								<node id="ActionCapabilities">
+									<attribute id="Name" type="LSString" value="Attack"/>
+								</node>
+							</children>
+						</node>
+						<node id="AwarenessCapabilities">
+							<children>
+							</children>
+						</node>
+						<node id="InteractionsCapabilities">
+							<children>
+								<node id="InteractionsCapabilities">
+									<attribute id="Name" type="LSString" value="UseLadders"/>
+								</node>
+								<node id="InteractionsCapabilities">
+                                    <attribute id="Name" type="LSString" value="UseDoors"/>
+                                </node>
+								<node id="InteractionsCapabilities">
+                                    <attribute id="Name" type="LSString" value="BasicItemInteractions"/>
+                                </node>
+							</children>
+						</node>
+						<node id="SpeakingCapabilities">
+							<children>
+							</children>
+						</node>
+					</children>
+				</node>
+
+				<node id="Rule">
+					<attribute id="ApplySpellsFromTemplate" type="bool" value="false"/>
+					<attribute id="ApplyVisual" type="bool" value="true"/>
+					<attribute id="ChangeBodyType" type="bool" value="true"/>
+					<attribute id="ChangeIcon" type="bool" value="false"/>
+					<attribute id="ChangeRace" type="bool" value="false"/>
+					<attribute id="DisableEquipmentSlots" type="bool" value="true"/>
+					<attribute id="IgnoreCustomLooks" type="bool" value="false"/>
+					<attribute id="MuteEquipmentSound" type="bool" value="true"/>
+					<attribute id="RemovePrevSpells" type="bool" value="false"/>
+					<attribute id="RetainDisplayName" type="bool" value="true"/>
+					<attribute id="RuleName" type="LSString" value="Mystic_ShapeshiftClone_KeepIcon"/>
+					<attribute id="UUID" type="guid" value="1c6b3ef3-057e-4e8f-9549-ab7afc0f4160"/>
+					<attribute id="UseShapeshiftIdentity" type="bool" value="false"/>
+					<attribute id="WildShapeHotBar" type="bool" value="true"/>
+					<children>
+						<node id="ActionsCapabilities">
+							<children>
+								<node id="ActionCapabilities">
+									<attribute id="Name" type="LSString" value="CastSpell"/>
+								</node>
+								<node id="ActionCapabilities">
+									<attribute id="Name" type="LSString" value="Attack"/>
+								</node>
+							</children>
+						</node>
+						<node id="AwarenessCapabilities">
+							<children>
+							</children>
+						</node>
+						<node id="InteractionsCapabilities">
+							<children>
+								<node id="InteractionsCapabilities">
+									<attribute id="Name" type="LSString" value="UseLadders"/>
+								</node>
+								<node id="InteractionsCapabilities">
+                                    <attribute id="Name" type="LSString" value="UseDoors"/>
+                                </node>
+								<node id="InteractionsCapabilities">
+                                    <attribute id="Name" type="LSString" value="BasicItemInteractions"/>
+                                </node>
+							</children>
+						</node>
+						<node id="SpeakingCapabilities">
+							<children>
+							</children>
+						</node>
+					</children>
+				</node>
+
+			</children>
+		</node>
+	</region>
+</save>
