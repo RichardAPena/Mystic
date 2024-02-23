@@ -20,7 +20,7 @@ end
 function PsychicDouble_TryAssignMysticID(owner)
 	local id = PsychicDouble_GetCurrentMysticID(owner)
 	if id then
-		print("PsychicDouble_TryAssignMysticID: already had an ID: " .. id .. "; " .. owner)
+		-- print("PsychicDouble_TryAssignMysticID: already had an ID: " .. id .. "; " .. owner)
 		return id
 	end
 
@@ -45,7 +45,7 @@ function PsychicDouble_TryAssignMysticID(owner)
 		end
 	end
 
-	print("PsychicDouble_TryAssignMysticID: assigned ID: " .. bestID .. "; " .. owner)
+	-- print("PsychicDouble_TryAssignMysticID: assigned ID: " .. bestID .. "; " .. owner)
 
 	Osi.ApplyStatus(owner, PsychicDouble_GetMysticIDStatusName(bestID), -1, 1)
 	return bestID

@@ -86,7 +86,7 @@ type "PassiveData"
 data "DisplayName" "hdc3c9b5bgbdd7g4d9bg96bdgb9c7a279676c"
 data "Description" "h12e6abc6g5fc4g417dgadf5gfc082197d1d7"
 data "Icon" "Action_Mystic_GiantForm"
-data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_GiantGrowth)UnlockSpell(Shout_Mystic_OgreForm);UnlockSpell(Shout_Mystic_GiantForm);"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_GiantGrowth);UnlockSpell(Shout_Mystic_OgreForm);UnlockSpell(Shout_Mystic_GiantForm);"
 
 // Intellect Fortress
 new entry "Discipline_IntellectFortress"
@@ -457,7 +457,7 @@ data "Icon" "PassiveFeature_Generic_Magical"
 new entry "Passive_Mystic_IllithidFix"
 type "PassiveData"
 data "Properties" "IsHidden;OncePerLongRest"
-data "StatsFunctorContext" "OnHealed;OnMove;OnActionResourcesChanged;OnTurn"
+data "StatsFunctorContext" "OnHealed;OnMovedDistance;OnActionResourcesChanged;OnTurn"
 data "StatsFunctors" "RestoreResource(PsiPointsResource,142,0);RestoreResource(PsionicMasteryResource,8,0)"
 
 // Telepathy
@@ -469,7 +469,7 @@ data "Description" "h5530db88ga236g44ccg84d6gb8ca474aa4ef"
 data "Icon" "Passive_Mystic_Telepathy"
 data "Boosts" "Tag(DETECTTHOUGHTS)"
 // data "Properties" ""
-data "StatsFunctorContext" "OnHealed;OnMove;OnActionResourcesChanged;OnTurn"
+data "StatsFunctorContext" "OnHealed;OnMovedDistance;OnActionResourcesChanged;OnTurn"
 data "StatsFunctors" "ApplyStatus(SELF,DETECT_THOUGHTS,100,-1)"
 
 // Mystical Recovery

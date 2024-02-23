@@ -49,17 +49,17 @@ local function SymbioticLink_StatusRemoved(object, status, causee, applyStoryAct
         Osi.SetVarUUID(object, "SymbioticLink_Causee", SymbioticLink_NullUUID)
 
         -- Remove specific statuses when losing Symbiotic Link
-        for  _, statusName in ipairs(SymbioticLinkRemovedStatuses) do
-           if statusName == status then
-            Osi.RemoveStatus(object, statusName)
-           end
-        end
+        -- for  _, statusName in ipairs(SymbioticLinkRemovedStatuses) do
+        --    if statusName == status then
+        --     Osi.RemoveStatus(object, statusName)
+        --    end
+        -- end
 
-        for  _, statusName in ipairs(SymbioticLinkRemovedStatuses_Exp) do
-            if statusName == status then
-             Osi.RemoveStatus(object, statusName)
-            end
-         end
+        -- for  _, statusName in ipairs(SymbioticLinkRemovedStatuses_Exp) do
+        --     if statusName == status then
+        --      Osi.RemoveStatus(object, statusName)
+        --     end
+        -- end
     end
 
     local linkedPartner = Osi.GetVarUUID(object, "SymbioticLink_Target")

@@ -29,6 +29,9 @@
 								<node id="ActionCapabilities">
 									<attribute id="Name" type="LSString" value="Attack"/>
 								</node>
+								<node id="ActionCapabilities">
+                                    <attribute id="Name" type="LSString" value="WorldActions"/>
+                                </node>
 							</children>
 						</node>
 						<node id="AwarenessCapabilities">
@@ -79,6 +82,9 @@
 								<node id="ActionCapabilities">
 									<attribute id="Name" type="LSString" value="Attack"/>
 								</node>
+								<node id="ActionCapabilities">
+                                    <attribute id="Name" type="LSString" value="WorldActions"/>
+                                </node>
 							</children>
 						</node>
 						<node id="AwarenessCapabilities">

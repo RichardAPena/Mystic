@@ -77,7 +77,6 @@ data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_SoulReaper);UnlockSpell(Tar
 data "StatsFunctorContext" "OnDamage;OnDamagePrevented;OnAttack;OnCastResolved"
 data "Conditions" "HasHPLessThan(1) and Character() and SpellId('Target_Mystic_Souleater')"
 data "StatsFunctors" "RestoreResource(SELF,PsiPointsResource,5,0);RestoreResource(SELF,ActionPoint,1,0)"
-// IF(SpellId('Target_Mystic_Souleater')):
 
 // Crown of Apathy
 new entry "Discipline_CrownOfApathy"
@@ -184,7 +183,7 @@ data "Icon" "PassiveFeature_HuntersMark"
 data "PriorityOrder" "2"
 data "Properties" "Highlighted"
 // data "Boosts" "IF(HasStatus('MYSTIC_NOMADS_MARK',context.Target,context.Source) and HasDamageEffectFlag(DamageFlags.Hit)):DealDamage(1d6,Psychic,Magical)"
-data "Boosts" "IF(HasStatus('MYSTIC_NOMADS_MARK',context.Target,context.Source)):DamageBonus(1d6,Psychic,Magical)"
+data "Boosts" "IF(HasStatus('MYSTIC_NOMADS_MARK',context.Target,context.Source)):DamageBonus(1d6,Psychic)"
 data "StatsFunctorContext" "OnDamage"
 data "Conditions" "HasStatus('MYSTIC_NOMADS_MARK',context.Target,context.Source) and TotalDamageDoneGreaterThan(0)"
 data "StatsFunctors" "ApplyStatus(PASSIVE_HUNTERS_MARK,100,0)"
@@ -309,21 +308,7 @@ type "PassiveData"
 data "DisplayName" "h99e04fe5ga8e8g4cd6g85d6g8a46eecaa66a"
 data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnDamage;OnDamagePrevented"
-// data "Conditions" "TotalDamageDoneGreaterThan(0)"
 data "StatsFunctors" "RegainHitPoints(SELF,DamageDone/2)"
-
-// Blessing of the Winds
-// new entry "Passive_Mystic_BlessingOfTheWinds"
-// type "PassiveData"
-// data "DisplayName" "h5433f3b4g02d2g43ddg8eb1g0e7f4031f9b3"
-// data "Properties" "IsHidden;OncePerAttack"
-// data "StatsFunctorContext" "OnDamage;OnDamagePrevented;OnAttack"
-// data "Conditions" "Character() and IsMeleeWeaponAttack()"
-// data "StatsFunctors" "CreateExplosion(Projectile_Mystic_BlessingOfTheWinds_Ricochet)"
-// data "StatsFunctors" "SpawnExtraProjectiles(Projectile_ArrowOfRicochet_Trap_Ricochet)"
-// data "StatsFunctors" "UseSpell(Projectile_ArrowOfRicochet,true,true,true)"
-// data "StatsFunctors" "ApplyStatus(MYSTIC_BLESSING_OF_THE_WINDS_TECHNICAL,100,1)"
-// ^ may need to use usespell instead
 
 // Psionic Disturbance
 new entry "Passive_Mystic_PsionicDisturbance"
@@ -383,7 +368,7 @@ data "Icon" "GenericIcon_DamageType_Psychic"
 data "Properties" "IsToggled;Highlighted;ToggledDefaultAddToHotbar"
 data "ToggleGroup" "Mystic_PsionicFists"
 data "ToggleOnFunctors" "ApplyStatus(MYSTIC_PSYCHIC_BLOWS,100,-1)"
-data "ToggleOffFunctors" "RemoveStatus(MYSTIC_PSYCHIC_BLOWS,100,-1)"
+data "ToggleOffFunctors" "RemoveStatus(MYSTIC_PSYCHIC_BLOWS)"
 
 // Kinetic Blows
 new entry "Passive_Mystic_KineticBlows"
@@ -394,7 +379,7 @@ data "Icon" "GenericIcon_DamageType_Force"
 data "Properties" "IsToggled;Highlighted;ToggledDefaultAddToHotbar"
 data "ToggleGroup" "Mystic_PsionicFists"
 data "ToggleOnFunctors" "ApplyStatus(MYSTIC_KINETIC_BLOWS,100,-1)"
-data "ToggleOffFunctors" "RemoveStatus(MYSTIC_KINETIC_BLOWS,100,-1)"
+data "ToggleOffFunctors" "RemoveStatus(MYSTIC_KINETIC_BLOWS)"
 
 // TODO: Monk weapon stuff
 

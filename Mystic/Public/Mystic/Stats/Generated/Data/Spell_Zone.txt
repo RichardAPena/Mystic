@@ -159,7 +159,7 @@ data "SurfaceGrowStep" "5"
 data "SurfaceGrowInterval" "10"
 data "SpellRoll" "not SavingThrow(Ability.Constitution, SourceSpellDC())"
 data "SpellSuccess" "DealDamage(10d6, Poison,Magical)"
-data "SpellFail" "DealDamage(10d6/2, Poisn,Magical)"
+data "SpellFail" "DealDamage(10d6/2, Poison,Magical)"
 data "TargetConditions" "not Dead()"
 
 data "DescriptionParams" "DealDamage(10d6,Poison)"

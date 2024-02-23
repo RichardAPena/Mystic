@@ -546,7 +546,7 @@ data "Icon" "Action_Mystic_Singularity"
 data "SoundLoop" "Spell_Status_SpiritGuardian_ST"
 data "SoundStop" "Spell_Status_SpiritGuardian_ST_Stop"
 data "StackId" "MYSTIC_SINGULARITY_AURA"
-data "AuraRadius" "4.5"
+data "AuraRadius" "4"
 data "AuraStatuses" "TARGET:IF(Enemy() and not (Dead() or HasStatus('KNOCKED_OUT'))):ApplyStatus(MYSTIC_SINGULARITY,100,-1)"
 data "AuraFlags" "ShouldCheckLOS"
 // data "Boosts" "StatusImmunity(SG_Invisible)"
@@ -956,11 +956,8 @@ data "DisplayName" "hf02df9ceg80e0g4491gbe18gc97501543cc3"
 data "Description" "h854f9565g8f1fg4f5cgb218gdf8b112cb614"
 data "Icon" "Action_Mystic_ObscuringVeil"
 data "StackId" "MYSTIC_OBSCURING_VEIL"
-data "Boosts" "GameplayObscurity(6);Attribute(ObscurityWithoutSneaking);Attribute(EnableObscurityEvents)"
+data "Boosts" "GameplayObscurity(6);Attribute(ObscurityWithoutSneaking);Attribute(EnableObscurityEvents);Tag(ACT2_SHADOW_CURSE_IMMUNE)"
 data "StatusGroups" "SG_RemoveOnRespec"
-
-
-//============================================================================================
 
 // Psychic Double
 new entry "MYSTIC_PSYCHIC_DOUBLE"
@@ -1016,10 +1013,6 @@ new entry "MYSTIC_PSYCHIC_DOUBLE_CLONE_IMMOBILIZE"
 using "MYSTIC_PSYCHIC_DOUBLE_COMMON"
 data "Boosts" "ActionResourceBlock(Movement); BlockTravel()"
 
-
-
-
-
 new entry "MYSTIC_PSYCHIC_DOUBLE_ATTACKSWAP_COMMON"
 using "MYSTIC_PSYCHIC_DOUBLE_COMMON"
 data "Icon" "Action_Mystic_PsychicDouble"
@@ -1062,7 +1055,6 @@ new entry "MYSTIC_PSYCHIC_DOUBLE_ATTACKSWAP_SWAPPING"
 using "MYSTIC_PSYCHIC_DOUBLE_ATTACKSWAP_COMMON"
 data "StatusEffect" "ecc0efec-ffc2-4425-a720-da133f1773de"
 
-
 new entry "MYSTIC_PSYCHIC_DOUBLE_PROFICIENCY_2"
 using "MYSTIC_PSYCHIC_DOUBLE_COMMON"
 data "DisplayName" "h7084d1bbg31d0g4d75gbce5g717aaf453f1a"
@@ -1091,16 +1083,6 @@ new entry "MYSTIC_PSYCHIC_DOUBLE_PROFICIENCY_6"
 using "MYSTIC_PSYCHIC_DOUBLE_PROFICIENCY_2"
 data "DescriptionParams" "6;20"
 data "Boosts" "ACOverrideFormula(20,false); ProficiencyBonusOverride(6)"
-
-
-
-
-
-
-
-
-
-//============================================================================================
 
 // Mirage
 new entry "MYSTIC_MIRAGE"
@@ -1500,18 +1482,18 @@ data "Boosts" "UnlockSpellVariant(HasStringInSpellRoll('MeleeWeaponAttack'),Modi
 // data "Passives" "Passive_Mystic_BlessingOfTheWinds"
 data "StatusGroups" "SG_RemoveOnRespec"
 
-new entry "MYSTIC_BLESSING_OF_THE_WINDS_TECHNICAL"
-type "StatusData"
-data "StatusType" "BOOST"
-data "DisplayName" "h5433f3b4g02d2g43ddg8eb1g0e7f4031f9b3"
-data "Description" "h3e135152g808cg4421gbe5fg880d8de94a14"
-data "DescriptionParams" "Distance(9);DealDamage(1d6,Psychic);3"
-data "Icon" "Action_Mystic_BlessingOfTheWinds"
-data "StackId" "MYSTIC_BLESSING_OF_THE_WINDS_TECHNICAL"
+// new entry "MYSTIC_BLESSING_OF_THE_WINDS_TECHNICAL"
+// type "StatusData"
+// data "StatusType" "BOOST"
+// data "DisplayName" "h5433f3b4g02d2g43ddg8eb1g0e7f4031f9b3"
+// data "Description" "h3e135152g808cg4421gbe5fg880d8de94a14"
+// data "DescriptionParams" "Distance(9);DealDamage(1d6,Psychic);3"
+// data "Icon" "Action_Mystic_BlessingOfTheWinds"
+// data "StackId" "MYSTIC_BLESSING_OF_THE_WINDS_TECHNICAL"
 // data "Boosts" "UnlockSpellVariant(HasStringInSpellRoll('MeleeWeaponAttack'),ModifyTargetRadius(AdditiveBase, 9))"
 // data "Passives" "Passive_Mystic_BlessingOfTheWinds"
-data "OnApplyFunctors" "CreateExplosion(Projectile_ArrowOfRicochet,true,true,true)"
-data "StatusGroups" "SG_RemoveOnRespec"
+// data "OnApplyFunctors" "CreateExplosion(Projectile_ArrowOfRicochet,true,true,true)"
+// data "StatusGroups" "SG_RemoveOnRespec"
 
 // Steel Tempest (Cooldown)
 new entry "MYSTIC_STEEL_TEMPEST_COOLDOWN"
@@ -1677,11 +1659,15 @@ data "ApplyEffect" "887e86db-a1a5-4ea2-8b96-e3195e66b24c"
 data "StatusEffect" "423ef553-a009-40d0-b110-1f5398b1b774"
 data "StatusGroups" "SG_RemoveOnRespec"
 data "OnApplyRoll" "not SavingThrow(Ability.Dexterity, CalculateSpellDC(Ability.Dexterity, GetSummoner(context.Source)))"
-data "OnApplySuccess" "IF(not HasStatus('MYSTIC_STARSTORM_TECHNICAL')):DealDamage(4d10,Radiant,Magical);ApplyStatus(MYSTIC_STARSTORM_TECHNICAL,100,1)"
-data "OnApplyFail" "IF(not HasStatus('MYSTIC_STARSTORM_TECHNICAL')):DealDamage((4d10)/2,Radiant,Magical);ApplyStatus(MYSTIC_STARSTORM_TECHNICAL,100,1)"
+// data "OnApplySuccess" "IF(not HasStatus('MYSTIC_STARSTORM_TECHNICAL')):DealDamage(4d10,Radiant,Magical);ApplyStatus(MYSTIC_STARSTORM_TECHNICAL,100,1)"
+// data "OnApplyFail" "IF(not HasStatus('MYSTIC_STARSTORM_TECHNICAL')):DealDamage((4d10)/2,Radiant,Magical);ApplyStatus(MYSTIC_STARSTORM_TECHNICAL,100,1)"
+data "OnApplySuccess" "DealDamage(4d10,Radiant,Magical);"
+data "OnApplyFail" "DealDamage((4d10)/2,Radiant,Magical);"
 data "OnTickRoll" "not SavingThrow(Ability.Dexterity, CalculateSpellDC(Ability.Dexterity, GetSummoner(context.Source)))"
-data "OnTickSuccess" "IF(not HasStatus('MYSTIC_STARSTORM_TECHNICAL')):DealDamage(4d10,Radiant,Magical)"
-data "OnTickFail" "IF(not HasStatus('MYSTIC_STARSTORM_TECHNICAL')):DealDamage((4d10)/2,Radiant,Magical)"
+// data "OnTickSuccess" "IF(not HasStatus('MYSTIC_STARSTORM_TECHNICAL')):DealDamage(4d10,Radiant,Magical)"
+// data "OnTickFail" "IF(not HasStatus('MYSTIC_STARSTORM_TECHNICAL')):DealDamage((4d10)/2,Radiant,Magical)"
+data "OnTickSuccess" "DealDamage(4d10,Radiant,Magical)"
+data "OnTickFail" "DealDamage((4d10)/2,Radiant,Magical)"
 
 new entry "MYSTIC_STARSTORM_TECHNICAL"
 type "StatusData"
@@ -1767,7 +1753,7 @@ data "DescriptionParams" "RegainHitPoints(5d6)"
 data "Icon" "Action_Mystic_Regrowth"
 data "StackId" "MYSTIC_REGROWTH"
 data "Passives" "Passive_Mystic_Regrowth"
-data "TickFunctors" "IF(not HasStatus('MYSTIC_REGROWTH_BLOCK'))RegainHitPoints(5d6)"
+data "TickFunctors" "IF(not HasStatus('MYSTIC_REGROWTH_BLOCK')):RegainHitPoints(5d6)"
 data "RemoveConditions" "Dead() or HasStatus('DOWNED') or HasStatus('KNOCKED_OUT')"
 data "RemoveEvents" "OnStatusApplied;OnTurn;OnDamage"
 data "StatusGroups" "SG_RemoveOnRespec"
@@ -2216,7 +2202,7 @@ data "Description" "h1bf23384g9d26g4670gbbc6gf7bb1be0013a"
 data "DescriptionParams" "10"
 data "Icon" "Action_Mystic_RedoubledEffort"
 data "StackId" "MYSTIC_REDOUBLED_EFFORT"
-data "Boosts" "MinimumRollResult(RawAbility,10);MinimumRollResult(SkillCheck,10);MinimumRollResult(AttackRoll,10);MinimumRollResult(SavingThrow,10)"
+data "Boosts" "MinimumRollResult(RawAbility,10);MinimumRollResult(SkillCheck,10);MinimumRollResult(Attack,10);MinimumRollResult(SavingThrow,10)"
 data "StatusGroups" "SG_RemoveOnRespec"
 
 // Aura of Spite
@@ -2289,7 +2275,6 @@ data "TemplateID" "1d13a1ff-4ce5-4281-bbc6-d782a403e652"
 data "Boosts" ""
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 data "StatusGroups" "ApplyToDead;IgnoreResting"
-data "Properties" "IsHidden"
 
 // Bestial Might
 new entry "MYSTIC_BESTIAL_MIGHT"

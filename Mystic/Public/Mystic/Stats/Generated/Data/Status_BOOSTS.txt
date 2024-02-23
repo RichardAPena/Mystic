@@ -256,11 +256,10 @@ data "StatusType" "BOOST"
 data "DisplayName" "hdec54f61ga1ceg422fga572ga82b4937da97"
 data "Description" "h39a4cbe8gcca5g4b98g83d0g3c19761536e1"
 data "DescriptionParams" "Distance(3)
-data "Icon" "Spell_Transmutation_Thaumaturgy"
+data "Icon" "Spell_Transmutation_Thaumaturgy"   
 data "StackId" "PSYCHIC_FOCUS_MANTLE_OF_FURY_SPEED"
 data "Boosts" "ActionResource(Movement,3,0)" 
 data "StatusGroups" "SG_RemoveOnRespec"
-
 
 // Psychic Focus: Mantle of Joy
 new entry "PSYCHIC_FOCUS_MANTLE_OF_JOY"

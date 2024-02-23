@@ -63,7 +63,7 @@ function PsychicDouble_Swap_Default(caster)
 end
 
 function PsychicDouble_Swap_Forward_Attack(owner, clone)
-	print("PsychicDouble_Swap_Forward_Attack: " .. owner .. ", " .. (clone or 'nil'))
+	-- print("PsychicDouble_Swap_Forward_Attack: " .. owner .. ", " .. (clone or 'nil'))
 
 	if clone then
 		Osi.ApplyStatus(owner, 'MYSTIC_PSYCHIC_DOUBLE_ATTACKSWAP_SWAPPING', 1)
@@ -75,7 +75,7 @@ function PsychicDouble_Swap_Forward_Attack(owner, clone)
 end
 
 function PsychicDouble_Swap_Forward_Attack_2(owner, clone)
-	print("PsychicDouble_Swap_Forward_Attack_2: " .. owner .. ", " .. (clone or 'nil'))
+	-- print("PsychicDouble_Swap_Forward_Attack_2: " .. owner .. ", " .. (clone or 'nil'))
 
 	if clone then
 		PsychicDouble_DoSwap(owner, clone, false)
@@ -90,7 +90,7 @@ function PsychicDouble_Swap_Forward_Attack_2(owner, clone)
 end
 
 function PsychicDouble_Swap_Back_Attack(owner, clone)
-	print("PsychicDouble_Swap_Back_Attack: " .. owner .. ", " .. (clone or 'nil'))
+	-- print("PsychicDouble_Swap_Back_Attack: " .. owner .. ", " .. (clone or 'nil'))
 
 	Osi.ApplyStatus(owner, 'MYSTIC_PSYCHIC_DOUBLE_ATTACKSWAP_SWAPPING', 1)
 
@@ -102,7 +102,7 @@ function PsychicDouble_Swap_Back_Attack(owner, clone)
 end
 
 function PsychicDouble_Swap_Back_Attack_2(owner, clone)
-	print("PsychicDouble_Swap_Back_Attack_2: " .. owner .. ", " .. (clone or 'nil'))
+	-- print("PsychicDouble_Swap_Back_Attack_2: " .. owner .. ", " .. (clone or 'nil'))
 
 	PsychicDouble_DoSwap(owner, clone, true)
 
@@ -117,14 +117,14 @@ function PsychicDouble_Swap_Back_Attack_2(owner, clone)
 end
 
 function PsychicDouble_AttackSwap(caster)
-	print("PsychicDouble_CastSpell_Shout_Mystic_PsychicDouble_AttackSwap: " .. caster)
+	-- print("PsychicDouble_CastSpell_Shout_Mystic_PsychicDouble_AttackSwap: " .. caster)
 
 	local owner, clone = PsychicDouble_GetMysticAndActiveClone(caster)
-	print("MysticExpansion: owner: " .. (owner or 'nil'))
-	print("MysticExpansion: clone: " .. (clone or 'nil'))
+	-- print("MysticExpansion: owner: " .. (owner or 'nil'))
+	-- print("MysticExpansion: clone: " .. (clone or 'nil'))
 
 	if not owner then
-		print("MysticExpansion: 'caster' is not a Mystic or active clone!")
+		-- print("MysticExpansion: 'caster' is not a Mystic or active clone!")
 		return false
 	end
 

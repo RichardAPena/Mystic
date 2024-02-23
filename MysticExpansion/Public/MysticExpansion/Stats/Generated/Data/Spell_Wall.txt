@@ -38,4 +38,3 @@ data "SpellAnimation" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;38cdb41c-2eec-4
 data "PrepareEffect" "51422dfb-bc78-42aa-8c63-67e17535d77e"
 data "CastEffect" "79a465b8-6054-47f8-92e4-9c340f96dd77"
 // data "DamageType" "Radiant"
-// data "ExtraDescription" "hff30d4d9g035bg48d6gb340g07ef63328b5d"

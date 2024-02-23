@@ -55,7 +55,7 @@ local function PsychicDouble_StatusApplied_MYSTIC_PSYCHIC_DOUBLE_KILL_CLONE(obje
 end
 
 local function PsychicDouble_StatusRemoved_MYSTIC_PSYCHIC_DOUBLE_ACTIONS(object, _, _, _)
-	print("MysticExpansion: MYSTIC_PSYCHIC_DOUBLE_ACTIONS has been removed!")
+	-- print("MysticExpansion: MYSTIC_PSYCHIC_DOUBLE_ACTIONS has been removed!")
 	local owner, clone = PsychicDouble_GetMysticAndActiveClone(object)
 	if clone then
 		PsychicDouble_KillClone(owner, clone)
@@ -63,7 +63,7 @@ local function PsychicDouble_StatusRemoved_MYSTIC_PSYCHIC_DOUBLE_ACTIONS(object,
 end
 
 local function PsychicDouble_CastSpell_Shout_Mystic_PsychicDouble_Dismiss_Self(caster, _, _, _, _)
-	print("PsychicDouble: Dismissing clone: " .. caster)
+	-- print("PsychicDouble: Dismissing clone: " .. caster)
 
 	local owner, clone = PsychicDouble_GetMysticAndActiveClone(caster)
 	if clone then
@@ -107,7 +107,7 @@ local function PsychicDouble_TemplateAddedTo(_, item, character, addType)
 end
 
 local function PsychicDouble_CharacterJoinedParty(character)
-	print("MysticExpansion: CharacterJoinedParty: " .. character)
+	-- print("MysticExpansion: CharacterJoinedParty: " .. character)
 
 	local owner, clone = PsychicDouble_GetMysticAndActiveClone(character)
 	if owner then
@@ -116,7 +116,7 @@ local function PsychicDouble_CharacterJoinedParty(character)
 end
 
 local function PsychicDouble_CharacterLeftParty(character)
-	print("MysticExpansion: CharacterLeftParty: " .. character)
+	-- print("MysticExpansion: CharacterLeftParty: " .. character)
 
 	if PsychicDouble_IsClone(character) then
 		local owner = PsychicDouble_GetActiveMysticForClone(character)
@@ -161,7 +161,7 @@ local function PsychicDouble_LeftCombat(object, combatGuid)
 end
 
 local function PsychicDouble_UsingSpellAtPosition(caster, x, y, z, spell, spellType, spellElement, storyActionID)
-	print("MysticExpansion: UsingSpellAtPosition: caster: " .. caster .. " x: " .. x .. " y: " .. y .. " z: " .. z .. " spell: " .. spell .. " spellType: " .. spellType .. " spellElement: " .. spellElement .. " storyActionID: " .. storyActionID)
+	-- print("MysticExpansion: UsingSpellAtPosition: caster: " .. caster .. " x: " .. x .. " y: " .. y .. " z: " .. z .. " spell: " .. spell .. " spellType: " .. spellType .. " spellElement: " .. spellElement .. " storyActionID: " .. storyActionID)
 
 	local handler = PsychicDouble_UsingSpellAtPosition_Table[spell]
 	if handler then
@@ -181,12 +181,12 @@ end
 local PsychicDouble_DamageTypeImmunities = { Poison = true, Psychic = true }
 
 local function PsychicDouble_AttackedBy(defender, attackerOwner, attacker2, damageType, damageAmount, damageCause, storyActionID)
-	print("MysticExpansion: AttackedBy: defender: " .. defender .. " attackerOwner: " .. attackerOwner .. " attacker2: " .. attacker2 .. " damageType: " .. damageType .. " damageAmount: " .. damageAmount .. " damageCause: " .. damageCause .. " storyActionID: " .. storyActionID)
+	-- print("MysticExpansion: AttackedBy: defender: " .. defender .. " attackerOwner: " .. attackerOwner .. " attacker2: " .. attacker2 .. " damageType: " .. damageType .. " damageAmount: " .. damageAmount .. " damageCause: " .. damageCause .. " storyActionID: " .. storyActionID)
 
 	if damageType ~= '' and PsychicDouble_IsClone(defender) then
 		local owner, clone = PsychicDouble_GetMysticAndActiveClone(defender)
 		if clone then
-			print("MysticExpansion: Clone took " .. damageType .. " damage")
+			-- print("MysticExpansion: Clone took " .. damageType .. " damage")
 			if PsychicDouble_DamageTypeImmunities[damageType] then
 				return
 			end
