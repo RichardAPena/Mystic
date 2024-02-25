@@ -2567,6 +2567,8 @@ data "StackId" "MYSTIC_FIRE_FORM"
 data "AuraRadius" "3"
 data "AuraStatuses" "TARGET:IF(not Self()):ApplyStatus(MYSTIC_FIRE_FORM_AURA)"
 data "StatusGroups" "SG_RemoveOnRespec"
+// data "StatusEffect" "0c68361f-5f2a-4325-b273-e15784fb0bbb"
+data "StatusEffect" "b217ce62-4b35-42b1-931e-272baa7353ab"
 
 new entry "MYSTIC_FIRE_FORM_AURA"
 type "StatusData"

@@ -68,19 +68,19 @@ local function WarAdept_ShouldReapplyWarAdept(wielder, weapon)
 
     -- Two-handed and Melee
     local hasTwoHandedWeapon = ((meleeMainHandProperties & 1024) and (meleeMainHandProperties & 4096)) > 0
-    print("hasTwoHandedWeapon: " .. tostring(hasTwoHandedWeapon))
+    -- print("hasTwoHandedWeapon: " .. tostring(hasTwoHandedWeapon))
 
     -- Versatile and no melee off-hand or shield
     local hasVersatileWeaponOnly = (meleeMainHandProperties & 2048) and not (meleeOffHandProperties & 4096) and not hasShield
-    print("hasVersatileWeaponOnly: " .. tostring(hasVersatileWeaponOnly))
+    -- print("hasVersatileWeaponOnly: " .. tostring(hasVersatileWeaponOnly))
 
     -- Non-versatile weapon
     local hasNonVersatileWeapon = (meleeMainHandProperties & 4096) and not (meleeMainHandProperties & 2048) and not (meleeMainHandProperties & 1024) and not (meleeOffHandProperties & 4096) and not (meleeOffHandProperties & 2)
-    print("hasVersatileWeaponOnly: " .. tostring(hasVersatileWeaponOnly))
+    -- print("hasVersatileWeaponOnly: " .. tostring(hasVersatileWeaponOnly))
 
     -- Versatile melee weapon with shield
     local hasVersatileWeaponAndShield = (meleeMainHandProperties & 4096) and (meleeMainHandProperties & 2048) and hasShield
-    print("hasVersatileWeaponOnly: " .. tostring(hasVersatileWeaponOnly))
+    -- print("hasVersatileWeaponOnly: " .. tostring(hasVersatileWeaponOnly))
 
     -- Ranged weapon
     local hasRangedWeapon = ((rangedMainHandProperties & 2) or (rangedOffHandProperties & 2)) > 0
@@ -95,23 +95,23 @@ local function WarAdept_ShouldReapplyWarAdept(wielder, weapon)
 
     -- Need to check the weapon being sent in as an argument
     local currentWeaponProperties = Ext.Entity.Get(weapon).Weapon.WeaponProperties
-    local isCurrentWeaponGreat = (currentWeaponProperties & 1024) or (currentWeaponProperties & 2048) -- Twohanded or Versatile
-    local isCurrentWeaponDueling = (currentWeaponProperties & 4096) -- Melee
-    local isCurrentWeaponArchery = (currentWeaponProperties & 2) -- Ranged
-    local isCurrentWeaponThrown = (currentWeaponProperties & 512) -- Thrown
--- tostring()
-    print("hasGreatWeaponStatus: ".. tostring(hasGreatWeaponStatus))
-    print("hasGreatWeaponEquipped: " .. tostring(hasGreatWeaponEquipped))
-    print("isCurrentWeaponGreat: " .. tostring(isCurrentWeaponGreat))
-    print("hasDuelingStatus:" .. tostring(hasDuelingStatus))
-    print("hasDuelingWeaponEquipped: " .. tostring(hasDuelingWeaponEquipped))
-    print("isCurrentWeaponDueling: " .. tostring(isCurrentWeaponDueling))
-    print("hasArcheryStatus: " .. tostring(hasArcheryStatus))
-    print("hasArcheryWeaponEquipped: " .. tostring(hasArcheryWeaponEquipped))
-    print("isCurrentWeaponArchery: " .. tostring(isCurrentWeaponArchery))
-    print("hasThrownWeaponStatus: " .. tostring(hasThrownWeaponStatus))
-    print("hasThrownWeaponEquipped: " .. tostring(hasThrownWeaponEquipped))
-    print("isCurrentWeaponThrown: " .. tostring(isCurrentWeaponThrown))
+    local isCurrentWeaponGreat = ((currentWeaponProperties & 1024) > 0) or ((currentWeaponProperties & 2048) > 0) -- Twohanded or Versatile
+    local isCurrentWeaponDueling = (currentWeaponProperties & 4096) > 0 -- Melee
+    local isCurrentWeaponArchery = (currentWeaponProperties & 2) > 0 -- Ranged
+    local isCurrentWeaponThrown = (currentWeaponProperties & 512) > 0 -- Thrown
+
+    -- print("hasGreatWeaponStatus: ".. tostring(hasGreatWeaponStatus))
+    -- print("hasGreatWeaponEquipped: " .. tostring(hasGreatWeaponEquipped))
+    -- print("isCurrentWeaponGreat: " .. tostring(isCurrentWeaponGreat))
+    -- print("hasDuelingStatus: " .. tostring(hasDuelingStatus))
+    -- print("hasDuelingWeaponEquipped: " .. tostring(hasDuelingWeaponEquipped))
+    -- print("isCurrentWeaponDueling: " .. tostring(isCurrentWeaponDueling))
+    -- print("hasArcheryStatus: " .. tostring(hasArcheryStatus))
+    -- print("hasArcheryWeaponEquipped: " .. tostring(hasArcheryWeaponEquipped))
+    -- print("isCurrentWeaponArchery: " .. tostring(isCurrentWeaponArchery))
+    -- print("hasThrownWeaponStatus: " .. tostring(hasThrownWeaponStatus))
+    -- print("hasThrownWeaponEquipped: " .. tostring(hasThrownWeaponEquipped))
+    -- print("isCurrentWeaponThrown: " .. tostring(isCurrentWeaponThrown))
 
     if (hasGreatWeaponStatus and hasGreatWeaponEquipped and isCurrentWeaponGreat)
     or (hasDuelingStatus and hasDuelingWeaponEquipped and isCurrentWeaponDueling)
@@ -144,7 +144,7 @@ local function WarAdept_StatusRemoved(object, status, causee, applyStoryActionID
 end
 
 -- local function WarAdept_StatusApplied(object, status, causee, applyStoryActionID)
-    -- print("Heloge from WarAdept StatusAPplied")
+    -- print("Heloge from WarAdept StatusApplied")
     -- print("Weapon owner hopefully: " .. Osi.GetOwner(object))
     -- print("Weapon: " .. object.Weapon)
     -- print(Ext.Entity.Get(object).Weapon.WeaponProperties)

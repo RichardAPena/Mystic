@@ -322,9 +322,7 @@ data "StatsFunctors" "DealDamage(4d6,Psychic)"
 
 // TODO:
 // - Allow smite to be cast after the attack is made
-// - Make thrown weapon fighting have thrown attacks scale with int
 // - Make singularity scale with your DC instead of the targets (or just a flat dc like 12 or 15-17 prob more cuz gear and other sources JUST COPY 5e spells)
-// - Use [Cast2] for slice and dice
 // - New VFX, blade flurry in particular
 
 // Order of the Ascetic
@@ -345,7 +343,18 @@ data "DisplayName" "hb0dca46fg08cag4d0agb287ge12f5bec8d3b"
 data "Description" "h1278abafg4e4cg4c51ga659gcd85d789b8cd"
 data "Properties" "IsHidden"
 data "BoostContext" "OnStatusApplied;OnEquip;OnCreate;OnStatusApply;OnStatusRemove;OnStatusRemoved"
-data "Boosts" "IF(not HasStatus('MYSTIC_PSYCHIC_BLOWS',context.Source) and not HasStatus('MYSTIC_KINETIC_BLOWS',context.Source)):UnlockSpell(Target_Mystic_PsionicStrike);IF(not HasStatus('MYSTIC_PSYCHIC_BLOWS',context.Source) and not HasStatus('MYSTIC_KINETIC_BLOWS',context.Source)):UnlockSpell(Target_Mystic_PsionicStrike_Bonus);IF(HasStatus('MYSTIC_PSYCHIC_BLOWS',context.Source)):UnlockSpell(Target_Mystic_PsionicStrike_Psychic);IF(HasStatus('MYSTIC_PSYCHIC_BLOWS',context.Source)):UnlockSpell(Target_Mystic_PsionicStrike_Bonus_Psychic);IF(HasStatus('MYSTIC_KINETIC_BLOWS',context.Source)):UnlockSpell(Target_Mystic_PsionicStrike_Force);IF(HasStatus('MYSTIC_KINETIC_BLOWS',context.Source)):UnlockSpell(Target_Mystic_PsionicStrike_Bonus_Force);IF(IsUnarmedAttack()):RollBonus(Attack,IntelligenceModifier-StrengthModifier);IF(IsUnarmedAttack()):DamageBonus(IntelligenceModifier-StrengthModifier);MonkWeaponDamageDiceOverride(LevelMapValue(PsionicFists))"
+data "Boosts" "IF(not HasStatus('MYSTIC_PSYCHIC_BLOWS',context.Source) and not HasStatus('MYSTIC_KINETIC_BLOWS',context.Source)):UnlockSpell(Target_Mystic_PsionicStrike);IF(not HasStatus('MYSTIC_PSYCHIC_BLOWS',context.Source) and not HasStatus('MYSTIC_KINETIC_BLOWS',context.Source)):UnlockSpell(Target_Mystic_PsionicStrike_Bonus);IF(HasStatus('MYSTIC_PSYCHIC_BLOWS',context.Source)):UnlockSpell(Target_Mystic_PsionicStrike_Psychic);IF(HasStatus('MYSTIC_PSYCHIC_BLOWS',context.Source)):UnlockSpell(Target_Mystic_PsionicStrike_Bonus_Psychic);IF(HasStatus('MYSTIC_KINETIC_BLOWS',context.Source)):UnlockSpell(Target_Mystic_PsionicStrike_Force);IF(HasStatus('MYSTIC_KINETIC_BLOWS',context.Source)):UnlockSpell(Target_Mystic_PsionicStrike_Bonus_Force);IF(IsUnarmedAttack() and IsIntelligenceHigherThanStrength()):RollBonus(Attack,IntelligenceModifier-StrengthModifier);IF(IsUnarmedAttack() and IsIntelligenceHigherThanStrength()):DamageBonus(IntelligenceModifier-StrengthModifier);MonkWeaponDamageDiceOverride(LevelMapValue(PsionicFists))"
+
+// IF(not HasStatus('MYSTIC_PSYCHIC_BLOWS',context.Source) and not HasStatus('MYSTIC_KINETIC_BLOWS',context.Source)):UnlockSpell(Target_Mystic_PsionicStrike);
+// IF(not HasStatus('MYSTIC_PSYCHIC_BLOWS',context.Source) and not HasStatus('MYSTIC_KINETIC_BLOWS',context.Source)):UnlockSpell(Target_Mystic_PsionicStrike_Bonus);
+// IF(HasStatus('MYSTIC_PSYCHIC_BLOWS',context.Source)):UnlockSpell(Target_Mystic_PsionicStrike_Psychic);
+// IF(HasStatus('MYSTIC_PSYCHIC_BLOWS',context.Source)):UnlockSpell(Target_Mystic_PsionicStrike_Bonus_Psychic);
+// IF(HasStatus('MYSTIC_KINETIC_BLOWS',context.Source)):UnlockSpell(Target_Mystic_PsionicStrike_Force);
+// IF(HasStatus('MYSTIC_KINETIC_BLOWS',context.Source)):UnlockSpell(Target_Mystic_PsionicStrike_Bonus_Force);
+// IF(IsUnarmedAttack()):RollBonus(Attack,IntelligenceModifier-StrengthModifier);
+// IF(IsUnarmedAttack()):DamageBonus(IntelligenceModifier-StrengthModifier);
+// MonkWeaponDamageDiceOverride(LevelMapValue(PsionicFists))
+
 
 // Unarmored Defense
 new entry "Passive_Mystic_UnarmoredDefense"
@@ -450,7 +459,7 @@ data "DisplayName" "h0455c234g0bf4g49bbgaaecge6617c6114bf"
 data "Description" "ha43c8a1eg002fg4ddcg8446gdfffa33dc10e"
 data "Icon" "Passive_Mystic_WarAdept"
 data "Properties" "Highlighted"
-data "StatsFunctorContext" "OnEquip;OnCreate;OnLongRest;OnShortRest;OnTurn"
+data "StatsFunctorContext" "OnEquip;OnCreate;OnLongRest;OnShortRest"
 data "StatsFunctors" "ApplyStatus(SELF,MYSTIC_WAR_ADEPT_TECHNICAL,100,-1)"
 
 // Psionic Trance

@@ -871,3 +871,8 @@ function PsychicDouble_NotControlledClone(entity)
 	local result = ~HasStatus('MYSTIC_PSYCHIC_DOUBLE_ATTACKSWAP_CLONE', entity)
 	return result
 end
+
+function IsIntelligenceHigherThanStrength(entity)
+    entity = entity or context.Source
+    return entity.Intelligence > entity.Strength
+end

@@ -1,0 +1,84 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "ConvertModFiles",
+            "type": "shell",
+            "command": "",
+            "dependsOn": [
+                "ModLoca",
+                "ModLSX",
+                "CheckStats"
+            ],
+            "presentation": {
+                "reveal": "silent"
+            },
+            "problemMatcher": []
+        },
+        {
+            
+                "label": "ModLoca",
+                "type": "shell",
+                "command": "python 'D:\\BG3 Mod\\BG3ModdingTools-master\\scripts\\convert_loca.py'",
+                "args": [
+                    "-f",
+                    "D:\\BG3 Mod\\Mystic Class\\Mystic\\MysticExpansion\\Localization\\English\\MysticExpansion.xml",
+                    "-o",
+                    "D:\\BG3 Mod\\Mystic Class\\Mystic\\MysticExpansion\\Localization\\English\\MysticExpansion.loca"
+                ],
+                "group": "build",
+                "presentation": {
+                    "reveal": "silent"
+                },
+                "problemMatcher": []
+            
+        },
+        {
+            "label": "EMLSX",
+            "type": "shell",
+            "command": "python",
+            "options": {
+                "cwd": "D:\\BG3 Mod\\BG3ModdingTools-master\\scripts"
+            },
+            "args": [
+                "D:\\BG3 Mod\\BG3ModdingTools-master\\scripts\\convert_lsf.py",
+                "-f",
+                "D:\\BG3 Mod\\Mystic Class\\Mystic\\MysticExpansion\\",
+                "-b",
+                "--ext",
+                ".lsx",
+                "--outputext",
+                ".lsf"
+            ],
+            "group": "build",
+            "presentation": {
+                "reveal": "silent"
+            },
+            "problemMatcher": []
+        },
+        
+        {
+            "label": "CheckStats",
+            "type": "process",
+            "command": "D:\\BG3 Mod\\ExportTool-v1.18.7\\Tools\\StatParser.exe",
+            "args": [
+                "--game-data-path",
+                "D:\\Games\\SteamLibrary\\steamapps\\common\\Baldurs Gate 3\\Data",
+                "--package-paths",
+                "C:\\Users\\Richard Pena\\AppData\\Local\\Larian Studios\\Baldur's Gate 3\\Mods",
+                "--dependency",
+                "Shared",
+                "--dependency",
+                "SharedDev",
+                "--dependency",
+                "Gustav",
+                "--dependency",
+                "GustavDev",
+                "--mod",
+                "MysticExpansion"
+            ]
+        }
+    ]
+}
