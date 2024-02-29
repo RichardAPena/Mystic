@@ -618,7 +618,12 @@
 	<content contentuid="he3932f8cgb0afg46d2g8ceag5cccffe16148" version="1">Transform your weapons into pure psionic energy. Your weapon attacks become Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; instead of being &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;, dealing half damage on a successful save.</content>
 	<content contentuid="h1bddf10bg85aeg4891gae66g13c4bfd86fb4" version="1">Weapon &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; become Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; instead, dealing half damage on save.</content>
 	<content contentuid="hc5a2a389g7dbdg4bf7ga663gd4b1b9a0269a" version="1">Lethal Strike</content>
+	<content contentuid="h600047abg09aeg4d3eg8d22g6c56d536d073" version="1">Lethal Strike (Melee)</content>
+	<content contentuid="hbd3031c9g4cceg43c8gb553g54176b3f8ff3" version="1">Lethal Strike (Ranged)</content>
+	<content contentuid="ha1ee4050g7ccdg4f77g9c8cg17acfd982854" version="1">Your weapon deals an additional [1].</content>
+	<content contentuid="h2ae11de5gcdd0g4383gbc9dg53bf9b5b3484" version="1">Does not spend Psi Points.</content>
 	<content contentuid="h51aa6b39ge4c4g4802g98e7g7495bd716562" version="1">Imbue your weapons with psychic energy. Your next weapon attack will deal an additional [1].</content>
+
 	<content contentuid="h4f69363eg4bbfg4f59gaac3g4e3b5feb0075" version="1">Next weapon attack deals an additional [1].</content>
 	<content contentuid="h096232f7g42c0g4c6fgada3g7e6141886ce6" version="1">Augmented Weapon</content>
 	<content contentuid="h4fc32c62g0d3eg42b4g849agba33dfded8ae" version="1">Infuse a weapon with psionic energy. The weapon becomes magical, receiving a +3 bonus to &lt;LSTag Tooltip="AttackRoll"&gt;Attack&lt;/LSTag&gt; and Damage Rolls.</content>

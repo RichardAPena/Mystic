@@ -321,11 +321,12 @@ data "StatsFunctors" "DealDamage(4d6,Psychic)"
 
 
 // TODO:
-// - Allow smite to be cast after the attack is made
 // - Make singularity scale with your DC instead of the targets (or just a flat dc like 12 or 15-17 prob more cuz gear and other sources JUST COPY 5e spells)
-// - New VFX, blade flurry in particular
 
 // Order of the Ascetic
+
+// NOT TWO-HANDED, NOT HEAVY WEAPONS will get a buff when u equip them
+// 
 
 // Psionic Fists
 new entry "Passive_Mystic_PsionicFists"

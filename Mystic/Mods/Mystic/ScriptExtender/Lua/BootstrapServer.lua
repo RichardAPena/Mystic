@@ -10,3 +10,5 @@
 -- end
 
 -- Ext.Events.BeforeDealDamage:Subscribe(PhantomKnifePenetrateAC)
+
+Ext.Require("Server/MonkAnimations.lua")

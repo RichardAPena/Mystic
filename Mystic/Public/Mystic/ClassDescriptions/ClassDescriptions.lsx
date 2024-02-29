@@ -22,10 +22,10 @@
                     <attribute id="UUID" type="guid" value="b9b47ec2-35de-43d0-9593-7bee0bf9e808" />
 					<children>
                         <node id="Tags">
-                            <attribute id="Object" type="guid" value="6fe3ae27-dc6c-4fc9-9245-710c790c396c" />
+                            <attribute id="Object" type="guid" value="6fe3ae27-dc6c-4fc9-9245-710c790c396c" /> Wizard
                         </node>
                         <node id="Tags">
-                            <attribute id="Object" type="guid" value="18266c0b-efbc-4c80-8784-ada4a37218d7" />
+                            <attribute id="Object" type="guid" value="e1e460bb-d0ae-4452-8529-c9e176558731" /> Monk
                         </node>
                     </children>
                 </node>

@@ -17,7 +17,7 @@
 	<content contentuid="h06358907ge651g4757g828ag531350fea6a5" version="1">Order of the Ascetic</content>
 	<content contentuid="h45dc6d26g4e09g49bdgaf6fgd43ee1cd1ea3" version="1">Through disciplined training of mind, body, and spirit, ascetic mystics can perform both devastating psionics and crushing blows.</content>
 	<content contentuid="hb0dca46fg08cag4d0agb287ge12f5bec8d3b" version="1">Psionic Fists</content>
-	<content contentuid="h1278abafg4e4cg4c51ga659gcd85d789b8cd" version="1">Your unarmed attacks deal [1], and you use your Intelligence &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; for unarmed &lt;LSTag Tooltip="AttackRoll"&gt;attack&lt;/LSTag&gt; and damage rolls if it's higher than your Strength. Additionally, you can make an unarmed attack as a bonus action.</content>
+	<content contentuid="h1278abafg4e4cg4c51ga659gcd85d789b8cd" version="1">Your unarmed attacks or attacks with &lt;LSTag Tooltip="MonkWeapon"&gt;Monk Weapons&lt;/LSTag&gt; deal [1] (unless their damage is higher), and you use your Intelligence &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; for &lt;LSTag Tooltip="AttackRoll"&gt;attack&lt;/LSTag&gt; and damage rolls if it's higher than your Strength. Additionally, you can make an unarmed attack as a bonus action.</content>
 	<content contentuid="h73e008edg8e8fg4b77g96f0gdfc0e9c1c26e" version="1">Unarmored Defence</content>
 	<content contentuid="h96c9a10dgc43cg425cgac43gabf2d04f41e8" version="1">Your reflexes are as effective as any armour. While not wearing armour, you add your Intelligence &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; to your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;.</content>
 	<content contentuid="hb4a86afega6dfg4105ga791g6215b02fd854" version="1">Psychic Blows</content>
@@ -134,7 +134,8 @@
 	<content contentuid="h4cb70898g0458g4612gb062gc50e94710b84" version="1">Shift your &lt;LSTag Type="Status" Tooltip="MYSTIC_NOMADS_MARK"&gt;Nomad's Mark&lt;/LSTag&gt; to a new creature without using Psi Points.</content>
 	<content contentuid="h15c1ed97gd034g4efcga3c8g1302d215bc85" version="1">Can use a bonus action to reapply Nomad's Mark to another target.</content>
 	<content contentuid="h86b304a7gaf6ag4ea7g8b1cg63f0f0590d55" version="1">Nomadic Snare</content>
-	<content contentuid="h5de656fbgf137g43abg8c42gc0d4edbd5117" version="1">Place a nomadic trap on the ground. When stepped on by an enemy, the trap will detonate.</content>
+	<content contentuid="h5de656fbgf137g43abg8c42gc0d4edbd5117" version="1">Place a nomadic trap on the ground. When stepped on by an enemy, the trap will detonate, &lt;LSTag Type="Status" Tooltip="ENSNARED"&gt;Ensnaring&lt;/LSTag&gt; creatures within range.</content>
+	<content contentuid="h07874909ge123g43b7gbeb7gc980bc14746b" version="1">The trap detonates, dealing [1] and &lt;LSTag Type="Status" Tooltip="ENSNARED"&gt;Ensnaring&lt;/LSTag&gt; creatures within range when stepped on by an enemy.</content>
 	<content contentuid="h02c7f042gc35cg4c3egb4c9gcbcc33301381" version="1">Hunting Party</content>
 	<content contentuid="h3d902583ge7a6g439fg9f1agafc187143ec3" version="1">Heighten your and nearby allies' senses: gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against a target if one of your allies is within [1] of the target and isn't Incapacitated.</content>
 	<content contentuid="hb33fa5c6g821fg4545gbf54ga3251667d74b" version="1">Affected entity has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against a target if one of its allies is within [1] of the target and isn't Incapacitated.</content>

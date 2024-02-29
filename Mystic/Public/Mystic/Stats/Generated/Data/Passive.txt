@@ -275,7 +275,7 @@ type "PassiveData"
 data "DisplayName" "h446ffd90gb225g4154ga776g7045aeea67d7"
 data "Description" "hdcfa79a0ga3d9g42ddg8b25gd8de8954b9e1"
 data "Icon" "Action_Mystic_EtherealWeapon"
-data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_PsionicWeapon);UnlockSpell(Shout_Mystic_EtherealWeapon);UnlockSpell(Shout_Mystic_LethalStrike);UnlockSpell(Target_Mystic_AugmentedWeapon)"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_PsionicWeapon);UnlockSpell(Shout_Mystic_EtherealWeapon);UnlockSpell(Target_Mystic_LethalStrike_Melee);UnlockSpell(Projectile_Mystic_LethalStrike_Ranged);UnlockInterrupt(Interrupt_Mystic_LethalStrike);UnlockInterrupt(Interrupt_Mystic_LethalStrike_2);UnlockInterrupt(Interrupt_Mystic_LethalStrike_3);UnlockInterrupt(Interrupt_Mystic_LethalStrike_4);UnlockInterrupt(Interrupt_Mystic_LethalStrike_5);UnlockInterrupt(Interrupt_Mystic_LethalStrike_6);UnlockInterrupt(Interrupt_Mystic_LethalStrike_7);UnlockSpell(Target_Mystic_AugmentedWeapon)"
 
 // Psychic Assault
 new entry "Discipline_PsychicAssault"
@@ -459,6 +459,7 @@ type "PassiveData"
 data "Properties" "IsHidden;OncePerLongRest"
 data "StatsFunctorContext" "OnHealed;OnMovedDistance;OnActionResourcesChanged;OnTurn"
 data "StatsFunctors" "RestoreResource(PsiPointsResource,142,0);RestoreResource(PsionicMasteryResource,8,0)"
+data "DynamicAnimationTag" "d559367e-4d27-402a-8898-a72fd5f20c8b"
 
 // Telepathy
 new entry "Passive_Mystic_Telepathy"

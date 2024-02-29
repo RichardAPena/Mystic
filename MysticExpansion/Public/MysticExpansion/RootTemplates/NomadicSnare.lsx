@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="328"/>
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+                    <node id="GameObjects">
+					<attribute id="Icon" type="FixedString" value="Action_Mystic_NomadicSnare" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="d2107ee3-c20f-42da-a0ae-deba40cd751b" />
+					<attribute id="Name" type="LSString" value="Mystic_NomadicSnare_Trap" />
+					<attribute id="ParentTemplateId" type="FixedString" value="9c2216bf-44f7-4e57-be99-126691c3564f" />
+					<attribute id="Scale" type="float" value="1" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="0ec3d88b-d368-ecec-4141-610a2aa7877f" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209010" />
+					<children>
+						<node id="ConstellationConfigGlobalParameters">
+							<children>
+								<node id="ConstellationConfigParameter">
+									<attribute id="Name" type="LSString" value="Projectile" />
+									<children>
+										<node id="Value">
+											<children>
+												<node id="Scalar">
+													<children>
+														<node id="Scalar">
+															<children>
+																<node id="String">
+																	<attribute id="String" type="LSString" value="Projectile_Mystic_NomadicSnare_Trap" /> TODO: make a projectile that does what its supposed to do
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ExplodeFX" type="FixedString" value="a5dd2d2b-3fda-32c3-1d84-adfbc1bcdc69" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="" />
+											<attribute id="visualDestruction" type="FixedString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>
