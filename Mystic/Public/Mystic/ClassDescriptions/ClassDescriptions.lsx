@@ -27,6 +27,9 @@
                         <node id="Tags">
                             <attribute id="Object" type="guid" value="e1e460bb-d0ae-4452-8529-c9e176558731" /> Monk
                         </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="06f4f0db-ed78-4743-8ec3-296dad61ccff" /> Mystic
+                        </node>
                     </children>
                 </node>
         <node id="ClassDescription">

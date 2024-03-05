@@ -29,13 +29,14 @@
 	<content contentuid="hadc15c98gaffbg4f41g9d1egb1dfa274a755" version="1">Next unarmed attack will deal an additional [1] and heal you for the same amount.</content>
 	<content contentuid="ha097ae4dg8103g4a65gbc89g86139e5a641d" version="1">Flawless Technique</content>
 	<content contentuid="h12aaeb85g6598g4b95gae04g79fd729f2ec0" version="1">After casting a psionic discipline, you can make an unarmed strike for free. Once per turn.</content>
-	<content contentuid="h4762c91cg882ag46c5g8633gd721346c9a8b" version="1">Able to make an unarmed strike for free.</content>
+	<content contentuid="h4762c91cg882ag46c5g8633gd721346c9a8b" version="1">Able to make an attack for free.</content>
 	<content contentuid="h384150c4g64eag43c8g8749gd61fece1d288" version="1">Unyielding Mind</content>
 	<content contentuid="ha2f8254cgccfdg4021gba86gcf6381ae9837" version="1">At the start of each combat, regain [1] Psi Points.</content>
 	<content contentuid="hef38dccdga3c7g45feg97c3gabb1b89248fb" version="1">Order of the Blade</content>
 	<content contentuid="hb3b6dabag4bb1g48aaga83dg1b104cf60da8" version="1">Also known as Blades, mystics of this order forsake mental training and instead focus on weapons, using their psionics to enhance their attacks.</content>
 	<content contentuid="ha566a8ccgd8a9g4605ga5cfg2aad1c10dec9" version="1">Mystic Arsenal</content>
 	<content contentuid="hc25e7e73gf237g4092ga212g2f98d2f2caf7" version="1">Learn a Fighting Style of your choice.</content>
+	<content contentuid="hb8de0cb3ga47dg4236ga518g5b1f1d12aaac" version="1">You can choose from Two-Weapon Fighting, Dueling, Archery and Thrown Weapon Fighting. You can only learn one Fighting Style from this feature at a time.</content>
 	<content contentuid="h281f3304ge417g4149gae2cga120ea5f64d5" version="1">Martial Training</content>
 	<content contentuid="he2478245g7e29g4b9bga1c2gfab43839df34" version="1">Gain &lt;LSTag Tooltip="WeaponProficiency"&gt;Weapon Proficiency&lt;/LSTag&gt; with Martial Weapons and &lt;LSTag Tooltip="ArmourProficiency"&gt;Armour Proficiency&lt;/LSTag&gt; with Medium Armour, Heavy Armour and Shields.</content>
 	<content contentuid="h963bd4bdg830dg4f72gaf8fg64f4f1692dcb" version="1">Mystic Arsenal: Great Weapon Fighting</content>
@@ -64,8 +65,8 @@
 	<content contentuid="h5bf297c5g597bg4f10g9eddg8822e2738627" version="1">Psychic Shockwave</content>
 	<content contentuid="h76dfd634g6865g4143g945eg7301fb020fdd" version="1">Unleash a psychic shockwave in a targeted area.</content>
 	<content contentuid="h7ada79e3g226ag4c2bg9521g3ac7cf6cf50b" version="1">Psionic Trance</content>
-	<content contentuid="hf3bb52b7g8b82g494cga6b4g997052e91d25" version="1">Enter a state of heightened psionic focus. You gain the benefits of &lt;LSTag Type="Passive" Tooltip="ExtraAttack_2"&gt;Improved Extra Attack&lt;/LSTag&gt;, [1] increased &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; and a bonus to weapon &lt;LSTag Tooltip="AttackRoll"&gt;attack&lt;/LSTag&gt; and damage rolls equal to your Intelligence &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt;.</content>
-	<content contentuid="hdcd01fc4g89abg4bc5g94a4g1dcf95248741" version="1">Able to attack three times. [1] increased &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt;. +[2] to weapon &lt;LSTag Tooltip="AttackRoll"&gt;attack&lt;/LSTag&gt; and damage rolls.</content>
+	<content contentuid="hf3bb52b7g8b82g494cga6b4g997052e91d25" version="1">Enter a state of heightened psionic focus. You gain [1] increased &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; and a bonus to weapon &lt;LSTag Tooltip="AttackRoll"&gt;attack&lt;/LSTag&gt; and damage rolls equal to your Intelligence &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt;.</content>
+	<content contentuid="hdcd01fc4g89abg4bc5g94a4g1dcf95248741" version="1">In a state of heighted psionic focus. &lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; increasedd by [1] and +[2] to weapon &lt;LSTag Tooltip="AttackRoll"&gt;attack&lt;/LSTag&gt; and damage rolls.</content>
 	<content contentuid="h98f328d9g328fg4e27gb5a9ga7f6e9c5efda" version="1">Mastery of Gravity</content>
 	<content contentuid="h1745f017g5fbbg4712g90bdgd5337df8c0c2" version="1">You learn to manipulate the fundamental forces that hold things together, granting you a semblance of control over gravity.</content>
 	<content contentuid="h23a9f378gb8b9g4210gb911gf4633225dad0" version="1">Psychic Focus: Mastery of Gravity</content>
@@ -164,7 +165,7 @@
 	<content contentuid="hff8b0098g25ffg47d8g892dg4d2bc4cb2106" version="1">Psychic Distortion</content>
 	<content contentuid="h89e7f56dg83d7g472bgb6aeg9e89cb8d2e19" version="1">You wield psionic energy to alter and distort reality, creating optical illusions that distract foes.</content>
 	<content contentuid="h92bb0710ge5dcg452aga7e7g1ecc237e1304" version="1">Psychic Focus: Psychic Distortion</content>
-	<content contentuid="h3fde1150gcab6g4260g8cf0g17fda15a2f49" version="1">Gain immunity against being &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;</content>
+	<content contentuid="h3fde1150gcab6g4260g8cf0g17fda15a2f49" version="1">Gain immunity against being &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;.</content>
 	<content contentuid="heffa461fg2d5dg4746g90fbged596c9d89b4" version="1">Immune to &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blindness&lt;/LSTag&gt;</content>
 	<content contentuid="hf02df9ceg80e0g4491gbe18gc97501543cc3" version="1">Obscuring Veil</content>
 	<content contentuid="h1658822cg647cg440cgbaacg418c6c9ddb7a" version="1">Envelop yourself in a cloak of psychic static, obscuring yourself to others.</content>

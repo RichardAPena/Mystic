@@ -30,7 +30,8 @@ type "PassiveData"
 data "DisplayName" "h175e561fg1cb4g4e0ag879dg178034035120"
 data "Description" "hc5996804g22f2g465fga3bdg0a9396d181cf"
 data "Icon" "Action_Mystic_BruteStrike"
-data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_BruteForce);UnlockSpell(Shout_Mystic_BruteStrike);UnlockSpell(Target_Mystic_KnockBack);UnlockSpell(Target_Mystic_MightyLeap);UnlockSpell(Shout_Mystic_FeatOfStrength)"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_BruteForce);UnlockSpell(Shout_Mystic_BruteStrike);UnlockSpell(Shout_Mystic_KnockBack);UnlockSpell(Target_Mystic_MightyLeap);UnlockSpell(Shout_Mystic_FeatOfStrength);UnlockInterrupt(Interrupt_Mystic_KnockBack_2);UnlockInterrupt(Interrupt_Mystic_KnockBack_3);UnlockInterrupt(Interrupt_Mystic_KnockBack_4);UnlockInterrupt(Interrupt_Mystic_KnockBack_5);UnlockInterrupt(Interrupt_Mystic_KnockBack_6);UnlockInterrupt(Interrupt_Mystic_KnockBack_7)"
+// data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_BruteForce);UnlockSpell(Shout_Mystic_BruteStrike);UnlockSpell(Target_Mystic_KnockBack);UnlockSpell(Target_Mystic_MightyLeap);UnlockSpell(Shout_Mystic_FeatOfStrength)"
 
 // Celerity
 new entry "Discipline_Celerity"
@@ -214,9 +215,7 @@ type "PassiveData"
 data "DisplayName" "hf6ead5ccg2df1g4f7agb826g9ad1f2cf9ee0"
 data "Description" "h25d5884cg40fdg4f36ga49eg16c0743e37e5"
 data "Icon" "Action_Mystic_WallOfWood"
-// data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MasteryOfWoodAndEarth);UnlockSpell(Projectile_Mystic_AnimateWeapon);UnlockSpell(Target_Mystic_WarpWeapon);UnlockSpell(Target_Mystic_WarpArmor);UnlockSpell(Wall_Mystic_WallOfWood);UnlockSpell(Shout_Mystic_ArmoredForm);UnlockSpell(Target_Mystic_AnimateEarth);"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MasteryOfWoodAndEarth);UnlockSpell(Projectile_Mystic_AnimateWeapon);UnlockSpell(Target_Mystic_WarpWeapon);UnlockSpell(Target_Mystic_WarpArmor);UnlockSpell(Wall_Mystic_WallOfWood);UnlockSpell(Shout_Mystic_ArmoredForm);UnlockSpell(Target_Mystic_AnimateEarth);IF(SpellId('Projectile_Mystic_AnimateWeapon') or SpellId('Projectile_Mystic_AnimateWeapon_1') or SpellId('Projectile_Mystic_AnimateWeapon_2') or SpellId('Projectile_Mystic_AnimateWeapon_3') or SpellId('Projectile_Mystic_AnimateWeapon_4') or SpellId('Projectile_Mystic_AnimateWeapon_5') or SpellId('Projectile_Mystic_AnimateWeapon_6') or SpellId('Projectile_Mystic_AnimateWeapon_7')):RollBonus(Attack, IntelligenceModifier)"
-// IF(SpellId('Projectile_Mystic_AnimateWeapon') or SpellId('Projectile_Mystic_AnimateWeapon_1') or SpellId('Projectile_Mystic_AnimateWeapon_2') or SpellId('Projectile_Mystic_AnimateWeapon_3') or SpellId('Projectile_Mystic_AnimateWeapon_4') or SpellId('Projectile_Mystic_AnimateWeapon_5') or SpellId('Projectile_Mystic_AnimateWeapon_6') or SpellId('Projectile_Mystic_AnimateWeapon_7')):RollBonus(Attack, IntelligenceModifier)"
 
 // Nomadic Arrow
 new entry "Discipline_NomadicArrow"
@@ -240,7 +239,7 @@ type "PassiveData"
 data "DisplayName" "h1ea947d4g29e6g4b81gabaeg5ba74ba636f4"
 data "Description" "habcf7807g5ec8g4f68g8857g0a0159e436a6"
 data "Icon" "Action_Mystic_ItemLore"
-data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_NomadicMind);UnlockSpell(Shout_Mystic_Featherweight);UnlockSpell(Target_Mystic_Unearth);UnlockSpell(Shout_Mystic_ItemLore);UnlockSpell(Shout_Mystic_PsychicSpeech)"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_NomadicMind);UnlockSpell(Shout_Mystic_Featherweight);UnlockSpell(Target_Mystic_Unearth);UnlockSpell(Target_Mystic_Lockdown);UnlockSpell(Shout_Mystic_ItemLore);UnlockSpell(Shout_Mystic_PsychicSpeech)"
 
 // Nomadic Step
 new entry "Discipline_NomadicStep"
@@ -275,7 +274,7 @@ type "PassiveData"
 data "DisplayName" "h446ffd90gb225g4154ga776g7045aeea67d7"
 data "Description" "hdcfa79a0ga3d9g42ddg8b25gd8de8954b9e1"
 data "Icon" "Action_Mystic_EtherealWeapon"
-data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_PsionicWeapon);UnlockSpell(Shout_Mystic_EtherealWeapon);UnlockSpell(Target_Mystic_LethalStrike_Melee);UnlockSpell(Projectile_Mystic_LethalStrike_Ranged);UnlockInterrupt(Interrupt_Mystic_LethalStrike);UnlockInterrupt(Interrupt_Mystic_LethalStrike_2);UnlockInterrupt(Interrupt_Mystic_LethalStrike_3);UnlockInterrupt(Interrupt_Mystic_LethalStrike_4);UnlockInterrupt(Interrupt_Mystic_LethalStrike_5);UnlockInterrupt(Interrupt_Mystic_LethalStrike_6);UnlockInterrupt(Interrupt_Mystic_LethalStrike_7);UnlockSpell(Target_Mystic_AugmentedWeapon)"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_PsionicWeapon);UnlockSpell(Shout_Mystic_EtherealWeapon);UnlockSpell(Shout_Mystic_LethalStrike);UnlockSpell(Target_Mystic_LethalStrike_Melee);UnlockSpell(Projectile_Mystic_LethalStrike_Ranged);UnlockInterrupt(Interrupt_Mystic_LethalStrike);UnlockInterrupt(Interrupt_Mystic_LethalStrike_2);UnlockInterrupt(Interrupt_Mystic_LethalStrike_3);UnlockInterrupt(Interrupt_Mystic_LethalStrike_4);UnlockInterrupt(Interrupt_Mystic_LethalStrike_5);UnlockInterrupt(Interrupt_Mystic_LethalStrike_6);UnlockInterrupt(Interrupt_Mystic_LethalStrike_7);UnlockSpell(Target_Mystic_AugmentedWeapon)"
 
 // Psychic Assault
 new entry "Discipline_PsychicAssault"
@@ -292,15 +291,6 @@ data "DisplayName" "h0aa174f1g2fa2g4e53gb422g0dbdf78e1ad8"
 data "Description" "h9d101d3bg7a6ag4d74gb632ga7a96d3a815f"
 data "Icon" "Action_Mystic_Daze"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_PsychicDisruption);UnlockSpell(Target_Mystic_DistractingHaze);UnlockSpell(Target_Mystic_Daze);UnlockSpell(Target_Mystic_MindStorm)"
-
-// Psychic Supression (Psychic Inquisition)
-// Deprecated (For now at least)
-new entry "Discipline_PsychicSuppression"
-type "PassiveData"
-data "DisplayName" "he621a7e5g45fag4c6dg8bf6gcd955f76008a"
-data "Description" "h1ce046e0gfc9eg48beg9adcgeadc0348a565"
-data "Icon" ""
-data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_PsychicSuppression)"
 
 // Telepathic Subjugation (Telepathic Contact)
 new entry "Discipline_TelepathicSubjugation"
@@ -331,8 +321,7 @@ new entry "Discipline_NomadicArrow_Effect"
 type "PassiveData"
 data "DisplayName" "hc7e29d53g3ebcg47b5g8e62gc0eef01fa7d0"
 data "Properties" "IsHidden"
-// data "BoostConditions" "HasDisadvantage()"
-data "Boosts" "IF(HasDisadvantage() and IsRangedWeaponAttack()):Advantage(AttackRoll)"
+data "Boosts" "IF((HasDisadvantage() or TargetHasDisadvantage()) and IsRangedWeaponAttack()):Advantage(AttackRoll)"
 
 // Nomadic Step Effect
 new entry "Discipline_NomadicStep_Effect"
@@ -340,16 +329,6 @@ type "PassiveData"
 data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnCast"
 data "StatsFunctors" "IF(SuperiorTeleportationCheck()):ApplyStatus(SELF,PSYCHIC_FOCUS_NOMADIC_STEP_BUFF,100,1)"
-// data "StatsFunctorContext" "OnAttack"
-// data "Conditions" "HasDamageEffectFlag(DamageFlags.Hit)"
-// data "StatsFunctors" "IF(IsSupply(context.HitDescription.ThrownObject)):ApplyStatus(BLINDED,100,1)"
-
-// new entry "Passive_Mystic_ThereAndBackAgain"
-// type "PassiveData"
-// data "Properties" "IsHidden"
-// data "StatsFunctorContext" "OnCast"
-// data "Conditions" "SpellId('Target_Mystic_ThereAndBackAgain')"
-// data "StatsFunctors" "ApplyStatus(SELF,MYSTIC_THERE_AND_BACK_AGAIN,100,1)"
 
 // Aura of Victory
 new entry "Passive_AuraOfVictory"
@@ -417,12 +396,6 @@ data "StatsFunctorContext" "OnAttacked"
 data "Conditions" "IsMiss() and IsMeleeAttack()"
 data "StatsFunctors" "DealDamage(SWAP,1d6,Slashing,Magical)"
 
-// Animate Weapon
-// new entry "Passive_Mystic_AnimateWeapon"
-// type "PassiveData"
-// data "Properties" "IsHidden"
-// data "Boosts" "IF(SpellId('Projectile_Mystic_AnimateWeapon') or SpellId('Projectile_Mystic_AnimateWeapon_1') or SpellId('Projectile_Mystic_AnimateWeapon_2') or SpellId('Projectile_Mystic_AnimateWeapon_3') or SpellId('Projectile_Mystic_AnimateWeapon_4') or SpellId('Projectile_Mystic_AnimateWeapon_5') or SpellId('Projectile_Mystic_AnimateWeapon_6') or SpellId('Projectile_Mystic_AnimateWeapon_7')):RollBonus(Attack, IntelligenceModifier)"
-
 // Mystic Class Features
 
 new entry "Mystic_PsiLimit_3"
@@ -453,13 +426,14 @@ data "Description" "ha24159a1g3baag43c2gb86fg6041a420118f"
 data "DescriptionParams" "7"
 data "Icon" "PassiveFeature_Generic_Magical"
 
-// Illithid Restoration Fix
+// Illithid Restoration Fix + Monk Animations
 new entry "Passive_Mystic_IllithidFix"
 type "PassiveData"
 data "Properties" "IsHidden;OncePerLongRest"
 data "StatsFunctorContext" "OnHealed;OnMovedDistance;OnActionResourcesChanged;OnTurn"
 data "StatsFunctors" "RestoreResource(PsiPointsResource,142,0);RestoreResource(PsionicMasteryResource,8,0)"
 data "DynamicAnimationTag" "d559367e-4d27-402a-8898-a72fd5f20c8b"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_Container)"
 
 // Telepathy
 new entry "Passive_Mystic_Telepathy"
@@ -680,15 +654,6 @@ data "StatsFunctorContext" "OnDamage"
 data "Conditions" "HasHPLessThan(1) and Enemy() and Character()"
 data "StatsFunctors" "RestoreResource(SELF,PsiPointsResource,2,0)"
 
-// Phantom Knife
-// DEPRECATED
-// new entry "Passive_Mystic_PhantomKnife"
-// type "PassiveData"
-// data "DisplayName" "h8d0bf788g31abg4363gbf7aga7d8808812c3"
-// data "Description" "h6ab7fdc0g0cd9g4243gb861g598147185b0d"
-// data "Properties" "Highlighted"
-// data "Boosts" "IF(SpellId('Target_Mystic_PhantomKnife')):RollBonus(Attack, (context.Target.ArmorClass)-10)"
-
 // Elemental Attunement (Wu Jen)
 new entry "Passive_Mystic_ElementalAttunement"
 type "PassiveData"
@@ -712,7 +677,6 @@ new entry "Passive_Mystic_ArcaneDabbler_RemoveSpellSlot"
 type "PassiveData"
 data "Properties" "IsHidden;OncePerLongRest"
 data "StatsFunctorContext" "OnActionResourcesChanged"
-// data "StatsFunctors" "RestoreResource(SELF,SpellSlot,-1,3)"
 
 // Elemental Mastery (Wu Jen)
 new entry "Passive_Mystic_ElementalMastery"
@@ -730,7 +694,6 @@ type "PassiveData"
 data "DisplayName" "ha4e0de48gfef2g4542gad1egdd0f0029f6fe"
 data "Description" "h9c6aad58g3027g4905g83d1g9d6d3783fb00"
 data "DescriptionParams" "2"
-// data "Icon" "Passive_Mystic_ElementalMastery"
 data "Properties" "Highlighted"
 data "StatsFunctorContext" "OnTurn"
 data "Conditions" "Combat()"
@@ -780,7 +743,7 @@ data "DisplayName" "hfc3b5a7cg05b8g4851ga9dbg94f897074f6c"
 data "Description" "h7c9f01eag0f68g4ed0g99e9gd4d6a91ad3dd"
 data "DescriptionParams" "max(1,Cause.IntelligenceModifier/2)"
 data "Properties" "Highlighted"
-data "Boosts" "DamageReduction(All, Flat, max(1,Cause.IntelligenceModifier/2))"
+data "Boosts" "DamageReduction(All, Flat, max(1,Cause.IntelligenceModifier))"
 
 new entry "Passive_Mystic_NomadEffect"
 type "PassiveData"
@@ -875,3 +838,22 @@ data "Description" "h20c078e5g115dg4f12gaec6gd3ce45c41300"
 data "StatsFunctorContext" "OnDamage"
 data "Conditions" "IsRangedWeaponAttack() and Character()"
 data "StatsFunctors" "RestoreResource(SELF,PsiPointsResource,1,0)"
+
+// Psionics Initiate Passive
+// DO NOT USE
+new entry "Passive_Mystic_PsionicsInitiate"
+type "PassiveData"
+data "DisplayName" "hbe1432c6g0b13g415bg82eega80f00d4f7d9"
+data "Description" "h299b5c1eg8ea8g47e4gb769gf6224edab9f8"
+data "Icon" "PassiveFeature_Resilient"
+data "Properties" "Highlighted"
+data "Boosts" "ActionResource(PsiPointsResource,2,0)"
+
+// DO NOT USE
+new entry "Passive_Mystic_PsionicsInitiate_AdaptiveBody"
+type "PassiveData"
+data "DisplayName" "h8eeaa9d1g3467g466eg8caegd75b3e89640d"
+data "Description" "hc72d01b1g7f79g4299gb846g59727a5729be"
+data "Icon" "Action_Mystic_AdaptiveShield"
+data "StatsFunctorContext" "OnCreate;OnEquip"
+data "StatsFunctors" "ApplyStatus(SELF,MYSTIC_PSIONICS_INITIATE_ADAPTIVE_BODY,100,-1)"

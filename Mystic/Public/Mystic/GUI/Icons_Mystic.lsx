@@ -1423,273 +1423,273 @@
                     <attribute id="V2" type="float" value="0.21875"/> Bottom
                 </node>			
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icon_"/> 201 ROW 7 = 9
+                    <attribute id="MapKey" type="FixedString" value="Action_Mystic_Lockdown"/> 201 ROW 7 = 9
                     <attribute id="U1" type="float" value="0.25"/> Left
                     <attribute id="U2" type="float" value="0.28125"/> Right
                     <attribute id="V1" type="float" value="0.1875"/> Top
                     <attribute id="V2" type="float" value="0.21875"/> Bottom
                 </node>		
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icon_"/> 202 ROW 7 = 10
+                    <attribute id="MapKey" type="FixedString" value="PsychicFocus_Mystic_AdaptiveBody"/> 202 ROW 7 = 10
                     <attribute id="U1" type="float" value="0.28125"/> Left
                     <attribute id="U2" type="float" value="0.3125"/> Right
                     <attribute id="V1" type="float" value="0.1875"/> Top
                     <attribute id="V2" type="float" value="0.21875"/> Bottom
                 </node>			
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icon_"/> 203 ROW 7 = 11
+                    <attribute id="MapKey" type="FixedString" value="PsychicFocus_Mystic_AuraSight"/> 203 ROW 7 = 11
                     <attribute id="U1" type="float" value="0.3125"/> Left
                     <attribute id="U2" type="float" value="0.34375"/> Right
                     <attribute id="V1" type="float" value="0.1875"/> Top
                     <attribute id="V2" type="float" value="0.21875"/> Bottom
                 </node>		
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icon_"/> 204 ROW 7 = 12
+                    <attribute id="MapKey" type="FixedString" value="PsychicFocus_Mystic_BestialForm"/> 204 ROW 7 = 12
                     <attribute id="U1" type="float" value="0.34375"/> Left
                     <attribute id="U2" type="float" value="0.375"/> Right
                     <attribute id="V1" type="float" value="0.1875"/> Top
                     <attribute id="V2" type="float" value="0.21875"/> Bottom
                 </node>	
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icon_"/> 205 ROW 7 = 13
+                    <attribute id="MapKey" type="FixedString" value="PsychicFocus_Mystic_BruteForce"/> 205 ROW 7 = 13
                     <attribute id="U1" type="float" value="0.375"/> Left
                     <attribute id="U2" type="float" value="0.40625"/> Right
                     <attribute id="V1" type="float" value="0.1875"/> Top
                     <attribute id="V2" type="float" value="0.21875"/> Bottom
                 </node>	
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icon_"/> 206 ROW 7 = 14
+                    <attribute id="MapKey" type="FixedString" value="PsychicFocus_Mystic_Celerity"/> 206 ROW 7 = 14
                     <attribute id="U1" type="float" value="0.40625"/> Left
                     <attribute id="U2" type="float" value="0.4375"/> Right
                     <attribute id="V1" type="float" value="0.1875"/> Top
                     <attribute id="V2" type="float" value="0.21875"/> Bottom
                 </node>	
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icon_"/> 207 ROW 7 = 15
+                    <attribute id="MapKey" type="FixedString" value="PsychicFocus_Mystic_CorrosiveMetabolism"/> 207 ROW 7 = 15
                     <attribute id="U1" type="float" value="0.4375"/> Left
                     <attribute id="U2" type="float" value="0.46875"/> Right
                     <attribute id="V1" type="float" value="0.1875"/> Top
                     <attribute id="V2" type="float" value="0.21875"/> Bottom
                 </node>	
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icon_"/> 208 ROW 7 = 16
+                    <attribute id="MapKey" type="FixedString" value="PsychicFocus_Mystic_CrownOfDespair"/> 208 ROW 7 = 16
                     <attribute id="U1" type="float" value="0.46875"/> Left
                     <attribute id="U2" type="float" value="0.5"/> Right
                     <attribute id="V1" type="float" value="0.1875"/> Top
                     <attribute id="V2" type="float" value="0.21875"/> Bottom
                 </node>		
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icon_"/> 209 ROW 7 = 17
+                    <attribute id="MapKey" type="FixedString" value="PsychicFocus_Mystic_CrownOfDisgust"/> 209 ROW 7 = 17
                     <attribute id="U1" type="float" value="0.5"/> Left
                     <attribute id="U2" type="float" value="0.53125"/> Right
                     <attribute id="V1" type="float" value="0.1875"/> Top
                     <attribute id="V2" type="float" value="0.21875"/> Bottom
                 </node>	
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icon_"/> 210 ROW 7 = 18
+                    <attribute id="MapKey" type="FixedString" value="PsychicFocus_Mystic_CrownOfRage"/> 210 ROW 7 = 18
                     <attribute id="U1" type="float" value="0.53125"/> Left
                     <attribute id="U2" type="float" value="0.5625"/> Right
                     <attribute id="V1" type="float" value="0.1875"/> Top
                     <attribute id="V2" type="float" value="0.21875"/> Bottom
                 </node>		
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icon_"/> 211 ROW 7 = 19
+                    <attribute id="MapKey" type="FixedString" value="PsychicFocus_Mystic_Diminution"/> 211 ROW 7 = 19
                     <attribute id="U1" type="float" value="0.5625"/> Left
                     <attribute id="U2" type="float" value="0.59375"/> Right
                     <attribute id="V1" type="float" value="0.1875"/> Top
                     <attribute id="V2" type="float" value="0.21875"/> Bottom
                 </node>		
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icon_"/> 212 ROW 7 = 20
+                    <attribute id="MapKey" type="FixedString" value="PsychicFocus_Mystic_GiantGrowth"/> 212 ROW 7 = 20
                     <attribute id="U1" type="float" value="0.59375"/> Left
                     <attribute id="U2" type="float" value="0.625"/> Right
                     <attribute id="V1" type="float" value="0.1875"/> Top
                     <attribute id="V2" type="float" value="0.21875"/> Bottom
                 </node>		
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icon_"/> 213 ROW 7 = 21
+                    <attribute id="MapKey" type="FixedString" value="PsychicFocus_Mystic_IntellectFortress"/> 213 ROW 7 = 21
                     <attribute id="U1" type="float" value="0.625"/> Left
                     <attribute id="U2" type="float" value="0.65625"/> Right
                     <attribute id="V1" type="float" value="0.1875"/> Top
                     <attribute id="V2" type="float" value="0.21875"/> Bottom
                 </node>		
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icon_"/> 214 ROW 7 = 22
+                    <attribute id="MapKey" type="FixedString" value="PsychicFocus_Mystic_IronDurability"/> 214 ROW 7 = 22
                     <attribute id="U1" type="float" value="0.65625"/> Left
                     <attribute id="U2" type="float" value="0.6875"/> Right
                     <attribute id="V1" type="float" value="0.1875"/> Top
                     <attribute id="V2" type="float" value="0.21875"/> Bottom
                 </node>		
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icon_"/> 215 ROW 7 = 23
+                    <attribute id="MapKey" type="FixedString" value="PsychicFocus_Mystic_MantleOfAwe"/> 215 ROW 7 = 23
                     <attribute id="U1" type="float" value="0.6875"/> Left
                     <attribute id="U2" type="float" value="0.71875"/> Right
                     <attribute id="V1" type="float" value="0.1875"/> Top
                     <attribute id="V2" type="float" value="0.21875"/> Bottom
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icon_"/> 216 ROW 7 = 24
+                    <attribute id="MapKey" type="FixedString" value="PsychicFocus_Mystic_MantleOfCommand"/> 216 ROW 7 = 24
                     <attribute id="U1" type="float" value="0.71875"/> Left
                     <attribute id="U2" type="float" value="0.75"/> Right
                     <attribute id="V1" type="float" value="0.1875"/> Top
                     <attribute id="V2" type="float" value="0.21875"/> Bottom
                 </node>		
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icon_"/> 217 ROW 7 = 25
+                    <attribute id="MapKey" type="FixedString" value="PsychicFocus_Mystic_MantleOfCourage"/> 217 ROW 7 = 25
                     <attribute id="U1" type="float" value="0.75"/> Left
                     <attribute id="U2" type="float" value="0.78125"/> Right
                     <attribute id="V1" type="float" value="0.1875"/> Top
                     <attribute id="V2" type="float" value="0.21875"/> Bottom
                 </node>		
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icon_"/> 218 ROW 7 = 26
+                    <attribute id="MapKey" type="FixedString" value="PsychicFocus_Mystic_MantleOfFear"/> 218 ROW 7 = 26
                     <attribute id="U1" type="float" value="0.78125"/> Left
                     <attribute id="U2" type="float" value="0.8125"/> Right
                     <attribute id="V1" type="float" value="0.1875"/> Top
                     <attribute id="V2" type="float" value="0.21875"/> Bottom
                 </node>		
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icon_"/> 219 ROW 7 = 27
+                    <attribute id="MapKey" type="FixedString" value="PsychicFocus_Mystic_MantleOfFury"/> 219 ROW 7 = 27
                     <attribute id="U1" type="float" value="0.8125"/> Left
                     <attribute id="U2" type="float" value="0.84375"/> Right
                     <attribute id="V1" type="float" value="0.1875"/> Top
                     <attribute id="V2" type="float" value="0.21875"/> Bottom
                 </node>	
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icon_"/> 220 ROW 7 = 28
+                    <attribute id="MapKey" type="FixedString" value="PsychicFocus_Mystic_MantleOfJoy"/> 220 ROW 7 = 28
                     <attribute id="U1" type="float" value="0.84375"/> Left
                     <attribute id="U2" type="float" value="0.875"/> Right
                     <attribute id="V1" type="float" value="0.1875"/> Top
                     <attribute id="V2" type="float" value="0.21875"/> Bottom
                 </node>		
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icon_"/> 221 ROW 7 = 29
+                    <attribute id="MapKey" type="FixedString" value="PsychicFocus_Mystic_MasteryOfAir"/> 221 ROW 7 = 29
                     <attribute id="U1" type="float" value="0.875"/> Left
                     <attribute id="U2" type="float" value="0.90625"/> Right
                     <attribute id="V1" type="float" value="0.1875"/> Top
                     <attribute id="V2" type="float" value="0.21875"/> Bottom
                 </node>					
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icon_"/> 222 ROW 7 = 30
+                    <attribute id="MapKey" type="FixedString" value="PsychicFocus_Mystic_MasteryOfFire"/> 222 ROW 7 = 30
                     <attribute id="U1" type="float" value="0.90625"/> Left
                     <attribute id="U2" type="float" value="0.9375"/> Right
                     <attribute id="V1" type="float" value="0.1875"/> Top
                     <attribute id="V2" type="float" value="0.21875"/> Bottom
                 </node>							
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icon_"/> 223 ROW 7 = 31
+                    <attribute id="MapKey" type="FixedString" value="PsychicFocus_Mystic_MasteryOfForce"/> 223 ROW 7 = 31
                     <attribute id="U1" type="float" value="0.9375"/> Left
                     <attribute id="U2" type="float" value="0.96875"/> Right
                     <attribute id="V1" type="float" value="0.1875"/> Top
                     <attribute id="V2" type="float" value="0.21875"/> Bottom
                 </node>		
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icon_"/> 224 ROW 7 = 32
+                    <attribute id="MapKey" type="FixedString" value="PsychicFocus_Mystic_MasteryOfIce"/> 224 ROW 7 = 32
                     <attribute id="U1" type="float" value="0.96875"/> Left
                     <attribute id="U2" type="float" value="1.0"/> Right
                     <attribute id="V1" type="float" value="0.1875"/> Top
                     <attribute id="V2" type="float" value="0.21875"/> Bottom
                 </node>		
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icon_"/> 225 ROW 8 = 1
+                    <attribute id="MapKey" type="FixedString" value="PsychicFocus_Mystic_MasteryOfLightAndDarkness"/> 225 ROW 8 = 1
                     <attribute id="U1" type="float" value="0.0"/> Left side
                     <attribute id="U2" type="float" value="0.03125"/> Right side
                     <attribute id="V1" type="float" value="0.21875"/> Top
                     <attribute id="V2" type="float" value="0.25"/> Bottom
                 </node>		
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icon_"/> 226 ROW 8 = 2
+                    <attribute id="MapKey" type="FixedString" value="PsychicFocus_Mystic_MasteryOfWater"/> 226 ROW 8 = 2
                     <attribute id="U1" type="float" value="0.03125"/> Left
                     <attribute id="U2" type="float" value="0.0625"/> Right
                     <attribute id="V1" type="float" value="0.21875"/> Top
                     <attribute id="V2" type="float" value="0.25"/> Bottom
                 </node>		
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icon_"/> 227 ROW 8 = 3
+                    <attribute id="MapKey" type="FixedString" value="PsychicFocus_Mystic_MasteryOfWeather"/> 227 ROW 8 = 3
                     <attribute id="U1" type="float" value="0.0625"/> Left
                     <attribute id="U2" type="float" value="0.09375"/> Right
                     <attribute id="V1" type="float" value="0.21875"/> Top
                     <attribute id="V2" type="float" value="0.25"/> Bottom
                 </node>		
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icon_"/> 228 ROW 8 = 4
+                    <attribute id="MapKey" type="FixedString" value="PsychicFocus_Mystic_MasteryOfWoodAndEarth"/> 228 ROW 8 = 4
                     <attribute id="U1" type="float" value="0.09375"/> Left
                     <attribute id="U2" type="float" value="0.125"/> Right
                     <attribute id="V1" type="float" value="0.21875"/> Top
                     <attribute id="V2" type="float" value="0.25"/> Bottom
                 </node>	
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icon_"/> 229 ROW 8 = 5
+                    <attribute id="MapKey" type="FixedString" value="PsychicFocus_Mystic_NomadicArrow"/> 229 ROW 8 = 5
                     <attribute id="U1" type="float" value="0.125"/> Left
                     <attribute id="U2" type="float" value="0.15625"/> Right
                     <attribute id="V1" type="float" value="0.21875"/> Top
                     <attribute id="V2" type="float" value="0.25"/> Bottom
                 </node>		
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icon_"/> 230 ROW 8 = 6
+                    <attribute id="MapKey" type="FixedString" value="PsychicFocus_Mystic_NomadicChameleon"/> 230 ROW 8 = 6
                     <attribute id="U1" type="float" value="0.15625"/> Left
                     <attribute id="U2" type="float" value="0.1875"/> Right
                     <attribute id="V1" type="float" value="0.21875"/> Top
                     <attribute id="V2" type="float" value="0.25"/> Bottom
                 </node>		
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icon_"/> 231 ROW 8 = 7
+                    <attribute id="MapKey" type="FixedString" value="PsychicFocus_Mystic_NomadicMind"/> 231 ROW 8 = 7
                     <attribute id="U1" type="float" value="0.1875"/> Left
                     <attribute id="U2" type="float" value="0.21875"/> Right
                     <attribute id="V1" type="float" value="0.21875"/> Top
                     <attribute id="V2" type="float" value="0.25"/> Bottom
                 </node>	
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icon_"/> 232 ROW 8 = 8
+                    <attribute id="MapKey" type="FixedString" value="PsychicFocus_Mystic_NomadicStep"/> 232 ROW 8 = 8
                     <attribute id="U1" type="float" value="0.21875"/> Left
                     <attribute id="U2" type="float" value="0.25"/> Right
                     <attribute id="V1" type="float" value="0.21875"/> Top
                     <attribute id="V2" type="float" value="0.25"/> Bottom
                 </node>			
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icon_"/> 233 ROW 8 = 9
+                    <attribute id="MapKey" type="FixedString" value="PsychicFocus_Mystic_Precognition"/> 233 ROW 8 = 9
                     <attribute id="U1" type="float" value="0.25"/> Left
                     <attribute id="U2" type="float" value="0.28125"/> Right
                     <attribute id="V1" type="float" value="0.21875"/> Top
                     <attribute id="V2" type="float" value="0.25"/> Bottom
                 </node>		
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icon_"/> 234 ROW 8 = 10
+                    <attribute id="MapKey" type="FixedString" value="PsychicFocus_Mystic_PsionicRestoration"/> 234 ROW 8 = 10
                     <attribute id="U1" type="float" value="0.28125"/> Left
                     <attribute id="U2" type="float" value="0.3125"/> Right
                     <attribute id="V1" type="float" value="0.21875"/> Top
                     <attribute id="V2" type="float" value="0.25"/> Bottom
                 </node>			
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icon_"/> 235 ROW 8 = 11
+                    <attribute id="MapKey" type="FixedString" value="PsychicFocus_Mystic_PsionicWeapon"/> 235 ROW 8 = 11
                     <attribute id="U1" type="float" value="0.3125"/> Left
                     <attribute id="U2" type="float" value="0.34375"/> Right
                     <attribute id="V1" type="float" value="0.21875"/> Top
                     <attribute id="V2" type="float" value="0.25"/> Bottom
                 </node>		
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icon_"/> 236 ROW 8 = 12
+                    <attribute id="MapKey" type="FixedString" value="PsychicFocus_Mystic_PsychicAssault"/> 236 ROW 8 = 12
                     <attribute id="U1" type="float" value="0.34375"/> Left
                     <attribute id="U2" type="float" value="0.375"/> Right
                     <attribute id="V1" type="float" value="0.21875"/> Top
                     <attribute id="V2" type="float" value="0.25"/> Bottom
                 </node>	
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icon_"/> 237 ROW 8 = 13
+                    <attribute id="MapKey" type="FixedString" value="PsychicFocus_Mystic_PsychicDisruption"/> 237 ROW 8 = 13
                     <attribute id="U1" type="float" value="0.375"/> Left
                     <attribute id="U2" type="float" value="0.40625"/> Right
                     <attribute id="V1" type="float" value="0.21875"/> Top
                     <attribute id="V2" type="float" value="0.25"/> Bottom
                 </node>	
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icon_"/> 238 ROW 8 = 14
+                    <attribute id="MapKey" type="FixedString" value="PsychicFocus_Mystic_TelepathicSubjugation"/> 238 ROW 8 = 14
                     <attribute id="U1" type="float" value="0.40625"/> Left
                     <attribute id="U2" type="float" value="0.4375"/> Right
                     <attribute id="V1" type="float" value="0.21875"/> Top
                     <attribute id="V2" type="float" value="0.25"/> Bottom
                 </node>	
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icon_"/> 239 ROW 8 = 15
+                    <attribute id="MapKey" type="FixedString" value="PsychicFocus_Mystic_ThirdEye"/> 239 ROW 8 = 15
                     <attribute id="U1" type="float" value="0.4375"/> Left
                     <attribute id="U2" type="float" value="0.46875"/> Right
                     <attribute id="V1" type="float" value="0.21875"/> Top

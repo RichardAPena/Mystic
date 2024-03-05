@@ -2,29 +2,25 @@
 new entry "Teleportation_Mystic_RestoreLife"
 type "SpellData"
 data "SpellType" "Teleportation"
-
 using "Teleportation_Revivify"
 data "Level" "5"
 data "SpellSchool" ""
 data "Icon" "Action_Mystic_RestoreLife"
-
 data "DisplayName" "h49acf8cfg084dg4b62gae38gf257a6b83d1a"
 data "Description" "h2e78cc0fg019ag479eg8572g0f6d02cbd02b"
 
-data "TooltipUpcastDescription" "6ff1780a-855a-414c-a8bf-811251537206"
-data "CastSound" ""
+data "VocalComponentSound" ""
 data "UseCosts" "ActionPoint:1;PsiPointsResource:5;PsiLimitResource:1:5"
+data "TooltipUpcastDescription" ""
+data "SpellFlags" "IsSpell;RangeIgnoreVerticalThreshold;IgnorePreviouslyPickedEntities;CannotTargetItems"
 
 // Phantom Journey
 new entry "Teleportation_Mystic_PhantomJourney"
 type "SpellData"
 data "SpellType" "Teleportation"
-// data "Level" "6"
+data "Level" "6"
 
 data "Icon" "Action_Mystic_PhantomCaravan"
-// Gain the effect of Phantom Caravan, allowing you to teleport as many allies as you like.
-// This effect ends if you move or at the end of your turn.
-// Once affected, allies can't be targeted again until their next turn.
 data "DisplayName" "hbab2b130g7b8cg4dbbg8bdbg2d6e40c8d97d"
 data "Description" "h36632121g776eg493bg97cbg245da3511d09"
 data "TargetRadius" "18"
@@ -42,14 +38,13 @@ data "TooltipStatusApply" "ApplyStatus(MYSTIC_ARRIVED_AT_DESTINATION,100,1)"
 data "TargetSound" "Spell_Impact_Utility_DimensionDoor_L4to5"
 data "PreviewCursor" "Cast"
 data "CastTextEvent" "Cast"
-data "UseCosts" ""
 data "SpellAnimation" "dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;7abe77ed-9c77-4eac-872c-5b8caed070b6,,;cb171bda-f065-4520-b470-e447f678ba1f,,;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;,,;,,"
 data "SpellFlags" "Temporary;IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;CannotTargetItems"
 data "HitAnimationType" "None"
-data "VerbalIntent" "Utility"
-data "PrepareEffect" "7121a488-7c9a-4ba1-a585-f79aaa77e97c"
-data "CastEffect" "4d65f0dd-ff5e-4253-8aa1-f0e12e539a40"
-data "DisappearEffect" "b214ce9c-33c2-4dfc-bfc2-3af8e4124714"
+
+data "PrepareEffect" "7121a488-ed87-43f9-a2a7-8e25270c5556"
+data "CastEffect" "931dc1d5-a878-4844-aae5-6d23a6812bc9"
+
 
 // Nomads Gate
 new entry "Teleportation_Mystic_NomadicGate"
@@ -75,9 +70,8 @@ data "CastSound" "Spell_Cast_Utility_ArcaneGate_L6to8"
 data "PreviewCursor" "Cast"
 data "CastTextEvent" "Cast"
 data "UseCosts" "ActionPoint:1;PsiPointsResource:7;PsiLimitResource:1:7"
-data "SpellAnimation" "dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;7abe77ed-9c77-4eac-872c-5b8caed070b6,,;cb171bda-f065-4520-b470-e447f678ba1f,,;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;,,;,,"
+data "SpellAnimation" "3e235dc6-2b15-4edd-863f-18efb96dbb92,,;,,;ab7b6aac-b3c9-4918-8f17-f777a94dcb5e,,;57211a11-ed0b-46d7-9369-81df25a85df6,,;13c4407f-4ffb-4e6a-8a1a-57234fba51dc,,;,,;17aba8de-ced8-4456-90ce-751b99c7866b,,;,,;,,;"
 data "SpellFlags" "HasHighGroundRangeExtension;IsConcentration;IsSpell;CannotTargetItems;CannotTargetCharacter;RangeIgnoreVerticalThreshold"
-data "VerbalIntent" "Utility"
-data "PrepareEffect" "7121a488-7c9a-4ba1-a585-f79aaa77e97c"
-data "CastEffect" "518bc78f-c169-43ba-b951-977d75429199"
 data "IgnoreTeleport" "Yes"
+data "PrepareEffect" "7121a488-ed87-43f9-a2a7-8e25270c5556"
+data "CastEffect" ""

@@ -1,16 +1,29 @@
 local function IntelligenceThrow_OnStartCarrying(carriedObject, carriedObjectTemplate, carrier, storyActionID, pickupPosX, pickupPosY, pickupPosZ)
     local thrown = carriedObject
+    if not thrown then
+        return
+    end
 
-    print("IntelligenceThrow: " .. tostring(thrown))
-    print("IntelligenceThrow: " .. tostring(Ext.Entity.Get(thrown).Weapon.WeaponProperties))
+    -- print("IntelligenceThrow: " .. tostring(thrown))
+    -- print("IntelligenceThrow: " .. tostring(Ext.Entity.Get(thrown).Weapon.WeaponProperties))
 
-    if Ext.Entity.Get(thrown).Weapon.WeaponProperties & 512 then
+    local weaponEntity = Ext.Entity.Get(thrown)
+    if not weaponEntity then
+        return
+    end
+
+    local weapon = weaponEntity.Weapon
+    if not weapon then
+        return
+    end
+
+    if weapon.WeaponProperties & 512 then
 
         local str = Osi.GetAbility(carrier, "Strength")
         local int = Osi.GetAbility(carrier, "Intelligence")
 
         local hasMysticArsenal = Osi.HasActiveStatus(carrier, "MYSTIC_MYSTIC_ARSENAL_THROWN_WEAPON_FIGHTING") == 1
-        local hasWarAdept = Osi.HasPassive(carrier, "Passive_Mystic_WarAdept")
+        local hasWarAdept = Osi.HasPassive(carrier, "Passive_Mystic_WarAdept") == 1
 
         if int > str and hasMysticArsenal and hasWarAdept then
           local diff = (int - str) * 6

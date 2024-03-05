@@ -17,20 +17,15 @@
 	<content contentuid="hfbba16d5gd122g46b3gbda7gc03e7cc09bed" version="1">Psi Points are spent on Psionic Disciplines. The amount of points you can spend at once depends on your Mystic level.</content>
 	<content contentuid="hc3e9b635g59c4g4fe6gaba2g2bf6159f1394" version="1">You gain [3] Psi Point(s), which are restored on a &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Psi Points are spent on Psionic Disciplines. The amount of points you can spend at once depends on your Mystic level.</content>
 	<content contentuid="heeb074ebga0e0g459dgb417g87158e793ab2" version="1">Psi Point(s)</content>
-
 	<content contentuid="h4279b7e2g21b4g4891gba54gd134afe1cd53" version="1">Determines how many Psi Points you can spend at once. Increases with Mystic level.</content>
 	<content contentuid="hff30d4d9g035bg48d6gb340g07ef63328b5d" version="1">You can spend additional Psi Points to increase this spell's potency.</content>
 	<content contentuid="hd44f7002g8382g4663g89f3g88a18f0791bf" version="1">Psi Limit</content>
-
 	<content contentuid="h967a52b9g432ag4290g8b17g216c46ac45d9" version="1">Psi Limit raised to 3</content>
 	<content contentuid="hdd48efa6g225cg4fe9ga0d1gdc46eae0d739" version="1">Psi Limit raised to 5</content>
 	<content contentuid="hb4c95b5bg4e36g46b6g8ea4g57b54e754033" version="1">Psi Limit raised to 6</content>
 	<content contentuid="h1f60ff81gca80g4631gaafbg5452c5922f64" version="1">Psi Limit raised to 7</content>
-
 	<content contentuid="h2f85bf40gf768g4d16g810bgf4a08613f265" version="1">Psi Limit Increased</content>
 	<content contentuid="ha24159a1g3baag43c2gb86fg6041a420118f" version="1">The amount of Psi Points you can spend at once is increased to [1].</content>
-	
-
 	<content contentuid="h50a4b569gc8f8g4d05g85c2g5c039ffcb237" version="1">Using their inner, psychic strength, mystics can read minds, fade into invisibility, transform their bodies into living iron, and seize control of the physical world and bend it to their will.</content>
 	<content contentuid="hb4bc9f84gaefbg4844g9597gd48f569a35db" version="1">Mystic</content>
 	<content contentuid="h31fd1f11g371eg4779gad70gdd7b6130470a" version="1">The Order of the Avatar focuses on manipulating emotion, rallying allies and crippling foes.</content>
@@ -188,8 +183,8 @@
 	<content contentuid="he4faefc0g6316g4f42g832eg99114be97567" version="1">Gain &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; to Falling damage and &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;.</content>
 	<content contentuid="h3feb34c9g880dg4f8fg8938g8e6f6674699b" version="1">&lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to Falling damage and &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;.</content>
 	<content contentuid="hf2b6660bg3cfcg4eefg8611g9f378dd91929" version="1">Psychic Focus: Mastery of Fire</content>
-	<content contentuid="hc0073d70g872fg4b87gba91g5598879e0fae" version="1">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Fire damage and +2 bonus to damage rolls.</content>
-	<content contentuid="h3049c887ga7d4g4736gb860g0feb22ac3156" version="1">&lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Fire damage. Has +2 to damage rolls.</content>
+	<content contentuid="hc0073d70g872fg4b87gba91g5598879e0fae" version="1">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Fire damage and +[1] bonus to damage rolls.</content>
+	<content contentuid="h3049c887ga7d4g4736gb860g0feb22ac3156" version="1">&lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Fire damage. Has +[1] to damage rolls.</content>
 	<content contentuid="hefc6edb7g8af4g4a62g8b99g694941d8d2ed" version="1">Psychic Focus: Mastery of Force</content>
 	<content contentuid="h36ae4602g3a57g4af9g88dcg9c881845c9dc" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Strength &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="hbbb23703gbf6cg4fe3g9f3bg90a264b95be1" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Strength &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
@@ -253,10 +248,10 @@
 	<content contentuid="h09b8fe6cgfcadg4974gade6g97ea9ead94b0" version="1">Gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in Persuasion.</content>
 	<content contentuid="h93fc80d0g8ce6g4fd3g9c64g79c531ca403c" version="1">&lt;LSTag Tooltip="Proficiency"&gt;Proficient&lt;/LSTag&gt; in Persuasion.</content>
 	<content contentuid="h725fca70g880fg4d25g8e09g18a16659c4aa" version="1">Psychic Focus: Nomadic Step</content>
-	<content contentuid="hc115861fg145cg452bg8bd3g2d25b1484684" version="1">Once per turn, increase your &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; by [1] after teleporting.</content>
-	<content contentuid="hf2da775dge311g4bbfg868dg18d69963f3b1" version="1">After teleporting, increase &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; by [1].</content>
+	<content contentuid="hc115861fg145cg452bg8bd3g2d25b1484684" version="1">Increase your &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; by [1] after teleporting. Stacks up to 5 times.</content>
+	<content contentuid="hf2da775dge311g4bbfg868dg18d69963f3b1" version="1">After teleporting, increase &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; by [1]. Stacks up to 5 times.</content>
 	<content contentuid="h8bb006fag44e8g45b2g9d8fg71efa52f75b4" version="1">Nomadic Step</content>
-	<content contentuid="hae23a909g3456g4fa2gac4ag07ca17d6c2dd" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; increased by [1].</content>
+	<content contentuid="hae23a909g3456g4fa2gac4ag07ca17d6c2dd" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; increased by [1] per turn remaining.</content>
 	<content contentuid="hdd6e2842g5f17g4afdga05bgd6c06af239e4" version="1">Psychic Focus: Precognition</content>
 	<content contentuid="h1aa1d8d3g4517g4b48gb0f3g6ce81030984b" version="1">Gain a +[1] bonus to Initiative.</content>
 	<content contentuid="h0bec5880g57b5g4588g9aa6g66e689b94dfd" version="1">+[1] to Initiave.</content>
@@ -266,8 +261,8 @@
 	<content contentuid="h3a13dfd6g7b96g419bg95b5g255af4148d7b" version="1">Psychic Focus: Psionic Weapon</content>
 	<content contentuid="h302d10ecg7f3cg4b97gba4fgb0853ab32168" version="1">Unarmed and weapon damage rolls count as magical for the purpose of bypassing enemies' resistance to physical damage.</content>
 	<content contentuid="he07c3361g4749g4ea6gb302g7728bec50281" version="1">Psychic Focus: Psychic Assault</content>
-	<content contentuid="h984f00fcgcfadg4bb1gb996g2283fb48139c" version="1">Gain a +2 bonus to damage rolls with psionic talents.</content>
-	<content contentuid="h14f88da9g40e0g4b28g92e3g7a311387e805" version="1">+2 to damage rolls with psionic talents that deal Psychic damage.</content>
+	<content contentuid="h984f00fcgcfadg4bb1gb996g2283fb48139c" version="1">Gain a +[1] bonus to damage rolls with psionic talents.</content>
+	<content contentuid="h14f88da9g40e0g4b28g92e3g7a311387e805" version="1">+[1] to damage rolls with psionic talents that deal Psychic damage.</content>
 	<content contentuid="h76a3d120g6ef0g46aegaa3bg78b1c85f1875" version="1">Psychic Focus: Psychic Disruption</content>
 	<content contentuid="h40f05e1fgacd7g4ba2gaad9g0d630594f822" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Deception &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="hced1892egf4efg429bg9617gd1919319dab7" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Deception &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
@@ -275,22 +270,22 @@
 	<content contentuid="h33f6e466g1369g493dgae15gd2f8882d8c7c" version="1"></content>
 	<content contentuid="h573ce019g24e2g4afbg98fdga7098e625410" version="1"></content>
 	<content contentuid="he9dd3d0ag15f4g49fegaa51gfa289381c51f" version="1">Psychic Focus: Telepathic Subjugation</content>
-	<content contentuid="h8ee396fdg45cag4e39g92e9g9f4eb142326b" version="1">Gain +1 to &lt;LSTag Tooltip="SpellDifficultyClass"&gt;Spell Save DC&lt;/LSTag&gt;.</content>
-	<content contentuid="hf1f7cbd5g230bg40d0g87a6g2a2cf90c4ab7" version="1">+1 to &lt;LSTag Tooltip="SpellDifficultyClass"&gt;Spell Save DC&lt;/LSTag&gt;.</content>
+	<content contentuid="h8ee396fdg45cag4e39g92e9g9f4eb142326b" version="1">Gain +[1] to &lt;LSTag Tooltip="SpellDifficultyClass"&gt;Spell Save DC&lt;/LSTag&gt;.</content>
+	<content contentuid="hf1f7cbd5g230bg40d0g87a6g2a2cf90c4ab7" version="1">+[1] to &lt;LSTag Tooltip="SpellDifficultyClass"&gt;Spell Save DC&lt;/LSTag&gt;.</content>
 	<content contentuid="h038f2a55gf66eg467egb1a8g99b7fb49a149" version="1">Psychic Focus: Third Eye</content>
 	<content contentuid="h8e4b6e52gdfffg4f5bg998fg8f6856453fd7" version="1">Gain [1] of Darkvision.</content>
 	<content contentuid="h98643e69g2072g44eagae0ag594b75277bfd" version="1">Can see in the dark up to [1]</content>
 	<content contentuid="h7d11c5f8g2dc2g47c6ga64bgc7433df4bba2" version="1">Beacon</content>
-	<content contentuid="haa9ee987g1bd1g402dg92b9g8d99e1c7d9d3" version="1">Infuse yourself with light.</content>
+	<content contentuid="haa9ee987g1bd1g402dg92b9g8d99e1c7d9d3" version="1">Infuse yourself with bright light.</content>
 	<content contentuid="hdc4bb938g0210g48acgb9bbg06cdc40c9c34" version="1">Beacon: Dismiss</content>
 	<content contentuid="heaee50fdg350dg4600g907cgec24eec3e742" version="1">Remove the Beacon status effect.</content>
 	<content contentuid="h36e02f3agba47g4e95g8a0eg9148c31332ca" version="1">Infused with light.</content>
 	<content contentuid="h0cdc84a9gaafag4ecag9c13g96d60ca628f6" version="1">Blade Meld</content>
 	<content contentuid="h0cad1e6eg02c0g44aag941egbaf5b084f27a" version="1">Your weapon becomes one with your hand, preventing you from being &lt;LSTag Type="Status" Tooltip="DISARMED"&gt;Disarmed&lt;/LSTag&gt;.</content>
-	<content contentuid="hf925d812g1888g43fcg868egb9a8bfc1dd34" version="1">Immune to being Disarmed.</content>
+	<content contentuid="hf925d812g1888g43fcg868egb9a8bfc1dd34" version="1">Immune to being &lt;LSTag Type="Status" Tooltip="DISARMED"&gt;Disarmed&lt;/LSTag&gt;.</content>
 	<content contentuid="h63e6e83fg3326g488aga29cg1ed5d8dab7cf" version="1">Blind Spot</content>
-	<content contentuid="h0f8721b3g5ec3g4c1cg96d2ge07c7a80dd19" version="1">Attempt to obscure a creature's vision, possibly reducing their sight.</content>
-	<content contentuid="hbe6f4eeeg729ag4a55ga001g1886fef14a34" version="1">Sight range heavily reduced.</content>
+	<content contentuid="h0f8721b3g5ec3g4c1cg96d2ge07c7a80dd19" version="1">Attempt to obscure a creature's vision, possibly reducing their sight range to [1].</content>
+	<content contentuid="hbe6f4eeeg729ag4a55ga001g1886fef14a34" version="1">Sight range reduced to [1].</content>
 	<content contentuid="h69702fa4g7d0eg4eddg8905g30ea92e807a7" version="1">Delusion</content>
 	<content contentuid="h98989d17g4f6fg4f98gaa46g1e00dab9a8a8" version="1">Plant a false belief in the targeted area, summoning a simulacrum that compels nearby creatures to investigate.</content>
 	<content contentuid="h03963472g0f58g4428ga1e0gd7c4a7133c56" version="1">Energy Beam</content>
@@ -352,23 +347,23 @@
 	<content contentuid="h422fcb65g1e3fg4b2agb4ceg438b6be7a684" version="1">Affected entity has to move towards the spellcaster using the shortest route possible and can't take any other actions or bonus actions.</content>
 	<content contentuid="h9e949f54g1892g4f19g86d8gd20bdf2fd643" version="1">Punishing Fury</content>
 	<content contentuid="h3c5d3b88g03d2g45baga1e6g426be49e6f61" version="1">Escalate a creature's rage, making it attack recklessly. Whenever the creature makes a melee attack, nearby creatures can use their reaction to make a melee attack against them.</content>
-	<content contentuid="h8b1abde3gc807g48e0g9725g96e373175249" version="1">Boiling with rage. Whenever this creature attacks, other creatures can use their reaction to make a melee attack against them.</content>
+	<content contentuid="h8b1abde3gc807g48e0g9725g96e373175249" version="1">Boiling with rage. Whenever the affected entity attacks, other creatures can use their reaction to make a melee attack against them.</content>
 	<content contentuid="h02f249deg73f6g4362g8633g71803017fe51" version="1">Able to retaliate against the entity affected by Punishing Fury.</content>
 	<content contentuid="h6abf59c0g7ddag4ec7g97ddge6d16248b484" version="1">Coordinated Movement</content>
 	<content contentuid="h1ba91861g777eg4c67ga616g722a9e291280" version="1">Signal up to five allies to move as a unit, increasing their &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; by [1].</content>
 	<content contentuid="hfb595d88g0d0eg46feg9b51g356788a0e87d" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; increased by [1].</content>
 	<content contentuid="ha478b526ge94eg4689g8876gb131dd371a18" version="1">Commander's Sight</content>
 	<content contentuid="h9f0b9cc3g2c38g4c1bgaba1gd3a27449389f" version="1">Reveal a creature's weaknesses, giving &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against it.</content>
-	<content contentuid="h5baa6f58g9233g4cc0gb303gafe1a572845e" version="1">&lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; against this creature.</content>
+	<content contentuid="h5baa6f58g9233g4cc0gb303gafe1a572845e" version="1">&lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; against the affected entity.</content>
 	<content contentuid="hbdec4171g964fg48f6ga2a8gde7c977a6c2c" version="1">Command to Strike</content>
 	<content contentuid="h6cc4768dgc11fg453cg92a8gb6a2c8e0853f" version="1">Direct an ally to strike a foe. They can make an additional weapon attack on their next turn.</content>
-	<content contentuid="h3e448fe9g2997g466fg9c1eg3ff168fc516a" version="1">Able to make weapon attack for free.</content>
+	<content contentuid="h3e448fe9g2997g466fg9c1eg3ff168fc516a" version="1">Able to make a weapon attack for free.</content>
 	<content contentuid="h14317c93g0a49g4116g8970gf5060f631559" version="1">Strategic Mind</content>
-	<content contentuid="h6aac4741g43c5g4609g93b8g46154d854f92" version="1">Exert an aura of trust and command, uniting your allies to move as a cohesive unit. Nearby allies can Dash or Disengage as a bonus action, or add +1d4 to each &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; during their turn.</content>
-	<content contentuid="hc55eaef0gccd6g48c2g8071g9aa3e2cf88c2" version="1">Able to Dash or Disengage as a bonus action, or add 1d4 to each damage roll.</content>
+	<content contentuid="h6aac4741g43c5g4609g93b8g46154d854f92" version="1">Exert an aura of trust and command, uniting your allies to move as a cohesive unit. Nearby allies can &lt;LSTag Type="Spell" Tooltip="Shout_Dash_BonusAction"&gt;Dash&lt;/LSTag&gt; or &lt;LSTag Type="Spell" Tooltip="Shout_Disengage_BonusAction"&gt;Disengage&lt;/LSTag&gt; as a bonus action, or add +1d4 to each damage roll during their turn.</content>
+	<content contentuid="hc55eaef0gccd6g48c2g8071g9aa3e2cf88c2" version="1">Able to &lt;LSTag Type="Spell" Tooltip="Shout_Dash_BonusAction"&gt;Dash&lt;/LSTag&gt; or &lt;LSTag Type="Spell" Tooltip="Shout_Disengage_BonusAction"&gt;Disengage&lt;/LSTag&gt; as a bonus action, or add +1d4 to each damage roll.</content>
 	<content contentuid="hfdb93561g3f06g46a9gb03bg2591820976c2" version="1">Press the Attack</content>
 	<content contentuid="h338b81cdg406fg45fag8ebagfd7027c80fab" version="1">Gain +1d4 to damage rolls.</content>
-	<content contentuid="h841727d8gcb21g43bdga510gc7574ab21fcd" version="1">+1d4 to damage rolls.</content>
+	<content contentuid="h841727d8gcb21g43bdga510gc7574ab21fcd" version="1">+1d4 to &lt;LSTag Tooltip="AttackRoll"&gt;attack&lt;/LSTag&gt; and damage rolls.</content>
 	<content contentuid="hd730826dg9baag45deg9870gf1c6b150b3a3" version="1">Overwhelming Attack</content>
 	<content contentuid="h68cd3e1eg06beg474dg8556g411af0571a30" version="1">Direct up to five allies to strike a foe. They can make an additional weapon attack on their next turn.</content>
 	<content contentuid="h97579b00g4679g44f5gbfa6gd8a740be025c" version="1">Incite Courage</content>
@@ -391,10 +386,10 @@
 	<content contentuid="h306d89c1g1e5bg4f80gb77fgf8849f6d8d85" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; is halved.</content>
 	<content contentuid="h0c4f3364gf502g437cg9089g23ddf94ce35a" version="1">Emitting an aura that halves the &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; of nearby enemies.</content>
 	<content contentuid="h3983f69bgce33g40cdg82e3geecd6d20292f" version="1">Incite Panic</content>
-	<content contentuid="h2b073784g2d6dg4533g8122g2b54aebb16e6" version="1">Sow chaos in up to eight creatures, &lt;LSTag Type="Status" Tooltip="TIMMASK_SPORES"&gt;Befuddling&lt;/LSTag&gt; them.</content>
+	<content contentuid="h2b073784g2d6dg4533g8122g2b54aebb16e6" version="1">Sow chaos in up to eight creatures, &lt;LSTag Type="Status" Tooltip="CONFUSION"&gt;Confusing&lt;/LSTag&gt; them.</content>
 	<content contentuid="h3e342734g83e2g43cegb0fegfe74ae247945" version="1">Incite Fury</content>
 	<content contentuid="hb579b8d3g6067g4ea6gafacg291cb41e6984" version="1">Evoke fury in up to three allies, granting them +1d4 to melee damage rolls.</content>
-	<content contentuid="hcf279208g813bg40e7ga351g067152c8878c" version="1">+1d4 to melee weapon damage rolls.</content>
+	<content contentuid="hcf279208g813bg40e7ga351g067152c8878c" version="1">+1d4 to melee damage rolls.</content>
 	<content contentuid="h1483efcbg0d78g40ffga8f8gfab8b74c29d1" version="1">Mindless Charge</content>
 	<content contentuid="h744cdc77g41afg4290g99e6g653fa1854560" version="1">Rouse up to 3 creatures, increasing their &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; by [1] but giving them &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on Strength, Dexterity and Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
 	<content contentuid="h02127774ga9d0g4ab0g8f61gce7308ee55c1" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; increased by [1]. &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on Strength, Dexterity and Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
@@ -414,8 +409,8 @@
 	<content contentuid="h0f384acdg824dg425dga438g59ee967fc5bd" version="1">Radiate an aura of distracting mirth, giving nearby creatures &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on Perception and Investigation &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="h138ad4c4gc8e8g4ad2g9137g8a48aed9624f" version="1">&lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on Perception and Investigation &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="hcda1153bg0b3fg4ac1gaf05g66d825fc6468" version="1">Beacon of Recovery</content>
-	<content contentuid="hd60e75a7g3ab9g47d2gb46dga118a8678ef1" version="1">Release a soothing pulse to up to six allies, giving them +5 to &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; until your next turn.</content>
-	<content contentuid="hccfe5135g56c3g4aa7g9bb8g0137d85683db" version="1">+5 to &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
+	<content contentuid="hd60e75a7g3ab9g47d2gb46dga118a8678ef1" version="1">Release a soothing pulse to up to six allies, giving them +[1] to &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; until your next turn.</content>
+	<content contentuid="hccfe5135g56c3g4aa7g9bb8g0137d85683db" version="1">+[1] to &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
 	<content contentuid="he0898f56gbb0ag412bgbebfg6f5ca51a2c58" version="1">Assess Foe</content>
 	<content contentuid="h0852c2a3g00f4g45c9gb202g41972be5bcd8" version="1">Scrutinize an enemy, giving it &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; until the start of your next turn.</content>
 	<content contentuid="h4b0a699eg4bbbg463egbfbag1708f2a9240c" version="1">&lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
@@ -423,12 +418,12 @@
 	<content contentuid="h6d3a6948g4b44g42e1g8649gc8287c7a9d94" version="1">Study a creature's aura, giving you &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Intelligence and Charisma &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt; against it.</content>
 	<content contentuid="he207afeagf1dbg416fgb44cgb1e75ac96743" version="1">Caster has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Intelligence and Charisma &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt; against this creature.</content>
 	<content contentuid="h301d7faaga53bg4510g8a5fg36b67d971e87" version="1">Perceive the Unseen</content>
-	<content contentuid="ha9db8e54g635ag4239gabbegd4758c9d41d8" version="1">Grant yourself and nearby allies superior sight, gaining a +10 bonus to Perception &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
-	<content contentuid="h1c7aca7dgf5d7g4690g97dagba8fce2fa5fd" version="1">+10 to Perception &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="ha9db8e54g635ag4239gabbegd4758c9d41d8" version="1">Grant yourself and nearby allies superior sight, gaining a +[1] bonus to Perception &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="h1c7aca7dgf5d7g4690g97dagba8fce2fa5fd" version="1">+[1] to Perception &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="h6a32a2fdg7d8fg499cga80eg348f92289a86" version="1">Psychic Backlash</content>
-	<content contentuid="h34e0c50eg2f15g412ag8f79ge7d9fc0ff80a" version="1">As a reaction, impose &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on an attack against you. If it still hits you, deal [1] to the attacker.</content>
+	<content contentuid="h34e0c50eg2f15g412ag8f79ge7d9fc0ff80a" version="1">Impose &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on an attack against you. If it still hits you, deal [1] to the attacker.</content>
 	<content contentuid="he3859f73g3be7g43ddga88bg142c54b26bd8" version="1">Psychic Parry</content>
-	<content contentuid="he3446c7fga2b2g4256g93efga0485b80e08e" version="1">As a reaction, when you make an Intelligence, Wisdom or Charisma &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;, you can gain a +1 bonus to that &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; per Psi Point spent.</content>
+	<content contentuid="he3446c7fga2b2g4256g93efga0485b80e08e" version="1">When you make an Intelligence, Wisdom or Charisma &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;, you can gain a +1 bonus to that &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; per Psi Point spent.</content>
 	<content contentuid="hf41be51cg0881g4fd1gb7c1gfa5965c3e55d" version="1">Psychic Redoubt</content>
 	<content contentuid="h7501f53dg30a8g425fg9565g8c714d323986" version="1">Manifest a field of protective psionic energy, giving nearby allies &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Psychic damage and &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Intelligence, Wisdom and Charisma &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
 	<content contentuid="h315be883g6a8ag43bfga828gda303f16c97a" version="1">&lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Psychic damage. &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Intelligence, Wisdom and Charisma &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
@@ -440,9 +435,9 @@
 	<content contentuid="h23c94350gb204g45bega8e7g058bc225baae" version="1">Inspire awe in up to 5 creatures, bending them to your will.</content>
 	<content contentuid="hbf6a3215ge929g47a0ga74egadd04bf3cbed" version="1">Precognitive Hunch</content>
 	<content contentuid="h9da3d564gd6e6g429cg9e5eg82cc54edbf24" version="1">Open yourself to receive momentary insights, giving you +1d4 to &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt;, &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
-	<content contentuid="ha6de1587ge1a9g4744g828bg4cef160e4ef1" version="1">+1d4 to Ability &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;, &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
+	<content contentuid="ha6de1587ge1a9g4744g828bg4cef160e4ef1" version="1">+1d4 to &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt;, &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
 	<content contentuid="hbced9298g8494g4307g9f98g3c8d470714d6" version="1">All-Around Sight</content>
-	<content contentuid="hdbb509b6g53fag42c4g84fdgf5a4eebc7955" version="1">As a reaction, impose &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on an incoming attack.</content>
+	<content contentuid="hdbb509b6g53fag42c4g84fdgf5a4eebc7955" version="1">Impose &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on an incoming attack.</content>
 	<content contentuid="h6c37f967g4d77g4616gbf4eg8320a6c4e591" version="1">Danger Sense</content>
 	<content contentuid="he5861033g372bg4104gb813g6aa045a93cb6" version="1">Create a psychic model of reality and peer into its future, gaining a +[1] bonus to Initiative and preventing you from being &lt;LSTag Type="Status" Tooltip="SURPRISED"&gt;Surprised&lt;/LSTag&gt;.</content>
 	<content contentuid="h8bd8eab5g5c86g4a84gbdc6gf93b111bcfa5" version="1">+[1] to Initiative and can't be &lt;LSTag Type="Status" Tooltip="SURPRISED"&gt;Surprised&lt;/LSTag&gt;.</content>
@@ -452,8 +447,8 @@
 	<content contentuid="h36077f93g8f12g4fc9g83c8g07b5b8bb4f7b" version="1">Psionic Blast</content>
 	<content contentuid="h318a2475gefe6g453dg8a4cg1f28a946371e" version="1">Blast a creature with psionic energy.</content>
 	<content contentuid="hdf83a67dg64ebg423bg8f86gdcd23903b8b4" version="1">Ego Whip</content>
-	<content contentuid="h4ec6a309gb98cg443agbcefg916275943821" version="1">Fill a creature with self-doubt, preventing it from taking actions other than Disengage or Hide.</content>
-	<content contentuid="h21d8eb7bg9281g439bga92cg96e196aea82f" version="1">Can't take actions other than Disengage or Hide.</content>
+	<content contentuid="h4ec6a309gb98cg443agbcefg916275943821" version="1">Fill a creature with self-doubt, preventing it from taking actions other than &lt;LSTag Type="Spell" Tooltip="Shout_Disengage"&gt;Disengage&lt;/LSTag&gt; or &lt;LSTag Type="Spell" Tooltip="Shout_Hide"&gt;Hide&lt;/LSTag&gt;.</content>
+	<content contentuid="h21d8eb7bg9281g439bga92cg96e196aea82f" version="1">Can't take actions other than &lt;LSTag Type="Spell" Tooltip="Shout_Disengage"&gt;Disengage&lt;/LSTag&gt; or &lt;LSTag Type="Spell" Tooltip="Shout_Hide"&gt;Hide&lt;/LSTag&gt;.</content>
 	<content contentuid="hc58f4cd9g303cg4dc7g92a1g14d3144b01ee" version="1">Id Insinuation</content>
 	<content contentuid="hcd1d1d7cgb86eg49c8gbdd0g4db4359ef593" version="1">Stimulate a creature's impulses, preventing them from taking actions except for melee attacks.</content>
 	<content contentuid="h41e14840g78f2g4d1eg8910g4c31d9d7c6e8" version="1">Can't use actions other than melee attacks.</content>
@@ -466,7 +461,7 @@
 	<content contentuid="hf2960176g262cg43aeg9215g9fc5cf0ad4c1" version="1">Sight range reduced to [1].</content>
 	<content contentuid="h0ae47249g80e7g4c32g857fge95297ecc1f6" version="1">Daze</content>
 	<content contentuid="hc4838845gd112g4d8agb23bg984a55aee4e8" version="1">&lt;LSTag Type="Status" Tooltip="INCAPACITATED"&gt;Incapacitate&lt;/LSTag&gt; an enemy until the end of your next turn or until it takes damage.</content>
-	<content contentuid="h0f96d299g34abg47d3gac05g94fbddbb25fd" version="1">&lt;LSTag Type="Status" Tooltip="INCAPACITATED"&gt;Incapacitated&lt;/LSTag&gt; unless damaged.</content>	
+	<content contentuid="h0f96d299g34abg47d3gac05g94fbddbb25fd" version="1">&lt;LSTag Type="Status" Tooltip="INCAPACITATED"&gt;Incapacitated&lt;/LSTag&gt; until damaged.</content>	
 	<content contentuid="h8b917677g610ag4756g87a3g17f3a54e503f" version="1">Mind Storm</content>
 	<content contentuid="h95a1fdaage462g47eaga624g309877b78a78" version="1">Evoke a storm of psionic energy, causing creatures within to suffer &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; until the end of your next turn.</content>
 	<content contentuid="h9f699da1gab25g4f70g99fbg9495fdf0dec4" version="1">&lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
@@ -479,10 +474,10 @@
 	<content contentuid="hbb736357g4467g401cga8d6g9c61f0083de8" version="1">Pyschic Domination</content>
 	<content contentuid="h82fccda1gadf2g4b80g9f60g5d8359d3e0be" version="1">Make a humanoid fight alongside you. Every time the creature takes damage, it makes an Intelligence &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; against your domination. Allies cannot be dominated.</content>
 	<content contentuid="h04cf143dgea65g4a1egafcdg316ec104a315" version="1">Environmental Adaptation</content>
-	<content contentuid="h65b53eb8g9835g4416g91b9g3baf1ff1de81" version="1">Touch a creature to make them resistant to the elements, making them immune to Acid, Wet, Burning and Chilled.</content>
-	<content contentuid="h98e25074gaff8g417agae94g7104c219aceb" version="1">&lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to Acid, Wet, Burning, Chilled.</content>
+	<content contentuid="h65b53eb8g9835g4416g91b9g3baf1ff1de81" version="1">Touch a creature to make them resistant to the elements, making them immune to &lt;LSTag Type="Status" Tooltip="ACID"&gt;Acid&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="WET"&gt;Wet&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burning&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="CHILLED"&gt;Chilled&lt;/LSTag&gt;.</content>
+	<content contentuid="h98e25074gaff8g417agae94g7104c219aceb" version="1">&lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to &lt;LSTag Type="Status" Tooltip="ACID"&gt;Acid&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="WET"&gt;Wet&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burning&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="CHILLED"&gt;Chilled&lt;/LSTag&gt;.</content>
 	<content contentuid="ha4113923g6596g4aa4ga10fg5d07f8d8abe7" version="1">Adaptive Shield</content>
-	<content contentuid="h6953cb97gffa3g4419gb10bg7aba9f9e8923" version="1">As a reaction, when taking Acid, Cold, Fire, Lightning or Thunder damage you can become &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to that damage until the end of your next turn.</content>
+	<content contentuid="h6953cb97gffa3g4419gb10bg7aba9f9e8923" version="1">When taking Acid, Cold, Fire, Lightning or Thunder damage you can become &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to that damage until the end of your next turn.</content>
 	<content contentuid="hdbcc6710g7afbg4546gb43egb8b49b8eb0b0" version="1">&lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Acid damage.</content>
 	<content contentuid="h58ac8f98gbeacg4bb8g8f6dge1932b18235d" version="1">&lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Cold damage.</content>
 	<content contentuid="h955b420eg6ae9g4a12g9150g2885657971bd" version="1">&lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Fire damage.</content>
@@ -526,7 +521,7 @@
 	<content contentuid="h38f7b167g698eg479cgbf25g7ab2e0a735f8" version="1">Manifest sharp claws and swipe at the target.</content>
 	<content contentuid="hc4296d32g3725g41fegb775g60d9cbbdefbd" version="1">Bestial Transformation</content>
 	<content contentuid="hd209e5f1g4385g4512g8dcbgdf6e4cc1fc8a" version="1">Alter your physical form and gain beast-like qualities.</content>
-	<content contentuid="hf4c955eag45bdg48f2g994cg90c10f420c51" version="1">You can choose from the following bonuses: Ability to Fly, &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Perception &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;, ability to see &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; creatures and increasing your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by 2.&lt;br&gt;&lt;br&gt;The cost of these effects ranges from 2 Psi Points to 5 Psi Points, and you can choose any combination of augments.</content>	
+	<content contentuid="hf4c955eag45bdg48f2g994cg90c10f420c51" version="1">You can choose from the following bonuses: &lt;LSTag Type="Spell" Tooltip="Shout_Mystic_BestialTransformation_Flight"&gt;Flight&lt;, &lt;LSTag Type="Spell" Tooltip="Shout_Mystic_BestialTransformation_KeenSenses"&gt;Keen Senses&lt;, &lt;LSTag Type="Spell" Tooltip="Shout_Mystic_BestialTransformation_PerfectSenses"&gt;Perfect Senses&lt; and &lt;LSTag Type="Spell" Tooltip="Shout_Mystic_BestialTransformation_ToughHide"&gt;Tough Hide&lt;.</content>	
 	<content contentuid="h58b0a047g5647g4d3dg87fbgb042040d00ad" version="1">Bestial Transformation: Flight</content>
 	<content contentuid="h2364d86dgcd75g455agbf20ge9ab5f86fff5" version="1">Manifest wings, gaining the ability to Fly.</content>
 	<content contentuid="h41db3a00g23fcg498dg86f3g85cd5fa0fad1" version="1">Able to fly.</content>
@@ -543,7 +538,7 @@
 	<content contentuid="h5a8514d1gab95g41ffg9956g606887cbfeef" version="1">Muster up your strength, giving you [1] increased damage on your next melee attack this turn.</content>
 	<content contentuid="hc56a3e6cg024eg409fgbf75g5cab5b51f8a1" version="1">Next melee attack deals an additional [1].</content>
 	<content contentuid="h64861ffdge092g4be5gae41g02d96367cb93" version="1">Knock Back</content>
-	<content contentuid="hafa0ff17g5d7fg4454gb0c4g5eee7b446f19" version="1">Blast your target with immense strength, knocking them back [1].</content>
+	<content contentuid="hafa0ff17g5d7fg4454gb0c4g5eee7b446f19" version="1">Blast your target with immense strength, knocking them back [1] and dealing [2].</content>
 	<content contentuid="h3ef06455gfb79g448egb84dgd970cb657bc4" version="1">Does not consume Reaction points or Psi Points.</content>
 	<content contentuid="h1598778aga893g4fb9g8c9bg9f3b911368d9" version="1">Mighty Leap</content>
 	<content contentuid="h3e1bda4bg49cbg4f46g99fbg1b09c977a6c4" version="1">Propel yourself with psionic energy, jumping up to [1].</content>
@@ -566,9 +561,9 @@
 	<content contentuid="h5af08e03g498cg4438g8e2ag37dfaefcb311" version="1">Corrosive Touch</content>
 	<content contentuid="ha5cff742ge6f0g47fegbebbg908863aeb55c" version="1">Deliver a touch of acid.</content>
 	<content contentuid="hb6fb98b7g55a3g44ccga81ega04e4d07c5cb" version="1">Venom Strike</content>
-	<content contentuid="h1bb2686bg46afg44b3ga060g1b30422db67e" version="1">Discharge a spray of venom, &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisoning&lt;/LSTag&gt; the target creature.</content>
+	<content contentuid="h1bb2686bg46afg44b3ga060g1b30422db67e" version="1">Discharge a spray of venom, &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisoning&lt;/LSTag&gt; the target.</content>
 	<content contentuid="hc7b88abbg0bf9g468aga89fgc539b6688cac" version="1">Acid Spray</content>
-	<content contentuid="h0d03313eg42eeg4e62g99a8gd78ebb954dfe" version="1">As a reaction, after you take damage you can cause acid to spray from your wounds, dealing [1] to creatures within [2].</content>
+	<content contentuid="h0d03313eg42eeg4e62g99a8gd78ebb954dfe" version="1">After you take damage you can cause acid to spray from your wounds, dealing [1] to creatures within [2].</content>
 	<content contentuid="ha9f14766g5a6bg47a5g842eg801c7110ebf7" version="1">Breath of the Black Dragon</content>
 	<content contentuid="hfbea5966g683fg4e51g819bg95f554aaeb22" version="1">Exhale a wave of acid in a line before you.</content>
 	<content contentuid="hd7356d09gec21g401eg938dg34c1b704297e" version="1">Breath of the Green Dragon</content>
@@ -579,18 +574,18 @@
 	<content contentuid="hf58d1d4fgad0dg451ega0acg40dea111be50" version="1">Toppling Shift</content>
 	<content contentuid="h52a7ed68g999fg4afag8c7eg85681ed2a215" version="1">Topple an enemy, knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
 	<content contentuid="h3a999e58g5ceeg4ac1ga20aga6efd47b87f3" version="1">Sudden Shift</content>
-	<content contentuid="h9de05705gcb47g47dcga990g7ede44af0407" version="1">As a reaction, when you are hit by an attack you can cause it to miss, and you gain the effects of &lt;LSTag Type="Spell" Tooltip="Shout_Disengage"&gt;Disengage&lt;/LSTag&gt;.</content>
+	<content contentuid="h9de05705gcb47g47dcga990g7ede44af0407" version="1">When you are hit by an attack you can cause it to miss, and you gain the effects of &lt;LSTag Type="Spell" Tooltip="Shout_Disengage"&gt;Disengage&lt;/LSTag&gt;.</content>
 	<content contentuid="h5160a49eg963cg4bfcga19eg6e6502262cf7" version="1">Microscopic Form</content>
 	<content contentuid="h36ab769agdd8fg4e28ga238g33e1a1bd4223" version="1">Reduce your size significantly, becoming much harder to see and hit, but negating weapon damage.</content>
 	<content contentuid="hd402b24bg75a0g4cebg8b84gf5aca6e0b8d3" version="1">&lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on Strength &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;, size reduced significantly and carrying capacity reduced. +10 to Stealth &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;. &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; increased by 5. Weapon damage negated.</content>	
 	<content contentuid="h47fb9db7gb5dag44c5gb1f5g9d3bc399f8c6" version="1">Ogre Form</content>
-	<content contentuid="hf76d9a28g6d3bg4896g9fe0g26e441cd2fe7" version="1">Grow in size, gaining [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;. Melee weapon attacks will deal an additional [2] damage and have [3] increased range.</content>
-	<content contentuid="h3e723b88g2225g473bgb035ga22f7f7b855a" version="1">Weapon attacks deal an additional [1]. Melee weapon attack range increased by [2].</content>
+	<content contentuid="hf76d9a28g6d3bg4896g9fe0g26e441cd2fe7" version="1">Grow in size, gaining [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;. Melee attacks will deal an additional [2] damage and have [3] increased range.</content>
+	<content contentuid="h3e723b88g2225g473bgb035ga22f7f7b855a" version="1">Weapon attacks deal an additional [1]. Melee attack range increased by [2].</content>
 	<content contentuid="h966f12fdg026bg4b43g8db7g0748c8b49c08" version="1">Giant Form</content>
-	<content contentuid="h73fdc59cgf510g4958g875eg907ec43b3143" version="1">Grow to a tremendous size, gaining [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;. Melee weapon attacks will deal an additional [2] damage and have [3] increased range.</content>
-	<content contentuid="h83e9cfffg78a2g410dga4afgc166e30ee87b" version="1">Weapon attacks deal an additional [1]. Melee weapon attack range increased by [2].</content>
+	<content contentuid="h73fdc59cgf510g4958g875eg907ec43b3143" version="1">Grow to a tremendous size, gaining [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;. Melee attacks will deal an additional [2] damage and have [3] increased range.</content>
+	<content contentuid="h83e9cfffg78a2g410dga4afgc166e30ee87b" version="1">Weapon attacks deal an additional [1]. Melee attack range increased by [2].</content>
 	<content contentuid="h3a5789efg2457g4ca8ga0f8gce3100d94894" version="1">Iron Hide</content>
-	<content contentuid="hc17c8044g089bg4c41g825dg242f478d8782" version="1">As a reaction, when you are hit by an attack you can harden your skin, increasing your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by 3 until the end of your next turn.</content>
+	<content contentuid="hc17c8044g089bg4c41g825dg242f478d8782" version="1">When you are hit by an attack you can harden your skin, increasing your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by 3 until the end of your next turn.</content>
 	<content contentuid="hb70f2573g1af0g4071g9300g12f1d71e9c65" version="1">&lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; increased by 3.</content>
 	<content contentuid="hf8f1cf0fg28dfg478cg9258g8996d083ba08" version="1">Steel Hide</content>
 	<content contentuid="hdd404baegb627g4189gaf86g7f3fb5bad39e" version="1">Fortify your body, gaining &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Bludgeoning, Piercing and Slashing damage until the end of your next turn.</content>
@@ -623,24 +618,23 @@
 	<content contentuid="ha1ee4050g7ccdg4f77g9c8cg17acfd982854" version="1">Your weapon deals an additional [1].</content>
 	<content contentuid="h2ae11de5gcdd0g4383gbc9dg53bf9b5b3484" version="1">Does not spend Psi Points.</content>
 	<content contentuid="h51aa6b39ge4c4g4802g98e7g7495bd716562" version="1">Imbue your weapons with psychic energy. Your next weapon attack will deal an additional [1].</content>
-
 	<content contentuid="h4f69363eg4bbfg4f59gaac3g4e3b5feb0075" version="1">Next weapon attack deals an additional [1].</content>
 	<content contentuid="h096232f7g42c0g4c6fgada3g7e6141886ce6" version="1">Augmented Weapon</content>
-	<content contentuid="h4fc32c62g0d3eg42b4g849agba33dfded8ae" version="1">Infuse a weapon with psionic energy. The weapon becomes magical, receiving a +3 bonus to &lt;LSTag Tooltip="AttackRoll"&gt;Attack&lt;/LSTag&gt; and Damage Rolls.</content>
-	<content contentuid="h4bc4436dg4a57g4761gb5ceg1aad805afe26" version="1">+3 to Attack and Damage rolls.</content>
+	<content contentuid="h4fc32c62g0d3eg42b4g849agba33dfded8ae" version="1">Infuse a weapon with psionic energy. The weapon becomes magical, receiving a +[1] bonus to &lt;LSTag Tooltip="AttackRoll"&gt;Attack&lt;/LSTag&gt; and Damage Rolls.</content>
+	<content contentuid="h4bc4436dg4a57g4761gb5ceg1aad805afe26" version="1">+[1] to &lt;LSTag Tooltip="AttackRoll"&gt;attack&lt;/LSTag&gt; and damage rolls.</content>
 	<content contentuid="h51cfcff8g9de8g486aga6b9g95276ac98dd7" version="1">Speed Dart</content>
 	<content contentuid="h189b99d6g02d8g4ec9gb154g76d71db32c45" version="1">Imbue your ranged weapon with psionic energy. The next attack you make with it deals an additional [1].</content>
 	<content contentuid="hbeb579b0g85dcg4283gb867g60545a50eaa2" version="1">Next ranged weapon attack deals an additional [1].</content>
 	<content contentuid="h170aeca8g0096g4689g9450g240c79bbc380" version="1">Seeking Missile</content>
-	<content contentuid="hfc6b13fdgc440g4072ga6d9g1eb08558a47b" version="1">As a reaction, when you miss with a ranged weapon attack, you can repeat the &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against the same target.</content>
+	<content contentuid="hfc6b13fdgc440g4072ga6d9g1eb08558a47b" version="1">When you miss with a ranged weapon attack, you can repeat the &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against the same target.</content>
 	<content contentuid="h574e8af9g5955g44e7g9784g45fa820d25a1" version="1">Faithful Archer</content>
 	<content contentuid="h164ea828g6a86g44b4gbf03g9f9fd500dd03" version="1">Imbue your ranged weapon with a limited sentience, allowing you to perform an extra ranged weapon attack for free each turn.</content>
 	<content contentuid="h50719c0eg4303g48dega765gc79a5b0bd0fa" version="1">Able to perform an additional ranged weapon attack for free.</content>
 	<content contentuid="hb63cc365gbd43g49d3ga20dg947243e20100" version="1">Faithful Quiver</content>
 	<content contentuid="h64c1f7begbf8bg4d8cga8fagfe0329da93d5" version="1">While concentrating on Faithful Archer, perform an additional ranged shot.</content>
 	<content contentuid="h7fd9d711g8378g4a2bgb3a6g145c63badc55" version="1">Chameleon</content>
-	<content contentuid="h3cbc7f68g02e8g482ag9864g3b2c59940729" version="1">Blend in with your surroundings, gaining a +10 bonus to Stealth &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
-	<content contentuid="hcfce4a6dgf820g4fffga302g0d0afc33a80f" version="1">+10 to Stealth.</content>
+	<content contentuid="h3cbc7f68g02e8g482ag9864g3b2c59940729" version="1">Blend in with your surroundings, gaining a +[1] bonus to Stealth &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="hcfce4a6dgf820g4fffga302g0d0afc33a80f" version="1">+[1] to Stealth.</content>
 	<content contentuid="h38bcf621g3472g48ecg8dd7gb4fb27ee5ae9" version="1">Step from Sight</content>
 	<content contentuid="h0d4888c9g9951g4042g8c54g221a5cbe11ca" version="1">Cloak yourself from sight, turning yourself &lt;LSTag Type="Status" Tooltip="GREATER_INVISIBILITY"&gt;Invisible&lt;/LSTag&gt;. Attacks against you have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; and you attack with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
 	<content contentuid="hb6454ea9g172eg46dagbb5dg0433d81b8006" version="1">Enduring Invisibility</content>
@@ -649,6 +643,7 @@
 	<content contentuid="h37cb72dage85cg41b3g9849gc2f725be428b" version="1">Reduce the weight of you and nearby allies, granting immunity to Falling damage.</content>
 	<content contentuid="hf92f209bg207bg4007g8050g528f79e1ea9e" version="1">Unearth</content>
 	<content contentuid="h92cc8698gbbc9g4aa3g8accg2c0dcaa2983e" version="1">Unlock an object that is held shut by a mundane lock.</content>
+	<content contentuid="hde54de45gd67bg4e9dg8a63g03790c710828" version="1">Lockdown</content>
 	<content contentuid="h766fee09g64bfg492dg9a62ge935a133042e" version="1">Item Lore</content>
 	<content contentuid="h9861dbd9gfa92g4c79gbbfag763994cf8284" version="1">Conjure a thieves' tools, trap disarm toolkit or shovel.</content>
 	<content contentuid="h047cf03dg6d34g45d0g9e1cgf1046a96db2a" version="1">Item Lore: Thieves' Tools</content>
@@ -663,10 +658,10 @@
 	<content contentuid="h3edfc105g327fg4c7dgb6bbg4f4781a6631a" version="1">Step of a Dozen Paces</content>
 	<content contentuid="h20a687b8gcc11g4f63gb7e7g76a38ebe08dd" version="1">Teleport up to [1].</content>
 	<content contentuid="h5bebca69g2c85g4ba9gb640g656b4ec66241" version="1">Defensive Step</content>
-	<content contentuid="h3a3f0db7g14a3g4655ga986g1635f41bc6fa" version="1">As a reaction, when you are about to be hit by an attack, you can increase your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by 4, possibly causing the attack to miss, as well as gaining the effects of Disengage.</content>
+	<content contentuid="h3a3f0db7g14a3g4655ga986g1635f41bc6fa" version="1">When you are about to be hit by an attack, you can increase your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by 4, possibly causing the attack to miss, as well as gaining the effects of Disengage.</content>
 	<content contentuid="h1783bf72g5aacg459dgb9a3gace3af6f3807" version="1">There and Back Again</content>
-	<content contentuid="h7c166e11gf8a2g40eagb30bg000b31c2e911" version="1">Teleport up to [1]. Until the end of your turn, your &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; increases by [1] and you can cast Back Again.</content>
-	<content contentuid="hb987f909gc923g4733ga4b4g8b18b4513ec4" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; increased by [1]. Able to cast Back Again.</content>
+	<content contentuid="h7c166e11gf8a2g40eagb30bg000b31c2e911" version="1">Teleport up to [1]. Until the end of your turn, your &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; increases by [1] and you can cast &lt;LSTag Type="Spell" Tooltip="Target_Mystic_BackAgain"&gt;Back Again&lt;/LSTag&gt;.</content>
+	<content contentuid="hb987f909gc923g4733ga4b4g8b18b4513ec4" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; increased by [1]. Able to cast &lt;LSTag Type="Spell" Tooltip="Target_Mystic_BackAgain"&gt;Back Again&lt;/LSTag&gt;.</content>
 	<content contentuid="h152b7208ga0dfg46adg90cbg5d2fbeba4c4e" version="1">Back Again</content>
 	<content contentuid="hadf23575gdfa5g44ddg92d0gd6460413f88e" version="1">Teleport up to [1].</content>
 	<content contentuid="h7506c6d4g1fc3g431aga858gd2d916d6f513" version="1">Transposition</content>
@@ -786,7 +781,7 @@
 	<content contentuid="hd4d177ffg93beg48a1gac30g6cf4dde24fa4" version="1">Lightning Leap</content>
 	<content contentuid="ha7e0bbf8g5d10g4a3bg93d4ged95c225fe28" version="1">Surge forward with a flash of lightning, shocking everything along your path.</content>
 	<content contentuid="h0fdf4a1eg519cg46bcg8735g75b7d7dcc113" version="1">Wall of Thunder</content>
-	<content contentuid="hf2400914g9a65g461cga04bgb38b576426fc" version="1">Create a wall of raging thunderclouds. Creatures moving through the clouds have their &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; halved. The clouds damage any creature that try to enter or remain inside.</content>
+	<content contentuid="hf2400914g9a65g461cga04bgb38b576426fc" version="1">Create a wall of raging thunderclouds. Creatures moving through the clouds have their &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; halved. The clouds damage any creature that tries to enter or remain inside. Damaged creatures are also pushed away [1].</content>
 	<content contentuid="hf7d682f4gd5e3g4375gb91eg48a5f9bd7c5d" version="1">Thunder Clap</content>
 	<content contentuid="h05a08ff8g34c6g4c6dga0e0gd05003430d4d" version="1">Thunderous energy erupts in a targeted area, &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stunning&lt;/LSTag&gt; creatures inside.</content>
 	<content contentuid="hfd6106d9g3b27g40cdg9600gb68249c8af8d" version="1">Animate Weapon</content>
@@ -852,7 +847,7 @@
 	<content contentuid="he19cc2bbgb1c5g493fg92b8g0247feb4f0b7" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Investigation, Insight and History &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="hfd3b8cf9gcc4eg4acfgb1f7g7790973b80ae" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Investigation, Insight and History &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="he2f4f7f4g276dg4d9bga0d9g8351051384b8" version="1">Psionic Surge</content>
-	<content contentuid="hc8df6a32g2235g427cga697g74f6fa505179" version="1">As a reaction, impose &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on a creature's &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;. Usable once per Short or Long Rest.</content>
+	<content contentuid="hc8df6a32g2235g427cga697g74f6fa505179" version="1">Impose &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on a creature's &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;. Usable once per Short or Long Rest.</content>
 	<content contentuid="h6ebfd72ag14dbg4691gb7c9gde4894902fa0" version="1">Spectral Form</content>
 	<content contentuid="hafbe2881gf469g41bag9d69g1aa9f6e77a38" version="1">Take the form of a ghostly specter, becoming &lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to damage until your next turn. While in this form, your &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; is halved and you cannot take any actions.</content>
 	<content contentuid="h5e55b13egbd16g4b4eg9b10gc1b5a8ee639a" version="1">&lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to damage. &lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; halved and unable to take actions.</content>
@@ -862,13 +857,13 @@
 	<content contentuid="h7673327cg277dg4b16gb394g1b4b25bcc5d9" version="1">At the start of each of your turns, gain &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; equal to your Intelligence &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt;.</content>
 	<content contentuid="h0fb6ae80ge747g4fffg9409gb7fa6353d523" version="1">Gain [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;.</content>
 	<content contentuid="h56cb35d0g56f3g4098g8d58gbdab90b41a46" version="1">Surge of Health</content>
-	<content contentuid="h29c97f6dg93efg4497g9f86gdcf3a6ecaa0e" version="1">As a reaction, halve incoming damage. Usable once per Short or Long Rest.</content>
+	<content contentuid="h29c97f6dg93efg4497g9f86gdcf3a6ecaa0e" version="1">When you are about to be hit, halve incoming damage. Usable once per Short or Long Rest.</content>
 	<content contentuid="h230b15bfg1f79g41c7gbd72g5af33a09ac5e" version="1">Immortal Will</content>
-	<content contentuid="h3280dd8bg461bg474agbebaga1486290040e" version="1">When your hit points are reduced to 0, automatically spend [1] Psi Points to regain [2]. Can be toggled on or off.</content>
+	<content contentuid="h3280dd8bg461bg474agbebaga1486290040e" version="1">When your hit points are reduced to 0, automatically spend [1] Psi Points to regain [2]. Can be toggled on or off. Can only trigger once per Long Rest.</content>
 	<content contentuid="h91b43ea0g8a4cg406cg8809gb21958563387" version="1">Breadth of Knowledge</content>
 	<content contentuid="he1fa0398g08fcg459bgade7ge5b41ca5f15f" version="1">Your vast and varied experience grants you a +1 bonus to all Skills.</content>
 	<content contentuid="h6572d753g277fg4e06ga35bgb9df9f0d9c69" version="1">Memory of One Thousand Steps</content>
-	<content contentuid="h49108727g9317g4c3fgb887g5d2e09c8c720" version="1">As a reaction, you can force an attack to miss you. Until the end of your next turn, you can use Memory of One Thousand Steps to teleport up to [1]. Usable once per Short or Long Rest.</content>
+	<content contentuid="h49108727g9317g4c3fgb887g5d2e09c8c720" version="1">Force an attack to miss you. Until the end of your next turn, you can use Memory of One Thousand Steps to teleport up to [1]. Usable once per Short or Long Rest.</content>
 	<content contentuid="h19aa3564gf2b5g486egbd08g20fb384b249e" version="1">Able to teleport up to [1].</content>
 	<content contentuid="h22b03d2egfc61g4112gbb13gca5105a6388a" version="1">Teleport up to [1].</content>
 	<content contentuid="h34693707ge485g441fg8551g9d1ae7dc820a" version="1">Superior Teleportation</content>
@@ -940,7 +935,7 @@
 	<content contentuid="h395f3de4g7337g4046g95b2gac5963ebbb35" version="1">Create Spell Slot: Level 5</content>
 	<content contentuid="h8811fab1g5c9dg4c03ga4b1g8a4aead193fd" version="1">Spend [1] Psi Points to unlock a level [2] &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt;.</content>
 	<content contentuid="h4c335a3dg418fg4969g8805gdd998c49b6b3" version="1">Elemental Mastery</content>
-	<content contentuid="hacfe3897gb287g43e9ga64bga732447e955f" version="1">As a reaction, you can become &lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to incoming damage until the end of your next turn if you are &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to it.</content>
+	<content contentuid="hacfe3897gb287g43e9ga64bga732447e955f" version="1">Become &lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to incoming damage until the end of your next turn if you are &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to it.</content>
 	<content contentuid="hb9447f46g039cg476agb17cg9df7c65f9dfd" version="1">Elemental Mastery: Bludgeoning</content>
 	<content contentuid="ha2c7f480g8435g4052ga54age88ef1355e05" version="1">Elemental Mastery: Piercing</content>
 	<content contentuid="hcef36d65g8ca5g4bbdg88b0g2c02e30e83c5" version="1">Elemental Mastery: Slashing</content>
@@ -970,7 +965,6 @@
 	<content contentuid="h27717c53g925ag4422g990dg46f6ca77105d" version="1">Increases distance by an additional [1] per level.</content>
 	<content contentuid="h40a2d4caga1f5g4f1ega800g09de58581389" version="1">Deals an additional [1] and increases distance by an additional [2] per level.</content>
 	<content contentuid="hdbd6d5ceg3b18g49c4ga009g38f233edbe52" version="1">Only one Psychic Focus may be active at a time.</content>	
-	<content contentuid="" version="1"> </content>
 	<content contentuid="h7b210d71gcd2ag47efgbf73g2f2e21a6f8bf" version="1">Fount of Endless Knowledge</content>
 	<content contentuid="h7e777fe6g165bg4808g8d8bg39d108253274" version="1">This circlet has the power to invigorate its user, granting them momentary insights and sharpening their focus when under pressure.</content>
 	<content contentuid="ha4e0de48gfef2g4542gad1egdd0f0029f6fe" version="1">Fleeting Power</content>
@@ -983,8 +977,8 @@
 	<content contentuid="h3f681d5dg8bfeg45a9g9999gf373a971e643" version="1">Warmaster Plate</content>
 	<content contentuid="hc00e62afgfb03g483ag9ac2gbe8278505b5b" version="1">A sturdy plate that awakens the latent power of emotion of its wearer, rallying their allies and elevating their presence.</content>
 	<content contentuid="h488bf015gd24ag4f5eg9724gf368dc4f48c9" version="1">Expansive Influence</content>
-	<content contentuid="h36800824g9a98g4c66gbd51g47f56f03cfec" version="1">Increase the range of your Avatar auras to [1]. Allies within your auras gain +1 to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and &lt;LSTag Tooltip="SpellDifficultyClass"&gt;Spell Save DC&lt;/LSTag&gt;.</content>
-	<content contentuid="h53b4f65ege83dg4612g96bcg2e8b9731f305" version="1">+1 to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and &lt;LSTag Tooltip="SpellDifficultyClass"&gt;Spell Save DC&lt;/LSTag&gt;.</content>
+	<content contentuid="h36800824g9a98g4c66gbd51g47f56f03cfec" version="1">Increase the range of your Avatar auras to [1]. Allies within your auras gain +1 to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;, &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; and &lt;LSTag Tooltip="SpellDifficultyClass"&gt;Spell Save DC&lt;/LSTag&gt;.</content>
+	<content contentuid="h53b4f65ege83dg4612g96bcg2e8b9731f305" version="1">+[1] to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;, &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; and &lt;LSTag Tooltip="SpellDifficultyClass"&gt;Spell Save DC&lt;/LSTag&gt;.</content>
 	<content contentuid="hf4f4ff39gdc0ag4563gb017gbdd74cfd0d75" version="1">Armour of the Enlightened</content>
 	<content contentuid="ha4b11d14g97f8g4f1bg9355g5ce11ac7f94d" version="1">This mysterious suit of armour was created by an unknown practicioner of the mystical arts. They imbued it with their own power in hopes of passing down their knowledge.</content>
 	<content contentuid="h65d326bagbe3fg477bg9be3gc6440207b3ca" version="1">Psionic Flux</content>
@@ -993,17 +987,17 @@
 	<content contentuid="h65a29b73gcac5g4623ga881g0918bc8069f4" version="1">Cloth of the Goliath</content>
 	<content contentuid="hc9b2e9ddg72f3g43dcgb6c8g3720da0a617c" version="1">A surprisingly malleable piece of cloth. It can harden when under force and absorb blows for its wearer.</content>
 	<content contentuid="hfc3b5a7cg05b8g4851ga9dbg94f897074f6c" version="1">Unbreakable Will</content>
-	<content contentuid="h7c9f01eag0f68g4ed0g99e9gd4d6a91ad3dd" version="1">Reduce incoming damage by [1]. The amount of damage reduction is equal to half your Intelligence &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt;.</content>
+	<content contentuid="h7c9f01eag0f68g4ed0g99e9gd4d6a91ad3dd" version="1">Reduce incoming damage by [1]. The amount of damage reduction is equal to your Intelligence &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt;.</content>
 	<content contentuid="hc905187fg2c47g4781ga6d3gf8d0da15309b" version="1">Garb of the Planeswalker</content>
 	<content contentuid="hffe656d3g58a0g4dfbg89c8g0400fd973dc0" version="1">This armour has been worn by many a wandering nomad. It has gathered incredible power from the astral planes and beyond.</content>
 	<content contentuid="hb9c9644eg584fg477fgac68g1affcd816889" version="1">Nomadic Impetus</content>
-	<content contentuid="h3ae55a99g8682g4297g8300g9b3a9e91ef7c" version="1">After teleporting with a psionic discipline, gain +1 to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;. Stacks up to 3 times.</content>
-	<content contentuid="h22d52fecg6222g4320g82e8g6dd423136cb3" version="1">+[1] to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; per turn remaining.</content>
+	<content contentuid="h3ae55a99g8682g4297g8300g9b3a9e91ef7c" version="1">After teleporting with a psionic discipline, gain +1 to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and weapon damage rolls. Stacks up to 5 times.</content>
+	<content contentuid="h22d52fecg6222g4320g82e8g6dd423136cb3" version="1">+[1] to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and weapon damage rolls per turn remaining.</content>
 	<content contentuid="hd8520700g219dg42d9g9916gd501d3583c31" version="1">Thoughtstealer Armour</content>
 	<content contentuid="h8aef7b7agac1fg4529g914cgbc9c97392f4c" version="1">Designed by a master soul knife, this armour is capable of strengthening the connection between its wearer's mind and their psychic weapons.</content>
 	<content contentuid="hc46714c0gac90g430aga235g4a68d7ada455" version="1">Thoughtsteal</content>
-	<content contentuid="h0c27f701g9481g4fdcg8affg9731f61c3038" version="1">Your melee weapon hits sap your target's energy, giving you a +1 bonus to damage rolls. Stacks up to 3 times.</content>
-	<content contentuid="h435fb36bg0e8ag4543g9650ge370c562ba57" version="1">+[1] bonus to damage rolls per turn remaining.</content>
+	<content contentuid="h0c27f701g9481g4fdcg8affg9731f61c3038" version="1">Your melee weapon hits sap your target's energy, giving you a +[1] bonus to damage rolls and &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;. Stacks up to 5 times.</content>
+	<content contentuid="h435fb36bg0e8ag4543g9650ge370c562ba57" version="1">+[1] bonus to damage rolls and &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; per turn remaining.</content>
 	<content contentuid="hce150ef5ge585g47a2gb83ag6645cfbc66e9" version="1">Ascetic Robes</content>
 	<content contentuid="h28f5d82cgc72fg4e99gb6c2gb175d95417b7" version="1">A rare import from the far eastern regions of Kara-Tur. It has been imbued with great power, granting its wearer much greater control over the natural forces.</content>
 	<content contentuid="he3b22816gc8fbg417dgb16bgc6ee0e68ee9b" version="1">Elemental Dominance</content>
@@ -1067,12 +1061,12 @@
 	<content contentuid="h9639734cg2054g4593ga148gb496e98c4fe6" version="1">Mindsteal</content>
 	<content contentuid="h6d8f7488g9ea6g457egb81fg606d78342bd6" version="1">On a hit with a melee weapon attack, restore 1 Psi Point.</content>
 	<content contentuid="h20c078e5g115dg4f12gaec6gd3ce45c41300" version="1">On a hit with a ranged weapon attack, restore 1 Psi Point.</content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
+	<content contentuid="hbe1432c6g0b13g415bg82eega80f00d4f7d9" version="1">Psionics Initiate</content>
+	<content contentuid="h93f3c3f5gbd05g4649gad24g6264fd446113" version="1">You learn 1 psionic talent and a psionic discipline of your choice. You also gain 2 Psi Points to spend on these disciplines. Psi Points replenish every &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
+	<content contentuid="h299b5c1eg8ea8g47e4gb769gf6224edab9f8" version="1">You have learnt 1 psionic talent and a psionic discipline. You gained 2 Psi Points to cast these disciplines.</content>
+	<content contentuid="ha354ebdbgacedg4f6dg8aedgc306299af722" version="1">Psychic Focus</content>
+	<content contentuid="h8e973f3fg193cg4a91gb72fg5671a6978735" version="1">Change your active psychic focus.</content>
+	<content contentuid="hc72d01b1g7f79g4299gb846g59727a5729be" version="1">You learn the &lt;LSTag Type="Passive" Tooltip="Discipline_AdaptiveBody"&gt;Adaptive Body&lt;/LSTag&gt; discipline. Learn the following abilities:&lt;br&gt;- &lt;LSTag Type="Spell" Tooltip="Shout_Mystic_PsychicFocus_AdaptiveBody"&gt;Psychic Focus: Adaptive Body&lt;/LSTag&gt;&lt;br&gt;- &lt;LSTag Type="Spell" Tooltip="Target_Mystic_EnvironmentalAdaptation"&gt;Environmental Adaptation&lt;/LSTag&gt;&lt;br&gt;- &lt;LSTag Type="Spell" Tooltip="Shout_Mystic_AdaptiveShield"&gt;Adaptive Shield&lt;/LSTag&gt;&lt;br&gt;- &lt;LSTag Type="Spell" Tooltip="Target_Mystic_EnergyAdaptation"&gt;Energy Adaptation&lt;/LSTag&gt;&lt;br&gt;- &lt;LSTag Type="Spell" Tooltip="Target_Mystic_EnergyImmunity"&gt;Energy Immunity&lt;/LSTag&gt;</content>
 	<content contentuid="" version="1"> </content>
 	<content contentuid="" version="1"> </content>
 	<content contentuid="" version="1"> </content>

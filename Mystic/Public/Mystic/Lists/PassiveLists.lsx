@@ -28,6 +28,11 @@
                     <attribute id="Passives" type="LSString" value="Discipline_MasteryOfAir,Discipline_MasteryOfFire,Discipline_MasteryOfForce,Discipline_MasteryOfIce,Discipline_MasteryOfLightAndDarkness,Discipline_MasteryOfWater,Discipline_MasteryOfWeather,Discipline_MasteryOfWoodAndEarth" />
                     <attribute id="UUID" type="guid" value="7b38171b-da70-470e-b3a8-4edabc8da3c8" />
                 </node>
+        <node id="PassiveList">
+                    <attribute id="Passives" type="LSString" value="Passive_Mystic_PsionicsInitiate_AdaptiveBody,Discipline_MasteryOfAir" />
+                    <attribute id="UUID" type="guid" value="0c2e2969-915f-48c3-8005-311eb37a0308" />
+                </node>
+                
       </children>
     </node>
   </region>

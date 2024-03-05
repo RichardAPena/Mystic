@@ -319,14 +319,7 @@ data "StatsFunctorContext" "OnCast"
 data "Conditions" "IsSpell()"
 data "StatsFunctors" "DealDamage(4d6,Psychic)"
 
-
-// TODO:
-// - Make singularity scale with your DC instead of the targets (or just a flat dc like 12 or 15-17 prob more cuz gear and other sources JUST COPY 5e spells)
-
 // Order of the Ascetic
-
-// NOT TWO-HANDED, NOT HEAVY WEAPONS will get a buff when u equip them
-// 
 
 // Psionic Fists
 new entry "Passive_Mystic_PsionicFists"
@@ -390,8 +383,6 @@ data "Properties" "IsToggled;Highlighted;ToggledDefaultAddToHotbar"
 data "ToggleGroup" "Mystic_PsionicFists"
 data "ToggleOnFunctors" "ApplyStatus(MYSTIC_KINETIC_BLOWS,100,-1)"
 data "ToggleOffFunctors" "RemoveStatus(MYSTIC_KINETIC_BLOWS)"
-
-// TODO: Monk weapon stuff
 
 // Psionic Resonance
 new entry "Passive_Mystic_PsionicResonance"
@@ -462,6 +453,14 @@ data "Icon" "Passive_Mystic_WarAdept"
 data "Properties" "Highlighted"
 data "StatsFunctorContext" "OnEquip;OnCreate;OnLongRest;OnShortRest"
 data "StatsFunctors" "ApplyStatus(SELF,MYSTIC_WAR_ADEPT_TECHNICAL,100,-1)"
+
+new entry "Passive_Mystic_WarAdept_UnlockSmiteInterrupt"
+type "PassiveData"
+data "DisplayName" "hd45504cdgb974g4498g8192ga19c8bd7697d"
+data "Properties" "IsHidden"
+data "BoostConditions" "HasPassive('Passive_Mystic_WarAdept', context.Source)"
+data "BoostContext" "OnEquip;OnCreate;OnAttack;OnTurn;"
+data "Boosts" "UnlockInterrupt(Interrupt_Mystic_PsychicSmite);UnlockInterrupt(Interrupt_Mystic_PsychicSmite_2);UnlockInterrupt(Interrupt_Mystic_PsychicSmite_3);UnlockInterrupt(Interrupt_Mystic_PsychicSmite_4);UnlockInterrupt(Interrupt_Mystic_PsychicSmite_5);UnlockInterrupt(Interrupt_Mystic_PsychicSmite_6);UnlockInterrupt(Interrupt_Mystic_PsychicSmite_7)"
 
 // Psionic Trance
 new entry "Passive_Mystic_PsionicTrance"
@@ -548,12 +547,6 @@ data "Conditions" "WildPsionicSurgeCheck()"
 data "StatsFunctors" "RestoreResource(SELF,PsiPointsResource,1,0)"
 
 // Chaos Control
-// TODO: activating chaos control should untoggle chaos aspect
-// might have to make an additional passive that turns itself on? no yes?
-// same toggle group as chaos aspect
-// or just have chaos control update chaos aspect
-// could work
-// yea sure, woould be more smooth too
 new entry "Passive_Mystic_ChaosControl"
 type "PassiveData"
 data "DisplayName" "hbb442710ge26dg42e8g82ceg8e321c4abaa3"
@@ -573,24 +566,10 @@ data "Properties" "IsToggled;Highlighted;ToggledDefaultAddToHotbar;Temporary"
 data "ToggleOnFunctors" "IF(HasStatus('MYSTIC_CHAOTIC_STATE_INERT',context.Source)):ApplyStatus(SELF,MYSTIC_CHAOS_ASPECT_INERT_AURA,100,-1);IF(HasStatus('MYSTIC_CHAOTIC_STATE_STABLE',context.Source)):ApplyStatus(SELF,MYSTIC_CHAOS_ASPECT_STABLE_AURA,100,-1);IF(HasStatus('MYSTIC_CHAOTIC_STATE_ACTIVE',context.Source)):ApplyStatus(SELF,MYSTIC_CHAOS_ASPECT_ACTIVE_AURA,100,-1);IF(HasStatus('MYSTIC_CHAOTIC_STATE_VOLATILE',context.Source)):ApplyStatus(SELF,MYSTIC_CHAOS_ASPECT_VOLATILE_AURA,100,-1);IF(HasStatus('MYSTIC_CHAOTIC_STATE_DANGEROUS',context.Source)):ApplyStatus(SELF,MYSTIC_CHAOS_ASPECT_DANGEROUS_AURA,100,-1)"
 data "ToggleOffFunctors" "RemoveStatus(SELF,MYSTIC_CHAOS_ASPECT_INERT_AURA);RemoveStatus(SELF,MYSTIC_CHAOS_ASPECT_STABLE_AURA);RemoveStatus(SELF,MYSTIC_CHAOS_ASPECT_ACTIVE_AURA);RemoveStatus(SELF,MYSTIC_CHAOS_ASPECT_VOLATILE_AURA);RemoveStatus(SELF,MYSTIC_CHAOS_ASPECT_DANGEROUS_AURA)"
 
-// IF(HasStatus('MYSTIC_CHAOTIC_STATE_INERT',context.Source)):ApplyStatus(SELF,MYSTIC_CHAOS_ASPECT_INERT_AURA,100,-1);
-// IF(HasStatus('MYSTIC_CHAOTIC_STATE_STABLE',context.Source)):ApplyStatus(SELF,MYSTIC_CHAOS_ASPECT_STABLE_AURA,100,-1);
-// IF(HasStatus('MYSTIC_CHAOTIC_STATE_ACTIVE',context.Source)):ApplyStatus(SELF,MYSTIC_CHAOS_ASPECT_ACTIVE_AURA,100,-1);
-// IF(HasStatus('MYSTIC_CHAOTIC_STATE_VOLATILE',context.Source)):ApplyStatus(SELF,MYSTIC_CHAOS_ASPECT_VOLATILE_AURA,100,-1);
-// IF(HasStatus('MYSTIC_CHAOTIC_STATE_DANGEROUS',context.Source)):ApplyStatus(SELF,MYSTIC_CHAOS_ASPECT_DANGEROUS_AURA,100,-1)
-
-// RemoveStatus(SELF,MYSTIC_CHAOS_ASPECT_INERT_AURA);
-// RemoveStatus(SELF,MYSTIC_CHAOS_ASPECT_STABLE_AURA);
-// RemoveStatus(SELF,MYSTIC_CHAOS_ASPECT_ACTIVE_AURA);
-// RemoveStatus(SELF,MYSTIC_CHAOS_ASPECT_VOLATILE_AURA);
-// RemoveStatus(SELF,MYSTIC_CHAOS_ASPECT_DANGEROUS_AURA)
-
 new entry "Passive_Mystic_ChaosAspect_Inert"
 type "PassiveData"
 data "DisplayName" "h642fc5efgfebcg4b78g8540g61cccc39aaf5"
 data "Icon" "Passive_Mystic_ChaosAspect"
-// data "Properties" "IsHidden;OncePerTurn"
-// data "StatsFunctorContext" "OnCast"
 
 new entry "Passive_Mystic_ChaosAspect_Stable"
 type "PassiveData"

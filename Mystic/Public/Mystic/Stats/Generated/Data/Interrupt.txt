@@ -164,6 +164,67 @@ data "InterruptDefaultValue" "Ask;Enabled"
 data "EnableCondition" "not HasStatus('SG_Polymorph') or Tagged('MINDFLAYER')"
 data "EnableContext" "OnStatusApplied"
 
+// Knock Back
+new entry "Interrupt_Mystic_KnockBack"
+type "InterruptData"
+data "DisplayName" "h64861ffdge092g4be5gae41g02d96367cb93"
+data "Description" "hafa0ff17g5d7fg4454gb0c4g5eee7b446f19"
+data "DescriptionParams" "Distance(3);DealDamage(1d4,Bludgeoning)"
+data "Icon" "Action_Mystic_KnockBack"
+data "InterruptContext" "OnCastHit"
+data "InterruptContextScope" "Self"
+data "Container" "YesNoDecision"
+data "Conditions" "IsAbleToReact(context.Observer) and not Item() and IsMeleeAttack() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and not IsKillingBlow() and not AnyEntityIsItem()"
+data "Properties" "ApplyStatus(OBSERVER_TARGET,MYSTIC_KNOCK_BACK,100,0)"
+data "Cost" "PsiPointsResource:1"
+data "Stack" "Mystic_KnockBack"
+data "InterruptDefaultValue" "Ask;Enabled"
+data "EnableCondition" "not HasStatus('SG_Polymorph') or Tagged('MINDFLAYER')  or HasStatus('SG_Disguise')"
+data "EnableContext" "OnStatusApplied;OnStatusRemoved"
+data "TooltipAttackSave" "Strength"
+
+new entry "Interrupt_Mystic_KnockBack_2"
+type "InterruptData"
+using "Interrupt_Mystic_KnockBack"
+data "DescriptionParams" "Distance(6);DealDamage(2d4,Bludgeoning)"
+data "Properties" "ApplyStatus(OBSERVER_TARGET,MYSTIC_KNOCK_BACK_2,100,0)"
+data "Cost" "ReactionActionPoint:1;PsiPointsResource:2"
+
+new entry "Interrupt_Mystic_KnockBack_3"
+type "InterruptData"
+using "Interrupt_Mystic_KnockBack"
+data "DescriptionParams" "Distance(9);DealDamage(3d4,Bludgeoning)"
+data "Properties" "ApplyStatus(OBSERVER_TARGET,MYSTIC_KNOCK_BACK_3,100,0)"
+data "Cost" "ReactionActionPoint:1;PsiPointsResource:3;PsiLimitResource:1:3"
+
+new entry "Interrupt_Mystic_KnockBack_4"
+type "InterruptData"
+using "Interrupt_Mystic_KnockBack"
+data "DescriptionParams" "Distance(12);DealDamage(4d4,Bludgeoning)"
+data "Properties" "ApplyStatus(OBSERVER_TARGET,MYSTIC_KNOCK_BACK_4,100,0)"
+data "Cost" "ReactionActionPoint:1;PsiPointsResource:4;PsiLimitResource:1:4"
+
+new entry "Interrupt_Mystic_KnockBack_5"
+type "InterruptData"
+using "Interrupt_Mystic_KnockBack"
+data "DescriptionParams" "Distance(15);DealDamage(5d4,Bludgeoning)"
+data "Properties" "ApplyStatus(OBSERVER_TARGET,MYSTIC_KNOCK_BACK_5,100,0)"
+data "Cost" "ReactionActionPoint:1;PsiPointsResource:5;PsiLimitResource:1:5"
+
+new entry "Interrupt_Mystic_KnockBack_6"
+type "InterruptData"
+using "Interrupt_Mystic_KnockBack"
+data "DescriptionParams" "Distance(18);DealDamage(6d4,Bludgeoning)"
+data "Properties" "ApplyStatus(OBSERVER_TARGET,MYSTIC_KNOCK_BACK_6,100,0)"
+data "Cost" "ReactionActionPoint:1;PsiPointsResource:6;PsiLimitResource:1:6"
+
+new entry "Interrupt_Mystic_KnockBack_7"
+type "InterruptData"
+using "Interrupt_Mystic_KnockBack"
+data "DescriptionParams" "Distance(21);DealDamage(7d4,Bludgeoning)"
+data "Properties" "ApplyStatus(OBSERVER_TARGET,MYSTIC_KNOCK_BACK_7,100,0)"
+data "Cost" "ReactionActionPoint:1;PsiPointsResource:7;PsiLimitResource:1:7"
+
 // Acid Spray
 new entry "Interrupt_Mystic_AcidSpray"
 type "InterruptData"
@@ -173,9 +234,7 @@ data "DescriptionParams" "DealDamage(2d6,Acid);Distance(3)"
 data "Icon" "Action_Mystic_AcidSpray"
 data "InterruptContext" "OnPreDamage"
 data "InterruptContextScope" "Self"
-// data "Conditions" "IsAbleToReact(context.Observer) and Self(context.Target,context.Observer) and (SpellDamageTypeIs(DamageType.Piercing) or SpellDamageTypeIs(DamageType.Slashing)) and not AnyEntityIsItem()"
 data "Conditions" "IsAbleToReact(context.Observer) and Self(context.Target,context.Observer) and not AnyEntityIsItem()"
-
 data "Properties" "UseSpell(OBSERVER_OBSERVER,Shout_Mystic_AcidSpray_Interrupt,true,true,true)"
 data "Cost" "ReactionActionPoint:1;PsiPointsResource:2"
 data "EnableCondition" "not HasStatus('SG_Polymorph')"
@@ -273,7 +332,6 @@ data "DescriptionParams" "DealDamage(7d8,Psychic)"
 data "Properties" "DealDamage(7d8,Psychic,Magical);ApplyStatus(INTERRUPT_SMITE_DIVINE_VFX,100,0)"
 data "Cost" "PsiPointsResource:7;PsiLimitResource:1:7"
 
-
 // Seeking Missile
 new entry "Interrupt_Mystic_SeekingMissile"
 type "InterruptData"
@@ -314,7 +372,7 @@ data "Icon" "Passive_Mystic_PsionicStrike"
 data "InterruptContext" "OnCastHit"
 data "InterruptContextScope" "Self"
 data "Container" "YesNoDecision"
-data "Conditions" "Self(context.Source,context.Observer) and IsWeaponAttack() and not IsCritical() and not IsKillingBlow() and IsHit() and not IsDivineStrike() and Character() and not AnyEntityIsItem()"
+data "Conditions" "Self(context.Source,context.Observer) and (IsWeaponAttack() or IsUnarmedAttack()) and not IsCritical() and not IsKillingBlow() and IsHit() and not IsDivineStrike() and Character() and not AnyEntityIsItem()"
 data "Properties" "DealDamage(1d8,Psychic)"
 data "Cost" "Interrupt_PsionicStrike:1"
 data "InterruptDefaultValue" "Ask;Enabled"
@@ -325,7 +383,7 @@ new entry "Interrupt_Mystic_PsionicStrike_Critical"
 type "InterruptData"
 using "Interrupt_Mystic_PsionicStrike"
 data "DisplayName" "hd3ca609cg1645g4f9fgaed4g5b36b263fa89"
-data "Conditions" "Self(context.Source,context.Observer) and IsWeaponAttack() and IsCritical() and not IsKillingBlow() and IsHit() and not IsDivineStrike() and Character() and not AnyEntityIsItem()"
+data "Conditions" "Self(context.Source,context.Observer) and (IsWeaponAttack() or IsUnarmedAttack()) and IsCritical() and not IsKillingBlow() and IsHit() and not IsDivineStrike() and Character() and not AnyEntityIsItem()"
 
 new entry "Interrupt_Mystic_PsionicStrike2"
 type "InterruptData"
@@ -356,23 +414,6 @@ data "EnableCondition" "not HasAnyStatus({'SG_Polymorph'}) or Tagged('MINDFLAYER
 data "EnableContext" "OnStatusApplied"
 
 // Surge of Health
-
-// Look at this it's from UNcanny Dodge from Rouge
-// It's ni passives
-// DamageReduction(All,Half,)
-// new entry "UncannyDodge"
-// type "PassiveData"
-// data "DisplayName" "h488725bbg091fg45d3g861eg92471d21a857;2"
-// data "Description" "h834e2af0g618ag44c4gbc44gcde3210f48c0;2"
-// data "Icon" "PassiveFeature_UncannyDodge"
-// data "EnabledConditions" "HasActionResource('ReactionActionPoint', 1, 0, false)"
-// data "EnabledContext" "OnDamaged;OnTurn;OnStatusApplied"
-// data "Properties" "ToggledDefaultOn;ToggledDefaultAddToHotbar;IsToggled"
-// data "Boosts" "DamageReduction(All,Half,)"
-// data "StatsFunctorContext" "OnDamaged"
-// data "StatsFunctors" "UseActionResource(ReactionActionPoint,1,0);ApplyStatus(UNCANNYDODGE_HELPER,100,1)"
-// figure it out i believe in u
-
 new entry "Interrupt_Mystic_SurgeOfHealth"
 type "InterruptData"
 data "DisplayName" "h56cb35d0g56f3g4098g8d58gbdab90b41a46"
@@ -382,34 +423,11 @@ data "InterruptContext" "OnPreDamage"
 data "InterruptContextScope" "Nearby"
 data "Container" "YesNoDecision"
 data "Conditions" "IsAbleToReact(context.Observer) and Self(context.Target,context.Observer)"
-// 
-// data "Properties" "AdjustRoll(OBSERVER_OBSERVER,-(LevelMapValue(SuperiorityDie)+DexterityModifier))"
-// What I need is a way to access the incoming damage, and reduce that by x/2
-// data "Properties" "AdjustRoll(OBSERVER_OBSERVER, -(IntelligenceModifier*2))"
-// Bah we'll just do this for now
 data "Properties" "SetDamageResistance(Bludgeoning);SetDamageResistance(Piercing);SetDamageResistance(Slashing);SetDamageResistance(Acid);SetDamageResistance(Cold);SetDamageResistance(Fire);SetDamageResistance(Force);SetDamageResistance(Lightning);SetDamageResistance(Necrotic);SetDamageResistance(Poison);SetDamageResistance(Psychic);SetDamageResistance(Radiant);SetDamageResistance(Thunder);"
 data "Cost" "ReactionActionPoint:1;Interrupt_SurgeOfHealth:1"
 data "InterruptDefaultValue" "Ask;Enabled"
 data "EnableCondition" "not HasAnyStatus({'SG_Polymorph'}) or Tagged('MINDFLAYER')"
 data "EnableContext" "OnStatusApplied"
-
-// Immortal Will
-// DEPRECATED
-// new entry "Interrupt_Mystic_ImmortalWill"
-// type "InterruptData"
-// data "DisplayName" "h230b15bfg1f79g41c7gbd72g5af33a09ac5e"
-// data "Description" "h3280dd8bg461bg474agbebaga1486290040e"
-// data "DescriptionParams" "RegainHitPoints((ClassLevel(Mystic)+Cause.ConstitutionModifier))"
-// data "Icon" "Passive_Mystic_ImmortalWill"
-// // IDK if this will work?
-// data "InterruptContext" "OnTurn"
-// // OnSpellCast;OnPostRoll;OnCastHit;OnEnterAttackRange;OnLeaveAttackRange;OnPreDamage"
-// data "InterruptContextScope" "Self"
-// data "Container" "YesNoDecision"
-// data "Conditions" "HasHPLessThan(1) and Self()"
-// data "Properties" "RegainHitPoints(ClassLevel(Mystic)+ConstitutionModifier)"
-// data "Cost" "PsiPointsResource:5;PsiLimitResource:1:5"
-// data "InterruptDefaultValue" "Ask;Enabled"
 
 // Memory of One Thousand Steps
 new entry "Interrupt_Mystic_MemoryOfOneThousandSteps"

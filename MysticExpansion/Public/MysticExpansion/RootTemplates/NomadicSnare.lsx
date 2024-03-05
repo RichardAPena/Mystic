@@ -27,7 +27,7 @@
 														<node id="Scalar">
 															<children>
 																<node id="String">
-																	<attribute id="String" type="LSString" value="Projectile_Mystic_NomadicSnare_Trap" /> TODO: make a projectile that does what its supposed to do
+																	<attribute id="String" type="LSString" value="Projectile_Mystic_NomadicSnare_Trap" />
 																</node>
 															</children>
 														</node>

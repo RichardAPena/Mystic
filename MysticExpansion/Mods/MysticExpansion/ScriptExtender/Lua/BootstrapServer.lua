@@ -3,11 +3,10 @@ Ext.Require("Server/PsychicDouble.lua")
 Ext.Require("Server/SymbioticLink.lua")
 Ext.Require("Server/WarAdept.lua")
 Ext.Require("Server/MonkAnimations.lua")
-
--- target, then MAYBE boosts
+Ext.Require("Server/PsionicFists.lua")
 
 StatPaths = {
-    "Public/MysticExpansion/Stats/Generated/Data/Spell_Target.txt",
+    -- "Public/MysticExpansion/Stats/Generated/Data/Spell_Target.txt",
     -- "Public/MysticExpansion/Stats/Generated/Data/Status_BOOSTS.txt",
 }
 
@@ -15,7 +14,7 @@ local function on_reset_completed()
     for _, statPath in ipairs(StatPaths) do
         Ext.Stats.LoadStatsFile(statPath,1)
     end
-    _P('Reloading stats!')
+    -- _P('Reloading stats!')
 end
 
 Ext.Events.ResetCompleted:Subscribe(on_reset_completed)
