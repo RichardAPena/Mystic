@@ -290,6 +290,14 @@
 	<content contentuid="h98989d17g4f6fg4f98gaa46g1e00dab9a8a8" version="1">Plant a false belief in the targeted area, summoning a simulacrum that compels nearby creatures to investigate.</content>
 	<content contentuid="h03963472g0f58g4428ga1e0gd7c4a7133c56" version="1">Energy Beam</content>
 	<content contentuid="h3ff3c148g722cg44edga1cbgec3a9f65a43f" version="1">Blast a creature with a chromatic beam of energy.</content>
+	<content contentuid="hfb2c335dg2802g455eg9597gafd534e3601f" version="1">Acid can &lt;LSTag Type="Status" Tooltip="MYSTIC_ENERGY_BEAM_CORROSION"&gt;corrode&lt;/LSTag&gt; objects. &lt;br&gt;Cold can freeze or douse surfaces and objects. &lt;br&gt;Fire can ignite or melt surfaces and objects. &lt;br&gt;Lightning can electrify surfaces. &lt;br&gt;Thunder can clear surfaces and clouds.</content>
+	<content contentuid="h57a07057g7cfdg4485g9ba0gd21557bfe7b6" version="1">&lt;LSTag Type="Status" Tooltip="MYSTIC_ENERGY_BEAM_CORROSION"&gt;Corrodes&lt;/LSTag&gt; objects, making them &lt;LSTag Tooltip="Vulnerable"&gt;Vulnerable&lt;/LSTag&gt; to Bludgeoning damage.</content>
+	<content contentuid="hc6c8b09bgd40fg4a36gb8f1gf1fd65d5a451" version="1">Freezes or douses surfaces and objects.</content>
+	<content contentuid="he7c8f6ccga174g49f6gbdb3g088b41c36ec0" version="1">Ignites or melts surfaces and objects.</content>
+	<content contentuid="h92816942g1816g4d66g9b8dg85eeefe0d7fe" version="1">Electrifies liquid surfaces.</content>
+	<content contentuid="h85a5539bg3639g4adcg987dgac1b72296268" version="1">Clears surfaces and clouds.</content>
+	<content contentuid="h44b88f5cg83f1g4937g9f88gab4e39284e7a" version="1">Corroded</content>
+	<content contentuid="h9dde8c3cgf2aag4e76ga899gaee8dbd24f42" version="1">Object is corroded, making it &lt;LSTag Tooltip="Vulnerable"&gt;Vulnerable&lt;/LSTag&gt; to Bludgeoning damage.</content>
 	<content contentuid="h29b79265g1a6cg44b5g9eefg01609d146fa2" version="1">Light Step</content>
 	<content contentuid="hfa7ee91eg9616g4227gbccfg77a694d0c7d9" version="1">Alter your weight and density, increasing your &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; by [1] and becoming immune to &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
 	<content contentuid="h7d02b3fdge32eg4391g8fefgfb07f0598425" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; increased by [1]. Immune to &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
@@ -521,7 +529,7 @@
 	<content contentuid="h38f7b167g698eg479cgbf25g7ab2e0a735f8" version="1">Manifest sharp claws and swipe at the target.</content>
 	<content contentuid="hc4296d32g3725g41fegb775g60d9cbbdefbd" version="1">Bestial Transformation</content>
 	<content contentuid="hd209e5f1g4385g4512g8dcbgdf6e4cc1fc8a" version="1">Alter your physical form and gain beast-like qualities.</content>
-	<content contentuid="hf4c955eag45bdg48f2g994cg90c10f420c51" version="1">You can choose from the following bonuses: &lt;LSTag Type="Spell" Tooltip="Shout_Mystic_BestialTransformation_Flight"&gt;Flight&lt;, &lt;LSTag Type="Spell" Tooltip="Shout_Mystic_BestialTransformation_KeenSenses"&gt;Keen Senses&lt;, &lt;LSTag Type="Spell" Tooltip="Shout_Mystic_BestialTransformation_PerfectSenses"&gt;Perfect Senses&lt; and &lt;LSTag Type="Spell" Tooltip="Shout_Mystic_BestialTransformation_ToughHide"&gt;Tough Hide&lt;.</content>	
+	<content contentuid="hf4c955eag45bdg48f2g994cg90c10f420c51" version="1">You can choose from the following bonuses: &lt;LSTag Type="Spell" Tooltip="Shout_Mystic_BestialTransformation_Flight"&gt;Flight&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Shout_Mystic_BestialTransformation_KeenSenses"&gt;Keen Senses&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Shout_Mystic_BestialTransformation_PerfectSenses"&gt;Perfect Senses&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Shout_Mystic_BestialTransformation_ToughHide"&gt;Tough Hide&lt;/LSTag&gt;.</content>	
 	<content contentuid="h58b0a047g5647g4d3dg87fbgb042040d00ad" version="1">Bestial Transformation: Flight</content>
 	<content contentuid="h2364d86dgcd75g455agbf20ge9ab5f86fff5" version="1">Manifest wings, gaining the ability to Fly.</content>
 	<content contentuid="h41db3a00g23fcg498dg86f3g85cd5fa0fad1" version="1">Able to fly.</content>
@@ -1067,7 +1075,7 @@
 	<content contentuid="ha354ebdbgacedg4f6dg8aedgc306299af722" version="1">Psychic Focus</content>
 	<content contentuid="h8e973f3fg193cg4a91gb72fg5671a6978735" version="1">Change your active psychic focus.</content>
 	<content contentuid="hc72d01b1g7f79g4299gb846g59727a5729be" version="1">You learn the &lt;LSTag Type="Passive" Tooltip="Discipline_AdaptiveBody"&gt;Adaptive Body&lt;/LSTag&gt; discipline. Learn the following abilities:&lt;br&gt;- &lt;LSTag Type="Spell" Tooltip="Shout_Mystic_PsychicFocus_AdaptiveBody"&gt;Psychic Focus: Adaptive Body&lt;/LSTag&gt;&lt;br&gt;- &lt;LSTag Type="Spell" Tooltip="Target_Mystic_EnvironmentalAdaptation"&gt;Environmental Adaptation&lt;/LSTag&gt;&lt;br&gt;- &lt;LSTag Type="Spell" Tooltip="Shout_Mystic_AdaptiveShield"&gt;Adaptive Shield&lt;/LSTag&gt;&lt;br&gt;- &lt;LSTag Type="Spell" Tooltip="Target_Mystic_EnergyAdaptation"&gt;Energy Adaptation&lt;/LSTag&gt;&lt;br&gt;- &lt;LSTag Type="Spell" Tooltip="Target_Mystic_EnergyImmunity"&gt;Energy Immunity&lt;/LSTag&gt;</content>
-	<content contentuid="" version="1"> </content>
+	<content contentuid="" version="1">Ardent </content>
 	<content contentuid="" version="1"> </content>
 	<content contentuid="" version="1"> </content>
 	<content contentuid="" version="1"> </content>

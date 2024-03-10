@@ -93,7 +93,9 @@ data "SpellFlags" "IsSpell;RangeIgnoreVerticalThreshold;IsHarmful;HasHighGroundR
 data "ContainerSpells" ""
 
 new entry "Throw_Mystic_Move_6"
-using "Throw_Mystic_Move" 
+using "Throw_Mystic_Move"
+data "TargetRadius" "13.5"
+data "AreaRadius" "13.5"
 data "SpellSuccess" "DealDamage(6d6,Force,Magical)"
 data "SpellFail" "DealDamage(6d6,Force,Magical)"
 data "TooltipDamageList" "DealDamage(6d6,Force)"
@@ -104,7 +106,9 @@ data "SpellFlags" "IsSpell;RangeIgnoreVerticalThreshold;IsHarmful;HasHighGroundR
 data "ContainerSpells" ""
 
 new entry "Throw_Mystic_Move_7"
-using "Throw_Mystic_Move" 
+using "Throw_Mystic_Move"
+data "TargetRadius" "18"
+data "AreaRadius" "18" 
 data "SpellSuccess" "DealDamage(7d6,Force,Magical)"
 data "SpellFail" "DealDamage(7d6,Force,Magical)"
 data "TooltipDamageList" "DealDamage(7d6,Force)"

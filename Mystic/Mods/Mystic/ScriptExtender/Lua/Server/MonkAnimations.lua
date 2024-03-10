@@ -164,7 +164,8 @@ local monkSkills = {
 
 
 local progression = "c4598bdb-fc07-40dd-a62c-90cc138bd76f" -- Monk
-local source = "Progression1"
+-- local source = "Progression1"
+local source = "Boost"
 local spellUUID = "d136c5d9-0ff0-43da-acce-a74a07f8d6bf"
 
 Ext.Entity.Subscribe("SpellContainer", function(entity)

@@ -55,13 +55,25 @@ local monkSkills = {
     Shout_Mystic_MassEntanglement = true,
 }
 
+-- TODO: Add some checks:
+-- If the progression source is MYSTIC, change it to MONK
+-- If the progression source is WU JEN or IMMORTAL, change it to WAY OF THE FOUR ELEMENTS
+-- Check the ORIGINAL spellUUID; may not be required to change
+-- Check the ORIGINAL source, if it's ALWAYS Boost then I can change the source to Boost and it may work
+-- If it doesn't work, and it's always Boost, I may be screwed? But it may still be salvageable
+
 local progression = "c4598bdb-fc07-40dd-a62c-90cc138bd76f" -- Monk
-local source = "Progression1"
+-- local source = "Progression1"
+local source = "Boost"
 local spellUUID = "d136c5d9-0ff0-43da-acce-a74a07f8d6bf"
 
 Ext.Entity.Subscribe("SpellContainer", function(entity)
     for _, entry in pairs(entity.SpellContainer.Spells) do
         if monkSkills[entry.SpellId.OriginatorPrototype] then
+            -- _P("SpellContainer: entry: OriginatorPrototype: " .. entry.SpellId.OriginatorPrototype)
+            -- _P("SpellContainer: entry: SourceType: " .. entry.SpellId.SourceType)
+            -- _P("SpellContainer: entry: ProgressionSource: " .. entry.SpellId.ProgressionSource)
+            -- _P("SpellContainer: entry: Prototype: " .. entry.SpellId.Prototype)
             --entry.SpellId.SourceType = source
             entry.SpellId.ProgressionSource = progression
             entry.SpellUUID = spellUUID
