@@ -1696,42 +1696,42 @@
                     <attribute id="V2" type="float" value="0.25"/> Bottom
                 </node>	
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icon_"/> 240 ROW 8 = 16
+                    <attribute id="MapKey" type="FixedString" value="Action_Mystic_DevastatingStrike"/> 240 ROW 8 = 16
                     <attribute id="U1" type="float" value="0.46875"/> Left
                     <attribute id="U2" type="float" value="0.5"/> Right
                     <attribute id="V1" type="float" value="0.21875"/> Top
                     <attribute id="V2" type="float" value="0.25"/> Bottom
                 </node>		
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icon_"/> 241 ROW 8 = 17
+                    <attribute id="MapKey" type="FixedString" value="Action_Mystic_EnergyBeam_Acid"/> 241 ROW 8 = 17
                     <attribute id="U1" type="float" value="0.5"/> Left
                     <attribute id="U2" type="float" value="0.53125"/> Right
                     <attribute id="V1" type="float" value="0.21875"/> Top
                     <attribute id="V2" type="float" value="0.25"/> Bottom
                 </node>	
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icon_"/> 242 ROW 8 = 18
+                    <attribute id="MapKey" type="FixedString" value="Action_Mystic_EnergyBeam_Cold"/> 242 ROW 8 = 18
                     <attribute id="U1" type="float" value="0.53125"/> Left
                     <attribute id="U2" type="float" value="0.5625"/> Right
                     <attribute id="V1" type="float" value="0.21875"/> Top
                     <attribute id="V2" type="float" value="0.25"/> Bottom
                 </node>		
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icon_"/> 243 ROW 8 = 19
+                    <attribute id="MapKey" type="FixedString" value="Action_Mystic_EnergyBeam_Fire"/> 243 ROW 8 = 19
                     <attribute id="U1" type="float" value="0.5625"/> Left
                     <attribute id="U2" type="float" value="0.59375"/> Right
                     <attribute id="V1" type="float" value="0.21875"/> Top
                     <attribute id="V2" type="float" value="0.25"/> Bottom
                 </node>		
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icon_"/> 244 ROW 8 = 20
+                    <attribute id="MapKey" type="FixedString" value="Action_Mystic_EnergyBeam_Lightning"/> 244 ROW 8 = 20
                     <attribute id="U1" type="float" value="0.59375"/> Left
                     <attribute id="U2" type="float" value="0.625"/> Right
                     <attribute id="V1" type="float" value="0.21875"/> Top
                     <attribute id="V2" type="float" value="0.25"/> Bottom
                 </node>		
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icon_"/> 245 ROW 8 = 21
+                    <attribute id="MapKey" type="FixedString" value="Action_Mystic_EnergyBeam_Thunder"/> 245 ROW 8 = 21
                     <attribute id="U1" type="float" value="0.625"/> Left
                     <attribute id="U2" type="float" value="0.65625"/> Right
                     <attribute id="V1" type="float" value="0.21875"/> Top

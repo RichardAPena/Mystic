@@ -11,6 +11,7 @@ data "DescriptionParams" "2"
 
 data "ContainerSpells" "Projectile_Mystic_PsychicBarrage_1;Projectile_Mystic_PsychicBarrage_2;Projectile_Mystic_PsychicBarrage_3;Projectile_Mystic_PsychicBarrage_4;Projectile_Mystic_PsychicBarrage_5;Projectile_Mystic_PsychicBarrage_6;Projectile_Mystic_PsychicBarrage_7"
 
+data "CastTargetHitDelay" "150"
 data "TargetRadius" "18"
 data "Cooldown" ""
 data "AmountOfTargets" "2"

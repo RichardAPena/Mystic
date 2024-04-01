@@ -8,6 +8,7 @@ data "Icon" "PsychicFocus_Mystic_AdaptiveBody"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "CarryCapacityMultiplier(1.5)"
 data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "IgnoreResting"
 
 // Psychic Focus: Aura Sight
 new entry "PSYCHIC_FOCUS_AURA_SIGHT"
@@ -19,6 +20,7 @@ data "Icon" "PsychicFocus_Mystic_AuraSight"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "Advantage(Skill, Insight)"
 data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "IgnoreResting"
 
 // Psychic Focus: Bestial Form
 new entry "PSYCHIC_FOCUS_BESTIAL_FORM"
@@ -30,6 +32,7 @@ data "Icon" "PsychicFocus_Mystic_BestialForm"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "Advantage(Skill, AnimalHandling)"
 data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "IgnoreResting"
 
 // Psychic Focus: Brute Force
 new entry "PSYCHIC_FOCUS_BRUTE_FORCE"
@@ -41,6 +44,7 @@ data "Icon" "PsychicFocus_Mystic_BruteForce"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "Advantage(Skill, Athletics)"
 data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "IgnoreResting"
 
 // Psychic Focus: Celerity
 new entry "PSYCHIC_FOCUS_CELERITY"
@@ -53,6 +57,7 @@ data "Icon" "PsychicFocus_Mystic_Celerity"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "ActionResource(Movement,3,0)"
 data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "IgnoreResting"
 
 // Psychic Focus: Corrosive Metabolism
 new entry "PSYCHIC_FOCUS_CORROSIVE_METABOLISM"
@@ -64,6 +69,7 @@ data "Icon" "PsychicFocus_Mystic_CorrosiveMetabolism"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "Resistance(Poison, Resistant);Resistance(Acid, Resistant)"
 data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "IgnoreResting"
 
 // Psychic Focus: Crown of Despair
 new entry "PSYCHIC_FOCUS_CROWN_OF_DESPAIR"
@@ -75,6 +81,7 @@ data "Icon" "PsychicFocus_Mystic_CrownOfDespair"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "Advantage(Skill, Intimidation)"
 data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "IgnoreResting"
 
 // Psychic Focus: Crown of Disgust
 new entry "PSYCHIC_FOCUS_CROWN_OF_DISGUST"
@@ -87,8 +94,8 @@ data "Icon" "PsychicFocus_Mystic_CrownOfDisgust"
 data "StackId" "PSYCHIC_FOCUS"
 data "AuraRadius" "6"
 data "AuraStatuses" "TARGET:IF(Character() and Enemy() and not IsImmuneToStatus('SG_Frightened')):ApplyStatus(DIFFICULT_TERRAIN)"
-data "StatusPropertyFlags" "IgnoreResting;DisableCombatlog"
 data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "IgnoreResting"
 
 // Psychic Focus: Crown of Rage
 new entry "PSYCHIC_FOCUS_CROWN_OF_RAGE"
@@ -100,6 +107,7 @@ data "Icon" "PsychicFocus_Mystic_CrownOfRage"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "IF(IsMeleeAttack()):Disadvantage(AttackTarget)"
 data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "IgnoreResting"
 
 // Psychic Focus: Diminution
 new entry "PSYCHIC_FOCUS_DIMINUTION"
@@ -111,6 +119,7 @@ data "Icon" "PsychicFocus_Mystic_Diminution"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "Advantage(Skill, Stealth)"
 data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "IgnoreResting"
 
 // Psychic Focus: Giant Growth
 new entry "PSYCHIC_FOCUS_GIANT_GROWTH"
@@ -123,6 +132,7 @@ data "Icon" "PsychicFocus_Mystic_GiantGrowth"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "UnlockSpellVariant(GiantGrowthCheck(), ModifyTargetRadius(AdditiveBase, 1.5));"
 data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "IgnoreResting"
 
 // Psychic Focus: Intellect Fortress
 new entry "PSYCHIC_FOCUS_INTELLECT_FORTRESS"
@@ -134,6 +144,7 @@ data "Icon" "PsychicFocus_Mystic_IntellectFortress"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "Resistance(Psychic, Resistant)"
 data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "IgnoreResting"
 
 // Psychic Focus: Iron Durability
 new entry "PSYCHIC_FOCUS_IRON_DURABILITY"
@@ -145,6 +156,7 @@ data "Icon" "PsychicFocus_Mystic_IronDurability"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "AC(1)"
 data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "IgnoreResting"
 
 // Psychic Focus: Mantle of Awe
 new entry "PSYCHIC_FOCUS_MANTLE_OF_AWE"
@@ -157,6 +169,7 @@ data "Icon" "PsychicFocus_Mystic_MantleOfAwe"
 data "StackId" "PSYCHIC_FOCUS" 
 data "Boosts" "RollBonus(SkillCheck, max(1,IntelligenceModifier/2), Deception);RollBonus(SkillCheck, max(1,IntelligenceModifier/2), Intimidation);RollBonus(SkillCheck, max(1,IntelligenceModifier/2), Performance);RollBonus(SkillCheck, max(1,IntelligenceModifier/2), Persuasion)"
 data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "IgnoreResting"
 
 // Psychic Focus: Mantle of Command
 new entry "PSYCHIC_FOCUS_MANTLE_OF_COMMAND"
@@ -168,6 +181,7 @@ data "Icon" "PsychicFocus_Mystic_MantleOfCommand"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "UnlockSpell(Target_Mystic_CommandersImperative)"
 data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "IgnoreResting"
 
 new entry "MYSTIC_COMMANDERS_IMPERATIVE"
 type "StatusData"
@@ -196,6 +210,7 @@ data "Boosts" "Tag(FRIGHTENED_ADV)"
 data "RemoveConditions" "HasStatus('SG_Incapacitated')"
 data "RemoveEvents" "OnStatusApplied"
 data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "IgnoreResting"
 
 new entry "PSYCHIC_FOCUS_MANTLE_OF_COURAGE_BUFF"
 type "StatusData"
@@ -217,6 +232,7 @@ data "Icon" "PsychicFocus_Mystic_MantleOfFear"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "Advantage(Skill, Intimidation)"
 data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "IgnoreResting"
 
 // Psychic Focus: Mantle of Fury
 new entry "PSYCHIC_FOCUS_MANTLE_OF_FURY"
@@ -232,6 +248,7 @@ data "AuraStatuses" "TARGET:IF(Character() and Ally()):ApplyStatus(PSYCHIC_FOCUS
 data "StatusGroups" "SG_RemoveOnRespec"
 data "TickType" "StartTurn"
 data "TickFunctors" "ApplyStatus(PSYCHIC_FOCUS_MANTLE_OF_FURY_SPEED,100,1)"
+data "StatusPropertyFlags" "IgnoreResting"
 
 new entry "PSYCHIC_FOCUS_MANTLE_OF_FURY_BUFF"
 type "StatusData"
@@ -266,6 +283,7 @@ data "Icon" "PsychicFocus_Mystic_MantleOfJoy"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "Advantage(Skill, Persuasion)"
 data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "IgnoreResting"
 
 // Psychic Focus: Mastery of Air
 new entry "PSYCHIC_FOCUS_MASTERY_OF_AIR"
@@ -277,6 +295,7 @@ data "Icon" "PsychicFocus_Mystic_MasteryOfAir"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "IgnoreFallDamage();StatusImmunity(SG_DifficultTerrain)"
 data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "IgnoreResting"
 
 // Psychic Focus: Mastery of Fire
 new entry "PSYCHIC_FOCUS_MASTERY_OF_FIRE"
@@ -289,6 +308,7 @@ data "Icon" "PsychicFocus_Mystic_MasteryOfFire"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "Resistance(Fire, Resistant);DamageBonus(2)"
 data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "IgnoreResting"
 
 // Psychic Focus: Mastery of Force
 new entry "PSYCHIC_FOCUS_MASTERY_OF_FORCE"
@@ -300,6 +320,7 @@ data "Icon" "PsychicFocus_Mystic_MasteryOfForce"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "Advantage(Ability, Strength)"
 data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "IgnoreResting"
 
 // Psychic Focus: Mastery of Ice
 new entry "PSYCHIC_FOCUS_MASTERY_OF_ICE"
@@ -311,6 +332,7 @@ data "Icon" "PsychicFocus_Mystic_MasteryOfIce"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "Resistance(Cold, Resistant);StatusImmunity(PRONE_ICE)"
 data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "IgnoreResting"
 
 // Psychic Focus: Mastery of Light and Darkness
 new entry "PSYCHIC_FOCUS_MASTERY_OF_LIGHT_AND_DARKNESS"
@@ -322,6 +344,7 @@ data "Icon" "PsychicFocus_Mystic_MasteryOfLightAndDarkness"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "StatusImmunity(BLINDED_DARKNESS);IgnoreSurfaceCover(SurfaceDarknessCloud)"
 data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "IgnoreResting"
 
 // Psychic Focus: Mastery of Water
 new entry "PSYCHIC_FOCUS_MASTERY_OF_WATER"
@@ -333,6 +356,7 @@ data "Icon" "PsychicFocus_Mystic_MasteryOfWater"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "Resistance(Fire, Resistant);StatusImmunity(DIFFICULT_TERRAIN_MUD);StatusImmunity(DIFFICULT_TERRAIN_DEEPWATER)"
 data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "IgnoreResting"
 
 // Psychic Focus: Mastery of Weather
 new entry "PSYCHIC_FOCUS_MASTERY_OF_WEATHER"
@@ -344,6 +368,7 @@ data "Icon" "PsychicFocus_Mystic_MasteryOfWeather"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "Resistance(Lightning, Resistant);Resistance(Thunder, Resistant)"
 data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "IgnoreResting"
 
 // Psychic Focus: Mastery of Wood and Earth
 new entry "PSYCHIC_FOCUS_MASTERY_OF_WOOD_AND_EARTH"
@@ -355,6 +380,7 @@ data "Icon" "PsychicFocus_Mystic_MasteryOfWoodAndEarth"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "AC(1)"
 data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "IgnoreResting"
 
 // Psychic Focus: Nomadic Arrow
 new entry "PSYCHIC_FOCUS_NOMADIC_ARROW"
@@ -366,6 +392,7 @@ data "Icon" "PsychicFocus_Mystic_NomadicArrow"
 data "StackId" "PSYCHIC_FOCUS"
 data "Passives" "Discipline_NomadicArrow_Effect"
 data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "IgnoreResting"
 
 // Psychic Focus: Nomadic Chameleon
 new entry "PSYCHIC_FOCUS_NOMADIC_CHAMELEON"
@@ -377,6 +404,7 @@ data "Icon" "PsychicFocus_Mystic_NomadicChameleon"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "Advantage(Skill, Stealth)"
 data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "IgnoreResting"
 
 // Psychic Focus: Nomadic Mind
 new entry "PSYCHIC_FOCUS_NOMADIC_MIND"
@@ -387,6 +415,7 @@ data "Description" "h892cf89bg58d2g40d1gb3e3gdb2b1045c9aa"
 data "Icon" "PsychicFocus_Mystic_NomadicMind"
 data "StackId" "PSYCHIC_FOCUS"
 data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "IgnoreResting"
 
 new entry "PSYCHIC_FOCUS_NOMADIC_MIND_ATHLETICS"
 type "StatusData"
@@ -397,6 +426,7 @@ data "Icon" "PsychicFocus_Mystic_NomadicMind"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "ProficiencyBonus(Skill,Athletics);"
 data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "IgnoreResting"
 
 new entry "PSYCHIC_FOCUS_NOMADIC_MIND_ACROBATICS"
 type "StatusData"
@@ -562,6 +592,7 @@ data "Icon" "PsychicFocus_Mystic_NomadicStep"
 data "StackId" "PSYCHIC_FOCUS"
 data "Passives" "Discipline_NomadicStep_Effect"
 data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "IgnoreResting"
 
 new entry "PSYCHIC_FOCUS_NOMADIC_STEP_BUFF"
 type "StatusData"
@@ -575,6 +606,7 @@ data "Boosts" "ActionResource(Movement,3,0)"
 data "StackType" "Additive"
 data "OnApplyFunctors" "IF(MaximumLowStackableStatus(context.Source, 'PSYCHIC_FOCUS_NOMADIC_STEP_BUFF')):SetStatusDuration(PSYCHIC_FOCUS_NOMADIC_STEP_BUFF, 5, ForceSet)"
 data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "MultiplyEffectsByDuration"
 
 // Psychic Focus: Precognition
 new entry "PSYCHIC_FOCUS_PRECOGNITION"
@@ -587,6 +619,7 @@ data "Icon" "PsychicFocus_Mystic_Precognition"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "Initiative(1)"
 data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "IgnoreResting"
 
 // Psychic Focus: Psionic Restoration
 new entry "PSYCHIC_FOCUS_PSIONIC_RESTORATION"
@@ -598,6 +631,7 @@ data "Icon" "PsychicFocus_Mystic_PsionicRestoration"
 data "StackId" "PSYCHIC_FOCUS"
 data "Passives" "Discipline_PsionicRestoration_Effect"
 data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "IgnoreResting"
 
 // Psychic Focus: Psionic Weapon
 new entry "PSYCHIC_FOCUS_PSIONIC_WEAPON"
@@ -605,10 +639,12 @@ type "StatusData"
 data "StatusType" "BOOST"
 data "DisplayName" "h3a13dfd6g7b96g419bg95b5g255af4148d7b"
 data "Description" "h302d10ecg7f3cg4b97gba4fgb0853ab32168"
+data "DescriptionParams" "1"
 data "Icon" "PsychicFocus_Mystic_PsionicWeapon"
 data "StackId" "PSYCHIC_FOCUS"
-data "Boosts" "UnarmedMagicalProperty();WeaponProperty(Magical)"
+data "Boosts" "IF(IsWeaponAttack()):RollBonus(Attack,1)"
 data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "IgnoreResting"
 
 // Psychic Focus: Psychic Assault
 new entry "PSYCHIC_FOCUS_PSYCHIC_ASSAULT"
@@ -621,6 +657,7 @@ data "Icon" "PsychicFocus_Mystic_PsychicAssault"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "IF(PsionicTalentCheck()):DamageBonus(2)"
 data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "IgnoreResting"
 
 // Psychic Focus: Psychic Disruption
 new entry "PSYCHIC_FOCUS_PSYCHIC_DISRUPTION"
@@ -632,6 +669,7 @@ data "Icon" "PsychicFocus_Mystic_PsychicDisruption"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "Advantage(Skill, Deception)"
 data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "IgnoreResting"
 
 // Psychic Focus: Telepathic Subjugation (Telepathic Contact) 
 new entry "PSYCHIC_FOCUS_TELEPATHIC_SUBJUGATION"
@@ -644,6 +682,7 @@ data "Icon" "PsychicFocus_Mystic_TelepathicSubjugation"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "SpellSaveDC(1)"
 data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "IgnoreResting"
 
 // Psychic Focus: Third Eye
 new entry "PSYCHIC_FOCUS_THIRD_EYE"
@@ -656,6 +695,7 @@ data "Icon" "PsychicFocus_Mystic_ThirdEye"
 data "StackId" "PSYCHIC_FOCUS"
 data "Boosts" "DarkvisionRangeMin(12);ActiveCharacterLight(051648e6-f05a-e41f-e398-ffd5cd148989)"
 data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusPropertyFlags" "IgnoreResting"
 
 // Beacon
 new entry "MYSTIC_BEACON"
@@ -2869,6 +2909,7 @@ data "StatusGroups" "SG_Blinded;SG_Condition"
 data "ApplyEffect" "39044361-a2df-4730-90ca-ce37ddcbc482"
 data "StatusEffect" "5c53ef4c-bd94-4567-94c1-8b1a8cefa7e3"
 data "StatusPropertyFlags" "Blind"
+data "TickFunctors" "ApplyStatus(WET,100,2)"
 
 // Wall of Thunder
 new entry "MYSTIC_WALLOFTHUNDER"
@@ -3069,6 +3110,7 @@ type "StatusData"
 data "StatusType" "BOOST"
 data "DisplayName" "h576ef80fg247dg4540g94a6g66e0d4d9d1cb"
 data "Description" "h5bb0eed8g2635g4626g92d8g068d55d30155"
+data "DescriptionParams" "RegainHitPoints(2)"
 data "Icon" "Action_Mystic_AvatarOfHealing"
 data "StackId" "MYSTIC_AVATAR_OF_HEALING"
 data "Passives" "Passive_Mystic_AvatarOfHealing"
@@ -3085,7 +3127,7 @@ data "Description" "h5bb0eed8g2635g4626g92d8g068d55d30155"
 data "Icon" "Action_Mystic_AvatarOfHealing"
 data "StackId" "MYSTIC_AVATAR_OF_HEALING_BUFF"
 data "Passives" "Passive_Mystic_AvatarOfHealing"
-data "StatusPropertyFlags" "IgnoreResting"
+data "StatusPropertyFlags" "IgnoreResting;DisableCombatlog"
 data "StatusGroups" "SG_RemoveOnRespec"
 
 // Avatar of Speed
@@ -3097,7 +3139,7 @@ data "Description" "h5f20fb17g5011g4499g844fg7b338a180fb8"
 data "Icon" "Action_Mystic_AvatarOfSpeed"
 data "StackId" "MYSTIC_AVATAR_OF_SPEED"
 data "Boosts" "UnlockSpell(Shout_Dash_BonusAction)"
-data "StatusPropertyFlags" "IgnoreResting"
+data "StatusPropertyFlags" "IgnoreResting;DisableCombatlog"
 data "AuraRadius" "9"
 data "AuraStatuses" "TARGET:IF(Character() and Ally() and not Self()):ApplyStatus(MYSTIC_AVATAR_OF_SPEED_BUFF)"
 data "StatusGroups" "SG_RemoveOnRespec"
@@ -3110,7 +3152,7 @@ data "Description" "h5f20fb17g5011g4499g844fg7b338a180fb8"
 data "Icon" "Action_Mystic_AvatarOfSpeed"
 data "StackId" "MYSTIC_AVATAR_OF_SPEED_BUFF"
 data "Boosts" "UnlockSpell(Shout_Dash_BonusAction)"
-data "StatusPropertyFlags" "IgnoreResting"
+data "StatusPropertyFlags" "IgnoreResting;DisableCombatlog"
 data "StatusGroups" "SG_RemoveOnRespec"
 
 // Psionic Investigation
@@ -3688,9 +3730,10 @@ type "StatusData"
 data "StatusType" "BOOST"
 data "DisplayName" "hb2409644g6c51g4bcaga8b0g9b654b416ec9"
 data "Description" "h1b72ec89g74eag42b3g87e9g6ea3acf7cb2e"
+data "DescriptionParams" "DealDamage(1d4,Psychic)"
 data "Icon" "Action_PactOfTheBlade_Greatsword"
 data "StackId" "MYSTIC_PSIONIC_EMPOWERMENT"
-data "Boosts" "WeaponAttackRollAbilityOverride(SpellCastingAbility)"
+data "Boosts" "WeaponAttackRollAbilityOverride(SpellCastingAbility);WeaponDamage(1d4,Psychic)"
 data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "MYSTIC_FREECAST"

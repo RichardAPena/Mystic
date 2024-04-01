@@ -160,8 +160,8 @@
 	<content contentuid="hc5c3d2eage8c2g4ad9gb40bg49fa398d1db0" version="1">Gain half of your Intelligence &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; as a bonus to Charisma &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="h2992fa4fgf81bg45c1g81adge4e0e19a9c37" version="1">+[1] to Charisma &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="h30935e9bg9decg4089g9f85g3789939b3e6d" version="1">Psychic Focus: Mantle of Command</content>
-	<content contentuid="heb843595gc7acg4e46g9d53gd8a7b1232531" version="1">Gain the ability to cast &lt;LSTag Tooltip="Target_Mystic_CommandersImperative"&gt;Commander's Imperative&lt;/LSTag&gt; for free, once per turn.</content>
-	<content contentuid="h37c8bd6agbc0ag4d3egaf61g8296f4b02afe" version="1">Able to cast &lt;LSTag Tooltip="Target_Mystic_CommandersImperative"&gt;Commander's Imperative&lt;/LSTag&gt;.</content>
+	<content contentuid="heb843595gc7acg4e46g9d53gd8a7b1232531" version="1">Gain the ability to cast &lt;LSTag Type="Spell" Tooltip="Target_Mystic_CommandersImperative"&gt;Commander's Imperative&lt;/LSTag&gt; for free, once per turn.</content>
+	<content contentuid="h37c8bd6agbc0ag4d3egaf61g8296f4b02afe" version="1">Able to cast &lt;LSTag Type="Spell" Tooltip="Target_Mystic_CommandersImperative"&gt;Commander's Imperative&lt;/LSTag&gt; once each turn.</content>
 	<content contentuid="he5fc1d3age6c4g4017gb0a2gd2d2f0f6fa4e" version="1">Commander's Imperative</content>
 	<content contentuid="ha78de940ge09dg428eg89c6g161d9f40b1a3" version="1">Mobilize an ally, increasing their &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; by [1].</content>
 	<content contentuid="hc1502b65g0e96g459cga39dg185ad7bed030" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;Movement speed&lt;/LSTag&gt; increased by [1].</content>
@@ -259,7 +259,7 @@
 	<content contentuid="h5d0405edgfb54g4cb3ga726g1027a04acdf9" version="1">When casting a healing psionic discipline, the target regains an additional 2 &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;.</content>
 	<content contentuid="h614de249g73b3g41cdg9887gba59864e91e2" version="1">Psionic disciplines restore an additional 2 &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;.</content>
 	<content contentuid="h3a13dfd6g7b96g419bg95b5g255af4148d7b" version="1">Psychic Focus: Psionic Weapon</content>
-	<content contentuid="h302d10ecg7f3cg4b97gba4fgb0853ab32168" version="1">Unarmed and weapon damage rolls count as magical for the purpose of bypassing enemies' resistance to physical damage.</content>
+	<content contentuid="h302d10ecg7f3cg4b97gba4fgb0853ab32168" version="1">Gain +[1] to weapon &lt;LSTag Tooltip="AttackRoll"&gt;attack&lt;/LSTag&gt; rolls.</content>
 	<content contentuid="he07c3361g4749g4ea6gb302g7728bec50281" version="1">Psychic Focus: Psychic Assault</content>
 	<content contentuid="h984f00fcgcfadg4bb1gb996g2283fb48139c" version="1">Gain a +[1] bonus to damage rolls with psionic talents.</content>
 	<content contentuid="h14f88da9g40e0g4b28g92e3g7a311387e805" version="1">+[1] to damage rolls with psionic talents that deal Psychic damage.</content>
@@ -378,7 +378,7 @@
 	<content contentuid="h89287d81gc263g462fgad79gb530dfb6fdc9" version="1">Bestow courage to up to six creatures, removing any &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charmed&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="FEARED"&gt;Fear&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="SLEEP"&gt;Sleep&lt;/LSTag&gt; conditions.</content>
 	<content contentuid="h57e5f748gb553g43adgac10gb5b6bfbd6fd5" version="1">Aura of Victory</content>
 	<content contentuid="h039be837g8748g436fgaa7dg1bbff4f743d2" version="1">Project an aura that grants you and your allies [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; whenever a nearby enemy is reduced to 0 hit points.</content>
-	<content contentuid="h51ed9e73g868fg4439g9026geca810651929" version="1">Gains &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; whenever a nearby enemy creature is reduced to 0 hit points.</content>
+	<content contentuid="h51ed9e73g868fg4439g9026geca810651929" version="1">Gains [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; whenever a nearby enemy creature is reduced to 0 hit points.</content>
 	<content contentuid="h98195dedg0cdeg45b5gaf3ag2998fcf5e4ed" version="1">Triumphant</content>
 	<content contentuid="hcd431a9dga128g4531gbfb7g8b871745f056" version="1">Has [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;.</content>
 	<content contentuid="h217c8d85gd7ebg4ddcg901agd58751efd008" version="1">Rallying Cry</content>
@@ -551,7 +551,7 @@
 	<content contentuid="h1598778aga893g4fb9g8c9bg9f3b911368d9" version="1">Mighty Leap</content>
 	<content contentuid="h3e1bda4bg49cbg4f46g99fbg1b09c977a6c4" version="1">Propel yourself with psionic energy, jumping up to [1].</content>
 	<content contentuid="h20014ac4g9feeg4775ga235gf9e70dd67cad" version="1">Feat of Strength</content>
-	<content contentuid="hc368b59cge415g42edgbe39geeff76042387" version="1">Augment your own physical ability, gaining a +[1] bonus to Strength &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt; until the end of your next turn.</content>
+	<content contentuid="hc368b59cge415g42edgbe39geeff76042387" version="1">Augment your own physical ability, gaining a +[1] bonus to Strength &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="h9a1b3edbg95a8g46f7g885bg002faf873cd4" version="1">+[1] to Strength &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="he2dc5c7ag3db0g49ffg9fdfg1c5c723828ea" version="1">Rapid Step</content>
 	<content contentuid="h93834a62gf596g4d23gb77eg75b87e6da5ef" version="1">Quicken your steps, increasing your &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; by [1].</content>
@@ -621,8 +621,9 @@
 	<content contentuid="he3932f8cgb0afg46d2g8ceag5cccffe16148" version="1">Transform your weapons into pure psionic energy. Your weapon attacks become Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; instead of being &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;, dealing half damage on a successful save.</content>
 	<content contentuid="h1bddf10bg85aeg4891gae66g13c4bfd86fb4" version="1">Weapon &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; become Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; instead, dealing half damage on save.</content>
 	<content contentuid="hc5a2a389g7dbdg4bf7ga663gd4b1b9a0269a" version="1">Lethal Strike</content>
-	<content contentuid="h600047abg09aeg4d3eg8d22g6c56d536d073" version="1">Lethal Strike (Melee)</content>
-	<content contentuid="hbd3031c9g4cceg43c8gb553g54176b3f8ff3" version="1">Lethal Strike (Ranged)</content>
+	<content contentuid="h0fca0ef3g244eg4ca2gaec6g791d6a5f0b5c" version="1">Devastating Strike</content>
+	<content contentuid="h600047abg09aeg4d3eg8d22g6c56d536d073" version="1">Devastating Strike (Melee)</content>
+	<content contentuid="hbd3031c9g4cceg43c8gb553g54176b3f8ff3" version="1">Devastating Strike (Ranged)</content>
 	<content contentuid="ha1ee4050g7ccdg4f77g9c8cg17acfd982854" version="1">Your weapon deals an additional [1].</content>
 	<content contentuid="h2ae11de5gcdd0g4383gbc9dg53bf9b5b3484" version="1">Does not spend Psi Points.</content>
 	<content contentuid="h51aa6b39ge4c4g4802g98e7g7495bd716562" version="1">Imbue your weapons with psychic energy. Your next weapon attack will deal an additional [1].</content>
@@ -846,8 +847,8 @@
 	<content contentuid="h8ec97092ga28cg4010g87d6g937a3c1498a9" version="1">Project an inspiring aura, giving nearby allies +[1] to Initiative.</content>
 	<content contentuid="h8c23bb63g8001g4df9g817fgcdb0e2ad8e10" version="1">+[1] to Initiative.</content>
 	<content contentuid="h576ef80fg247dg4540g94a6g66e0d4d9d1cb" version="1">Avatar of Healing</content>
-	<content contentuid="h5f8fefd6g38f9g415fg872bg1260816a1289" version="1">Project a soothing aura, causing nearby allies to regain 2 additional hit points from all sources of healing.</content>
-	<content contentuid="h5bb0eed8g2635g4626g92d8g068d55d30155" version="1">Receives 2 additional hit points from all healing sources.</content>
+	<content contentuid="h5f8fefd6g38f9g415fg872bg1260816a1289" version="1">Project a soothing aura, causing nearby allies to regain an additional [1] from all sources of healing.</content>
+	<content contentuid="h5bb0eed8g2635g4626g92d8g068d55d30155" version="1">Receives an additional [1] from all healing sources.</content>
 	<content contentuid="h1fcff20ag758dg4fedg963eg746ce052d946" version="1">Avatar of Speed</content>
 	<content contentuid="h7d85d542g7f66g49c1g880bg1a6cef1bf0ff" version="1">Project an aura of speed, allowing nearby allies to use Dash as a bonus action.</content>
 	<content contentuid="h5f20fb17g5011g4499g844fg7b338a180fb8" version="1">Able to use Dash as a bonus action.</content>
@@ -1059,9 +1060,9 @@
 	<content contentuid="hb2409644g6c51g4bcaga8b0g9b654b416ec9" version="1">Psionic Empowerment</content>
 	<content contentuid="h2c89b508g4325g4fb9gadf1g6e333b0dfbeb" version="1">Psionic Empowerment: Melee</content>
 	<content contentuid="hc2e6ad51g2230g47d0g9554gcd9fa989d6cc" version="1">Psionic Empowerment: Ranged</content>
-	<content contentuid="h33d1bfb9g44f2g4142gb238gd65705b9fac0" version="1">Imbue your melee weapon with psionic energy, allowing you to use your &lt;LSTag Tooltip="SpellcastingAbilityModifier"&gt;Spellcasting Ability Modifier&lt;/LSTag&gt; for &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
-	<content contentuid="h85551a4fg38f1g467cgabdegc2fcd8e7335a" version="1">Imbue your ranged weapon with psionic energy, allowing you to use your &lt;LSTag Tooltip="SpellcastingAbilityModifier"&gt;Spellcasting Ability Modifier&lt;/LSTag&gt; for &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
-	<content contentuid="h1b72ec89g74eag42b3g87e9g6ea3acf7cb2e" version="1">This weapon uses the wielder's &lt;LSTag Tooltip="SpellcastingAbilityModifier"&gt;Spellcasting Ability Modifier&lt;/LSTag&gt; for &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
+	<content contentuid="h33d1bfb9g44f2g4142gb238gd65705b9fac0" version="1">Imbue your melee weapon with psionic energy, allowing you to use your &lt;LSTag Tooltip="SpellcastingAbilityModifier"&gt;Spellcasting Ability Modifier&lt;/LSTag&gt; for &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;. Additionally, attacks with this weapon will deal an additional [1].</content>
+	<content contentuid="h85551a4fg38f1g467cgabdegc2fcd8e7335a" version="1">Imbue your ranged weapon with psionic energy, allowing you to use your &lt;LSTag Tooltip="SpellcastingAbilityModifier"&gt;Spellcasting Ability Modifier&lt;/LSTag&gt; for &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;. Additionally, attacks with this weapon will deal an additional [1].</content>
+	<content contentuid="h1b72ec89g74eag42b3g87e9g6ea3acf7cb2e" version="1">This weapon uses the wielder's &lt;LSTag Tooltip="SpellcastingAbilityModifier"&gt;Spellcasting Ability Modifier&lt;/LSTag&gt; for &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;. Additionally, attacks with this weapon will deal an additional [1].</content>
 	<content contentuid="hc8601f14gd814g4c22gb81agaa8992920bb3" version="1">Decisive Strike</content>
 	<content contentuid="hc7c20e50g31ccg4304gb183g72b11bf62200" version="1">Attack an enemy with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
 	<content contentuid="h8e55f0e6g6c63g4878gaa5bg986bd471c75a" version="1">Decisive Shot</content>
@@ -1075,10 +1076,10 @@
 	<content contentuid="ha354ebdbgacedg4f6dg8aedgc306299af722" version="1">Psychic Focus</content>
 	<content contentuid="h8e973f3fg193cg4a91gb72fg5671a6978735" version="1">Change your active psychic focus.</content>
 	<content contentuid="hc72d01b1g7f79g4299gb846g59727a5729be" version="1">You learn the &lt;LSTag Type="Passive" Tooltip="Discipline_AdaptiveBody"&gt;Adaptive Body&lt;/LSTag&gt; discipline. Learn the following abilities:&lt;br&gt;- &lt;LSTag Type="Spell" Tooltip="Shout_Mystic_PsychicFocus_AdaptiveBody"&gt;Psychic Focus: Adaptive Body&lt;/LSTag&gt;&lt;br&gt;- &lt;LSTag Type="Spell" Tooltip="Target_Mystic_EnvironmentalAdaptation"&gt;Environmental Adaptation&lt;/LSTag&gt;&lt;br&gt;- &lt;LSTag Type="Spell" Tooltip="Shout_Mystic_AdaptiveShield"&gt;Adaptive Shield&lt;/LSTag&gt;&lt;br&gt;- &lt;LSTag Type="Spell" Tooltip="Target_Mystic_EnergyAdaptation"&gt;Energy Adaptation&lt;/LSTag&gt;&lt;br&gt;- &lt;LSTag Type="Spell" Tooltip="Target_Mystic_EnergyImmunity"&gt;Energy Immunity&lt;/LSTag&gt;</content>
-	<content contentuid="" version="1">Ardent </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
+	<content contentuid="h2bcfd72fg600ag43d8g9576gbdf060ac4158" version="1">Ardent Breastplate</content>
+	<content contentuid="h3e3fb13eg3985g4c3ag9712g88a5ea622df5" version="1">An old yet durable piece of armour worn by battle-hardened mystics.</content>
+	<content contentuid="h8492497fgf1deg40cag8544g024e26bdc338" version="1">Mystic's Armour</content>
+	<content contentuid="hd709fdd4g6ba0g4ad7g92b4ga6c0f25cd0e3" version="1">A well-worn piece of armour bestowed to trainee mystics.</content>
 	<content contentuid="" version="1"> </content>
 	<content contentuid="" version="1"> </content>
 	<content contentuid="" version="1"> </content>

@@ -30,6 +30,8 @@ local function PsychicDouble_StatusRemoved_MYSTIC_PSYCHIC_DOUBLE_INIT_2(object, 
 end
 
 local function PsychicDouble_StatusRemoved_MYSTIC_PSYCHIC_DOUBLE_INIT_3(object, _, _, _)
+	local owner, echo = PsychicDouble_GetMysticAndActiveClone(object)
+	PsychicDouble_Init_3(owner, echo)
 	Osi.RemoveStatus(object, "MYSTIC_PSYCHIC_DOUBLE_INIT")
 end
 
@@ -103,6 +105,13 @@ local PsychicDouble_UsingSpellAtPosition_Table = {
 
 local function PsychicDouble_TemplateAddedTo(_, item, character, addType)
 	-- print("MysticExpansion: TemplateAddedTo: _, item: " .. item .. " character: " .. character .. " addType: " .. addType)
+
+	if addType == "Regular" and PsychicDouble_IsClone(character) and Osi.IsEquipable(item) == 1 then
+		local unequipHelmet = false
+		local unequipInstrument = true
+
+		PsychicDouble_EquipFix_TemplateAddedTo_Internal(item, character, nil, unequipHelmet, unequipInstrument)
+	end
 
 end
 

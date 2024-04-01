@@ -147,7 +147,7 @@ function WarAdept_Dueling(character)
 
     local meleeMainHand = Osi.GetEquippedItem(character, "Melee Main Weapon")
     local meleeOffHand = Osi.GetEquippedItem(character, "Melee Offhand Weapon")
-    local hasShield = Osi.GetEquippedShield(character) == true
+    local hasShield = Osi.GetEquippedShield(character) ~= nil
     local meleeMainHandProperties = 0
     local meleeOffHandProperties = 0
 
@@ -171,12 +171,18 @@ function WarAdept_Dueling(character)
         end
     end
 
-    local hasNonVersatileWeapon = (meleeMainHandProperties & 4096) and not (meleeMainHandProperties & 2048) and not (meleeMainHandProperties & 1024) and not (meleeOffHandProperties & 4096) and not (meleeOffHandProperties & 2)
-    local hasVersatileWeaponAndShield = (meleeMainHandProperties & 4096) and (meleeMainHandProperties & 2048) and hasShield
+    -- main hand is melee
+    -- main hand is not versatile
+    -- main hand is not two handed
+    -- no off hand
+
+    local hasNonVersatileWeapon = ((meleeMainHandProperties & 4096) == 4096) and ((meleeMainHandProperties & 2048) == 0) and ((meleeMainHandProperties & 1024) == 0) and (meleeOffHandProperties == 0)
+    -- local hasNonVersatileWeapon = (meleeMainHandProperties & 4096)
+    local hasMeleeWeaponAndShield = (meleeMainHandProperties & 4096) and hasShield
     local hasDuelingStatus = Osi.HasActiveStatus(character, "MYSTIC_MYSTIC_ARSENAL_DUELING") == 1
 
     if hasDuelingStatus
-    and (hasNonVersatileWeapon or hasVersatileWeaponAndShield)
+    and (hasNonVersatileWeapon or hasMeleeWeaponAndShield)
     then
         if meleeMainHand then
             Osi.ApplyStatus(meleeMainHand, "MYSTIC_WAR_ADEPT", -1, 1, character)

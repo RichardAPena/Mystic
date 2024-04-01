@@ -319,6 +319,7 @@ data "ContainerSpells" "Zone_Mystic_WaterWhip_3;Zone_Mystic_WaterWhip_4;Zone_Mys
 data "SurfaceLifetime" "0"
 data "SurfaceGrowStep" "5"
 data "SurfaceGrowInterval" "10"
+data "SpellProperties" "GROUND:CreateSurface(1,10,Water)"
 data "SpellRoll" "not SavingThrow(Ability.Strength, SourceSpellDC())"
 data "SpellSuccess" "DealDamage(3d6,Bludgeoning,Magical);Force(3, TargetToEntity, Neutral, false, true)"
 data "SpellFail" "DealDamage((3d6)/2,Bludgeoning,Magical)"

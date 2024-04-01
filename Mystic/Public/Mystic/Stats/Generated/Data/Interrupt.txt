@@ -275,10 +275,10 @@ data "Properties" "IF(HasInterruptedAttack()):AdjustRoll(-3);ApplyStatus(OBSERVE
 // Lethal Strike (Interrupt)
 new entry "Interrupt_Mystic_LethalStrike"
 type "InterruptData"
-data "DisplayName" "hc5a2a389g7dbdg4bf7ga663gd4b1b9a0269a"
+data "DisplayName" "h0fca0ef3g244eg4ca2gaec6g791d6a5f0b5c"
 data "Description" "ha1ee4050g7ccdg4f77g9c8cg17acfd982854"
 data "DescriptionParams" "DealDamage(1d6,Psychic)"
-data "Icon" "Action_Mystic_LethalStrike"
+data "Icon" "Action_Mystic_DevastatingStrike"
 data "InterruptContext" "OnCastHit"
 data "InterruptContextScope" "Self"
 data "Container" "YesNoDecision"
