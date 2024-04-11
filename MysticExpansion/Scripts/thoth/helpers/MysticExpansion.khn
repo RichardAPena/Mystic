@@ -250,6 +250,7 @@ function TranscendenceBlacklist()
       | SpellId('Target_Mystic_SteelTempest_FinalStrike')
       | SpellId('Target_Mystic_BestialCompanion')
       | SpellId('Target_Mystic_SymbioticLink')
+      | SpellId('Target_Mystic_EtherealFusion')
 end
 
 function SpectralArmsCheck()

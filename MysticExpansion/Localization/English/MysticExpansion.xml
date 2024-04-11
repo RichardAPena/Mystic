@@ -93,7 +93,7 @@
 	<content contentuid="hdc8181a1g917eg4f04gb526gecdbea14b8be" version="1">You reach out with your mind and grasp the threads of time themselves, allowing you to bend reality and fate to your whims.</content>
 	<content contentuid="h4d96a2a6gbefbg4078g96e9g964cac1b2db5" version="1">Psychic Focus: Mastery of Time</content>
 	<content contentuid="h5df6c0bdg7883g4b16gb2d5g46d176d69e6f" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Perception &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
-	<content contentuid="h88d70814gd2c2g4267gaa01g229e258677b1" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Perception &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;. </content>
+	<content contentuid="h88d70814gd2c2g4267gaa01g229e258677b1" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Perception &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="h5e133af7ge787g4687ga4fegc8f7d1d3a24f" version="1">Borrowed Time</content>
 	<content contentuid="hfb3337bcg1c24g4a34g947bg99a9ab3ca801" version="1">Target yourself or an ally to become &lt;LSTag Type="Status" Tooltip="HASTE"&gt;Hastened&lt;/LSTag&gt;: gain an action, become faster and gain +2 to &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;. You become &lt;LSTag Type="Status" Tooltip="HASTE_LETHARGY"&gt;Lethargic&lt;/LSTag&gt; for one turn afterwards.</content>
 	<content contentuid="h82bcb1afg189ag4fe4ga411g65bbb765adef" version="1">Creature has a +2 bonus to &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;, &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;, its &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; is doubled, and it can take one additional action per turn.</content>
@@ -404,7 +404,7 @@
 	<content contentuid="hcde1959agf63ag436dg9489gf1da9eab1689" version="1">Psychic Focus: Nomadic Guile</content>
 	<content contentuid="hed6e6708ge82cg4507gbdb1g0e13d36f46b6" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Sleight of Hand &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="h83857e26g587cg4d12gb961g167fbf1828c1" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Sleight of Hand &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
-	<content contentuid="h45fbd087g5daag4b51ga3b5gac8ed2a1948f" version="1">A New Face </content>
+	<content contentuid="h45fbd087g5daag4b51ga3b5gac8ed2a1948f" version="1">A New Face</content>
 	<content contentuid="h5b6dcb41gdcd0g49a8g8e84g378ac8ddb022" version="1">Assimilate one of the many faces among the noosphere, allowing you to cast &lt;LSTag Type="Spell" Tooltip="Shout_DisguiseSelf"&gt;Disguise Self&lt;/LSTag&gt;.</content>
 	<content contentuid="hddae040eg5857g4ca8gb9b0g8d4e1acdb530" version="1">Affected entity can cast the &lt;LSTag Type="Spell" Tooltip="Shout_DisguiseSelf"&gt;Disguise Self&lt;/LSTag&gt; spell.</content>
 	<content contentuid="h6f31a83cg9e00g417bg98cag1cd2ff3c3b09" version="1">Nimble Fingers</content>
@@ -609,77 +609,94 @@
 	<content contentuid="hf17a22e6g3033g4f30g9067g96a9ddd13c4c" version="1">Crown of Regret</content>
 	<content contentuid="h9d4e91c6g7dfcg44f7g8f50gc32990aac10c" version="1">You sow feelings of shame and regret on others, causing them to hesitate on their actions and dwell on past mistakes.</content>
 	<content contentuid="he57c1db3g7ec3g46d9gbb5bg28bc96cb54d9" version="1">Psychic Focus: Crown of Regret</content>
-	<content contentuid="hba41d113g57a0g4ba5ga9ffg448da45cbc7d" version="1">Gain immunity to being &lt;LSTag Type="Status" Tooltip="INCAPACITATED"&gt;Incapacitated&lt;/LSTag&gt; by conditions.</content>
-	<content contentuid="h7fe05517g3dd2g452fgb755gbca63b5d1690" version="1">Immune to being &lt;LSTag Type="Status" Tooltip="INCAPACITATED"&gt;Incapacitated&lt;/LSTag&gt; .</content>
-	<content contentuid="" version="1">Crowned in Shame</content>
-	<content contentuid="" version="1">Flood the target with feelings of shame, Silencing them.</content>
-	<content contentuid="" version="1">Mark of Dishonour</content>
-	<content contentuid="" version="1">Torment a creature with intense feelings of guilt. Whenever one of their allies is reduced to [1], they take [2] and their movement speed is reduced to 0 for one turn.</content>
-	<content contentuid="" version="1">Affected entity is stricken with intense feelings of guilt. Whenever one of its allies is reduced to [1], it takes [2] and its movement speed is reduced to 0 for one turn.</content>
-	<content contentuid="" version="1">Penitence</content>
-	<content contentuid="" version="1">Cause a creauture to lament any harm they bring upon others. Whenever they deal damage, they take Psychic damage equal to the damage dealt.</content>
-	<content contentuid="" version="1">Affected entity is lamenting any harm it brings upon others. Whenever it deal damage, it takes Psychic damage equal to the damage dealt.</content>
-	<content contentuid="" version="1">Overwhelming Regret</content>
-	<content contentuid="" version="1">Assault up to six creatures with overwhelming feelings of regret, causing them to flee from you on their turn and do nothing else.</content>
+	<content contentuid="hba41d113g57a0g4ba5ga9ffg448da45cbc7d" version="1">Gain immunity to being &lt;LSTag Type="Status" Tooltip="INCAPACITATED"&gt;Incapacitated&lt;/LSTag&gt;.</content>
+	<content contentuid="h7fe05517g3dd2g452fgb755gbca63b5d1690" version="1">Immune to being &lt;LSTag Type="Status" Tooltip="INCAPACITATED"&gt;Incapacitated&lt;/LSTag&gt;.</content>
+	<content contentuid="he8cb333fg2ee7g473fg90e3gf34bd20fb1a0" version="1">Crowned in Shame</content>
+	<content contentuid="h42b6cd9ag9b04g4c2bg87ebgd8b40f9bf4a9" version="1">Flood the target with feelings of shame, &lt;LSTag Type="Status" Tooltip="MYSTIC_CROWNED_IN_SHAME"&gt;Silencing&lt;/LSTag&gt; them.</content>
+	<content contentuid="h84e2202eg77d1g40c3ga513gf24b4b266df2" version="1">Can't speak or cast spells with a verbal component.</content>
+	<content contentuid="h60cd31afg064eg43b3g8af4g71ba417ebaf4" version="1">Mark of Dishonour</content>
+	<content contentuid="ha0e88b0agb166g48e5gb285gf084a59eb83f" version="1">Torment a creature with intense feelings of guilt. Whenever one of their allies is reduced to [1], they take [2] and their &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; is reduced to 0 for one turn.</content>
+	<content contentuid="h2168b3f8g102fg4947gae67g5cda36e9387f" version="1">Affected entity is stricken with intense feelings of guilt. Whenever one of its allies is reduced to [1], it takes [2] and its &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; is reduced to 0 for one turn.</content>
+	<content contentuid="hcab9c67bgd855g4462g978bg73f8b9ac74bc" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; reduced to 0.</content>	
+	<content contentuid="h568abc5cg926ag49e6gac9dg7516a1856330" version="1">Penitence</content>
+	<content contentuid="h4842e6e1gc062g42a8g840dg6a2f1e33d107" version="1">Cause a creature to lament any harm they bring upon others. Whenever they deal damage, they take Psychic damage equal to the damage dealt.</content>
+	<content contentuid="h4d78ba0eg0d51g48d6g87b5g8d940f4bf9f3" version="1">Affected entity is lamenting any harm it brings upon others. Whenever it deal damage, it takes Psychic damage equal to the damage dealt.</content>
+	<content contentuid="h4af40969g884bg45fcga91fg907b17f7d710" version="1">Overwhelming Regret</content>
+	<content contentuid="h92389897gf2a5g461cga7dag522cf1cb540b" version="1">Assault up to six creatures with overwhelming feelings of regret, causing them to flee from you on their turn and do nothing else.</content>
 	<content contentuid="h147d37cbg38ecg455agaefbg41cf82f953b1" version="1">Phantasmal Mind</content>
-	<content contentuid="h4a95bac8g2a8cg41c1g8be3gc1bbbcc97489" version="1">TODO: Phantasmal Mind Description</content>
+	<content contentuid="h4a95bac8g2a8cg41c1g8be3gc1bbbcc97489" version="1">You learn to manifest your psionic power in uncanny ways, mimicking the paranormal traits of ghostly entities.</content>
 	<content contentuid="h3e99fd44gc93cg448ag8955g8401694ed044" version="1">Psychic Focus: Phantasmal Mind</content>
 	<content contentuid="h7255655cg4000g4405gbdd6g1f3611cdb3cd" version="1">Ranged attackers will have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against you.</content>
 	<content contentuid="h11406b5dg501eg4476gaf15gae322ebf1ad7" version="1">Ranged attackers have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against you.</content>
-	<content contentuid="" version="1">Haunt</content>
-	<content contentuid="" version="1">Harrow a creature's mind, dealing maximum damage against Frightened and Charmed targets.</content>
-	<content contentuid="" version="1">Eerie Fog</content>
-	<content contentuid="" version="1">TODO: Eerie Fog Description</content>
-	<content contentuid="" version="1">Ghostly Curse</content>
-	<content contentuid="" version="1">TODO: Ghostly Curse Description</content>
-	<content contentuid="" version="1">Otherwordly Reach</content>
-	<content contentuid="" version="1">TODO: Otherwordly Reach Description</content>
+	<content contentuid="h69b59f4fgce16g474cgb5b4gb6e8fe79c267" version="1">Haunt</content>
+	<content contentuid="hd3641daagee65g4bf7g8b3egf43d98cb21e5" version="1">Harrow a creature's mind, dealing maximum damage against &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charmed&lt;/LSTag&gt; targets.</content>
+	<content contentuid="hba35c66eg67cbg4922g9505g887ea74e2521" version="1">Ghostly Curse</content>
+	<content contentuid="h615bd1e0gcfa0g41c1g927egdcedcf3a19d7" version="1">Curse the target with unnatural power, dealing [1] each turn and &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charming&lt;/LSTag&gt; them.</content>
+	<content contentuid="h89cc36a6gfa53g493dg8b69g4d2b828fbb46" version="1">Affected entity takes [1] each turn and is &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charmed&lt;/LSTag&gt;.</content>
+	<content contentuid="hdce711adg910cg49c1g962dgfa79f0370f49" version="1">Ethereal Fusion</content>
+	<content contentuid="hdcb4ddc1g6dc4g43fcg9800gd0c8a9924aed" version="1">Merge your mind and body with an ally, granting them [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;. While merged, you are unable to be harmed, and your attacks originate from your host's position. This effect ends when the target loses their &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;.</content>
+	<content contentuid="hd4a6e9efge58dg4d77gbdbcg21e42197712f" version="1">Mind and body are merged with another creature. Affected entity cannot be harmed and its attacks are made from its host's position. Effect ends when the host loses their &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;.</content>
+	<content contentuid="hba15b6d4gfbd0g4aa4ga2d2g04c0c7fc8105" version="1">Ethereal Fusion: Host</content>
+	<content contentuid="hc1a1bf27gbb11g466fgbb23gcd4921342690" version="1">Host to a mystic's Ethereal Fusion. Effect ends when losing all remaining &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;.</content>
+	<content contentuid="h08787b3eg6987g43a9gb507g576d391510fc" version="1">Gained [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;.</content>
+	<content contentuid="h0bb3e64cgad15g4b8eg84f8g4c3df51a2bf6" version="1">Cancel Ethereal Fusion</content>
+	<content contentuid="h502637eag3a03g45e6ga10dg790e993413d0" version="1">End the Ethereal Fusion condition on yourself, teleporting and your host, teleporting up to [1] away.</content>
+	<content contentuid="h37a77294gd708g4b7bg89d3g065e6b2d6be5" version="1">Spectral Wail</content>
+	<content contentuid="h6b6f4438ge123g4ca9gaefag12a7b414b7ed" version="1">Let out an ear-splitting shriek that &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightens&lt;/LSTag&gt; enemies.</content>
 	<content contentuid="h3f31d6c5g24ebg43edgad5fg9f140b1782ae" version="1">Psionic Throwing</content>
-	<content contentuid="h235bb13bgc8bdg443agb7f9ga5f5c09d4a44" version="1">TODO: Psionic Throwing Description</content>
+	<content contentuid="h235bb13bgc8bdg443agb7f9ga5f5c09d4a44" version="1">You extend your psychic control to your thrown weapons, allowing you to perform deadly and precise attacks at a distance.</content>
 	<content contentuid="hd95f1520g879fg4a16g9525g3364fbc8fbf8" version="1">Psychic Focus: Psionic Throwing</content>
-	<content contentuid="h2f8d211ag4fc4g4977gaa70g359a80f47754" version="1">TODO: Psychic Focus: Psionic Throwing Description</content>
-	<content contentuid="h07548764g71f5g4986g86f3g80992ba5bdaa" version="1">TODO: Psychic Focus: Psionic Throwing Status Description</content>
-	<content contentuid="" version="1">Psychic Bond</content>
-	<content contentuid="" version="1">Psionically bind the weapon in your main hand. The weapon can't be knocked out of your hand, and it automatically returns to you when &lt;LSTag Type="Spell" Tooltip="Throw_Throw"&gt;Thrown&lt;/LSTag&gt;. &lt;br&gt;&lt;br&gt;Additionally, it gains the &lt;LSTag Tooltip="Thrown"&gt;Thrown&lt;/LSTag&gt; property, or a +1 enchantment if it already has the &lt;LSTag Tooltip="Thrown"&gt;Thrown&lt;/LSTag&gt; property.</content>
-	<content contentuid="" version="1">TODO: Returning Weapon Status Description</content>
-	<content contentuid="" version="1">Ricochet</content>
-	<content contentuid="" version="1">TODO: Ricochet Description</content>
-	<content contentuid="" version="1">Deadly Precision</content>
-	<content contentuid="" version="1">TODO: Deadly Precision Description</content>
-	<content contentuid="" version="1">TODO: Deadly Precision Status Description</content>
+	<content contentuid="h2f8d211ag4fc4g4977gaa70g359a80f47754" version="1">Whenever you make a thrown weapon attack, you roll the damage dice twice and take the highest result.</content>
+	<content contentuid="h07548764g71f5g4986g86f3g80992ba5bdaa" version="1">When making thrown weapon attacks, you roll the damage dice twice and take the highest result.</content>
+	<content contentuid="hefb04a06g403fg420fg8a90gec2d5bbc0344" version="1">Psychic Bond</content>
+	<content contentuid="h5943ceabgd804g4cc8gb8e7g4e1d9a85c001" version="1">Psionically bind the weapon in your main hand. The weapon can't be knocked out of your hand, and it automatically returns to you when &lt;LSTag Type="Spell" Tooltip="Throw_Throw"&gt;Thrown&lt;/LSTag&gt;. &lt;br&gt;&lt;br&gt;Additionally, it gains the &lt;LSTag Tooltip="Thrown"&gt;Thrown&lt;/LSTag&gt; property if it does not already have it.</content>
+	<content contentuid="h17cca481g33d6g47f9gbb9egd3a9c9252b10" version="1">Psionically bound to its wielder. &lt;br&gt;&lt;br&gt;The weapon can't be knocked out of the wielder's hand, and automatically returns to the wielder when &lt;LSTag Type="Spell" Tooltip="Throw_Throw"&gt;Thrown&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Additionally, it gains the &lt;LSTag Tooltip="Thrown"&gt;Thrown&lt;/LSTag&gt; property if it does not already have it.</content>
+	<content contentuid="h2b02393cg34f0g4c30gaf45gd0b2a3d4008c" version="1">Ricochet</content>
+	<content contentuid="h449a8746g1418g4e1cgb65bga420b6206d74" version="1">Whenever one of your thrown weapon attacks misses, you can repeat the attack roll on another creature within [1] of the original target.</content>
+	<content contentuid="h4bd8fda7g125fg478dgbc3cg788bc159fb8a" version="1">Ricochet: Throw</content>
+	<content contentuid="hb192a5edgc490g4d04g800ag0fd6bbbcb077" version="1">You can repeat your thrown attack against a different target within [1].</content>
+	<content contentuid="h64dcb9d4gc6eag4b9fg8415g537b4582e73a" version="1">You use Ricochet: Throw against this target.</content>
+	<content contentuid="h20f10b69ge9bcg404egb3c0g9d5fb358c814" version="1">Deadly Precision</content>
+	<content contentuid="he24381fag703eg4f16g945fg6d4017fe68a7" version="1">Augment your focus and accuracy, adding your Intelligence &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; to thrown weapon &lt;LSTag Tooltip="AttackRoll"&gt;attack&lt;/LSTag&gt; and damage rolls.</content>
+	<content contentuid="hbcdd3afdg25feg4e08ga617g9204f3e6d067" version="1">Accuracy is augmented. Gained a +[1] bonus to thrown weapon &lt;LSTag Tooltip="AttackRoll"&gt;attack&lt;/LSTag&gt; and damage rolls.</content>
 	<content contentuid="he829bb50gb79dg45b4g9aa2gf4082a33db97" version="1">Nomadic Alchemy</content>
-	<content contentuid="h5bdfe87fg4c78g4f93gbaa7g0a737e16eacd" version="1">TODO: Nomadic Alchemy Description</content>
+	<content contentuid="h5bdfe87fg4c78g4f93gbaa7g0a737e16eacd" version="1">You wield psionic power to enhance and alter the effects of natural and alchemical substances, allowing them to be used to greater effect.</content>
 	<content contentuid="h13724d6egeb81g48adgbe66g5d212dae1c43" version="1">Psychic Focus: Nomadic Alchemy</content>
-	<content contentuid="h8291d927gf15ag4bc9g96e2g8bd36fffcbe2" version="1">TODO: Psychic Focus: Nomadic Alchemy Description</content>
-	<content contentuid="hff27a61fg2fc1g4735ga732gab0fab9c7b2a" version="1">TODO: Psychic Focus: Nomadic Alchemy Status Description</content>
-	<content contentuid="" version="1">Concentrated Brew</content>
-	<content contentuid="" version="1">TODO: Concentrated Brew Description</content>
-	<content contentuid="" version="1">Double Dose</content>
-	<content contentuid="" version="1">TODO: Double Dose Description</content>
-	<content contentuid="" version="1">Panacea</content>
-	<content contentuid="" version="1">TODO: Panacea Description</content>
-	<content contentuid="" version="1">TODO: Panacea Status Description</content>
-	<content contentuid="" version="1">Bottomless Flask</content>
-	<content contentuid="" version="1">TODO: Bottomless Flask Description</content>
-	<content contentuid="" version="1">TODO: Bottomless Flask Status Description</content>
+	<content contentuid="h8291d927gf15ag4bc9g96e2g8bd36fffcbe2" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Medicine &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="hff27a61fg2fc1g4735ga732gab0fab9c7b2a" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Medicine &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="hba5c5632ge438g42eegb332g0fe9a239750a" version="1">Concentrated Brew</content>
+	<content contentuid="hc831a8e7g64f7g4772gb762g5b6c2d104729" version="1">Hurl a mug of mead, making the target &lt;LSTag Type="Status" Tooltip="DRUNK"&gt;Drunk&lt;/LSTag&gt; and spilling flammable Firewine at their feet.</content>
+	<content contentuid="h228d9a6bgd2f4g4599gbc49g9d73285ad5ee" version="1">Philosopher's Touch</content>
+	<content contentuid="hed2e542ag1520g4253g86c4g5e3571fbaaf5" version="1">Turn an item into gold currency equal to three times its original value.</content>
+	<content contentuid="h31fffa3dg78dfg4931gaf10ga114d55df17b" version="1">Being turned into gold.</content>
+	<content contentuid="h7b3d79cage96ag4449ga223gc0c2de68c14a" version="1">Panacea</content>
+	<content contentuid="h0a9a5e20g20dfg4159g930cg66e3d178bdd1" version="1">Apply a potent cure-all to a creature, removing any blinded, poisoned, paralysis, petrification and disease conditions. &lt;br&gt;&lt;br&gt;Additionally, the target will become immune to such conditions and incoming healing will be maximized.</content>
+	<content contentuid="hed4fac7fge90bg4925gbd6eg5b9447d5c6a2" version="1">Affected entity is immune to any blinded, poisoned, paralysis, petrification and disease conditions, and any healing it receives is maximized.</content>
+	<content contentuid="hc75cf7a8gb27cg4b8bg897dg2bce1fb99f21" version="1">Bottomless Flask</content>
+	<content contentuid="h5fc62535g2919g4597g829fg629dac0003b8" version="1">Infuse a potion or similar consumable with potent psi energy, making it no longer be consumed when used.</content>
+	<content contentuid="h35fb73cdg3fb0g417fga537ge94923905274" version="1">Infused with potent psi energy. No longer consumed when used.</content>
+	<content contentuid="habb06595g68b3g4a80g843dg91ee926af744" version="1">Remove Bottomless Flask</content>
+	<content contentuid="h439e3228gca69g4c76gaa31g4fe396324b53" version="1">Remove the Bottomless Flask status on items.</content>
 	<content contentuid="h533f2f69g45f2g41bbg8711ga1c5c6cbca00" version="1">Mastery of Metal</content>
-	<content contentuid="h6b89d1f2gbfa3g42e2g821ag0c93968c014f" version="1">TODO: Mastery of Metal Description</content>
+	<content contentuid="h6b89d1f2gbfa3g42e2g821ag0c93968c014f" version="1">Your mind resonates with metals and magnetic forces.</content>
 	<content contentuid="hab49ef47g34e7g42eag9a0dgd6b1741dd48e" version="1">Psychic Focus: Mastery of Metal</content>
 	<content contentuid="h7224dc16gd97cg4e10g9b63g6191c99c2e80" version="1">Attackers won't be able to land &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hits&lt;/LSTag&gt; on you.</content>
 	<content contentuid="h67b54518gce49g4ec8gb481g4578a496fba0" version="1">Attackers can't land &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hits&lt;/LSTag&gt; on you.</content>
-	<content contentuid="" version="1">Shrapnel Blast</content>
-	<content contentuid="" version="1">Metal shrapnel strikes the target, causing them to start &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;Bleeding&lt;/LSTag&gt;.</content>
-	<content contentuid="" version="1">Sharpened Steel</content>
-	<content contentuid="" version="1">Hone the target's weapon, causing their next weapon attack to be a guaranteed &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hits&lt;/LSTag&gt;.</content>
-	<content contentuid="" version="1">Weapon is honed. Next weapon attack will be a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hits&lt;/LSTag&gt;.</content>
-	<content contentuid="" version="1">Magnetize</content>
-	<content contentuid="" version="1">TODO: Magnetize Description</content>
-	<content contentuid="" version="1">TODO: Magnetize Status Description</content>
-	<content contentuid="" version="1">Reinforced Plating</content>
-	<content contentuid="" version="1">TODO: Reinforced Plating Description</content>
-	<content contentuid="" version="1">TODO: Reinforced Plating Status Description</content>
-	<content contentuid="" version="1">Magnetic Storm</content>
-	<content contentuid="" version="1">TODO: Magnetic Storm Description</content>
-	<content contentuid="" version="1">TODO: Magnetic Storm Status Description</content>
+	<content contentuid="hf53420c1gf4a4g4f06gb42dg8f8966a45fc1" version="1">Shrapnel Blast</content>
+	<content contentuid="h1aff1f64g28d8g4fd7g80aag46ec3a81a6c0" version="1">Metal shrapnel rends the target, causing them to start &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;Bleeding&lt;/LSTag&gt;.</content>
+	<content contentuid="hb3f4d6eagb60cg43e3gb531gc6793117263f" version="1">Sharpened Steel</content>
+	<content contentuid="h1359946fgce92g475dgbee8g9ebac6fb9a33" version="1">Hone the target's weapon, causing their next weapon attack to be a guaranteed &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;. It cannot miss.</content>
+	<content contentuid="h47556d1ag9f00g4fdcg837agfd496db61a25" version="1">Weapon is honed. Next weapon attack will be a guaranteed &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; and cannot miss.</content>
+	<content contentuid="h97fe3974gfbd4g4872g89cbgaefe095afaab" version="1">Magnetize</content>
+	<content contentuid="h22b1b688gc551g4578gb0f7gede2852ca89a" version="1">Magnetize a construct or creature wearing metal armour, &lt;LSTag Type="Status" Tooltip="SLOW"&gt;Slowing&lt;/LSTag&gt; it. A magnetized construct always receives &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hits&lt;/LSTag&gt;. Constructs have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; against this effect.</content>
+	<content contentuid="h5dd24ab7ga6ffg4ab4gabdeg86e08de07b2e" version="1">Affected entity is &lt;LSTag Type="Status" Tooltip="SLOW"&gt;Slowed&lt;/LSTag&gt;. An affected construct always receives &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hits&lt;/LSTag&gt; and has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; against this effect.</content>
+	<content contentuid="h0d20f903g7e1ag4bd5gbac2g6f7c43d637a2" version="1">Reinforced Plating</content>
+	<content contentuid="hf9e116efgbaa5g4ddag9502gccb490a41357" version="1">Harden the metallic frame of a construct or metal armour of a creature, reducing all damage taken by [1], and reducing its &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by [2]. Constructs also gain [3] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;.</content>
+	<content contentuid="h187bfaacg3a76g40c6gaf19g5b24b4fe8fc3" version="1">Affected entity has its metallic frame hardened. Damage taken is reduced by [1], and &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; reduced by [2].</content>
+	<content contentuid="ha819487egd422g4b55g833eg2783d9ecb224" version="1">Gained [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;.</content>
+	<content contentuid="h2f08bbcdgc648g4329gbc01g9ab04852a559" version="1">Magnetic Storm</content>
+	<content contentuid="h33680eadg44d6g4f09gbde1gf894bd2f7133" version="1">Manifest a powerful magnetic field around yourself, &lt;LSTag Type="Status" Tooltip="MYSTIC_MAGNETIZE"&gt;Magnetizing&lt;/LSTag&gt; all nearby enemies, regardless of whether they have metal armour or not. Enemies in the area are in &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;.</content>
+	<content contentuid="hcda18871g433ag4618gad5bga9b0a2e0e91b" version="1">Manifesting a powerful magnetic field. Nearby enemies are &lt;LSTag Type="Status" Tooltip="MYSTIC_MAGNETIZE"&gt;Magnetized&lt;/LSTag&gt;, regardless of whether they have metal armour or not, and the area is considered &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt; for enemies.</content>
+	<content contentuid="h706619c4g48cbg4a90g9e42g2bf101ccb3c8" version="1">Near a mystic's magnetic storm. Affected entity is &lt;LSTag Type="Status" Tooltip="MYSTIC_MAGNETIZE"&gt;Magnetized&lt;/LSTag&gt;, regardless of whether it has metal armour or not.</content>
 	<content contentuid="" version="1"></content>
 </contentList>

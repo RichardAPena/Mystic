@@ -37,7 +37,6 @@ function PsychicDouble_Init_2(owner, clone)
 	end
 end
 
--- TODO: come back to this
 function PsychicDouble_Init_3(owner, clone)
 	if clone then
 		PsychicDouble_EquipFix_SetEquippedSavedMelee(clone, true)

@@ -166,110 +166,45 @@ data "Description" "h6dd9e89agaca7g449cg8ad2gda246737871b"
 data "Icon" "Action_Mystic_EldritchEvolution"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_InfiniteAbyss);UnlockSpell(Target_Mystic_GlimpseOfTheVoid);UnlockSpell(Target_Mystic_SymbioticLink);UnlockSpell(Shout_Mystic_PsionicDisturbance);UnlockSpell(Shout_Mystic_EldritchEvolution);"
 
-//mini todo:
-// unsettling aura counts as a frightened status (for haunt)
-
 // Crown of Regret
 new entry "Discipline_CrownOfRegret"
 type "PassiveData"
 data "DisplayName" "hf17a22e6g3033g4f30g9067g96a9ddd13c4c"
 data "Description" "h9d4e91c6g7dfcg44f7g8f50gc32990aac10c"
-data "Icon" "Action_Mystic_EldritchEvolution"
-data "Boosts" ""
-UnlockSpell(Shout_Mystic_PsychicFocus_CrownOfRegret)
-UnlockSpell(Target_Mystic_CrownedInShame)
-UnlockSpell(Target_Mystic_MarkOfDishonor)
-UnlockSpell(Target_Mystic_Penitence)
-UnlockSpell(Target_Mystic_OverwhelmingRegret)
-// - Psychic Focus: Immune to being Incapacitated by a condition.
-// - Crowned in Shame (1-7 psi): 1d8 psychic damage + silence
-// - Mark of Dishonor (3 psi): cha save. 1 minute. target will take dmg and be rooted for 1 turn when one of their allies die
-// - Penitence (5 psi, conc): cha save. save every turn. target will take psychic damage equal to damage they deal.
-// - Overwhelming Regret (7 psi): world of horror but command flee
+data "Icon" "Action_Mystic_CrownedInShame"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_CrownOfRegret);UnlockSpell(Target_Mystic_CrownedInShame);UnlockSpell(Target_Mystic_MarkOfDishonor);UnlockSpell(Target_Mystic_Penitence);UnlockSpell(Target_Mystic_OverwhelmingRegret)"
 
 // Phantasmal Mind
 new entry "Discipline_PhantasmalMind"
 type "PassiveData"
 data "DisplayName" "h147d37cbg38ecg455agaefbg41cf82f953b1"
 data "Description" "h4a95bac8g2a8cg41c1g8be3gc1bbbcc97489"
-data "Icon" "Action_Mystic_EldritchEvolution"
-data "Boosts" ""
-UnlockSpell(Shout_Mystic_PsychicFocus_PhantasmalMind)
-UnlockSpell(Target_Mystic_Haunt)
-UnlockSpell(Shout_Mystic_EerieFog)
-UnlockSpell(Target_Mystic_GhostlyCurse)
-UnlockSpell(Shout_Mystic_OtherwordlyReach)
-// - Psychic Focus: Ranged attacks against you have disadvantage
-// - Haunt (1-7 psi): 1d10 psychic damage wis save. if target is frightened or charmed, always deals max damage, save or no save
-// - Eerie Fog (3 psi): a fog is around you, obstructing sight. enemies within are silenced and frightened.
-// - Ghostly Curse (5 psi): deal damage over time to a creature. if they die, you can recast this for free with a bonus action. the target cant attack you while affected. counts as a charm.
-// - Otherwordly Reach (7 psi): while concentrating, your spells ignore line of sight
+data "Icon" "Action_Mystic_Haunt"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_PhantasmalMind);UnlockSpell(Target_Mystic_Haunt);UnlockSpell(Target_Mystic_GhostlyCurse);UnlockSpell(Target_Mystic_EtherealFusion);UnlockSpell(Shout_Mystic_SpectralWail)"
 
 // Psionic Throwing
-// => You...
 new entry "Discipline_PsionicThrowing"
 type "PassiveData"
 data "DisplayName" "h3f31d6c5g24ebg43edgad5fg9f140b1782ae"
 data "Description" "h235bb13bgc8bdg443agb7f9ga5f5c09d4a44"
-data "Icon" "Action_Mystic_EldritchEvolution"
+data "Icon" "Action_Mystic_DeadlyPrecision"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_PsionicThrowing);UnlockSpell(Shout_Mystic_PsychicBond);UnlockSpell(Shout_Mystic_Ricochet);UnlockSpell(Shout_Mystic_DeadlyPrecision)"
-// UnlockSpell(Shout_Mystic_PsychicFocus_PsionicThrowing);
-// UnlockSpell(Shout_Mystic_PsychicBond);
-// UnlockSpell(Shout_Mystic_Ricochet);
-// UnlockSpell(Shout_Mystic_DeadlyPrecision)
-// - Psychic Focus: Increase range on thrown attacks? cant be disarmed? no
-// - Psychic Bond (2 psi): give a weapon the thrown property and bond with it. if the weapon is already thrown, give it +1 enchantment
-// - Ricochet (3 psi): as a reaction, after missing with a thrown weapon attack, repeat it against another enemy creature
-// - Deadly Precision (5 psi, conc, long rest): while concentration holds, gain a bonus to thrown weapon attack and damage rolls equal to your intelliegnece
 
 // Nomadic Alchemy
-// => You wield psionic power to enhance and alter the effects of natural and alchemical substances, allowing them to be used to greater effect.
 new entry "Discipline_NomadicAlchemy"
 type "PassiveData"
 data "DisplayName" "he829bb50gb79dg45b4g9aa2gf4082a33db97"
 data "Description" "h5bdfe87fg4c78g4f93gbaa7g0a737e16eacd"
-data "Icon" "Action_Mystic_EldritchEvolution"
-data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_NomadicAlchemy);UnlockSpell(Projectile_Mystic_ConcentratedBrew);UnlockSpell(Target_Mystic_DoubleDose);UnlockSpell(Target_Mystic_Panacea);UnlockSpell(Target_Mystic_BottomlessFlask)"
-// UnlockSpell(Shout_Mystic_PsychicFocus_NomadicAlchemy);
-// UnlockSpell(Projectile_Mystic_ConcentratedBrew);
-// UnlockSpell(Target_Mystic_DoubleDose);
-// UnlockSpell(Target_Mystic_Panacea);
-// UnlockSpell(Target_Mystic_BottomlessFlask)
-// - Psychic Focus: Gain Advantage on Medicine Checks.
-// - Concentrated Brew (1-7 psi): deal 1d8 poison damage, causing the creature to go drunk and dropping a firewine surface on them. CON save.
-// - Double Dose (3 psi): administer a consumable immediately and again at the end of a creatures next turn.
-// - Panacea (5 psi): target creature becomes cured from blind, poison, paralysis, petrify, disease and is immune to those conditions for 1 minute. additionally they receive max and/or doubled healing from all sources. advantage on con saves too maybe? not needed tho cuz theyre immune
-// - Bottomless Flask (7 psi): enchant a potion, elixir or similar consumable. it is no longer consumed when used.
-// ========================================
-// consumable manipulation and alcohol usage and creation
-// Neverending Brew/Bottomless Flask - make an item NOT RUN OUT WHEN USED, or give you a copy that works that way
-// Twinned Concoction/Double Dose - apply a potion and again at the next turn
-// Chug Jug - allow a creature to consume one consumable as a free action
-// Side Effects - [UNLIKELY] invert the effects of an item
-// AutoPotion? - [UNLIKELY] automatically use a potion at half hp
-// spell to double healing? or maximize it
+data "Icon" "Action_Mystic_BottomlessFlask"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_NomadicAlchemy);UnlockSpell(Projectile_Mystic_ConcentratedBrew);UnlockSpell(Target_Mystic_LiquidGold);UnlockSpell(Target_Mystic_Panacea);UnlockSpell(Target_Mystic_BottomlessFlask)"
 
 // Mastery of Metal
-// => You...
 new entry "Discipline_MasteryOfMetal"
 type "PassiveData"
 data "DisplayName" "h533f2f69g45f2g41bbg8711ga1c5c6cbca00"
 data "Description" "h6b89d1f2gbfa3g42e2g821ag0c93968c014f"
-data "Icon" "Action_Mystic_EldritchEvolution"
+data "Icon" "Action_Mystic_ShrapnelBlast"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MasteryOfMetal);UnlockSpell(Projectile_Mystic_ShrapnelBlast);UnlockSpell(Target_Mystic_SharpenedSteel);UnlockSpell(Target_Mystic_Magnetize);UnlockSpell(Target_Mystic_ReinforcedPlating);UnlockSpell(Shout_Mystic_MagneticStorm)"
-// UnlockSpell(Shout_Mystic_PsychicFocus_MasteryOfMetal);
-// UnlockSpell(Projectile_Mystic_ShrapnelBlast);
-// UnlockSpell(Target_Mystic_SharpenedSteel);
-// UnlockSpell(Target_Mystic_Magnetize);
-// UnlockSpell(Target_Mystic_ReinforcedPlating);
-// UnlockSpell(Shout_Mystic_MagneticStorm)
-// - Psychic Focus: Attackers can't land Critical Hits on you.
-// - Sharpnel Blast (1-7 psi): 1d8 slashing damage and bleeding per psi point
-// - Sharpened Steel (3 psi): imbue a creatures weapon. their next weapon attack will be a guaranteed critical hit
-// CriticalDamageOnHit()
-// - Magnetize (5 psi): no save. while concentration holds, a creature made of metal or wearing metal armor is slowed. non constructs get a save at the end of their turn. constructs take maximum damage from incoming attacks
-// - Reinforced Plating (6 psi): reduce a piece of armors or construct AC by 5 but give it 5 damage mit. a construct is also healed.
-// - Magnetic Storm (7 psi): while concentration holds, enemy creatures must succeed a con save or be pushed away from you. creatures wearing metal armor have disadvantage, and constructs fail automatically.
 
 // Chronoward
 new entry "Passive_Mystic_Chronoward"
@@ -424,6 +359,31 @@ data "StatsFunctorContext" "OnCast"
 data "Conditions" "IsSpell()"
 data "StatsFunctors" "DealDamage(4d6,Psychic)"
 
+// Penitence
+new entry "Passive_Mystic_Penitence"
+type "PassiveData"
+data "DisplayName" "h568abc5cg926ag49e6gac9dg7516a1856330"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnDamage;OnDamagePrevented"
+data "StatsFunctors" "DealDamage(SELF,DamageDone,Psychic,Magical)"
+
+// Ethereal Fusion
+new entry "Passive_Mystic_EtherealFusion"
+type "PassiveData"
+data "DisplayName" "hdce711adg910cg49c1g962dgfa79f0370f49"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnMovedDistance"
+data "StatsFunctors" "ApplyStatus(SELF,MYSTIC_ETHEREAL_FUSION_TARGET_MOVED,100,0)"
+
+// Deadly Precision
+new entry "Passive_Mystic_DeadlyPrecision"
+type "PassiveData"
+data "DisplayName" "h20f10b69ge9bcg404egb3c0g9d5fb358c814"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnAttack"
+data "Conditions" "IsRangedUnarmedAttack() and HasDamageEffectFlag(DamageFlags.Hit)"
+data "StatsFunctors" "DealDamage(max(1,IntelligenceModifier))"
+
 // Order of the Ascetic
 
 // Psionic Fists
@@ -499,7 +459,7 @@ data "Icon" "Passive_Mystic_PsionicResonance"
 data "Properties" "Highlighted"
 data "StatsFunctorContext" "OnCast"
 data "Conditions" "PsionicDisciplineCheck()"
-data "StatsFunctors" "IF(SpellPowerLevelEqualTo(1)):ApplyStatus(SELF,MYSTIC_PSIONIC_RESONANCE,100,1);IF(SpellPowerLevelEqualTo(2)):ApplyStatus(SELF,MYSTIC_PSIONIC_RESONANCE,100,2);IF(SpellPowerLevelEqualTo(3)):ApplyStatus(SELF,MYSTIC_PSIONIC_RESONANCE,100,3);IF(SpellPowerLevelEqualTo(4)):ApplyStatus(SELF,MYSTIC_PSIONIC_RESONANCE,100,4);IF(SpellPowerLevelEqualTo(5)):ApplyStatus(SELF,MYSTIC_PSIONIC_RESONANCE,100,5);IF(SpellPowerLevelEqualTo(6)):ApplyStatus(SELF,MYSTIC_PSIONIC_RESONANCE,100,6);IF(SpellPowerLevelEqualTo(7)):ApplyStatus(SELF,MYSTIC_PSIONIC_RESONANCE,100,7)"
+data "StatsFunctors" "IF(SpellPowerLevelEqualTo(1)):ApplyStatus(SELF,MYSTIC_PSIONIC_RESONANCE,100,1);IF(SpellPowerLevelEqualTo(2)):ApplyStatus(SELF,MYSTIC_PSIONIC_RESONANCE,100,2);IF(SpellPowerLevelEqualTo(3)):ApplyStatus(SELF,MYSTIC_PSIONIC_RESONANCE,100,3);IF(SpellPowerLevelEqualTo(4)):ApplyStatus(SELF,MYSTIC_PSIONIC_RESONANCE,100,4);IF(SpellPowerLevelEqualTo(5)):ApplyStatus(SELF,MYSTIC_PSIONIC_RESONANCE,100,5);IF(SpellPowerLevelEqualTo(6)):ApplyStatus(SELF,MYSTIC_PSIONIC_RESONANCE,100,6);IF(SpellPowerLevelEqualTo(7)):ApplyStatus(SELF,MYSTIC_PSIONIC_RESONANCE,100,7);ApplyStatus(SELF,MYSTIC_PSIONIC_RESONANCE_TECHNICAL,100,1)"
 
 new entry "Passive_Mystic_PsionicResonance_Technical"
 type "PassiveData"

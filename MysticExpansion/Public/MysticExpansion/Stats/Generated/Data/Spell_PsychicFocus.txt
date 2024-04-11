@@ -36,13 +36,12 @@ data "SpellContainerID" "Shout_Mystic_PsychicFocus_Container"
 data "SpellFlags" "IsSpell"
 data "ContainerSpells" ""
 
-// TODO: Crown of Regret
-// UnlockSpell(Shout_Mystic_PsychicFocus_CrownOfRegret)
+// Crown of Regret
 new entry "Shout_Mystic_PsychicFocus_CrownOfRegret"
 using "Shout_Mystic_PsychicFocus_Container"
 data "DisplayName" "he57c1db3g7ec3g46d9gbb5bg28bc96cb54d9"
 data "Description" "hba41d113g57a0g4ba5ga9ffg448da45cbc7d"
-data "Icon" "PsychicFocus_Mystic_CrownOfEnvy"
+data "Icon" "PsychicFocus_Mystic_CrownOfRegret"
 data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_CROWN_OF_REGRET,100,-1)"
 data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_CROWN_OF_REGRET,100,-1)"
 data "SpellContainerID" "Shout_Mystic_PsychicFocus_Container"
@@ -109,13 +108,12 @@ data "SpellContainerID" "Shout_Mystic_PsychicFocus_Container"
 data "SpellFlags" "IsSpell"
 data "ContainerSpells" ""
 
-// TODO: Mastery of Metal
-// UnlockSpell(Shout_Mystic_PsychicFocus_MasteryOfMetal)
+// Mastery of Metal
 new entry "Shout_Mystic_PsychicFocus_MasteryOfMetal"
 using "Shout_Mystic_PsychicFocus_Container"
 data "DisplayName" "hab49ef47g34e7g42eag9a0dgd6b1741dd48e"
 data "Description" "h7224dc16gd97cg4e10g9b63g6191c99c2e80"
-data "Icon" "PsychicFocus_Mystic_MasteryOfGravity"
+data "Icon" "PsychicFocus_Mystic_MasteryOfMetal"
 data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_MASTERY_OF_METAL,100,-1)"
 data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_MASTERY_OF_METAL,100,-1)"
 data "SpellContainerID" "Shout_Mystic_PsychicFocus_Container"
@@ -160,13 +158,12 @@ data "SpellContainerID" "Shout_Mystic_PsychicFocus_Container"
 data "SpellFlags" "IsSpell"
 data "ContainerSpells" ""
 
-// TODO: Nomadic Alchemy
-// UnlockSpell(Shout_Mystic_PsychicFocus_NomadicAlchemy)
+// Nomadic Alchemy
 new entry "Shout_Mystic_PsychicFocus_NomadicAlchemy"
 using "Shout_Mystic_PsychicFocus_Container"
 data "DisplayName" "h13724d6egeb81g48adgbe66g5d212dae1c43"
 data "Description" "h8291d927gf15ag4bc9g96e2g8bd36fffcbe2"
-data "Icon" "PsychicFocus_Mystic_NomadicGrace"
+data "Icon" "PsychicFocus_Mystic_NomadicAlchemy"
 data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_NOMADIC_ALCHEMY,100,-1)"
 data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_NOMADIC_ALCHEMY,100,-1)"
 data "SpellContainerID" "Shout_Mystic_PsychicFocus_Container"
@@ -221,13 +218,12 @@ data "SpellContainerID" "Shout_Mystic_PsychicFocus_Container"
 data "SpellFlags" "IsSpell"
 data "ContainerSpells" ""
 
-// TODO: Phantasmal Mind
-// UnlockSpell(Shout_Mystic_PsychicFocus_PhantasmalMind)
+// Phantasmal Mind
 new entry "Shout_Mystic_PsychicFocus_PhantasmalMind"
 using "Shout_Mystic_PsychicFocus_Container"
 data "DisplayName" "h3e99fd44gc93cg448ag8955g8401694ed044"
 data "Description" "h7255655cg4000g4405gbdd6g1f3611cdb3cd"
-data "Icon" "PsychicFocus_Mystic_NomadicKinship"
+data "Icon" "PsychicFocus_Mystic_PhantasmalMind"
 data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_PHANTASMAL_MIND,100,-1)"
 data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_PHANTASMAL_MIND,100,-1)"
 data "SpellContainerID" "Shout_Mystic_PsychicFocus_Container"
@@ -246,13 +242,12 @@ data "SpellContainerID" "Shout_Mystic_PsychicFocus_Container"
 data "SpellFlags" "IsSpell"
 data "ContainerSpells" ""
 
-// TODO: Psionic Throwing
-// UnlockSpell(Shout_Mystic_PsychicFocus_PsionicThrowing)
+// Psionic Throwing
 new entry "Shout_Mystic_PsychicFocus_PsionicThrowing"
 using "Shout_Mystic_PsychicFocus_Container"
 data "DisplayName" "hd95f1520g879fg4a16g9525g3364fbc8fbf8"
 data "Description" "h2f8d211ag4fc4g4977gaa70g359a80f47754"
-data "Icon" "PsychicFocus_Mystic_PsionicSkirmishing"
+data "Icon" "PsychicFocus_Mystic_PsionicThrowing"
 data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_PSIONIC_THROWING,100,-1)"
 data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_PSIONIC_THROWING,100,-1)"
 data "SpellContainerID" "Shout_Mystic_PsychicFocus_Container"

@@ -53,6 +53,18 @@ local monkSkills = {
     Target_Mystic_Regrowth = true,
     Target_Mystic_Brambleskin = true,
     Shout_Mystic_MassEntanglement = true,
+    Projectile_Mystic_ShrapnelBlast = true,
+    Projectile_Mystic_ShrapnelBlast_1 = true,
+    Projectile_Mystic_ShrapnelBlast_2 = true,
+    Projectile_Mystic_ShrapnelBlast_3 = true,
+    Projectile_Mystic_ShrapnelBlast_4 = true,
+    Projectile_Mystic_ShrapnelBlast_5 = true,
+    Projectile_Mystic_ShrapnelBlast_6 = true,
+    Projectile_Mystic_ShrapnelBlast_7 = true,
+    Target_Mystic_SharpenedSteel = true,
+    Target_Mystic_Magnetize = true,
+    Target_Mystic_ReinforcedPlating = true,
+    Shout_Mystic_MagneticStorm = true
 }
 
 -- TODO: Add some checks:

@@ -11,7 +11,7 @@ data "Conditions" "not Self(context.Source,context.Observer) and Ally(context.Ta
 data "Properties" "UseAttack(OBSERVER_SOURCE)"
 data "Cost" "ReactionActionPoint:1"
 data "InterruptDefaultValue" "Ask;Enabled"
-data "EnableCondition" "not HasAnyStatus({'SG_Polymorph','SG_Blinded'}) or Tagged('MINDFLAYER')"
+data "EnableCondition" "not HasStatus('SG_Polymorph') or Tagged('MINDFLAYER')"
 data "EnableContext" "OnStatusApplied;OnStatusRemoved"
 
 // Aura of Victory (Rallying Cry/Triumph)
@@ -19,7 +19,7 @@ new entry "Interrupt_Mystic_AuraOfVictory"
 type "InterruptData"
 data "DisplayName" "h217c8d85gd7ebg4ddcg901agd58751efd008"
 data "Description" "he9fd8855g276ag4df7gaa45gaef25f12f283"
-data "Icon" "Action_Mystic_PunishingFury"
+data "Icon" "Action_Mystic_AuraOfVictory"
 data "InterruptContext" "OnCastHit"
 data "InterruptContextScope" "Nearby"
 data "Container" "YesNoDecision"
@@ -410,7 +410,7 @@ data "Conditions" "IsAbleToReact(context.Observer) and (Self(context.Observer,co
 data "Properties" "SetReroll(19,true)"
 data "Cost" "ReactionActionPoint:1;Interrupt_PsionicSurge:1"
 data "InterruptDefaultValue" "Ask;Enabled"
-data "EnableCondition" "not HasAnyStatus({'SG_Polymorph'}) or Tagged('MINDFLAYER')"
+data "EnableCondition" "not HasStatus('SG_Polymorph') or Tagged('MINDFLAYER')"
 data "EnableContext" "OnStatusApplied"
 
 // Surge of Health
@@ -426,7 +426,7 @@ data "Conditions" "IsAbleToReact(context.Observer) and Self(context.Target,conte
 data "Properties" "SetDamageResistance(Bludgeoning);SetDamageResistance(Piercing);SetDamageResistance(Slashing);SetDamageResistance(Acid);SetDamageResistance(Cold);SetDamageResistance(Fire);SetDamageResistance(Force);SetDamageResistance(Lightning);SetDamageResistance(Necrotic);SetDamageResistance(Poison);SetDamageResistance(Psychic);SetDamageResistance(Radiant);SetDamageResistance(Thunder);"
 data "Cost" "ReactionActionPoint:1;Interrupt_SurgeOfHealth:1"
 data "InterruptDefaultValue" "Ask;Enabled"
-data "EnableCondition" "not HasAnyStatus({'SG_Polymorph'}) or Tagged('MINDFLAYER')"
+data "EnableCondition" "not HasStatus('SG_Polymorph') or Tagged('MINDFLAYER')"
 data "EnableContext" "OnStatusApplied"
 
 // Memory of One Thousand Steps

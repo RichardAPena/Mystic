@@ -4,6 +4,10 @@ Ext.Require("Server/SymbioticLink.lua")
 Ext.Require("Server/WarAdept.lua")
 Ext.Require("Server/MonkAnimations.lua")
 Ext.Require("Server/PsionicFists.lua")
+Ext.Require("Server/EtherealFusion.lua")
+Ext.Require("Server/BottomlessFlask.lua")
+Ext.Require("Server/LiquidGold.lua")
+
 
 StatPaths = {
     -- "Public/MysticExpansion/Stats/Generated/Data/Spell_Target.txt",
