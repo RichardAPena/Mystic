@@ -1738,28 +1738,28 @@
                     <attribute id="V2" type="float" value="0.25"/> Bottom
                 </node>		
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icon_"/> 246 ROW 8 = 22
+                    <attribute id="MapKey" type="FixedString" value="ITEM_Mystic_SoulKnife"/> 246 ROW 8 = 22
                     <attribute id="U1" type="float" value="0.65625"/> Left
                     <attribute id="U2" type="float" value="0.6875"/> Right
                     <attribute id="V1" type="float" value="0.21875"/> Top
                     <attribute id="V2" type="float" value="0.25"/> Bottom
                 </node>	
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icon_"/> 247 ROW 8 = 23
+                    <attribute id="MapKey" type="FixedString" value="ITEM_Mystic_EruditesSpear"/> 247 ROW 8 = 23
                     <attribute id="U1" type="float" value="0.6875"/> Left
                     <attribute id="U2" type="float" value="0.71875"/> Right
                     <attribute id="V1" type="float" value="0.21875"/> Top
                     <attribute id="V2" type="float" value="0.25"/> Bottom
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icon_"/> 248 ROW 8 = 24
+                    <attribute id="MapKey" type="FixedString" value="ITEM_Mystic_Thoughtpiercer"/> 248 ROW 8 = 24
                     <attribute id="U1" type="float" value="0.71875"/> Left
                     <attribute id="U2" type="float" value="0.75"/> Right
                     <attribute id="V1" type="float" value="0.21875"/> Top
                     <attribute id="V2" type="float" value="0.25"/> Bottom
                 </node>		
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icon_"/> 249 ROW 8 = 25
+                    <attribute id="MapKey" type="FixedString" value="ITEM_Mystic_Gungnir"/> 249 ROW 8 = 25
                     <attribute id="U1" type="float" value="0.75"/> Left
                     <attribute id="U2" type="float" value="0.78125"/> Right
                     <attribute id="V1" type="float" value="0.21875"/> Top

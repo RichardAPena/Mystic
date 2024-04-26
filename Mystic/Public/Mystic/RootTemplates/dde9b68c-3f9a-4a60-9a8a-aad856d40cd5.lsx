@@ -9,9 +9,10 @@
 					<attribute id="Name" type="LSString" value="WPN_Mystic_Longinus" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="Icon" type="FixedString" value="ITEM_Mystic_Gungnir"/>					
+					<attribute id="VisualTemplate" type="FixedString" value="0022cb41-a3fb-4ed8-8e44-cb06921bff98" /> 
 					<attribute id="ParentTemplateId" type="FixedString" value="bca0fca1-b81d-47a7-9be3-18e43a8fe626" />
 					<attribute id="DisplayName" type="TranslatedString" handle="hfea39965gb21cg45fbg8f31g14d424f75d83" version="2" />
-					<attribute id="Icon" type="FixedString" value="Item_Quest_SCE_SeluniteSpear" />
 					<attribute id="Stats" type="FixedString" value="WPN_Mystic_Longinus" />
 					<attribute id="Description" type="TranslatedString" handle="h01cca2f9gfb2fg413cg8077g941349929699" version="1" />
 					<children>
@@ -25,10 +26,10 @@
 						<node id="StatusList">
 							<children>
 								<node id="Status">
-									<attribute id="Object" type="FixedString" value="MAG_SELUNE_SPEAR_MOONBEAM_MAGIC_ITEM" />
+									<attribute id="Object" type="FixedString" value="MYSTIC_AWAKENED_POWER" />
 								</node>
 								<node id="Status">
-									<attribute id="Object" type="FixedString" value="MAG_SELUNE_SPEAR_MOONFIRE_MAGIC_ITEM" />
+									<attribute id="Object" type="FixedString" value="MYSTIC_AWAKENED_POWER_VFX" />
 								</node>
 							</children>
 						</node>

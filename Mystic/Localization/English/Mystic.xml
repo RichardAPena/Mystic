@@ -1049,8 +1049,8 @@
 	<content contentuid="hb11cb393ge479g45b9g8c1bg0b421b75c0fb" version="1">A spear that's highly favoured among mystic initiates. It can be imbued with psychic energy to empower it.</content>
 	<content contentuid="h5a0267f8ge30ag4f8eg96dfg36ca990dae1a" version="1">Thoughtpiercer</content>
 	<content contentuid="h29881062g273ag48a5g9643g3bc7f78a850f" version="1">A peculiar spear that seemingly inflicts no physical wounds, but its effects can be felt all the same.</content>
-	<content contentuid="hfea39965gb21cg45fbg8f31g14d424f75d83" version="1">Longinus</content>
-	<content contentuid="h01cca2f9gfb2fg413cg8077g941349929699" version="1">Also known as the "Holy Lance", it is rumoured that this spear was used to slay gods.</content>
+	<content contentuid="hfea39965gb21cg45fbg8f31g14d424f75d83" version="1">Gungnir, Spear of the Gods</content>
+	<content contentuid="h01cca2f9gfb2fg413cg8077g941349929699" version="1">This mythical spear is said to have once been wielded by a great god of war. Legend says that this spear always hits its enemies, regardless of the wearer's strength.</content>
 	<content contentuid="h08322327g6cb3g485cgac54g9d34807c60fc" version="1">Wanderer's Bow</content>
 	<content contentuid="hbf3bbb74g458fg44f8gb964ge1607bb25d16" version="1">A well-worn bow wielded by mysterious travelers. It can be imbued with psychic energy to empower it.</content>
 	<content contentuid="hb785d935gba9ag4039ga76cgeb2452ad49ef" version="1">Failnaught</content>
@@ -1060,9 +1060,9 @@
 	<content contentuid="hb2409644g6c51g4bcaga8b0g9b654b416ec9" version="1">Psionic Empowerment</content>
 	<content contentuid="h2c89b508g4325g4fb9gadf1g6e333b0dfbeb" version="1">Psionic Empowerment: Melee</content>
 	<content contentuid="hc2e6ad51g2230g47d0g9554gcd9fa989d6cc" version="1">Psionic Empowerment: Ranged</content>
-	<content contentuid="h33d1bfb9g44f2g4142gb238gd65705b9fac0" version="1">Imbue your melee weapon with psionic energy, allowing you to use your &lt;LSTag Tooltip="SpellcastingAbilityModifier"&gt;Spellcasting Ability Modifier&lt;/LSTag&gt; for &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;. Additionally, attacks with this weapon will deal an additional [1].</content>
-	<content contentuid="h85551a4fg38f1g467cgabdegc2fcd8e7335a" version="1">Imbue your ranged weapon with psionic energy, allowing you to use your &lt;LSTag Tooltip="SpellcastingAbilityModifier"&gt;Spellcasting Ability Modifier&lt;/LSTag&gt; for &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;. Additionally, attacks with this weapon will deal an additional [1].</content>
-	<content contentuid="h1b72ec89g74eag42b3g87e9g6ea3acf7cb2e" version="1">This weapon uses the wielder's &lt;LSTag Tooltip="SpellcastingAbilityModifier"&gt;Spellcasting Ability Modifier&lt;/LSTag&gt; for &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;. Additionally, attacks with this weapon will deal an additional [1].</content>
+	<content contentuid="h33d1bfb9g44f2g4142gb238gd65705b9fac0" version="1">Imbue your melee weapon with psionic energy, allowing you to use your &lt;LSTag Tooltip="SpellcastingAbilityModifier"&gt;Spellcasting Ability Modifier&lt;/LSTag&gt; for &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
+	<content contentuid="h85551a4fg38f1g467cgabdegc2fcd8e7335a" version="1">Imbue your ranged weapon with psionic energy, allowing you to use your &lt;LSTag Tooltip="SpellcastingAbilityModifier"&gt;Spellcasting Ability Modifier&lt;/LSTag&gt; for &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
+	<content contentuid="h1b72ec89g74eag42b3g87e9g6ea3acf7cb2e" version="1">This weapon uses the wielder's &lt;LSTag Tooltip="SpellcastingAbilityModifier"&gt;Spellcasting Ability Modifier&lt;/LSTag&gt; for &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
 	<content contentuid="hc8601f14gd814g4c22gb81agaa8992920bb3" version="1">Decisive Strike</content>
 	<content contentuid="hc7c20e50g31ccg4304gb183g72b11bf62200" version="1">Attack an enemy with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
 	<content contentuid="h8e55f0e6g6c63g4878gaa5bg986bd471c75a" version="1">Decisive Shot</content>
@@ -1080,49 +1080,52 @@
 	<content contentuid="h3e3fb13eg3985g4c3ag9712g88a5ea622df5" version="1">An old yet durable piece of armour worn by battle-hardened mystics.</content>
 	<content contentuid="h8492497fgf1deg40cag8544g024e26bdc338" version="1">Mystic's Armour</content>
 	<content contentuid="hd709fdd4g6ba0g4ad7g92b4ga6c0f25cd0e3" version="1">A well-worn piece of armour bestowed to trainee mystics.</content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
-	<content contentuid="" version="1"> </content>
+	<content contentuid="hbfe6d759gedadg4273g85c0g4b07c0a81e2f" version="1">Soul Knife Parry</content>
+	<content contentuid="h2e11db93gdd3eg4f0cg90e6geeef223f146b" version="1">Parry incoming attacks, increasing your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by [1] until your next turn.</content>
+	<content contentuid="h3dbe34e3g5b76g4b77ga2b5ge5e8ce152f9a" version="1">&lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; increased by [1].</content>
+	<content contentuid="hf782b499gcb66g4bf0g89b6g39a21747066e" version="1">Forceful Knives</content>
+	<content contentuid="h4b16a11ag6bd7g4aacg88e2g677587849424" version="1">Your successful Soul Knife attacks give you [1] turns of &lt;LSTag Type="Status" Tooltip="MAG_ZOC_FORCE_CONDUIT"&gt;Force Conduit&lt;/LSTag&gt;.</content>
+	<content contentuid="he659df8eg5993g437ag88ffg233c8d429a96" version="1">Lethal Knives</content>
+	<content contentuid="hbae31c1dgc685g4d07gafc3gaf50864f6130" version="1">Your Soul Knife attacks ignore enemies' &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; to Psychic damage.</content>
+	<content contentuid="h8d8082f5gb8beg4847gb4e8g0c8993c39aa4" version="1">Empowered Knives</content>
+	<content contentuid="h22729165g623eg4a5dgaa32gc408266ff26a" version="1">Your Soul Knife attacks deal an additional [1].</content>
+	<content contentuid="h853f8d4bg6fe3g4d50g858agffd233068c5a" version="1">Leeching Knives</content>
+	<content contentuid="h25a30b39g9440g46e7gb844gf8ec08c45bcf" version="1">Your successful Soul Knife attacks restore 1 Psi Point.</content>
+	<content contentuid="h5c564859gc967g433cg855dga850496ad102" version="1">Boon of Force</content>
+	<content contentuid="hd1646997g6709g4cabg9327g181cbd58e076" version="1">Permanently gain &lt;LSTag Type="Passive" Tooltip="Passive_Mystic_SoulKnife_ForceConduit"&gt;Forceful Knives&lt;/LSTag&gt;, enhancing the power of your mystic Soul Knives.</content>
+	<content contentuid="hac72171fge7e9g4a1cgae06gbdec341f1dc9" version="1">This vial contains a mysterious red substance. It seemingly has no effect on most people who drink it. But you are certainly not most people, are you?</content>
+	<content contentuid="h92a38ff1g8c56g4cc5gb076g6ddadb7e87e4" version="1">Boon of Lethality</content>
+	<content contentuid="h3c6353f1g8b1ag413cgb8b9ge48f4cfae157" version="1">Permanently gain &lt;LSTag Type="Passive" Tooltip="Passive_Mystic_SoulKnife_IgnoreImmunity"&gt;Lethal Knives&lt;/LSTag&gt;, enhancing the power of your mystic Soul Knives.</content>
+	<content contentuid="h3bdbee79g0aa0g4af4g8ed6ga6fa8f1cee72" version="1">This vial contains a mysterious orange substance. It seemingly has no effect on most people who drink it. But you are certainly not most people, are you?</content>
+	<content contentuid="hcc84c7d9geb75g4228gac61g59cb776cbe9a" version="1">Boon of Power</content>
+	<content contentuid="hc08c9ba4g8f33g430bg9d42gdfa68ef86734" version="1">Permanently gain &lt;LSTag Type="Passive" Tooltip="Passive_Mystic_SoulKnife_AdditionalDamage"&gt;Empowered Knives&lt;/LSTag&gt;, enhancing the power of your mystic Soul Knives.</content>
+	<content contentuid="hde783293gc330g418agb1b8g35222020fd6d" version="1">This vial contains a mysterious purple substance. It seemingly has no effect on most people who drink it. But you are certainly not most people, are you? </content>
+	<content contentuid="hddddbd6fg37afg4d81gbf68g9cbf81504f89" version="1">Boon of Brilliance</content>
+	<content contentuid="hf694a73bg0892g4ce4gbe2cg59145246d846" version="1">Permanently gain &lt;LSTag Type="Passive" Tooltip="Passive_Mystic_SoulKnife_Mindsteal"&gt;Leeching Knives&lt;/LSTag&gt;, enhancing the power of your mystic Soul Knives.</content>
+	<content contentuid="h42f4ee22g1b21g4db5g82c5g9bda8d7d9307" version="1">This vial contains a mysterious blue substance. It seemingly has no effect on most people who drink it. But you are certainly not most people, are you? </content>
+	<content contentuid="ha2aeed8agbcdag46c3gb38ag34087ed9ec47" version="1">Mystic Channeling</content>
+	<content contentuid="h1a32a1bdg38dfg430ag9260g6b7fcf9e9881" version="1">Latent Power</content>
+	<content contentuid="h4fcc02fag3224g4724gb3a9g3a9ef8ca842b" version="1">While Psionic Empowerment is active, this weapon deals an additional [1].</content>
+	<content contentuid="h7489bb71gac8ag48abgac73gdad505ae6748" version="1">Shattered Psyche</content>
+	<content contentuid="he4d8aea3g97e5g4a8eg9c5fgaf6bd18c0be9" version="1">While Psionic Empowerment is active, attacks with this weapon inflict &lt;LSTag Type="Status" Tooltip="MAG_PSYCHIC_MENTAL_FATIGUE"&gt;Mental Fatigue&lt;/LSTag&gt; for [1] turns.</content>
+	<content contentuid="h9b1ff5e1ga2c7g4e24ga82eg2c7c8214e57b" version="1">Sixth Sense</content>
+	<content contentuid="hb285802cg2210g492bg8066g0490a09f3fa6" version="1">While Psionic Empowerment is active, you add your Intelligence &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; to Perception and Survival &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="he0920fccg1df7g48d6g8df9g86b6ec47d2ea" version="1">Sentient Weapon</content>
+	<content contentuid="hcb147377gb0cdg4e94g88fcga426a17b3b2a" version="1">While Psionic Empowerment is active, you gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; with longbows.</content>
+	<content contentuid="h5432b3c0g4348g4c25g9e08g14d668ff3fed" version="1">You can displace objects, or interact with objects at a distance, such as opening doors or chests.</content>
+	<content contentuid="heb2afa8bgf3fbg43dag93begd25d6e2e1568" version="1">Move an object to another position. This cannot target creatures.</content>
+	<content contentuid="heee1227fgd85ag43cdga518gd22cbd6977fa" version="1">Interact with an object at a distance.</content>
+	<content contentuid="hb65bb7dfgb363g49f0gaf90g780e3ff09f64" version="1">Mystic Hand (Move)</content>
+	<content contentuid="hcee03041g56b8g4ac7g923fgb9e1c2b0eb0c" version="1">Mystic Hand (Interact)</content>
+	<content contentuid="h83144bcage30cg46d8g874fg15858fd34ceb" version="1">This object can be interacted with at a distance.</content>
+	<content contentuid="ha5340230g392bg4242g9bdagb5b91ccb7f69" version="1">Awakened Power</content>
+	<content contentuid="h5591cdfcg841eg437cg87b2g2020786f4e1b" version="1">This weapon deals an additional [1]. Additionally, you use your &lt;LSTag Tooltip="SpellcastingAbilityModifier"&gt;Spellcasting Ability Modifier&lt;/LSTag&gt; for &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
+	<content contentuid="h018e6693g27b6g4fadga47eg2488d484216b" version="1">Mindbreaker</content>
+	<content contentuid="h736a3e8fg575bg4f09g813agb6d79f6d9806" version="1">Attacks with this weapon inflict &lt;LSTag Type="Status" Tooltip="MAG_PSYCHIC_MENTAL_FATIGUE"&gt;Mental Fatigue&lt;/LSTag&gt; for [1] turns. </content>
+	<content contentuid="h1ca25a4bgc1feg4228ga467g2657da352e05" version="1">Omniscience</content>
+	<content contentuid="hbf446463ga380g4230g98c6g7e6e945bbc74" version="1">Add your Intelligence &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; to Perception and Survival &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="hcc652254gfb4ag4485gb0a6gbca98c9b3f86" version="1">Living Weapon</content>
+	<content contentuid="h80e72cbeg731fg4cafgaa16g73357171d04f" version="1">Gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; with longbows.</content>
 	<content contentuid="" version="1"> </content>
 	<content contentuid="" version="1"> </content>
 	<content contentuid="" version="1"> </content>

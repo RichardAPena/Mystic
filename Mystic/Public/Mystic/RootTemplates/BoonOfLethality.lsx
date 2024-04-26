@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+                <node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="h92a38ff1g8c56g4cc5gb076g6ddadb7e87e4" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h3bdbee79g0aa0g4af4g8ed6ga6fa8f1cee72" version="2" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="h3c6353f1g8b1ag413cgb8b9ge48f4cfae157" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_CONS_Potion_Fire_Resistance" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="7dca809c-cb75-4e61-8163-37deed700707" />
+					<attribute id="Name" type="LSString" value="Mystic_CONS_Boon_Of_Lethality" />
+					<attribute id="ParentTemplateId" type="FixedString" value="277257bc-38f5-4c51-be13-32498e8cbd3d" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="3dc80f25-7dc4-91dc-75e5-2dc8fdf1beed" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Mystic_SoulKnife_Boon_Lethality" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="5d563d0d-c62d-4e6f-9457-0a61dfb08225" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209026" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.05830131 -0.05670664 -0.3319795" />
+									<attribute id="Max" type="fvec3" value="0.05671947 0.08383667 0.3370807" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Height" type="float" value="0.418184" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.05830131 -0.05670664 -0.3319795" />
+									<attribute id="Max" type="fvec3" value="0.05671947 0.08383667 0.3370807" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Height" type="float" value="0.418184" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.05830131 -0.05670664 -0.3319795" />
+									<attribute id="Max" type="fvec3" value="0.05671947 0.08383667 0.3370807" />
+									<attribute id="Radius" type="float" value="0.114147" />
+									<attribute id="Height" type="float" value="0.418184" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="5" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ExplodeFX" type="FixedString" value="1b423e70-486f-e19e-0f3b-1618144e8349" />
+											<attribute id="FadeOutDelay" type="float" value="0" />
+											<attribute id="FadeOutFX" type="FixedString" value="" />
+											<attribute id="SnapToGround" type="bool" value="True" />
+											<attribute id="TargetItemState" type="uint8" value="0" />
+											<attribute id="VisualWithDynamicPhysics" type="FixedString" value="" />
+											<attribute id="templateAfterDestruction" type="FixedString" value="" />
+											<attribute id="visualDestruction" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="StatsId" type="FixedString" value="MYSTIC_SOUL_KNIFE_LETHAL" />
+											<attribute id="StatusDuration" type="int32" value="-1" />
+											<attribute id="Consume" type="bool" value="True" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+            </children>
+		</node>
+	</region>
+</save>

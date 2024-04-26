@@ -172,6 +172,41 @@ data "PrepareEffect" "e13f73e8-4747-4c09-901a-18f6280bede6"
 data "TargetEffect" "00e2f380-36c8-42e7-81b5-0f80d200566b"
 data "BeamEffect" "2c70ac69-71bf-4fef-b82d-caea934e102e"
 
+// Mystic Hand (Interact)
+new entry "Target_Mystic_MysticHand_Interact"
+type "SpellData"
+data "SpellType" "Target"
+
+data "DisplayName" "hcee03041g56b8g4ac7g923fgb9e1c2b0eb0c"
+data "Description" "heee1227fgd85ag43cdga518gd22cbd6977fa"
+data "Icon" "Action_Mystic_MysticHand"
+data "SpellContainerID" "Throw_Mystic_MysticHand"
+
+data "TargetRadius" "18"
+data "SpellProperties" "ApplyStatus(MYSTIC_MYSTIC_HAND_INTERACT,100,0)"
+
+data "TargetConditions" "Item()"
+data "CastTextEvent" "Cast"
+data "CycleConditions" "Enemy() and not Dead()"
+data "UseCosts" "ActionPoint:1"
+data "SpellAnimation" "2de2c59c-7f42-4419-8b25-09931a8cd5e4,,;,,;6359af9b-f775-42fb-8dec-00dea9acbba5,,;8285df5d-b1f5-46d0-aee6-4dccfe8c6699,,;7b0adac6-a6a6-4664-9aa4-20106d74f4cc,,;,,;9bffe4ec-8f3a-4e92-be99-0557c783aab1,,;,,;,,;"
+data "SpellFlags" "IsSpell"
+data "HitAnimationType" "MagicalNonDamage"
+// data "PrepareSound" "Action_Prepare_Warlock_FeyPresenceCharmed"
+// data "PrepareLoopSound" "Action_Loop_Warlock_FeyPresenceCharmed"
+// data "CastSound" "Action_Cast_Warlock_FeyPresenceCharmed"
+// data "TargetSound" "Action_Impact_Warlock_FeyPresenceCharmed"
+// data "PrepareEffect" "e13f73e8-4747-4c09-901a-18f6280bede6"
+// data "TargetEffect" "00e2f380-36c8-42e7-81b5-0f80d200566b"
+// data "BeamEffect" "2c70ac69-71bf-4fef-b82d-caea934e102e"
+data "CastSound" "Spell_Cast_Damage_Psychic_DissonantWhispers_L1to3"
+data "TargetSound" "Spell_Impact_Damage_Psychic_DissonantWhispers_L1to3"
+data "PrepareEffect" "752219e2-351d-46ea-9448-3a714b3d3acc"
+data "CastEffect" "bd2fc245-5645-452f-a2cd-d158b751bbe4"
+data "TargetEffect" "a0aee53a-d702-4901-9bb3-7cf08e214346"
+data "BeamEffect" "0b7b656e-61ed-4074-ac45-d6c295290334"
+
+
 // Psychic Hammer
 new entry "Target_Mystic_PsychicHammer"
 type "SpellData"

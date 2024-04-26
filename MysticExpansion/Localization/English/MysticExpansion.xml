@@ -36,7 +36,7 @@
 	<content contentuid="hb3b6dabag4bb1g48aaga83dg1b104cf60da8" version="1">Also known as Blades, mystics of this order forsake mental training and instead focus on weapons, using their psionics to enhance their attacks.</content>
 	<content contentuid="ha566a8ccgd8a9g4605ga5cfg2aad1c10dec9" version="1">Mystic Arsenal</content>
 	<content contentuid="hc25e7e73gf237g4092ga212g2f98d2f2caf7" version="1">Learn a Fighting Style of your choice.</content>
-	<content contentuid="hb8de0cb3ga47dg4236ga518g5b1f1d12aaac" version="1">You can choose from Two-Weapon Fighting, Dueling, Archery and Thrown Weapon Fighting. You can only learn one Fighting Style from this feature at a time.</content>
+	<content contentuid="hb8de0cb3ga47dg4236ga518g5b1f1d12aaac" version="1">You can choose from Great Weapon Fighting, Dueling, Archery and Thrown Weapon Fighting. You can only learn one Fighting Style from this feature at a time.</content>
 	<content contentuid="h281f3304ge417g4149gae2cga120ea5f64d5" version="1">Martial Training</content>
 	<content contentuid="he2478245g7e29g4b9bga1c2gfab43839df34" version="1">Gain &lt;LSTag Tooltip="WeaponProficiency"&gt;Weapon Proficiency&lt;/LSTag&gt; with Martial Weapons and &lt;LSTag Tooltip="ArmourProficiency"&gt;Armour Proficiency&lt;/LSTag&gt; with Medium Armour, Heavy Armour and Shields.</content>
 	<content contentuid="h963bd4bdg830dg4f72gaf8fg64f4f1692dcb" version="1">Mystic Arsenal: Great Weapon Fighting</content>
@@ -244,7 +244,7 @@
 	<content contentuid="hbd372084g55c8g42a7g8426g0ab4065a58f0" version="1">Souleater</content>
 	<content contentuid="hccd09168gb515g4a6cg92cbgef6be875ed23" version="1">Sever a creature's soul from its body. If this reduces a target to [1], you regain an action and 5 Psi Points.</content>
 	<content contentuid="he267b376g3205g44b3g9addgf9cbd3d31900" version="1">Doom</content>
-	<content contentuid="h5ad845a8g85c9g41c3gaf07g6719a9efdec0" version="1">Doom a creature to certain death. While you remain within [1] of it, it cannot regain hit points, its &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; is halved it will lose any &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; it has.</content>
+	<content contentuid="h5ad845a8g85c9g41c3gaf07g6719a9efdec0" version="1">Doom a creature to certain death. While you remain within [1] of it, it cannot regain hit points, its &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; is halved and	 it will lose any &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; it has.</content>
 	<content contentuid="h47f33188gb5b3g41c8g941eg06bd8e201b9b" version="1">Affected creature cannot regain hit points, its &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; is halved and no longer has any &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt;.</content>
 	<content contentuid="h4f83831eg1c7bg44e0g8cfdg8a01097ef699" version="1">Crown of Apathy</content>
 	<content contentuid="h9a6cebf2g5932g437ag9ff6g4298ec8093fd" version="1">You have learned to suppress all emotions on creatures, filling them with a sense of apathy and disinterest.</content>

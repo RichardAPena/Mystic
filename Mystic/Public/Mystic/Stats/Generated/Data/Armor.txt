@@ -73,6 +73,7 @@ data "ArmorType" "StuddedLeather"
 data "PassivesOnEquip" "Passive_Mystic_AwakenedEffect"
 data "StatusOnEquip" "MYSTIC_AWAKENED_EFFECT_TECHNICAL"
 data "MinLevel" ""
+data "Boosts" "SpellSaveDC(1);RollBonus(MeleeSpellAttack,1);RollBonus(RangedSpellAttack,1)"
 
 // IMMORTAL CHEST
 new entry "ARM_Mystic_ImmortalChest_Body"
@@ -135,6 +136,7 @@ data "Ability Modifier Cap" ""
 data "Weight" "4.5"
 data "ArmorType" "StuddedLeather"
 data "PassivesOnEquip" "Passive_Mystic_WuJenEffect"
+data "Boosts" "SpellSaveDC(1);RollBonus(MeleeSpellAttack,1);RollBonus(RangedSpellAttack,1)"
 
 // Mastermind Gloves
 new entry "ARM_Mystic_Mastermind_Gloves"

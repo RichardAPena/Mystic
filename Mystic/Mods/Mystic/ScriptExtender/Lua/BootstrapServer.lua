@@ -1,5 +1,6 @@
 Ext.Require("Server/MonkAnimations.lua")
 Ext.Require("Server/FreecastPsiPoints.lua")
+Ext.Require("Server/MysticHand.lua")
 
 StatPaths = {
     -- "Public/Mystic/Stats/Generated/Data/Spell_Projectile.txt",

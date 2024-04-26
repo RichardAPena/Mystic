@@ -11,9 +11,9 @@
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="ParentTemplateId" type="FixedString" value="158e6f29-89e9-4279-8f8f-85078f047225" />
 					<attribute id="ReadinessFlags" type="uint32" value="128" />
-					<attribute id="VisualTemplate" type="FixedString" value="bf4aff78-7049-2667-0ce9-63fb19cca6ef" />
+					<attribute id="VisualTemplate" type="FixedString" value="37c8a2ee-51cc-4d54-9353-b20f7003ea85" />
 					<attribute id="DisplayName" type="TranslatedString" handle="h1ff6d57cgf586g48a4gae14g68a086fe8f76" version="1" />
-					<attribute id="Icon" type="FixedString" value="Item_S_CHA_Weapon_Spear_CompassSpear" />
+					<attribute id="Icon" type="FixedString" value="ITEM_Mystic_EruditesSpear" />
 					<attribute id="Stats" type="FixedString" value="WPN_Mystic_EruditeSpear" />
 					<attribute id="Description" type="TranslatedString" handle="hb11cb393ge479g45b9g8c1bg0b421b75c0fb" version="4" />
 					<children>

@@ -1,0 +1,35 @@
+// Boon of Force
+new entry "OBJ_Mystic_SoulKnife_Boon_Force"
+type "Object"
+using "_Potion"
+data "RootTemplate" "bac1f0d6-acdf-4071-8516-84310e968b66"
+data "ValueOverride" "120"
+data "ValueScale" "0.5"
+data "Rarity" "Rare"
+
+// Boon of Lethality
+new entry "OBJ_Mystic_SoulKnife_Boon_Lethality"
+type "Object"
+using "_Potion"
+data "RootTemplate" "7dca809c-cb75-4e61-8163-37deed700707"
+data "ValueOverride" "120"
+data "ValueScale" "0.5"
+data "Rarity" "Rare"
+
+// Boon of Power
+new entry "OBJ_Mystic_SoulKnife_Boon_Power"
+type "Object"
+using "_Potion"
+data "RootTemplate" "217a576f-a687-4273-a155-ef4188537884"
+data "ValueOverride" "750"
+data "ValueScale" "0.5"
+data "Rarity" "VeryRare"
+
+// Boon of Brilliance
+new entry "OBJ_Mystic_SoulKnife_Boon_Brilliance"
+type "Object"
+using "_Potion"
+data "RootTemplate" "bf41d936-e15f-4c77-8def-5e49f8e66535"
+data "ValueOverride" "750"
+data "ValueScale" "0.5"
+data "Rarity" "VeryRare"

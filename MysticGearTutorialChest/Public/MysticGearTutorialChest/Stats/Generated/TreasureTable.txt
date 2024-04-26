@@ -44,3 +44,11 @@ new subtable "1,1"
 object category "I_WPN_Mystic_Failnaught",1,0,0,0,0,0,0,0
 new subtable "1,1"
 object category "I_WPN_Mystic_Gandiva",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_OBJ_Mystic_SoulKnife_Boon_Force",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_OBJ_Mystic_SoulKnife_Boon_Lethality",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_OBJ_Mystic_SoulKnife_Boon_Power",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_OBJ_Mystic_SoulKnife_Boon_Brilliance",1,0,0,0,0,0,0,0

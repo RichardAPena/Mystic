@@ -4,9 +4,6 @@ local function IntelligenceThrow_OnStartCarrying(carriedObject, carriedObjectTem
         return
     end
 
-    -- print("IntelligenceThrow: " .. tostring(thrown))
-    -- print("IntelligenceThrow: " .. tostring(Ext.Entity.Get(thrown).Weapon.WeaponProperties))
-
     local weaponEntity = Ext.Entity.Get(thrown)
     if not weaponEntity then
         return

@@ -25,7 +25,10 @@
 						<node id="StatusList">
 							<children>
 								<node id="Status">
-									<attribute id="Object" type="FixedString" value="MAG_SMALL_CREATURE_SLAYER_BLESS" />
+									<attribute id="Object" type="FixedString" value="MYSTIC_AWAKENED_POWER" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="MYSTIC_AWAKENED_POWER_VFX" />
 								</node>
 							</children>
 						</node>
