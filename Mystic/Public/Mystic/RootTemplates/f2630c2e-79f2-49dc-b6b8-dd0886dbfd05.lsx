@@ -10,7 +10,7 @@
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="ParentTemplateId" type="FixedString" value="d9a98dce-1027-4324-939c-3c9cfe776731" />
-					<attribute id="VisualTemplate" type="FixedString" value="b33f59eb-df05-560a-8ae8-7721627d6a3a" />
+					<attribute id="VisualTemplate" type="FixedString" value="fa800c3f-8e8f-4c33-36e9-f6b264bcea66" />
 					<attribute id="DisplayName" type="TranslatedString" handle="hb785d935gba9ag4039ga76cgeb2452ad49ef" version="2" />
 					<attribute id="Stats" type="FixedString" value="WPN_Mystic_Failnaught" />
 					<attribute id="Description" type="TranslatedString" handle="h8571e52cg024eg4f83gaa37g17fc3ce47d24" version="1" />

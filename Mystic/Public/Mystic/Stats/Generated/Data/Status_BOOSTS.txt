@@ -3794,12 +3794,7 @@ data "Icon" "Action_PactOfTheBlade_Greatsword"
 data "StackId" "MYSTIC_PSIONIC_EMPOWERMENT"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
 data "Boosts" "WeaponAttackRollAbilityOverride(SpellCastingAbility)"
-// TODO: NEW VFX
 data "StatusEffect" "17f07378-6bc4-46d9-b768-5b35e4deebbc"
-// ^ keep, probably layer
-// data "StatusEffect" "61d132ed-e69e-4f78-87a6-b9065ed32c3f"
-// ^ keep, probaly layer
-// data "StatusEffect" "77c2022f-7060-4880-af0e-86cb170289ea"
 
 new entry "MYSTIC_AWAKENED_POWER_VFX"
 type "StatusData"
@@ -3807,6 +3802,13 @@ data "StatusType" "BOOST"
 data "StackId" "MYSTIC_AWAKENED_POWER_VFX"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
 data "StatusEffect" "61d132ed-e69e-4f78-87a6-b9065ed32c3f"
+
+new entry "MYSTIC_AWAKENED_POWER_VFX_2"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StackId" "MYSTIC_AWAKENED_POWER_VFX_2"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
+data "StatusEffect" "b10b8029-ec10-4ca7-9483-5b27c9b6473a"
 
 new entry "MYSTIC_FREECAST"
 type "StatusData"

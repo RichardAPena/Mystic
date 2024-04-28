@@ -31,6 +31,9 @@
 								<node id="Status">
 									<attribute id="Object" type="FixedString" value="MYSTIC_AWAKENED_POWER_VFX" />
 								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="MYSTIC_AWAKENED_POWER_VFX_2" />
+								</node>
 							</children>
 						</node>
 					</children>
