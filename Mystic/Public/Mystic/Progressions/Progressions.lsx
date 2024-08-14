@@ -12,7 +12,7 @@
                     <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_StrengthOfMind_Wisdom;Passive_Mystic_IllithidFix"/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectPassives(48317e03-fe2a-4767-8f4d-1bdc2a40ac65,1,PsionicDisciplines);SelectSkills(a93e9e09-6bdd-475c-b4e4-3acf69d02111,2);SelectSpells(7b64aaca-d5e5-4555-9df3-a19bb13b5008,2,0,PsionicTalents,,,AlwaysPrepared);"/>
+                    <attribute id="Selectors" type="LSString" value="SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectPassives(48317e03-fe2a-4767-8f4d-1bdc2a40ac65,1,PsionicDisciplines);SelectSkills(a93e9e09-6bdd-475c-b4e4-3acf69d02111,2);SelectSpells(7b64aaca-d5e5-4555-9df3-a19bb13b5008,2,0,PsionicTalents,,,AlwaysPrepared)"/>
 					<attribute id="TableUUID" type="guid" value="4b5d89ce-9dfb-46c2-a205-77bbf05a6492"/>
                     <attribute id="UUID" type="guid" value="0482322d-723e-4705-a41a-99e27902311c"/>
 					<children>
@@ -49,7 +49,7 @@
                     <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_IllithidFix"/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="SelectPassives(48317e03-fe2a-4767-8f4d-1bdc2a40ac65,1,PsionicDisciplines);SelectSpells(7b64aaca-d5e5-4555-9df3-a19bb13b5008,2,0,PsionicTalents,,,AlwaysPrepared);"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(48317e03-fe2a-4767-8f4d-1bdc2a40ac65,1,PsionicDisciplines);SelectSpells(7b64aaca-d5e5-4555-9df3-a19bb13b5008,2,0,PsionicTalents,,,AlwaysPrepared)"/>
 					<attribute id="TableUUID" type="guid" value="4b5d89ce-9dfb-46c2-a205-77bbf05a6492"/>
                     <attribute id="UUID" type="guid" value="5e682fd9-6864-45e0-bf8b-f45555555555"/>
 					<children>
@@ -525,7 +525,7 @@
                     <attribute id="Name" type="LSString" value="WuJen"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="PassivesAdded" type="LSString" value=""/>
-                    <attribute id="Selectors" type="LSString" value="SelectPassives(7b38171b-da70-470e-b3a8-4edabc8da3c8,2,WuJenDisciplines);SelectSkills(617e273e-cc5e-44ea-aa33-ae38865d224f,1);"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(7b38171b-da70-470e-b3a8-4edabc8da3c8,2,WuJenDisciplines);SelectSkills(617e273e-cc5e-44ea-aa33-ae38865d224f,1)"/>
                     <attribute id="TableUUID" type="guid" value="5be9ee51-acca-46da-be13-e66a6ff5a080"/>
                     <attribute id="UUID" type="guid" value="28d0587c-981c-4be2-84b1-c6f1870f88da"/>
                 </node>

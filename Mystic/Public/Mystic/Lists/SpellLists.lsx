@@ -64,11 +64,6 @@
           <attribute id="Spells" type="LSString" value="Target_Mystic_PhantomKnife" />
           <attribute id="UUID" type="guid" value="da99c3d1-27b9-4c5e-8d5b-d54f9173f7ae" />
         </node>
-        <node id="SpellList">
-          <attribute id="Comment" type="LSString" value="Arcane Dabbler (Wu Jen)" />
-          <attribute id="Spells" type="LSString" value="" />
-          <attribute id="UUID" type="guid" value="69eb3bee-8303-44ba-917d-54c3943b1dc6" />
-        </node>
       </children>
     </node>
   </region>

@@ -273,7 +273,8 @@ type "PassiveData"
 data "DisplayName" "h446ffd90gb225g4154ga776g7045aeea67d7"
 data "Description" "hdcfa79a0ga3d9g42ddg8b25gd8de8954b9e1"
 data "Icon" "Action_Mystic_EtherealWeapon"
-data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_PsionicWeapon);UnlockSpell(Shout_Mystic_EtherealWeapon);UnlockSpell(Shout_Mystic_LethalStrike);UnlockSpell(Target_Mystic_LethalStrike_Melee);UnlockSpell(Projectile_Mystic_LethalStrike_Ranged);UnlockInterrupt(Interrupt_Mystic_LethalStrike);UnlockInterrupt(Interrupt_Mystic_LethalStrike_2);UnlockInterrupt(Interrupt_Mystic_LethalStrike_3);UnlockInterrupt(Interrupt_Mystic_LethalStrike_4);UnlockInterrupt(Interrupt_Mystic_LethalStrike_5);UnlockInterrupt(Interrupt_Mystic_LethalStrike_6);UnlockInterrupt(Interrupt_Mystic_LethalStrike_7);UnlockSpell(Target_Mystic_AugmentedWeapon)"
+// data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_PsionicWeapon);UnlockSpell(Shout_Mystic_EtherealWeapon);UnlockSpell(Shout_Mystic_LethalStrike);UnlockSpell(Target_Mystic_LethalStrike_Melee);UnlockSpell(Projectile_Mystic_LethalStrike_Ranged);UnlockInterrupt(Interrupt_Mystic_LethalStrike);UnlockInterrupt(Interrupt_Mystic_LethalStrike_2);UnlockInterrupt(Interrupt_Mystic_LethalStrike_3);UnlockInterrupt(Interrupt_Mystic_LethalStrike_4);UnlockInterrupt(Interrupt_Mystic_LethalStrike_5);UnlockInterrupt(Interrupt_Mystic_LethalStrike_6);UnlockInterrupt(Interrupt_Mystic_LethalStrike_7);UnlockSpell(Target_Mystic_AugmentedWeapon)"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_PsionicWeapon);UnlockSpell(Shout_Mystic_EtherealWeapon);UnlockSpell(Shout_Mystic_LethalStrike);UnlockSpell(Target_Mystic_AugmentedWeapon)"
 
 // Psychic Assault
 new entry "Discipline_PsychicAssault"
@@ -386,6 +387,27 @@ data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnAttacked"
 data "Conditions" "not IsMiss()"
 data "StatsFunctors" "DealDamage(SWAP,2d10,Psychic,Magical)"
+
+// Ethereal Weapon
+new entry "Passive_Mystic_EtherealWeapon_Melee"
+type "PassiveData"
+data "Icon" "Action_Mystic_EtherealWeapon"
+data "DisplayName" "h46383e61g4143g47a9gac5bg5f2170515105"
+data "Description" "h1bddf10bg85aeg4891gae66g13c4bfd86fb4"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnAttack"
+data "Conditions" "IsMiss() and IsMeleeWeaponAttack()"
+data "StatsFunctors" "DealDamage((MainMeleeWeapon)/2, MainMeleeWeaponDamageType); ExecuteWeaponFunctors(MainHand)"
+
+new entry "Passive_Mystic_EtherealWeapon_Ranged"
+type "PassiveData"
+data "Icon" "Action_Mystic_EtherealWeapon"
+data "DisplayName" "h46383e61g4143g47a9gac5bg5f2170515105"
+data "Description" "h1bddf10bg85aeg4891gae66g13c4bfd86fb4"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnAttack"
+data "Conditions" "IsMiss() and IsRangedWeaponAttack()"
+data "StatsFunctors" "DealDamage((MainRangedWeapon)/2, MainRangedWeaponDamageType); ExecuteWeaponFunctors(MainHand)"
 
 // Cloak of Air
 new entry "Passive_Mystic_CloakOfAir"

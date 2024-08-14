@@ -9,11 +9,11 @@
                     <attribute id="UUID" type="guid" value="a93e9e09-6bdd-475c-b4e4-3acf69d02111" />
                 </node>
         <node id="SkillList">
-                    <attribute id="Skills" type="LSString" value="Animal Handling, Deception, Insight, Intimidation, Investigation, Perception, Persuasion" /> 
+                    <attribute id="Skills" type="LSString" value="AnimalHandling, Deception, Insight, Intimidation, Investigation, Perception, Persuasion" /> 
                     <attribute id="UUID" type="guid" value="d7789c63-8915-4996-80c2-6e992129ec36" />
                 </node>
         <node id="SkillList">
-                    <attribute id="Skills" type="LSString" value="Animal Handling, Arcana, History, Insight, Medicine, Nature, Perception, Religion, Survival" />
+                    <attribute id="Skills" type="LSString" value="AnimalHandling, Arcana, History, Insight, Medicine, Nature, Perception, Religion, Survival" />
                     <attribute id="UUID" type="guid" value="617e273e-cc5e-44ea-aa33-ae38865d224f" />
                 </node>
       </children>
