@@ -6,7 +6,7 @@
 			<children>
                 <node id="GameObjects">
 					<attribute id="Description" type="TranslatedString" handle="h3e3fb13eg3985g4c3ag9712g88a5ea622df5" version="1" />
-					<attribute id="DisplayName" type="TranslatedString" handle="h2bcfd72fg600ag43d8g9576gbdf060ac4158" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h2bcfd72fg600ag43d8g9576gbdf060ac4158" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="0c7b90fa-12bb-4039-b8fa-c98aa7939027" />
 					<attribute id="Name" type="LSString" value="ARM_Mystic_ArdentBreastplate" />

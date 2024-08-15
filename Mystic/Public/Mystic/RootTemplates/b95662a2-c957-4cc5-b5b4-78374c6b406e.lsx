@@ -6,7 +6,7 @@
 			<children>
 				<node id="GameObjects">
 					<attribute id="Description" type="TranslatedString" handle="h936b705bgee4fg4a22g930dg1c050175ab03" version="1" />
-					<attribute id="DisplayName" type="TranslatedString" handle="h9e907ed3g82d2g4de3g81e2gcc5292667b38" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h9e907ed3g82d2g4de3g81e2gcc5292667b38" version="1" />
 					<attribute id="Icon" type="FixedString" value="Item_MAG_PHB_ofPower_Pearl_Amulet" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="b95662a2-c957-4cc5-b5b4-78374c6b406e" />

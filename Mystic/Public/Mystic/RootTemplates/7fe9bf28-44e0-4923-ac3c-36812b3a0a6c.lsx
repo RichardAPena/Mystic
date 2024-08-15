@@ -12,10 +12,10 @@
 					<attribute id="ParentTemplateId" type="FixedString" value="15338da1-c4f8-4b43-912c-c14e7d9a8579" />
 					<attribute id="VisualTemplate" type="FixedString" value="33a3fb87-832a-c29d-a316-2b3556b5f07c" />
 					<attribute id="PhysicsTemplate" type="FixedString" value="a47967a1-4aaa-53d5-6fec-7c3f4baf8b8a" />
-					<attribute id="DisplayName" type="TranslatedString" handle="hd8520700g219dg42d9g9916gd501d3583c31" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hd8520700g219dg42d9g9916gd501d3583c31" version="1" />
 					<attribute id="Icon" type="FixedString" value="Item_ARM_ChainShirt_Justiciar" />
 					<attribute id="Stats" type="FixedString" value="ARM_Mystic_SoulKnifeChest_Body" />
-					<attribute id="Description" type="TranslatedString" handle="h8aef7b7agac1fg4529g914cgbc9c97392f4c" version="2" />
+					<attribute id="Description" type="TranslatedString" handle="h8aef7b7agac1fg4529g914cgbc9c97392f4c" version="1" />
 					<children>
 						<node id="Tags">
 							<children>

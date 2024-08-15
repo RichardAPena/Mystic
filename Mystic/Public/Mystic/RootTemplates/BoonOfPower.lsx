@@ -6,7 +6,7 @@
 			<children>
                 <node id="GameObjects">
 					<attribute id="DisplayName" type="TranslatedString" handle="hcc84c7d9geb75g4228gac61g59cb776cbe9a" version="1" />
-					<attribute id="Description" type="TranslatedString" handle="hde783293gc330g418agb1b8g35222020fd6d" version="2" />
+					<attribute id="Description" type="TranslatedString" handle="hde783293gc330g418agb1b8g35222020fd6d" version="1" />
 					<attribute id="TechnicalDescription" type="TranslatedString" handle="hc08c9ba4g8f33g430bg9d42gdfa68ef86734" version="1" />
 					<attribute id="Icon" type="FixedString" value="Item_CONS_Potion_Psychic_Resistance" />
 					<attribute id="LevelName" type="FixedString" value="" />

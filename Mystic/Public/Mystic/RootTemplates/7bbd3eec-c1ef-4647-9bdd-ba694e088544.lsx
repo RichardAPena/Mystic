@@ -5,15 +5,15 @@
 		<node id="Templates">
 			<children>
 				<node id="GameObjects">
-					<attribute id="Description" type="TranslatedString" handle="h907ebb3bge8cag48aeg8e30g6cd0b4c337d8" version="2" />
-					<attribute id="DisplayName" type="TranslatedString" handle="h932d4ad3gda6eg4959g9095gf4ec63402c1a" version="2" />
+					<attribute id="Description" type="TranslatedString" handle="h907ebb3bge8cag48aeg8e30g6cd0b4c337d8" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h932d4ad3gda6eg4959g9095gf4ec63402c1a" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="7bbd3eec-c1ef-4647-9bdd-ba694e088544" />
 					<attribute id="Name" type="LSString" value="ARM_Mystic_PsychicRenewal_Amulet" />
 					<attribute id="ParentTemplateId" type="FixedString" value="e2467d34-1b3f-4e7a-987b-bbf77b9db73c" />
 					<attribute id="Stats" type="FixedString" value="ARM_Mystic_PsychicRenewal_Amulet" />
 					<attribute id="Icon" type="FixedString" value="Item_MAG_ChargedLightning_StaticDischarge_Amulet" />
-					<attribute id="TechnicalDescription" type="TranslatedString" handle="" version="0" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="" version="1" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<children>
 						<node id="Tags">

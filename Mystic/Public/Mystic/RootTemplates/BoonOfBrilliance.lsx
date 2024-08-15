@@ -6,7 +6,7 @@
 			<children>
                 <node id="GameObjects">
 					<attribute id="DisplayName" type="TranslatedString" handle="hddddbd6fg37afg4d81gbf68g9cbf81504f89" version="1" />
-					<attribute id="Description" type="TranslatedString" handle="h42f4ee22g1b21g4db5g82c5g9bda8d7d9307" version="2" />
+					<attribute id="Description" type="TranslatedString" handle="h42f4ee22g1b21g4db5g82c5g9bda8d7d9307" version="1" />
 					<attribute id="TechnicalDescription" type="TranslatedString" handle="hf694a73bg0892g4ce4gbe2cg59145246d846" version="1" />
 					<attribute id="Icon" type="FixedString" value="Item_CONS_Potion_Cold_Resistance" />
 					<attribute id="LevelName" type="FixedString" value="" />

@@ -11,7 +11,7 @@
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="ParentTemplateId" type="FixedString" value="a46173b7-afd6-48e0-9c76-817acd027574" />
 					<attribute id="VisualTemplate" type="FixedString" value="8b7d3023-71a1-1122-69f0-f15d3f9232c8" />
-					<attribute id="DisplayName" type="TranslatedString" handle="h300a05a7g3d06g453cg9f25g3f1b8a4e0ad6" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h300a05a7g3d06g453cg9f25g3f1b8a4e0ad6" version="1" />
 					<attribute id="Stats" type="FixedString" value="WPN_Mystic_Gandiva" />
 					<attribute id="Description" type="TranslatedString" handle="h319f0443g3f22g4240gac96gf699a36c5464" version="1" />
 					<children>

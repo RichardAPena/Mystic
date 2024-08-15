@@ -6,7 +6,7 @@
             <children>
                 <node id="TooltipUpcastDescriptions">
                     <attribute id="Name" type="FixedString" value="Additional damage, two fields"/>
-                    <attribute id="Text" type="TranslatedString" handle="h8feef7abg9fd9g49e9g9e6dg6b262b22277e" version="3"/>
+                    <attribute id="Text" type="TranslatedString" handle="h8feef7abg9fd9g49e9g9e6dg6b262b22277e" version="1"/>
                     <attribute id="UUID" type="guid" value="c857aa97-fb7f-43ad-b718-de9bdd50efd5"/>
                 </node>
             </children>
