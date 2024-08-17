@@ -309,7 +309,7 @@ data "Description" "hec27d459ge317g4688g9342gc860aa839b39"
 data "DescriptionParams" "DealDamage(1d6,Acid)"
 data "Icon" "GenericIcon_DamageType_Acid"
 data "StackId" "MYSTIC_ENERGY_INFUSION"
-data "Boosts" "IF(IsMeleeWeaponAttack()):CharacterWeaponDamage(1d6,Fire);"
+data "Boosts" "IF(IsMeleeWeaponAttack()):CharacterWeaponDamage(1d6,Acid);"
 data "StatusGroups" "SG_RemoveOnRespec"
 
 new entry "MYSTIC_ENERGY_INFUSION_COLD"
