@@ -1,5 +1,6 @@
 // Crimson Harvest
 new entry "Shout_Mystic_PsychicFocus_CrimsonHarvest"
+type "SpellData"
 using "Shout_Mystic_PsychicFocus_Container"
 data "DisplayName" "hc1e0e6d2g1c7eg4e15gaeb4g645a726c06e3"
 data "Description" "hc6d47f53g9eacg4789g8b50g954bdc4c6a4c"
@@ -13,6 +14,7 @@ data "ContainerSpells" ""
 
 // Crown of Apathy
 new entry "Shout_Mystic_PsychicFocus_CrownOfApathy"
+type "SpellData"
 using "Shout_Mystic_PsychicFocus_Container"
 data "DisplayName" "h83b9fa27gb8cfg4b03ga46ag63a1a89e700a"
 data "Description" "h3de96f4bg290eg464cg8877g6462128cb209"
@@ -25,6 +27,7 @@ data "ContainerSpells" ""
 
 // Crown of Envy
 new entry "Shout_Mystic_PsychicFocus_CrownOfEnvy"
+type "SpellData"
 using "Shout_Mystic_PsychicFocus_Container"
 data "DisplayName" "hd78fe06bgb2f3g4578g9479g96c0003eefb4"
 data "Description" "hd368a56ag0442g4613gb618g971eb4de14b3"
@@ -38,6 +41,7 @@ data "ContainerSpells" ""
 
 // Crown of Regret
 new entry "Shout_Mystic_PsychicFocus_CrownOfRegret"
+type "SpellData"
 using "Shout_Mystic_PsychicFocus_Container"
 data "DisplayName" "he57c1db3g7ec3g46d9gbb5bg28bc96cb54d9"
 data "Description" "hba41d113g57a0g4ba5ga9ffg448da45cbc7d"
@@ -50,6 +54,7 @@ data "ContainerSpells" ""
 
 // Infinite Abyss
 new entry "Shout_Mystic_PsychicFocus_InfiniteAbyss"
+type "SpellData"
 using "Shout_Mystic_PsychicFocus_Container"
 data "DisplayName" "he006381dg1019g4d38g9ad1g5a57c9b6f025"
 data "Description" "h48663b02g682fg4645g8dffg6f7e9b19a16a"
@@ -62,6 +67,7 @@ data "ContainerSpells" ""
 
 // Mantle of Insanity
 new entry "Shout_Mystic_PsychicFocus_MantleOfInsanity"
+type "SpellData"
 using "Shout_Mystic_PsychicFocus_Container"
 data "DisplayName" "h112b322fg18c8g488eg82d2g61c09a35c937"
 data "Description" "h81f79e5dg8e42g4de0g850dgfed3dfffd7d5"
@@ -74,6 +80,7 @@ data "ContainerSpells" ""
 
 // Mantle of Pride
 new entry "Shout_Mystic_PsychicFocus_MantleOfPride"
+type "SpellData"
 using "Shout_Mystic_PsychicFocus_Container"
 data "DisplayName" "he148a53cg63f2g48bag9b91ga96abf0e5cfd"
 data "Description" "h052bb446g3043g48d8ga727g230dc6e17ec2"
@@ -86,6 +93,7 @@ data "ContainerSpells" ""
 
 // Mantle of Serenity
 new entry "Shout_Mystic_PsychicFocus_MantleOfSerenity"
+type "SpellData"
 using "Shout_Mystic_PsychicFocus_Container"
 data "DisplayName" "h4c9731efg6472g47adg9320ge8a022c76861"
 data "Description" "hf21f00b5g593ag4240g82d6g3d11283de7bb"
@@ -98,6 +106,7 @@ data "ContainerSpells" ""
 
 // Mastery of Gravity
 new entry "Shout_Mystic_PsychicFocus_MasteryOfGravity"
+type "SpellData"
 using "Shout_Mystic_PsychicFocus_Container"
 data "DisplayName" "h23a9f378gb8b9g4210gb911gf4633225dad0"
 data "Description" "h09da3b6bgaa63g48e3g8655g853d9987c85c"
@@ -110,6 +119,7 @@ data "ContainerSpells" ""
 
 // Mastery of Metal
 new entry "Shout_Mystic_PsychicFocus_MasteryOfMetal"
+type "SpellData"
 using "Shout_Mystic_PsychicFocus_Container"
 data "DisplayName" "hab49ef47g34e7g42eag9a0dgd6b1741dd48e"
 data "Description" "h7224dc16gd97cg4e10g9b63g6191c99c2e80"
@@ -122,6 +132,7 @@ data "ContainerSpells" ""
 
 // Mastery of Nature
 new entry "Shout_Mystic_PsychicFocus_MasteryOfNature"
+type "SpellData"
 using "Shout_Mystic_PsychicFocus_Container"
 data "DisplayName" "h8b7016cegce8cg4c03g88d2g1d89a22ea671"
 data "Description" "h5e606964g1230g4414g8812g71af161b9a67"
@@ -135,6 +146,7 @@ data "ContainerSpells" ""
 
 // Mastery of Stars
 new entry "Shout_Mystic_PsychicFocus_MasteryOfStars"
+type "SpellData"
 using "Shout_Mystic_PsychicFocus_Container"
 data "DisplayName" "hcef7129agd017g4472ga2a9g5de6ed49feb0"
 data "Description" "he4b68c13g1c17g473dgb1b9gf11982c7f92d"
@@ -148,6 +160,7 @@ data "ContainerSpells" ""
 
 // Mastery of Time
 new entry "Shout_Mystic_PsychicFocus_MasteryOfTime"
+type "SpellData"
 using "Shout_Mystic_PsychicFocus_Container"
 data "DisplayName" "h4d96a2a6gbefbg4078g96e9g964cac1b2db5"
 data "Description" "h5df6c0bdg7883g4b16gb2d5g46d176d69e6f"
@@ -160,6 +173,7 @@ data "ContainerSpells" ""
 
 // Nomadic Alchemy
 new entry "Shout_Mystic_PsychicFocus_NomadicAlchemy"
+type "SpellData"
 using "Shout_Mystic_PsychicFocus_Container"
 data "DisplayName" "h13724d6egeb81g48adgbe66g5d212dae1c43"
 data "Description" "h8291d927gf15ag4bc9g96e2g8bd36fffcbe2"
@@ -172,6 +186,7 @@ data "ContainerSpells" ""
 
 // Nomadic Grace
 new entry "Shout_Mystic_PsychicFocus_NomadicGrace"
+type "SpellData"
 using "Shout_Mystic_PsychicFocus_Container"
 data "DisplayName" "h4c8aed3bgbd80g4767gb44cg38c16924ffe9"
 data "Description" "h5bd13d2bg5116g487bg8c91gf66fe8eb3bed"
@@ -184,6 +199,7 @@ data "ContainerSpells" ""
 
 // Nomadic Guile
 new entry "Shout_Mystic_PsychicFocus_NomadicGuile"
+type "SpellData"
 using "Shout_Mystic_PsychicFocus_Container"
 data "DisplayName" "hcde1959agf63ag436dg9489gf1da9eab1689"
 data "Description" "hed6e6708ge82cg4507gbdb1g0e13d36f46b6"
@@ -196,6 +212,7 @@ data "ContainerSpells" ""
 
 // Nomadic Hunting
 new entry "Shout_Mystic_PsychicFocus_NomadicHunting"
+type "SpellData"
 using "Shout_Mystic_PsychicFocus_Container"
 data "DisplayName" "h8cd02092g137fg44ccg8e1egac914880d409"
 data "Description" "h243cdc35g9c85g42bcg984dg51495cfcd52d"
@@ -208,6 +225,7 @@ data "ContainerSpells" ""
 
 // Nomadic Kinship
 new entry "Shout_Mystic_PsychicFocus_NomadicKinship"
+type "SpellData"
 using "Shout_Mystic_PsychicFocus_Container"
 data "DisplayName" "h4615c15cgcb98g486bg953fge6a8de890e08"
 data "Description" "h4da19600ge10fg460cgb4dcgabc3d9812e28"
@@ -220,6 +238,7 @@ data "ContainerSpells" ""
 
 // Phantasmal Mind
 new entry "Shout_Mystic_PsychicFocus_PhantasmalMind"
+type "SpellData"
 using "Shout_Mystic_PsychicFocus_Container"
 data "DisplayName" "h3e99fd44gc93cg448ag8955g8401694ed044"
 data "Description" "h7255655cg4000g4405gbdd6g1f3611cdb3cd"
@@ -232,6 +251,7 @@ data "ContainerSpells" ""
 
 // Psionic Skirmishing
 new entry "Shout_Mystic_PsychicFocus_PsionicSkirmishing"
+type "SpellData"
 using "Shout_Mystic_PsychicFocus_Container"
 data "DisplayName" "h084a3829g8d51g4399g9f16g08634f3c3270"
 data "Description" "heae38935gf23eg459fg8aacg83ef4866548a"
@@ -244,6 +264,7 @@ data "ContainerSpells" ""
 
 // Psionic Throwing
 new entry "Shout_Mystic_PsychicFocus_PsionicThrowing"
+type "SpellData"
 using "Shout_Mystic_PsychicFocus_Container"
 data "DisplayName" "hd95f1520g879fg4a16g9525g3364fbc8fbf8"
 data "Description" "h2f8d211ag4fc4g4977gaa70g359a80f47754"
@@ -256,6 +277,7 @@ data "ContainerSpells" ""
 
 // Psychic Distortion
 new entry "Shout_Mystic_PsychicFocus_PsychicDistortion"
+type "SpellData"
 using "Shout_Mystic_PsychicFocus_Container"
 data "DisplayName" "h92bb0710ge5dcg452aga7e7g1ecc237e1304"
 data "Description" "h3fde1150gcab6g4260g8cf0g17fda15a2f49"
@@ -268,6 +290,7 @@ data "ContainerSpells" ""
 
 // Soul Reaper
 new entry "Shout_Mystic_PsychicFocus_SoulReaper"
+type "SpellData"
 using "Shout_Mystic_PsychicFocus_Container"
 data "DisplayName" "h8eaa2a69g3e37g4a8dgb955g621fde5ae088"
 data "Description" "h4c9f9c76g439fg4d28g9757g40efb8943457"
@@ -281,6 +304,7 @@ data "ContainerSpells" ""
 
 // Titanic Presence
 new entry "Shout_Mystic_PsychicFocus_TitanicPresence"
+type "SpellData"
 using "Shout_Mystic_PsychicFocus_Container"
 data "DisplayName" "h905d4b8agfaa1g4065g9225ge6c43d8a109d"
 data "Description" "h17660f5bga71ag4c74ga3bcg7a0685b86157"
@@ -293,6 +317,7 @@ data "ContainerSpells" ""
 
 // Transcendent Form
 new entry "Shout_Mystic_PsychicFocus_TranscendentForm"
+type "SpellData"
 using "Shout_Mystic_PsychicFocus_Container"
 data "DisplayName" "hdaae2192g82e3g4d39g84b3ga7f7f1ab297c"
 data "Description" "h7469e6a5gd260g4708gb3b3g24604af18cfb"

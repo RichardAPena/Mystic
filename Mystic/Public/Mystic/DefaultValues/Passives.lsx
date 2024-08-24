@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="319"/>
+    <region id="DefaultValues">
+        <node id="root">
+            <children>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Discipline_PsychicAssault"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="Psionic Disciplines"/>
+                    <attribute id="TableUUID" type="guid" value="4b5d89ce-9dfb-46c2-a205-77bbf05a6492"/>
+                    <attribute id="UUID" type="guid" value="20c2ba2c-92fe-41ce-a0b7-15b47f005675"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Discipline_CrownOfDisgust;Discipline_MantleOfCourage"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="Avatar Disciplines"/>
+                    <attribute id="TableUUID" type="guid" value="5fe9f3fd-f73a-47df-b909-96277e832c61"/>
+                    <attribute id="UUID" type="guid" value="66da403b-e896-4e45-b61d-f3989c6f413c"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Discipline_IntellectFortress;Discipline_TelepathicSubjugation"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="Awakened Disciplines"/>
+                    <attribute id="TableUUID" type="guid" value="29eed076-402f-480f-a7b6-cf690d28e103"/>
+                    <attribute id="UUID" type="guid" value="620f872c-f125-483f-b4be-f365e279a3e8"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Discipline_BestialForm;Discipline_GiantGrowth"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="Immortal Disciplines"/>
+                    <attribute id="TableUUID" type="guid" value="a23f7115-85ef-497f-9ab8-79dd64ae4f4f"/>
+                    <attribute id="UUID" type="guid" value="bfd7dacd-a078-4bd9-bbb2-3a70c354da92"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Discipline_NomadicArrow;Discipline_NomadicStep"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="Nomad Disciplines"/>
+                    <attribute id="TableUUID" type="guid" value="85b6bc90-3632-4df3-994c-d03e318f9f4b"/>
+                    <attribute id="UUID" type="guid" value="3eab9bab-597d-41ba-b137-aca2057e66b3"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Discipline_MasteryOfFire;Discipline_MasteryOfIce"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="Wu Jen Disciplines"/>
+                    <attribute id="TableUUID" type="guid" value="5be9ee51-acca-46da-be13-e66a6ff5a080"/>
+                    <attribute id="UUID" type="guid" value="e8669bfa-8d6c-4aa2-a9da-8ab8ba162113"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save> 

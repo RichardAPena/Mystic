@@ -5,10 +5,22 @@
         <node id="root">
             <children>
                 <node id="DefaultValue">
-                    <attribute id="Add" type="LSString" value="Arcana;History;Insight;Medicine;Nature;Perception;Religion"/>
+                    <attribute id="Add" type="LSString" value="Arcana;History;Insight;Medicine;Nature;Perception;Religion;Investigation;AnimalHandling;Survival;Persuasion;Deception;Intimidation"/>
                     <attribute id="Level" type="int32" value="1"/>
                     <attribute id="TableUUID" type="guid" value="4b5d89ce-9dfb-46c2-a205-77bbf05a6492"/>
                     <attribute id="UUID" type="guid" value="041ba121-17cc-4b1f-b824-6ebf1d1d5ab3"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Arcana;History;Insight;Medicine;Nature;Perception;Religion;Investigation;AnimalHandling;Survival;Persuasion;Deception;Intimidation"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="29eed076-402f-480f-a7b6-cf690d28e103"/>
+                    <attribute id="UUID" type="guid" value="9001ee03-f036-4f04-8354-5546c867de9c"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Arcana;History;Insight;Medicine;Nature;Perception;Religion;Investigation;AnimalHandling;Survival;Persuasion;Deception;Intimidation"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="5be9ee51-acca-46da-be13-e66a6ff5a080"/>
+                    <attribute id="UUID" type="guid" value="f8dcaa9c-3a98-478d-9f2f-108f403e0385"/>
                 </node>
             </children>
         </node>

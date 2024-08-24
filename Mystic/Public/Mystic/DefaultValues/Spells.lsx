@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="319"/>
+    <region id="DefaultValues">
+        <node id="root">
+            <children>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Target_Mystic_MindThrust;Projectile_Mystic_EnergyBeam"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="Psionic Talents"/>
+                    <attribute id="TableUUID" type="guid" value="4b5d89ce-9dfb-46c2-a205-77bbf05a6492"/>
+                    <attribute id="UUID" type="guid" value="8f91e76b-3795-46a3-862d-b71911bdfb7c"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Shout_Mystic_Beacon"/>
+                    <attribute id="Level" type="int32" value="3"/>
+                    <attribute id="SelectorId" type="LSString" value="Psionic Talents"/>
+                    <attribute id="TableUUID" type="guid" value="4b5d89ce-9dfb-46c2-a205-77bbf05a6492"/>
+                    <attribute id="UUID" type="guid" value="bc2719a8-c827-481b-a894-3e004d5f7305"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Shout_Mystic_LightStep"/>
+                    <attribute id="Level" type="int32" value="10"/>
+                    <attribute id="SelectorId" type="LSString" value="Psionic Talents"/>
+                    <attribute id="TableUUID" type="guid" value="4b5d89ce-9dfb-46c2-a205-77bbf05a6492"/>
+                    <attribute id="UUID" type="guid" value="1c3246d7-923d-427c-91cf-d0938c780f8c"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

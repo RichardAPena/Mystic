@@ -417,6 +417,13 @@ data "StatsFunctorContext" "OnAttacked"
 data "Conditions" "IsMiss() and IsMeleeAttack()"
 data "StatsFunctors" "DealDamage(SWAP,1d6,Slashing,Magical)"
 
+// Water Sphere
+new entry "Passive_Mystic_WaterSphere"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnMovedDistance"
+data "StatsFunctors" "GROUND:CreateSurface(3,10,Water)"
+
 // Mystic Class Features
 
 new entry "Mystic_PsiLimit_3"
@@ -617,7 +624,7 @@ new entry "Passive_Mystic_ImmortalWill"
 type "PassiveData"
 data "DisplayName" "h230b15bfg1f79g41c7gbd72g5af33a09ac5e"
 data "Description" "h3280dd8bg461bg474agbebaga1486290040e"
-data "DescriptionParams" "5;RegainHitPoints(ClassLevel(Mystic)+Cause.ConstitutionModifier)"
+data "DescriptionParams" "RegainHitPoints(0);5;RegainHitPoints(max(1,ClassLevel(Mystic)+ConstitutionModifier))"
 data "Icon" "Passive_Mystic_ImmortalWill"
 data "EnabledConditions" "HasActionResource('PsiPointsResource', 5, 0, false, false, context.Source)"
 data "EnabledContext" "OnCastResolved;OnLongRest;OnActionResourcesChanged"
@@ -1029,3 +1036,11 @@ data "Icon" "TadpoleSuperPower_AbilityDrain"
 data "StatsFunctorContext" "OnDamage"
 data "Conditions" "IsMeleeWeaponAttack() and Character() and HasStatus('MYSTIC_SOUL_KNIFE_VFX', GetAttackWeapon())"
 data "StatsFunctors" "RestoreResource(SELF,PsiPointsResource,1,0)"
+
+
+new entry "DEBUG_Mystic_InfiniteResources"
+type "PassiveData"
+data "DisplayName" "h853f8d4bg6fe3g4d50g858agffd233068c5a"
+data "Description" "h25a30b39g9440g46e7gb844gf8ec08c45bcf"
+data "Icon" "TadpoleSuperPower_AbilityDrain"
+data "Boosts" "ActionResource(PsiPointsResource,999,0);ActionResource(PsiLimitResource,255,3);ActionResource(PsiLimitResource,255,4);ActionResource(PsiLimitResource,255,5);ActionResource(PsiLimitResource,255,6);ActionResource(PsiLimitResource,255,7)"

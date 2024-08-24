@@ -1,0 +1,5 @@
+new entry "ProjectileStrike_Aaaaa"
+type "SpellData"
+data "SpellType" "ProjectileStrike"
+data "SpellAnimation" "b3b2d16b-61c7-4082-8394-0c04fb9ffdec,,;,,;72b91060-c0e5-445c-bcf0-75e485799454,,;,,;,,;,,;,,;,,;,,"
+

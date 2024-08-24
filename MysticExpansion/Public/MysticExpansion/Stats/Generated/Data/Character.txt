@@ -28,6 +28,7 @@ data "ActionResources" "ActionPoint:1;BonusActionPoint:1;Movement:12;ReactionAct
 data "Passives" "Multiattack_GiantEagle;AttackOfOpportunity"
 
 new entry "Mystic_PsychicDouble"
+type "Character"
 using "_Summons"
 data "Level" "1"
 data "Vitality" "1"
