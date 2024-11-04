@@ -1,0 +1,38 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+IF
+Equipped(_Item, _Character)
+AND
+HasPassive(_Character, "Passive_Mystic_PsionicFists", _HasPassive)
+AND
+IsWeapon(_Item, _IsWeapon)
+THEN
+ApplyStatus(_Character, "MYSTIC_PSIONIC_FISTS_APPLY", 1.0, 1, _Character);
+
+IF
+Unequipped(_Item, _Character)
+AND
+HasActiveStatus(_Item, "MYSTIC_PSIONIC_FISTS", _HasPsionicFistsStatus)
+THEN
+RemoveStatus(_Item, "MYSTIC_PSIONIC_FISTS");
+
+IF
+EnteredCombat(_Object, _CombatGuid)
+AND
+HasPassive(_Object, "Passive_Mystic_PsionicFists", _HasPassive)
+THEN
+ApplyStatus(_Object, "MYSTIC_PSIONIC_FISTS_APPLY", 1.0, 1, _Object);
+
+
+IF
+StartedPreviewingSpell(_Caster, _Spell, _IsMostPowerful, _HasMultipleLevels)
+AND
+HasPassive(_Caster, "Passive_Mystic_PsionicFists", _HasPassive)
+THEN
+ApplyStatus(_Caster, "MYSTIC_PSIONIC_FISTS_APPLY", 1.0, 1, _Caster);
+EXITSECTION
+
+ENDEXITSECTION

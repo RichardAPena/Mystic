@@ -154,9 +154,9 @@
                     <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_Narcolepsy"/>
                     <attribute id="UUID" type="guid" value="d7c49144-425b-49b6-8e5c-827c636a23de"/>
                 </node>
-                <node id="Outcome"> Mass Hysteria
+                <node id="Outcome"> Double-Edged
                     <attribute id="GroupName" type="FixedString" value="WildPsionics"/>
-                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_MassHysteria"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_DoubleEdged"/>
                     <attribute id="UUID" type="guid" value="b43a9873-5ff6-4587-9aa2-e8a9d838690e"/>
                 </node>
                 <node id="Outcome"> Short Temper

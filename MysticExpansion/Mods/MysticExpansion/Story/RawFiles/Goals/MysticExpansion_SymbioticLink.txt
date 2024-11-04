@@ -1,0 +1,515 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+DB_MysticExpansion_SymbioticLink_NullUUID((GUIDSTRING)NULL_00000000-0000-0000-0000-000000000000);
+
+DB_MysticExpansion_SymbioticLink_TargetStatus("MYSTIC_SYMBIOTIC_LINK");
+DB_MysticExpansion_SymbioticLink_OwnerStatus("MYSTIC_SYMBIOTIC_LINK_OWNER");
+
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_COORDINATED_MOVEMENT");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_COMMAND_TO_STRIKE");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_STRATEGIC_MIND");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_AURA_OF_VICTORY");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_AURA_OF_VICTORY_2");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_AURA_OF_VICTORY_3");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_AURA_OF_VICTORY_4");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_AURA_OF_VICTORY_5");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_AURA_OF_VICTORY_6");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_AURA_OF_VICTORY_7");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_PILLAR_OF_CONFIDENCE");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_UNSETTLING_AURA");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_INCITE_FURY");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_MINDLESS_CHARGE");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_AURA_OF_BLOODLETTING");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_SOOTHING_PRESENCE");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_SOOTHING_PRESENCE_2");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_SOOTHING_PRESENCE_3");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_SOOTHING_PRESENCE_4");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_SOOTHING_PRESENCE_5");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_SOOTHING_PRESENCE_6");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_SOOTHING_PRESENCE_7");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_COMFORTING_AURA");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_BEACON_OF_RECOVERY");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_PERCEIVE_THE_UNSEEN");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_PSYCHIC_REDOUBT");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_PRECOGNITIVE_HUNCH");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_DANGER_SENSE");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_VICTORY_BEFORE_BATTLE");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_ENVIRONMENTAL_ADAPTATION");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_ADAPTIVE_SHIELD_ACID");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_ADAPTIVE_SHIELD_COLD");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_ADAPTIVE_SHIELD_FIRE");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_ADAPTIVE_SHIELD_LIGHTNING");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_ADAPTIVE_SHIELD_THUNDER");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_ENERGY_ADAPTATION_ACID");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_ENERGY_ADAPTATION_COLD");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_ENERGY_ADAPTATION_FIRE");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_ENERGY_ADAPTATION_LIGHTNING");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_ENERGY_ADAPTATION_THUNDER");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_ENERGY_IMMUNITY_ACID");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_ENERGY_IMMUNITY_COLD");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_ENERGY_IMMUNITY_FIRE");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_ENERGY_IMMUNITY_LIGHTNING");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_ENERGY_IMMUNITY_THUNDER");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_BESTIAL_TRANSFORMATION_FLIGHT");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_BESTIAL_TRANSFORMATION_KEEN_SENSES");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_BESTIAL_TRANSFORMATION_PERFECT_SENSES");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_BESTIAL_TRANSFORMATION_TOUGH_HIDE");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_BRUTE_STRIKE_1");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_BRUTE_STRIKE_2");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_BRUTE_STRIKE_3");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_BRUTE_STRIKE_4");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_BRUTE_STRIKE_5");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_BRUTE_STRIKE_6");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_BRUTE_STRIKE_7");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_FEAT_OF_STRENGTH");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_RAPID_STEP_1");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_RAPID_STEP_2");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_RAPID_STEP_3");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_RAPID_STEP_4");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_RAPID_STEP_5");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_RAPID_STEP_6");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_RAPID_STEP_7");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_AGILE_DEFENSE");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_BLUR_OF_MOTION");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("ACTION_SURGE");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_MINIATURE_FORM");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_MICROSCOPIC_FORM");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_OGRE_FORM");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_OGRE_FORM_TEMPORARY_HP");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_GIANT_FORM");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_GIANT_FORM_TEMPORARY_HP");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_IRON_HIDE");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_STEEL_HIDE");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_IRON_RESISTANCE_BLUDGEONING");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_IRON_RESISTANCE_PIERCING");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_IRON_RESISTANCE_SLASHING");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_ETHEREAL_WEAPON");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_LETHAL_STRIKE_1");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_LETHAL_STRIKE_2");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_LETHAL_STRIKE_3");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_LETHAL_STRIKE_4");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_LETHAL_STRIKE_5");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_LETHAL_STRIKE_6");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_LETHAL_STRIKE_7");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_AUGMENTED_WEAPON");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_SPEED_DART_1");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_SPEED_DART_2");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_SPEED_DART_3");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_SPEED_DART_4");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_SPEED_DART_5");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_SPEED_DART_6");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_SPEED_DART_7");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_FAITHFUL_ARCHER");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_CHAMELEON");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("INVISIBILITY");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("GREATER_INVISIBILITY");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("FEATHER_FALL");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_PSYCHIC_SPEECH");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_THERE_AND_BACK_AGAIN");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_TREMORSENSE");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_UNWAVERING_EYE");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_PIERCING_SIGHT");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_TRUESIGHT");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_CLOAK_OF_AIR");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_WIND_FORM");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("GASEOUS_FORM");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_FIRE_FORM");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_INERTIAL_ARMOR");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_FROZEN_SANCTUARY");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_ARMORED_FORM");
+
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_ENERGY_INFUSION_ACID");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_ENERGY_INFUSION_COLD");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_ENERGY_INFUSION_FIRE");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_ENERGY_INFUSION_LIGHTNING");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_ENERGY_INFUSION_THUNDER");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_PSIONIC_ALACRITY");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_DENSITY_SHIFT_BUFF");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_SINGULARITY");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_BORROWED_TIME_HASTE");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_TWIST_OF_FATE");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_HUNTING_PARTY");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_AURA_OF_TRANQUILITY_AURA");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_AURA_OF_TRANQUILITY_AURA_2");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_AURA_OF_TRANQUILITY_AURA_3");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_AURA_OF_TRANQUILITY_AURA_4");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_AURA_OF_TRANQUILITY_AURA_5");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_LUCID_DREAMING");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_OBSCURING_VEIL");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_MIRAGE");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MIRROR_IMAGE_1");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MIRROR_IMAGE_2");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MIRROR_IMAGE_3");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_BLOOD_FRENZY");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_SANGUINE_INFUSION");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_TITANS_RAGE");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_AURA_OF_INDIFFERENCE_AURA");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_STEEL_TEMPEST");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_REGROWTH");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_EXALTATION");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_EXALTATION_2");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_EXALTATION_3");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_EXALTATION_4");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_EXALTATION_5");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_EXALTATION_6");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_EXALTATION_7");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_AURA_OF_CONTEMPT_AURA");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_PRIDEFUL_MANTLE");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_PSYCHIC_BRAND_STRENGTH");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_PSYCHIC_BRAND_DEXTERITY");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_PSYCHIC_BRAND_CONSTITUTION");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_PSYCHIC_BRAND_INTELLIGENCE");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_PSYCHIC_BRAND_WISDOM");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_PSYCHIC_BRAND_CHARISMA");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_A_NEW_FACE");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_NIMBLE_FINGERS");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_BESTOW_LUCK");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_SEETHING_IRE");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_SEETHING_IRE_2");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_SEETHING_IRE_3");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_SEETHING_IRE_4");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_SEETHING_IRE_5");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_SEETHING_IRE_6");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_SEETHING_IRE_7");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_REDOUBLED_EFFORT");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_AURA_OF_SPITE_AURA");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_BESTIAL_SPEECH");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_PSIONIC_DISTURBANCE_AURA");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_DEADLY_PRECISION");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_PANACEA");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_SHARPENED_STEEL");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_REINFORCED_PLATING");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_REINFORCED_PLATING_TEMPORARY_HP");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_MAGNETIC_STORM_AURA");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_PAIN_SUPPRESSION");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_INSTROSPECTION");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_CLARITY_OF_MIND");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_FLOW_STATE");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_CHROMATIC_SCALES");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_ELEGY_ABERRATION");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_ELEGY_BEAST");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_ELEGY_CELESTIAL");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_ELEGY_CONSTRUCT");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_ELEGY_DRAGON");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_ELEGY_ELEMENTAL");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_ELEGY_FEY");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_ELEGY_FIEND");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_ELEGY_GIANT");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_ELEGY_HUMANOID");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_ELEGY_MONSTROSITY");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_ELEGY_OOZE");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_ELEGY_PLANT");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_ELEGY_UNDEAD");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_ENERGY_DRAIN");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_ENERGY_DRAIN_2");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_ENERGY_DRAIN_3");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_ENERGY_DRAIN_4");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_ENERGY_DRAIN_5");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_ENERGY_DRAIN_6");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_ENERGY_DRAIN_7");
+
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_STRATEGIC_MIND");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_AURA_OF_VICTORY");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_AURA_OF_VICTORY_2");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_AURA_OF_VICTORY_3");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_AURA_OF_VICTORY_4");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_AURA_OF_VICTORY_5");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_AURA_OF_VICTORY_6");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_AURA_OF_VICTORY_7");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_UNSETTLING_AURA");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_INCITE_FURY");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_MINDLESS_CHARGE");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_AURA_OF_BLOODLETTING");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_COMFORTING_AURA");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_PERCEIVE_THE_UNSEEN");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_PSYCHIC_REDOUBT");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_PRECOGNITIVE_HUNCH");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_DANGER_SENSE");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_ENVIRONMENTAL_ADAPTATION");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_ENERGY_ADAPTATION_ACID");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_ENERGY_ADAPTATION_COLD");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_ENERGY_ADAPTATION_FIRE");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_ENERGY_ADAPTATION_LIGHTNING");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_ENERGY_ADAPTATION_THUNDER");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_ENERGY_IMMUNITY_ACID");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_ENERGY_IMMUNITY_COLD");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_ENERGY_IMMUNITY_FIRE");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_ENERGY_IMMUNITY_LIGHTNING");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_ENERGY_IMMUNITY_THUNDER");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_BESTIAL_TRANSFORMATION_FLIGHT");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_BESTIAL_TRANSFORMATION_KEEN_SENSES");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_BESTIAL_TRANSFORMATION_PERFECT_SENSES");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_BESTIAL_TRANSFORMATION_TOUGH_HIDE");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_FEAT_OF_STRENGTH");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_MINIATURE_FORM");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_MICROSCOPIC_FORM");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_OGRE_FORM");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_GIANT_FORM");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_IRON_RESISTANCE_BLUDGEONING");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_IRON_RESISTANCE_PIERCING");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_IRON_RESISTANCE_SLASHING");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_AUGMENTED_WEAPON");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_FAITHFUL_ARCHER");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_CHAMELEON");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_PSYCHIC_SPEECH");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_TREMORSENSE");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_UNWAVERING_EYE");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_PIERCING_SIGHT");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_TRUESIGHT");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_CLOAK_OF_AIR");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_WIND_FORM");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("GASEOUS_FORM");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_FIRE_FORM");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_INERTIAL_ARMOR");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_ARMORED_FORM");
+
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_ENERGY_INFUSION_ACID");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_ENERGY_INFUSION_COLD");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_ENERGY_INFUSION_FIRE");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_ENERGY_INFUSION_LIGHTNING");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_ENERGY_INFUSION_THUNDER");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_PSIONIC_ALACRITY");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_DENSITY_SHIFT_BUFF");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_SINGULARITY");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_HUNTING_PARTY");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_AURA_OF_TRANQUILITY_AURA");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_AURA_OF_TRANQUILITY_AURA_2");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_AURA_OF_TRANQUILITY_AURA_3");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_AURA_OF_TRANQUILITY_AURA_4");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_AURA_OF_TRANQUILITY_AURA_5");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_LUCID_DREAMING");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_OBSCURING_VEIL");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_MIRAGE");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_BLOOD_FRENZY");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_SANGUINE_INFUSION");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_TITANS_RAGE");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_AURA_OF_INDIFFERENCE_AURA");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_REGROWTH");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_AURA_OF_CONTEMPT_AURA");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_A_NEW_FACE");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_NIMBLE_FINGERS");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_BESTOW_LUCK");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_SEETHING_IRE");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_SEETHING_IRE_2");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_SEETHING_IRE_3");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_SEETHING_IRE_4");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_SEETHING_IRE_5");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_SEETHING_IRE_6");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_SEETHING_IRE_7");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_REDOUBLED_EFFORT");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_AURA_OF_SPITE_AURA");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_BESTIAL_SPEECH");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_PSIONIC_DISTURBANCE_AURA");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_DEADLY_PRECISION");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_PANACEA");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_REINFORCED_PLATING");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_MAGNETIC_STORM_AURA");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_PAIN_SUPPRESSION");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_INSTROSPECTION");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_CLARITY_OF_MIND");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_FLOW_STATE");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_CHROMATIC_SCALES");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_ELEGY_ABERRATION");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_ELEGY_BEAST");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_ELEGY_CELESTIAL");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_ELEGY_CONSTRUCT");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_ELEGY_DRAGON");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_ELEGY_ELEMENTAL");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_ELEGY_FEY");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_ELEGY_FIEND");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_ELEGY_GIANT");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_ELEGY_HUMANOID");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_ELEGY_MONSTROSITY");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_ELEGY_OOZE");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_ELEGY_PLANT");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_ELEGY_UNDEAD");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_ENERGY_DRAIN");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_ENERGY_DRAIN_2");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_ENERGY_DRAIN_3");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_ENERGY_DRAIN_4");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_ENERGY_DRAIN_5");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_ENERGY_DRAIN_6");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_ENERGY_DRAIN_7");
+KBSECTION
+// Symbiotic Link Cast
+IF
+StatusApplied(_Object, _Status, _Causee, _StoryActionID)
+AND
+DB_MysticExpansion_SymbioticLink_TargetStatus(_Status)
+THEN
+SetVarUUID(_Object, "SymbioticLink_Causee", _Causee);
+SetVarUUID(_Causee, "SymbioticLink_Target", _Object);
+
+// Symbiotic Link Removed (Owner)
+IF
+StatusRemoved(_Object, _Status, _Causee, _ApplyStoryActionID)
+AND
+DB_MysticExpansion_SymbioticLink_OwnerStatus(_Status)
+THEN
+SetVarUUID(_Object, "SymbioticLink_Target", (GUIDSTRING)NULL_00000000-0000-0000-0000-000000000000);
+
+// Symbiotic Link Removed (Target)
+IF
+StatusRemoved(_Object, _Status, _Causee, _ApplyStoryActionID)
+AND
+DB_MysticExpansion_SymbioticLink_TargetStatus(_Status)
+THEN
+SetVarUUID(_Object, "SymbioticLink_Causee", (GUIDSTRING)NULL_00000000-0000-0000-0000-000000000000);
+
+// On Status Applied (Owner)
+IF
+StatusApplied(_Object, _Status, _Causee, _StoryActionID)
+AND
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist(_Status)
+AND
+GetVarUUID(_Object, "SymbioticLink_Target", _UUIDTarget)
+AND
+NOT DB_MysticExpansion_SymbioticLink_NullUUID(_UUIDTarget)
+AND 
+GetStatusCurrentLifetime(_Object, _Status, _DurationLeft)
+THEN
+ApplyStatus(_UUIDTarget, _Status, _DurationLeft, 1, _Object);
+
+// On Status Removed (Owner)
+IF
+StatusRemoved(_Object, _Status, _Causee, _ApplyStoryActionID)
+AND
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist(_Status)
+AND
+GetVarUUID(_Object, "SymbioticLink_Target", _UUIDTarget)
+AND
+NOT DB_MysticExpansion_SymbioticLink_NullUUID(_UUIDTarget)
+THEN
+RemoveStatus(_UUIDTarget, _Status);
+
+// Symbiotic Link wears off
+IF
+StatusRemoved(_Object, _Status, _Causee, _ApplyStoryActionID)
+AND
+DB_MysticExpansion_SymbioticLink_TargetStatus(_Status)
+THEN
+RemoveStatus(_Object, "MYSTIC_STRATEGIC_MIND", _Object);
+RemoveStatus(_Object, "MYSTIC_AURA_OF_VICTORY", _Object);
+RemoveStatus(_Object, "MYSTIC_AURA_OF_VICTORY_2", _Object);
+RemoveStatus(_Object, "MYSTIC_AURA_OF_VICTORY_3", _Object);
+RemoveStatus(_Object, "MYSTIC_AURA_OF_VICTORY_4", _Object);
+RemoveStatus(_Object, "MYSTIC_AURA_OF_VICTORY_5", _Object);
+RemoveStatus(_Object, "MYSTIC_AURA_OF_VICTORY_6", _Object);
+RemoveStatus(_Object, "MYSTIC_AURA_OF_VICTORY_7", _Object);
+RemoveStatus(_Object, "MYSTIC_UNSETTLING_AURA", _Object);
+RemoveStatus(_Object, "MYSTIC_INCITE_FURY", _Object);
+RemoveStatus(_Object, "MYSTIC_MINDLESS_CHARGE", _Object);
+RemoveStatus(_Object, "MYSTIC_AURA_OF_BLOODLETTING", _Object);
+RemoveStatus(_Object, "MYSTIC_COMFORTING_AURA", _Object);
+RemoveStatus(_Object, "MYSTIC_PERCEIVE_THE_UNSEEN", _Object);
+RemoveStatus(_Object, "MYSTIC_PSYCHIC_REDOUBT", _Object);
+RemoveStatus(_Object, "MYSTIC_PRECOGNITIVE_HUNCH", _Object);
+RemoveStatus(_Object, "MYSTIC_DANGER_SENSE", _Object);
+RemoveStatus(_Object, "MYSTIC_ENVIRONMENTAL_ADAPTATION", _Object);
+RemoveStatus(_Object, "MYSTIC_ENERGY_ADAPTATION_ACID", _Object);
+RemoveStatus(_Object, "MYSTIC_ENERGY_ADAPTATION_COLD", _Object);
+RemoveStatus(_Object, "MYSTIC_ENERGY_ADAPTATION_FIRE", _Object);
+RemoveStatus(_Object, "MYSTIC_ENERGY_ADAPTATION_LIGHTNING", _Object);
+RemoveStatus(_Object, "MYSTIC_ENERGY_ADAPTATION_THUNDER", _Object);
+RemoveStatus(_Object, "MYSTIC_ENERGY_IMMUNITY_ACID", _Object);
+RemoveStatus(_Object, "MYSTIC_ENERGY_IMMUNITY_COLD", _Object);
+RemoveStatus(_Object, "MYSTIC_ENERGY_IMMUNITY_FIRE", _Object);
+RemoveStatus(_Object, "MYSTIC_ENERGY_IMMUNITY_LIGHTNING", _Object);
+RemoveStatus(_Object, "MYSTIC_ENERGY_IMMUNITY_THUNDER", _Object);
+RemoveStatus(_Object, "MYSTIC_BESTIAL_TRANSFORMATION_FLIGHT", _Object);
+RemoveStatus(_Object, "MYSTIC_BESTIAL_TRANSFORMATION_KEEN_SENSES", _Object);
+RemoveStatus(_Object, "MYSTIC_BESTIAL_TRANSFORMATION_PERFECT_SENSES", _Object);
+RemoveStatus(_Object, "MYSTIC_BESTIAL_TRANSFORMATION_TOUGH_HIDE", _Object);
+RemoveStatus(_Object, "MYSTIC_FEAT_OF_STRENGTH", _Object);
+RemoveStatus(_Object, "MYSTIC_MINIATURE_FORM", _Object);
+RemoveStatus(_Object, "MYSTIC_MICROSCOPIC_FORM", _Object);
+RemoveStatus(_Object, "MYSTIC_OGRE_FORM", _Object);
+RemoveStatus(_Object, "MYSTIC_GIANT_FORM", _Object);
+RemoveStatus(_Object, "MYSTIC_IRON_RESISTANCE_BLUDGEONING", _Object);
+RemoveStatus(_Object, "MYSTIC_IRON_RESISTANCE_PIERCING", _Object);
+RemoveStatus(_Object, "MYSTIC_IRON_RESISTANCE_SLASHING", _Object);
+RemoveStatus(_Object, "MYSTIC_AUGMENTED_WEAPON", _Object);
+RemoveStatus(_Object, "MYSTIC_FAITHFUL_ARCHER", _Object);
+RemoveStatus(_Object, "MYSTIC_CHAMELEON", _Object);
+RemoveStatus(_Object, "MYSTIC_PSYCHIC_SPEECH", _Object);
+RemoveStatus(_Object, "MYSTIC_TREMORSENSE", _Object);
+RemoveStatus(_Object, "MYSTIC_UNWAVERING_EYE", _Object);
+RemoveStatus(_Object, "MYSTIC_PIERCING_SIGHT", _Object);
+RemoveStatus(_Object, "MYSTIC_TRUESIGHT", _Object);
+RemoveStatus(_Object, "MYSTIC_CLOAK_OF_AIR", _Object);
+RemoveStatus(_Object, "MYSTIC_WIND_FORM", _Object);
+RemoveStatus(_Object, "GASEOUS_FORM", _Object);
+RemoveStatus(_Object, "MYSTIC_FIRE_FORM", _Object);
+RemoveStatus(_Object, "MYSTIC_INERTIAL_ARMOR", _Object);
+RemoveStatus(_Object, "MYSTIC_ARMORED_FORM", _Object);
+RemoveStatus(_Object, "MYSTIC_ENERGY_INFUSION_ACID", _Object);
+RemoveStatus(_Object, "MYSTIC_ENERGY_INFUSION_COLD", _Object);
+RemoveStatus(_Object, "MYSTIC_ENERGY_INFUSION_FIRE", _Object);
+RemoveStatus(_Object, "MYSTIC_ENERGY_INFUSION_LIGHTNING", _Object);
+RemoveStatus(_Object, "MYSTIC_ENERGY_INFUSION_THUNDER", _Object);
+RemoveStatus(_Object, "MYSTIC_PSIONIC_ALACRITY", _Object);
+RemoveStatus(_Object, "MYSTIC_DENSITY_SHIFT_BUFF", _Object);
+RemoveStatus(_Object, "MYSTIC_SINGULARITY", _Object);
+RemoveStatus(_Object, "MYSTIC_HUNTING_PARTY", _Object);
+RemoveStatus(_Object, "MYSTIC_AURA_OF_TRANQUILITY_AURA", _Object);
+RemoveStatus(_Object, "MYSTIC_AURA_OF_TRANQUILITY_AURA_2", _Object);
+RemoveStatus(_Object, "MYSTIC_AURA_OF_TRANQUILITY_AURA_3", _Object);
+RemoveStatus(_Object, "MYSTIC_AURA_OF_TRANQUILITY_AURA_4", _Object);
+RemoveStatus(_Object, "MYSTIC_AURA_OF_TRANQUILITY_AURA_5", _Object);
+RemoveStatus(_Object, "MYSTIC_LUCID_DREAMING", _Object);
+RemoveStatus(_Object, "MYSTIC_OBSCURING_VEIL", _Object);
+RemoveStatus(_Object, "MYSTIC_MIRAGE", _Object);
+RemoveStatus(_Object, "MYSTIC_BLOOD_FRENZY", _Object);
+RemoveStatus(_Object, "MYSTIC_SANGUINE_INFUSION", _Object);
+RemoveStatus(_Object, "MYSTIC_TITANS_RAGE", _Object);
+RemoveStatus(_Object, "MYSTIC_AURA_OF_INDIFFERENCE_AURA", _Object);
+RemoveStatus(_Object, "MYSTIC_REGROWTH", _Object);
+RemoveStatus(_Object, "MYSTIC_AURA_OF_CONTEMPT_AURA", _Object);
+RemoveStatus(_Object, "MYSTIC_A_NEW_FACE", _Object);
+RemoveStatus(_Object, "MYSTIC_NIMBLE_FINGERS", _Object);
+RemoveStatus(_Object, "MYSTIC_BESTOW_LUCK", _Object);
+RemoveStatus(_Object, "MYSTIC_SEETHING_IRE", _Object);
+RemoveStatus(_Object, "MYSTIC_SEETHING_IRE_2", _Object);
+RemoveStatus(_Object, "MYSTIC_SEETHING_IRE_3", _Object);
+RemoveStatus(_Object, "MYSTIC_SEETHING_IRE_4", _Object);
+RemoveStatus(_Object, "MYSTIC_SEETHING_IRE_5", _Object);
+RemoveStatus(_Object, "MYSTIC_SEETHING_IRE_6", _Object);
+RemoveStatus(_Object, "MYSTIC_SEETHING_IRE_7", _Object);
+RemoveStatus(_Object, "MYSTIC_REDOUBLED_EFFORT", _Object);
+RemoveStatus(_Object, "MYSTIC_AURA_OF_SPITE_AURA", _Object);
+RemoveStatus(_Object, "MYSTIC_BESTIAL_SPEECH", _Object);
+RemoveStatus(_Object, "MYSTIC_PSIONIC_DISTURBANCE_AURA", _Object);
+RemoveStatus(_Object, "MYSTIC_DEADLY_PRECISION", _Object);
+RemoveStatus(_Object, "MYSTIC_PANACEA", _Object);
+RemoveStatus(_Object, "MYSTIC_REINFORCED_PLATING", _Object);
+RemoveStatus(_Object, "MYSTIC_MAGNETIC_STORM_AURA", _Object);
+RemoveStatus(_Object, "MYSTIC_PAIN_SUPPRESSION", _Object);
+RemoveStatus(_Object, "MYSTIC_INSTROSPECTION", _Object);
+RemoveStatus(_Object, "MYSTIC_CLARITY_OF_MIND", _Object);
+RemoveStatus(_Object, "MYSTIC_FLOW_STATE", _Object);
+RemoveStatus(_Object, "MYSTIC_CHROMATIC_SCALES", _Object);
+RemoveStatus(_Object, "MYSTIC_ELEGY_ABERRATION", _Object);
+RemoveStatus(_Object, "MYSTIC_ELEGY_BEAST", _Object);
+RemoveStatus(_Object, "MYSTIC_ELEGY_CELESTIAL", _Object);
+RemoveStatus(_Object, "MYSTIC_ELEGY_CONSTRUCT", _Object);
+RemoveStatus(_Object, "MYSTIC_ELEGY_DRAGON", _Object);
+RemoveStatus(_Object, "MYSTIC_ELEGY_ELEMENTAL", _Object);
+RemoveStatus(_Object, "MYSTIC_ELEGY_FEY", _Object);
+RemoveStatus(_Object, "MYSTIC_ELEGY_FIEND", _Object);
+RemoveStatus(_Object, "MYSTIC_ELEGY_GIANT", _Object);
+RemoveStatus(_Object, "MYSTIC_ELEGY_HUMANOID", _Object);
+RemoveStatus(_Object, "MYSTIC_ELEGY_MONSTROSITY", _Object);
+RemoveStatus(_Object, "MYSTIC_ELEGY_OOZE", _Object);
+RemoveStatus(_Object, "MYSTIC_ELEGY_PLANT", _Object);
+RemoveStatus(_Object, "MYSTIC_ELEGY_UNDEAD", _Object);
+RemoveStatus(_Object, "MYSTIC_ENERGY_DRAIN", _Object);
+RemoveStatus(_Object, "MYSTIC_ENERGY_DRAIN_2", _Object);
+RemoveStatus(_Object, "MYSTIC_ENERGY_DRAIN_3", _Object);
+RemoveStatus(_Object, "MYSTIC_ENERGY_DRAIN_4", _Object);
+RemoveStatus(_Object, "MYSTIC_ENERGY_DRAIN_5", _Object);
+RemoveStatus(_Object, "MYSTIC_ENERGY_DRAIN_6", _Object);
+RemoveStatus(_Object, "MYSTIC_ENERGY_DRAIN_7", _Object);
+EXITSECTION
+
+ENDEXITSECTION

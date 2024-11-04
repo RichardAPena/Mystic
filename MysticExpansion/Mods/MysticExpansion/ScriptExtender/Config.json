@@ -1,5 +1,0 @@
-{
-    "RequiredVersion": 2,
-    "ModTable": "MysticExpansion",
-    "FeatureFlags": ["Lua"]
-}

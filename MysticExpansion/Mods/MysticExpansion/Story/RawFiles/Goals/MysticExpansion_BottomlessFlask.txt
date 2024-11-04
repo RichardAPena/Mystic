@@ -1,0 +1,109 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+DB_MysticExpansion_BottomlessFlask_BottomlessFlaskStatus("MYSTIC_BOTTOMLESS_FLASK");
+DB_MysticExpansion_BottomlessFlask_True(1);
+DB_MysticExpansion_BottomlessFlask_SingleStack(1);
+
+DB_MysticExpansion_BottomlessFlask_Blacklist("ALCH_Solution_Potion_Rest_Lesser_b0ff8d30-5825-49d4-8cd4-ebf3a3d0a024");
+DB_MysticExpansion_BottomlessFlask_Blacklist("b0ff8d30-5825-49d4-8cd4-ebf3a3d0a024");
+DB_MysticExpansion_BottomlessFlask_Blacklist("ALCH_Solution_Potion_Rest_Lesser");
+DB_MysticExpansion_BottomlessFlask_Blacklist("ALCH_Solution_Potion_Rest_Greater_4d801c1a-691e-47c8-88e7-78367b4e2c8e");
+DB_MysticExpansion_BottomlessFlask_Blacklist("4d801c1a-691e-47c8-88e7-78367b4e2c8e");
+DB_MysticExpansion_BottomlessFlask_Blacklist("ALCH_Solution_Potion_Rest_Greater");
+KBSECTION
+/*
+IF
+StatusApplied(_Object, _Status, _Causee, _StoryActionID)
+AND
+DB_MysticExpansion_BottomlessFlask_BottomlessFlaskStatus(_Status)
+AND
+IsConsumable((ITEM)_Object, _IsConsumable)
+AND
+DB_MysticExpansion_BottomlessFlask_True(_IsConsumable)
+AND
+GetTemplate(_Object, _ObjectTemplate)
+AND
+GUIDToString(_ObjectTemplate, _ObjectTemplateString)
+AND
+NOT DB_MysticExpansion_BottomlessFlask_Blacklist(_ObjectTemplateString)
+AND
+GetMaxStackAmount(_Object, _MaxAmount)
+//AND
+//IntegerToString(_MaxAmount, _Result)
+//AND
+//IntegerToString(_IsConsumable, _IsConsumableResult)
+THEN
+SetStackAmount(_Object, 99);
+SetStackAmount(_Object, _MaxAmount);
+//DebugText(_Object, _Result);
+//DebugText(_Causee, _IsConsumableResult);
+//SetIsTradable(_Object, TRADABLETYPE.NonTradable);
+*/
+
+// When Bottomless Flask is applied to an item
+// And it's not in the blacklist
+// Set its stack size to 2 if it's 1
+IF
+StatusApplied(_Object, _Status, _Causee, _StoryActionID)
+AND
+DB_MysticExpansion_BottomlessFlask_BottomlessFlaskStatus(_Status)
+AND
+IsItem(_Object, _IsItem)
+AND
+DB_MysticExpansion_BottomlessFlask_True(_IsItem)
+AND
+GetTemplate(_Object, _ItemTemplate)
+AND
+GUIDToString(_ItemTemplate, _ItemString)
+AND
+NOT DB_MysticExpansion_BottomlessFlask_Blacklist(_ItemString)
+AND
+GetStackAmount((ITEM)_Object, _ExactItemAmount, _TotalAmount)
+AND
+DB_MysticExpansion_BottomlessFlask_SingleStack(_ExactItemAmount)
+AND
+IntegerSum(_ExactItemAmount, 1, _Sum)
+THEN
+SetStackAmount(_Object, _Sum);
+
+// When Bottomless Flask is applied to an item in the blacklist
+// Remove it immediately
+IF
+StatusApplied(_Object, _Status, _Causee, _StoryActionID)
+AND
+DB_MysticExpansion_BottomlessFlask_BottomlessFlaskStatus(_Status)
+AND
+GetTemplate(_Object, _ItemTemplate)
+AND
+GUIDToString(_ItemTemplate, _ItemString)
+AND
+DB_MysticExpansion_BottomlessFlask_Blacklist(_ItemString)
+THEN
+RemoveStatus(_Object, "MYSTIC_BOTTOMLESS_FLASK", _Causee);
+
+// When a potion is used, set its stack size to +1
+// Breaks if the stack size is lower than 1
+IF
+UseStarted(_Character, _Item)
+AND
+HasActiveStatus(_Item, "MYSTIC_BOTTOMLESS_FLASK", _HasBottomlessFlask)
+AND
+DB_MysticExpansion_BottomlessFlask_True(_HasBottomlessFlask)
+AND
+GUIDToString(_Item, _ItemString)
+AND
+NOT DB_MysticExpansion_BottomlessFlask_Blacklist(_ItemString)
+AND
+GetStackAmount(_Item, _ExactItemAmount, _TotalAmount)
+AND
+IntegerSum(_ExactItemAmount, 1, _Sum)
+//AND
+//IntegerToString(_HasBottomlessFlask, _Result)
+THEN
+//DebugText(_Character, "ITEM USED");
+//DebugText(_Character, _Result);
+SetStackAmount(_Item, _Sum);
+EXITSECTION
+
+ENDEXITSECTION

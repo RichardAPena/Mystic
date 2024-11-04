@@ -1,0 +1,39 @@
+----------------------------------------------------------------------------
+COMBAT AI of Wolf
+
+0. Action [SPELL]    - 131.62   =   (131.25 +  0.38 +  0.00) *  1.00 -  0.01  - Target_Bite_Wolf - [E] S_Player_Astarion
+Action resources: 1.00 (ActionPoint) | Move resources: 8.50 (Movement)
+
+
+
+
+1. Action [SPELL]    - 24.99   =   (25.00 +  0.00 +  0.00) *  1.00 -  0.01  - Shout_Dash_NPC - (8.46, -0.00, 3.55)
+Action resources: 1.00 (ActionPoint) | Move resources: 
+
+
+
+
+----------------------------------------------------------------------------
+COMBAT AI of Wolf
+
+0. Action [SPELL]    - 131.62   =   (131.25 +  0.38 +  0.00) *  1.00 -  0.01  - Target_Bite_Wolf - [E] S_Player_Astarion
+Action resources: 1.00 (ActionPoint) | Move resources: 8.50 (Movement)
+
+
+
+
+1. Action [SPELL]    - 24.99   =   (25.00 +  0.00 +  0.00) *  1.00 -  0.01  - Shout_Dash_NPC - (8.46, -0.00, 3.55)
+Action resources: 1.00 (ActionPoint) | Move resources: 
+
+
+
+
+----------------------------------------------------------------------------
+COMBAT AI of Wolf
+
+0. Action [FALLBACK]    -  9.10   =   (10.00 +  0.00 +  0.00) *  1.00 -  0.90 - (0.09, 0.00, 4.54)
+Action resources:  | Move resources: 
+
+
+
+

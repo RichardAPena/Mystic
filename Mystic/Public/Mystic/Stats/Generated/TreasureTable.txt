@@ -61,3 +61,55 @@ new subtable "1,1"
 object category "I_WPN_Mystic_Gandiva",1,0,0,0,0,0,0,0
 new subtable "1,1"
 object category "I_OBJ_Mystic_SoulKnife_Boon_Brilliance",1,0,0,0,0,0,0,0
+
+// Shard Quest
+new treasuretable "UND_Tower_SecretCellar_RewardChest"
+CanMerge 1
+new subtable "1,1"
+object category "I_Quest_FOR_MysticShard_GemShard_A",1,0,0,0,0,0,0,0
+
+new treasuretable "SCL_MasonGuild_Chest"
+CanMerge 1
+new subtable "1,1"
+object category "I_Quest_FOR_MysticShard_GemShard_B",1,0,0,0,0,0,0,0
+
+// Arrow of Seoul Seaking
+new treasuretable "Gold_Meager"
+CanMerge 1
+new subtable "1,1;0,99"
+object category "I_OBJ_ArrowOfSoulSeeking",1,0,0,0,0,0,0,0
+
+new treasuretable "Gold_Pocket_Poor"
+CanMerge 1
+new subtable "1,1;0,49"
+object category "I_OBJ_ArrowOfSoulSeeking",1,0,0,0,0,0,0,0
+
+new treasuretable "Gold_Pocket_Modest"
+CanMerge 1
+new subtable "1,1;0,24"
+object category "I_OBJ_ArrowOfSoulSeeking",1,0,0,0,0,0,0,0
+
+new treasuretable "Gold_Pocket_Normal"
+CanMerge 1
+new subtable "1,1;0,9"
+object category "I_OBJ_ArrowOfSoulSeeking",1,0,0,0,0,0,0,0
+
+new treasuretable "Gold_Pocket_Wealthy"
+CanMerge 1
+new subtable "1,1;0,4"
+object category "I_OBJ_ArrowOfSoulSeeking",1,0,0,0,0,0,0,0
+
+new treasuretable "Gold_Pocket_Opulent"
+CanMerge 1
+new subtable "1,1;0,1"
+object category "I_OBJ_ArrowOfSoulSeeking",1,0,0,0,0,0,0,0
+
+new treasuretable "Gold_Stash_Part"
+CanMerge 1
+new subtable "1,1;0,7"
+object category "I_OBJ_ArrowOfSoulSeeking",1,0,0,0,0,0,0,0
+
+new treasuretable "ST_Gold_Trader_Part"
+CanMerge 1
+new subtable "1,1;0,34"
+object category "I_OBJ_ArrowOfSoulSeeking",1,0,0,0,0,0,0,0

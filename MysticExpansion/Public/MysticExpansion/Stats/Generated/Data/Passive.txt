@@ -1,3 +1,13 @@
+new entry "FightingStyle_ThrownWeaponFighting"
+type "PassiveData"
+data "DisplayName" "h5b7g6ee71783c63efa6fd039a3fc55a7fcfe;1"
+data "Description" "hag66bb3612b9108dg7gg6gb2gc9a4e96g40g;1"
+data "Icon" "PassiveFeature_TavernBrawler"
+data "Properties" "Highlighted"
+data "StatsFunctorContext" "OnAttack"
+data "Conditions" "IsRangedUnarmedAttack() and HasDamageEffectFlag(DamageFlags.Hit)"
+data "StatsFunctors" "DealDamage(2);"
+
 // Psionic Disciplines
 
 // Psionic Skirmishing
@@ -47,9 +57,10 @@ data "DisplayName" "hff8b0098g25ffg47d8g892dg4d2bc4cb2106"
 data "Description" "h89e7f56dg83d7g472bgb6aeg9e89cb8d2e19"
 data "Icon" "Action_Mystic_PsychicDouble"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_PsychicDistortion);UnlockSpell(Shout_Mystic_ObscuringVeil);UnlockSpell(Target_Mystic_PsychicDouble);UnlockSpell(Shout_Mystic_Mirage);UnlockSpell(Shout_Mystic_IllusoryHorde);UnlockSpell(Target_Mystic_EtherealShroud);"
-data "StatsFunctorContext" "OnCast"
-data "Conditions" "SpellId('Target_Mystic_PsychicDouble')"
-data "StatsFunctors" "ApplyStatus(SELF,MYSTIC_PSYCHIC_DOUBLE_ACTIONS,100,-1)"
+// data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_PsychicDistortion);UnlockSpell(Shout_Mystic_ObscuringVeil);UnlockSpell(Shout_Mystic_Mirage);UnlockSpell(Shout_Mystic_IllusoryHorde);UnlockSpell(Target_Mystic_EtherealShroud);"
+// data "StatsFunctorContext" "OnCast"
+// data "Conditions" "SpellId('Target_Mystic_PsychicDouble')"
+// data "StatsFunctors" "ApplyStatus(SELF,MYSTIC_PSYCHIC_DOUBLE_ACTIONS,100,-1)"
 
 // Crimson Harvest
 new entry "Discipline_CrimsonHarvest"
@@ -74,9 +85,9 @@ data "DisplayName" "h527d7f26g8dc6g4852g8391g5e545e75c2f0"
 data "Description" "hc6241d62g01dcg47e5g9c75gf5a067fcaa0a"
 data "Icon" "Action_Mystic_SoulHarvest"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_SoulReaper);UnlockSpell(Target_Mystic_SoulHarvest);UnlockSpell(Target_Mystic_SoulGrip);UnlockSpell(Target_Mystic_Souleater);UnlockSpell(Target_Mystic_Doom);"
-data "StatsFunctorContext" "OnDamage;OnDamagePrevented;OnAttack;OnCastResolved"
-data "Conditions" "HasHPLessThan(1) and Character() and SpellId('Target_Mystic_Souleater')"
-data "StatsFunctors" "RestoreResource(SELF,PsiPointsResource,5,0);RestoreResource(SELF,ActionPoint,1,0)"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "HasHPLessThan(1) and Character() and SpellId('Target_Mystic_Souleater') and IsKillingBlow()"
+data "StatsFunctors" "RestoreResource(SELF,PsiPointsResource,5,0)"
 
 // Crown of Apathy
 new entry "Discipline_CrownOfApathy"
@@ -206,12 +217,53 @@ data "Description" "h6b89d1f2gbfa3g42e2g821ag0c93968c014f"
 data "Icon" "Action_Mystic_ShrapnelBlast"
 data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MasteryOfMetal);UnlockSpell(Projectile_Mystic_ShrapnelBlast);UnlockSpell(Target_Mystic_SharpenedSteel);UnlockSpell(Target_Mystic_Magnetize);UnlockSpell(Target_Mystic_ReinforcedPlating);UnlockSpell(Shout_Mystic_MagneticStorm)"
 
+// Crown of Suffering
+new entry "Discipline_CrownOfSuffering"
+type "PassiveData"
+data "DisplayName" "hfd79dc2dg5fecg436dga2eag7ecde4e75421"
+data "Description" "h0239e13dg4221g4eccg8bd7g81d584d7b76d"
+data "Icon" "Action_Mystic_PanicAttack"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_CrownOfSuffering);UnlockSpell(Target_Mystic_Frailty);UnlockSpell(Target_Mystic_PanicAttack);UnlockSpell(Target_Mystic_SystemShock);UnlockSpell(Target_Mystic_PainSuppression)"
+
+// Metacognition
+new entry "Discipline_Metacognition"
+type "PassiveData"
+data "DisplayName" "h5af5ba9ag998bg4f16ga2fdgc4a95e670778"
+data "Description" "h5e929993g7357g4decga494gf3bf1e77a861"
+data "Icon" "Action_Mystic_ClarityOfMind"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_Metacognition);UnlockSpell(Shout_Mystic_Introspection);UnlockSpell(Shout_Mystic_ClarityOfMind);UnlockSpell(Shout_Mystic_FlowState)"
+
+// Draconic Might
+new entry "Discipline_DraconicMight"
+type "PassiveData"
+data "DisplayName" "h4f8935a8gddacg4c8fg86f3g0338fbe2f223"
+data "Description" "h65085766gc28fg4e5ag87b9ge1a1ece47ee0"
+data "Icon" "Action_Mystic_DragonsRoar"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_DraconicMight);UnlockSpell(Zone_Mystic_BreathOfTheRedDragon);UnlockSpell(Projectile_Mystic_BreathOfTheBronzeDragon);UnlockSpell(Shout_Mystic_DragonsRoar);UnlockSpell(Shout_Mystic_ChromaticScales)"
+
+// Nomadic Legend
+new entry "Discipline_NomadicLegend"
+type "PassiveData"
+data "DisplayName" "h346f30b4gaff4g48e6g9cf6gafc81c56b20b"
+data "Description" "hea8f767ag8f3ag4e5egb4e1g9f19e194b720"
+data "Icon" "Action_Mystic_Elegy"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_NomadicLegend);UnlockSpell(Target_Mystic_RestoreMemory);UnlockSpell(Target_Mystic_Elegy);UnlockSpell(Target_Mystic_EchoesOfThePast);UnlockSpell(Target_Mystic_AncientDefender)"
+
+// Mastery of Life and Death
+new entry "Discipline_MasteryOfLifeAndDeath"
+type "PassiveData"
+data "DisplayName" "h477c089fg4d0fg4016ga730g145f2c4cdbf8"
+data "Description" "h31d17499g149bg4bb8gbf49g04ea060870a2"
+data "Icon" "Action_Mystic_PositiveEnergyBurst"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsychicFocus_MasteryOfLifeAndDeath);UnlockSpell(Target_Mystic_EnergyDrain);UnlockSpell(Target_Mystic_VitalitySwap);UnlockSpell(Target_Mystic_NegativeEnergyBurst);UnlockSpell(Target_Mystic_PositiveEnergyBurst);UnlockSpell(Target_Mystic_PositiveEnergyFlood)"
+
 // Chronoward
 new entry "Passive_Mystic_Chronoward"
 type "PassiveData"
+data "DisplayName" "h64d1d61bg12e2g48a6g8393ge9a475abfc2f"
 data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnDamaged;OnDamagedPrevented"
-data "StatsFunctors" "ApplyStatus(MYSTIC_CHRONOWARD_STORED_DAMAGE,100,TotalDamageDone)"
+data "StatsFunctors" "ApplyStatus(MYSTIC_CHRONOWARD_STORED_DAMAGE,100,DamageDone)"
 
 // Nomad's Mark
 new entry "Passive_Mystic_NomadsMark"
@@ -222,7 +274,6 @@ data "DescriptionParams" "DealDamage(1d6,Psychic)"
 data "Icon" "PassiveFeature_HuntersMark"
 data "PriorityOrder" "2"
 data "Properties" "Highlighted"
-// data "Boosts" "IF(HasStatus('MYSTIC_NOMADS_MARK',context.Target,context.Source) and HasDamageEffectFlag(DamageFlags.Hit)):DealDamage(1d6,Psychic,Magical)"
 data "Boosts" "IF(HasStatus('MYSTIC_NOMADS_MARK',context.Target,context.Source)):DamageBonus(1d6,Psychic)"
 data "StatsFunctorContext" "OnDamage"
 data "Conditions" "HasStatus('MYSTIC_NOMADS_MARK',context.Target,context.Source) and TotalDamageDoneGreaterThan(0)"
@@ -232,8 +283,6 @@ data "StatsFunctors" "ApplyStatus(PASSIVE_HUNTERS_MARK,100,0)"
 new entry "Passive_Mystic_AttackSwap_Mystic"
 type "PassiveData"
 data "DisplayName" "h136df96fg89c9g42begb8feg5a75400fae11"
-data "Description" ""
-data "Icon" ""
 data "Properties" "IsHidden"
 data "Boosts" "UnlockSpellVariant(SpellId('Shout_Mystic_PsychicDouble_AttackSwap'),ModifyIconGlow())"
 
@@ -275,8 +324,8 @@ new entry "Discipline_SoulReaper_Effect"
 type "PassiveData"
 data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnDamage"
-data "Conditions" "HasHPLessThan(1) and Character()"
-data "StatsFunctors" "RegainHitPoints(SELF,max(1,ClassLevel(Mystic)+IntelligenceModifier))"
+data "Conditions" "HasHPLessThan(1) and Character() and IsKillingBlow()"
+data "StatsFunctors" "RegainHitPoints(SELF,max(1,IntelligenceModifier))"
 
 // Lassitude
 new entry "Passive_Mystic_Lassitude"
@@ -384,6 +433,58 @@ data "StatsFunctorContext" "OnAttack"
 data "Conditions" "IsRangedUnarmedAttack() and HasDamageEffectFlag(DamageFlags.Hit)"
 data "StatsFunctors" "DealDamage(max(1,IntelligenceModifier))"
 
+// Frailty
+new entry "Passive_Mystic_Frailty"
+type "PassiveData"
+data "DisplayName" "h0ff0acd7g3b50g4782gb777g3865efc4974b"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnDamaged;OnDamagedPrevented"
+data "StatsFunctors" "IF(HasStatus('MYSTIC_FRAILTY')):DealDamage(2);IF(HasStatus('MYSTIC_FRAILTY_2')):DealDamage(4);IF(HasStatus('MYSTIC_FRAILTY_3')):DealDamage(6);IF(HasStatus('MYSTIC_FRAILTY_4')):DealDamage(8);IF(HasStatus('MYSTIC_FRAILTY_5')):DealDamage(10);IF(HasStatus('MYSTIC_FRAILTY_6')):DealDamage(12);IF(HasStatus('MYSTIC_FRAILTY_7')):DealDamage(14)"
+
+// System Shock
+new entry "Passive_Mystic_SystemShock"
+type "PassiveData"
+data "DisplayName" "h6994ac74g6c3bg4ea0gad45gf0dd90613959"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnDamaged;OnDamagedPrevented"
+data "StatsFunctors" "IF(HasDamageDoneForType(DamageType.Bludgeoning)):ApplyStatus(DAZED,100,2);IF(HasDamageDoneForType(DamageType.Piercing)):ApplyStatus(GAPING_WOUND,100,2);IF(HasDamageDoneForType(DamageType.Slashing)):ApplyStatus(BLEEDING,100,2);IF(HasDamageDoneForType(DamageType.Acid)):ApplyStatus(ACID,100,2);IF(HasDamageDoneForType(DamageType.Cold)):ApplyStatus(MYSTIC_SYSTEM_SHOCK_FROSTBITE,100,1);IF(HasDamageDoneForType(DamageType.Fire)):ApplyStatus(BURNING,100,2);IF(HasDamageDoneForType(DamageType.Force)):ApplyStatus(PRONE,100,1);IF(HasDamageDoneForType(DamageType.Lightning)):ApplyStatus(MYSTIC_SYSTEM_SHOCK_SHOCKED,100,1);IF(HasDamageDoneForType(DamageType.Necrotic)):ApplyStatus(CHILL_TOUCH,100,1);IF(HasDamageDoneForType(DamageType.Poison)):ApplyStatus(POISONED,100,2);IF(HasDamageDoneForType(DamageType.Psychic)):ApplyStatus(MYSTIC_SYSTEM_SHOCK_DEMORALIZED,100,1);IF(HasDamageDoneForType(DamageType.Radiant)):ApplyStatus(MYSTIC_SYSTEM_SHOCK_RADIANT_LIGHT,100,2);IF(HasDamageDoneForType(DamageType.Thunder)):DealDamage(1d4,Thunder,Magical)"
+
+// Clarity of Mind
+new entry "Passive_Mystic_ClarityOfMind"
+type "PassiveData"
+data "DisplayName" "h0ea2b281g7f2ag4ebagbfa5g2a58b9d032ef"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnCast"
+data "Conditions" "HeightenedSpellCheck()"
+data "StatsFunctors" "RemoveStatus(SELF,MYSTIC_CLARITY_OF_MIND)"
+
+// Elegy
+new entry "Passive_Mystic_Elegy"
+type "PassiveData"
+data "DisplayName" "h79a0b6d7gaabbg4392g8eb2g953223c4c24e"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnCast"
+data "Conditions" "ElegyDisciplineCheck()"
+data "StatsFunctors" "RemoveStatus(MYSTIC_ELEGY_ABERRATION);RemoveStatus(MYSTIC_ELEGY_BEAST);RemoveStatus(MYSTIC_ELEGY_CELESTIAL);RemoveStatus(MYSTIC_ELEGY_CONSTRUCT);RemoveStatus(MYSTIC_ELEGY_DRAGON);RemoveStatus(MYSTIC_ELEGY_ELEMENTAL);RemoveStatus(MYSTIC_ELEGY_FEY);RemoveStatus(MYSTIC_ELEGY_FIEND);RemoveStatus(MYSTIC_ELEGY_GIANT);RemoveStatus(MYSTIC_ELEGY_HUMANOID);RemoveStatus(MYSTIC_ELEGY_MONSTROSITY);RemoveStatus(MYSTIC_ELEGY_OOZE);RemoveStatus(MYSTIC_ELEGY_PLANT);RemoveStatus(MYSTIC_ELEGY_UNDEAD)"
+
+// Ancient Defender
+new entry "Mystic_AncientDefender_Attack"
+type "PassiveData"
+data "DisplayName" "h6b8af18cgdc15g4998ga91bgb3b80b56f129"
+data "Description" "h292e3a65gb515g425agb7bag6aedf0a610f1"
+data "Icon" "Action_Mystic_AncientDefender"
+data "StatsFunctorContext" "OnEnterAttackRange"
+data "Conditions" "Character() and Enemy()"
+data "StatsFunctors" "UseAttack()"
+
+new entry "Mystic_AncientDefender_Retaliate"
+type "PassiveData"
+data "DisplayName" "h6b8af18cgdc15g4998ga91bgb3b80b56f129"
+data "Description" "hf5c61eb8g73c2g487dg89deg20632436fa2a"
+data "Icon" "GenericIcon_DamageType_Physical"
+data "Properties" "Highlighted"
+data "Boosts" "UnlockInterrupt(Interrupt_Mystic_AncientDefender_Retaliate)"
+
 // Order of the Ascetic
 
 // Psionic Fists
@@ -394,7 +495,8 @@ data "Description" "h1278abafg4e4cg4c51ga659gcd85d789b8cd"
 data "DescriptionParams" "DealDamage(LevelMapValue(PsionicFists), Bludgeoning)"
 data "Icon" "Passive_Mystic_PsionicFists"
 data "Properties" "Highlighted"
-data "Boosts" ""
+data "StatsFunctorContext" "OnStatusApplied"
+data "StatsFunctors" "IF(StatusId('MYSTIC_PSIONIC_FISTS_APPLY') and not HasWeaponProperty(WeaponProperties.Twohanded, GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand)) and not HasWeaponProperty(WeaponProperties.Heavy, GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand))):ApplyEquipmentStatus(MeleeMainHand, MYSTIC_PSIONIC_FISTS, 100, -1);IF(StatusId('MYSTIC_PSIONIC_FISTS_APPLY') and not HasWeaponProperty(WeaponProperties.Twohanded, GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand)) and not HasWeaponProperty(WeaponProperties.Heavy, GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand))):ApplyEquipmentStatus(MeleeOffHand, MYSTIC_PSIONIC_FISTS, 100, -1)"
 
 new entry "Passive_Mystic_PsionicFists_Bonus"
 type "PassiveData"
@@ -402,7 +504,19 @@ data "DisplayName" "hb0dca46fg08cag4d0agb287ge12f5bec8d3b"
 data "Description" "h1278abafg4e4cg4c51ga659gcd85d789b8cd"
 data "Properties" "IsHidden"
 data "BoostContext" "OnStatusApplied;OnEquip;OnCreate;OnStatusApply;OnStatusRemove;OnStatusRemoved"
-data "Boosts" "IF(not HasStatus('MYSTIC_PSYCHIC_BLOWS',context.Source) and not HasStatus('MYSTIC_KINETIC_BLOWS',context.Source)):UnlockSpell(Target_Mystic_PsionicStrike);IF(not HasStatus('MYSTIC_PSYCHIC_BLOWS',context.Source) and not HasStatus('MYSTIC_KINETIC_BLOWS',context.Source)):UnlockSpell(Target_Mystic_PsionicStrike_Bonus);IF(HasStatus('MYSTIC_PSYCHIC_BLOWS',context.Source)):UnlockSpell(Target_Mystic_PsionicStrike_Psychic);IF(HasStatus('MYSTIC_PSYCHIC_BLOWS',context.Source)):UnlockSpell(Target_Mystic_PsionicStrike_Bonus_Psychic);IF(HasStatus('MYSTIC_KINETIC_BLOWS',context.Source)):UnlockSpell(Target_Mystic_PsionicStrike_Force);IF(HasStatus('MYSTIC_KINETIC_BLOWS',context.Source)):UnlockSpell(Target_Mystic_PsionicStrike_Bonus_Force);IF(IsUnarmedAttack() and IsIntelligenceHigherThanStrength()):RollBonus(Attack,IntelligenceModifier-StrengthModifier);IF(IsUnarmedAttack() and IsIntelligenceHigherThanStrength()):CharacterUnarmedDamage(IntelligenceModifier-StrengthModifier);MonkWeaponDamageDiceOverride(LevelMapValue(PsionicFists))"
+// data "Boosts" "IF(not HasStatus('MYSTIC_PSYCHIC_BLOWS',context.Source) and not HasStatus('MYSTIC_KINETIC_BLOWS',context.Source)):UnlockSpell(Target_Mystic_PsionicStrike);IF(not HasStatus('MYSTIC_PSYCHIC_BLOWS',context.Source) and not HasStatus('MYSTIC_KINETIC_BLOWS',context.Source)):UnlockSpell(Target_Mystic_PsionicStrike_Bonus);IF(HasStatus('MYSTIC_PSYCHIC_BLOWS',context.Source)):UnlockSpell(Target_Mystic_PsionicStrike_Psychic);IF(HasStatus('MYSTIC_PSYCHIC_BLOWS',context.Source)):UnlockSpell(Target_Mystic_PsionicStrike_Bonus_Psychic);IF(HasStatus('MYSTIC_KINETIC_BLOWS',context.Source)):UnlockSpell(Target_Mystic_PsionicStrike_Force);IF(HasStatus('MYSTIC_KINETIC_BLOWS',context.Source)):UnlockSpell(Target_Mystic_PsionicStrike_Bonus_Force);IF(IsUnarmedAttack() and IsIntelligenceHigherThanStrength()):RollBonus(Attack,max(0,IntelligenceModifier)-max(0,StrengthModifier));IF(IsUnarmedAttack() and IsIntelligenceHigherThanStrength()):CharacterUnarmedDamage(max(0,IntelligenceModifier)-max(0,StrengthModifier));MonkWeaponDamageDiceOverride(LevelMapValue(PsionicFists))"
+// data "Boosts" "IF(not HasStatus('MYSTIC_PSYCHIC_BLOWS',context.Source) and not HasStatus('MYSTIC_KINETIC_BLOWS',context.Source)):UnlockSpell(Target_Mystic_PsionicStrike);IF(not HasStatus('MYSTIC_PSYCHIC_BLOWS',context.Source) and not HasStatus('MYSTIC_KINETIC_BLOWS',context.Source)):UnlockSpell(Target_Mystic_PsionicStrike_Bonus);IF(HasStatus('MYSTIC_PSYCHIC_BLOWS',context.Source)):UnlockSpell(Target_Mystic_PsionicStrike_Psychic);IF(HasStatus('MYSTIC_PSYCHIC_BLOWS',context.Source)):UnlockSpell(Target_Mystic_PsionicStrike_Bonus_Psychic);IF(HasStatus('MYSTIC_KINETIC_BLOWS',context.Source)):UnlockSpell(Target_Mystic_PsionicStrike_Force);IF(HasStatus('MYSTIC_KINETIC_BLOWS',context.Source)):UnlockSpell(Target_Mystic_PsionicStrike_Bonus_Force);IF(IsUnarmedAttack() and IsIntelligenceHigherThanStrength()):RollBonus(Attack,IntelligenceModifier-(max(0,StrengthModifier)));IF(IsUnarmedAttack() and IsIntelligenceHigherThanStrength()):CharacterUnarmedDamage(IntelligenceModifier-(max(0,StrengthModifier)));MonkWeaponDamageDiceOverride(LevelMapValue(PsionicFists))"
+data "Boosts" "IF(not HasStatus('MYSTIC_PSYCHIC_BLOWS',context.Source) and not HasStatus('MYSTIC_KINETIC_BLOWS',context.Source)):UnlockSpell(Target_Mystic_PsionicStrike);IF(not HasStatus('MYSTIC_PSYCHIC_BLOWS',context.Source) and not HasStatus('MYSTIC_KINETIC_BLOWS',context.Source)):UnlockSpell(Target_Mystic_PsionicStrike_Bonus);IF(HasStatus('MYSTIC_PSYCHIC_BLOWS',context.Source)):UnlockSpell(Target_Mystic_PsionicStrike_Psychic);IF(HasStatus('MYSTIC_PSYCHIC_BLOWS',context.Source)):UnlockSpell(Target_Mystic_PsionicStrike_Bonus_Psychic);IF(HasStatus('MYSTIC_KINETIC_BLOWS',context.Source)):UnlockSpell(Target_Mystic_PsionicStrike_Force);IF(HasStatus('MYSTIC_KINETIC_BLOWS',context.Source)):UnlockSpell(Target_Mystic_PsionicStrike_Bonus_Force);IF(IsUnarmedAttack() and IsIntelligenceHigherThanStrength(context.Source)):RollBonus(Attack,IntelligenceModifier-StrengthModifier);IF(IsIntelligenceHigherThanStrength(context.Source)):CharacterUnarmedDamage(IntelligenceModifier-(max(0,StrengthModifier)));MonkWeaponDamageDiceOverride(LevelMapValue(PsionicFists))"
+
+// IF(not HasStatus('MYSTIC_PSYCHIC_BLOWS',context.Source) and not HasStatus('MYSTIC_KINETIC_BLOWS',context.Source)):UnlockSpell(Target_Mystic_PsionicStrike);
+// IF(not HasStatus('MYSTIC_PSYCHIC_BLOWS',context.Source) and not HasStatus('MYSTIC_KINETIC_BLOWS',context.Source)):UnlockSpell(Target_Mystic_PsionicStrike_Bonus);
+// IF(HasStatus('MYSTIC_PSYCHIC_BLOWS',context.Source)):UnlockSpell(Target_Mystic_PsionicStrike_Psychic);
+// IF(HasStatus('MYSTIC_PSYCHIC_BLOWS',context.Source)):UnlockSpell(Target_Mystic_PsionicStrike_Bonus_Psychic);
+// IF(HasStatus('MYSTIC_KINETIC_BLOWS',context.Source)):UnlockSpell(Target_Mystic_PsionicStrike_Force);
+// IF(HasStatus('MYSTIC_KINETIC_BLOWS',context.Source)):UnlockSpell(Target_Mystic_PsionicStrike_Bonus_Force);
+// IF(IsUnarmedAttack() and IsIntelligenceHigherThanStrength(context.Source)):RollBonus(Attack,IntelligenceModifier-StrengthModifier);
+// IF(IsIntelligenceHigherThanStrength(context.Source)):CharacterUnarmedDamage(IntelligenceModifier-(max(0,StrengthModifier)));
+// MonkWeaponDamageDiceOverride(LevelMapValue(PsionicFists))
 
 // IF(not HasStatus('MYSTIC_PSYCHIC_BLOWS',context.Source) and not HasStatus('MYSTIC_KINETIC_BLOWS',context.Source)):UnlockSpell(Target_Mystic_PsionicStrike);
 // IF(not HasStatus('MYSTIC_PSYCHIC_BLOWS',context.Source) and not HasStatus('MYSTIC_KINETIC_BLOWS',context.Source)):UnlockSpell(Target_Mystic_PsionicStrike_Bonus);
@@ -413,7 +527,6 @@ data "Boosts" "IF(not HasStatus('MYSTIC_PSYCHIC_BLOWS',context.Source) and not H
 // IF(IsUnarmedAttack()):RollBonus(Attack,IntelligenceModifier-StrengthModifier);
 // IF(IsUnarmedAttack()):DamageBonus(IntelligenceModifier-StrengthModifier);
 // MonkWeaponDamageDiceOverride(LevelMapValue(PsionicFists))
-
 
 // Unarmored Defense
 new entry "Passive_Mystic_UnarmoredDefense"
@@ -517,8 +630,9 @@ data "DisplayName" "h0455c234g0bf4g49bbgaaecge6617c6114bf"
 data "Description" "ha43c8a1eg002fg4ddcg8446gdfffa33dc10e"
 data "Icon" "Passive_Mystic_WarAdept"
 data "Properties" "Highlighted"
-data "StatsFunctorContext" "OnEquip;OnCreate;OnLongRest;OnShortRest"
-data "StatsFunctors" "ApplyStatus(SELF,MYSTIC_WAR_ADEPT_TECHNICAL,100,-1)"
+data "StatsFunctorContext" "OnStatusApplied;OnStatusApply"
+data "StatsFunctors" "IF(StatusId('MYSTIC_WAR_ADEPT_APPLY') and HasStatus('MYSTIC_MYSTIC_ARSENAL_GREAT_WEAPON_FIGHTING') and MysticArsenal_GreatWeapon()):ApplyEquipmentStatus(MeleeMainHand, MYSTIC_WAR_ADEPT, 100, -1);IF(StatusId('MYSTIC_WAR_ADEPT_APPLY') and HasStatus('MYSTIC_MYSTIC_ARSENAL_DUELING') and MysticArsenal_Dueling()):ApplyEquipmentStatus(MeleeMainHand, MYSTIC_WAR_ADEPT, 100, -1);IF(StatusId('MYSTIC_WAR_ADEPT_APPLY') and HasStatus('MYSTIC_MYSTIC_ARSENAL_ARCHERY')):ApplyEquipmentStatus(RangedMainHand, MYSTIC_WAR_ADEPT, 100, -1);IF(StatusId('MYSTIC_WAR_ADEPT_APPLY') and HasStatus('MYSTIC_MYSTIC_ARSENAL_ARCHERY')):ApplyEquipmentStatus(RangedOffHand, MYSTIC_WAR_ADEPT, 100, -1);IF(StatusId('MYSTIC_WAR_ADEPT_APPLY') and HasStatus('MYSTIC_MYSTIC_ARSENAL_THROWN_WEAPON_FIGHTING') and HasWeaponProperty(WeaponProperties.Thrown, GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand))):ApplyEquipmentStatus(MeleeMainHand, MYSTIC_WAR_ADEPT, 100, -1);IF(StatusId('MYSTIC_WAR_ADEPT_APPLY') and HasStatus('MYSTIC_MYSTIC_ARSENAL_THROWN_WEAPON_FIGHTING') and HasWeaponProperty(WeaponProperties.Thrown, GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand))):ApplyEquipmentStatus(MeleeOffHand, MYSTIC_WAR_ADEPT, 100, -1)"
+// data "StatsFunctors" "IF(StatusId('MYSTIC_WAR_ADEPT_APPLY')):DealDamage(SELF,1,Slashing,Magical)"
 
 new entry "Passive_Mystic_WarAdept_UnlockSmiteInterrupt"
 type "PassiveData"
@@ -536,7 +650,7 @@ data "Description" "hf3bb52b7g8b82g494cga6b4g997052e91d25"
 data "DescriptionParams" ""
 data "Icon" "Action_Mystic_PsionicTrance"
 data "Properties" "Highlighted"
-data "Boosts" "UnlockSpell(Shout_Mystic_PsionicTrance);"
+data "Boosts" "UnlockSpell(Shout_Mystic_PsionicTrance);UnlockSpell(Shout_Mystic_PsionicTrance_Cost)"
 
 // Order of the Unbound
 
@@ -704,3 +818,189 @@ data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnAttack"
 data "Conditions" "(HasSpellFlag(SpellFlags.Spell) or SpellActivations()) and not WildMagicSpell() and Character() and not Grounded()"
 data "StatsFunctors" "SwapPlaces(VFX_Spells_Cast_Sorcerer_WildMagic_Swap_PositionEffect_01:VFX_Spells_Cast_Sorcerer_WildMagic_Swap_PositionEffect_01)"
+
+// Order of the Exorcist
+
+// Spirit Ward (1st level)
+new entry "Passive_Mystic_SpiritWard"
+type "PassiveData"
+data "DisplayName" "h872a9895g79a7g4324g87ffgd04e4f416d25"
+data "Description" "h55d5e5c1g4ed5g498ag956fg3157da0d2adb"
+data "Icon" "Action_Mystic_SpiritWard"
+data "Properties" "Highlighted"
+data "Boosts" "UnlockSpell(Target_Mystic_SpiritWard)"
+
+new entry "Passive_Mystic_SpiritWard_Technical"
+type "PassiveData"
+data "DisplayName" "h872a9895g79a7g4324g87ffgd04e4f416d25"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnDamaged;OnDamagedPrevented"
+data "StatsFunctors" "RemoveStatus(MYSTIC_SPIRIT_WARD)"
+
+// Summoner of Spirits (3rd level)
+new entry "Passive_Mystic_SummonerOfSpirits"
+type "PassiveData"
+data "DisplayName" "h0d144afdg54a9g41bdg85a0gb0338f69f79d"
+data "Description" "h86978f15gf644g4a41g9358gfb96153bfa69"
+data "Icon" "Passive_Mystic_SummonerOfSpirits"
+data "Properties" "Highlighted"
+data "StatsFunctorContext" "OnCast"
+data "Conditions" "SpiritCoercionCheck()"
+data "StatsFunctors" "ApplyStatus(SELF,MYSTIC_SPIRIT_COUNT,100,1)"
+// data "Boosts" "UnlockSpell(Target_Mystic_SpiritCoercion)"
+
+// Spirit Coercion (3rd level)
+// Compel the spirit of a fallen creature to fight alongside you. 
+// At 3rd level, the amount of spirits you can have is 1.
+// At 5th level, increases to 2.
+// At 9th level, increases to 3.
+// At 13th level, increases to 4.
+// At 17th level, increases to 5.
+// Every day, you can summon a number of spirits equal to your limit.
+// In order to summon more, you must spend 3 Psi Points.
+// You can summon one of the following spirits:
+// Spirit Warrior (Battlemaster Fighter)
+// Spirit Healer (Life Cleric)
+// Spirit Mage (Evocation Wizard)
+// Spirit Archer (Beastmaster Ranger)
+// [?] Spirit Scoundrel (Thief Rogue)
+// [?] Spirit Musician (Lore Bard)
+// [?] Spirit Disciple (Open Hand Monk)
+// [?] Spirit Sage (Awakened Mystic)
+// [?] Spirit Zealot (Vengeance Paladin)
+// [?] Spirit Juggernaut (Berserker Barbarian)
+// [?] Spirit Occultist (Fiend Warlock)
+new entry "Passive_Mystic_SpiritCoercion"
+type "PassiveData"
+data "DisplayName" "hb37837f6ga1bdg4117g8308gdd9d81a10224"
+data "Description" "hb84c648fg012dg4c03g85f0gecb6a189604e"
+data "Icon" "Action_Mystic_SpiritCoercion"
+data "Properties" "Highlighted"
+data "Boosts" "UnlockSpell(Target_Mystic_SpiritCoercion)"
+
+// Spirit Communion (3rd level)
+new entry "Passive_Mystic_SpiritCommunion"
+type "PassiveData"
+data "DisplayName" "h04bdd5b3g69dbg4ab3g9dfdgd66832d7ee5d"
+data "Description" "ha40a08fbg42f9g4b71g9e30g8f46ec79972a"
+data "Icon" "Action_Mystic_SpiritCommunion"
+data "Properties" "Highlighted"
+data "Boosts" "UnlockSpell(Target_Mystic_SpiritCommunion)"
+data "StatsFunctorContext" "OnCreate;OnEquip;OnLongRest"
+data "StatsFunctors" "ApplyStatus(SELF,MYSTIC_SPIRIT_COMMUNION_AURA,100,-1)"
+
+// Puppetmaster (6th level)
+new entry "Passive_Mystic_Puppetmaster"
+type "PassiveData"
+data "DisplayName" "h527c49f6gd94ag4fb1g8ff1gd0194ae2f322"
+data "Description" "ha8fa2fd9g99ffg4ac3gb08dg193edf09bf1b"
+data "Icon" "Passive_Mystic_Puppetmaster"
+data "Properties" "Highlighted"
+
+// Ward Against Evil (6th level)
+new entry "Passive_Mystic_WardAgainstEvil"
+type "PassiveData"
+data "DisplayName" "h842eb386g5e13g460egae3dg691436c411e7"
+data "Description" "hec77a636g23fcg415dg94e3g07b8b34ecac3"
+data "Icon" "Passive_Mystic_WardAgainstEvil"
+data "Properties" "Highlighted"
+data "StatsFunctorContext" "OnCast"
+data "Conditions" "SpellId('Target_Mystic_SpiritWard')"
+data "StatsFunctors" "ApplyStatus(MYSTIC_WARD_AGAINST_EVIL,100,-1)"
+
+// Commander of Souls (14th level)
+new entry "Passive_Mystic_CommanderOfSpirits"
+type "PassiveData"
+data "DisplayName" "h45b87d69gddc6g4ba5gb0acg489bdeb0196e"
+data "Description" "h86173ac5g59a9g4e04g9f2cgb4d2e3055374"
+data "Icon" "Passive_Mystic_CommanderOfSpirits"
+data "Properties" "Highlighted"
+
+// Purification Ritual (14th level)
+new entry "Passive_Mystic_PurificationRitual"
+type "PassiveData"
+data "DisplayName" "h720fc7dbgafc6g48dag950dg98224b0052f8"
+data "Description" "had30d387gcc76g464agafbeg76009bd0919c"
+data "Icon" "Action_Mystic_PurificationRitual"
+data "Properties" "Highlighted"
+data "Boosts" "UnlockSpell(Target_Mystic_PurificationRitual)"
+
+// SPIRIT LIMIT (On Create and Every Day, apply SPIRIT LIMIT with Duration of 1)
+new entry "Passive_Mystic_Level3_SpiritLimit"
+type "PassiveData"
+data "DisplayName" "ha494ffccg6376g46b3g85bcg7df47b5e3a60"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnCreate;OnLongRest"
+data "StatsFunctors" "ApplyStatus(SELF,MYSTIC_SPIRIT_LIMIT,100,1)"
+
+new entry "Passive_Mystic_Level5_SpiritLimit"
+type "PassiveData"
+data "DisplayName" "ha494ffccg6376g46b3g85bcg7df47b5e3a60"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnCreate;OnLongRest"
+data "StatsFunctors" "ApplyStatus(SELF,MYSTIC_SPIRIT_LIMIT,100,2)"
+
+new entry "Passive_Mystic_Level9_SpiritLimit"
+type "PassiveData"
+data "DisplayName" "ha494ffccg6376g46b3g85bcg7df47b5e3a60"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnCreate;OnLongRest"
+data "StatsFunctors" "ApplyStatus(SELF,MYSTIC_SPIRIT_LIMIT,100,3)"
+
+new entry "Passive_Mystic_Level13_SpiritLimit"
+type "PassiveData"
+data "DisplayName" "ha494ffccg6376g46b3g85bcg7df47b5e3a60"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnCreate;OnLongRest"
+data "StatsFunctors" "ApplyStatus(SELF,MYSTIC_SPIRIT_LIMIT,100,4)"
+
+new entry "Passive_Mystic_Level17_SpiritLimit"
+type "PassiveData"
+data "DisplayName" "ha494ffccg6376g46b3g85bcg7df47b5e3a60"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnCreate;OnLongRest"
+data "StatsFunctors" "ApplyStatus(SELF,MYSTIC_SPIRIT_LIMIT,100,5)"
+
+// SPIRIT FREECAST (On Create, and Once per long rest, these give you ONE [1] free spirit cast, they will add up together)
+new entry "Passive_Mystic_Level3_FreeSpirit"
+type "PassiveData"
+data "DisplayName" "hb5f39486g4d1eg4f9fg9c36g9e025f765c87"
+data "Properties" "IsHidden;OncePerLongRest"
+data "StatsFunctorContext" "OnCreate;OnLongRest"
+data "StatsFunctors" "ApplyStatus(SELF,MYSTIC_FREE_SPIRIT_SUMMON,100,1)"
+
+new entry "Passive_Mystic_Level5_FreeSpirit"
+type "PassiveData"
+data "DisplayName" "hb5f39486g4d1eg4f9fg9c36g9e025f765c87"
+data "Properties" "IsHidden;OncePerLongRest"
+data "StatsFunctorContext" "OnCreate;OnLongRest"
+data "StatsFunctors" "ApplyStatus(SELF,MYSTIC_FREE_SPIRIT_SUMMON,100,1)"
+
+new entry "Passive_Mystic_Level9_FreeSpirit"
+type "PassiveData"
+data "DisplayName" "hb5f39486g4d1eg4f9fg9c36g9e025f765c87"
+data "Properties" "IsHidden;OncePerLongRest"
+data "StatsFunctorContext" "OnCreate;OnLongRest"
+data "StatsFunctors" "ApplyStatus(SELF,MYSTIC_FREE_SPIRIT_SUMMON,100,1)"
+
+new entry "Passive_Mystic_Level13_FreeSpirit"
+type "PassiveData"
+data "DisplayName" "hb5f39486g4d1eg4f9fg9c36g9e025f765c87"
+data "Properties" "IsHidden;OncePerLongRest"
+data "StatsFunctorContext" "OnCreate;OnLongRest"
+data "StatsFunctors" "ApplyStatus(SELF,MYSTIC_FREE_SPIRIT_SUMMON,100,1)"
+
+new entry "Passive_Mystic_Level17_FreeSpirit"
+type "PassiveData"
+data "DisplayName" "hb5f39486g4d1eg4f9fg9c36g9e025f765c87"
+data "Properties" "IsHidden;OncePerLongRest"
+data "StatsFunctorContext" "OnCreate;OnLongRest"
+data "StatsFunctors" "ApplyStatus(SELF,MYSTIC_FREE_SPIRIT_SUMMON,100,1)"
+
+new entry "Passive_Mystic_FreeSpiritSummon"
+type "PassiveData"
+data "DisplayName" "hb5f39486g4d1eg4f9fg9c36g9e025f765c87"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnCast"
+data "Conditions" "SpiritCoercionCheck()"
+data "StatsFunctors" "SetStatusDuration(SELF,MYSTIC_FREE_SPIRIT_SUMMON, -1, Add)"

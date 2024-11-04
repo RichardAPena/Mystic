@@ -9,10 +9,10 @@
                     <attribute id="Boosts" type="LSString" value="ActionResource(PsiPointsResource,4,0);ProficiencyBonus(SavingThrow,Intelligence);Proficiency(SimpleWeapons);Proficiency(LightArmor)"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Mystic"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_StrengthOfMind_Wisdom;Passive_Mystic_IllithidFix"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_StrengthOfMind_Wisdom;Passive_Mystic_IllithidFix;Passive_Mystic_DownedFix"/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectPassives(48317e03-fe2a-4767-8f4d-1bdc2a40ac65,1,PsionicDisciplines);SelectSkills(a93e9e09-6bdd-475c-b4e4-3acf69d02111,2);SelectSpells(7b64aaca-d5e5-4555-9df3-a19bb13b5008,2,0,PsionicTalents,,,AlwaysPrepared);"/>
+                    <attribute id="Selectors" type="LSString" value="SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectPassives(48317e03-fe2a-4767-8f4d-1bdc2a40ac65,1,PsionicDisciplines);SelectSkills(a93e9e09-6bdd-475c-b4e4-3acf69d02111,2);SelectSpells(7b64aaca-d5e5-4555-9df3-a19bb13b5008,2,0,PsionicTalents,,,AlwaysPrepared)"/>
 					<attribute id="TableUUID" type="guid" value="4b5d89ce-9dfb-46c2-a205-77bbf05a6492"/>
                     <attribute id="UUID" type="guid" value="0482322d-723e-4705-a41a-99e27902311c"/>
 					<children>
@@ -45,6 +45,9 @@
                                 <node id="SubClass">
                                     <attribute id="Object" type="guid" value="576d5f3d-cf61-44ea-845b-7543440754e5"/> Unbound
                                 </node>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="153144d3-fe9f-454d-9b60-4cbc349e0fa4"/> Exorcist
+                                </node>
                             </children>
                         </node>
                     </children>
@@ -58,7 +61,7 @@
                     <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_IllithidFix"/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="SelectPassives(48317e03-fe2a-4767-8f4d-1bdc2a40ac65,1,PsionicDisciplines);SelectSpells(7b64aaca-d5e5-4555-9df3-a19bb13b5008,2,0,PsionicTalents,,,AlwaysPrepared);"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(48317e03-fe2a-4767-8f4d-1bdc2a40ac65,1,PsionicDisciplines);SelectSpells(7b64aaca-d5e5-4555-9df3-a19bb13b5008,2,0,PsionicTalents,,,AlwaysPrepared)"/>
 					<attribute id="TableUUID" type="guid" value="4b5d89ce-9dfb-46c2-a205-77bbf05a6492"/>
                     <attribute id="UUID" type="guid" value="5e682fd9-6864-45e0-bf8b-f45555555555"/>
 					<children>
@@ -90,6 +93,9 @@
                                 </node>
                                 <node id="SubClass">
                                     <attribute id="Object" type="guid" value="576d5f3d-cf61-44ea-845b-7543440754e5"/> Unbound
+                                </node>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="153144d3-fe9f-454d-9b60-4cbc349e0fa4"/> Exorcist
                                 </node>
                             </children>
                         </node>
@@ -134,7 +140,7 @@
                 </node>
 
                 <node id="Progression"> Blade Level 1
-                    <attribute id="Boosts" type="LSString" value="Proficiency(MartialWeapons);Proficiency(MediumArmor);Proficiency(HeavyArmor);Proficiency(Shields)"/>
+                    <attribute id="Boosts" type="LSString" value="Proficiency(MartialWeapons);Proficiency(MediumArmor);Proficiency(Shields)"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="OrderBlade"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
@@ -209,6 +215,83 @@
                     <attribute id="UUID" type="guid" value="70a12887-9070-4331-a0ad-0ed284e15996"/>
                 </node>
 
+                <node id="Progression"> Exorcist Level 1
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="OrderExorcist"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_SpiritWard"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(48317e03-fe2a-4767-8f4d-1bdc2a40ac65,1,PsionicDisciplines)"/>                    
+                    <attribute id="TableUUID" type="guid" value="e3e130b3-c488-4724-966a-f2b0915c71c9"/>
+                    <attribute id="UUID" type="guid" value="4ca1ceaf-4f70-4975-9936-7092ad6ce48a"/>
+                </node>
+                <node id="Progression"> Exorcist Level 3 
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="OrderExorcist"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_SummonerOfSpirits;Passive_Mystic_SpiritCoercion;Passive_Mystic_SpiritCommunion;Passive_Mystic_Level3_SpiritLimit;Passive_Mystic_Level3_FreeSpirit"/>
+                    <attribute id="TableUUID" type="guid" value="e3e130b3-c488-4724-966a-f2b0915c71c9"/>
+                    <attribute id="UUID" type="guid" value="3189bfa0-ec72-4c07-a91c-53704fb02358"/>
+                </node>
+                <node id="Progression"> Exorcist Level 5
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="5"/>
+                    <attribute id="Name" type="LSString" value="OrderExorcist"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_Level5_SpiritLimit;Passive_Mystic_Level5_FreeSpirit"/>
+                    <attribute id="PassivesRemoved" type="LSString" value="Passive_Mystic_Level3_SpiritLimit"/>
+                    <attribute id="TableUUID" type="guid" value="e3e130b3-c488-4724-966a-f2b0915c71c9"/>
+                    <attribute id="UUID" type="guid" value="694c64f1-dd8c-4270-b558-12568fd8bd9f"/>
+                </node>
+                <node id="Progression"> Exorcist Level 6
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="OrderExorcist"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_Puppetmaster;Passive_Mystic_WardAgainstEvil"/>
+                    <attribute id="TableUUID" type="guid" value="e3e130b3-c488-4724-966a-f2b0915c71c9"/>
+                    <attribute id="UUID" type="guid" value="384a2668-998d-42ed-b530-d053e67ba338"/>
+                </node>
+                <node id="Progression"> Exorcist Level 9
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="9"/>
+                    <attribute id="Name" type="LSString" value="OrderExorcist"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_Level9_SpiritLimit;Passive_Mystic_Level9_FreeSpirit"/>
+                    <attribute id="PassivesRemoved" type="LSString" value="Passive_Mystic_Level5_SpiritLimit"/>
+                    <attribute id="TableUUID" type="guid" value="e3e130b3-c488-4724-966a-f2b0915c71c9"/>
+                    <attribute id="UUID" type="guid" value="97416a19-cdcc-46ec-a417-0e4ed01f09f2"/>
+                </node>
+                <node id="Progression"> Exorcist Level 13
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="13"/>
+                    <attribute id="Name" type="LSString" value="OrderExorcist"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_Level13_SpiritLimit;Passive_Mystic_Level13_FreeSpirit"/>
+                    <attribute id="PassivesRemoved" type="LSString" value="Passive_Mystic_Level9_SpiritLimit"/>
+                    <attribute id="TableUUID" type="guid" value="e3e130b3-c488-4724-966a-f2b0915c71c9"/>
+                    <attribute id="UUID" type="guid" value="35b37275-d0cb-47fe-89c3-964d28964c46"/>
+                </node>
+                <node id="Progression"> Exorcist Level 14
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="14"/>
+                    <attribute id="Name" type="LSString" value="OrderExorcist"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_CommanderOfSpirits;Passive_Mystic_PurificationRitual"/>
+                    <attribute id="TableUUID" type="guid" value="e3e130b3-c488-4724-966a-f2b0915c71c9"/>
+                    <attribute id="UUID" type="guid" value="1c818fb2-2b38-446d-8f22-d75557ac0e43"/>
+                </node>
+                <node id="Progression"> Exorcist Level 17
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="17"/>
+                    <attribute id="Name" type="LSString" value="OrderExorcist"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_Level17_SpiritLimit;Passive_Mystic_Level17_FreeSpirit"/>
+                    <attribute id="PassivesRemoved" type="LSString" value="Passive_Mystic_Level13_SpiritLimit"/>
+                    <attribute id="TableUUID" type="guid" value="e3e130b3-c488-4724-966a-f2b0915c71c9"/>
+                    <attribute id="UUID" type="guid" value="c20d3796-4acb-497f-9c1e-d06857d7e45e"/>
+                </node>
             </children>
         </node>
     </region>

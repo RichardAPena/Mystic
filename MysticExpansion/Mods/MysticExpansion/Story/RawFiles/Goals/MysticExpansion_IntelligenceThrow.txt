@@ -1,0 +1,39 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+DB_MysticExpansion_ThrowSpell("Throw_Throw");
+KBSECTION
+IF
+OnStartCarrying(_CarriedObject, _CarriedObjectTemplate, _Carrier, _StoryActionID, _pickupPosX, _pickupPosY, _pickupPosZ)
+AND
+HasActiveStatus(_Carrier, "MYSTIC_MYSTIC_ARSENAL_THROWN_WEAPON_FIGHTING", _HasMysticArsenalThrown)
+AND
+HasPassive(_Carrier, "Passive_Mystic_WarAdept", _HasWarAdept)
+AND
+GetAbility((CHARACTER)_Carrier, "Strength", _Strength)
+AND
+GetAbility(_Carrier, "Intelligence", _Intelligence)
+AND
+IntegerSubtract(_Intelligence, _Strength, _Diff)
+AND
+IntegerProduct(_Diff, 6, _Product)
+AND
+IntegerToReal(_Product, _Result)
+THEN
+RemoveStatus(_Carrier, "INTELLIGENCE_THROW_BUFF");
+ApplyStatus(_Carrier, "INTELLIGENCE_THROW_BUFF", _Result, 0);
+
+IF
+CastSpellFailed(_Caster, _Spell, _SpellType, _SpellElement, _StoryActionID)
+AND
+DB_MysticExpansion_ThrowSpell(_Spell)
+THEN
+RemoveStatus(_Caster, "INTELLIGENCE_THROW_BUFF");
+
+IF
+OnThrown(_ThrownObject, _ThrownObjectTemplate, _Thrower, _StoryActionID, _throwPosX, _throwPosY, _throwPosZ)
+THEN
+RemoveStatus(_Thrower, "INTELLIGENCE_THROW_BUFF");
+EXITSECTION
+
+ENDEXITSECTION

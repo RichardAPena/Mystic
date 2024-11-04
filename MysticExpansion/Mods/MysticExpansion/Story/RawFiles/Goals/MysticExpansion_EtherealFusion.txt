@@ -1,0 +1,318 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+DB_MysticExpansion_EtherealFusion_NullUUID((GUIDSTRING)NULL_00000000-0000-0000-0000-000000000000);
+//DB_MysticExpansion_EtherealFusion_NullUUID("NULL_00000000-0000-0000-0000-000000000000");
+
+DB_MysticExpansion_EtherealFusion_CancelSpellName("Target_Mystic_EtherealFusion_Cancel");
+DB_MysticExpansion_EtherealFusion_EtherealFusionOwnerStatus("MYSTIC_ETHEREAL_FUSION");
+DB_MysticExpansion_EtherealFusion_EtherealFusionTargetStatus("MYSTIC_ETHEREAL_FUSION_TARGET");
+DB_MysticExpansion_EtherealFusion_EtherealFusionMovedStatus("MYSTIC_ETHEREAL_FUSION_TARGET_MOVED");
+
+DB_MysticExpansion_EtherealFusion_EtherealFusionAllStatuses("MYSTIC_ETHEREAL_FUSION");
+DB_MysticExpansion_EtherealFusion_EtherealFusionAllStatuses("MYSTIC_ETHEREAL_FUSION_TARGET");
+DB_MysticExpansion_EtherealFusion_EtherealFusionAllStatuses("MYSTIC_ETHEREAL_FUSION_TEMPORARY_HP");
+
+DB_MysticExpansion_EtherealFusion_True(1);
+KBSECTION
+PROC
+PROC_MysticExpansion_EtherealFusion_Move((CHARACTER)_Object)
+AND
+GetVarUUID(_Object, "EtherealFusion_Rider", _GhostRider)
+AND
+NOT DB_MysticExpansion_EtherealFusion_NullUUID(_GhostRider)
+AND
+HasActiveStatus(_Object, "MYSTIC_ETHEREAL_FUSION_TARGET", _HasEtherealFusion)
+AND
+DB_MysticExpansion_EtherealFusion_True(_HasEtherealFusion)
+THEN
+TeleportTo(_GhostRider, _Object, "", 0, 0, 0, 0, 1);
+
+IF
+StatusApplied(_Object, _Status, _Causee, _StoryActionID)
+AND
+DB_MysticExpansion_EtherealFusion_EtherealFusionMovedStatus(_Status)
+THEN
+PROC_MysticExpansion_EtherealFusion_Move((CHARACTER)_Object);
+
+IF
+StartedPreviewingSpell(_Caster, _Spell, _IsMostPowerful, _HasMultipleLevels)
+THEN
+PROC_MysticExpansion_EtherealFusion_Move((CHARACTER)_Caster);
+
+IF
+CharacterMoveToCancelled(_Character, _MoveID)
+THEN
+PROC_MysticExpansion_EtherealFusion_Move((CHARACTER)_Character);
+
+IF
+RequestCanMove(_Character, _Item, _RequestID)
+THEN
+PROC_MysticExpansion_EtherealFusion_Move((CHARACTER)_Character);
+
+IF
+ForceMoveEnded(_Source, _Target, _StoryActionID)
+THEN
+PROC_MysticExpansion_EtherealFusion_Move((CHARACTER)_Target);
+
+IF
+ForceMoveStarted(_Source, _Target, _StoryActionID)
+THEN
+PROC_MysticExpansion_EtherealFusion_Move((CHARACTER)_Target);
+
+IF
+MovedBy(_MovedEntity, _Character)
+THEN
+PROC_MysticExpansion_EtherealFusion_Move((CHARACTER)_MovedEntity);
+
+IF
+MovedFromTo(_MovedObject, _FromObject, _ToObject, _IsTrade)
+THEN
+PROC_MysticExpansion_EtherealFusion_Move((CHARACTER)_MovedObject);
+
+IF
+StartAttackPosition(_X, _Y, _Z, _AttackOwner, _Attacker, _StoryActionID)
+THEN
+PROC_MysticExpansion_EtherealFusion_Move((CHARACTER)_AttackOwner);
+
+IF
+Teleported(_Target, _Cause, _OldX, _OldY, _OldZ, _NewX, _NewY, _NewZ, _Spell)
+THEN
+PROC_MysticExpansion_EtherealFusion_Move((CHARACTER)_Target);
+
+IF
+EnteredCombat(_Object, _CombatGuid)
+AND
+GetVarUUID(_Object, "EtherealFusion_Rider", _RiderUUID)
+THEN
+PROC_MysticExpansion_EtherealFusion_Move((CHARACTER)_Object);
+
+IF
+LeftCombat(_Object, _CombatGuid)
+AND
+GetVarUUID(_Object, "EtherealFusion_Rider", _RiderUUID)
+THEN
+PROC_MysticExpansion_EtherealFusion_Move((CHARACTER)_Object);
+LeaveCombat(_RiderUUID);
+IF
+EnteredForceTurnBased(_Object)
+THEN
+PROC_MysticExpansion_EtherealFusion_Move((CHARACTER)_Object);
+
+IF
+LeftForceTurnBased(_Object)
+THEN
+PROC_MysticExpansion_EtherealFusion_Move((CHARACTER)_Object);
+
+IF
+TurnStarted(_Object)
+THEN
+PROC_MysticExpansion_EtherealFusion_Move((CHARACTER)_Object);
+
+IF
+TurnEnded(_Object)
+THEN
+PROC_MysticExpansion_EtherealFusion_Move((CHARACTER)_Object);
+
+IF
+StartAttack(_Defender, _AttackOwner, _Attacker, _StoryActionID)
+THEN
+PROC_MysticExpansion_EtherealFusion_Move((CHARACTER)_AttackOwner);
+
+IF
+AttackedBy(_Defender, _AttackerOwner, _Attacker, _DamageType, _DamageAmount, _DamageCause, _StoryActionID)
+THEN
+PROC_MysticExpansion_EtherealFusion_Move((CHARACTER)_Defender);
+
+IF
+CastSpell(_Caster, _Spell, _SpellType, _SpellElement, _StoryActionID)
+THEN
+PROC_MysticExpansion_EtherealFusion_Move((CHARACTER)_Caster);
+
+IF
+CastSpell(_Caster, _Spell, _SpellType, _SpellElement, _StoryActionID)
+AND
+DB_MysticExpansion_EtherealFusion_CancelSpellName(_Spell)
+THEN
+RemoveStatus(_Caster, "MYSTIC_ETHEREAL_FUSION");
+
+// ========================================================================
+
+// Assign rider and driver
+IF
+StatusApplied(_Object, _Status, _Causee, _StoryActionID)
+AND
+DB_MysticExpansion_EtherealFusion_EtherealFusionTargetStatus(_Status)
+THEN
+SetVarUUID(_Object, "EtherealFusion_Rider", _Causee);
+SetVarUUID(_Causee, "EtherealFusion_Driver", _Object);
+
+// Hide main melee weapon
+IF
+StatusApplied(_Object, _Status, _Causee, _StoryActionID)
+AND
+DB_MysticExpansion_EtherealFusion_EtherealFusionOwnerStatus(_Status)
+AND
+GetEquippedItem((CHARACTER)_Object, "Melee Main Weapon", _MeleeMainWeapon)
+THEN
+ApplyStatus(_MeleeMainWeapon, "MYSTIC_ETHEREAL_FUSION_FX", -1.0, 1, _Object);
+
+// Hide offhand melee weapon
+IF
+StatusApplied(_Object, _Status, _Causee, _StoryActionID)
+AND
+DB_MysticExpansion_EtherealFusion_EtherealFusionOwnerStatus(_Status)
+AND
+GetEquippedItem((CHARACTER)_Object, "Melee Offhand Weapon", _MeleeOffhandWeapon)
+THEN
+ApplyStatus(_MeleeOffhandWeapon, "MYSTIC_ETHEREAL_FUSION_FX", -1.0, 1, _Object);
+
+// Hide main ranged weapon
+IF
+StatusApplied(_Object, _Status, _Causee, _StoryActionID)
+AND
+DB_MysticExpansion_EtherealFusion_EtherealFusionOwnerStatus(_Status)
+AND
+GetEquippedItem((CHARACTER)_Object, "Ranged Main Weapon", _RangedMainWeapon)
+THEN
+ApplyStatus(_RangedMainWeapon, "MYSTIC_ETHEREAL_FUSION_FX", -1.0, 1, _Object);
+
+// Hide offhand ranged weapon
+IF
+StatusApplied(_Object, _Status, _Causee, _StoryActionID)
+AND
+DB_MysticExpansion_EtherealFusion_EtherealFusionOwnerStatus(_Status)
+AND
+GetEquippedItem((CHARACTER)_Object, "Ranged Offhand Weapon", _RangedOffhandWeapon)
+THEN
+ApplyStatus(_RangedOffhandWeapon, "MYSTIC_ETHEREAL_FUSION_FX", -1.0, 1, _Object);
+
+IF
+StatusRemoved(_Object, _Status, _Causee, _ApplyStoryActionID)
+AND
+DB_MysticExpansion_EtherealFusion_EtherealFusionAllStatuses(_Status)
+/*
+AND
+GetVarUUID(_Object, "EtherealFusion_Driver", _DriverUUID)
+AND
+GetVarUUID(_Object, "EtherealFusion_Rider", _RiderUUID)
+THEN
+RemoveStatus(_DriverUUID, "MYSTIC_ETHEREAL_FUSION");
+RemoveStatus(_DriverUUID, "MYSTIC_ETHEREAL_FUSION_TARGET");
+RemoveStatus(_DriverUUID, "MYSTIC_ETHEREAL_FUSION_TEMPORARY_HP");
+SetVarUUID(_DriverUUID, "EtherealFusion_Driver", (GUIDSTRING)NULL_00000000-0000-0000-0000-000000000000);
+RemoveStatus(_RiderUUID, "MYSTIC_ETHEREAL_FUSION");
+RemoveStatus(_RiderUUID, "MYSTIC_ETHEREAL_FUSION_TARGET");
+RemoveStatus(_RiderUUID, "MYSTIC_ETHEREAL_FUSION_TEMPORARY_HP");
+SetVarUUID(_RiderUUID, "EtherealFusion_Rider", (GUIDSTRING)NULL_00000000-0000-0000-0000-000000000000);
+*/
+THEN
+UseSpell(_Object, "Shout_Mystic_EndEtherealFusion", _Object);
+RemoveStatus(_Object, "MYSTIC_ETHEREAL_FUSION");
+RemoveStatus(_Object, "MYSTIC_ETHEREAL_FUSION_TARGET");
+RemoveStatus(_Object, "MYSTIC_ETHEREAL_FUSION_TEMPORARY_HP");
+
+// When losing Ethereal Fusion (RIDER), remove all statuses from your DRIVER
+IF
+StatusRemoved(_Object, _Status, _Causee, _ApplyStoryActionID)
+AND
+DB_MysticExpansion_EtherealFusion_EtherealFusionAllStatuses(_Status)
+AND
+GetVarUUID(_Object, "EtherealFusion_Driver", _DriverUUID)
+//AND
+//NOT DB_MysticExpansion_EtherealFusion_NullUUID(_DriverUUID)
+THEN
+RemoveStatus(_Object, "MYSTIC_ETHEREAL_FUSION");
+RemoveStatus(_Object, "MYSTIC_ETHEREAL_FUSION_TARGET");
+RemoveStatus(_Object, "MYSTIC_ETHEREAL_FUSION_TEMPORARY_HP");
+SetVarUUID(_Object, "EtherealFusion_Rider", (GUIDSTRING)NULL_00000000-0000-0000-0000-000000000000);
+RemoveStatus(_DriverUUID, "MYSTIC_ETHEREAL_FUSION");
+RemoveStatus(_DriverUUID, "MYSTIC_ETHEREAL_FUSION_TARGET");
+RemoveStatus(_DriverUUID, "MYSTIC_ETHEREAL_FUSION_TEMPORARY_HP");
+SetVarUUID(_DriverUUID, "EtherealFusion_Driver", (GUIDSTRING)NULL_00000000-0000-0000-0000-000000000000);
+
+// When losing Ethereal Fusion (DRIVER), remove all statuses from your RIDER
+IF
+StatusRemoved(_Object, _Status, _Causee, _ApplyStoryActionID)
+AND
+DB_MysticExpansion_EtherealFusion_EtherealFusionAllStatuses(_Status)
+AND
+GetVarUUID(_Object, "EtherealFusion_Rider", _RiderUUID)
+//AND
+//NOT DB_MysticExpansion_EtherealFusion_NullUUID(_RiderUUID)
+THEN
+RemoveStatus(_Object, "MYSTIC_ETHEREAL_FUSION");
+RemoveStatus(_Object, "MYSTIC_ETHEREAL_FUSION_TARGET");
+RemoveStatus(_Object, "MYSTIC_ETHEREAL_FUSION_TEMPORARY_HP");
+SetVarUUID(_Object, "EtherealFusion_Driver", (GUIDSTRING)NULL_00000000-0000-0000-0000-000000000000);
+RemoveStatus(_RiderUUID, "MYSTIC_ETHEREAL_FUSION");
+RemoveStatus(_RiderUUID, "MYSTIC_ETHEREAL_FUSION_TARGET");
+RemoveStatus(_RiderUUID, "MYSTIC_ETHEREAL_FUSION_TEMPORARY_HP");
+SetVarUUID(_RiderUUID, "EtherealFusion_Rider", (GUIDSTRING)NULL_00000000-0000-0000-0000-000000000000);
+
+// Unhide main melee weapon
+IF
+StatusRemoved(_Object, _Status, _Causee, _ApplyStoryActionID)
+AND
+DB_MysticExpansion_EtherealFusion_EtherealFusionOwnerStatus(_Status)
+AND
+GetEquippedItem((CHARACTER)_Object, "Melee Main Weapon", _MeleeMainWeapon)
+THEN
+RemoveStatus(_MeleeMainWeapon, "MYSTIC_ETHEREAL_FUSION_FX");
+
+// Unhide offhand melee weapon
+IF
+StatusRemoved(_Object, _Status, _Causee, _ApplyStoryActionID)
+AND
+DB_MysticExpansion_EtherealFusion_EtherealFusionOwnerStatus(_Status)
+AND
+GetEquippedItem((CHARACTER)_Object, "Melee Offhand Weapon", _MeleeOffhandWeapon)
+THEN
+RemoveStatus(_MeleeOffhandWeapon, "MYSTIC_ETHEREAL_FUSION_FX");
+
+// Unhide main ranged weapon
+IF
+StatusRemoved(_Object, _Status, _Causee, _ApplyStoryActionID)
+AND
+DB_MysticExpansion_EtherealFusion_EtherealFusionOwnerStatus(_Status)
+AND
+GetEquippedItem((CHARACTER)_Object, "Ranged Main Weapon", _RangedMainWeapon)
+THEN
+RemoveStatus(_RangedMainWeapon, "MYSTIC_ETHEREAL_FUSION_FX");
+
+// Unhide offhand ranged weapon
+IF
+StatusRemoved(_Object, _Status, _Causee, _ApplyStoryActionID)
+AND
+DB_MysticExpansion_EtherealFusion_EtherealFusionOwnerStatus(_Status)
+AND
+GetEquippedItem((CHARACTER)_Object, "Ranged Offhand Weapon", _RangedOffhandWeapon)
+THEN
+RemoveStatus(_RangedOffhandWeapon, "MYSTIC_ETHEREAL_FUSION_FX");
+
+// When a weapon is equipped and you have Ethereal Fusion active, hide it
+/*
+IF
+Equipped(_Item, _Character)
+AND
+HasActiveStatus(_Character, "MYSTIC_ETHEREAL_FUSION", _HasEtherealFusionActive)
+AND
+IsWeapon(_Item, _IsWeapon)
+THEN
+ApplyStatus(_Item, "MYSTIC_ETHEREAL_FUSION_FX", -1.0, 1, _Character);
+DebugText(_Character, "Kekw");
+
+// When a weapon is unequipped and you have Ethereal Fusion, unhide it
+IF
+Unequipped(_Item, _Character)
+AND
+HasActiveStatus(_Character, "MYSTIC_ETHEREAL_FUSION", _HasEtherealFusionActive)
+AND
+IsWeapon(_Item, _IsWeapon)
+THEN
+RemoveStatus(_Item, "MYSTIC_ETHEREAL_FUSION_FX");
+DebugText(_Character, "Lamo");
+*/
+EXITSECTION
+
+ENDEXITSECTION

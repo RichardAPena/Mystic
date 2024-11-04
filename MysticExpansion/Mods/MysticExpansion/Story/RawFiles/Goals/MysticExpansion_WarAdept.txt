@@ -1,0 +1,95 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+DB_MysticExpansion_WarAdept_MysticArsenalSpell("Shout_Mystic_MysticArsenal_GreatWeaponFighting");
+DB_MysticExpansion_WarAdept_MysticArsenalSpell("Shout_Mystic_MysticArsenal_Dueling");
+DB_MysticExpansion_WarAdept_MysticArsenalSpell("Shout_Mystic_MysticArsenal_Archery");
+DB_MysticExpansion_WarAdept_MysticArsenalSpell("Shout_Mystic_MysticArsenal_ThrownWeaponFighting");
+KBSECTION
+IF
+Equipped(_Item, _Character)
+AND
+HasPassive(_Character, "Passive_Mystic_WarAdept", _HasPassive)
+AND
+IsWeapon(_Item, _IsWeapon)
+THEN
+ApplyStatus(_Character, "MYSTIC_WAR_ADEPT_APPLY", 1.0, 1, _Character);
+
+IF
+Unequipped(_Item, _Character)
+AND
+HasActiveStatus(_Item, "MYSTIC_WAR_ADEPT", _HasWarAdeptStatus)
+THEN
+RemoveStatus(_Item, "MYSTIC_WAR_ADEPT");
+
+IF
+EnteredCombat(_Object, _CombatGuid)
+AND
+HasPassive(_Object, "Passive_Mystic_WarAdept", _HasPassive)
+THEN
+ApplyStatus(_Object, "MYSTIC_WAR_ADEPT_APPLY", 1.0, 1, _Object);
+
+// Remove War Adept (Main Melee Weapon)
+IF
+CastSpell(_Caster, _Spell, _SpellType, _SpellElement, _StoryActionID)
+AND
+HasPassive(_Caster, "Passive_Mystic_WarAdept", _HasPassive)
+AND
+DB_MysticExpansion_WarAdept_MysticArsenalSpell(_Spell)
+AND
+GetEquippedItem((CHARACTER)_Caster, "Melee Main Weapon", _MeleeMainWeapon)
+THEN
+RemoveStatus(_MeleeMainWeapon, "MYSTIC_WAR_ADEPT", _Caster);
+
+// Remove War Adept (Offhand Melee Weapon)
+IF
+CastSpell(_Caster, _Spell, _SpellType, _SpellElement, _StoryActionID)
+AND
+HasPassive(_Caster, "Passive_Mystic_WarAdept", _HasPassive)
+AND
+DB_MysticExpansion_WarAdept_MysticArsenalSpell(_Spell)
+AND
+GetEquippedItem((CHARACTER)_Caster, "Melee Offhand Weapon", _MeleeOffhandWeapon)
+THEN
+RemoveStatus(_MeleeOffhandWeapon, "MYSTIC_WAR_ADEPT", _Caster);
+
+// Remove War Adept (Main Ranged Weapon)
+IF
+CastSpell(_Caster, _Spell, _SpellType, _SpellElement, _StoryActionID)
+AND
+HasPassive(_Caster, "Passive_Mystic_WarAdept", _HasPassive)
+AND
+DB_MysticExpansion_WarAdept_MysticArsenalSpell(_Spell)
+AND
+GetEquippedItem((CHARACTER)_Caster, "Ranged Main Weapon", _RangedMainWeapon)
+THEN
+RemoveStatus(_RangedMainWeapon, "MYSTIC_WAR_ADEPT", _Caster);
+
+// Remove War Adept (Offhand Ranged Weapon)
+IF
+CastSpell(_Caster, _Spell, _SpellType, _SpellElement, _StoryActionID)
+AND
+HasPassive(_Caster, "Passive_Mystic_WarAdept", _HasPassive)
+AND
+DB_MysticExpansion_WarAdept_MysticArsenalSpell(_Spell)
+AND
+GetEquippedItem((CHARACTER)_Caster, "Ranged Offhand Weapon", _RangedOffhandWeapon)
+THEN
+RemoveStatus(_RangedOffhandWeapon, "MYSTIC_WAR_ADEPT", _Caster);
+/*
+IF
+CastedSpell(_Caster, _Spell, _SpellType, _SpellElement, _StoryActionID)
+AND
+HasPassive(_Caster, "Passive_Mystic_WarAdept", _HasPassive)
+THEN
+ApplyStatus(_Caster, "MYSTIC_WAR_ADEPT_APPLY", 1.0, 1, _Caster);
+*/
+IF
+StartedPreviewingSpell(_Caster, _Spell, _IsMostPowerful, _HasMultipleLevels)
+AND
+HasPassive(_Caster, "Passive_Mystic_WarAdept", _HasPassive)
+THEN
+ApplyStatus(_Caster, "MYSTIC_WAR_ADEPT_APPLY", 1.0, 1, _Caster);
+EXITSECTION
+
+ENDEXITSECTION

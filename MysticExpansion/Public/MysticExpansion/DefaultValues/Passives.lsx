@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="319"/>
+    <region id="DefaultValues">
+        <node id="root">
+            <children>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Discipline_BruteForce"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="Ascetic Disciplines"/>
+                    <attribute id="TableUUID" type="guid" value="1c7b47a8-d031-4c79-bc6b-4d003b0eb2bd"/>
+                    <attribute id="UUID" type="guid" value="8c66b7cd-37da-441e-b7a8-12e96dab69f5"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Discipline_MasteryOfTime"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="Unbound Disciplines"/>
+                    <attribute id="TableUUID" type="guid" value="f8509fda-caef-4ea0-b635-e6c2034d8ca0"/>
+                    <attribute id="UUID" type="guid" value="d28e97dc-fe01-46d0-bc7a-919e3ab6d5df"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Discipline_MasteryOfLifeAndDeath"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="Exorcist Disciplines"/>
+                    <attribute id="TableUUID" type="guid" value="e3e130b3-c488-4724-966a-f2b0915c71c9"/>
+                    <attribute id="UUID" type="guid" value="8089b77c-03de-4431-b60b-8ed53f54a053"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save> 

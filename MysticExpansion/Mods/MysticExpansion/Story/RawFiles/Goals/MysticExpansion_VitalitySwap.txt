@@ -1,0 +1,20 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+DB_MysticExpansion_VitalitySwap_VitalitySwapStatus("MYSTIC_VITALITY_SWAP");
+//DB_MysticExpansion_VitalitySwap_True(1);
+KBSECTION
+IF
+StatusApplied(_Object, _Status, _Causee, _StoryActionID)
+AND
+DB_MysticExpansion_VitalitySwap_VitalitySwapStatus(_Status)
+AND
+GetHitpointsPercentage(_Object, _TargetHPPercent)
+AND
+GetHitpointsPercentage(_Causee, _CasterHPPercent)
+THEN
+SetHitpointsPercentage(_Object, _CasterHPPercent);
+SetHitpointsPercentage(_Causee, _TargetHPPercent);
+EXITSECTION
+
+ENDEXITSECTION

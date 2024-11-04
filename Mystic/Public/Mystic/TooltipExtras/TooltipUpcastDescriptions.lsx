@@ -13,7 +13,12 @@
                     <attribute id="Name" type="FixedString" value="More damage, Larger distance"/>
                     <attribute id="Text" type="TranslatedString" handle="h40a2d4caga1f5g4f1ega800g09de58581389" version="1"/>
                     <attribute id="UUID" type="guid" value="b89f8966-6a11-410a-855d-40ab989b20a7"/>
-                </node>                
+                </node>
+                <node id="TooltipUpcastDescriptions">
+                    <attribute id="Name" type="FixedString" value="More damage, Larger cast range"/>
+                    <attribute id="Text" type="TranslatedString" handle="h94dbaee5g1114g46f0g9383gce27f9b9a407" version="1"/>
+                    <attribute id="UUID" type="guid" value="b4071ad8-fb84-4133-92b1-8a14159a189e"/>
+                </node>
             </children>
         </node>
     </region>

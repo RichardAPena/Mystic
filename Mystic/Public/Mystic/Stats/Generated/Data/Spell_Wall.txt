@@ -143,7 +143,7 @@ data "Level" "6"
 data "Icon" "Action_Mystic_WallOfThunder"
 data "DisplayName" "h0fdf4a1eg519cg46bcg8735g75b7d7dcc113"
 data "Description" "hf2400914g9a65g461cga04bgb38b576426fc"
-data "DescriptionParams" "Distance(3)"
+data "DescriptionParams" "Distance(9)"
 
 data "TargetRadius" "18"
 data "MaxDistance" "9"

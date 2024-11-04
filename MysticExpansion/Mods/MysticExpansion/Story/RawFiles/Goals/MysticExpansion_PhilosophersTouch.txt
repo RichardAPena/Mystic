@@ -1,0 +1,54 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+DB_MysticExpansion_PhilosophersTouchStatus("MYSTIC_LIQUID_GOLD");
+DB_MysticExpansion_GoldUUID("1c3c9c74-34a1-4685-989e-410dc080be6f");
+DB_MysticExpansion_GoldUUID("LOOT_Gold_A_1c3c9c74-34a1-4685-989e-410dc080be6f");
+//DB_MysticExpansion_PhilosophersTouch_True(1);
+DB_MysticExpansion_PhilosophersTouch_False(0);
+KBSECTION
+IF
+StatusApplied(_Object, _Status, _Causee, _StoryActionID)
+AND
+DB_MysticExpansion_PhilosophersTouchStatus(_Status)
+AND
+IsItem(_Object, _IsItem)
+AND
+IsTradable(_Object, _IsTradable)
+AND
+HasActiveStatus(_Object, "MYSTIC_BOTTOMLESS_FLASK", _HasBottomlessFlask)
+AND
+DB_MysticExpansion_PhilosophersTouch_False(_HasBottomlessFlask)
+AND
+GetCanPickUp((ITEM)_Object, _CanPickUp)
+AND 
+IsContainer((ITEM)_Object, _IsContainer)
+AND
+DB_MysticExpansion_PhilosophersTouch_False(_IsContainer)
+AND
+IsLadder((ITEM)_Object, _IsLadder)
+AND
+DB_MysticExpansion_PhilosophersTouch_False(_IsLadder)
+AND
+IsStoryItem((ITEM)_Object, _IsStoryItem)
+AND
+DB_MysticExpansion_PhilosophersTouch_False(_IsStoryItem)
+AND
+GetUUID(_Object, _ObjectUUID)
+AND
+GetTemplate(_Object, _ObjectTemplate)
+AND
+GUIDToString(_ObjectTemplate, _ObjectTemplateString)
+AND
+NOT DB_MysticExpansion_GoldUUID(_ObjectTemplateString)
+AND
+ItemGetGoldValue(_Object, _ObjectGoldValue)
+AND
+IntegerProduct(_ObjectGoldValue, 3, _GoldToAdd)
+THEN
+AddGold(_Causee, _GoldToAdd);
+RequestDelete(_Object);
+//DebugText(_Causee, _ObjectTemplateString);
+EXITSECTION
+
+ENDEXITSECTION

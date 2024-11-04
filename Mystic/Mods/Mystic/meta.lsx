@@ -1,43 +1,77 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <save>
-  <version major="4" minor="0" revision="6" build="5" />
-  <region id="Config">
-    <node id="root">
-      <children>
-        <node id="Dependencies" />
-        <node id="ModuleInfo">
-          <attribute id="Author" type="LSWString" value="Xhevo" />
-          <attribute id="CharacterCreationLevelName" type="FixedString" value="" />
-          <attribute id="Description" type="LSWString" value="Adds the Mystic class from UA" />
-          <attribute id="Folder" type="LSWString" value="Mystic" />
-          <attribute id="GMTemplate" type="FixedString" value="" />
-          <attribute id="LobbyLevelName" type="FixedString" value="" />
-          <attribute id="MD5" type="LSWString" value="" />
-          <attribute id="MainMenuBackgroundVideo" type="FixedString" value="" />
-          <attribute id="MenuLevelName" type="FixedString" value="" />
-          <attribute id="Name" type="FixedString" value="Mystic" />
-          <attribute id="NumPlayers" type="uint8" value="4" />
-          <attribute id="PhotoBooth" type="FixedString" value="" />
-          <attribute id="StartupLevelName" type="FixedString" value="" />
-          <attribute id="Tags" type="LSWString" value="" />
-          <attribute id="Type" type="FixedString" value="Add-on" />
-          <attribute id="UUID" type="FixedString" value="b2ac3aa8-ce29-4d53-be47-7121845f3c1c" />
-          <attribute id="Version64" type="int64" value="108367866033602560" />
-          <children>
-            <node id="PublishVersion">
-              <attribute id="Version64" type="int64" value="108367866033602560" />
-            </node>
-            <node id="Scripts" />
-            <node id="TargetModes">
-              <children>
-                <node id="Target">
-                  <attribute id="Object" type="FixedString" value="Story" />
+    <version major="4" minor="7" revision="1" build="3"/>
+    <region id="Config">
+        <node id="root">
+            <children>
+                <node id="Conflicts"/>
+                <node id="Dependencies">
+                    <children>
+                        <node id="ModuleShortDesc">
+                            <attribute id="Folder" type="LSString" value="ImpUI_26922ba9-6018-5252-075d-7ff2ba6ed879"/>
+                            <attribute id="MD5" type="LSString" value="0f136f38f83bb9083fedcfb4a7b8510b"/>
+                            <attribute id="Name" type="LSString" value="ImpUI (ImprovedUI)"/>
+                            <attribute id="PublishHandle" type="uint64" value="4138213"/>
+                            <attribute id="UUID" type="guid" value="26922ba9-6018-5252-075d-7ff2ba6ed879"/>
+                            <attribute id="Version64" type="int64" value="36732484460740640"/>
+                        </node>
+                    </children>
                 </node>
-              </children>
-            </node>
-          </children>
+                <node id="ModuleInfo">
+                    <attribute id="Author" type="LSString" value="Xhevo"/>
+                    <attribute id="CharacterCreationLevelName" type="FixedString" value=""/>
+                    <attribute id="Description" type="LSString" value="Adds the Mystic class from Unearthed Arcana to Baldur&apos;s Gate 3."/>
+                    <attribute id="FileSize" type="uint64" value="74712371"/>
+                    <attribute id="Folder" type="LSString" value="MysticClass_93c6116d-631a-cdc4-c0d3-37c568de4b76"/>
+                    <attribute id="LobbyLevelName" type="FixedString" value=""/>
+                    <attribute id="MD5" type="LSString" value="4d32f32462e97abb4293ec3cf487f8b7"/>
+                    <attribute id="MenuLevelName" type="FixedString" value=""/>
+                    <attribute id="Name" type="LSString" value="Mystic Class"/>
+                    <attribute id="NumPlayers" type="uint8" value="4"/>
+                    <attribute id="PhotoBooth" type="FixedString" value=""/>
+                    <attribute id="PublishHandle" type="uint64" value="4317849"/>
+                    <attribute id="StartupLevelName" type="FixedString" value=""/>
+                    <attribute id="UUID" type="FixedString" value="93c6116d-631a-cdc4-c0d3-37c568de4b76"/>
+                    <attribute id="Version64" type="int64" value="144396663052566528"/>
+                    <children>
+                        <node id="PublishVersion">
+                            <attribute id="Version64" type="int64" value="144255927717421694"/>
+                        </node>
+                        <node id="Scripts">
+                            <children>
+                                <node id="Script">
+                                    <attribute id="UUID" type="FixedString" value="1953f77d-a201-45d7-a194-9b84c34b8461"/>
+                                    <children>
+                                        <node id="Parameters">
+                                            <children>
+                                                <node id="Parameter">
+                                                    <attribute id="MapKey" type="FixedString" value="HardcoreOnly"/>
+                                                    <attribute id="Type" type="int32" value="1"/>
+                                                    <attribute id="Value" type="LSString" value="0"/>
+                                                </node>
+                                            </children>
+                                        </node>
+                                    </children>
+                                </node>
+                                <node id="Script">
+                                    <attribute id="UUID" type="FixedString" value="0d6510f5-50a3-4ecd-83d8-134c9a640324"/>
+                                    <children>
+                                        <node id="Parameters">
+                                            <children>
+                                                <node id="Parameter">
+                                                    <attribute id="MapKey" type="FixedString" value="HardcoreOnly"/>
+                                                    <attribute id="Type" type="int32" value="1"/>
+                                                    <attribute id="Value" type="LSString" value="0"/>
+                                                </node>
+                                            </children>
+                                        </node>
+                                    </children>
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+            </children>
         </node>
-      </children>
-    </node>
-  </region>
+    </region>
 </save>

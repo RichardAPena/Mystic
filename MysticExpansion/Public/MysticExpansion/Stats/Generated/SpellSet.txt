@@ -6,5 +6,12 @@ add spell "Projectile_Jump_GiantEagle"
 add spell "Shout_Dash_NPC"
 add spell "Shout_Disengage"
 
+new spellset "MysticBlueJaySummonActions"
+add spell "Target_Beak"
+add spell "Target_RendVision_Raven_Summon"
+add spell "Projectile_Fly_Spell"
+add spell "Shout_Dash_NPC"
+add spell "Shout_Disengage"
+
 new spellset "MysticPsychicDoubleActions"
 add spell "Shout_Mystic_PsychicDouble_Dismiss_Self"

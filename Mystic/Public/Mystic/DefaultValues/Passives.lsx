@@ -46,6 +46,41 @@
                     <attribute id="TableUUID" type="guid" value="5be9ee51-acca-46da-be13-e66a6ff5a080"/>
                     <attribute id="UUID" type="guid" value="e8669bfa-8d6c-4aa2-a9da-8ab8ba162113"/>
                 </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Discipline_NomadicStep;Discipline_BestialForm"/>
+                    <attribute id="Level" type="int32" value="3"/>
+                    <attribute id="SelectorId" type="LSString" value="Psionic Disciplines"/>
+                    <attribute id="TableUUID" type="guid" value="4b5d89ce-9dfb-46c2-a205-77bbf05a6492"/>
+                    <attribute id="UUID" type="guid" value="5e413e59-e005-47c1-8094-fec4754af030"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Discipline_BestialForm;Discipline_IntellectFortress"/>
+                    <attribute id="Level" type="int32" value="5"/>
+                    <attribute id="SelectorId" type="LSString" value="Psionic Disciplines"/>
+                    <attribute id="TableUUID" type="guid" value="4b5d89ce-9dfb-46c2-a205-77bbf05a6492"/>
+                    <attribute id="UUID" type="guid" value="8f93496a-3cc4-4bed-b524-706d253cd826"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Discipline_IntellectFortress;Discipline_MantleOfCourage"/>
+                    <attribute id="Level" type="int32" value="7"/>
+                    <attribute id="SelectorId" type="LSString" value="Psionic Disciplines"/>
+                    <attribute id="TableUUID" type="guid" value="4b5d89ce-9dfb-46c2-a205-77bbf05a6492"/>
+                    <attribute id="UUID" type="guid" value="66a00ebe-6017-41f9-a5fc-a4d0049c2fdc"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Discipline_MantleOfCourage;Discipline_Precognition"/>
+                    <attribute id="Level" type="int32" value="9"/>
+                    <attribute id="SelectorId" type="LSString" value="Psionic Disciplines"/>
+                    <attribute id="TableUUID" type="guid" value="4b5d89ce-9dfb-46c2-a205-77bbf05a6492"/>
+                    <attribute id="UUID" type="guid" value="77e0cf93-7e4d-492c-ac40-b00acb979300"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Discipline_Precognition;Discipline_MasteryOfFire"/>
+                    <attribute id="Level" type="int32" value="12"/>
+                    <attribute id="SelectorId" type="LSString" value="Psionic Disciplines"/>
+                    <attribute id="TableUUID" type="guid" value="4b5d89ce-9dfb-46c2-a205-77bbf05a6492"/>
+                    <attribute id="UUID" type="guid" value="499ec564-833f-4029-afb8-5c2e9c1c43cc"/>
+                </node>
             </children>
         </node>
     </region>

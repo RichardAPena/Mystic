@@ -263,7 +263,7 @@ data "SpellCategory" "SC_Jump"
 data "SpellAnimationIntentType" "Action"
 data "ExtraDescription" "hff30d4d9g035bg48d6gb340g07ef63328b5d"
 data "TooltipUpcastDescription" "8e6a2e70-1cc6-4046-b0cc-bc5670bef4bd"
-data "TooltipUpcastDescriptionParams" "Distance(3)"
+data "TooltipUpcastDescriptionParams" "Distance(6)"
 data "MinJumpDistance" "2"
 data "Requirements" "!Immobile"
 data "PrepareEffect" "095b53a6-b1f1-4f4f-84ab-88c2f90d85b0"
@@ -745,8 +745,10 @@ data "PrepareLoopSound" "Spell_Loop_Damage_Radiant_Sunbeam_L6to8"
 data "CastSound" "Spell_Cast_Damage_Radiant_Sunbeam_L6to8"
 data "TargetSound" "Spell_Impact_Damage_Radiant_Sunbeam_L6to8"
 data "TargetEffect" "b94fcfde-d824-4e7d-b9c5-833a50b66537"
-data "PrepareEffect" "51422dfb-3b2c-4229-9635-43d500779432"
-data "CastEffect" "79a465b8-a9fb-4851-8bbf-e064b6c4cbf7"
+// data "PrepareEffect" "51422dfb-3b2c-4229-9635-43d500779432"
+// data "CastEffect" "79a465b8-a9fb-4851-8bbf-e064b6c4cbf7"
+data "PrepareEffect" "51422dfb-bc78-42aa-8c63-67e17535d77e"
+data "CastEffect" "79a465b8-6054-47f8-92e4-9c340f96dd77"
 
 new entry "Projectile_Mystic_RadiantBeam_5"
 type "SpellData"
@@ -822,8 +824,6 @@ data "UseCosts" "ActionPoint:1;PsiPointsResource:1"
 data "SpellAnimation" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;cd5e5d4a-38e1-4d4d-b346-3fbc1e4c3c90,,;141f48d9-9615-496a-8737-9240f0dba60d,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,,"
 data "SpellFlags" "IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful;IsLinkedSpellContainer"
 data "HitAnimationType" "MagicalDamage_Electric"
-// data "CastEffect" "6f4ad0bd-c5ce-4350-9865-c0ef858fd444"
-// data "PrepareEffect" "77241e8c-ee90-4497-b5a9-d00a101767e3"
 data "PrepareEffect" "77241e8c-ae8d-4402-92d8-a871ce64d86f"
 data "CastEffect" "10fc784a-4312-47a8-a6b8-6b529c646ac4"
 data "TargetEffect" "a3e2368b-f486-4cfc-b04a-b02e23383280"
@@ -1094,3 +1094,48 @@ data "DualWieldingSpellAnimation" "73afb4e5-8cfe-4479-95cf-16889597fee3,,;9583ec
 data "PrepareEffect" "cb7f062b-0a9f-423a-945c-64de24a9301b"
 data "CastEffect" "44076e08-5ecc-41d1-93f2-90d9663774cb"
 data "UseCosts" "ActionPoint:1;PsiPointsResource:3;PsiLimitResource:1:3"
+
+new entry "Projectile_Mystic_ArrowOfSoulSeeking"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_MainHandAttack"
+// using "Projectile_MagicMissile"
+data "Icon" "ITEM_Mystic_ArrowOfSoulSeeking"
+data "DisplayName" "h656c2ba2gccb9g453cga286gbb9e4f7e7842"
+data "Description" "ha49cd6b7g00adg40b8gad69g3ad707fe6f42"
+
+data "TargetConditions" "not Self() and not Dead()"
+data "CastTargetHitDelay" "100"
+data "Angle" "120"
+
+data "SpellProperties" "TARGET:DealDamage(MainRangedWeapon, MainRangedWeaponDamageType); TARGET:ExecuteWeaponFunctors(MainHand);TARGET:DealDamage(2d4,Psychic,Magical)"
+data "SpellSuccess" ""
+
+data "Trajectories" "c7d073da-5f05-412e-89c6-f05783384ddf,141a2975-4143-45b7-a733-ae5788e894ea"
+
+// data "Trajectories" "348013df-7958-4ca9-ac9f-80337e054bee,7bff57fa-fd21-4ab3-9384-83fb14237690"
+
+data "DescriptionParams" "DealDamage(MainRangedWeapon, MainRangedWeaponDamageType); DealDamage(2d4,Psychic)"
+data "TooltipDamageList" "DealDamage(MainRangedWeapon, MainRangedWeaponDamageType); DealDamage(2d4,Psychic)"
+data "TooltipAttackSave" ""
+data "PrepareSound" "Spell_Prepare_Damage_Psychic_Gen_L1to3"
+data "PrepareLoopSound" "Spell_Prepare_Damage_Psychic_Gen_L1to3_Loop"
+data "CastSound" "Spell_Cast_Damage_Psychic_DissonantWhispers_L1to3"
+data "SpellFlags" "HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful;DisplayInItemTooltip"
+data "PrepareEffect" "66a0a550-a5b3-484a-85be-c65e4c032607"
+data "CastEffect" "851ba46a-00fc-4495-b970-512b338709a0"
+data "DamageType" "Psychic"
+
+
+
+
+data "UseCosts" "ActionPoint:1"
+
+
+// data "Trajectories" "348013df-7958-4ca9-ac9f-80337e054bee,7bff57fa-fd21-4ab3-9384-83fb14237690"
+// data "SpellProperties" "IF(not SavingThrow(Ability.Dexterity,12)):DealDamage(2d4,Cold,Magical); GROUND:SurfaceChange(Freeze); GROUND:SurfaceChange(Douse); GROUND:CreateSurface(2,,WaterFrozen); RemoveStatus(BURNING)"
+// data "SpellSuccess" "TARGET:DealDamage(MainRangedWeapon, MainRangedWeaponDamageType); TARGET:ExecuteWeaponFunctors(MainHand);"
+// data "Trajectories" "b8b95321-ab56-4613-8160-ef7153d315aa,8c9aaf1d-7f1b-ae33-13d6-4a406dbc6ca6,20840c5b-a3df-5483-c071-118de86c1fa1"
+
+
+

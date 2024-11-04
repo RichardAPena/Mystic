@@ -1,0 +1,18 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+DB_MysticExpansion_SummonerOfSpirits_True(1);
+KBSECTION
+IF
+CharacterLeftParty(_Character)
+AND
+HasActiveStatus(_Character, "MYSTIC_SPIRIT_TECHNICAL", _IsSpirit)
+AND
+DB_MysticExpansion_SummonerOfSpirits_True(_IsSpirit)
+AND
+CharacterGetOwner(_Character, _Summoner)
+THEN
+ApplyStatus(_Summoner, "MYSTIC_SPIRIT_COUNT_SUBTRACT", 0.0, 1);
+EXITSECTION
+
+ENDEXITSECTION

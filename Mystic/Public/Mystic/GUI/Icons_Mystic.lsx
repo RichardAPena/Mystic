@@ -1766,12 +1766,103 @@
                     <attribute id="V2" type="float" value="0.25"/> Bottom
                 </node>		
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icon_"/> 250 ROW 8 = 26
+                    <attribute id="MapKey" type="FixedString" value="ITEM_Mystic_WanderersBow"/> 250 ROW 8 = 26
                     <attribute id="U1" type="float" value="0.78125"/> Left
                     <attribute id="U2" type="float" value="0.8125"/> Right
                     <attribute id="V1" type="float" value="0.21875"/> Top
                     <attribute id="V2" type="float" value="0.25"/> Bottom
-                </node>						
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="ITEM_Mystic_GildedArc"/> 251 ROW 8 = 27
+                    <attribute id="U1" type="float" value="0.8125"/> Left
+                    <attribute id="U2" type="float" value="0.84375"/> Right
+                    <attribute id="V1" type="float" value="0.21875"/> Top
+                    <attribute id="V2" type="float" value="0.25"/> Bottom
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="ITEM_Mystic_SoulScimitar"/> 252 ROW 8 = 28
+                    <attribute id="U1" type="float" value="0.84375"/> Left
+                    <attribute id="U2" type="float" value="0.875"/> Right
+                    <attribute id="V1" type="float" value="0.21875"/> Top
+                    <attribute id="V2" type="float" value="0.25"/> Bottom
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="ITEM_Mystic_SoulAxe"/> 253 ROW 8 = 29
+                    <attribute id="U1" type="float" value="0.875"/> Left
+                    <attribute id="U2" type="float" value="0.90625"/> Right
+                    <attribute id="V1" type="float" value="0.21875"/> Top
+                    <attribute id="V2" type="float" value="0.25"/> Bottom
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="ITEM_Mystic_SoulHammer"/> 254 ROW 8 = 30
+                    <attribute id="U1" type="float" value="0.90625"/> Left
+                    <attribute id="U2" type="float" value="0.9375"/> Right
+                    <attribute id="V1" type="float" value="0.21875"/> Top
+                    <attribute id="V2" type="float" value="0.25"/> Bottom
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="ITEM_Mystic_PhantasmalEviscerator"/> 255 ROW 8 = 31
+                    <attribute id="U1" type="float" value="0.9375"/> Left
+                    <attribute id="U2" type="float" value="0.96875"/> Right
+                    <attribute id="V1" type="float" value="0.21875"/> Top
+                    <attribute id="V2" type="float" value="0.25"/> Bottom
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="ITEM_Mystic_PhantasmalSlicer"/> 256 ROW 8 = 32
+                    <attribute id="U1" type="float" value="0.96875"/> Left
+                    <attribute id="U2" type="float" value="1.0"/> Right
+                    <attribute id="V1" type="float" value="0.21875"/> Top
+                    <attribute id="V2" type="float" value="0.25"/> Bottom
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="ITEM_Mystic_PhantasmalCleaver"/> 257 ROW 9 = 1
+                    <attribute id="U1" type="float" value="0.0"/> Left side
+                    <attribute id="U2" type="float" value="0.03125"/> Right side
+                    <attribute id="V1" type="float" value="0.25"/> Top
+                    <attribute id="V2" type="float" value="0.28125"/> Bottom
+                </node>		
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="ITEM_Mystic_PhantasmalCrusher"/> 258 ROW 9 = 2
+                    <attribute id="U1" type="float" value="0.03125"/> Left
+                    <attribute id="U2" type="float" value="0.0625"/> Right
+                    <attribute id="V1" type="float" value="0.25"/> Top
+                    <attribute id="V2" type="float" value="0.28125"/> Bottom
+                </node>		
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="ITEM_Mystic_ShatteredTanzanite"/> 259 ROW 9 = 3
+                    <attribute id="U1" type="float" value="0.0625"/> Left
+                    <attribute id="U2" type="float" value="0.09375"/> Right
+                    <attribute id="V1" type="float" value="0.25"/> Top
+                    <attribute id="V2" type="float" value="0.28125"/> Bottom
+                </node>		
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="ITEM_Mystic_SplinteredTanzanite"/> 260 ROW 9 = 4
+                    <attribute id="U1" type="float" value="0.09375"/> Left
+                    <attribute id="U2" type="float" value="0.125"/> Right
+                    <attribute id="V1" type="float" value="0.25"/> Top
+                    <attribute id="V2" type="float" value="0.28125"/> Bottom
+                </node>	
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="ITEM_Mystic_PrimordialTanzanite"/> 261 ROW 9 = 5
+                    <attribute id="U1" type="float" value="0.125"/> Left
+                    <attribute id="U2" type="float" value="0.15625"/> Right
+                    <attribute id="V1" type="float" value="0.25"/> Top
+                    <attribute id="V2" type="float" value="0.28125"/> Bottom
+                </node>		
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="ITEM_Mystic_Zephyr"/> 262 ROW 9 = 6
+                    <attribute id="U1" type="float" value="0.15625"/> Left
+                    <attribute id="U2" type="float" value="0.1875"/> Right
+                    <attribute id="V1" type="float" value="0.25"/> Top
+                    <attribute id="V2" type="float" value="0.28125"/> Bottom
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="ITEM_Mystic_ArrowOfSoulSeeking"/> 263 ROW 9 = 7
+                    <attribute id="U1" type="float" value="0.1875"/> Left
+                    <attribute id="U2" type="float" value="0.21875"/> Right
+                    <attribute id="V1" type="float" value="0.25"/> Top
+                    <attribute id="V2" type="float" value="0.28125"/> Bottom
+                </node>
             </children>
         </node>
     </region>

@@ -1,2 +1,67 @@
 new equipment "MysticPsychicDoubleEquipment"
 add initialweaponset "Melee"
+
+new equipment "EQP_Mystic_AncientDefender"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Greatsword"
+
+new equipment "EQP_Mystic_Spirit_Warrior"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Greatsword"
+add equipmentgroup
+add equipment entry "ARM_ScaleMail_Body"
+
+new equipment "EQP_Mystic_Spirit_Tracker"
+add initialweaponset "Ranged"
+add equipmentgroup
+add equipment entry "WPN_Longbow"
+add equipmentgroup
+add equipment entry "ARM_Leather_Body"
+
+new equipment "EQP_Mystic_Spirit_Mage"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Quarterstaff"
+add equipmentgroup
+add equipment entry "ARM_Robe_Body"
+
+new equipment "EQP_Mystic_Spirit_Healer"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Mace"
+add equipmentgroup
+add equipment entry "ARM_Shield"
+add equipmentgroup
+add equipment entry "ARM_ChainShirt_Body"
+
+new equipment "EQP_Mystic_Spirit_Muse"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Rapier"
+add equipmentgroup
+add equipment entry "ARM_Bard"
+add equipmentgroup
+add equipment entry "ARM_Instrument_Violin"
+
+new equipment "EQP_Mystic_Spirit_Scoundrel"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Shortsword"
+add equipmentgroup
+add equipment entry "WPN_Shortsword"
+add equipmentgroup
+add equipment entry "ARM_Leather_Body"
+
+new equipment "EQP_Mystic_Spirit_Occultist"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Dagger"
+add equipmentgroup
+add equipment entry "ARM_Padded_Body"
+
+new equipment "EQP_Mystic_Spirit_Disciple"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "ARM_Monk"

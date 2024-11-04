@@ -1,0 +1,12 @@
+new ItemCombination "Quest_FOR_MysticRepairedShard"
+data "Type 1" "Object"
+data "Object 1" "Quest_FOR_MysticShard_GemShard_A"
+data "Transform 1" "Transform"
+data "Type 2" "Object"
+data "Object 2" "Quest_FOR_MysticShard_GemShard_B"
+data "Transform 2" "Consume"
+
+new ItemCombinationResult "Quest_FOR_MysticRepairedShard_1"
+data "ResultAmount 1" "1"
+data "Result 1" "FOR_Mystic_PrimordialShard"
+data "PreviewStatsID" "FOR_Mystic_PrimordialShard"

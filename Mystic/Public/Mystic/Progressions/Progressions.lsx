@@ -9,7 +9,7 @@
                     <attribute id="Boosts" type="LSString" value="ActionResource(PsiPointsResource,4,0);ProficiencyBonus(SavingThrow,Intelligence);Proficiency(SimpleWeapons);Proficiency(LightArmor)"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Mystic"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_StrengthOfMind_Wisdom;Passive_Mystic_IllithidFix"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_StrengthOfMind_Wisdom;Passive_Mystic_IllithidFix;Passive_Mystic_DownedFix"/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="Selectors" type="LSString" value="SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectPassives(48317e03-fe2a-4767-8f4d-1bdc2a40ac65,1,PsionicDisciplines);SelectSkills(a93e9e09-6bdd-475c-b4e4-3acf69d02111,2);SelectSpells(7b64aaca-d5e5-4555-9df3-a19bb13b5008,2,0,PsionicTalents,,,AlwaysPrepared)"/>
@@ -46,7 +46,7 @@
                     <attribute id="IsMulticlass" type="bool" value="true"/>
 					<attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Mystic"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_IllithidFix"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_IllithidFix;Passive_Mystic_DownedFix"/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="Selectors" type="LSString" value="SelectPassives(48317e03-fe2a-4767-8f4d-1bdc2a40ac65,1,PsionicDisciplines);SelectSpells(7b64aaca-d5e5-4555-9df3-a19bb13b5008,2,0,PsionicTalents,,,AlwaysPrepared)"/>

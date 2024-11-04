@@ -1,0 +1,391 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+//DB_MysticExpansion_PsychicDouble_NullUUID((GUIDSTRING)NULL_00000000-0000-0000-0000-000000000000);
+DB_MysticExpansion_PsychicDouble_CloneImmunities("Poison");
+DB_MysticExpansion_PsychicDouble_CloneImmunities("Psychic");
+DB_MysticExpansion_PsychicDouble_OrderMoveSpell("Target_Mystic_PsychicDouble_OrderMove");
+//DB_MysticExpansion_PyschicDouble_AddTypeRegular("Regular");
+
+DB_MysticExpansion_PsychicDouble_Status_Init("MYSTIC_PSYCHIC_DOUBLE_INIT");
+DB_MysticExpansion_PsychicDouble_Status_AttackSwapTimeout("MYSTIC_PSYCHIC_DOUBLE_ATTACKSWAP_TIMEOUT");
+//DB_MysticExpansion_PsychicDouble_Status_KillClone("MYSTIC_PSYCHIC_DOUBLE_KILL_CLONE");
+DB_MysticExpansion_PsychicDouble_Status_AttackSwapForward2("MYSTIC_PSYCHIC_DOUBLE_ATTACKSWAP_FORWARD_2");
+DB_MysticExpansion_PsychicDouble_Status_AttackSwapBack2("MYSTIC_PSYCHIC_DOUBLE_ATTACKSWAP_BACK_2");
+//DB_MysticExpansion_PsychicDouble_Status_RequestDelete("MYSTIC_PSYCHIC_DOUBLE_REQUEST_DELETE");
+
+DB_MysticExpansion_PsychicDouble_Status_Init2("MYSTIC_PSYCHIC_DOUBLE_INIT_2");
+DB_MysticExpansion_PsychicDouble_Status_Init3("MYSTIC_PSYCHIC_DOUBLE_INIT_3");
+DB_MysticExpansion_PsychicDouble_Status_Actions("MYSTIC_PSYCHIC_DOUBLE_ACTIONS");
+
+DB_MysticExpansion_PsychicDouble_Spell_Swap("Shout_Mystic_PsychicDouble_Swap");
+DB_MysticExpansion_PsychicDouble_Spell_AttackSwap("Shout_Mystic_PsychicDouble_AttackSwap");
+DB_MysticExpansion_PsychicDouble_Spell_DismissSelf("Shout_Mystic_PsychicDouble_Dismiss_Self");
+DB_MysticExpansion_PsychicDouble_Spell_PsychicDouble("Target_Mystic_PsychicDouble");
+
+DB_MysticExpansion_PsychicDouble_True(1);
+DB_MysticExpansion_PsychicDouble_False(0);
+KBSECTION
+//PROC
+//PROC_MysticExpansion_PsychicDouble_EquipFix((ITEM)_Item, (CHARACTER)_Character, (STRING)_EquipStatus, (INTEGER)_UnequipHelmet, (INTEGER)_UnequipInstrument)
+
+
+
+PROC
+PROC_MysticExpansion_PsychicDouble_DoSwap((CHARACTER)_Owner, (CHARACTER)_Clone, (INTEGER)_IsSwapBack)
+AND
+GetPosition(_Owner, _KX, _KY, _KZ)
+//AND
+//GetVarFloat3(_Owner, "PsychicDouble_LastPos", _LastX, _LastY, _LastZ)
+THEN
+SetVarFloat3(_Owner, "PsychicDouble_LastPos", _KX, _KY, _KZ);
+//DebugText(_Owner, "DoSwap1");
+PROC_MysticExpansion_PsychicDouble_DoSwap2(_Owner, _Clone, _IsSwapBack, _KX, _KY, _KZ);
+
+PROC
+PROC_MysticExpansion_PsychicDouble_DoSwap2((CHARACTER)_Owner, (CHARACTER)_Clone, (INTEGER)_IsSwapBack, (REAL)_LastX, (REAL)_LastY, (REAL)_LastZ)
+AND
+GetPosition(_Clone, _EX, _EY, _EZ)
+AND
+GetPosition(_Owner, _KX, _KY, _KZ)
+THEN
+//DebugText(_Owner, "DoSwap2");
+TeleportToPosition(_Clone, 0.0, 0.0, 0.0, "", 0, 0, 0, 0, 1);
+TeleportToPosition(_Owner, _EX, _EY, _EZ, "", 0, 0, 0, 0, 1);
+TeleportToPosition(_Clone, _KX, _KY, _KZ, "", 0, 0, 0, 0, 1);
+
+//REGION TODO: Template Added To (EEquip Fix), partially impossible cuz dyeing
+/*
+IF
+TemplateAddedTo(_ObjectTemplate, _Object, _InventoryHolder, _AddType)
+AND
+DB_MysticExpansion_PyschicDouble_AddTypeRegular(_AddType)
+AND
+HasActiveStatus(_Object, "MYSTIC_PSYCHIC_DOUBLE_ISCLONE", _IsClone)
+AND
+IsEquipable(_Object, _IsEquipable)
+THEN
+DebugText(_Object, "TemplateAddedTo");
+
+
+	if addType == "Regular" and PsychicDouble_IsClone(character) and Osi.IsEquipable(item) == 1 then
+		local unequipHelmet = false
+		local unequipInstrument = true
+
+		PsychicDouble_EquipFix_TemplateAddedTo_Internal(item, character, nil, unequipHelmet, unequipInstrument)
+	end
+*/
+
+
+/*
+local equipSlot = Osi.GetEquipmentSlotForItem(item)
+	local isShieldOrWeapon = equipSlot >= 3 and equipSlot <= 6
+	local isMelee = equipSlot >= 3 and equipSlot <= 4
+	local isHelmet = equipSlot == 0
+	local isInstrument = equipSlot == 16
+
+	local equip = not isShieldOrWeapon
+	if equip and ((isHelmet and unequipHelmet) or (isInstrument and unequipInstrument)) then
+		equip = false
+	end
+
+	if isHelmet then
+		Osi.SetVarUUID(character, "PsychicDouble_Helmet", item)
+	end
+
+	if PsychicDouble_EquipFix_DyedSlots[equipSlot] then
+		local owner = Osi.CharacterGetOwner(character)
+		if owner then
+			local slotEnum = Ext.Enums.StatsItemSlot[equipSlot]
+			local ownerItem = Osi.GetEquippedItem(owner, slotEnum.Label)
+			if ownerItem then
+				local ownerItem_ = Ext.Entity.Get(ownerItem)
+
+				if ownerItem_ and ownerItem_.ItemDye then
+					local item_ = Ext.Entity.Get(item)
+
+					if item_.ItemDye == nil then
+						item_:CreateComponent("ItemDye")
+					end
+
+					item_.ItemDye.Color = ownerItem_.ItemDye.Color
+					item_:Replicate("ItemDye")
+				end
+			end
+		end
+	end
+
+	if equip then
+		Osi.Equip(character, item)
+	else
+		Osi.Unequip(character, item)
+
+		if isMelee then
+			local melee1 = Osi.GetVarUUID(character, "PsychicDouble_Melee_1")
+			if PsychicDouble_EquipFix_IsNullUUID(melee1) then
+				Osi.SetVarUUID(character, "PsychicDouble_Melee_1", item)
+			else
+				Osi.SetVarUUID(character, "PsychicDouble_Melee_2", item)
+			end
+			if equipStatus then
+				Osi.ApplyStatus(character, equipStatus, 0)
+			end
+		end
+	end
+*/
+//END_REGION
+
+//REGION aaaaaaaaaaa
+//IF
+//CharacterJoinedParty(_Character)
+//THEN
+//DebugText(_Character, "CharacterJoinedParty");
+
+//IF
+//TurnEnded(_Object)
+//AND
+//HasActiveStatus(_Object, "MYSTIC_PSYCHIC_DOUBLE_ATTACKSWAP_SWAPPING", _IsSwapping)
+//AND
+//GetVarUUID(_Object, "PsychicDouble_Clone", _Clone)
+//THEN
+//PROC_MysticExpansion_PsychicDouble_DoSwap((CHARACTER)_Object, (CHARACTER)_Clone, 0);
+
+IF
+CharacterLeftParty(_Character)
+AND
+HasActiveStatus(_Character, "MYSTIC_PSYCHIC_DOUBLE_ISCLONE", _IsClone)
+AND
+GetVarUUID(_Character, "PsychicDouble_Owner", _Owner)
+AND
+GetVarUUID(_Owner, "PsychicDouble_Clone", _MostRecentClone)
+THEN
+RemoveStatus(_Owner, "MYSTIC_PSYCHIC_DOUBLE_ACTIONS");
+ApplyStatus(_MostRecentClone, "MYSTIC_PSYCHIC_DOUBLE_CLEANUP", -1.0, 1);
+ApplyStatus(_MostRecentClone, "MYSTIC_PSYCHIC_DOUBLE_REQUEST_DELETE", -1.0, 1);
+//END_REGION
+
+//REGION : Many statuses applied
+// MYSTIC_PSYCHIC_DOUBLE_INIT
+IF
+StatusApplied(_Object, _Status, _Causee, _StoryActionID)
+AND
+DB_MysticExpansion_PsychicDouble_Status_Init(_Status)
+AND
+CharacterGetOwner((CHARACTER)_Object, _Owner)
+AND
+GetArmourSet(_Owner, _ArmourSet)
+THEN
+SetVarUUID(_Owner, "PsychicDouble_Clone", _Object);
+SetVarUUID(_Object, "PsychicDouble_Owner", _Owner);
+CopyCharacterEquipment(_Object, _Owner);
+SetArmourSet(_Object, _ArmourSet);
+ApplyStatus(_Object, "MYSTIC_PSYCHIC_DOUBLE_ISCLONE", -1.0, 1);
+ApplyStatus(_Object, "MYSTIC_PSYCHIC_DOUBLE_INIT_2", 0.0, 1);
+
+// TODO
+//MYSTIC_PSYCHIC_DOUBLE_ATTACKSWAP_TIMEOUT = PsychicDouble_StatusApplied_MYSTIC_PSYCHIC_DOUBLE_ATTACKSWAP_TIMEOUT,
+IF
+StatusApplied(_Object, _Status, _Causee, _StoryActionID)
+AND
+DB_MysticExpansion_PsychicDouble_Status_AttackSwapTimeout(_Status)
+AND
+GetVarUUID(_Object, "PsychicDouble_Clone", _Clone)
+THEN
+ApplyStatus(_Object, "MYSTIC_PSYCHIC_DOUBLE_ATTACKSWAP_SWAPPING", 1.0);
+ApplyStatus(_Clone, "MYSTIC_PSYCHIC_DOUBLE_ATTACKSWAP_SWAPPING", 1.0);
+ApplyStatus(_Object, "MYSTIC_PSYCHIC_DOUBLE_ATTACKSWAP_BACK_2", 0.0);
+
+// MYSTIC_PSYCHIC_DOUBLE_ATTACKSWAP_FORWARD_2
+IF
+StatusApplied(_Object, _Status, _Causee, _StoryActionID)
+AND
+DB_MysticExpansion_PsychicDouble_Status_AttackSwapForward2(_Status)
+AND
+GetVarUUID(_Object, "PsychicDouble_Clone", _Clone)
+THEN
+ApplyStatus(_Object, "MYSTIC_PSYCHIC_DOUBLE_ATTACKSWAP_MYSTIC", 6.0, 1, _Object);
+ApplyStatus(_Clone, "MYSTIC_PSYCHIC_DOUBLE_ATTACKSWAP_CLONE", -1.0, 0, _Object);
+RemoveStatus(_Clone, "MYSTIC_PSYCHIC_DOUBLE_ATTACKSWAP_SWAPPING");
+RemoveStatus(_Object, "MYSTIC_PSYCHIC_DOUBLE_ATTACKSWAP_SWAPPING");
+PROC_MysticExpansion_PsychicDouble_DoSwap((CHARACTER)_Object, (CHARACTER)_Clone, 0);
+
+// MYSTIC_PSYCHIC_DOUBLE_ATTACKSWAP_BACK_2
+IF
+StatusApplied(_Object, _Status, _Causee, _StoryActionID)
+AND
+DB_MysticExpansion_PsychicDouble_Status_AttackSwapBack2(_Status)
+AND
+GetVarUUID(_Object, "PsychicDouble_Clone", _Clone)
+THEN
+RemoveStatus(_Object, "MYSTIC_PSYCHIC_DOUBLE_ATTACKSWAP_MYSTIC");
+RemoveStatus(_Clone, "MYSTIC_PSYCHIC_DOUBLE_ATTACKSWAP_CLONE");
+RemoveStatus(_Clone, "MYSTIC_PSYCHIC_DOUBLE_ATTACKSWAP_SWAPPING");
+RemoveStatus(_Object, "MYSTIC_PSYCHIC_DOUBLE_ATTACKSWAP_SWAPPING");
+PROC_MysticExpansion_PsychicDouble_DoSwap((CHARACTER)_Object, (CHARACTER)_Clone, 1);
+
+//END_REGION
+
+//REGION : Many statuses removed
+//MYSTIC_PSYCHIC_DOUBLE_INIT_2
+IF
+StatusRemoved(_Object, _Status, _Causee, _ApplyStoryActionID)
+AND
+DB_MysticExpansion_PsychicDouble_Status_Init2(_Status)
+AND
+GetVarUUID(_Object, "PsychicDouble_Owner", _Owner)
+THEN
+Transform(_Object, _Owner, (SHAPESHIFTRULE)dc1b0875-1d2b-4a1f-913a-bb648b7e8891);
+ApplyStatus(_Object, "MYSTIC_PSYCHIC_DOUBLE_INIT_3", 0.0, 1);
+
+//MYSTIC_PSYCHIC_DOUBLE_INIT_3
+IF
+StatusRemoved(_Object, _Status, _Causee, _ApplyStoryActionID)
+AND
+DB_MysticExpansion_PsychicDouble_Status_Init3(_Status)
+THEN
+RemoveStatus(_Object, "MYSTIC_PSYCHIC_DOUBLE_INIT");
+
+//MYSTIC_PSYCHIC_DOUBLE_ACTIONS
+IF
+StatusRemoved(_Object, _Status, _Causee, _ApplyStoryActionID)
+AND
+DB_MysticExpansion_PsychicDouble_Status_Actions(_Status)
+AND
+GetVarUUID(_Object, "PsychicDouble_Clone", _Clone)
+THEN
+SetVarInteger(_Clone, "PsychicDouble_Killed", 1);
+Die((CHARACTER)_Clone, DEATHTYPE.Psychic, NULL_00000000-0000-0000-0000-000000000000, 0, 1, 1.0);
+//END_REGION
+
+//REGION : Many spells cast
+// Shout_Mystic_PsychicDouble_Swap
+IF
+CastSpell(_Caster, _Spell, _SpellType, _SpellElement, _StoryActionID)
+AND
+DB_MysticExpansion_PsychicDouble_Spell_Swap(_Spell)
+AND
+GetVarUUID(_Caster, "PsychicDouble_Clone", _Clone)
+THEN
+//DebugText(_Caster, "Calling DoSwap");
+PROC_MysticExpansion_PsychicDouble_DoSwap((CHARACTER)_Caster, (CHARACTER)_Clone, 0);
+
+// Shout_Mystic_PsychicDouble_AttackSwap (Forward)
+IF
+CastSpell(_Caster, _Spell, _SpellType, _SpellElement, _StoryActionID)
+AND
+DB_MysticExpansion_PsychicDouble_Spell_AttackSwap(_Spell)
+AND
+GetVarUUID(_Caster, "PsychicDouble_Clone", _Clone)
+AND
+HasActiveStatus(_Caster, "MYSTIC_PSYCHIC_DOUBLE_ATTACKSWAP_MYSTIC", _Pepega)
+AND
+DB_MysticExpansion_PsychicDouble_False(_Pepega)
+AND
+GetVarUUID(_Caster, "PsychicDouble_Clone", _Clone)
+THEN
+//DebugText(_Caster, "idk whats happening anymore");
+ApplyStatus(_Caster, "MYSTIC_PSYCHIC_DOUBLE_ATTACKSWAP_SWAPPING", 1.0);
+ApplyStatus(_Clone, "MYSTIC_PSYCHIC_DOUBLE_ATTACKSWAP_SWAPPING", 1.0);
+ApplyStatus(_Caster, "MYSTIC_PSYCHIC_DOUBLE_ATTACKSWAP_IMMUNITIES", 6.0);
+ApplyStatus(_Caster, "MYSTIC_PSYCHIC_DOUBLE_ATTACKSWAP_FORWARD_2", 0.0);
+
+// Shout_Mystic_PsychicDouble_AttackSwap (Back)
+IF
+CastSpell(_Caster, _Spell, _SpellType, _SpellElement, _StoryActionID)
+AND
+DB_MysticExpansion_PsychicDouble_Spell_AttackSwap(_Spell)
+AND
+GetVarUUID(_Caster, "PsychicDouble_Clone", _Clone)
+AND
+HasActiveStatus(_Caster, "MYSTIC_PSYCHIC_DOUBLE_ATTACKSWAP_MYSTIC", _Pepega)
+AND
+DB_MysticExpansion_PsychicDouble_True(_Pepega)
+AND
+GetVarUUID(_Caster, "PsychicDouble_Clone", _Clone)
+AND
+IntegerToString(_Pepega, _Result)
+THEN
+//DebugText(_Caster, "HELOGE");
+//DebugText(_Caster, _Result);
+ApplyStatus(_Caster, "MYSTIC_PSYCHIC_DOUBLE_ATTACKSWAP_SWAPPING", 1.0);
+ApplyStatus(_Clone, "MYSTIC_PSYCHIC_DOUBLE_ATTACKSWAP_SWAPPING", 1.0);
+ApplyStatus(_Caster, "MYSTIC_PSYCHIC_DOUBLE_ATTACKSWAP_BACK_2", 0.0);
+
+// Shout_Mystic_PsychicDouble_Dismiss_Self
+IF
+CastSpell(_Caster, _Spell, _SpellType, _SpellElement, _StoryActionID)
+AND
+DB_MysticExpansion_PsychicDouble_Spell_DismissSelf(_Spell)
+THEN
+SetVarInteger(_Caster, "PsychicDouble_Killed", 1);
+Die((CHARACTER)_Caster, DEATHTYPE.Psychic, NULL_00000000-0000-0000-0000-000000000000, 0, 1, 1.0);
+
+// Target_Mystic_PsychicDouble
+IF
+CastSpell(_Caster, _Spell, _SpellType, _SpellElement, _StoryActionID)
+AND
+DB_MysticExpansion_PsychicDouble_Spell_PsychicDouble(_Spell)
+THEN
+ApplyStatus(_Caster, "MYSTIC_PSYCHIC_DOUBLE_ACTIONS", -1.0, 1);
+//END_REGION
+
+//REGION : Done so far
+// Immobilize clone upon entering combat
+IF
+EnteredCombat(_Object, _CombatGuid)
+AND
+HasActiveStatus(_Object, "MYSTIC_PSYCHIC_DOUBLE_ISCLONE", _IsClone)
+AND
+DB_MysticExpansion_PsychicDouble_True(_IsClone)
+AND
+GetVarUUID(_Object, "PsychicDouble_Owner", _Owner)
+THEN
+ApplyStatus(_Object, "MYSTIC_PSYCHIC_DOUBLE_CLONE_IMMOBILIZE", -1.0, 1);
+
+
+// Unimmobilize clone upon leaving combat
+IF
+LeftCombat(_Object, _CombatGuid)
+AND
+HasActiveStatus(_Object, "MYSTIC_PSYCHIC_DOUBLE_ISCLONE", _IsClone)
+AND
+DB_MysticExpansion_PsychicDouble_True(_IsClone)
+THEN
+RemoveStatus(_Object, "MYSTIC_PSYCHIC_DOUBLE_CLONE_IMMOBILIZE");
+
+// When using Order Move, have your clone teleport to the specified position
+IF
+UsingSpellAtPosition(_Caster, _X, _Y, _Z, _Spell, _SpellType, _SpellElement, _StoryActionID)
+AND
+DB_MysticExpansion_PsychicDouble_OrderMoveSpell(_Spell)
+AND
+GetVarUUID(_Caster, "PsychicDouble_Clone", _CloneUUID)
+THEN
+UseSpellAtPosition(_CloneUUID, "Target_Mystic_PsychicDouble_Move_Clone", _X, _Y, _Z);
+
+// If it's a clone taking damage, and it's not [Poison/Psychic], and is not swapping: destroy clone
+IF
+AttackedBy(_Defender, _AttackerOwner, _Attacker, _DamageType, _DamageAmount, _DamageCause, _StoryActionID)
+AND
+HasActiveStatus(_Defender, "MYSTIC_PSYCHIC_DOUBLE_ISCLONE", _IsClone)
+AND
+NOT DB_MysticExpansion_PsychicDouble_CloneImmunities(_DamageType)
+AND
+HasActiveStatus(_Defender, "MYSTIC_PSYCHIC_DOUBLE_ATTACKSWAP_CLONE", _AttackSwap)
+AND
+HasActiveStatus(_Defender, "MYSTIC_PSYCHIC_DOUBLE_ATTACKSWAP_SWAPPING", _Swapping)
+AND
+DB_MysticExpansion_PsychicDouble_True(_IsClone)
+AND
+DB_MysticExpansion_PsychicDouble_False(_AttackSwap)
+AND
+DB_MysticExpansion_PsychicDouble_False(_Swapping)
+THEN
+SetVarInteger(_Defender, "PsychicDouble_Killed", 1);
+Die((CHARACTER)_Defender, DEATHTYPE.Psychic, NULL_00000000-0000-0000-0000-000000000000, 0, 1, 1.0);
+//END_REGION
+EXITSECTION
+//HasActiveStatus(_Object, "MYSTIC_PSYCHIC_DOUBLE_ISCLONE", _IsClone)
+//GetVarUUID(_Object, "PsychicDouble_Owner", _Owner)
+//GetVarUUID(_Object, "PsychicDouble_Clone", _Clone)
+ENDEXITSECTION
