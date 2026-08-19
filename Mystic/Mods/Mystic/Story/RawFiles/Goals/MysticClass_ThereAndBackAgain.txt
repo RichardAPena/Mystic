@@ -1,0 +1,27 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+DB_MysticClass_ThereAndBackAgain_Spell("Target_Mystic_ThereAndBackAgain");
+//DB_MysticClass_BackAgain_Spell("Shout_Mystic_BackAgain");
+DB_MysticClass_BackAgain_Status("MYSTIC_THERE_AND_BACK_AGAIN_TECHNICAL");
+KBSECTION
+IF
+CastSpell(_Caster, _Spell, _SpellType, _SpellElement, _StoryActionID)
+AND
+DB_MysticClass_ThereAndBackAgain_Spell(_Spell)
+AND
+GetPosition(_Caster, _KX, _KY, _KZ)
+THEN
+SetVarFloat3(_Caster, "ThereAndBackAgain_LastPos", _KX, _KY, _KZ);
+
+IF
+StatusApplied(_Object, _Status, _Causee, _StoryActionID)
+AND
+DB_MysticClass_BackAgain_Status(_Status)
+AND
+GetVarFloat3(_Object, "ThereAndBackAgain_LastPos", _KX, _KY, _KZ)
+THEN
+TeleportToPosition(_Object, _KX, _KY, _KZ, "", 0, 0, 0, 0, 1);
+EXITSECTION
+
+ENDEXITSECTION

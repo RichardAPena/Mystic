@@ -25,6 +25,20 @@
                     <attribute id="TableUUID" type="guid" value="e3e130b3-c488-4724-966a-f2b0915c71c9"/>
                     <attribute id="UUID" type="guid" value="8089b77c-03de-4431-b60b-8ed53f54a053"/>
                 </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Discipline_MantleOfAwe"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="Faceless Disciplines"/>
+                    <attribute id="TableUUID" type="guid" value="ad256441-508f-4202-939b-78080a7cbc54"/>
+                    <attribute id="UUID" type="guid" value="2219d906-015e-4fa2-97ae-d5662aa68a36"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Discipline_MasteryOfStars"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="Clairvoyant Disciplines"/>
+                    <attribute id="TableUUID" type="guid" value="38dc5bc0-deb6-45fe-88f7-60f445eb2291"/>
+                    <attribute id="UUID" type="guid" value="312aeb06-4b61-4b5c-abc7-aab0a099e52e"/>
+                </node>
             </children>
         </node>
     </region>

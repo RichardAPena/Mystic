@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <save>
-    <version major="4" minor="7" revision="1" build="3"/>
+    <version major="4" minor="8" revision="0" build="500"/>
     <region id="Config">
         <node id="root">
             <children>
@@ -8,20 +8,28 @@
                 <node id="Dependencies">
                     <children>
                         <node id="ModuleShortDesc">
+                            <attribute id="Folder" type="LSString" value="GustavX"/>
+                            <attribute id="MD5" type="LSString" value="ef3fcba3f3684b3088ad1f9874d4957c"/>
+                            <attribute id="Name" type="LSString" value="GustavX"/>
+                            <attribute id="PublishHandle" type="uint64" value="0"/>
+                            <attribute id="UUID" type="guid" value="cb555efe-2d9e-131f-8195-a89329d218ea"/>
+                            <attribute id="Version64" type="int64" value="145241946983300916"/>
+                        </node>
+                        <node id="ModuleShortDesc">
+                            <attribute id="Folder" type="LSString" value="AnimationUnlocker_7131033f-821a-3993-dad4-5bc235cbeb3b"/>
+                            <attribute id="MD5" type="LSString" value="72436dfe837227c4ba161bbcd76477eb"/>
+                            <attribute id="Name" type="LSString" value="AnimationUnlocker"/>
+                            <attribute id="PublishHandle" type="uint64" value="4893472"/>
+                            <attribute id="UUID" type="guid" value="7131033f-821a-3993-dad4-5bc235cbeb3b"/>
+                            <attribute id="Version64" type="int64" value="36028807756382213"/>
+                        </node>
+                        <node id="ModuleShortDesc">
                             <attribute id="Folder" type="LSString" value="MysticClass_93c6116d-631a-cdc4-c0d3-37c568de4b76"/>
-                            <attribute id="MD5" type="LSString" value="4d32f32462e97abb4293ec3cf487f8b7"/>
+                            <attribute id="MD5" type="LSString" value="a2b8361e522ac9f53cc2908b89ee99b9"/>
                             <attribute id="Name" type="LSString" value="Mystic Class"/>
                             <attribute id="PublishHandle" type="uint64" value="4317849"/>
                             <attribute id="UUID" type="guid" value="93c6116d-631a-cdc4-c0d3-37c568de4b76"/>
-                            <attribute id="Version64" type="int64" value="144396663052566528"/>
-                        </node>
-                        <node id="ModuleShortDesc">
-                            <attribute id="Folder" type="LSString" value="ImpUI_26922ba9-6018-5252-075d-7ff2ba6ed879"/>
-                            <attribute id="MD5" type="LSString" value="0f136f38f83bb9083fedcfb4a7b8510b"/>
-                            <attribute id="Name" type="LSString" value="ImpUI (ImprovedUI)"/>
-                            <attribute id="PublishHandle" type="uint64" value="4138213"/>
-                            <attribute id="UUID" type="guid" value="26922ba9-6018-5252-075d-7ff2ba6ed879"/>
-                            <attribute id="Version64" type="int64" value="36732484460740640"/>
+                            <attribute id="Version64" type="int64" value="144537402688405505"/>
                         </node>
                     </children>
                 </node>
@@ -32,7 +40,7 @@
                     <attribute id="FileSize" type="uint64" value="53266328"/>
                     <attribute id="Folder" type="LSString" value="MysticExpansion_c86cc191-c41e-cfcd-af57-bf1f1e29d76a"/>
                     <attribute id="LobbyLevelName" type="FixedString" value=""/>
-                    <attribute id="MD5" type="LSString" value="3b38d5b118c941992ca8128fde3400d9"/>
+                    <attribute id="MD5" type="LSString" value="5b403e2e2bb64563a1cfb9780eedd9a4"/>
                     <attribute id="MenuLevelName" type="FixedString" value=""/>
                     <attribute id="Name" type="LSString" value="Mystic Expansion"/>
                     <attribute id="NumPlayers" type="uint8" value="4"/>
@@ -40,7 +48,7 @@
                     <attribute id="PublishHandle" type="uint64" value="4317921"/>
                     <attribute id="StartupLevelName" type="FixedString" value=""/>
                     <attribute id="UUID" type="FixedString" value="c86cc191-c41e-cfcd-af57-bf1f1e29d76a"/>
-                    <attribute id="Version64" type="int64" value="36732484460740608"/>
+                    <attribute id="Version64" type="int64" value="36873221949095953"/>
                     <children>
                         <node id="PublishVersion">
                             <attribute id="Version64" type="int64" value="144255927717469451"/>

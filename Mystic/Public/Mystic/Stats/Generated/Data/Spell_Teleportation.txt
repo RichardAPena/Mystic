@@ -37,7 +37,6 @@ data "OriginTargetConditions" "Ally() and (Tagged('WEIGHT_MEDIUM') or Tagged('WE
 data "OriginSpellProperties" "ApplyStatus(MYSTIC_ARRIVED_AT_DESTINATION,100,1)"
 data "TeleportSelf" "No"
 data "TeleportSurface" "No" 
-
 data "TooltipStatusApply" "ApplyStatus(MYSTIC_ARRIVED_AT_DESTINATION,100,1)"
 data "TargetSound" "Spell_Impact_Utility_DimensionDoor_L4to5"
 data "PreviewCursor" "Cast"
@@ -45,10 +44,10 @@ data "CastTextEvent" "Cast"
 data "SpellAnimation" "dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;7abe77ed-9c77-4eac-872c-5b8caed070b6,,;cb171bda-f065-4520-b470-e447f678ba1f,,;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;,,;,,"
 data "SpellFlags" "Temporary;IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;CannotTargetItems"
 data "HitAnimationType" "None"
-
 data "PrepareEffect" "7121a488-ed87-43f9-a2a7-8e25270c5556"
 data "CastEffect" "931dc1d5-a878-4844-aae5-6d23a6812bc9"
-
+data "VerbalIntent" "Utility"
+data "CycleConditions" "Ally() and not Dead() and not HasStatus('MYSTIC_ARRIVED_AT_DESTINATION')"
 
 // Nomads Gate
 new entry "Teleportation_Mystic_NomadicGate"
@@ -81,3 +80,4 @@ data "IgnoreTeleport" "Yes"
 // data "CastEffect" ""
 data "PrepareEffect" "ccf964c9-cdc8-4b43-b385-66d035e00898"
 data "CastEffect" "ce02dbd8-3278-46c5-bb2c-d0ff20253773"
+data "VerbalIntent" "Utility"

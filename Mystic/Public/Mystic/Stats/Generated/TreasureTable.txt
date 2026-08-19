@@ -74,42 +74,102 @@ new subtable "1,1"
 object category "I_Quest_FOR_MysticShard_GemShard_B",1,0,0,0,0,0,0,0
 
 // Arrow of Seoul Seaking
-new treasuretable "Gold_Meager"
-CanMerge 1
-new subtable "1,1;0,99"
-object category "I_OBJ_ArrowOfSoulSeeking",1,0,0,0,0,0,0,0
-
-new treasuretable "Gold_Pocket_Poor"
-CanMerge 1
-new subtable "1,1;0,49"
-object category "I_OBJ_ArrowOfSoulSeeking",1,0,0,0,0,0,0,0
-
-new treasuretable "Gold_Pocket_Modest"
-CanMerge 1
-new subtable "1,1;0,24"
-object category "I_OBJ_ArrowOfSoulSeeking",1,0,0,0,0,0,0,0
-
-new treasuretable "Gold_Pocket_Normal"
+new treasuretable "ST_SpecialArrow"
 CanMerge 1
 new subtable "1,1;0,9"
 object category "I_OBJ_ArrowOfSoulSeeking",1,0,0,0,0,0,0,0
 
-new treasuretable "Gold_Pocket_Wealthy"
-CanMerge 1
-new subtable "1,1;0,4"
-object category "I_OBJ_ArrowOfSoulSeeking",1,0,0,0,0,0,0,0
+// new treasuretable "Gold_Meager"
+// CanMerge 1
+// new subtable "1,1;0,399"
+// object category "I_OBJ_ArrowOfSoulSeeking",1,0,0,0,0,0,0,0
 
-new treasuretable "Gold_Pocket_Opulent"
-CanMerge 1
-new subtable "1,1;0,1"
-object category "I_OBJ_ArrowOfSoulSeeking",1,0,0,0,0,0,0,0
+// new treasuretable "Gold_Pocket_Poor"
+// CanMerge 1
+// new subtable "1,1;0,199"
+// object category "I_OBJ_ArrowOfSoulSeeking",1,0,0,0,0,0,0,0
 
-new treasuretable "Gold_Stash_Part"
-CanMerge 1
-new subtable "1,1;0,7"
-object category "I_OBJ_ArrowOfSoulSeeking",1,0,0,0,0,0,0,0
+// new treasuretable "Gold_Pocket_Modest"
+// CanMerge 1
+// new subtable "1,1;0,99"
+// object category "I_OBJ_ArrowOfSoulSeeking",1,0,0,0,0,0,0,0
 
-new treasuretable "ST_Gold_Trader_Part"
+// new treasuretable "Gold_Pocket_Normal"
+// CanMerge 1
+// new subtable "1,1;0,39"
+// object category "I_OBJ_ArrowOfSoulSeeking",1,0,0,0,0,0,0,0
+
+// new treasuretable "Gold_Pocket_Wealthy"
+// CanMerge 1
+// new subtable "1,1;0,19"
+// object category "I_OBJ_ArrowOfSoulSeeking",1,0,0,0,0,0,0,0
+
+// new treasuretable "Gold_Pocket_Opulent"
+// CanMerge 1
+// new subtable "1,1;0,7"
+// object category "I_OBJ_ArrowOfSoulSeeking",1,0,0,0,0,0,0,0
+
+// new treasuretable "Gold_Stash_Part"
+// CanMerge 1
+// new subtable "1,1;0,31"
+// object category "I_OBJ_ArrowOfSoulSeeking",1,0,0,0,0,0,0,0
+
+// new treasuretable "ST_Gold_Trader_Part"
+// CanMerge 1
+// new subtable "1,1;0,139"
+// object category "I_OBJ_ArrowOfSoulSeeking",1,0,0,0,0,0,0,0
+
+new treasuretable "TUT_Chest_Potions"
 CanMerge 1
-new subtable "1,1;0,34"
-object category "I_OBJ_ArrowOfSoulSeeking",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_ARM_Mystic_EndlessKnowledge_Circlet",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_ARM_Mystic_PsionicInterference_Cloak",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_ARM_Mystic_AvatarChest_Body",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_ARM_Mystic_AwakenedChest_Body",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_ARM_Mystic_ImmortalChest_Body",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_ARM_Mystic_NomadChest_Body",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_ARM_Mystic_SoulKnifeChest_Body",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_ARM_Mystic_WuJenChest_Body",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_ARM_Mystic_Mastermind_Gloves",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_ARM_Mystic_Wanderlust_Boots",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_ARM_Mystic_PsychicRestoration_Amulet",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_ARM_Mystic_PsychicRenewal_Amulet",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_ARM_Mystic_MentalFortitude_Amulet",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_ARM_Mystic_PotentPsionics_Ring",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_ARM_Mystic_Sadism_Ring",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_ARM_Mystic_MentalExertion_Ring",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_WPN_Mystic_EruditeSpear",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_WPN_Mystic_Thoughtpiercer",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_WPN_Mystic_Longinus",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_WPN_Mystic_WanderersBow",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_WPN_Mystic_Failnaught",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_WPN_Mystic_Gandiva",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_OBJ_Mystic_SoulKnife_Boon_Force",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_OBJ_Mystic_SoulKnife_Boon_Lethality",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_OBJ_Mystic_SoulKnife_Boon_Power",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_OBJ_Mystic_SoulKnife_Boon_Brilliance",1,0,0,0,0,0,0,0

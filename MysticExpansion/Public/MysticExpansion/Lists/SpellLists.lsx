@@ -64,6 +64,26 @@
           <attribute id="Spells" type="LSString" value="Target_Mystic_PhantomKnife" />
           <attribute id="UUID" type="guid" value="da99c3d1-27b9-4c5e-8d5b-d54f9173f7ae" />
         </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Reshape Level 3" />
+          <attribute id="Spells" type="LSString" value="Shout_Mystic_Reshape_Ettercap;Shout_Mystic_Reshape_HookHorror;Shout_Mystic_Reshape_Redcap" />
+          <attribute id="UUID" type="guid" value="c630ce3e-f46b-4b14-bb15-349c6158dd06" />
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Reshape Level 5" />
+          <attribute id="Spells" type="LSString" value="Shout_Mystic_Reshape_Minotaur;Shout_Mystic_Reshape_Hollyphant" />
+          <attribute id="UUID" type="guid" value="afe5412c-28c1-4910-aef4-ef3be2226908" />
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Reshape Level 7" />
+          <attribute id="Spells" type="LSString" value="Shout_Mystic_Reshape_Cloaker;Shout_Mystic_Reshape_Blight" />
+          <attribute id="UUID" type="guid" value="09f358f3-c938-4809-bd16-da50ac1e7e0d" />
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Reshape Level 9" />
+          <attribute id="Spells" type="LSString" value="Shout_Mystic_Reshape_Spectator;Shout_Mystic_Reshape_Orthon" />
+          <attribute id="UUID" type="guid" value="22c3ffac-38eb-4f8e-90c3-ee93257309db" />
+        </node>
       </children>
     </node>
   </region>

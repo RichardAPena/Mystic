@@ -413,3 +413,56 @@ using "Mystic_Spirit_Disciple_6"
 data "Level" "5"
 data "Dexterity" "18"
 data "ProficiencyBonus" "3"
+
+// Reshape
+new entry "Mystic_Reshape_Ettercap"
+type "Character"
+using "Ettercap"
+data "Vitality" "33"
+
+new entry "Mystic_Reshape_HookHorror"
+type "Character"
+using "HookHorror"
+data "Vitality" "39"
+
+new entry "Mystic_Reshape_Redcap"
+type "Character"
+using "RedCap"
+data "Vitality" "28"
+
+new entry "Mystic_Reshape_Minotaur"
+type "Character"
+using "Minotaur"
+data "Vitality" "56"
+
+new entry "Mystic_Reshape_Hollyphant"
+type "Character"
+using "Hollyphant"
+data "Vitality" "42"
+
+new entry "Mystic_Reshape_Cloaker"
+type "Character"
+using "Cloaker"
+data "Vitality" "54"
+
+new entry "Cloaker_Phantasm_Mystic"
+type "Character"
+using "Cloaker_Phantasm"
+data "Vitality" "25"
+
+new entry "Mystic_Reshape_Blight"
+type "Character"
+using "Blight_Needle_Dark"
+data "Strength" "18"
+data "Constitution" "14"
+data "Vitality" "76"
+
+new entry "Mystic_Reshape_Spectator"
+type "Character"
+using "Spectator"
+data "Vitality" "102"
+
+new entry "Mystic_Reshape_Orthon"
+type "Character"
+using "Orthon"
+data "Vitality" "82"

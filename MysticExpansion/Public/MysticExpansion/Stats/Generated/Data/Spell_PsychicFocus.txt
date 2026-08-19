@@ -394,3 +394,16 @@ data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_MASTERY_OF_LIFE_AND_DEATH,1
 data "SpellContainerID" "Shout_Mystic_PsychicFocus_Container"
 data "SpellFlags" "IsSpell"
 data "ContainerSpells" ""
+
+// Mastery of Sound
+new entry "Shout_Mystic_PsychicFocus_MasteryOfSound"
+type "SpellData"
+using "Shout_Mystic_PsychicFocus_Container"
+data "DisplayName" "ha03d93a4g405cg4659gbb26ged1563363c23"
+data "Description" "h1e5ad2fdg7ddag4cf7gbb33g933ac04925c6"
+data "Icon" "PsychicFocus_Mystic_MasteryOfSound"
+data "SpellProperties" "ApplyStatus(PSYCHIC_FOCUS_MASTERY_OF_SOUND,100,-1)"
+data "TooltipStatusApply" "ApplyStatus(PSYCHIC_FOCUS_MASTERY_OF_SOUND,100,-1)"
+data "SpellContainerID" "Shout_Mystic_PsychicFocus_Container"
+data "SpellFlags" "IsSpell"
+data "ContainerSpells" ""

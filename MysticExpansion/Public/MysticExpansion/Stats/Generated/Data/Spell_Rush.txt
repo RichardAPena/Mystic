@@ -1,0 +1,8 @@
+new entry "Rush_Charge_Minotaur_Mystic"
+type "SpellData"
+data "SpellType" "Rush"
+using "Rush_Charge_Minotaur"
+data "Cooldown" ""
+data "SpellSuccess" "DealDamage(2d6+UnarmedMeleeAbilityModifier,Piercing);IF(not SavingThrow(Ability.Strength,SourceSpellDC())):ApplyStatus(PRONE,100,2);AI_IGNORE:Force(2);"
+data "TooltipDamageList" "DealDamage(2d6+4,Piercing)"
+data "CycleConditions" "Enemy() and not Dead()"

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="10" build="200"/>
+    <region id="TutorialEvents">
+        <node id="root">
+            <children>
+                <node id="TutorialEvent">
+                    <attribute id="ActionResource" type="guid" value="9ea5d3a5-b1f5-4f80-a5d5-9f419f8eb456"/>
+                    <attribute id="EventType" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="LongRest_Replenishable_Depleted_PsiPointsResource"/>
+                    <attribute id="UUID" type="guid" value="49cccd5e-917b-4ae3-b96d-0c81e43457c0"/>
+                    <attribute id="UserAction" type="uint8" value="0"/>
+                </node>
+                <node id="TutorialEvent">
+                    <attribute id="ActionResource" type="guid" value="f3c1db34-9602-4782-90b4-5902af426fc5"/>
+                    <attribute id="EventType" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="LongRest_Replenishable_Depleted_PsionicMasteryResource"/>
+                    <attribute id="UUID" type="guid" value="b0393a87-5988-4c39-b172-06689f271ae5"/>
+                    <attribute id="UserAction" type="uint8" value="0"/>
+                </node>                
+            </children>
+        </node>
+    </region>
+</save>

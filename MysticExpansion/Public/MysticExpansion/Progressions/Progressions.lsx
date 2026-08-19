@@ -48,6 +48,12 @@
                                 <node id="SubClass">
                                     <attribute id="Object" type="guid" value="153144d3-fe9f-454d-9b60-4cbc349e0fa4"/> Exorcist
                                 </node>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="b2cea277-763a-468c-adb6-9f94d8fa124d"/> Faceless
+                                </node>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="3e46903f-aa28-4c24-8f6d-13526a547b9d"/> Clairvoyant
+                                </node>
                             </children>
                         </node>
                     </children>
@@ -96,6 +102,12 @@
                                 </node>
                                 <node id="SubClass">
                                     <attribute id="Object" type="guid" value="153144d3-fe9f-454d-9b60-4cbc349e0fa4"/> Exorcist
+                                </node>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="b2cea277-763a-468c-adb6-9f94d8fa124d"/> Faceless
+                                </node>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="3e46903f-aa28-4c24-8f6d-13526a547b9d"/> Clairvoyant
                                 </node>
                             </children>
                         </node>
@@ -292,6 +304,151 @@
                     <attribute id="TableUUID" type="guid" value="e3e130b3-c488-4724-966a-f2b0915c71c9"/>
                     <attribute id="UUID" type="guid" value="c20d3796-4acb-497f-9c1e-d06857d7e45e"/>
                 </node>
+
+                <node id="Progression"> Faceless Level 1
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="OrderFaceless"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_PsionicAllure;Passive_Mystic_PsionicAllure_Effect"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(48317e03-fe2a-4767-8f4d-1bdc2a40ac65,1,PsionicDisciplines)"/>                    
+                    <attribute id="TableUUID" type="guid" value="ad256441-508f-4202-939b-78080a7cbc54"/>
+                    <attribute id="UUID" type="guid" value="af6d5f4c-66e2-4ef3-bb3f-7a26774c634e"/>
+                </node>
+                <node id="Progression"> Faceless Level 3 
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="OrderFaceless"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_Masquerade"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(c630ce3e-f46b-4b14-bb15-349c6158dd06)"/>
+                    <attribute id="TableUUID" type="guid" value="ad256441-508f-4202-939b-78080a7cbc54"/>
+                    <attribute id="UUID" type="guid" value="47574298-231e-4f77-9ff0-17e01a897bd0"/>
+                </node>
+                <node id="Progression"> Faceless Level 5
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="5"/>
+                    <attribute id="Name" type="LSString" value="OrderFaceless"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(afe5412c-28c1-4910-aef4-ef3be2226908)"/>
+                    <attribute id="TableUUID" type="guid" value="ad256441-508f-4202-939b-78080a7cbc54"/>
+                    <attribute id="UUID" type="guid" value="ddb0f3dc-ea66-4f00-8e92-14e1b7b19315"/>
+                </node>
+                <node id="Progression"> Faceless Level 6
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="OrderFaceless"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_MasterOfDeceit;Passive_Mystic_FluidForm"/>
+                    <attribute id="TableUUID" type="guid" value="ad256441-508f-4202-939b-78080a7cbc54"/>
+                    <attribute id="UUID" type="guid" value="7346a411-deb7-46ec-ab28-2f603041ac47"/>
+                </node>
+                <node id="Progression"> Faceless Level 7
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="7"/>
+                    <attribute id="Name" type="LSString" value="OrderFaceless"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(09f358f3-c938-4809-bd16-da50ac1e7e0d)"/>
+                    <attribute id="TableUUID" type="guid" value="ad256441-508f-4202-939b-78080a7cbc54"/>
+                    <attribute id="UUID" type="guid" value="737b3e8c-98a8-45f4-b0b7-537a3a0a513b"/>
+                </node>
+                <node id="Progression"> Faceless Level 9
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="9"/>
+                    <attribute id="Name" type="LSString" value="OrderFaceless"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(22c3ffac-38eb-4f8e-90c3-ee93257309db)"/>
+                    <attribute id="TableUUID" type="guid" value="ad256441-508f-4202-939b-78080a7cbc54"/>
+                    <attribute id="UUID" type="guid" value="a82f5e6b-25ad-45df-8867-d7f63a46b536"/>
+                </node>
+                <node id="Progression"> Faceless Level 14
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="14"/>
+                    <attribute id="Name" type="LSString" value="OrderFaceless"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_IdentityThief"/>
+                    <attribute id="TableUUID" type="guid" value="ad256441-508f-4202-939b-78080a7cbc54"/>
+                    <attribute id="UUID" type="guid" value="3512203e-bd5b-44a7-8e77-8840cea784cf"/>
+                </node>
+
+                <node id="Progression"> Clairvoyant Level 1
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="OrderClairvoyant"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_DeckOfIntertwinedFates;Passive_Mystic_FreeDraw;Passive_Mystic_FreeDraw_Technical"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(48317e03-fe2a-4767-8f4d-1bdc2a40ac65,1,PsionicDisciplines)"/>
+                    <attribute id="TableUUID" type="guid" value="38dc5bc0-deb6-45fe-88f7-60f445eb2291"/>
+                    <attribute id="UUID" type="guid" value="727d1f8e-6ee3-4d0d-8c41-c83b95869ab8"/>
+                </node>
+                <node id="Progression"> Clairvoyant Level 3 
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="OrderClairvoyant"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_IncredibleLuck"/>
+                    <attribute id="TableUUID" type="guid" value="38dc5bc0-deb6-45fe-88f7-60f445eb2291"/>
+                    <attribute id="UUID" type="guid" value="4ef4a28c-0d93-46df-bfc1-72be5c79f8d4"/>
+                </node>
+                <node id="Progression"> Clairvoyant Level 5
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="5"/>
+                    <attribute id="Name" type="LSString" value="OrderClairvoyant"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_FreeDraw_Technical_5"/>
+                    <attribute id="PassivesRemoved" type="LSString" value="Passive_Mystic_FreeDraw_Technical"/>
+                    <attribute id="TableUUID" type="guid" value="38dc5bc0-deb6-45fe-88f7-60f445eb2291"/>
+                    <attribute id="UUID" type="guid" value="559af897-ddba-47de-8c2f-a5c41f50edcc"/>
+                </node>
+                <node id="Progression"> Clairvoyant Level 6
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="OrderClairvoyant"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_SleeveDraw"/>
+                    <attribute id="TableUUID" type="guid" value="38dc5bc0-deb6-45fe-88f7-60f445eb2291"/>
+                    <attribute id="UUID" type="guid" value="a3e1567f-838e-4e38-adbe-721e76be2e72"/>
+                </node>
+                <node id="Progression"> Clairvoyant Level 9
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="9"/>
+                    <attribute id="Name" type="LSString" value="OrderClairvoyant"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_FreeDraw_Technical_9"/>
+                    <attribute id="PassivesRemoved" type="LSString" value="Passive_Mystic_FreeDraw_Technical_5"/>
+                    <attribute id="TableUUID" type="guid" value="38dc5bc0-deb6-45fe-88f7-60f445eb2291"/>
+                    <attribute id="UUID" type="guid" value="59bc8645-e22d-42ae-b657-447ca87122fa"/>
+                </node>
+                <node id="Progression"> Clairvoyant Level 13
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="13"/>
+                    <attribute id="Name" type="LSString" value="OrderClairvoyant"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_FreeDraw_Technical_13"/>
+                    <attribute id="PassivesRemoved" type="LSString" value="Passive_Mystic_FreeDraw_Technical_9"/>
+                    <attribute id="TableUUID" type="guid" value="38dc5bc0-deb6-45fe-88f7-60f445eb2291"/>
+                    <attribute id="UUID" type="guid" value="e7b62e1f-d36b-4eea-bcfd-98e399f511f6"/>
+                </node>
+                <node id="Progression"> Clairvoyant Level 14
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="14"/>
+                    <attribute id="Name" type="LSString" value="OrderClairvoyant"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_SeersGambit"/>
+                    <attribute id="TableUUID" type="guid" value="38dc5bc0-deb6-45fe-88f7-60f445eb2291"/>
+                    <attribute id="UUID" type="guid" value="15299518-db29-4ccd-977f-5313a760a167"/>
+                </node>
+                <node id="Progression"> Clairvoyant Level 17
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="17"/>
+                    <attribute id="Name" type="LSString" value="OrderClairvoyant"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Passive_Mystic_FreeDraw_Technical_17"/>
+                    <attribute id="PassivesRemoved" type="LSString" value="Passive_Mystic_FreeDraw_Technical_13"/>
+                    <attribute id="TableUUID" type="guid" value="38dc5bc0-deb6-45fe-88f7-60f445eb2291"/>
+                    <attribute id="UUID" type="guid" value="173ad09a-04e7-412b-ad3a-7d0d58ae07c9"/>
+                </node>
+
             </children>
         </node>
     </region>

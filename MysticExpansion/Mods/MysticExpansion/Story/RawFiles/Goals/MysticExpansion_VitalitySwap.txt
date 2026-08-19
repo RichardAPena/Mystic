@@ -13,8 +13,8 @@ GetHitpointsPercentage(_Object, _TargetHPPercent)
 AND
 GetHitpointsPercentage(_Causee, _CasterHPPercent)
 THEN
-SetHitpointsPercentage(_Object, _CasterHPPercent);
-SetHitpointsPercentage(_Causee, _TargetHPPercent);
+SetHitpointsPercentage(_Object, _CasterHPPercent, "Guaranteed");
+SetHitpointsPercentage(_Causee, _TargetHPPercent, "Guaranteed");
 EXITSECTION
 
 ENDEXITSECTION

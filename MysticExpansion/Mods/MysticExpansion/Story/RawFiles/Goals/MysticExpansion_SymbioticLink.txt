@@ -208,6 +208,7 @@ DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_ENERGY_DRAIN_4");
 DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_ENERGY_DRAIN_5");
 DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_ENERGY_DRAIN_6");
 DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_ENERGY_DRAIN_7");
+DB_MysticExpansion_SymbioticLink_ApplyWhitelist("MYSTIC_SINGING_WEAPON");
 
 DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_STRATEGIC_MIND");
 DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_AURA_OF_VICTORY");
@@ -331,6 +332,7 @@ DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_ENERGY_DRAIN_4");
 DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_ENERGY_DRAIN_5");
 DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_ENERGY_DRAIN_6");
 DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_ENERGY_DRAIN_7");
+DB_MysticExpansion_SymbioticLink_RemoveWhitelist("MYSTIC_SINGING_WEAPON");
 KBSECTION
 // Symbiotic Link Cast
 IF

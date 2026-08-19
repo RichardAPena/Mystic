@@ -4,6 +4,7 @@
     <region id="Outcomes">
         <node id="root">
             <children>
+                Wild Psionics
                 <node id="Outcome"> Turn Psionics
                     <attribute id="GroupName" type="FixedString" value="WildPsionicsTurn"/>
                     <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_TurnPsionics"/>
@@ -254,6 +255,109 @@
                     <attribute id="Spell" type="FixedString" value="Shout_Mystic_WildPsionics_Grounded"/>
                     <attribute id="UUID" type="guid" value="db3505ed-1417-49c1-aab9-c774e284daa8"/>
                 </node>
+
+                Deck of Intertwined Fates
+                <node id="Outcome"> Archwizard
+                    <attribute id="GroupName" type="FixedString" value="MysticDrawCard"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_DrawCard_TheArchwizard"/>
+                    <attribute id="UUID" type="guid" value="c3f93df7-c443-4607-a16e-0d476b4f3c32"/>
+                </node>
+                <node id="Outcome"> Balance
+                    <attribute id="GroupName" type="FixedString" value="MysticDrawCard"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_DrawCard_TheBalance"/>
+                    <attribute id="UUID" type="guid" value="2dc76381-ab0f-450c-a23a-a232aa757917"/>
+                </node>
+                <node id="Outcome"> Coin
+                    <attribute id="GroupName" type="FixedString" value="MysticDrawCard"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_DrawCard_TheCoin"/>
+                    <attribute id="UUID" type="guid" value="40171656-7fa0-4b47-81ba-0f5f53f84534"/>
+                </node>
+                <node id="Outcome"> Exile
+                    <attribute id="GroupName" type="FixedString" value="MysticDrawCard"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_DrawCard_TheExile"/>
+                    <attribute id="UUID" type="guid" value="0488ea04-aad2-494b-b78b-b70731edeace"/>
+                </node>
+                <node id="Outcome"> Flame
+                    <attribute id="GroupName" type="FixedString" value="MysticDrawCard"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_DrawCard_TheFlame"/>
+                    <attribute id="UUID" type="guid" value="cd6e69dd-7655-414c-8523-25733865b167"/>
+                </node>
+                <node id="Outcome"> Martyr
+                    <attribute id="GroupName" type="FixedString" value="MysticDrawCard"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_DrawCard_TheMartyr"/>
+                    <attribute id="UUID" type="guid" value="550828f5-de50-4c24-8ac0-5b4db1944d0b"/>
+                </node>
+                <node id="Outcome"> Moon
+                    <attribute id="GroupName" type="FixedString" value="MysticDrawCard"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_DrawCard_TheMoon"/>
+                    <attribute id="UUID" type="guid" value="1cede8ac-5bdf-46f6-bea8-7fd5b5249ad5"/>
+                </node>
+                <node id="Outcome"> Oracle
+                    <attribute id="GroupName" type="FixedString" value="MysticDrawCard"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_DrawCard_TheOracle"/>
+                    <attribute id="UUID" type="guid" value="09e7a178-b92d-4632-ae52-07a5edc84ab4"/>
+                </node>
+                <node id="Outcome"> Reaper
+                    <attribute id="GroupName" type="FixedString" value="MysticDrawCard"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_DrawCard_TheReaper"/>
+                    <attribute id="UUID" type="guid" value="b90ad71e-df0a-49eb-b7ce-b47915d655a3"/>
+                </node>
+                <node id="Outcome"> Scroll
+                    <attribute id="GroupName" type="FixedString" value="MysticDrawCard"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_DrawCard_TheScroll"/>
+                    <attribute id="UUID" type="guid" value="e7d49a5e-9fda-42fc-bbde-441f89299de9"/>
+                </node>
+                <node id="Outcome"> Slayer
+                    <attribute id="GroupName" type="FixedString" value="MysticDrawCard"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_DrawCard_TheSlayer"/>
+                    <attribute id="UUID" type="guid" value="55239538-1247-4d22-a3cf-8dad374afec5"/>
+                </node>
+                <node id="Outcome"> Storm
+                    <attribute id="GroupName" type="FixedString" value="MysticDrawCard"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_DrawCard_TheStorm"/>
+                    <attribute id="UUID" type="guid" value="de3cea2c-3503-41b2-8e24-aa6713a9507b"/>
+                </node>
+                <node id="Outcome"> Sun
+                    <attribute id="GroupName" type="FixedString" value="MysticDrawCard"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_DrawCard_TheSun"/>
+                    <attribute id="UUID" type="guid" value="4ea460ef-7874-40c2-93f1-0247f0dbda07"/>
+                </node>
+                <node id="Outcome"> Thief
+                    <attribute id="GroupName" type="FixedString" value="MysticDrawCard"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_DrawCard_TheThief"/>
+                    <attribute id="UUID" type="guid" value="c91f231f-e4a6-47bc-9162-a6049e636d43"/>
+                </node>
+                <node id="Outcome"> Tyrant
+                    <attribute id="GroupName" type="FixedString" value="MysticDrawCard"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_DrawCard_TheTyrant"/>
+                    <attribute id="UUID" type="guid" value="8b66b877-0ee9-4c6d-bd1f-2bcfa8447a2c"/>
+                </node>
+                <node id="Outcome"> Wanderer
+                    <attribute id="GroupName" type="FixedString" value="MysticDrawCard"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_DrawCard_TheWanderer"/>
+                    <attribute id="UUID" type="guid" value="f2a99a90-118c-4aab-b552-74fb7a9b340c"/>
+                </node>
+                <node id="Outcome"> Warden
+                    <attribute id="GroupName" type="FixedString" value="MysticDrawCard"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_DrawCard_TheWarden"/>
+                    <attribute id="UUID" type="guid" value="82f7cd1a-7162-4c3f-a9f3-c41989d2c0d7"/>
+                </node>
+                <node id="Outcome"> Warrior
+                    <attribute id="GroupName" type="FixedString" value="MysticDrawCard"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_DrawCard_TheWarrior"/>
+                    <attribute id="UUID" type="guid" value="7837e4ff-d54a-4899-a862-452db49045d2"/>
+                </node>
+                <node id="Outcome"> Wave
+                    <attribute id="GroupName" type="FixedString" value="MysticDrawCard"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_DrawCard_TheWave"/>
+                    <attribute id="UUID" type="guid" value="6d28fba4-06b5-4a37-965f-10a34156be8b"/>
+                </node>
+                <node id="Outcome"> Witch
+                    <attribute id="GroupName" type="FixedString" value="MysticDrawCard"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_Mystic_DrawCard_TheWitch"/>
+                    <attribute id="UUID" type="guid" value="4dbc3a40-4ef1-477d-9c75-85f331fc3f37"/>
+                </node>
+
             </children>
         </node>
     </region>

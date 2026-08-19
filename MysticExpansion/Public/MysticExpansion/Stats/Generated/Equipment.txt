@@ -65,3 +65,8 @@ new equipment "EQP_Mystic_Spirit_Disciple"
 add initialweaponset "Melee"
 add equipmentgroup
 add equipment entry "ARM_Monk"
+
+new equipment "EQP_Minotaur_Greatclub_Mystic"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Minotaur_Greatclub_Mystic"

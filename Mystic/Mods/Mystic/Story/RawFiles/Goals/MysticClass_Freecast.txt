@@ -1,0 +1,47 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+DB_MysticClass_Freecast_Power("TAD_Freecast");
+DB_MysticClass_Freecast_True(1);
+KBSECTION
+IF
+TadpolePowerAssigned(_Character, _Power)
+AND
+DB_MysticClass_Freecast_Power(_Power)
+THEN
+ApplyStatus(_Character, "MYSTIC_FREECAST_UNLOCK", -1.0, 1, _Character);
+
+IF
+UserCharacterLongRested(_Character, _IsFullRest)
+AND
+HasTadpolePower(_Character, "TAD_Freecast", _HasFreecast)
+AND
+DB_MysticClass_Freecast_True(_HasFreecast)
+THEN
+ApplyStatus(_Character, "MYSTIC_FREECAST_UNLOCK", -1.0, 1, _Character);
+
+/*
+IF
+TextEvent("TADPOLUSACTIVATUS")
+AND
+DB_Avatars(_PPL)
+THEN
+SetTadpoleTreeState(_PPL,2);
+SetTag(_PPL, (TAG)089d4ca5-2cf0-4f54-84d9-1fdea055c93f);
+SetTag(_PPL, (TAG)efedb058-d4f5-4ab8-8add-bd5e32cdd9cd);
+SetTag(_PPL, (TAG)c15c2234-9b19-453e-99cc-00b7358b9fce);
+AddTadpolePower(_PPL, "TAD_IllithidPersuasion", 1);
+SetFlag((FLAG)GLO_Daisy_State_AstralIndividualAccepted_9c5367df-18c8-4450-9156-b818b9b94975, _PPL);
+SetTag(_PPL, (TAG)c0cd4ed8-11d1-4fb1-ae3a-3a14e41267c8);
+ApplyStatus(_PPL, "TAD_PARTIAL_CEREMORPH", -1.0);
+
+IF
+TextEvent("TADPOLO")
+AND
+DB_Avatars(_PPL)
+THEN
+AddTadpole(_PPL, 8);
+*/
+EXITSECTION
+
+ENDEXITSECTION
